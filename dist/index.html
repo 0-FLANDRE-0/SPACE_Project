@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c11">
+  <meta name="description" content="태양계 기반 3D 모항성계 프로토타입. 행성과 위성을 선택하고 궤도를 따라 항성계를 관찰하세요.">
+  <title>SPACE · 모항성계</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-orbit" viewBox="0 0 24 24"><ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(-35 12 12)"/><circle cx="12" cy="12" r="2.5"/><circle cx="19" cy="6" r="1.5" fill="currentColor"/></symbol>
+    <symbol id="i-focus" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/><circle cx="12" cy="12" r="4"/></symbol>
+    <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><path d="m12 3 10 9-10 9L2 12 10-9ZM2 12h20M7 7.5l10 9m0-9-10 9"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="3"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-cross" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </defs></svg>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="SPACE 모항성계 홈"><span class="brand-symbol"><svg><use href="#i-orbit"/></svg></span><span>SPACE<span class="brand-dot">.</span></span></a>
+    <div class="breadcrumb"><span class="crumb-home">관측 지도</span><span class="slash">/</span><span>모항성계</span><span class="prototype">PROTOTYPE 01</span></div>
+    <div class="header-status"><span class="live-dot"></span><span>LOCAL SIMULATION</span><button id="help" class="help-button" title="조작 안내" aria-label="조작 안내">?</button></div>
+  </header>
+  <aside class="sidebar" aria-label="항성계 천체 목록">
+    <div class="system-heading"><div class="eyebrow">HOME SYSTEM</div><h1>태양계 <span>SOL</span></h1><div class="system-meta"><span class="tiny-star">✦</span> G2V 황색 주계열성</div></div>
+    <div class="nav-heading"><span>천체 탐색</span><span id="body-count">8 PLANETS</span></div>
+    <nav id="body-list" aria-label="천체 선택"></nav>
+    <div class="sidebar-bottom"><div class="sidebar-note"><span class="note-dot"></span><span>새로운 세계의 시작</span></div><p>궤도를 따라, 더 먼 곳으로.</p><div class="build-number">SPACE PROJECT <span>v0.1</span></div></div>
+  </aside>
+  <main id="map" aria-label="회전 가능한 3D 태양계 지도">
+    <div id="viewport" tabindex="0" aria-label="3D 지도. 마우스로 회전, 휠로 확대. 천체 선택은 왼쪽 목록에서도 가능합니다."></div>
+    <div id="labels" aria-label="지도 천체 이름"></div>
+    <div class="map-heading"><div class="eyebrow">SOLAR SYSTEM / SECTOR 001</div><h2 id="map-title">모항성계</h2><p id="map-subtitle">우리의 첫 번째 항성계</p></div>
+    <div class="view-controls" aria-label="지도 보기"><button class="view-button active" data-view="perspective" title="입체 시점">3D</button><button class="view-button" data-view="top" title="위에서 보기">상부</button><button class="view-button" data-view="side" title="옆에서 보기">측면</button><span class="divider"></span><button id="reset-view" class="icon-button" title="전체 항성계 보기 (H)" aria-label="전체 항성계 보기"><svg><use href="#i-reset"/></svg></button></div>
+    <div class="map-tools"><button id="toggle-labels" class="tool-button active" aria-pressed="true" title="천체 이름 표시">Aa</button><button id="toggle-orbits" class="tool-button active" aria-pressed="true" title="궤도 표시"><svg><use href="#i-orbit"/></svg></button><button id="toggle-plane" class="tool-button" aria-pressed="false" title="황도 기준면 표시"><svg><use href="#i-grid"/></svg></button><span></span><button id="zoom-in" class="tool-button" title="확대" aria-label="확대">+</button><button id="zoom-out" class="tool-button" title="축소" aria-label="축소">−</button></div>
+    <section id="details" class="details" aria-live="polite"></section>
+    <div class="map-caption"><span class="caption-line"></span><span>궤도와 거리는 관찰을 위해 축척을 조정했습니다.</span></div>
+    <div class="timeline">
+      <button id="pause" class="pause-button" aria-label="일시정지" aria-pressed="false"><svg><use href="#i-pause"/></svg></button>
+      <div class="time-display"><span class="eyebrow">SYSTEM TIME</span><time id="sim-date">2200.01.01</time></div>
+      <span class="timeline-divider"></span>
+      <div class="speed-controls" aria-label="공전 속도"><button class="speed active" data-speed="1" aria-pressed="true">1×</button><button class="speed" data-speed="10" aria-pressed="false">10×</button><button class="speed" data-speed="50" aria-pressed="false">50×</button></div>
+      <div class="time-indicator"><span class="live-dot"></span><span id="time-state">시간 흐르는 중</span></div>
+    </div>
+    <footer class="map-footer"><div class="legend"><span class="legend-dot"></span>행성<span class="legend-dot asteroid"></span>소천체<span class="legend-orbit"></span>공전 궤도</div><div class="camera-readout"><span id="camera-angle">고도 +38°</span><span class="footer-divider">/</span><span>3D NAVIGATION</span></div></footer>
+    <div id="loading" class="loading"><div class="loader-orbit"></div><p>모항성계 관측 준비 중</p></div>
+    <div id="toast" class="toast" role="status"></div>
+  </main>
+  <dialog id="help-dialog"><button id="close-help" class="dialog-close" aria-label="안내 닫기"><svg><use href="#i-cross"/></svg></button><div class="eyebrow">FLIGHT MANUAL / 01</div><h2>항성계를 둘러보세요.</h2><p>드래그로 시점을 바꾸고, 천체를 선택해 궤도를 관찰하세요.</p><dl><dt>좌클릭 드래그 / 한 손가락</dt><dd>카메라 회전</dd><dt>우클릭 드래그 / 두 손가락</dt><dd>화면 이동</dd><dt>마우스 휠 / 두 손가락 확대</dt><dd>확대 · 축소</dd><dt>천체 클릭</dt><dd>정보와 공전 궤도 표시</dd><dt>천체 더블클릭 / F</dt><dd>선택한 천체로 접근</dd><dt>Space</dt><dd>시간 일시정지 · 재개</dd><dt>H / Esc</dt><dd>전체 보기 / 선택 해제</dd></dl><div class="help-note">거리·천체 크기·위성 간격은 각각 압축한 시각화입니다. 날짜는 프로토타입의 경과 시간이며 실제 천체력과 일치하지 않습니다. 이동·건설 시스템은 다음 단계에서 추가됩니다.</div></dialog>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
