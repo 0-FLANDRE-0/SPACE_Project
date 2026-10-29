@@ -23,10 +23,17 @@ try {
   await page.locator('.body-row[data-select="earth"]').click();
   assert.equal(await page.evaluate(()=>spacePrototype.simulation.selectedId),'earth');
   assert.ok(await page.evaluate(()=>spacePrototype.viewer.orbits.get('earth').material.opacity>spacePrototype.viewer.orbits.get('mars').material.opacity*8));
+  await page.locator('[data-focus-orbit="earth"]').click();
+  await page.waitForFunction(()=>!spacePrototype.viewer.transition);
+  assert.ok(await page.locator('.body-label[data-body-id="moon"]').isVisible());
+  await page.screenshot({path:'artifacts/earth-orbit.png'});
   await page.locator('[data-focus="earth"]').click();
   await page.waitForFunction(()=>!spacePrototype.viewer.transition);
+  await page.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='km');
+  assert.equal(await page.evaluate(()=>spacePrototype.viewer.surfaces.earth.image.naturalWidth),2048);
+  assert.ok(await page.evaluate(()=>Math.abs(spacePrototype.viewer.bodies.get('earth').displayRadius/spacePrototype.viewer.bodies.get('earth').body.radius-1)<.001));
+  assert.ok(await page.evaluate(()=>spacePrototype.viewer.bodies.get('earth').axis.visible));
   await page.screenshot({path:'artifacts/earth-focused.png'});
-  assert.ok(await page.locator('.body-label[data-body-id="moon"]').isVisible());
 
   await page.locator('#pause').click();
   const paused=await page.evaluate(()=>({days:spacePrototype.simulation.days,earth:spacePrototype.viewer.bodies.get('earth').root.position.toArray()}));
@@ -69,22 +76,36 @@ try {
   await page.locator('[data-view="side"]').click();await page.waitForFunction(()=>!spacePrototype.viewer.transition);
   assert.ok(await page.evaluate(()=>{const v=spacePrototype.viewer,d=v.camera.position.clone().sub(v.controls.target);return Math.abs(d.y/d.length())<.05;}));
   await page.locator('#reset-view').click();await page.waitForFunction(()=>!spacePrototype.viewer.transition);
+  await page.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='AU');
+  await page.locator('#inner-system').click();await page.waitForFunction(()=>!spacePrototype.viewer.transition);
+  assert.ok(await page.evaluate(()=>spacePrototype.viewer.camera.position.distanceTo(spacePrototype.viewer.controls.target)<7));
   assert.equal(await page.evaluate(()=>spacePrototype.simulation.selectedId),null);
   await page.locator('#help').click();assert.ok(await page.locator('#help-dialog').isVisible());
   await page.locator('#close-help').click();
 
   // A real touch-sized viewport still exposes all controls without horizontal overflow.
-  const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:1});
+  const mobile=await browser.newPage({viewport:{width:844,height:390},isMobile:true,hasTouch:true,deviceScaleFactor:1});
   mobile.on('pageerror',e=>errors.push(String(e)));
   await mobile.goto(baseURL,{waitUntil:'networkidle'});await mobile.waitForFunction(()=>window.spacePrototype?.viewer);
   assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await mobile.locator('.body-row[data-select="saturn"]').tap();assert.equal(await mobile.evaluate(()=>spacePrototype.simulation.selectedId),'saturn');
   await mobile.locator('[data-focus="saturn"]').tap();await mobile.waitForFunction(()=>!spacePrototype.viewer.transition);
+  await mobile.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='km');
   assert.equal(await mobile.locator('.detail-stats').isVisible(),false);
   await mobile.locator('[data-expand]').tap();assert.equal(await mobile.locator('.detail-stats').isVisible(),true);
   await mobile.locator('[data-expand]').tap();assert.equal(await mobile.locator('.detail-stats').isVisible(),false);
-  await mobile.screenshot({path:'artifacts/mobile-saturn.png'});
+  await mobile.screenshot({path:'artifacts/mobile-landscape-saturn.png'});
+  const axisCorrect=await mobile.evaluate(()=>{const e=spacePrototype.viewer.bodies.get('saturn'),normal=e.root.position.clone().set(0,1,0).transformDirection(e.mesh.matrixWorld),pole=e.root.position.clone().set(0,1,0).applyQuaternion(e.axisFrame.quaternion);return normal.dot(pole)>.99999;});assert.ok(axisCorrect);
+  await mobile.locator('.body-row[data-select="earth"]').tap();await mobile.locator('[data-focus="earth"]').tap();await mobile.waitForFunction(()=>!spacePrototype.viewer.transition);
+  await mobile.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='km');
+  await mobile.screenshot({path:'artifacts/mobile-landscape-earth.png'});
   await mobile.close();
+  const small=await browser.newPage({viewport:{width:667,height:375},isMobile:true,hasTouch:true,deviceScaleFactor:1});
+  await small.goto(baseURL,{waitUntil:'networkidle'});await small.waitForFunction(()=>window.spacePrototype?.viewer);
+  assert.ok(await small.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await small.locator('.body-row[data-select="earth"]').tap();await small.locator('[data-focus="earth"]').tap();await small.waitForFunction(()=>!spacePrototype.viewer.transition);
+  await small.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='km');
+  await small.screenshot({path:'artifacts/mobile-small-landscape.png'});await small.close();
   assert.deepEqual(errors,[]);
-  console.log('PASS: initial render, 20 bodies, 2 belts, selected orbit, moving moon, pause/resume/speed, camera rotation/zoom + canvas picking, satellite selection, belt emphasis, overlays, side/home view, help and mobile touch layout. No browser errors.');
+  console.log('PASS: initial render, 20 bodies, 2 belts, selected orbit, moving moon, pause/resume/speed, camera rotation/zoom + canvas picking, satellite selection, belt emphasis, overlays, side/home view, help and mobile touch layout. AU/km scale transition, real Earth texture, true close-up radius, IAU local-axis alignment and 844×390 / 667×375 landscape touch layouts. No browser errors.');
 } finally { await browser.close(); }

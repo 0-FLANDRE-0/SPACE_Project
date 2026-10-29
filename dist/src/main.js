@@ -1,6 +1,7 @@
 import { SUN, PLANETS, MOONS, BELTS, BODY_BY_ID, EPOCH } from './data.js';
-import { Simulation } from './model.js';
+import { Simulation, axialTilt } from './model.js';
 import { SystemViewer } from './scene.js';
+import { loadSurfaceMaps } from './textures.js';
 
 const $=selector=>document.querySelector(selector);
 const simulation=new Simulation();
@@ -29,8 +30,8 @@ function showDetails(id) {
   let stats;
   if(id==='sun')stats=stat('표면 온도','5,772','K')+stat('항성 분류','G2V')+stat('반지름','696,340','km')+stat('행성','8');
   else if(isBelt)stats=stat('태양과의 거리',body.au,'AU')+stat('표시 입자 수',body.count.toLocaleString(),'개');
-  else stats=stat('공전 주기',Math.abs(body.period).toLocaleString('en-US',{maximumFractionDigits:1}),'일')+stat('궤도 경사',body.inclination.toFixed(2),'°')+stat('반지름',body.realRadius.toLocaleString(),'km')+(body.parent?stat('모행성',byId(body.parent).name):stat('태양과의 거리',body.au.toFixed(2),'AU'));
-  panel.innerHTML=`<div class="detail-top"><span class="eyebrow">${body.parent?'SATELLITE':isBelt?'SMALL BODIES':'CELESTIAL BODY'}</span><div class="detail-heading-actions"><button class="detail-expand" data-expand aria-expanded="false" title="상세 정보 펼치기">자세히</button><button class="detail-close" data-clear title="선택 해제" aria-label="선택 해제"><svg><use href="#i-cross"/></svg></button></div></div><div class="detail-title"><h3>${body.name}</h3><span class="english">${body.english}</span></div><div class="detail-type"><span class="tiny" style="background:${body.color}"></span>${body.type}</div><p class="detail-description">${body.description}</p><dl class="detail-stats">${stats}</dl><button class="detail-action" data-focus="${id}"><svg><use href="#i-focus"/></svg>${isBelt?'영역 중심으로 보기':body.parent?'위성 궤도 가까이 보기':'천체 가까이 보기'}<span style="margin-left:auto;color:#5e7184;font-size:9px">F</span></button><div class="detail-bottom"><span>${moons.length?`${moons.length} SATELLITES`:'SOL / HOME SYSTEM'}</span><span class="state"><span class="live-dot"></span>${isBelt?'영역 선택됨':'궤도 선택됨'}</span></div>`;
+  else stats=stat('공전 주기',Math.abs(body.period).toLocaleString('en-US',{maximumFractionDigits:1}),'일')+stat('궤도 경사',Math.abs(body.inclination).toFixed(2),'°')+stat('자전축 기울기',axialTilt(body).toFixed(2),'°')+stat('자전 주기',Math.abs(body.spinHours).toFixed(2),'시간')+stat('반지름',body.realRadius.toLocaleString(),'km')+(body.parent?stat('모행성',byId(body.parent).name):stat('궤도 장반경',body.au.toFixed(3),'AU'));
+  panel.innerHTML=`<div class="detail-top"><span class="eyebrow">${body.parent?'SATELLITE':isBelt?'SMALL BODIES':'CELESTIAL BODY'}</span><div class="detail-heading-actions"><button class="detail-expand" data-expand aria-expanded="false" title="상세 정보 펼치기">자세히</button><button class="detail-close" data-clear title="선택 해제" aria-label="선택 해제"><svg><use href="#i-cross"/></svg></button></div></div><div class="detail-title"><h3>${body.name}</h3><span class="english">${body.english}</span></div><div class="detail-type"><span class="tiny" style="background:${body.color}"></span>${body.type}</div><p class="detail-description">${body.description}</p><dl class="detail-stats">${stats}</dl><button class="detail-action" data-focus="${id}"><svg><use href="#i-focus"/></svg>${isBelt?'영역 중심으로 보기':body.parent?'위성 표면 보기':'천체 표면 보기'}<span style="margin-left:auto;color:#5e7184;font-size:9px">F</span></button>${!isBelt&&id!=='sun'?`<button class="detail-action orbit-action" data-focus-orbit="${id}"><svg><use href="#i-orbit"/></svg>주변 궤도 보기</button>`:''}<div class="detail-bottom"><span>${moons.length?`${moons.length} SATELLITES`:'SOL / HOME SYSTEM'}</span><span class="state"><span class="live-dot"></span>${isBelt?'영역 선택됨':'궤도 선택됨'}</span></div>`;
 }
 
 function select(id) {
@@ -44,7 +45,7 @@ function select(id) {
   showDetails(id);
 }
 function focus(id) {if(!viewer)return;if(simulation.selectedId!==id)select(id);viewer.lastFollowTarget=null;viewer.focus(id);toast(`${byId(id).name} 주변으로 카메라 이동`);}
-$('#details').addEventListener('click',event=>{const expand=event.target.closest('[data-expand]');if(expand){const expanded=$('#details').classList.toggle('expanded');expand.setAttribute('aria-expanded',String(expanded));expand.textContent=expanded?'접기':'자세히';}if(event.target.closest('[data-clear]'))select(null);const button=event.target.closest('[data-focus]');if(button)focus(button.dataset.focus);});
+$('#details').addEventListener('click',event=>{const expand=event.target.closest('[data-expand]');if(expand){const expanded=$('#details').classList.toggle('expanded');expand.setAttribute('aria-expanded',String(expanded));expand.textContent=expanded?'접기':'자세히';}if(event.target.closest('[data-clear]'))select(null);const orbitButton=event.target.closest('[data-focus-orbit]');if(orbitButton){viewer.lastFollowTarget=null;viewer.focus(orbitButton.dataset.focusOrbit,'orbit');toast('주변 궤도로 시점 이동');}const button=event.target.closest('[data-focus]');if(button)focus(button.dataset.focus);});
 function togglePause() {
   simulation.paused=!simulation.paused;
   $('#pause').innerHTML=`<svg><use href="#i-${simulation.paused?'play':'pause'}"/></svg>`;
@@ -56,13 +57,15 @@ function togglePause() {
 $('#pause').addEventListener('click',togglePause);
 document.querySelectorAll('[data-speed]').forEach(button=>button.addEventListener('click',()=>{simulation.speed=Number(button.dataset.speed);document.querySelectorAll('[data-speed]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});}));
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{viewer?.setView(button.dataset.view);document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b===button));}));
-$('#reset-view').addEventListener('click',home);
+$('#reset-view').addEventListener('click',()=>home());
+$('#inner-system').addEventListener('click',()=>{select(null);viewer?.home(true);toast('내행성 영역 · 실제 AU 거리');});
 function home() {select(null);viewer?.home();document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view==='perspective'));}
 $('#zoom-in').addEventListener('click',()=>viewer?.zoom(.78));$('#zoom-out').addEventListener('click',()=>viewer?.zoom(1.28));
 function toggleButton(id,callback) {$(id).addEventListener('click',()=>{const button=$(id);const active=button.getAttribute('aria-pressed')!=='true';button.setAttribute('aria-pressed',String(active));button.classList.toggle('active',active);callback(active);});}
 toggleButton('#toggle-labels',value=>{if(viewer)viewer.showLabels=value;});
 toggleButton('#toggle-orbits',value=>{if(viewer)viewer.showOrbits=value;});
 toggleButton('#toggle-plane',value=>{if(viewer)viewer.referencePlane.visible=value;});
+toggleButton('#toggle-axes',value=>{if(viewer)viewer.showAxes=value;});
 $('#help').addEventListener('click',()=>$('#help-dialog').showModal());
 $('#close-help').addEventListener('click',()=>$('#help-dialog').close());
 $('#help-dialog').addEventListener('click',e=>{if(e.target===$('#help-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
@@ -75,7 +78,8 @@ document.addEventListener('keydown',event=>{
 });
 showDetails(null);
 try {
-  viewer=new SystemViewer($('#viewport'),$('#labels'),select,focus);
+  const surfaces=await loadSurfaceMaps();
+  viewer=new SystemViewer($('#viewport'),$('#labels'),select,focus,surfaces);
   // Kept explicit for prototype inspection and meaningful browser regression checks.
   window.spacePrototype={simulation,viewer,select,focus,home};
   viewer.update(0,0);
@@ -86,7 +90,12 @@ try {
     const seconds=Math.min((now-last)/1000,.1);last=now;
     if(!document.hidden)simulation.advance(seconds);
     viewer.update(simulation.days,seconds);uiElapsed+=seconds;
-    if(uiElapsed>.2) {
+    if(uiElapsed>.15) {
+      const scale=viewer.scale;
+      $('#scale-label').textContent=scale.value.toLocaleString('ko-KR',{maximumFractionDigits:3})+' '+scale.unit;
+      $('#scale-bar').style.width=scale.pixels+'px';
+      $('#scale-mode').textContent=scale.unit==='AU'?'항성계 거리':'근접 거리';
+      $('#scale').dataset.unit=scale.unit;
       uiElapsed=0;
       const date=new Date(epoch+simulation.days*86400000);
       $('#sim-date').textContent=`${date.getUTCFullYear()}.${String(date.getUTCMonth()+1).padStart(2,'0')}.${String(date.getUTCDate()).padStart(2,'0')}`;
@@ -100,6 +109,6 @@ try {
   requestAnimationFrame(frame);
 } catch(error) {
   console.error(error);
-  $('#loading').innerHTML='<p>3D 지도를 시작할 수 없습니다.<br>WebGL을 지원하는 브라우저에서 하드웨어 가속을 켠 뒤 다시 열어주세요.</p>';
+  $('#loading').innerHTML='<p>3D 지도를 시작할 수 없습니다.<br>페이지를 새로고침하고 WebGL과 하드웨어 가속 설정을 확인해주세요.</p>';
   toast('3D 렌더러 초기화 실패');
 }

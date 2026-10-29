@@ -1,39 +1,39 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { SUN, PLANETS, MOONS, BELTS, BODY_BY_ID } from './data.js';
-import { orbitalPoint, worldPosition, orbitEmphasis } from './model.js';
-import { planetTexture, glowTexture, ringTexture, random } from './textures.js';
+import { orbitalPoint, worldPosition, orbitEmphasis, bodyFrame, scaleForView } from './model.js';
+import { glowTexture, random } from './textures.js';
 
 const V = (p) => new THREE.Vector3(p.x, p.y, p.z);
-const ORIGIN = new THREE.Vector3();
+
 
 export class SystemViewer {
-  constructor(container, labels, onSelect, onFocus) {
-    this.container = container; this.labelsElement = labels;
+  constructor(container, labels, onSelect, onFocus, surfaces) {
+    this.container = container; this.labelsElement = labels; this.surfaces=surfaces;
     this.onSelect = onSelect; this.onFocus = onFocus;
     this.bodies = new Map(); this.orbits = new Map(); this.belts = new Map(); this.labels = new Map();
     this.pickables = []; this.selectedId = null; this.followId = null;
-    this.showLabels = true; this.showOrbits = true; this.simDays = 0;
+    this.showAxes=true; this.showLabels = true; this.showOrbits = true; this.simDays = 0;
     this.scene = new THREE.Scene(); this.scene.background = new THREE.Color('#060a10');
-    this.renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
+    this.renderer = new THREE.WebGLRenderer({ antialias: true, logarithmicDepthBuffer:true, powerPreference: 'high-performance' });
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.renderer.toneMappingExposure = 1.1;
     this.renderer.domElement.setAttribute('aria-hidden', 'true');
     container.appendChild(this.renderer.domElement);
-    this.camera = new THREE.PerspectiveCamera(43, 1, .02, 3000);
+    this.camera = new THREE.PerspectiveCamera(43, 1, 1e-8, 3000);
     this.camera.position.set(115, 135, 170);
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableDamping = true; this.controls.dampingFactor = .07;
-    this.controls.minDistance = .9; this.controls.maxDistance = 440;
+    this.controls.minDistance = 1e-7; this.controls.maxDistance = 440;
     this.controls.maxPolarAngle = Math.PI - .04; this.controls.minPolarAngle = .04;
     this.controls.zoomSpeed = .85; this.controls.rotateSpeed = .55;
     this.controls.addEventListener('start', () => { this.transition = null; });
-    this.scene.add(new THREE.AmbientLight('#b4c7ed', .9));
+    this.scene.add(new THREE.AmbientLight('#c2d4ed', 1.3));
     const sunLight = new THREE.PointLight('#fff1d7', 3.0, 0, 0);
     this.scene.add(sunLight);
-    this.createStars(); this.createSun();
+    this.createStars(); this.createBody(SUN,0);
     PLANETS.forEach((body, i) => this.createBody(body, i + 11));
     MOONS.forEach((body, i) => this.createBody(body, i + 31));
     BELTS.forEach((belt, i) => this.createBelt(belt, 88 + i));
@@ -62,12 +62,12 @@ export class SystemViewer {
     const {width,height}=this.container.getBoundingClientRect();
     this.width=width; this.height=height;
     this.camera.aspect=width/height; this.camera.updateProjectionMatrix();
-    this.controls.maxDistance=Math.max(440,260*Math.max(1,.95/this.camera.aspect)*1.7);
+    this.controls.maxDistance=Math.max(260,150*Math.max(1,.95/this.camera.aspect)*1.7);
     this.renderer.setSize(width,height);
   }
 
   homePosition() {
-    return new THREE.Vector3(115,135,170).multiplyScalar(Math.max(1,.95/this.camera.aspect));
+    return new THREE.Vector3(46,54,68).multiplyScalar(Math.max(1,.95/this.camera.aspect));
   }
 
   createStars() {
@@ -90,42 +90,42 @@ export class SystemViewer {
     this.scene.add(new THREE.Points(brightGeometry,new THREE.PointsMaterial({color:'#b6c4d8',size:1.8,sizeAttenuation:false,transparent:true,opacity:.7,depthWrite:false})));
   }
 
-  createSun() {
-    const material=new THREE.ShaderMaterial({
-      uniforms:{time:{value:0}},
-      vertexShader:`varying vec3 vPos; varying vec3 vNormal; varying vec3 vEye; void main(){vPos=position;vec4 mv=modelViewMatrix*vec4(position,1.0);vNormal=normalize(normalMatrix*normal);vEye=normalize(-mv.xyz);gl_Position=projectionMatrix*mv;}`,
-      fragmentShader:`uniform float time;varying vec3 vPos;varying vec3 vNormal;varying vec3 vEye;float hash(vec3 p){return fract(sin(dot(p,vec3(127.1,311.7,74.7)))*43758.5453);}void main(){vec3 p=vPos*17.0;float grain=hash(floor(p+time*.2));float waves=sin(p.x*.6+sin(p.y*.7)+time*.1)*sin(p.z*.5+sin(p.y));float edge=pow(max(dot(normalize(vNormal),normalize(vEye)),0.0),.38);vec3 c=mix(vec3(1.0,.31,.035),vec3(1.0,.77,.31),edge);c*=.88+grain*.15+waves*.08;gl_FragColor=vec4(c,1.0);}`,
-      toneMapped:false,
-    });
-    this.sun=new THREE.Mesh(new THREE.SphereGeometry(SUN.radius,64,40),material);
-    this.sun.userData.bodyId='sun'; this.pickables.push(this.sun); this.scene.add(this.sun);
-    this.bodies.set('sun',{mesh:this.sun,root:this.sun,body:SUN});
-    const glow=new THREE.Sprite(new THREE.SpriteMaterial({map:glowTexture(),color:'#ffc16d',transparent:true,blending:THREE.AdditiveBlending,depthWrite:false,toneMapped:false}));
-    glow.scale.set(38,38,1); this.scene.add(glow);
-    this.makeLabel(SUN);
-  }
-
-  createBody(body,seed) {
-    const root=new THREE.Group(); const material=new THREE.MeshStandardMaterial({map:planetTexture(body,seed),roughness:1,metalness:0});
-    const mesh=new THREE.Mesh(new THREE.SphereGeometry(body.radius,48,32),material);
-    mesh.rotation.z = body.id === 'uranus' ? 1.70 : body.id==='earth' ? .41 : body.id==='saturn' ? .47 : .05;
-    mesh.userData.bodyId=body.id; this.pickables.push(mesh); root.add(mesh); this.scene.add(root);
+  createBody(body) {
+    const root=new THREE.Group(),visual=new THREE.Group(),axisFrame=new THREE.Group(),spin=new THREE.Group();
+    root.add(visual);visual.add(axisFrame);axisFrame.add(spin);this.scene.add(root);
+    const map=this.surfaces[body.id]??this.surfaces.moon;
+    const material=body.id==='sun'
+      ?new THREE.MeshBasicMaterial({map,color:'#ffe3a9',toneMapped:false})
+      :new THREE.MeshStandardMaterial({map,roughness:.95,metalness:0,color:body.id==='earth'?'#e9f1ff':body.parent&&body.id!=='moon'?body.color:'#ffffff'});
+    const mesh=new THREE.Mesh(new THREE.SphereGeometry(1,64,40),material);
+    mesh.userData.bodyId=body.id;this.pickables.push(mesh);spin.add(mesh);
+    const axis=new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(0,-1.65,0),new THREE.Vector3(0,1.65,0)]),new THREE.LineDashedMaterial({color:'#8dbedb',transparent:true,opacity:.8,dashSize:.13,gapSize:.08,depthTest:false}));
+    axis.computeLineDistances();axis.renderOrder=6;axisFrame.add(axis);axis.visible=false;
     if(body.id==='saturn') {
-      const geometry=new THREE.RingGeometry(body.radius*1.35,body.radius*2.25,128);
-      const position=geometry.attributes.position, uv=geometry.attributes.uv;
-      for(let i=0;i<position.count;i++) { const r=Math.hypot(position.getX(i),position.getY(i));uv.setXY(i,(r-body.radius*1.35)/(body.radius*.9),.5); }
-      const rings=new THREE.Mesh(geometry,new THREE.MeshBasicMaterial({map:ringTexture(),side:THREE.DoubleSide,transparent:true,opacity:.85,depthWrite:false}));
-      rings.rotation.x=Math.PI/2; const tilt=new THREE.Group(); tilt.rotation.z=.47; tilt.add(rings);root.add(tilt);
+      const geometry=new THREE.RingGeometry(1.24,2.32,128);
+      const pos=geometry.attributes.position,uv=geometry.attributes.uv;
+      for(let i=0;i<pos.count;i++)uv.setXY(i,(Math.hypot(pos.getX(i),pos.getY(i))-1.24)/1.08,.5);
+      const rings=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({map:this.surfaces.rings,side:THREE.DoubleSide,transparent:true,roughness:1,opacity:.9,depthWrite:false}));
+      rings.rotation.x=-Math.PI/2;axisFrame.add(rings);
     }
-    if(body.id==='earth'||body.id==='neptune') {
-      const atmosphere=new THREE.Mesh(new THREE.SphereGeometry(body.radius*1.04,40,24),new THREE.ShaderMaterial({
-        uniforms:{color:{value:new THREE.Color(body.id==='earth'?'#5b9fe6':'#5589f4')}},
+    if(body.id==='earth') {
+      const clouds=new THREE.Mesh(new THREE.SphereGeometry(1.012,48,32),new THREE.MeshStandardMaterial({color:'#ffffff',alphaMap:this.surfaces.clouds,transparent:true,opacity:.6,depthWrite:false,roughness:1}));
+      spin.add(clouds);
+    }
+    if(['earth','neptune','uranus'].includes(body.id)) {
+      const atmosphere=new THREE.Mesh(new THREE.SphereGeometry(1.035,40,24),new THREE.ShaderMaterial({
+        uniforms:{color:{value:new THREE.Color(body.id==='earth'?'#64acdf':'#679acb')}},
         vertexShader:`varying vec3 n;varying vec3 eye;void main(){vec4 mv=modelViewMatrix*vec4(position,1.0);n=normalize(normalMatrix*normal);eye=normalize(-mv.xyz);gl_Position=projectionMatrix*mv;}`,
-        fragmentShader:`uniform vec3 color;varying vec3 n;varying vec3 eye;void main(){float f=pow(1.0-abs(dot(normalize(n),normalize(eye))),3.0);gl_FragColor=vec4(color,f*.4);}`,
-        transparent:true,depthWrite:false,side:THREE.FrontSide,blending:THREE.AdditiveBlending,
-      }));root.add(atmosphere);
+        fragmentShader:`uniform vec3 color;varying vec3 n;varying vec3 eye;void main(){float f=pow(1.0-abs(dot(normalize(n),normalize(eye))),3.0);gl_FragColor=vec4(color,f*.32);}`,
+        transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+      }));visual.add(atmosphere);
     }
-    const orbit=this.createOrbit(body); this.bodies.set(body.id,{mesh,root,body}); this.orbits.set(body.id,orbit);
+    if(body.id==='sun') {
+      this.sun=mesh;
+      const glow=new THREE.Sprite(new THREE.SpriteMaterial({map:glowTexture(),color:'#ffc16d',transparent:true,blending:THREE.AdditiveBlending,depthWrite:false,toneMapped:false}));
+      glow.scale.set(10,10,1);visual.add(glow);
+    } else this.orbits.set(body.id,this.createOrbit(body));
+    this.bodies.set(body.id,{root,visual,axisFrame,spin,mesh,body,axis,displayRadius:body.radius});
     this.makeLabel(body);
   }
 
@@ -142,10 +142,10 @@ export class SystemViewer {
     const matrix=new THREE.Object3D();
     for(let i=0;i<body.count;i++) {
       const angle=rng()*Math.PI*2,r=body.inner+(body.outer-body.inner)*rng();
-      const thickness=body.id==='kuiper-belt'?3.2:1.4;
+      const thickness=body.id==='kuiper-belt'?9:.45;
       matrix.position.set(Math.cos(angle)*r,(rng()-.5)*thickness,Math.sin(angle)*r);
       matrix.rotation.set(rng()*3,rng()*3,rng()*3);
-      const s=(body.id==='kuiper-belt'?.045:.055)+rng()*.10;
+      const s=(body.id==='kuiper-belt'?.012:.0015)+rng()*(body.id==='kuiper-belt'?.025:.003);
       matrix.scale.set(s,s*(.6+rng()),s);matrix.updateMatrix();mesh.setMatrixAt(i,matrix.matrix);
     }
     mesh.instanceMatrix.needsUpdate=true;mesh.userData.bodyId=body.id;this.pickables.push(mesh);group.add(mesh);this.scene.add(group);
@@ -159,7 +159,7 @@ export class SystemViewer {
   }
 
   createReferencePlane() {
-    this.referencePlane=new THREE.GridHelper(260,26,'#486175','#27374a');
+    this.referencePlane=new THREE.GridHelper(110,22,'#486175','#27374a');
     this.referencePlane.material.transparent=true;this.referencePlane.material.opacity=.15;this.referencePlane.material.depthWrite=false;
     this.referencePlane.visible=false;this.scene.add(this.referencePlane);
   }
@@ -196,25 +196,31 @@ export class SystemViewer {
     this.marker.visible=!!id&&this.bodies.has(id);
   }
 
-  focus(id) {
-    const body=BODY_BY_ID.get(id);if(!body)return;
-    const radius=body.radius ?? body.outer;
-    const distance=body.parent?Math.max(body.orbit*3.6,5):body.orbit?Math.max(radius*14,MOONS.filter(m=>m.parent===id).reduce((r,m)=>Math.max(r,m.orbit*3.3),0),12):radius*3.3;
-    const target=body.parent?V(worldPosition(body.parent,this.simDays)):V(worldPosition(id,this.simDays));
-    this.followId=body.parent?body.parent:body.orbit?id:null;
-    const direction=this.camera.position.clone().sub(this.controls.target).normalize();
-    this.transition={target,position:target.clone().addScaledVector(direction,distance),remaining:1};
+  beginTransition(target,distance,direction) {
+    this.transition={target:target.clone(),startTarget:this.controls.target.clone(),startDistance:this.camera.position.distanceTo(this.controls.target),endDistance:distance,startDirection:this.camera.position.clone().sub(this.controls.target).normalize(),direction:direction.clone().normalize(),elapsed:0};
   }
 
-  home() {
-    this.followId=null;
-    this.transition={target:new THREE.Vector3(),position:this.homePosition(),remaining:1};
+  focus(id,mode='surface') {
+    const body=BODY_BY_ID.get(id);if(!body)return;
+    let followBody=body;
+    if(mode==='orbit'&&body.parent)followBody=BODY_BY_ID.get(body.parent);
+    const target=V(worldPosition(followBody.id,this.simDays));
+    const extent=MOONS.filter(m=>m.parent===followBody.id).reduce((r,m)=>Math.max(r,m.orbit),followBody.radius??0);
+    const distance=body.outer?body.outer*2.9:mode==='orbit'?Math.max(extent*3.5,followBody.radius*9):body.radius*7.5;
+    this.followId=followBody.orbit?followBody.id:null;this.lastFollowTarget=null;
+    this.controls.minDistance=(followBody.radius??.001)*1.2;
+    this.beginTransition(target,distance,this.camera.position.clone().sub(this.controls.target));
+  }
+
+  home(inner=false) {
+    this.followId=null;this.lastFollowTarget=null;this.controls.minDistance=1e-7;
+    const position=inner?new THREE.Vector3(2.8,3.3,4.2):this.homePosition();
+    this.beginTransition(new THREE.Vector3(),position.length(),position);
   }
 
   setView(view) {
-    const distance=this.camera.position.distanceTo(this.controls.target);
     const direction=view==='top'?new THREE.Vector3(.001,1,.001):view==='side'?new THREE.Vector3(.1,.015,1):new THREE.Vector3(.48,.56,.71);
-    this.transition={target:this.controls.target.clone(),position:this.controls.target.clone().addScaledVector(direction.normalize(),distance),remaining:1};
+    this.beginTransition(this.controls.target,this.camera.position.distanceTo(this.controls.target),direction);
   }
 
   zoom(factor) {
@@ -226,15 +232,34 @@ export class SystemViewer {
 
   update(days,realSeconds) {
     this.simDays=days;
-    this.sun.material.uniforms.time.value=days;
     for(const [id,entry]of this.bodies) {
-      if(id==='sun')continue;
       entry.root.position.copy(V(worldPosition(id,days)));
-      const rotationPeriod=entry.body.spinHours?entry.body.spinHours/24:entry.body.period;
-      entry.mesh.rotation.y=(days/rotationPeriod*Math.PI*2)%(Math.PI*2);
+      const frame=bodyFrame(entry.body,days);
+      entry.axisFrame.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(V(frame.x),V(frame.pole),V(frame.z)));
+      entry.spin.rotation.y=frame.spin;
+      const distance=this.camera.position.distanceTo(entry.root.position);
+      const minPixels=id==='sun'?9:entry.body.parent?2.2:4;
+      const minRadius=distance*Math.tan(this.camera.fov*Math.PI/360)*2/this.height*minPixels;
+      // Keep true AU positions. Distant bodies use a capped visual marker only;
+      // close views converge to the measured physical radius.
+      const cap=id==='sun'?.08:entry.body.parent?entry.body.orbit*.08:Math.min(.5,entry.body.orbit*.045);
+      entry.displayRadius=Math.max(entry.body.radius,Math.min(minRadius,cap));
+      entry.visual.scale.setScalar(entry.displayRadius);
+      const screenRadius=entry.displayRadius/distance*this.height/(2*Math.tan(this.camera.fov*Math.PI/360));
+      entry.axis.visible=this.showAxes&&(id===this.selectedId||entry.body.parent===this.selectedId)&&screenRadius>5;
       const orbit=this.orbits.get(id);
-      if(entry.body.parent)orbit.position.copy(V(worldPosition(entry.body.parent,days)));
-      orbit.visible=this.showOrbits;
+      if(orbit) {
+        if(entry.body.elements&&Math.abs(days-(orbit.userData.updatedDays??0))>.5) {
+          const positions=orbit.geometry.attributes.position;
+          for(let i=0;i<positions.count;i++) {
+            const point=orbitalPoint(entry.body,i/positions.count*Math.PI*2,days);
+            positions.setXYZ(i,point.x,point.y,point.z);
+          }
+          positions.needsUpdate=true;orbit.geometry.computeBoundingSphere();orbit.userData.updatedDays=days;
+        }
+        if(entry.body.parent)orbit.position.copy(V(worldPosition(entry.body.parent,days)));
+        orbit.visible=this.showOrbits;
+      }
     }
     for(const [id,belt]of this.belts) {
       belt.group.rotation.y=days*(id==='asteroid-belt'?.0009:.00005);
@@ -244,14 +269,17 @@ export class SystemViewer {
       const newTarget=V(worldPosition(this.followId,days));
       const delta=newTarget.clone().sub(this.lastFollowTarget??newTarget);
       this.camera.position.add(delta);this.controls.target.add(delta);
-      if(this.transition) {this.transition.target.add(delta);this.transition.position.add(delta);}
+      if(this.transition) {this.transition.target.add(delta);this.transition.startTarget.add(delta);}
       this.lastFollowTarget=newTarget;
     } else this.lastFollowTarget=null;
     if(this.transition) {
-      const alpha=1-Math.exp(-realSeconds*6);
-      this.camera.position.lerp(this.transition.position,alpha);this.controls.target.lerp(this.transition.target,alpha);
-      this.transition.remaining-=realSeconds;
-      if(this.transition.remaining<=0||this.camera.position.distanceTo(this.transition.position)<.005)this.transition=null;
+      const t=this.transition;t.elapsed+=realSeconds;
+      const fraction=Math.min(t.elapsed/1.25,1),ease=fraction*fraction*(3-2*fraction);
+      this.controls.target.lerpVectors(t.startTarget,t.target,ease);
+      const direction=t.startDirection.clone().lerp(t.direction,ease).normalize();
+      const distance=Math.exp(THREE.MathUtils.lerp(Math.log(t.startDistance),Math.log(t.endDistance),ease));
+      this.camera.position.copy(this.controls.target).addScaledVector(direction,distance);
+      if(fraction===1)this.transition=null;
     }
     this.controls.update();
     const selected=this.bodies.get(this.selectedId);
@@ -259,20 +287,23 @@ export class SystemViewer {
       this.marker.position.copy(selected.root.position);
       this.marker.quaternion.copy(this.camera.quaternion);
       const minRadius=this.camera.position.distanceTo(this.marker.position)*.009;
-      this.marker.scale.setScalar(Math.max(selected.body.radius*1.45,minRadius));
+      this.marker.scale.setScalar(Math.max(selected.displayRadius*1.45,minRadius));
     }
     this.camera.updateMatrixWorld();
+    this.scale=scaleForView(this.camera.position.distanceTo(this.controls.target),this.camera.fov,this.height);
     this.updateLabels();
     this.renderer.render(this.scene,this.camera);
   }
 
   updateLabels() {
     const cameraForward=new THREE.Vector3();this.camera.getWorldDirection(cameraForward);
-    for(const [id,label]of this.labels) {
+    const occupied=[];
+    const ordered=[...this.labels].sort(([a],[b])=>Number(b===this.selectedId)-Number(a===this.selectedId));
+    for(const [id,label]of ordered) {
       const entry=this.bodies.get(id);const pos=entry.root.position;
       let visible=this.showLabels;
       const distance=this.camera.position.distanceTo(pos);
-      if(entry.body.parent && !(entry.body.parent===this.selectedId || BODY_BY_ID.get(this.selectedId)?.parent===entry.body.parent || distance<25))visible=false;
+      if(entry.body.parent && !(entry.body.parent===this.selectedId || BODY_BY_ID.get(this.selectedId)?.parent===entry.body.parent || distance<entry.body.orbit*25))visible=false;
       if(pos.clone().sub(this.camera.position).dot(cameraForward)<=0)visible=false;
       const projected=pos.clone().project(this.camera);
       if(projected.z>1||projected.z< -1||Math.abs(projected.x)>1.1||Math.abs(projected.y)>1.1)visible=false;
@@ -280,14 +311,17 @@ export class SystemViewer {
         const parent=this.bodies.get(entry.body.parent);
         const rayDirection=pos.clone().sub(this.camera.position).normalize();
         const ray=new THREE.Ray(this.camera.position,rayDirection);
-        const hit=ray.intersectSphere(new THREE.Sphere(parent.root.position,parent.body.radius*1.02),new THREE.Vector3());
+        const hit=ray.intersectSphere(new THREE.Sphere(parent.root.position,parent.displayRadius*1.02),new THREE.Vector3());
         if(hit&&hit.distanceTo(this.camera.position)<distance)visible=false;
       }
+      const px=(projected.x*.5+.5)*this.width,py=(-projected.y*.5+.5)*this.height;
+      if(visible&&id!==this.selectedId&&occupied.some(p=>Math.abs(p.x-px)<70&&Math.abs(p.y-py)<19))visible=false;
+      if(visible)occupied.push({x:px,y:py});
       label.hidden=!visible;
       // Explicit display is needed because .body-label uses display:flex.
       label.style.display=visible?'flex':'none';
       if(!visible)continue;
-      const apparentRadius=entry.body.radius/distance*this.height/(2*Math.tan(this.camera.fov*Math.PI/360));
+      const apparentRadius=entry.displayRadius/distance*this.height/(2*Math.tan(this.camera.fov*Math.PI/360));
       label.style.left=`${(projected.x*.5+.5)*this.width+Math.max(3,apparentRadius)}px`;
       label.style.top=`${(-projected.y*.5+.5)*this.height}px`;
     }
