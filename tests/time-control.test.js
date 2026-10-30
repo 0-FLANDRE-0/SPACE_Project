@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { Simulation } from '../dist/src/model.js';
+import { ForegroundClock, formatGameDate, TIME_SPEEDS } from '../dist/src/time-control.js';
+const seconds=s=>s.days*86400;
+const near=(actual,expected)=>assert.ok(Math.abs(actual-expected)<1e-8,`${actual} != ${expected}`);
+test('default UI 1× advances exactly 600 game seconds in 60 foreground seconds',()=>{const s=new Simulation();s.advance(60);near(seconds(s),600);});
+test('every tactical and strategy preset uses the common 10:1 baseline',()=>{for(const speed of TIME_SPEEDS){const s=new Simulation();s.setRequestedSpeed(speed);s.advance(1);near(seconds(s),speed*10);}});
+test('invalid speeds/caps reject without changing the requested or effective speed',()=>{const s=new Simulation();for(const v of[-1,0,101,NaN,Infinity,3])assert.throws(()=>s.setRequestedSpeed(v));for(const v of[-1,0,101,NaN,Infinity])assert.throws(()=>s.setSpeedCap(v));assert.equal(s.speed,1);s.advance(-1);s.advance(NaN);s.advance(Infinity);near(seconds(s),0);});
+test('frame partitions, pause and resume preserve the single deterministic clock',()=>{const a=new Simulation(),b=new Simulation();a.advance(1);for(let i=0;i<10;i++)b.advance(.1);near(seconds(a),seconds(b));b.paused=true;b.advance(10);near(seconds(b),10);b.paused=false;b.setRequestedSpeed(100);b.advance(1);near(seconds(b),1010);});
+test('speed cap preserves requested strategy speed and restores it after explicit release',()=>{const s=new Simulation();s.setRequestedSpeed(100);s.setSpeedCap(1);s.advance(1);near(seconds(s),10);assert.equal(s.requestedSpeed,100);assert.equal(s.effectiveSpeed,1);s.setRequestedSpeed(.25);assert.equal(s.effectiveSpeed,.25);s.setRequestedSpeed(100);s.setSpeedCap(null);assert.equal(s.effectiveSpeed,100);s.advance(1);near(seconds(s),1010);});
+test('UTC date/time formatting crosses day, month and year boundaries consistently',()=>{assert.equal(formatGameDate('2026-12-31T23:59:59Z',2/86400),'2027.01.01 00:00:01');assert.equal(formatGameDate('2028-02-28T23:59:59Z',2/86400),'2028.02.29 00:00:01');});
+test('normal foreground frame stalls are counted fully instead of being clipped to 0.1 seconds',()=>{const clock=new ForegroundClock(0),s=new Simulation();s.advance(clock.sample(2500));near(seconds(s),25);s.advance(clock.sample(4700));near(seconds(s),47);});
+test('hidden intervals and first-frame catch-up are excluded; suspension >=60 seconds is signaled',()=>{const c=new ForegroundClock(0);near(c.sample(1000),1);c.setVisible(false,1500);near(c.sample(20000),0);c.setVisible(true,100000);near(c.sample(100100),.1);near(c.sample(200100),0);assert.equal(c.suspended,true);near(c.sample(200200),.1);});

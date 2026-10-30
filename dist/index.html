@@ -21,6 +21,8 @@
     <header class="top-hud">
       <div class="system-brand"><span class="brand-icon"><svg><use href="#i-orbit"/></svg></span><div><span class="wordmark">SPACE<span>.</span></span><div class="system-name"><span id="system-name">항성계</span><span class="system-slash">/</span><span id="system-code"></span></div></div></div>
       <nav class="top-actions" aria-label="지도 조작">
+        <select id="map-mode" class="map-mode" aria-label="지도 모드"><option value="exploration">탐사 섹터</option><option value="administration">행정 섹터</option></select>
+        <button id="admin-toggle" class="hud-button" aria-label="행정구역 도구" aria-expanded="false" hidden><svg><use href="#i-settings"/></svg><span>행정 도구</span></button>
         <button id="hex-toggle" class="hud-button active" aria-label="육각 섹터 표시 전환" aria-pressed="true"><svg><use href="#i-hex"/></svg><span>섹터</span></button>
         <button id="home" class="hud-button" title="전체 항성계 보기 (H)" aria-label="전체 항성계 보기"><svg><use href="#i-home"/></svg><span>전체 보기</span></button>
         <button id="settings-toggle" class="hud-button icon-only" aria-label="지도 설정" aria-expanded="false"><svg><use href="#i-settings"/></svg></button>
@@ -45,9 +47,24 @@
     <div class="timeline" aria-label="게임 시간">
       <button id="pause" class="pause-button" aria-label="일시정지" aria-pressed="false"><svg><use href="#i-pause"/></svg></button>
       <div class="time-display"><span class="eyebrow">SYSTEM TIME</span><time id="sim-date"></time></div><span class="time-divider"></span>
-      <div class="speeds" aria-label="시간 배속"><button data-speed="1" class="active" aria-pressed="true">1×</button><button data-speed="10" aria-pressed="false">10×</button><button data-speed="50" aria-pressed="false">50×</button></div>
+      <div class="speeds"><button id="speed-menu-toggle" aria-label="시간 배속 선택" aria-expanded="false">1× ▴</button></div>
       <span id="time-status" class="time-status"><i></i><span>진행 중</span></span>
     </div>
+    <section id="speed-menu" class="speed-menu" hidden aria-label="시간 배속 메뉴"><span class="eyebrow">전술 0.1–1× · 전략 1–100×</span><div class="speed-options"><button data-speed="0.1" aria-pressed="false">0.1×</button><button data-speed="0.25" aria-pressed="false">0.25×</button><button data-speed="0.5" aria-pressed="false">0.5×</button><button data-speed="0.75" aria-pressed="false">0.75×</button><button data-speed="1" aria-pressed="true">1×</button><button data-speed="2" aria-pressed="false">2×</button><button data-speed="5" aria-pressed="false">5×</button><button data-speed="10" aria-pressed="false">10×</button><button data-speed="50" aria-pressed="false">50×</button><button data-speed="100" aria-pressed="false">100×</button></div><p id="speed-description">1× = 현실 1초당 게임 10초 · 시계 UTC</p></section>
+    <aside id="admin-drawer" class="admin-drawer" hidden aria-label="행정구역 도구">
+      <div class="drawer-heading"><span class="eyebrow">행정 구역 <span id="admin-count"></span></span><button id="admin-close" class="panel-close" aria-label="행정 도구 닫기">×</button></div>
+      <p id="admin-hint">보기 상태 · 천체 선택이 우선합니다.</p>
+      <button id="admin-edit" class="admin-primary" aria-pressed="false">셀 편집 시작</button>
+      <label>대상 구역<select id="admin-target"></select></label><p id="admin-info"></p>
+      <div id="admin-editor" hidden>
+        <p id="admin-selection">미리보기 0칸</p><div class="admin-row"><select id="admin-ring" aria-label="기초 육각 링"></select><button id="admin-ring-select">링 선택</button><button id="admin-clear">취소</button></div>
+        <label>구역 이름<input id="admin-name" maxlength="40" placeholder="새 행정구역 이름"></label>
+        <label>색상<select id="admin-color"></select></label>
+        <div class="admin-actions"><button data-admin-action="create">새 구역 생성·적용</button><button data-admin-action="add">선택 칸 추가·적용</button><button data-admin-action="remove">선택 칸 제거·적용</button><button data-admin-action="update">이름·색 적용</button></div>
+        <label>통합 대상<select id="admin-absorb"></select></label><div class="admin-actions"><button data-admin-action="merge">대상에 통합·적용</button><button data-admin-action="delete">대상 구역 삭제</button></div>
+      </div>
+      <button data-admin-action="undo" class="admin-undo">실행 취소</button><button id="admin-recover" data-admin-action="recover" hidden>원본 백업 후 저장 초기화</button><p id="admin-error" role="status"></p>
+    </aside>
     <div id="loading" class="loading"><div class="loader-orbit"></div><p>항성계 지도를 준비하고 있습니다.</p></div>
     <div id="toast" class="toast" role="status"></div>
   </main>

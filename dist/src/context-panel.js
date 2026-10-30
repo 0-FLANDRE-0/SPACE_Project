@@ -18,7 +18,7 @@ export class ContextPanel {
     this.selection=selection;this.context=context;this.position=null;this.lastContentUpdate=-Infinity;this.element.hidden=true;
     if(!selection){this.element.replaceChildren();return;}
     if(selection.kind==='sector') {
-      this.element.innerHTML=`<div class="panel-heading"><span class="eyebrow">섹터</span><button data-close class="panel-close" aria-label="선택 해제">×</button></div><h2>${escape(selection.sector.id)}</h2><dl class="panel-values"><div><dt>중심에서의 링</dt><dd>${selection.sector.ring}</dd></div></dl><div class="sector-members"><span class="eyebrow">현재 천체</span><p data-members></p></div>`;
+      this.element.innerHTML=`<div class="panel-heading"><span class="eyebrow">섹터</span><button data-close class="panel-close" aria-label="선택 해제">×</button></div><h2>${escape(selection.sector.id)}</h2><dl class="panel-values"><div><dt>중심에서의 링</dt><dd>${selection.sector.ring}</dd></div></dl><div class="sector-members"><span class="eyebrow">현재 천체</span><p data-members></p><p data-current-admin></p></div>`;
       return;
     }
     const body=context.bodyById.get(selection.bodyId);if(!body){this.element.hidden=true;return;}
@@ -34,7 +34,7 @@ export class ContextPanel {
     if(body.temperatureK)detailRows.push(['유효 온도',number(body.temperatureK)+' K']);
     const satellites=context.moons.filter(m=>m.parent===body.id);
     const orbitMode=!!body.orbitGameAU||satellites.length>0;
-    this.element.innerHTML=`<div class="panel-heading"><span class="eyebrow">${escape(KIND_NAMES[body.kind]??body.kind)}</span><button data-close class="panel-close" aria-label="선택 해제">×</button></div><h2>${escape(body.name)}</h2><p class="panel-type">${escape(body.kind==='star'?[body.spectralType,body.stellarClass].filter(Boolean).join(' · '):body.type??KIND_NAMES[body.kind])}</p><dl class="panel-values">${rows.map(([label,value])=>`<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl><div class="panel-actions">${orbitMode?'<select data-focus-mode aria-label="확대 범위"><option value="surface">천체</option><option value="orbit">주변 궤도</option></select>':''}<button class="focus-button" data-focus>확대 <span>↗</span></button></div><p class="panel-sector" data-current-sector></p>${detailRows.length?`<details class="reference-details"><summary>천문 참고 정보</summary><dl>${detailRows.map(([label,value])=>`<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl></details>`:''}`;
+    this.element.innerHTML=`<div class="panel-heading"><span class="eyebrow">${escape(KIND_NAMES[body.kind]??body.kind)}</span><button data-close class="panel-close" aria-label="선택 해제">×</button></div><h2>${escape(body.name)}</h2><p class="panel-type">${escape(body.kind==='star'?[body.spectralType,body.stellarClass].filter(Boolean).join(' · '):body.type??KIND_NAMES[body.kind])}</p><dl class="panel-values">${rows.map(([label,value])=>`<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl><div class="panel-actions">${orbitMode?'<select data-focus-mode aria-label="확대 범위"><option value="surface">천체</option><option value="orbit">주변 궤도</option></select>':''}<button class="focus-button" data-focus>확대 <span>↗</span></button></div><p class="panel-sector" data-current-sector></p><p class="panel-sector" data-current-admin></p>${detailRows.length?`<details class="reference-details"><summary>천문 참고 정보</summary><dl>${detailRows.map(([label,value])=>`<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl></details>`:''}`;
   }
   update(viewer,days,seconds) {
     const selection=this.selection;if(!selection)return;
@@ -56,6 +56,8 @@ export class ContextPanel {
         const body=this.context.bodyById.get(selection.bodyId),sector=body.kind==='belt'?null:gamePositionToSector(this.context,this.context.gamePosition(body.id,days),viewer.sectors.grid);
         this.element.querySelector('[data-current-sector]').textContent=sector?'SECTOR  '+sector.id:'';
       }
+      const currentSector=selection.kind==='sector'?selection.sector:this.context.bodyById.get(selection.bodyId).kind==='belt'?null:gamePositionToSector(this.context,this.context.gamePosition(selection.bodyId,days),viewer.sectors.grid);
+      const region=currentSector?this.administration?.forSector(currentSector.id):null,field=this.element.querySelector('[data-current-admin]');if(field)field.textContent=region?`현재 위치 행정구: ${region.name} · ${region.id} · ${region.sectorIds.length}칸`:'현재 위치 행정구: 미지정';
       this.lastContentUpdate=days;
     }
     const size={width:this.element.offsetWidth,height:this.element.offsetHeight};

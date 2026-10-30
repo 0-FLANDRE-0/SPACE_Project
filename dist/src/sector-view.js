@@ -1,3 +1,4 @@
+import { AdministrativeRegionView } from './administrative-region-view.js';
 import * as THREE from 'three';
 import { gameAUToWorld } from './game-space.js';
 import { createHexGrid, gridLineSegments, axialVertices, axialToPlane, worldPositionToSector, gamePositionToSector } from './hex-sectors.js';
@@ -16,7 +17,7 @@ export class SectorView {
     const positions=[];
     for(const edge of gridLineSegments(this.grid))for(const p of edge)positions.push(gameAUToWorld(p.u),gameAUToWorld(p.v),-.02);
     const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
-    this.lines=new THREE.LineSegments(geometry,new THREE.LineBasicMaterial({color:'#698fa5',transparent:true,opacity:.17,depthWrite:false,depthTest:true}));this.root.add(this.lines);
+    this.lines=new THREE.LineSegments(geometry,new THREE.LineBasicMaterial({color:'#698fa5',transparent:true,opacity:.17,depthWrite:false,depthTest:true}));this.root.add(this.lines);this.administration=new AdministrativeRegionView(this.root,this.grid);
     const points=axialVertices(0,0,this.grid.radiusGameAU).map(p=>new THREE.Vector3(gameAUToWorld(p.u),gameAUToWorld(p.v),0));
     const borderGeometry=new THREE.BufferGeometry().setFromPoints(points);
     this.center=new THREE.LineLoop(borderGeometry,new THREE.LineBasicMaterial({color:'#7aadae',transparent:true,opacity:.27,depthWrite:false}));this.root.add(this.center);
@@ -45,7 +46,7 @@ export class SectorView {
     const radius=this.grid.radiusGameAU;
     this.fade=THREE.MathUtils.clamp((distanceGameAU-radius*.35)/(radius*1.1),0,1);
     this.root.visible=this.enabled&&this.fade>.01;
-    this.lines.material.opacity=.17*this.fade;this.center.material.opacity=.27*this.fade;
+    this.lines.visible=this.administration.mode==='exploration';this.center.visible=this.lines.visible;this.administration.update(this.fade);this.lines.material.opacity=.17*this.fade;this.center.material.opacity=.27*this.fade;
     this.hover.material.opacity=.7*this.fade;this.selection.material.opacity=.9*this.fade;this.fill.material.opacity=.055*this.fade;
   }
   members(days,sectorId) {
@@ -53,6 +54,7 @@ export class SectorView {
   }
   dispose() {
     if(!this.root)return;
+    this.administration?.dispose();
     const geometries=new Set(),materials=new Set();this.root.traverse(o=>{if(o.geometry)geometries.add(o.geometry);if(o.material)materials.add(o.material);});
     geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());this.root.removeFromParent();this.root=null;
   }
