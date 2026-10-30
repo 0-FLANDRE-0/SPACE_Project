@@ -74,11 +74,11 @@ export function axialTilt(body,days=0) {
   const sign=Math.sign(body.pole.pm[1]);
   return Math.acos(Math.max(-1,Math.min(1,dot(pole,normal)*sign)))/RAD;
 }
-export function orbitEmphasis(id,selectedId) {
+export function orbitEmphasis(id,selectedId,bodyMap=BODY_BY_ID) {
   if(!selectedId)return .10;
   if(id===selectedId)return .90;
-  if(BODY_BY_ID.get(selectedId)?.parent===id)return .32;
-  if(BODY_BY_ID.get(id)?.parent===selectedId)return .28;
+  if(bodyMap.get(selectedId)?.parent===id)return .32;
+  if(bodyMap.get(id)?.parent===selectedId)return .28;
   return .055;
 }
 export function scaleForView(distanceGameAU,fovDegrees,height,pixels=110) {
@@ -89,7 +89,9 @@ export function scaleForView(distanceGameAU,fovDegrees,height,pixels=110) {
   return {unit:'AU',value:lengthGameAU,lengthGameAU,pixels:lengthGameAU/gameAUPerPixel,gameAUPerPixel};
 }
 export class Simulation {
+  constructor(bodyMap=BODY_BY_ID){this.bodyMap=bodyMap;}
+  setSystem(context){this.bodyMap=context.bodyById;this.days=0;this.selectedId=null;}
   days=0;speed=1;paused=false;selectedId=null;
   advance(seconds) {if(Number.isFinite(seconds)&&seconds>=0&&!this.paused)this.days+=seconds*BASE_DAYS_PER_SECOND*this.speed;}
-  select(id) {if(id!==null&&!BODY_BY_ID.has(id))return false;this.selectedId=id;return true;}
+  select(id) {if(id!==null&&!this.bodyMap.has(id))return false;this.selectedId=id;return true;}
 }
