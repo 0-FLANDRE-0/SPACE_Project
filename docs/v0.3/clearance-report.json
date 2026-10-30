@@ -1,5 +1,6 @@
 {
   "epoch": "2026-10-29",
+  "worldUnitsPerGameAU": 2.641509433962264,
   "minimumRequiredGameAU": 1,
   "report": {
     "valid": true,
@@ -9,161 +10,161 @@
         "id": "mercury",
         "periapsisGameAU": 42.10102473837646,
         "apoapsisGameAU": 63.89897526162355,
-        "clearanceGameAU": 2.6010247383764593
+        "clearanceGameAU": 27.14745330980503
       },
       {
         "id": "venus",
         "periapsisGameAU": 78.46550943574744,
         "apoapsisGameAU": 79.53449056425258,
-        "clearanceGameAU": 35.965509435747435
+        "clearanceGameAU": 62.37622372146172
       },
       {
         "id": "earth",
         "periapsisGameAU": 98.33005511416837,
         "apoapsisGameAU": 101.66994488583163,
-        "clearanceGameAU": 55.830055114168374
+        "clearanceGameAU": 82.24076939988267
       },
       {
         "id": "mars",
         "periapsisGameAU": 128.7350355294757,
         "apoapsisGameAU": 155.2649644705243,
-        "clearanceGameAU": 88.23503552947571
+        "clearanceGameAU": 113.40289267233285
       },
       {
         "id": "jupiter",
         "periapsisGameAU": 266.46180679175905,
         "apoapsisGameAU": 293.53819320824095,
-        "clearanceGameAU": 206.46180679175905
+        "clearanceGameAU": 243.74752107747332
       },
       {
         "id": "saturn",
         "periapsisGameAU": 397.435495267885,
         "apoapsisGameAU": 442.56450473211504,
-        "clearanceGameAU": 339.935495267885
+        "clearanceGameAU": 375.66763812502785
       },
       {
         "id": "uranus",
         "periapsisGameAU": 543.0699820956263,
         "apoapsisGameAU": 596.9300179043737,
-        "clearanceGameAU": 493.0699820956263
+        "clearanceGameAU": 524.1414106670549
       },
       {
         "id": "neptune",
         "periapsisGameAU": 723.7189531993498,
         "apoapsisGameAU": 736.2810468006502,
-        "clearanceGameAU": 674.2189531993498
+        "clearanceGameAU": 704.979667485064
       }
     ],
     "neighborClearances": [
       {
         "inner": "mercury",
         "outer": "venus",
-        "planetClearanceGameAU": 2.5665341741238876,
-        "systemClearanceGameAU": 2.5665341741238876
+        "planetClearanceGameAU": 10.023677031266743,
+        "systemClearanceGameAU": 10.023677031266743
       },
       {
         "inner": "venus",
         "outer": "earth",
-        "planetClearanceGameAU": 3.7955645499157953,
-        "systemClearanceGameAU": 1.0150488749820479
+        "planetClearanceGameAU": 13.116993121344365,
+        "systemClearanceGameAU": 5.924334589267762
       },
       {
         "inner": "earth",
         "outer": "mars",
-        "planetClearanceGameAU": 14.065090643644083,
-        "systemClearanceGameAU": 7.1320717943911145
+        "planetClearanceGameAU": 22.143662072215513,
+        "systemClearanceGameAU": 7.4738575086768275
       },
       {
         "inner": "mars",
         "outer": "jupiter",
-        "planetClearanceGameAU": 80.69684232123475,
-        "systemClearanceGameAU": 61.807703357353326
+        "planetClearanceGameAU": 99.65041374980618,
+        "systemClearanceGameAU": 62.18056050021047
       },
       {
         "inner": "jupiter",
         "outer": "saturn",
-        "planetClearanceGameAU": 56.39730205964406,
-        "systemClearanceGameAU": 2.9635494201915478
+        "planetClearanceGameAU": 85.9151592025012,
+        "systemClearanceGameAU": 3.5539065630486775
       },
       {
         "inner": "saturn",
         "outer": "uranus",
-        "planetClearanceGameAU": 63.00547736351126,
-        "systemClearanceGameAU": 18.005672345446257
+        "planetClearanceGameAU": 86.30904879208269,
+        "systemClearanceGameAU": 18.471743774017682
       },
       {
         "inner": "uranus",
         "outer": "neptune",
-        "planetClearanceGameAU": 97.28893529497611,
-        "systemClearanceGameAU": 84.13320114189467
+        "planetClearanceGameAU": 115.62107815211897,
+        "systemClearanceGameAU": 84.5060582847518
       }
     ],
     "satelliteClearances": [
       {
         "id": "moon",
         "parent": "earth",
-        "clearanceGameAU": 1.019484325066252
+        "clearanceGameAU": 5.928770039351966
       },
       {
         "id": "phobos",
         "parent": "mars",
-        "clearanceGameAU": 1.2476795570438175
+        "clearanceGameAU": 4.7587509856152455
       },
       {
         "id": "deimos",
         "parent": "mars",
-        "clearanceGameAU": 3.8474968256807753
+        "clearanceGameAU": 7.358568254252203
       },
       {
         "id": "io",
         "parent": "jupiter",
-        "clearanceGameAU": 4.455667421442788
+        "clearanceGameAU": 20.239953135728502
       },
       {
         "id": "europa",
         "parent": "jupiter",
-        "clearanceGameAU": 7.2914937035866085
+        "clearanceGameAU": 23.075779417872322
       },
       {
         "id": "ganymede",
         "parent": "jupiter",
-        "clearanceGameAU": 10.40373354125613
+        "clearanceGameAU": 26.250162112684702
       },
       {
         "id": "callisto",
         "parent": "jupiter",
-        "clearanceGameAU": 13.263364210437796
+        "clearanceGameAU": 29.078721353294938
       },
       {
         "id": "enceladus",
         "parent": "saturn",
-        "clearanceGameAU": 1.8412227751271275
+        "clearanceGameAU": 34.37300848941283
       },
       {
         "id": "titan",
         "parent": "saturn",
-        "clearanceGameAU": 4.60288315010969
+        "clearanceGameAU": 37.352168864395395
       },
       {
         "id": "titania",
         "parent": "uranus",
-        "clearanceGameAU": 5.6973118318253135
+        "clearanceGameAU": 15.174097546111028
       },
       {
         "id": "triton",
         "parent": "neptune",
-        "clearanceGameAU": 6.146954015093241
+        "clearanceGameAU": 15.375168300807527
       }
     ],
     "beltClearances": [
       {
         "id": "asteroid-belt",
-        "innerClearanceGameAU": 34.23503552947571,
-        "outerClearanceGameAU": 6.461806791759045
+        "innerClearanceGameAU": 37.652892672332854,
+        "outerClearanceGameAU": 21.997521077473323
       },
       {
         "id": "kuiper-belt",
-        "innerClearanceGameAU": 44.21895319934981,
+        "innerClearanceGameAU": 53.2296674850641,
         "outerClearanceGameAU": null
       }
     ]

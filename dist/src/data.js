@@ -242,7 +242,7 @@ export const MOONS=[
   }
 ].map(body=>{
   const reference=SATELLITE_ELEMENTS[body.id];
-  return withAstronomy({...body,kind:'moon',satelliteDiameterGameAU:satelliteDiameterFromRadiusKm(body.realRadiusKm),orbitGameAU:SATELLITE_ORBITS_GAME_AU[body.id],realOrbitAU:reference.semiMajorKm/REAL_AU_KM,period:reference.periodSeconds/86400,eccentricity:reference.eccentricity,inclination:reference.inclination,node:reference.node,argument:reference.argument,phase:reference.phase});
+  return withAstronomy({...body,kind:'moon',satelliteDiameterWorldUnits:satelliteDiameterFromRadiusKm(body.realRadiusKm),orbitGameAU:SATELLITE_ORBITS_GAME_AU[body.id],realOrbitAU:reference.semiMajorKm/REAL_AU_KM,period:reference.periodSeconds/86400,eccentricity:reference.eccentricity,inclination:reference.inclination,node:reference.node,argument:reference.argument,phase:reference.phase});
 });
 export const BELTS=[
   {

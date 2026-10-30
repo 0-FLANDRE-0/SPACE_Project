@@ -32,3 +32,6 @@
 @media(max-width:760px){.stats-heading{padding:0 15px}.satellite-links{padding:10px 15px 0;gap:4px}.satellite-links button{padding:5px 8px}.details:not(.expanded) .stats-heading{display:none}}
 @media(orientation:landscape) and (max-height:600px){.stats-heading{padding:0 13px;font-size:7px;margin:12px 0 7px}.reference-stats .stat dd{font-size:15px}.satellite-links{padding:9px 13px 0}.satellite-links button{padding:4px 7px;font-size:8px}.details:not(.expanded) .stats-heading{display:none}.details:not(.expanded) .satellite-links{padding-top:9px}}
 @media(orientation:landscape) and (max-height:600px){.details{max-height:calc(100% - 122px)}.details.expanded{max-height:calc(100% - 100px)}}
+/* Desktop map tools stay clear of the growing detail panel. */
+@media(min-width:761px) and (min-height:601px){.map-tools{left:34px;right:auto;top:170px}}
+@media(min-width:1600px) and (min-height:601px){.map-tools{left:42px}}

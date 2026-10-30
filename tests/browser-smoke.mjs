@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
+import { gameAUToWorld } from '../dist/src/game-space.js';
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const browser = await chromium.launch({
   ...(process.env.CHROMIUM_EXECUTABLE ? {executablePath:process.env.CHROMIUM_EXECUTABLE}:{}),
@@ -32,6 +33,8 @@ try {
   assert.equal(await page.evaluate(()=>spacePrototype.viewer.controls.minDistance),42);
   assert.equal(await page.evaluate(()=>spacePrototype.viewer.bodies.get('sun').visual.scale.x),35);
   assert.equal(await page.evaluate(()=>spacePrototype.viewer.bodies.get('earth').visual.scale.x),7.5);
+  assert.equal(await page.evaluate(()=>spacePrototype.viewer.bodies.get('mercury').body.orbitGameAU),53);
+  assert.ok(await page.evaluate(()=>{const e=spacePrototype.viewer.bodies.get('earth');return Math.abs(e.root.position.length()/e.body.orbitGameAU-140/53)<.06;}));
   await shot(page,'overview');
   await page.locator('#inner-system').click();await settled(page);await shot(page,'inner');
   console.log('PASS: overall/inner framing, fixed planet/star size, valid orbital envelopes');
@@ -101,7 +104,7 @@ try {
   await page.locator('#reset-view').click();await page.waitForFunction(()=>!spacePrototype.viewer.transition);
   await page.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='AU');
   await page.locator('#inner-system').click();await page.waitForFunction(()=>!spacePrototype.viewer.transition);
-  assert.ok(await page.evaluate(()=>spacePrototype.viewer.camera.position.distanceTo(spacePrototype.viewer.controls.target)<550));
+  assert.ok(await page.evaluate(limit=>spacePrototype.viewer.camera.position.distanceTo(spacePrototype.viewer.controls.target)<limit,gameAUToWorld(550)));
   assert.equal(await page.evaluate(()=>spacePrototype.simulation.selectedId),null);
   for(const id of ['jupiter','saturn']){await page.locator('.body-row[data-select="'+id+'"]').click();await page.locator('[data-focus-orbit="'+id+'"]').click();await settled(page);await shot(page,id+'-close');}
   assert.deepEqual(await radii(page),fixedRadii);

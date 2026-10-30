@@ -36,7 +36,7 @@ function showDetails(id) {
     gameStats=stat('게임 거리 범위',`${body.innerGameAU}–${body.outerGameAU}`,'AU')+stat('표시 입자 수',body.count.toLocaleString(),'개');
     referenceStats=stat('실제 참고 범위',`${body.realInnerAU}–${body.realOuterAU}`,'실제 AU');
   } else {
-    gameStats=stat(body.parent?'모행성 중심 장반경':'태양 중심 장반경',body.orbitGameAU,'AU')+(body.parent?stat('위성 게임 지름',bodyDiameterGameAU(body),'AU'):stat('Planet Size · 지름',body.planetSize,'AU'));
+    gameStats=stat(body.parent?'모행성 중심 장반경':'태양 중심 장반경',body.orbitGameAU,'AU')+(body.parent?stat('위성 게임 지름',bodyDiameterGameAU(body).toLocaleString('ko-KR',{maximumFractionDigits:3}),'AU'):stat('Planet Size',body.planetSize)+stat('게임 표시 지름',bodyDiameterGameAU(body).toLocaleString('ko-KR',{maximumFractionDigits:3}),'AU'));
     referenceStats=stat('실제 공전 주기',Math.abs(body.period).toLocaleString('en-US',{maximumFractionDigits:2}),'일')+stat('궤도 경사',Math.abs(body.inclination).toFixed(2),'°')+stat('자전축 기울기',axialTilt(body).toFixed(2),'°')+stat('실제 자전 주기',Math.abs(body.spinHours).toFixed(2),'시간')+stat('실제 반지름',body.realRadiusKm.toLocaleString(),'km')+stat('실제 궤도 장반경',body.realOrbitAU.toLocaleString('en-US',{maximumFractionDigits:5}),'실제 AU');
   }
   const satelliteLinks=moons.length?`<div class="satellite-links" aria-label="${body.name}의 위성">${moons.map(m=>`<button data-select="${m.id}">${m.name}</button>`).join('')}</div>`:'';

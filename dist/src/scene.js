@@ -3,11 +3,12 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { SUN, PLANETS, MOONS, BELTS, BODY_BY_ID } from './data.js';
 import { orbitalPoint, worldPosition, orbitEmphasis, bodyFrame, scaleForView } from './model.js';
 import { glowTexture, random } from './textures.js';
-import { bodyRadiusGameAU, SATURN_RING_RADII } from './game-space.js';
+import { bodyRadiusWorldUnits, gameAUToWorld, worldToGameAU, WORLD_UNITS_PER_GAME_AU, SATURN_RING_RADII } from './game-space.js';
 import { assistedBodySelection } from './selection.js';
 import { validateSystem, systemExtentGameAU } from './validation.js';
 
 const V = (p) => new THREE.Vector3(p.x, p.y, p.z);
+const gameV = p => V(p).multiplyScalar(WORLD_UNITS_PER_GAME_AU);
 
 
 export class SystemViewer {
@@ -27,11 +28,11 @@ export class SystemViewer {
     this.renderer.toneMappingExposure = 1.1;
     this.renderer.domElement.setAttribute('aria-hidden', 'true');
     container.appendChild(this.renderer.domElement);
-    this.camera = new THREE.PerspectiveCamera(43, 1, 0.01, 60000);
+    this.camera = new THREE.PerspectiveCamera(43, 1, 0.01, gameAUToWorld(60000));
     this.camera.position.set(115, 135, 170);
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableDamping = true; this.controls.dampingFactor = .07;
-    this.controls.minDistance = bodyRadiusGameAU(SUN)*1.2; this.controls.maxDistance = 8000;
+    this.controls.minDistance = bodyRadiusWorldUnits(SUN)*1.2; this.controls.maxDistance = gameAUToWorld(8000);
     this.controls.maxPolarAngle = Math.PI - .04; this.controls.minPolarAngle = .04;
     this.controls.zoomSpeed = .85; this.controls.rotateSpeed = .55;
     this.controls.addEventListener('start', () => { this.transition = null; });
@@ -63,19 +64,19 @@ export class SystemViewer {
     const {width,height}=this.container.getBoundingClientRect();
     this.width=width; this.height=height;
     this.camera.aspect=width/height; this.camera.updateProjectionMatrix();
-    this.controls.maxDistance=Math.max(8000,3600*Math.max(1,.95/this.camera.aspect));
+    this.controls.maxDistance=gameAUToWorld(Math.max(8000,3600*Math.max(1,.95/this.camera.aspect)));
     this.renderer.setSize(width,height);
   }
 
   homePosition() {
-    return new THREE.Vector3(850,1000,1250).multiplyScalar(Math.max(1,.95/this.camera.aspect));
+    return new THREE.Vector3(850,1000,1250).multiplyScalar(WORLD_UNITS_PER_GAME_AU*Math.max(1,.95/this.camera.aspect));
   }
 
   createStars() {
     const rng=random(102); const count=5800;
     const vertices=new Float32Array(count*3); const colors=new Float32Array(count*3);
     for(let i=0;i<count;i++) {
-      const theta=rng()*Math.PI*2, phi=Math.acos(2*rng()-1), r=18000+rng()*6000;
+      const theta=rng()*Math.PI*2, phi=Math.acos(2*rng()-1), r=gameAUToWorld(18000+rng()*6000);
       vertices.set([r*Math.sin(phi)*Math.cos(theta),r*Math.cos(phi),r*Math.sin(phi)*Math.sin(theta)],i*3);
       const value=.22+rng()*.5;
       colors.set([value*(.85+rng()*.15),value*(.9+rng()*.1),value],i*3);
@@ -93,7 +94,7 @@ export class SystemViewer {
 
   createBody(body) {
     const root=new THREE.Group(),visual=new THREE.Group(),axisFrame=new THREE.Group(),spin=new THREE.Group();
-    const radiusGameAU=bodyRadiusGameAU(body);visual.scale.setScalar(radiusGameAU);
+    const radiusWorldUnits=bodyRadiusWorldUnits(body);visual.scale.setScalar(radiusWorldUnits);
     root.add(visual);visual.add(axisFrame);axisFrame.add(spin);this.scene.add(root);
     const map=this.surfaces[body.id]??this.surfaces.moon;
     const material=body.id==='sun'
@@ -127,12 +128,12 @@ export class SystemViewer {
       const glow=new THREE.Sprite(new THREE.SpriteMaterial({map:glowTexture(),color:'#ffc16d',transparent:true,blending:THREE.AdditiveBlending,depthWrite:false,toneMapped:false}));
       glow.scale.set(5,5,1);glow.material.opacity=.6;visual.add(glow);
     } else this.orbits.set(body.id,this.createOrbit(body));
-    this.bodies.set(body.id,{root,visual,axisFrame,spin,mesh,body,axis,radiusGameAU});
+    this.bodies.set(body.id,{root,visual,axisFrame,spin,mesh,body,axis,radiusWorldUnits});
     this.makeLabel(body);
   }
 
   createOrbit(body) {
-    const points=[]; for(let i=0;i<256;i++) points.push(V(orbitalPoint(body,i/256*Math.PI*2)));
+    const points=[]; for(let i=0;i<256;i++) points.push(gameV(orbitalPoint(body,i/256*Math.PI*2)));
     const line=new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineBasicMaterial({color:'#9baec5',transparent:true,opacity:.10,depthWrite:false}));
     line.userData.bodyId=body.id;this.scene.add(line);return line;
   }
@@ -143,8 +144,8 @@ export class SystemViewer {
     const mesh=new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1,0),material,body.count);
     const matrix=new THREE.Object3D();
     for(let i=0;i<body.count;i++) {
-      const angle=rng()*Math.PI*2,r=body.innerGameAU+(body.outerGameAU-body.innerGameAU)*rng();
-      const thickness=body.id==='kuiper-belt'?45:10;
+      const angle=rng()*Math.PI*2,r=gameAUToWorld(body.innerGameAU+(body.outerGameAU-body.innerGameAU)*rng());
+      const thickness=gameAUToWorld(body.id==='kuiper-belt'?45:10);
       matrix.position.set(Math.cos(angle)*r,(rng()-.5)*thickness,Math.sin(angle)*r);
       matrix.rotation.set(rng()*3,rng()*3,rng()*3);
       const s=(body.id==='kuiper-belt'?.15:.10)+rng()*.25;
@@ -152,7 +153,7 @@ export class SystemViewer {
     }
     mesh.instanceMatrix.needsUpdate=true;mesh.userData.bodyId=body.id;this.pickables.push(mesh);group.add(mesh);this.scene.add(group);
     const edges=[];
-    for(const radius of [body.innerGameAU,body.outerGameAU]) {
+    for(const radius of [gameAUToWorld(body.innerGameAU),gameAUToWorld(body.outerGameAU)]) {
       const pts=[];for(let i=0;i<256;i++)pts.push(new THREE.Vector3(Math.cos(i/256*Math.PI*2)*radius,0,Math.sin(i/256*Math.PI*2)*radius));
       const line=new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:body.color,transparent:true,opacity:.04,depthWrite:false}));
       group.add(line);edges.push(line);
@@ -161,7 +162,7 @@ export class SystemViewer {
   }
 
   createReferencePlane() {
-    this.referencePlane=new THREE.GridHelper(2000,40,'#486175','#27374a');
+    this.referencePlane=new THREE.GridHelper(gameAUToWorld(2000),40,'#486175','#27374a');
     this.referencePlane.material.transparent=true;this.referencePlane.material.opacity=.15;this.referencePlane.material.depthWrite=false;
     this.referencePlane.visible=false;this.scene.add(this.referencePlane);
   }
@@ -206,22 +207,22 @@ export class SystemViewer {
     const body=BODY_BY_ID.get(id);if(!body)return;
     let followBody=body;
     if(mode==='orbit'&&body.parent)followBody=BODY_BY_ID.get(body.parent);
-    const target=V(worldPosition(followBody.id,this.simDays));
-    const extent=systemExtentGameAU(followBody);
-    const distance=body.outerGameAU?body.outerGameAU*2.9:mode==='orbit'?Math.max(extent*3.5,bodyRadiusGameAU(followBody)*9):bodyRadiusGameAU(body)*7.5;
+    const target=gameV(worldPosition(followBody.id,this.simDays));
+    const extent=gameAUToWorld(systemExtentGameAU(followBody));
+    const distance=body.outerGameAU?gameAUToWorld(body.outerGameAU)*2.9:mode==='orbit'?Math.max(extent*3.5,bodyRadiusWorldUnits(followBody)*9):bodyRadiusWorldUnits(body)*7.5;
     this.followId=followBody.orbitGameAU?followBody.id:null;this.lastFollowTarget=null;
-    this.controls.minDistance=Math.max(.25,bodyRadiusGameAU(followBody.kind==='belt'?SUN:followBody)*1.2);
+    this.controls.minDistance=Math.max(.25,bodyRadiusWorldUnits(followBody.kind==='belt'?SUN:followBody)*1.2);
     let direction=this.camera.position.clone().sub(this.controls.target).normalize();
     if(body.parent&&mode==='surface') {
-      const parentPosition=V(worldPosition(body.parent,this.simDays));
-      if(target.clone().addScaledVector(direction,distance).distanceTo(parentPosition)<bodyRadiusGameAU(BODY_BY_ID.get(body.parent))*1.1)direction=target.clone().sub(parentPosition).normalize();
+      const parentPosition=gameV(worldPosition(body.parent,this.simDays));
+      if(target.clone().addScaledVector(direction,distance).distanceTo(parentPosition)<bodyRadiusWorldUnits(BODY_BY_ID.get(body.parent))*1.1)direction=target.clone().sub(parentPosition).normalize();
     }
     this.beginTransition(target,distance,direction);
   }
 
   home(inner=false) {
-    this.followId=null;this.lastFollowTarget=null;this.controls.minDistance=bodyRadiusGameAU(SUN)*1.2;
-    const position=inner?new THREE.Vector3(230,270,340):this.homePosition();
+    this.followId=null;this.lastFollowTarget=null;this.controls.minDistance=bodyRadiusWorldUnits(SUN)*1.2;
+    const position=inner?new THREE.Vector3(230,270,340).multiplyScalar(WORLD_UNITS_PER_GAME_AU):this.homePosition();
     this.beginTransition(new THREE.Vector3(),position.length(),position);
   }
 
@@ -240,12 +241,12 @@ export class SystemViewer {
   update(days,realSeconds) {
     this.simDays=days;
     for(const [id,entry]of this.bodies) {
-      entry.root.position.copy(V(worldPosition(id,days)));
+      entry.root.position.copy(gameV(worldPosition(id,days)));
       const frame=bodyFrame(entry.body,days);
       entry.axisFrame.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(V(frame.x),V(frame.pole),V(frame.z)));
       entry.spin.rotation.y=frame.spin;
       const distance=this.camera.position.distanceTo(entry.root.position);
-      const screenRadius=entry.radiusGameAU/distance*this.height/(2*Math.tan(this.camera.fov*Math.PI/360));
+      const screenRadius=entry.radiusWorldUnits/distance*this.height/(2*Math.tan(this.camera.fov*Math.PI/360));
       entry.axis.visible=this.showAxes&&(id===this.selectedId||entry.body.parent===this.selectedId)&&screenRadius>5;
       const orbit=this.orbits.get(id);
       if(orbit) {
@@ -253,11 +254,11 @@ export class SystemViewer {
           const positions=orbit.geometry.attributes.position;
           for(let i=0;i<positions.count;i++) {
             const point=orbitalPoint(entry.body,i/positions.count*Math.PI*2,days);
-            positions.setXYZ(i,point.x,point.y,point.z);
+            positions.setXYZ(i,gameAUToWorld(point.x),gameAUToWorld(point.y),gameAUToWorld(point.z));
           }
           positions.needsUpdate=true;orbit.geometry.computeBoundingSphere();orbit.userData.updatedDays=days;
         }
-        if(entry.body.parent)orbit.position.copy(V(worldPosition(entry.body.parent,days)));
+        if(entry.body.parent)orbit.position.copy(gameV(worldPosition(entry.body.parent,days)));
         orbit.visible=this.showOrbits;
       }
     }
@@ -266,7 +267,7 @@ export class SystemViewer {
       belt.edges.forEach(edge=>edge.visible=this.showOrbits);
     }
     if(this.followId) {
-      const newTarget=V(worldPosition(this.followId,days));
+      const newTarget=gameV(worldPosition(this.followId,days));
       const delta=newTarget.clone().sub(this.lastFollowTarget??newTarget);
       this.camera.position.add(delta);this.controls.target.add(delta);
       if(this.transition) {this.transition.target.add(delta);this.transition.startTarget.add(delta);}
@@ -287,10 +288,10 @@ export class SystemViewer {
       this.marker.position.copy(selected.root.position);
       this.marker.quaternion.copy(this.camera.quaternion);
       const minRadius=this.camera.position.distanceTo(this.marker.position)*.009;
-      this.marker.scale.setScalar(Math.max(selected.radiusGameAU*1.45,minRadius));
+      this.marker.scale.setScalar(Math.max(selected.radiusWorldUnits*1.45,minRadius));
     }
     this.camera.updateMatrixWorld();
-    this.scale=scaleForView(this.camera.position.distanceTo(this.controls.target),this.camera.fov,this.height);
+    this.scale=scaleForView(worldToGameAU(this.camera.position.distanceTo(this.controls.target)),this.camera.fov,this.height);
     this.updateLabels();
     this.renderer.render(this.scene,this.camera);
   }
@@ -305,11 +306,11 @@ export class SystemViewer {
         const ray=new THREE.Ray(this.camera.position,relative.normalize());
         for(const [otherId,other] of this.bodies) {
           if(otherId===id)continue;
-          const hit=ray.intersectSphere(new THREE.Sphere(other.root.position,other.radiusGameAU),new THREE.Vector3());
-          if(hit&&hit.distanceTo(this.camera.position)<depth-entry.radiusGameAU){visible=false;break;}
+          const hit=ray.intersectSphere(new THREE.Sphere(other.root.position,other.radiusWorldUnits),new THREE.Vector3());
+          if(hit&&hit.distanceTo(this.camera.position)<depth-entry.radiusWorldUnits){visible=false;break;}
         }
       }
-      return {id,visible,depth,x:(projected.x*.5+.5)*this.width,y:(-projected.y*.5+.5)*this.height,pixelRadius:entry.radiusGameAU/depth*this.height/(2*Math.tan(this.camera.fov*Math.PI/360))};
+      return {id,visible,depth,x:(projected.x*.5+.5)*this.width,y:(-projected.y*.5+.5)*this.height,pixelRadius:entry.radiusWorldUnits/depth*this.height/(2*Math.tan(this.camera.fov*Math.PI/360))};
     });
   }
 
@@ -331,7 +332,7 @@ export class SystemViewer {
       const entry=this.bodies.get(id);const pos=entry.root.position;
       let visible=this.showLabels&&visibility.get(id);
       const distance=this.camera.position.distanceTo(pos);
-      if(entry.body.parent && !(entry.body.parent===this.selectedId || BODY_BY_ID.get(this.selectedId)?.parent===entry.body.parent || distance<entry.body.orbitGameAU*25))visible=false;
+      if(entry.body.parent && !(entry.body.parent===this.selectedId || BODY_BY_ID.get(this.selectedId)?.parent===entry.body.parent || distance<gameAUToWorld(entry.body.orbitGameAU)*25))visible=false;
       if(pos.clone().sub(this.camera.position).dot(cameraForward)<=0)visible=false;
       const projected=pos.clone().project(this.camera);
       if(projected.z>1||projected.z< -1||Math.abs(projected.x)>1.1||Math.abs(projected.y)>1.1)visible=false;
@@ -339,11 +340,11 @@ export class SystemViewer {
         const parent=this.bodies.get(entry.body.parent);
         const rayDirection=pos.clone().sub(this.camera.position).normalize();
         const ray=new THREE.Ray(this.camera.position,rayDirection);
-        const hit=ray.intersectSphere(new THREE.Sphere(parent.root.position,parent.radiusGameAU*1.02),new THREE.Vector3());
+        const hit=ray.intersectSphere(new THREE.Sphere(parent.root.position,parent.radiusWorldUnits*1.02),new THREE.Vector3());
         if(hit&&hit.distanceTo(this.camera.position)<distance)visible=false;
       }
       const px=(projected.x*.5+.5)*this.width,py=(-projected.y*.5+.5)*this.height;
-      const apparentRadius=entry.radiusGameAU/distance*this.height/(2*Math.tan(this.camera.fov*Math.PI/360));
+      const apparentRadius=entry.radiusWorldUnits/distance*this.height/(2*Math.tan(this.camera.fov*Math.PI/360));
       const labelWidth=this.width<900?80:entry.body.parent?70:145;
       let labelX=px+Math.max(3,apparentRadius)+9;
       if(labelX+labelWidth>this.width-8)labelX=px-Math.max(3,apparentRadius)-labelWidth-9;

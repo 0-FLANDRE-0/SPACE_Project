@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { PLANETS, MOONS, ALL_BODIES, SUN } from '../dist/src/data.js';
 import { orbitPosition, orbitalPoint, orbitNormal, worldPosition, Simulation, orbitEmphasis, elementsAt, bodyFrame, axialTilt, scaleForView, wrapAngle }
 from '../dist/src/model.js';
-import { bodyRadiusGameAU, bodyDiameterGameAU, planetSizeFromRadiusKm, starDiameterGameAU, WORLD_UNITS_PER_GAME_AU } from '../dist/src/game-space.js';
+import { bodyRadiusGameAU, bodyDiameterGameAU, planetSizeFromRadiusKm, starDiameterGameAU, starDiameterWorldUnits, bodyRadiusWorldUnits, bodyDiameterWorldUnits, WORLD_UNITS_PER_GAME_AU, gameAUToWorld, worldToGameAU } from '../dist/src/game-space.js';
 import { validateSystem } from '../dist/src/validation.js';
 import { assistedBodySelection } from '../dist/src/selection.js';
 const distance=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y,a.z-b.z);
@@ -78,10 +78,10 @@ test('body IDs and parent links remain valid; secular elements vary with epoch',
 
 test('planet size formula and the complete requested orbit/size table are authoritative',()=>{
   const expected=[['mercury',53,9],['venus',79,15],['earth',100,15],['mars',142,11],['jupiter',280,50],['saturn',420,45],['uranus',570,30],['neptune',730,29]];
-  assert.equal(WORLD_UNITS_PER_GAME_AU,1);
+  assert.equal(WORLD_UNITS_PER_GAME_AU,140/53);
   for(const [id,a,size]of expected) {
     const b=byId(id);assert.equal(b.planetSize,size);assert.ok(Number.isInteger(b.planetSize));
-    assert.equal(planetSizeFromRadiusKm(b.realRadiusKm),size);assert.equal(bodyDiameterGameAU(b),size);assert.equal(bodyRadiusGameAU(b),size/2);
+    assert.equal(planetSizeFromRadiusKm(b.realRadiusKm),size);assert.equal(bodyDiameterWorldUnits(b),size);assert.equal(bodyRadiusWorldUnits(b),size/2);assert.equal(bodyDiameterGameAU(b),worldToGameAU(size));
     for(const day of [0,36525,-36525])assert.equal(elementsAt(b,day).a,a,'real secular axis must never overwrite game axis');
     assert.equal('radius' in b,false);assert.equal('orbit' in b,false);
   }
@@ -89,8 +89,8 @@ test('planet size formula and the complete requested orbit/size table are author
 test('Sun classification, Star Size and converted diameter remain separate',()=>{
   assert.equal(SUN.starSize,90);assert.equal(SUN.spectralType,'G2V');assert.equal(SUN.spectralClass,'G');assert.equal(SUN.luminosityClass,'V');
   assert.equal(SUN.temperatureK,5772);assert.equal(SUN.realRadiusKm,696340);assert.equal(SUN.realRadiusSolar,1);
-  assert.equal(starDiameterGameAU(SUN),70);assert.equal(bodyRadiusGameAU(SUN),35);assert.equal('planetSize' in SUN,false);
-  assert.equal(starDiameterGameAU({...SUN,starSize:45}),35);
+  assert.equal(starDiameterWorldUnits(SUN),70);assert.equal(bodyRadiusWorldUnits(SUN),35);assert.equal(starDiameterGameAU(SUN),26.5);assert.equal('planetSize' in SUN,false);
+  assert.equal(starDiameterWorldUnits({...SUN,starSize:45}),35);
 });
 test('game ellipses keep the reference orientation, eccentricity and phase',()=>{
   for(const b of [...PLANETS,...MOONS]) {
@@ -109,17 +109,17 @@ test('entire orbital envelopes clear the star, neighboring systems, satellites a
   }
 });
 test('validation catches invalid star size, crossing planet paths, satellite interiors and ring overlap',()=>{
-  assert.ok(validateSystem({star:{...SUN,starSize:140}}).issues.some(i=>i.kind==='star-planet'));
+  assert.ok(validateSystem({star:{...SUN,starSize:400}}).issues.some(i=>i.kind==='star-planet'));
   const crossing=PLANETS.map(p=>p.id==='venus'?{...p,orbitGameAU:65}:p);
   assert.ok(validateSystem({planets:crossing}).issues.some(i=>i.kind==='planet-planet'));
-  const underground=MOONS.map(m=>m.id==='moon'?{...m,orbitGameAU:6}:m);
+  const underground=MOONS.map(m=>m.id==='moon'?{...m,orbitGameAU:2}:m);
   assert.ok(validateSystem({moons:underground}).issues.some(i=>i.kind==='parent-or-ring-satellite'));
-  const ring=MOONS.map(m=>m.id==='enceladus'?{...m,orbitGameAU:50}:m);
+  const ring=MOONS.map(m=>m.id==='enceladus'?{...m,orbitGameAU:18}:m);
   assert.ok(validateSystem({moons:ring}).issues.some(i=>i.label==='enceladus'));
 });
 test('all satellites use a distinct diameter rule and game-relative orbit',()=>{
   for(const moon of MOONS) {
-    assert.equal('planetSize' in moon,false);assert.ok(moon.satelliteDiameterGameAU>=.3);
+    assert.equal('planetSize' in moon,false);assert.ok(moon.satelliteDiameterWorldUnits>=.3);
     assert.notEqual(moon.orbitGameAU,moon.realOrbitAU*100);
     assert.ok(bodyDiameterGameAU(moon)>0);
   }
@@ -130,4 +130,15 @@ test('selection assistance ignores occluded/offscreen targets and resolves dista
   assert.equal(assistedBodySelection({x:25,y:10},candidates,12),null);
   assert.equal(assistedBodySelection({x:25,y:10},candidates,18),'near');
   assert.equal(assistedBodySelection({x:10,y:10},[{...candidates[0],pixelRadius:30}]),null);
+});
+
+test('53 AU stays 53 while its rendered length matches the previous 140-unit Jupiter–Saturn gap',()=>{
+  assert.equal(elementsAt(byId('mercury')).a,53);assert.equal(gameAUToWorld(53),420-280);
+  for(const body of [...PLANETS,...MOONS]) {
+    const p=orbitPosition(body),converted={x:gameAUToWorld(p.x),y:gameAUToWorld(p.y),z:gameAUToWorld(p.z)};
+    assert.ok(distance(p,{x:worldToGameAU(converted.x),y:worldToGameAU(converted.y),z:worldToGameAU(converted.z)})<1e-10);
+  }
+  assert.equal(bodyDiameterWorldUnits(byId('earth')),15);assert.equal(bodyDiameterWorldUnits(SUN),70);
+  const scale=scaleForView(worldToGameAU(1000),43,600);
+  assert.ok(Math.abs(gameAUToWorld(scale.lengthGameAU)/gameAUToWorld(scale.gameAUPerPixel)-scale.pixels)<1e-10);
 });
