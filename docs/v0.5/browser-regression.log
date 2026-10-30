@@ -1,0 +1,6 @@
+PASS: context HUD, no selection zoom, popup tracks orbit/drag, expansion and v0.3 fixed size/texture/axis
+PASS: edge clamping, occultation, sector hover/select/toggle, body priority, drag guard and Moon assistance
+PASS: paused/speed/overlays, 3 injected systems, tilted sector ray pick, context reset and GPU/DOM cleanup
+PASS: 844×390 touch body/sector, popup bounds, drag/pinch, Moon assistance
+PASS: 667×375 touch body/sector, popup bounds, drag/pinch, Moon assistance
+PASS: complete v0.4 browser flow, no page/console errors; performance {"elapsedMs":2628.599999997765,"frames":18,"fps":6.847751654879139,"calls":55,"triangles":172850,"geometries":35}

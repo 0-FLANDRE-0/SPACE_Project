@@ -1,4 +1,5 @@
-import { BASE_DAYS_PER_SECOND, BODY_BY_ID, J2000_DAYS_AT_EPOCH } from './data.js';
+import { TimeControl } from './time-control.js';
+import { BODY_BY_ID, J2000_DAYS_AT_EPOCH } from './data.js';
 const TAU=Math.PI*2;
 const RAD=Math.PI/180;
 export const wrapAngle=angle=>((angle%TAU)+TAU)%TAU;
@@ -88,10 +89,12 @@ export function scaleForView(distanceGameAU,fovDegrees,height,pixels=110) {
   const lengthGameAU=nice*power;
   return {unit:'AU',value:lengthGameAU,lengthGameAU,pixels:lengthGameAU/gameAUPerPixel,gameAUPerPixel};
 }
-export class Simulation {
-  constructor(bodyMap=BODY_BY_ID){this.bodyMap=bodyMap;}
-  setSystem(context){this.bodyMap=context.bodyById;this.days=0;this.selectedId=null;}
-  days=0;speed=1;paused=false;selectedId=null;
-  advance(seconds) {if(Number.isFinite(seconds)&&seconds>=0&&!this.paused)this.days+=seconds*BASE_DAYS_PER_SECOND*this.speed;}
+export class Simulation extends TimeControl {
+  constructor(bodyMap=BODY_BY_ID){super();this.bodyMap=bodyMap;}
+  setSystem(context){this.bodyMap=context.bodyById;this.selectedId=null;}
+  days=0;selectedId=null;
+  get speed(){return this.effectiveSpeed;}
+  set speed(value){this.setRequestedSpeed(value);}
+  advance(seconds) {this.days+=this.gameSecondsFor(seconds)/86400;}
   select(id) {if(id!==null&&!this.bodyMap.has(id))return false;this.selectedId=id;return true;}
 }

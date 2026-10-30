@@ -35,16 +35,18 @@ export class SystemViewer {
     this.installInput();this.resize();this.setSystemContext(systemContext);
   }
   installInput() {
-    const canvas=this.renderer.domElement,options={signal:this.abort.signal};let down=null;
-    canvas.addEventListener('pointerdown',e=>{down=e.isPrimary?{x:e.clientX,y:e.clientY,button:e.button,pointerType:e.pointerType}:null;},options);
+    const canvas=this.renderer.domElement,options={signal:this.abort.signal};let down=null,moved=false;
+    canvas.addEventListener('pointerdown',e=>{moved=false;down=e.isPrimary?{x:e.clientX,y:e.clientY,button:e.button,pointerType:e.pointerType}:null;},options);
     canvas.addEventListener('click',e=>{
-      if(!down||down.button!==0||Math.hypot(e.clientX-down.x,e.clientY-down.y)>5)return;
+      if(!down||moved||down.button!==0||Math.hypot(e.clientX-down.x,e.clientY-down.y)>=5)return;
+      if(this.administrationEditing){const sector=this.pickSectorAt(e.clientX,e.clientY);if(sector)this.onEditSector?.(sector);return;}
       const body=this.pickAt(e.clientX,e.clientY,down.pointerType);
       if(body){this.select(body,this.lastBodyHitWorld);return;}
       const sector=this.pickSectorAt(e.clientX,e.clientY);
       if(sector)this.selectSector(sector);else this.select(null);
     },options);
     canvas.addEventListener('pointermove',e=>{
+      if(down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)>=5)moved=true;
       if(e.pointerType==='touch'||e.buttons){this.sectors.setHover(null);this.onHover(null);return;}
       const body=this.pickAt(e.clientX,e.clientY,e.pointerType),sector=body?null:this.pickSectorAt(e.clientX,e.clientY);
       this.sectors.setHover(sector);this.onHover(sector);canvas.style.cursor=body?'pointer':sector?'crosshair':'grab';
@@ -56,7 +58,7 @@ export class SystemViewer {
   setSystemContext(context) {
     this.contextAbort?.abort();this.contextAbort=new AbortController();if(this.bodies?.size===0)this.bodyGeometry?.dispose();
     disposeTree(this.worldRoot);disposeTree(this.backgroundRoot);this.labelsElement.replaceChildren();
-    this.context=context;this.validation=context.validation??null;this.extent=calculateManagedExtent(context);this.bodies=new Map();this.orbits=new Map();this.belts=new Map();this.labels=new Map();this.lights=new Map();this.pickables=[];
+    this.administrationEditing=false;this.context=context;this.validation=context.validation??null;this.extent=calculateManagedExtent(context);this.bodies=new Map();this.orbits=new Map();this.belts=new Map();this.labels=new Map();this.lights=new Map();this.pickables=[];
     this.selectedId=null;this.selectedSector=null;this.followId=null;this.lastFollowTarget=null;this.transition=null;this.simDays=0;
     this.worldRoot=new THREE.Group();this.scene.add(this.worldRoot);this.bodyGeometry=new THREE.SphereGeometry(1,64,40);
     for(const body of [...context.stars,...context.planets,...context.moons])this.createBody(body);

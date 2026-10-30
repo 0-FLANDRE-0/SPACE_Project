@@ -4,7 +4,7 @@ import { JPL_ELEMENTS, IAU_POLES, SATELLITE_ELEMENTS } from './astronomy-data.js
 export const REAL_AU_KM = 149597870.7;
 export const EPOCH = '2026-10-29T00:00:00Z';
 export const J2000_DAYS_AT_EPOCH = (Date.parse(EPOCH) - Date.parse('2000-01-01T12:00:00Z')) / 86400000;
-export const BASE_DAYS_PER_SECOND = 0.02;
+export const BASE_DAYS_PER_SECOND = 10 / 86400; // compatibility: 1× = 10 game seconds / real second
 const texture = name => './assets/textures/2k_' + name;
 export const SURFACE_FILES = {
   sun:texture('sun.jpg'), mercury:texture('mercury.jpg'), venus:texture('venus_atmosphere.jpg'),

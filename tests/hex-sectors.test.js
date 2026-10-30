@@ -73,8 +73,8 @@ test('empty optional arrays and independent multiple-star positions are accepted
   const c=createLargeFixture();assert.notDeepEqual(c.gamePosition(c.stars[0].id),c.systemCenterGameAU);assert.notDeepEqual(c.gamePosition(c.stars[1].id),c.gamePosition(c.stars[0].id));
   assert.throws(()=>createSystemContext({systemId:'bad',planets:[{id:'a',parent:'b'}]}),/Unknown parent/);
 });
-test('simulation context switch clears previous selection and accepts only the new body namespace',()=>{
-  const c=createSolContext(),d=createSmallFixture(),sim=new Simulation(c.bodyById);sim.select('earth');sim.advance(1);sim.setSystem(d);assert.equal(sim.selectedId,null);assert.equal(sim.days,0);assert.equal(sim.select('earth'),false);assert.equal(sim.select('vela'),true);
+test('simulation context switch preserves the single world clock and clears the previous body namespace',()=>{
+  const c=createSolContext(),d=createSmallFixture(),sim=new Simulation(c.bodyById);sim.select('earth');sim.advance(1);const worldDays=sim.days;sim.setSystem(d);assert.equal(sim.selectedId,null);assert.equal(sim.days,worldDays);assert.equal(sim.select('earth'),false);assert.equal(sim.select('vela'),true);
 });
 test('context popup flips and clamps near every edge in desktop and mobile landscape',()=>{
   for(const viewport of [{width:1440,height:1000},{width:844,height:390},{width:667,height:375}])for(const x of [0,viewport.width/2,viewport.width])for(const y of [0,viewport.height/2,viewport.height]){const p=placeContextPanel({x,y,pixelRadius:20},190,200,viewport);assert.ok(p.x>=12);assert.ok(p.x+190<=viewport.width-12);assert.ok(p.y>=68);assert.ok(p.y+200<=viewport.height-90);}
