@@ -1,12 +1,12 @@
 {
   "name": "space-project",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "description": "Three.js 기반 3D 모항성계 프로토타입",
   "scripts": {
     "dev": "python3 -m http.server 5173 --directory dist",
     "test": "node --test tests/*.test.js",
-    "check": "node --check dist/src/main.js && node --check dist/src/scene.js && node --check dist/src/textures.js && node --check dist/src/model.js && node --check dist/src/data.js && node --check dist/src/astronomy-data.js && node --check dist/src/game-space.js && node --check dist/src/validation.js && node --check dist/src/selection.js"
+    "check": "node scripts/check-syntax.mjs"
   }
 }

@@ -1,144 +1,97 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import { gameAUToWorld } from '../dist/src/game-space.js';
-const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
-const browser = await chromium.launch({
-  ...(process.env.CHROMIUM_EXECUTABLE ? {executablePath:process.env.CHROMIUM_EXECUTABLE}:{}),
-  headless:true,
-  args:['--no-sandbox','--enable-unsafe-swiftshader','--use-angle=swiftshader','--ignore-gpu-blocklist'],
-});
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright');
+const browser=await chromium.launch({...(process.env.CHROMIUM_EXECUTABLE?{executablePath:process.env.CHROMIUM_EXECUTABLE}:{}),headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader','--use-angle=swiftshader','--ignore-gpu-blocklist']});
+const baseURL=process.env.BASE_URL||'http://127.0.0.1:5173';
+await fs.mkdir('artifacts/v04',{recursive:true});
 const errors=[];
-const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
-page.on('pageerror',e=>errors.push(String(e)));
-page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
-const baseURL=process.env.BASE_URL || 'http://127.0.0.1:5173';
-await fs.mkdir('artifacts',{recursive:true});
-const shot=async(p,name)=>p.screenshot({path:'artifacts/v03-'+name+'.png'});
-const settled=async p=>{await p.waitForFunction(()=>!spacePrototype.viewer.transition);await p.waitForTimeout(180);};
+const watch=p=>{p.on('pageerror',e=>errors.push(String(e)));p.on('console',m=>{if(m.type()==='error')errors.push(m.text());});};
+const shot=(p,name)=>p.screenshot({path:'artifacts/v04/'+name+'.png'});
+const settle=async p=>{await p.waitForFunction(()=>!spacePrototype.viewer.transition);await p.waitForTimeout(250);};
+async function open(p){const r=await p.goto(baseURL+'?dev=1',{waitUntil:'networkidle'});assert.equal(r.status(),200);await p.waitForFunction(()=>window.spacePrototype?.viewer);await p.locator('#pause').click();}
+async function settings(p){if(!await p.locator('#settings').isVisible())await p.locator('#settings-toggle').click();}
+async function choose(p,id){await settings(p);await p.locator('#body-picker').selectOption(id);await p.waitForTimeout(120);}
+async function view(p,name){await settings(p);await p.locator('[data-view="'+name+'"]').click();await settle(p);}
+async function focus(p,mode='surface'){if(await p.locator('[data-focus-mode]').count())await p.locator('[data-focus-mode]').selectOption(mode);await p.locator('[data-focus]').click();await settle(p);}
+async function panelBounds(p){await p.locator('#context-panel').waitFor({state:'visible'});const rect=await p.locator('#context-panel').boundingBox(),size=p.viewportSize();assert.ok(rect,'panel visible');assert.ok(rect.x>=11&&rect.y>=67,JSON.stringify(rect));assert.ok(rect.x+rect.width<=size.width-10&&rect.y+rect.height<=size.height-88,JSON.stringify(rect));return rect;}
 const radii=p=>p.evaluate(()=>[...spacePrototype.viewer.bodies].map(([id,e])=>[id,e.visual.scale.x]));
-async function clickAssistedMoon(p,touch=false){
-  const position=await p.evaluate(()=>{const v=spacePrototype.viewer,c=v.screenCandidates(),m=c.find(x=>x.id==='moon'),e=c.find(x=>x.id==='earth'),r=v.container.getBoundingClientRect();if(!m.visible)throw Error('Moon is occluded');const d=Math.hypot(m.x-e.x,m.y-e.y),offset=m.pixelRadius+3;return {x:r.x+m.x+(m.x-e.x)/d*offset,y:r.y+m.y+(m.y-e.y)/d*offset,pixelRadius:m.pixelRadius};});
-  assert.ok(position.pixelRadius<(touch?15:9));
-  if(touch)await p.touchscreen.tap(position.x,position.y);else await p.mouse.click(position.x,position.y);
-  assert.equal(await p.evaluate(()=>spacePrototype.simulation.selectedId),'moon');
-}
+async function bodyPixel(p,id){return p.evaluate(id=>{const v=spacePrototype.viewer,c=v.screenCandidates().find(c=>c.id===id),r=v.container.getBoundingClientRect();if(!c?.visible)throw Error('Body not visible: '+id);return{x:r.x+c.x,y:r.y+c.y,radius:c.pixelRadius};},id);}
+async function clickBody(p,id,touch=false){const pixel=await bodyPixel(p,id);if(touch)await p.touchscreen.tap(pixel.x,pixel.y);else await p.mouse.click(pixel.x,pixel.y);assert.equal(await p.evaluate(()=>spacePrototype.selection?.bodyId),id);}
+async function emptySectorPixel(p,exclude=null){return p.evaluate(exclude=>{const v=spacePrototype.viewer,r=v.container.getBoundingClientRect();for(const s of v.sectors.grid.sectors){if(s.id===exclude||s.ring===0)continue;const point={x:s.centerGameAU.x*140/53,y:s.centerGameAU.y*140/53,z:s.centerGameAU.z*140/53},q=v.projectWorld(point);if(!q.visible||q.x<85||q.x>r.width-85||q.y<110||q.y>r.height-120)continue;const x=r.x+q.x,y=r.y+q.y;if(document.elementFromPoint(x,y)===v.renderer.domElement&&!v.pickAt(x,y)&&v.pickSectorAt(x,y)?.id===s.id)return{x,y,id:s.id};}throw Error('No empty sector pixel');},exclude);}
+async function switchSystem(p,key){await settings(p);await p.locator('#system-picker').selectOption(key);await p.waitForFunction(key=>spacePrototype.context.systemId===({sol:'sol',small:'fixture-small',wide:'fixture-wide'})[key],key);await p.waitForTimeout(200);}
+async function assistedMoon(p,touch=false){const point=await p.evaluate(()=>{const v=spacePrototype.viewer,c=v.screenCandidates(),m=c.find(x=>x.id==='moon'),e=c.find(x=>x.id==='earth');if(!m.visible)throw Error('Moon hidden');const d=Math.hypot(m.x-e.x,m.y-e.y),offset=m.pixelRadius+3,r=v.container.getBoundingClientRect();return{x:r.x+m.x+(m.x-e.x)/d*offset,y:r.y+m.y+(m.y-e.y)/d*offset,radius:m.pixelRadius};});assert.ok(point.radius<(touch?15:9));if(touch)await p.touchscreen.tap(point.x,point.y);else await p.mouse.click(point.x,point.y);assert.equal(await p.evaluate(()=>spacePrototype.selection?.bodyId),'moon');}
+async function touchDrag(p){const session=await p.context().newCDPSession(p);await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:90,y:180}]});for(let i=1;i<=8;i++)await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:90+i*6,y:180+i*2}]});await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await session.detach();await p.waitForTimeout(300);}
+async function pinch(p){const session=await p.context().newCDPSession(p);await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:85,y:210,id:1},{x:155,y:210,id:2}]});for(let i=1;i<=8;i++)await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:85-i*3,y:210,id:1},{x:155+i*3,y:210,id:2}]});await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await session.detach();await p.waitForTimeout(300);}
+
 try {
-  const response=await page.goto(baseURL,{waitUntil:'networkidle'});assert.equal(response.status(),200);
-  await page.waitForFunction(()=>window.spacePrototype?.viewer);
-  assert.equal(await page.locator('#loading.hidden').count(),1);
-  assert.equal(await page.evaluate(()=>spacePrototype.viewer.bodies.size),20);
-  assert.equal(await page.evaluate(()=>spacePrototype.viewer.belts.size),2);
-  const fixedRadii=await radii(page);
-  assert.equal(await page.evaluate(()=>spacePrototype.viewer.validation.valid),true);
-  assert.equal(await page.evaluate(()=>spacePrototype.viewer.controls.minDistance),42);
-  assert.equal(await page.evaluate(()=>spacePrototype.viewer.bodies.get('sun').visual.scale.x),35);
-  assert.equal(await page.evaluate(()=>spacePrototype.viewer.bodies.get('earth').visual.scale.x),7.5);
-  assert.equal(await page.evaluate(()=>spacePrototype.viewer.bodies.get('mercury').body.orbitGameAU),53);
-  assert.ok(await page.evaluate(()=>{const e=spacePrototype.viewer.bodies.get('earth');return Math.abs(e.root.position.length()/e.body.orbitGameAU-140/53)<.06;}));
+  const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});watch(page);await open(page);
+  assert.equal(await page.locator('#body-list,#details,.sidebar').count(),0);assert.equal(await page.locator('#context-panel').isVisible(),false);
+  assert.deepEqual(await page.evaluate(()=>({size:spacePrototype.viewer.sectors.grid.radiusGameAU,rings:spacePrototype.viewer.sectors.grid.ringCount,count:spacePrototype.viewer.sectors.grid.sectorCount})),{size:210,rings:3,count:37});
+  assert.deepEqual(await page.evaluate(()=>[spacePrototype.viewer.bodies.size,spacePrototype.viewer.belts.size,spacePrototype.viewer.validation.valid,spacePrototype.viewer.controls.minDistance]),[20,2,true,42]);
+  const fixed=await radii(page);assert.equal(fixed.find(([id])=>id==='earth')[1],7.5);assert.equal(fixed.find(([id])=>id==='sun')[1],35);
   await shot(page,'overview');
-  await page.locator('#inner-system').click();await settled(page);await shot(page,'inner');
-  console.log('PASS: overall/inner framing, fixed planet/star size, valid orbital envelopes');
+  const performance=await page.evaluate(async()=>{let frames=0;const start=performance.now();await new Promise(resolve=>{const tick=()=>{frames++;if(performance.now()-start>2500)resolve();else requestAnimationFrame(tick);};requestAnimationFrame(tick);});return{elapsedMs:performance.now()-start,frames,fps:frames*1000/(performance.now()-start),calls:spacePrototype.viewer.renderer.info.render.calls,triangles:spacePrototype.viewer.renderer.info.render.triangles,geometries:spacePrototype.viewer.renderer.info.memory.geometries};});
+  await fs.writeFile('artifacts/v04/performance.json',JSON.stringify(performance,null,2));
+  const camera=await page.evaluate(()=>spacePrototype.viewer.camera.position.toArray());await clickBody(page,'jupiter');
+  assert.deepEqual(await page.evaluate(()=>spacePrototype.viewer.camera.position.toArray()),camera);assert.equal(await page.evaluate(()=>!!spacePrototype.viewer.transition),false);await panelBounds(page);await shot(page,'body-tab');
+  const selected=await page.evaluate(()=>spacePrototype.selection.bodyId);await page.mouse.move(180,550);await page.mouse.down();await page.mouse.move(235,570,{steps:8});await page.mouse.up();await page.waitForTimeout(300);assert.equal(await page.evaluate(()=>spacePrototype.selection.bodyId),selected);await panelBounds(page);
+  await page.locator('#home').click();await settle(page);await settings(page);await page.locator('#inner-view').click();await settle(page);await shot(page,'inner');
+  await choose(page,'earth');assert.ok(await page.evaluate(()=>spacePrototype.viewer.orbits.get('earth').material.opacity>spacePrototype.viewer.orbits.get('mars').material.opacity*8));const before=await panelBounds(page);await page.evaluate(()=>spacePrototype.simulation.days+=65);await page.waitForTimeout(400);const after=await panelBounds(page);assert.ok(Math.hypot(after.x-before.x,after.y-before.y)>1);await shot(page,'moving-tab');
+  await focus(page);await shot(page,'earth-close');assert.equal(await page.evaluate(()=>spacePrototype.viewer.followId),'earth');assert.deepEqual(await radii(page),fixed);
+  assert.equal(await page.evaluate(()=>spacePrototype.viewer.surfaces.earth.image.naturalWidth),2048);assert.equal(await page.evaluate(()=>spacePrototype.viewer.scale.unit),'AU');
+  await settings(page);await page.locator('#show-axes').check();await page.locator('#settings-close').click();await page.waitForTimeout(150);assert.equal(await page.evaluate(()=>spacePrototype.viewer.bodies.get('earth').axis.visible),true);
+  console.log('PASS: context HUD, no selection zoom, popup tracks orbit/drag, expansion and v0.3 fixed size/texture/axis');
 
-  await page.locator('.body-row[data-select="earth"]').click();
-  assert.equal(await page.evaluate(()=>spacePrototype.simulation.selectedId),'earth');
-  assert.ok(await page.evaluate(()=>spacePrototype.viewer.orbits.get('earth').material.opacity>spacePrototype.viewer.orbits.get('mars').material.opacity*8));
-  await page.locator('[data-focus-orbit="earth"]').click();
-  await page.waitForFunction(()=>!spacePrototype.viewer.transition);
-  await page.locator('[data-view="top"]').click();await settled(page);
-  assert.ok(await page.locator('.body-label[data-body-id="moon"]').isVisible());
-  await shot(page,'earth-moon');
-  await page.locator('#toggle-labels').click();await clickAssistedMoon(page);
-  await page.locator('[data-focus="moon"]').click();await settled(page);await shot(page,'moon-close');
-  await page.locator('#toggle-labels').click();
-  await page.locator('.body-row[data-select="earth"]').click();
-  await page.locator('[data-focus="earth"]').click();
-  await page.waitForFunction(()=>!spacePrototype.viewer.transition);
-  await page.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='AU');
-  assert.equal(await page.evaluate(()=>spacePrototype.viewer.surfaces.earth.image.naturalWidth),2048);
-  assert.ok(await page.evaluate(()=>spacePrototype.viewer.bodies.get('earth').visual.scale.x===7.5));
-  assert.ok(await page.evaluate(()=>spacePrototype.viewer.bodies.get('earth').axis.visible));
-  await shot(page,'earth-close');
-  assert.deepEqual(await radii(page),fixedRadii);
-  console.log('PASS: Earth/Moon approaches, mouse assistance, reference texture and constant game radii');
+  // Pan selected body to either edge; the popup flips and remains fully usable.
+  for(const sign of [-1,1]){
+    await page.evaluate(sign=>{const v=spacePrototype.viewer,target=v.bodies.get('earth').root.position.clone();v.followId=null;const offset=v.camera.position.clone().sub(v.controls.target),right=offset.clone().cross(v.camera.up).negate().normalize();const amount=offset.length()*Math.tan(v.camera.fov*Math.PI/360)*v.camera.aspect*.8;v.controls.target.copy(target).addScaledVector(right,sign*amount);v.camera.position.copy(v.controls.target).add(offset);v.controls.update();},sign);
+    await page.waitForTimeout(400);await panelBounds(page);
+  }
+  await shot(page,'edge-tab');
+  await page.evaluate(()=>{const v=spacePrototype.viewer,e=v.bodies.get('earth').root.position.clone();v.followId=null;v.camera.position.copy(e.clone().normalize().multiplyScalar(-3000));v.controls.target.copy(e);v.controls.update();});await page.waitForTimeout(250);assert.equal(await page.locator('#context-panel').isVisible(),false);assert.equal(await page.evaluate(()=>spacePrototype.selection.bodyId),'earth');
+  await page.locator('#home').click();await settle(page);await view(page,'top');
+  const empty=await emptySectorPixel(page);await page.mouse.move(empty.x,empty.y);await page.waitForTimeout(120);assert.equal(await page.evaluate(()=>spacePrototype.viewer.sectors.hoverId),empty.id);
+  await page.mouse.click(empty.x,empty.y);assert.equal(await page.evaluate(()=>spacePrototype.selection.kind),'sector');assert.equal(await page.evaluate(()=>spacePrototype.selection.sector.id),empty.id);await panelBounds(page);await shot(page,'sector-selected');
+  const generation=await page.evaluate(()=>spacePrototype.viewer.sectors.generation),other=await emptySectorPixel(page,empty.id);await page.mouse.click(other.x,other.y);assert.equal(await page.evaluate(()=>spacePrototype.viewer.sectors.generation),generation);
+  await page.locator('#hex-toggle').click();assert.equal(await page.evaluate(()=>spacePrototype.viewer.sectors.enabled),false);assert.equal(await page.evaluate(()=>spacePrototype.viewer.sectors.grid.sectorCount),37);
+  await page.mouse.click(20,110);assert.equal(await page.evaluate(()=>spacePrototype.selection),null);await page.locator('#hex-toggle').click();
+  await clickBody(page,'sun');assert.equal(await page.evaluate(()=>spacePrototype.selection.kind),'body');assert.equal(await page.evaluate(()=>spacePrototype.viewer.selectedSector),null);
+  await page.mouse.move(150,300);await page.mouse.down();await page.mouse.move(220,350,{steps:8});await page.mouse.up();assert.equal(await page.evaluate(()=>spacePrototype.selection.kind),'body');
+  assert.equal(await page.evaluate(()=>{const v=spacePrototype.viewer,ray=v.raycaster.ray.clone();ray.direction.copy(v.sectors.plane.normal).cross(v.context.sectorPlane.tangentU);return v.sectors.pick(ray);}),null);
+  await page.locator('#home').click();await settle(page);await choose(page,'earth');await focus(page,'orbit');await view(page,'top');await page.locator('[data-close]').click();await assistedMoon(page);assert.ok(await page.evaluate(()=>spacePrototype.viewer.orbits.get('moon').material.opacity>spacePrototype.viewer.orbits.get('earth').material.opacity));await focus(page);await shot(page,'moon-close');
+  await page.locator('[data-close]').click();assert.equal(await page.locator('#context-panel').isVisible(),false);assert.equal(await page.locator('#context-panel').textContent(),'');
+  console.log('PASS: edge clamping, occultation, sector hover/select/toggle, body priority, drag guard and Moon assistance');
 
-  await page.locator('#pause').click();
-  const paused=await page.evaluate(()=>({days:spacePrototype.simulation.days,earth:spacePrototype.viewer.bodies.get('earth').root.position.toArray()}));
-  await page.waitForTimeout(400);
-  assert.deepEqual(await page.evaluate(()=>({days:spacePrototype.simulation.days,earth:spacePrototype.viewer.bodies.get('earth').root.position.toArray()})),paused);
-  await page.locator('[data-speed="50"]').click();await page.locator('#pause').click();
-  await page.waitForTimeout(300);assert.ok(await page.evaluate(days=>spacePrototype.simulation.days>days,paused.days));
-  await page.locator('#pause').click();await page.locator('[data-speed="1"]').click();
+  // Preserve pause/speed/overlay flows through the new settings UI.
+  const paused=await page.evaluate(()=>spacePrototype.simulation.days);await page.waitForTimeout(250);assert.equal(await page.evaluate(()=>spacePrototype.simulation.days),paused);
+  await page.locator('[data-speed="50"]').click();await page.locator('#pause').click();await page.waitForTimeout(300);assert.ok(await page.evaluate(d=>spacePrototype.simulation.days>d,paused));await page.locator('#pause').click();await page.locator('[data-speed="1"]').click();
+  await settings(page);await page.locator('#show-orbits').uncheck();await page.locator('#show-labels').uncheck();await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>[...spacePrototype.viewer.orbits.values()].every(o=>!o.visible)));assert.ok(await page.evaluate(()=>[...document.querySelectorAll('.body-label')].every(e=>e.hidden)));await page.locator('#show-orbits').check();await page.locator('#show-labels').check();await page.locator('#help').click();assert.equal(await page.locator('#help-dialog').isVisible(),true);await page.locator('#close-help').click();
+  await settings(page);await page.locator('#show-plane').check();await page.waitForFunction(()=>spacePrototype.viewer.referencePlane.visible);await page.locator('#show-plane').uncheck();await view(page,'side');assert.ok(await page.evaluate(()=>{const v=spacePrototype.viewer;return Math.abs(v.camera.position.clone().sub(v.controls.target).normalize().dot(v.context.sectorPlane.normal))<.05;}));
+  await page.locator('#home').click();await settle(page);await choose(page,'asteroid-belt');await panelBounds(page);assert.ok(await page.evaluate(()=>spacePrototype.viewer.belts.get('asteroid-belt').edges[0].material.opacity>.5));await focus(page);await shot(page,'belt-close');
+  for(const id of ['jupiter','saturn']){await page.locator('#home').click();await settle(page);await choose(page,id);await focus(page,'orbit');await shot(page,id+'-close');if(id==='saturn'){await page.locator('.reference-details summary').click();await panelBounds(page);assert.equal(await page.locator('.reference-details').getAttribute('open'),'');await page.locator('.reference-details summary').click();assert.ok(await page.evaluate(()=>{const e=spacePrototype.viewer.bodies.get('saturn'),normal=e.root.position.clone().set(0,1,0).transformDirection(e.mesh.matrixWorld),pole=e.root.position.clone().set(0,1,0).applyQuaternion(e.axisFrame.quaternion);return normal.dot(pole)>.99999;}));}}
+  await page.evaluate(()=>{window.disposalCount=0;spacePrototype.viewer.sectors.lines.geometry.addEventListener('dispose',()=>window.disposalCount++);window.oldLabel=spacePrototype.viewer.labels.get('earth');return true;});
+  await switchSystem(page,'small');assert.equal(await page.evaluate(()=>window.disposalCount),1);assert.equal(await page.evaluate(()=>window.oldLabel.isConnected),false);
+  assert.equal(await page.locator('canvas').count(),1);assert.equal(await page.locator('#context-panel').textContent(),'');assert.equal(await page.evaluate(()=>spacePrototype.viewer.followId),null);
+  assert.deepEqual(await page.evaluate(()=>[spacePrototype.viewer.sectors.grid.radiusGameAU,spacePrototype.viewer.sectors.grid.ringCount,spacePrototype.viewer.sectors.grid.sectorCount]),[210,0,1]);
+  await shot(page,'small-system');await choose(page,'vela');assert.ok((await page.locator('#context-panel').textContent()).includes('벨라'));await focus(page);await shot(page,'small-context');
+  await switchSystem(page,'wide');assert.deepEqual(await page.evaluate(()=>[spacePrototype.viewer.sectors.grid.radiusGameAU,spacePrototype.viewer.sectors.grid.ringCount,spacePrototype.viewer.sectors.grid.sectorCount]),[210,6,127]);await shot(page,'wide-system');
+  await view(page,'top');const wideSector=await emptySectorPixel(page);await page.mouse.click(wideSector.x,wideSector.y);assert.equal(await page.evaluate(()=>spacePrototype.selection.sector.id),wideSector.id);await shot(page,'wide-sector');
+  await choose(page,'primary');await focus(page);assert.ok((await page.locator('#context-panel').textContent()).includes('A7V'));assert.ok(await page.evaluate(()=>spacePrototype.viewer.controls.target.distanceTo(spacePrototype.viewer.bodies.get('primary').root.position)<.01));
+  await page.evaluate(async()=>{for(const key of ['sol','small','wide','sol'])await spacePrototype.setSystem(key);});await page.waitForTimeout(300);
+  assert.equal(await page.locator('canvas').count(),1);assert.equal(await page.locator('#labels button').count(),20);assert.equal(await page.evaluate(()=>spacePrototype.selection),null);assert.deepEqual(await radii(page),fixed);
+  assert.ok(await page.evaluate(original=>spacePrototype.viewer.renderer.info.memory.geometries<=original+1,performance.geometries));
+  console.log('PASS: paused/speed/overlays, 3 injected systems, tilted sector ray pick, context reset and GPU/DOM cleanup');
 
-  // Rotate and zoom the actual canvas, then select a mesh through the raycaster.
-  const rect=await page.locator('#viewport').boundingBox();
-  const cameraBefore=await page.evaluate(()=>spacePrototype.viewer.camera.position.toArray());
-  await page.mouse.move(rect.x+rect.width*.35,rect.y+rect.height*.30);
-  await page.mouse.down();await page.mouse.move(rect.x+rect.width*.48,rect.y+rect.height*.37,{steps:12});await page.mouse.up();
-  await page.waitForTimeout(350);
-  assert.notDeepEqual(await page.evaluate(()=>spacePrototype.viewer.camera.position.toArray()),cameraBefore);
-  await page.mouse.wheel(0,-100);await page.waitForTimeout(300);
-  await page.evaluate(()=>spacePrototype.select(null));
-  const earthPixel=await page.evaluate(()=>{
-    const v=spacePrototype.viewer, p=v.bodies.get('earth').root.position.clone().project(v.camera),r=v.container.getBoundingClientRect();
-    return {x:r.x+(p.x*.5+.5)*r.width,y:r.y+(-p.y*.5+.5)*r.height};
-  });
-  await page.mouse.click(earthPixel.x,earthPixel.y);
-  assert.equal(await page.evaluate(()=>spacePrototype.simulation.selectedId),'earth');
-
-  await page.locator('.moon-row[data-select="moon"]').click();
-  assert.equal(await page.evaluate(()=>spacePrototype.simulation.selectedId),'moon');
-  assert.ok(await page.evaluate(()=>spacePrototype.viewer.orbits.get('moon').material.opacity>spacePrototype.viewer.orbits.get('earth').material.opacity));
-  await page.locator('.body-row[data-select="asteroid-belt"]').click();
-  assert.ok(await page.evaluate(()=>spacePrototype.viewer.belts.get('asteroid-belt').edges[0].material.opacity>.5));
-
-  await page.locator('#toggle-orbits').click();
-  await page.waitForFunction(()=>[...spacePrototype.viewer.orbits.values()].every(o=>!o.visible));
-  await page.locator('#toggle-orbits').click();
-  await page.locator('#toggle-labels').click();
-  await page.waitForFunction(()=>[...document.querySelectorAll('.body-label')].every(e=>e.style.display==='none'));
-  await page.locator('#toggle-labels').click();
-  await page.locator('#toggle-plane').click();assert.equal(await page.evaluate(()=>spacePrototype.viewer.referencePlane.visible),true);
-  await page.locator('#toggle-plane').click();
-  await page.locator('[data-view="side"]').click();await page.waitForFunction(()=>!spacePrototype.viewer.transition);
-  assert.ok(await page.evaluate(()=>{const v=spacePrototype.viewer,d=v.camera.position.clone().sub(v.controls.target);return Math.abs(d.y/d.length())<.05;}));
-  await page.locator('#reset-view').click();await page.waitForFunction(()=>!spacePrototype.viewer.transition);
-  await page.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='AU');
-  await page.locator('#inner-system').click();await page.waitForFunction(()=>!spacePrototype.viewer.transition);
-  assert.ok(await page.evaluate(limit=>spacePrototype.viewer.camera.position.distanceTo(spacePrototype.viewer.controls.target)<limit,gameAUToWorld(550)));
-  assert.equal(await page.evaluate(()=>spacePrototype.simulation.selectedId),null);
-  for(const id of ['jupiter','saturn']){await page.locator('.body-row[data-select="'+id+'"]').click();await page.locator('[data-focus-orbit="'+id+'"]').click();await settled(page);await shot(page,id+'-close');}
-  assert.deepEqual(await radii(page),fixedRadii);
-  const occlusion=await page.evaluate(()=>{const v=spacePrototype.viewer,e=v.bodies.get('earth').root.position.clone();v.followId=null;v.camera.position.copy(e.clone().normalize().multiplyScalar(-1500));v.controls.target.copy(e);v.controls.update();v.camera.updateMatrixWorld();return v.screenCandidates().find(c=>c.id==='earth').visible;});assert.equal(occlusion,false);
-  console.log('PASS: picking after rotation/zoom, time/pause/speed, overlays, belts, Jupiter/Saturn, occlusion');
-  await page.locator('#help').click();assert.ok(await page.locator('#help-dialog').isVisible());
-  await page.locator('#close-help').click();
-
-  // A real touch-sized viewport still exposes all controls without horizontal overflow.
-  const mobile=await browser.newPage({viewport:{width:844,height:390},isMobile:true,hasTouch:true,deviceScaleFactor:1});
-  mobile.on('pageerror',e=>errors.push(String(e)));
-  await mobile.goto(baseURL,{waitUntil:'networkidle'});await mobile.waitForFunction(()=>window.spacePrototype?.viewer);
-  assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
-  await mobile.locator('.body-row[data-select="saturn"]').tap();assert.equal(await mobile.evaluate(()=>spacePrototype.simulation.selectedId),'saturn');
-  await mobile.locator('[data-focus="saturn"]').tap();await mobile.waitForFunction(()=>!spacePrototype.viewer.transition);
-  await mobile.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='AU');
-  assert.equal(await mobile.locator('.reference-stats').isVisible(),false);
-  await mobile.locator('[data-expand]').tap();assert.equal(await mobile.locator('.reference-stats').isVisible(),true);
-  await mobile.locator('[data-expand]').tap();assert.equal(await mobile.locator('.reference-stats').isVisible(),false);
-  await mobile.locator('#details').evaluate(e=>e.scrollTop=0);
-  await shot(mobile,'mobile-saturn');
-  const axisCorrect=await mobile.evaluate(()=>{const e=spacePrototype.viewer.bodies.get('saturn'),normal=e.root.position.clone().set(0,1,0).transformDirection(e.mesh.matrixWorld),pole=e.root.position.clone().set(0,1,0).applyQuaternion(e.axisFrame.quaternion);return normal.dot(pole)>.99999;});assert.ok(axisCorrect);
-  await mobile.locator('.body-row[data-select="earth"]').tap();await mobile.locator('[data-focus="earth"]').tap();await mobile.waitForFunction(()=>!spacePrototype.viewer.transition);
-  await mobile.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='AU');
-  await shot(mobile,'mobile-earth');
-  await mobile.locator('[data-focus-orbit="earth"]').tap();await settled(mobile);await mobile.locator('[data-view="top"]').tap();await settled(mobile);
-  await mobile.locator('#toggle-labels').tap();await clickAssistedMoon(mobile,true);await mobile.locator('#toggle-labels').tap();await shot(mobile,'mobile-moon-selected');
-  await mobile.close();
-  const small=await browser.newPage({viewport:{width:667,height:375},isMobile:true,hasTouch:true,deviceScaleFactor:1});
-  await small.goto(baseURL,{waitUntil:'networkidle'});await small.waitForFunction(()=>window.spacePrototype?.viewer);
-  assert.ok(await small.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
-  await small.locator('.body-row[data-select="earth"]').tap();await small.locator('[data-focus="earth"]').tap();await small.waitForFunction(()=>!spacePrototype.viewer.transition);
-  await small.waitForFunction(()=>document.querySelector('#scale').dataset.unit==='AU');
-  await shot(small,'mobile-small-landscape');await small.close();
-  assert.deepEqual(errors,[]);
-  console.log('PASS: initial render, 20 bodies, 2 belts, selected orbit, moving moon, pause/resume/speed, camera rotation/zoom + canvas picking, satellite selection, belt emphasis, overlays, side/home view, help and mobile touch layout. game AU at all zoom levels, real Earth texture, fixed game diameters, mouse/touch assistance, IAU local-axis alignment and 844×390 / 667×375 landscape touch layouts. No browser errors.');
-} finally { await browser.close(); }
+  for(const viewport of [{width:844,height:390},{width:667,height:375}]){
+    const mobile=await browser.newPage({viewport,isMobile:true,hasTouch:true,deviceScaleFactor:1});watch(mobile);await open(mobile);assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+    await shot(mobile,'mobile-'+viewport.width+'-overview');await choose(mobile,'earth');await panelBounds(mobile);assert.equal(await mobile.evaluate(()=>!!spacePrototype.viewer.transition),false);await focus(mobile);await panelBounds(mobile);await shot(mobile,'mobile-'+viewport.width+'-context');
+    const cameraBefore=await mobile.evaluate(()=>spacePrototype.viewer.camera.position.toArray());await touchDrag(mobile);assert.notDeepEqual(await mobile.evaluate(()=>spacePrototype.viewer.camera.position.toArray()),cameraBefore);assert.equal(await mobile.evaluate(()=>spacePrototype.selection.bodyId),'earth');await panelBounds(mobile);
+    const distanceBefore=await mobile.evaluate(()=>spacePrototype.viewer.camera.position.distanceTo(spacePrototype.viewer.controls.target));await pinch(mobile);assert.notEqual(await mobile.evaluate(()=>spacePrototype.viewer.camera.position.distanceTo(spacePrototype.viewer.controls.target)),distanceBefore);assert.equal(await mobile.evaluate(()=>spacePrototype.selection.bodyId),'earth');await panelBounds(mobile);
+    await mobile.locator('#home').click();await settle(mobile);await view(mobile,'top');const empty=await emptySectorPixel(mobile);await mobile.touchscreen.tap(empty.x,empty.y);assert.equal(await mobile.evaluate(()=>spacePrototype.selection.sector.id),empty.id);await panelBounds(mobile);await shot(mobile,'mobile-'+viewport.width+'-sector');
+    await mobile.locator('[data-close]').click();await clickBody(mobile,'sun',true);assert.equal(await mobile.evaluate(()=>spacePrototype.selection.kind),'body');
+    await choose(mobile,'earth');await focus(mobile,'orbit');await view(mobile,'top');await mobile.locator('[data-close]').click();await assistedMoon(mobile,true);await panelBounds(mobile);await shot(mobile,'mobile-'+viewport.width+'-moon');
+    await mobile.close();console.log('PASS: '+viewport.width+'×'+viewport.height+' touch body/sector, popup bounds, drag/pinch, Moon assistance');
+  }
+  await page.evaluate(()=>{spacePrototype.panel.dispose();spacePrototype.viewer.dispose();});assert.equal(await page.locator('canvas').count(),0);assert.equal(await page.locator('#labels button').count(),0);
+  assert.deepEqual(errors,[]);console.log('PASS: complete v0.4 browser flow, no page/console errors; performance '+JSON.stringify(performance));
+}finally{await browser.close();}
