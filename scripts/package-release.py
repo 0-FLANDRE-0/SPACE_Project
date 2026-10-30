@@ -4,7 +4,7 @@ from pathlib import Path
 import json, subprocess, tarfile, zipfile
 root=Path(__file__).resolve().parents[1]
 sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip()
-version='v0.5A'
+version='v0.5B'
 destination=root/'dist'/'downloads'/f'SPACE_Project_{version}_HTML.zip'
 destination.parent.mkdir(exist_ok=True)
 prefix=f'SPACE_Project_{version}/'
@@ -19,8 +19,12 @@ readme=f'''SPACE Project {version} — HTML 실행 패키지
 ES 모듈을 사용하므로 index.html을 파일로 직접 여는 대신 로컬 HTTP 서버가 필요합니다.
 외부 라이브러리와 표면 이미지는 포함되어 있습니다. 선택적 웹폰트는 인터넷 없이 시스템 폰트로 대체됩니다.
 
-천체 선택 → 옆 탭 → 확대. 행정 섹터 → 행정 도구 → 셀 편집으로 구역을 만듭니다.
-구역은 로컬 브라우저 저장소에만 저장되며 서버·도메인이 달라지면 별도 상태입니다.
+천체 선택 → 옆 탭 → 표면 지도. 행성 8개와 위성의 구면 구역을 선택할 수 있습니다.
+SPACE 로고를 5초 안에 7번 누르면 개발자 도구가 켜집니다. 표면 편집에서 초기 값을 설정하고 JSON으로 옮깁니다.
+전체화면은 지원 브라우저의 버튼을 사용합니다. 미지원 환경에서는 안내가 표시됩니다.
+행정 섹터 → 행정 도구 → 셀 편집은 별도의 항성계 공간 구역 편집입니다.
+행정구역과 표면 초안은 각각 로컬 브라우저 저장소에 저장됩니다. 서버·도메인·브라우저가 달라지면 별도 상태입니다.
+표면 JSON은 지질 원본과 2100 초기 시나리오이며 게임 진행 저장이 아닙니다. 인구/자원 미설정과 0을 구분합니다.
 1×는 현실 1초당 게임 10초입니다. 시계는 UTC. 오프라인 진행은 없습니다.
 함선·건설·경제·연구는 포함하지 않습니다.
 
@@ -44,7 +48,7 @@ with zipfile.ZipFile(destination,'w',zipfile.ZIP_DEFLATED) as archive:
  archive.writestr(prefix+'README_RUN_KO.txt',readme)
  archive.writestr(prefix+'serve.py',server)
  archive.writestr(prefix+'SOURCE.json',json.dumps({'commit':sha,'version':version,'repository':'0-FLANDRE-0/SPACE_Project'},indent=2))
-artifact=root/'artifacts'/'SPACE_Project_v0.5A_site.tar.gz';artifact.parent.mkdir(exist_ok=True)
+artifact=root/'artifacts'/'SPACE_Project_v0.5B_site.tar.gz';artifact.parent.mkdir(exist_ok=True)
 with tarfile.open(artifact,'w:gz') as archive:
  archive.add(root/'.openai'/'hosting.json',arcname='.openai/hosting.json')
  archive.add(root/'dist',arcname='dist')
