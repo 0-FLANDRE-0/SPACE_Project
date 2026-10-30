@@ -37,7 +37,7 @@ export class PlanetarySurfaceUI {
  }
  async open(bodyId){
   const body=this.viewer.context.bodyById.get(bodyId);if(!body||!['planet','moon'].includes(body.kind))return;
-  this.exit(false);this.administration.close();this.viewer.select(bodyId);
+  this.exit(false);this.administration.close();if(this.viewer.selectedId!==bodyId)this.viewer.select(bodyId);
   const v=this.viewer,saved={position:v.camera.position.clone(),target:v.controls.target.clone(),minimum:v.controls.minDistance,followId:v.followId,lastFollow:v.lastFollowTarget?.clone(),sectorsEnabled:v.sectors.enabled},serial=++this.serial;
   this.active={bodyId,systemId:v.context.systemId,saved};$('#map').classList.add('surface-active');$('#surface-toolbar').hidden=false;$('#surface-name').textContent=body.name+' · 표면 준비 중';this.panel.element.hidden=true;
   try{const grid=createPlanetarySurfaceGrid(v.context.systemId,body),entry=await this.drafts.load(grid,body);if(serial!==this.serial||this.active?.bodyId!==bodyId)return;
