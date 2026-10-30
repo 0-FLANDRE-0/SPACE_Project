@@ -1,0 +1,80 @@
+import { createPlanetarySurfaceGrid } from './planetary-surface-grid.js';
+import { PlanetarySurfaceView } from './planetary-surface-view.js';
+import { SurfaceDrafts } from './planetary-surface-io.js';
+import { TERRAIN_TYPES, surfaceTypeFor, summarizePopulation } from './planetary-surface-model.js';
+import { RESOURCE_DEFINITIONS, personsToPOP, popToPersons } from './resource-definitions.js';
+const $=s=>document.querySelector(s);
+const nullableNumber=value=>value.trim()===''?null:Number(value);
+const nullableText=value=>value.trim()||null;
+const valueFor=value=>value===null||value===undefined?'':String(value);
+const jsonValue=text=>text.trim()===''?null:JSON.parse(text);
+export class PlanetarySurfaceUI {
+ constructor({viewer,panel,administration,notify,isDeveloper}){
+  this.viewer=viewer;this.panel=panel;this.administration=administration;this.notify=notify;this.isDeveloper=isDeveloper;this.active=null;this.entry=null;this.selectedId=null;this.pendingImport=null;this.serial=0;this.abort=new AbortController();
+  let storage=null;try{storage=localStorage;}catch{notify('표면 저장소에 접근할 수 없습니다. JSON으로 백업하세요.');}
+  this.drafts=new SurfaceDrafts({storage,onWarning:notify,fetcher:(...args)=>fetch(...args)});const options={signal:this.abort.signal};
+  viewer.onSurfaceTile=hit=>this.selectTile(hit?.tile.id??null);viewer.onSurfaceExit=()=>this.exit(false);
+  $('#surface-back').addEventListener('click',()=>this.exit(true),options);
+  $('#surface-editor-toggle').addEventListener('click',()=>this.openEditor(),options);
+  $('#surface-json-toggle').addEventListener('click',()=>this.openFiles(),options);
+  $('#surface-info-close').addEventListener('click',()=>this.selectTile(null),options);
+  $('#surface-editor-close').addEventListener('click',()=>this.closeEditor(),options);
+  $('#surface-io-close').addEventListener('click',()=>{$('#surface-io').hidden=true;this.renderInfo();},options);
+  for(const button of document.querySelectorAll('[data-surface-tab]'))button.addEventListener('click',()=>this.setTab(button.dataset.surfaceTab),options);
+  $('#surface-form').addEventListener('submit',e=>e.preventDefault(),options);
+  $('#surface-deposits').addEventListener('click',e=>{if(e.target.closest('[data-remove-deposit]'))e.target.closest('.deposit-row').remove();},options);
+  $('#surface-apply').addEventListener('click',()=>this.apply(),options);
+  $('#surface-cancel').addEventListener('click',()=>{this.fillForm();this.status('적용 전 입력을 취소했습니다.');},options);
+  $('#surface-undo').addEventListener('click',()=>{try{const saved=this.drafts.undo(this.entry);this.fillForm();this.status(saved?'마지막 적용을 되돌리고 저장했습니다.':'되돌림은 메모리에만 유지됩니다. JSON으로 백업하세요.');}catch(error){this.status(error.message);}},options);
+  $('#surface-add-deposit').addEventListener('click',()=>this.depositRow({depositId:'deposit-'+this.selectedId.split(':').at(-1)+'-'+(this.depositRows().length+1),resourceId:'ore',initialReserveU:null,extractionDifficulty:null,discoveryTier:null,notes:null}),options);
+  $('#surface-export').addEventListener('click',()=>this.exportCurrent(),options);
+  $('#surface-backup').addEventListener('click',()=>this.exportCurrent('backup_'),options);
+  $('#surface-import').addEventListener('change',e=>this.previewImport(e.target.files[0]),options);
+  $('#surface-import-confirm').addEventListener('change',()=>{$('#surface-import-apply').disabled=!this.pendingImport||!$('#surface-import-confirm').checked;},options);
+  $('#surface-import-apply').addEventListener('click',()=>this.applyImport(),options);
+  $('#surface-terrain').replaceChildren(new Option('미설정',''),...Object.entries(TERRAIN_TYPES).map(([id,name])=>new Option(name,id)));
+  this.setDeveloper(false);
+ }
+ async open(bodyId){
+  const body=this.viewer.context.bodyById.get(bodyId);if(!body||!['planet','moon'].includes(body.kind))return;
+  this.exit(false);this.administration.close();this.viewer.select(bodyId);
+  const v=this.viewer,saved={position:v.camera.position.clone(),target:v.controls.target.clone(),minimum:v.controls.minDistance,followId:v.followId,lastFollow:v.lastFollowTarget?.clone(),sectorsEnabled:v.sectors.enabled},serial=++this.serial;
+  this.active={bodyId,systemId:v.context.systemId,saved};$('#map').classList.add('surface-active');$('#surface-toolbar').hidden=false;$('#surface-name').textContent=body.name+' · 표면 준비 중';this.panel.element.hidden=true;
+  try{const grid=createPlanetarySurfaceGrid(v.context.systemId,body),entry=await this.drafts.load(grid,body);if(serial!==this.serial||this.active?.bodyId!==bodyId)return;
+   this.entry=entry;this.selectedId=null;v.surface=new PlanetarySurfaceView(v.bodies.get(bodyId),grid);v.sectors.setEnabled(false);v.focus(bodyId,'surface');if(v.transition)v.transition.endDistance=v.bodies.get(bodyId).radiusWorldUnits*3.7;
+   $('#surface-name').textContent=body.name+' · '+(surfaceTypeFor(body)==='atmosphere'?'대기 기준층':'표면 지도');$('#surface-grid-info').textContent=`f=${grid.frequency} · ${grid.cellCount}구역 · 적도 ${grid.equatorCellCount}칸 / 목표 ${grid.resolution.target??'명시값'}${grid.resolution.capped?' · 안전 상한 적용':''}`;
+   this.setDeveloper(this.isDeveloper());this.renderInfo();
+  }catch(error){if(serial===this.serial){this.exit(false);this.notify('표면 지도를 열지 못했습니다: '+error.message);}}
+ }
+ exit(restore=true){if(!this.active)return;const {saved,bodyId}=this.active,v=this.viewer;this.serial++;v.surface?.dispose();v.surface=null;this.active=null;this.entry=null;this.selectedId=null;this.pendingImport=null;
+  v.sectors.setEnabled(saved.sectorsEnabled);$('#map').classList.remove('surface-active');for(const id of ['surface-toolbar','surface-info','surface-editor','surface-io'])$('#'+id).hidden=true;$('#surface-form').reset();$('#surface-deposits').replaceChildren();$('#surface-import').value='';
+  if(restore){v.select(bodyId);let delta=saved.target.clone().set(0,0,0);if(saved.followId&&saved.lastFollow){const current=v.bodies.get(saved.followId)?.root.position;if(current)delta=current.clone().sub(saved.lastFollow);}v.camera.position.copy(saved.position).add(delta);v.controls.target.copy(saved.target).add(delta);v.controls.minDistance=saved.minimum;v.followId=saved.followId;v.lastFollowTarget=saved.followId?v.bodies.get(saved.followId)?.root.position.clone():null;v.transition=null;v.controls.update();}
+ }
+ observeSelection(selection){if(this.active&&(selection?.kind!=='body'||selection.bodyId!==this.active.bodyId))this.exit(false);}
+ setDeveloper(enabled){if(this.entry){const g=this.entry.grid;$('#surface-grid-info').textContent=enabled?`f=${g.frequency} · ${g.cellCount}구역 · 적도 ${g.equatorCellCount}칸 / 목표 ${g.resolution.target??'명시값'}${g.resolution.capped?' · 안전 상한 적용':''}`:`${g.cellCount}개 광역 구역`;}$('#surface-editor-toggle').hidden=!enabled;$('#surface-json-toggle').hidden=!enabled;if(!enabled){$('#surface-editor').hidden=true;$('#surface-io').hidden=true;$('#surface-form').reset();$('#surface-deposits').replaceChildren();$('#surface-population-total').textContent='';$('#surface-import').value='';$('#surface-import-preview').textContent='';this.pendingImport=null;if(this.entry)this.renderInfo();}}
+ selectTile(id){if(!this.entry)return;this.selectedId=id;this.viewer.surface.setSelected(id);if(!$('#surface-editor').hidden){if(id)this.fillForm();else this.closeEditor();}this.renderInfo();}
+ renderInfo(){const visible=!!this.entry&&!!this.selectedId&&$('#surface-editor').hidden&&$('#surface-io').hidden;$('#surface-info').hidden=!visible;if(!visible)return;const t=this.entry.grid.byId.get(this.selectedId);$('#surface-cell-title').textContent=t.kind==='pentagon'?'오각형 광역 구역':'육각형 광역 구역';$('#surface-cell-id').textContent=t.id;$('#surface-cell-location').textContent=`위도 ${t.latitudeDegrees.toFixed(3)}° · 경도 ${t.longitudeDegrees.toFixed(3)}°`;$('#surface-cell-area').textContent=`행성 면적의 ${(t.areaWeight*100).toFixed(4)}%`;$('#surface-cell-neighbors').textContent=t.neighborIds.join('\n');$('#surface-cell-public').textContent=surfaceTypeFor(this.entry.body)==='atmosphere'?'대기 기준층 관리 구역입니다. 고체 지표로 취급하지 않습니다.':'환경·문명 정보는 향후 문명별 인지 데이터와 연결합니다.';}
+ openEditor(){if(!this.entry||!this.isDeveloper())return;if(!this.selectedId){this.notify('앞면의 표면 구역을 먼저 선택하세요.');return;}this.administration.close();$('#surface-io').hidden=true;$('#surface-editor').hidden=false;$('#surface-info').hidden=true;this.fillForm();this.setTab('terrain');}
+ closeEditor(){$('#surface-editor').hidden=true;$('#surface-form').reset();$('#surface-deposits').replaceChildren();this.renderInfo();}
+ setTab(tab){for(const section of document.querySelectorAll('[data-surface-section]'))section.hidden=section.dataset.surfaceSection!==tab;for(const button of document.querySelectorAll('[data-surface-tab]')){const active=button.dataset.surfaceTab===tab;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));}}
+ field(id,value){$('#surface-'+id).value=valueFor(value);}
+ fillForm(){if(!this.entry||!this.selectedId)return;const {geology:g,scenario:s}=this.drafts.cell(this.entry,this.selectedId);$('#surface-edit-id').textContent=this.selectedId;
+  for(const [id,value]of Object.entries({'type':g.surfaceType,'terrain':g.terrain.terrainType,'land':g.terrain.landFraction,'water':g.terrain.waterFraction,'temperature':g.environment.temperatureK,'radiation':g.environment.radiationLevel,'obstacle':g.environment.terrainObstacle,'habitability':g.environment.habitability,'atmosphere':g.environment.atmosphereNotes,'population':personsToPOP(s.populationPersons),'urbanization':s.urbanizationRate,'infrastructure':s.infrastructureLevel,'civilization':s.civilizationId,'owner':s.ownerFactionId,'controller':s.controllerFactionId,'knowledge':JSON.stringify(s.knowledge,null,2),'facilities':JSON.stringify(s.facilities,null,2)}))this.field(id,value);
+  $('#surface-deposits').replaceChildren();$('#surface-deposits-known').checked=g.deposits!==null;for(const d of g.deposits??[])this.depositRow(d);
+  const atmo=g.surfaceType==='atmosphere';$('#surface-land').disabled=atmo;$('#surface-water').disabled=atmo;$('#surface-type').disabled=surfaceTypeFor(this.entry.body)==='atmosphere';
+  const population=summarizePopulation(this.entry.template);$('#surface-population-total').textContent=`입력된 ${population.configuredCells}개 셀 합계 ${personsToPOP(population.configuredPopulationPersons).toLocaleString('ko-KR',{maximumFractionDigits:6})} POP (미설정 셀은 0으로 확정하지 않음)`;this.status('');
+ }
+ depositRows(){return [...$('#surface-deposits').children];}
+ depositRow(data){const row=document.createElement('fieldset');row.className='deposit-row';for(const [key,label,type]of [['depositId','매장지 ID','text'],['resourceId','자원','select'],['initialReserveU','원래 매장량 U','number'],['extractionDifficulty','채굴 난도 0–100','number'],['discoveryTier','발견 단계 0–5','number'],['notes','메모','text']]){const wrapper=document.createElement('label');wrapper.textContent=label;let input;if(type==='select'){input=document.createElement('select');input.replaceChildren(...[...RESOURCE_DEFINITIONS.values()].filter(r=>r.naturalDeposit).map(r=>new Option(r.name,r.id)));}else{input=document.createElement('input');input.type=type;if(type==='number'){input.step='any';input.min='0';}}input.dataset.depositField=key;input.value=valueFor(data[key]);wrapper.append(input);row.append(wrapper);}const remove=document.createElement('button');remove.type='button';remove.textContent='이 매장지 제거';remove.dataset.removeDeposit='true';row.append(remove);$('#surface-deposits').append(row);$('#surface-deposits-known').checked=true;}
+ readForm(){for(const input of $('#surface-form').querySelectorAll('input[type=number]'))if(input.validity.badInput)throw Error('유효한 숫자를 입력하거나 빈칸으로 미설정하세요.');const number=id=>nullableNumber($('#surface-'+id).value),text=id=>nullableText($('#surface-'+id).value),surfaceType=$('#surface-type').value;
+  const deposits=$('#surface-deposits-known').checked?this.depositRows().map(row=>{const d={};for(const field of row.querySelectorAll('[data-deposit-field]')){const key=field.dataset.depositField;d[key]=['initialReserveU','extractionDifficulty','discoveryTier'].includes(key)?nullableNumber(field.value):nullableText(field.value);}return d;}):null;
+  return {geology:{surfaceType,terrain:{terrainType:text('terrain'),landFraction:surfaceType==='atmosphere'?null:number('land'),waterFraction:surfaceType==='atmosphere'?null:number('water')},environment:{temperatureK:number('temperature'),radiationLevel:number('radiation'),terrainObstacle:number('obstacle'),habitability:number('habitability'),atmosphereNotes:text('atmosphere')},deposits},scenario:{populationPersons:popToPersons($('#surface-population').value),urbanizationRate:number('urbanization'),infrastructureLevel:number('infrastructure'),civilizationId:text('civilization'),ownerFactionId:text('owner'),controllerFactionId:text('controller'),knowledge:jsonValue($('#surface-knowledge').value),facilities:jsonValue($('#surface-facilities').value)}};
+ }
+ status(message){$('#surface-status').textContent=message;$('#surface-status').title=message;if(message.startsWith('적용 거부'))this.notify(message);}
+ apply(){if(!this.entry||!this.selectedId||!this.isDeveloper())return;try{const {geology,scenario}=this.readForm(),saved=this.drafts.applyCell(this.entry,this.selectedId,geology,scenario);this.fillForm();this.status(saved?'적용하고 로컬 초안을 저장했습니다.':'적용했지만 메모리에만 유지됩니다. JSON으로 백업하세요.');}catch(error){this.status('적용 거부: '+error.message);}}
+ openFiles(){if(!this.entry||!this.isDeveloper())return;this.pendingImport=null;$('#surface-import').value='';$('#surface-import-confirm').checked=false;$('#surface-import-apply').disabled=true;this.closeEditor();$('#surface-info').hidden=true;$('#surface-io').hidden=false;$('#surface-import-preview').textContent='행성 하나의 지질 원본과 2100 시작 시나리오를 내보냅니다. 런타임 저장 파일이 아닙니다.';}
+ exportCurrent(prefix=''){if(!this.entry||!this.isDeveloper())return;try{const text=this.drafts.export(this.entry),blob=new Blob([text],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=prefix+`SPACE_surface_${this.entry.grid.systemId}_${this.entry.grid.bodyId}_schema1.json`.replace(/[^a-zA-Z0-9_.-]/g,'_');document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);$('#surface-import-preview').textContent='JSON 파일 다운로드를 요청했습니다.';}catch(error){$('#surface-import-preview').textContent=error.message;}}
+ async previewImport(file){this.pendingImport=null;$('#surface-import-confirm').checked=false;$('#surface-import-apply').disabled=true;if(!file||!this.entry||!this.isDeveloper())return;const entry=this.entry;try{if(file.size>5*1024*1024)throw Error('파일은 최대 5 MiB입니다.');const next=this.drafts.preview(entry,await file.text());if(entry!==this.entry||!this.isDeveloper())return;this.pendingImport=next;$('#surface-import-preview').textContent=`검증 완료 · ${next.systemId}/${next.bodyId} · f=${next.grid.frequency} · ${next.grid.cellCount}구역 · 지질 ${Object.keys(next.geology.cells).length}셀 · 초기 시나리오 ${Object.keys(next.startingScenario.cells).length}셀. 현재 작업 백업 후 덮어쓰기 확인을 선택하세요.`;}catch(error){if(entry===this.entry)$('#surface-import-preview').textContent='가져오기 거부: '+error.message;}}
+ applyImport(){if(!this.entry||!this.pendingImport||!this.isDeveloper()||!$('#surface-import-confirm').checked)return;try{const saved=this.drafts.commit(this.entry,this.pendingImport,{replace:true});this.pendingImport=null;$('#surface-import-apply').disabled=true;$('#surface-import-confirm').checked=false;$('#surface-import-preview').textContent=saved?'백업 후 가져오기를 적용하고 저장했습니다.':'가져오기를 메모리에 적용했습니다. 저장 실패로 JSON 백업이 필요합니다.';if(this.selectedId)this.fillForm();}catch(error){$('#surface-import-preview').textContent='가져오기 거부: '+error.message;}}
+ dispose(){this.exit(false);this.abort.abort();this.viewer.onSurfaceTile=null;this.viewer.onSurfaceExit=null;}
+}

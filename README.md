@@ -1,6 +1,6 @@
-# SPACE Project · v0.5A 행정구역·시간 제어
+# SPACE Project · v0.5B 행성 표면 지도·편집기
 
-HTML/CSS/JavaScript + Three.js 기반 Phase 0 프로토타입입니다. **편집·저장 가능한 행정구역, 탐사/행정 지도 전환, 정확한 시간 제어**를 제공합니다. 태양계의 기존 3D 공전·자전·위성·텍스처와 v0.3 거리·크기 체계를 유지합니다. [v0.5A 보고·스크린샷](docs/v0.5/REVIEW.md), [검증 기록](docs/VERIFICATION.md), [작업 지시서](docs/v0.5/REQUEST_KO.md)를 참고하세요.
+HTML/CSS/JavaScript + Three.js 기반 Phase 0 프로토타입입니다. **전 행성·위성의 구면 표면 지도, 공용 개발자 편집기·JSON 파일, 숨김 개발자 진입과 전체화면**를 제공합니다. 태양계의 기존 3D 공전·자전·위성·텍스처와 v0.3 거리·크기 체계를 유지합니다. [v0.5B 보고·스크린샷](docs/v0.5B/REVIEW.md), [검증 기록](docs/VERIFICATION.md), [작업 지시서](docs/v0.5B/REQUEST_KO.md)를 참고하세요.
 
 ## 실행
 
@@ -34,7 +34,21 @@ npm run dev
 | H / Esc | 전체 보기 / 선택 해제 |
 | Space | 시간 일시정지·재개 (입력·버튼에 포커스가 없을 때) |
 
-모바일 가로 화면이 우선입니다. 개발 검증용 `?dev=1`에서는 설정에 시험 항성계 전환이 나타납니다. `?dev=1&system=small`은 작은 시험계, `?dev=1&system=wide`는 이동·경사·다중 항성 시험계입니다. 정식 플레이 콘텐츠나 실제 천문 자료가 아닙니다.
+모바일 가로 화면이 우선입니다. 개발 검증용 `?dev=1` 또는 로고 제스처를 켜면 개발자 도구에 시험 항성계 전환이 나타납니다. `?dev=1&system=small`은 작은 시험계, `?dev=1&system=wide`는 이동·경사·다중 항성 시험계입니다. 정식 플레이 콘텐츠나 실제 천문 자료가 아닙니다.
+
+## 행성·위성 표면 지도
+
+행성이나 위성을 선택한 후 정보 탭의 **표면 지도**를 누릅니다. 선택만으로는 줌하지 않으며 기존 확대 버튼도 유지합니다. 표면 구역은 지구·금성 92개, 목성 642개, 토성 492개 등 크기 정책에 따라 다르고, 각 격자는 오각형 12개와 나머지 육각형으로 구성됩니다. 기존 위성 11개와 개발 시험계도 같은 기능을 사용합니다. 가스/얼음 거대행성의 격자는 고체 지표가 아닌 대기 기준층입니다.
+
+앞면 구역을 눌러 ID·위경도·면적·이웃을 조회합니다. 텍스처와 격자는 같은 자전 프레임에 붙습니다. 항성계의 210 AU 육각형·행정구역과는 별개의 구면 좌표이며, 표면 진입 중 행정 편집은 종료합니다. 상단 버튼으로 이전 지도에 돌아갑니다.
+
+**개발자 모드:** SPACE 로고를 5초 안에 7회 누르거나 `?dev=1`로 시작합니다. 명시적 종료·재진입이 가능하고 새 탭 기본은 꺼짐입니다. 개발자 드로어에서 시험 항성계도 선택합니다. 숨김 제스처는 보안 인증이 아니며 브라우저 로컬 도구입니다.
+
+개발자 모드의 표면 편집에서는 지형/환경, 원래 자연 매장량, 초기 POP·도시화·기반시설·소속, 초기 지식과 미래 시설 메타데이터를 수정합니다. **1 U=10톤, 1 POP=100만 명**입니다. 미설정은 null이며 사용자 입력 0과 구분합니다. 실제 채굴·인구 성장·생산·탐사·전투는 없습니다. 일반 모드에서는 개발자 원본 자원 정보나 파일/편집 UI를 노출하지 않습니다.
+
+JSON은 천체 하나씩 내보내고, 가져오기 검증·미리보기·덮어쓰기 확인 후 적용합니다. 로컬 초안은 시스템/천체별로 보존하고 Undo와 백업을 제공합니다. 내보낸 파일은 [정적 프리셋 manifest](dist/data/planet-surfaces/README.md)에 등록해 다른 브라우저의 초기 데이터로 사용할 수 있습니다. 2100은 시나리오 메타데이터이며 기존 천문 epoch·게임 시계를 바꾸지 않습니다.
+
+일반 HUD의 전체화면 버튼은 표준 API를 지원할 때만 진입합니다. Esc/버튼으로 돌아와도 선택과 편집 데이터가 유지됩니다. 미지원·권한 제한 환경에서는 브라우저 메뉴/홈 화면 추가 안내를 표시합니다. iPhone/Safari 실기기 전체화면은 미검증입니다.
 
 ## 행정구역 편집과 저장
 
@@ -46,7 +60,7 @@ npm run dev
 
 ## 실행 ZIP
 
-완료된 배포의 `/downloads/SPACE_Project_v0.5A_HTML.zip`에서 HTML 실행 패키지를 받습니다. HTML·JS·Three.js·표면 이미지·라이선스와 `serve.py`를 포함합니다. 압축 해제 후 `python3 serve.py`(Windows: `py serve.py`)를 실행하고 `http://localhost:8765`를 여세요. ES 모듈을 사용하므로 HTML 파일 직접 열기 대신 로컬 HTTP 서버가 필요합니다.
+완료된 배포의 `/downloads/SPACE_Project_v0.5B_HTML.zip`에서 HTML 실행 패키지를 받습니다. HTML·JS·Three.js·표면 이미지·라이선스와 `serve.py`를 포함합니다. 압축 해제 후 `python3 serve.py`(Windows: `py serve.py`)를 실행하고 `http://localhost:8765`를 여세요. ES 모듈을 사용하므로 HTML 파일 직접 열기 대신 로컬 HTTP 서버가 필요합니다.
 
 ```sh
 python3 scripts/package-release.py
@@ -64,6 +78,10 @@ v0.3 규칙은 변경하지 않았습니다. **1 게임 AU = 140/53 월드 단�
 
 | 파일 | 책임 |
 |---|---|
+| `dist/src/planetary-surface-grid.js` | 순수 구면 dual·이웃·면적·정확한 다각형 선택 |
+| `dist/src/planetary-surface-model.js`, `planetary-surface-io.js` | 원본/초기 시나리오·스키마·초안·JSON·프리셋 |
+| `dist/src/planetary-surface-view.js`, `planetary-surface-ui.js` | 활성 천체 배치 레이어·공용 표면 UI |
+| `dist/src/developer-mode.js`, `fullscreen-control.js`, `resource-definitions.js` | 숨김 진입·전체화면·U/POP 카탈로그 |
 | `dist/src/administrative-regions.js` | 연결성·편집·불변 ID·저장/복구 순수 모델 |
 | `dist/src/administrative-region-view.js`, `administrative-region-ui.js` | 경계 분류·배치 표현·명시적 편집 도구 |
 | `dist/src/time-control.js` | 10:1 기본 시계·배속/상한·전경 시간·UTC |

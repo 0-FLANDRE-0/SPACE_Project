@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "earth",
+  "bodyKind": "planet",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 3,
+    "orientationId": "body-local-v1",
+    "cellCount": 92,
+    "gridFingerprint": "7d4c00a6"
+  },
+  "geology": {
+    "cells": {
+      "sol:earth:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": null,
+          "landFraction": null,
+          "waterFraction": null
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": null,
+          "habitability": null,
+          "atmosphereNotes": null
+        },
+        "deposits": null
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:earth:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  }
+}
