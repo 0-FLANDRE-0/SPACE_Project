@@ -1,6 +1,12 @@
-# SPACE Project · v0.5B 행성 표면 지도·편집기
+# SPACE Project · v0.5C 행성 데이터 자동 설정·일괄 작성
 
-HTML/CSS/JavaScript + Three.js 기반 Phase 0 프로토타입입니다. **전 행성·위성의 구면 표면 지도, 공용 개발자 편집기·JSON 파일, 숨김 개발자 진입과 전체화면**를 제공합니다. 태양계의 기존 3D 공전·자전·위성·텍스처와 v0.3 거리·크기 체계를 유지합니다. [v0.5B 보고·스크린샷](docs/v0.5B/REVIEW.md), [검증 기록](docs/VERIFICATION.md), [작업 지시서](docs/v0.5B/REQUEST_KO.md)를 참고하세요.
+HTML/CSS/JavaScript + Three.js 기반 Phase 0 프로토타입입니다. **전 행성·위성의 시드 기반 지형·자원·초기 인구 자동 설정, 미리보기·수동값 보존·색상 검수 지도**를 제공합니다. 태양계의 기존 3D 공전·자전·위성·텍스처와 v0.3 거리·크기 체계를 유지합니다. [v0.5C 보고·스크린샷](docs/v0.5C/REVIEW.md), [검증 기록](docs/VERIFICATION.md), [작업 지시서](docs/v0.5C/REQUEST_KO.md)를 참고하세요.
+
+## 자동 설정 조작
+
+SPACE 로고 5초 내 7회 → 천체 선택 → 표면 지도 → **자동 설정**. 기본은 미설정만 채우기이며, 자원 총량/총 POP는 확정한 값만 입력합니다. 미리보기의 6개 검수 레이어와 이전값/예정값을 확인한 후 확인 체크 → 적용합니다. 되돌리기와 v1 JSON 내보내기·가져오기를 지원합니다. 선택한 구역만 작성할 때도 예산은 **행성 전체 목표에서 기존 고정값을 뺀 잔여량**입니다.
+
+지구 육해는 로컬 포함된 Natural Earth 1:50m Land v5.1.2 (Public Domain), 다른 천체는 게임용 절차적 분포입니다. 인구·매장량 기본값은 미정이며 승인 전 프리셋을 자동 등록하지 않습니다. 시드·출처는 별도 sidecar JSON, 최종 초기 데이터는 기존 schema1입니다. [테라포밍 확장 계약](docs/architecture/TERRAFORMING_DATA_CONTRACT.md)은 원본과 미래 현재 상태를 분리하며 실제 테라포밍은 구현하지 않습니다.
 
 ## 실행
 
@@ -60,7 +66,7 @@ JSON은 천체 하나씩 내보내고, 가져오기 검증·미리보기·덮어
 
 ## 실행 ZIP
 
-완료된 배포의 `/downloads/SPACE_Project_v0.5B_HTML.zip`에서 HTML 실행 패키지를 받습니다. HTML·JS·Three.js·표면 이미지·라이선스와 `serve.py`를 포함합니다. 압축 해제 후 `python3 serve.py`(Windows: `py serve.py`)를 실행하고 `http://localhost:8765`를 여세요. ES 모듈을 사용하므로 HTML 파일 직접 열기 대신 로컬 HTTP 서버가 필요합니다.
+완료된 배포의 `/downloads/SPACE_Project_v0.5C_HTML.zip`에서 HTML 실행 패키지를 받습니다. HTML·JS·Three.js·표면 이미지·라이선스와 `serve.py`를 포함합니다. 압축 해제 후 `python3 serve.py`(Windows: `py serve.py`)를 실행하고 `http://localhost:8765`를 여세요. ES 모듈을 사용하므로 HTML 파일 직접 열기 대신 로컬 HTTP 서버가 필요합니다.
 
 ```sh
 python3 scripts/package-release.py

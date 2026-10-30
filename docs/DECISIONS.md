@@ -80,3 +80,14 @@
 - ID는 encoded system/body를 포함. JSON은 대상·버전·f·방향·count·fingerprint·중복키/ID·값을 검증한 뒤 미리보기/덮어쓰기 확인. 다른 버전은 자동 마이그레이션하지 않음. 초안은 `space-project:surface:v1:...`에 분리 저장. 저장 실패/손상 원본은 보존·메모리 편집·JSON 백업 안내. 정적 manifest 등록 경로 제공, 기본 manifest는 비어 있음.
 - 개발자 상태는 단일 DeveloperMode.enabled. SPACE 7회/5초, 키보드·pointercancel, ?dev=1 호환, 명시적 종료. 일반모드에는 원본 매장/편집/파일 UI 없음. 숨김 기능은 인증이 아니며 서버·다른 사용자에 쓰지 않음. 1.5초 길게 누르기는 선택 사항으로 구현하지 않음.
 - 전체화면은 실제 fullscreenElement/이벤트를 기준으로 표시, 사용자 버튼에서만 요청, Esc/실패/미지원/iframe 정책 처리. 주소창 제거 흉내·강제 방향 잠금 없음. 기존 전체시간/세계시계·행정·천문 자료 계약을 대체하지 않음.
+
+## v0.5C 행성 자동 설정·테라포밍 준비
+
+- [지시서](v0.5C/REQUEST_KO.md)를 v0.5B `25695aa` 기반 `feat/v0.5c-planetary-data-generator`에서 구현. PR base는 v0.5B, 선행 PR/main 미병합. 기존 Sites 접근 범위를 유지해 실행 링크·HTML ZIP 제공.
+- 구면 격자/f/ID/해시/이웃/면적과 게임 AU·천체 크기·공전/자전·텍스처는 보존. 생성 코어는 메타데이터 우선의 공용 프로필·타일/필드 키 PRNG를 사용하고 DOM/Three/저장/시간/Math.random과 독립. Sol별 프로필/자료 경로는 기존 Sol 어댑터에 한정.
+- 기본 fill-unset는 null만 채움. 0·1명·빈 배열·기존 광맥/지식/시설 보존, 육해 쌍 함께 처리. 명시적 교체는 미리보기·확인·v1 백업 다운로드·기존 저장소 백업/Undo. 전체 결과 validator 통과 후 한 번의 SurfaceDrafts.commit.
+- 자원 목표는 종류별 행성 전체 초기 총량. 선택 밖/보호값을 먼저 빼고 선택된 미설정 셀에 잔여량만 배분. 최소0.001 U 정수 quanta, 최대잔여 배분과 ID 순 동률 처리. 1 U=10톤, 자연 U만, alloy/C 금지, 대기층 양의 ore 금지. 총량/대상이 모순되면 원자적 거부.
+- 인구 목표 기본null, 확정0과 구분. POP→정수 명수 후 마지막1명까지 최대잔여 배분. 선택 정착 중심·명시적 도시화 정책만 적용. 문명/도시/통치/시설/발견 기록 임의 생성 없음. 2100은 초기 메타데이터이고 세계 시계를 바꾸지 않음.
+- Natural Earth 1:50m Land v5.1.2 공개 경계(Public Domain)를 오프라인 가공해 로컬 포함. 0.5도259200점·구면 면적 가중. 실제 자료와 절차적 환경/자원/인구 가정을 구분. 다른 천체 지형은 관측 자료가 아님.
+- 개발자 전용 6개 색상 검수 레이어, 단일 배치 메시/색 버퍼 재사용. Worker 계산, 세대 토큰/terminate 취소. 미리보기는 저장 원본을 수정하지 않음. 전체 항성계 순회·대상별 실패/취소는 공용 코어로 제공, UI는 한 천체씩 검토.
+- 게임 초기 JSON schema1/strict validator/manifest 유지. seed/profile/source/policy는 별도 planetary-generation sidecar. 기본 manifest 비어 있음. [미래 테라포밍 계약](architecture/TERRAFORMING_DATA_CONTRACT.md)에서 불변 원본·초기 시나리오·runtime 현재값을 분리. 현재 테라포밍/채굴/성장/경제는 미구현.
