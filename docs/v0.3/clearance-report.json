@@ -1,0 +1,193 @@
+{
+  "epoch": "2026-10-29",
+  "minimumRequiredGameAU": 1,
+  "report": {
+    "valid": true,
+    "issues": [],
+    "starClearances": [
+      {
+        "id": "mercury",
+        "periapsisGameAU": 42.10102473837646,
+        "apoapsisGameAU": 63.89897526162355,
+        "clearanceGameAU": 2.6010247383764593
+      },
+      {
+        "id": "venus",
+        "periapsisGameAU": 78.46550943574744,
+        "apoapsisGameAU": 79.53449056425258,
+        "clearanceGameAU": 35.965509435747435
+      },
+      {
+        "id": "earth",
+        "periapsisGameAU": 98.33005511416837,
+        "apoapsisGameAU": 101.66994488583163,
+        "clearanceGameAU": 55.830055114168374
+      },
+      {
+        "id": "mars",
+        "periapsisGameAU": 128.7350355294757,
+        "apoapsisGameAU": 155.2649644705243,
+        "clearanceGameAU": 88.23503552947571
+      },
+      {
+        "id": "jupiter",
+        "periapsisGameAU": 266.46180679175905,
+        "apoapsisGameAU": 293.53819320824095,
+        "clearanceGameAU": 206.46180679175905
+      },
+      {
+        "id": "saturn",
+        "periapsisGameAU": 397.435495267885,
+        "apoapsisGameAU": 442.56450473211504,
+        "clearanceGameAU": 339.935495267885
+      },
+      {
+        "id": "uranus",
+        "periapsisGameAU": 543.0699820956263,
+        "apoapsisGameAU": 596.9300179043737,
+        "clearanceGameAU": 493.0699820956263
+      },
+      {
+        "id": "neptune",
+        "periapsisGameAU": 723.7189531993498,
+        "apoapsisGameAU": 736.2810468006502,
+        "clearanceGameAU": 674.2189531993498
+      }
+    ],
+    "neighborClearances": [
+      {
+        "inner": "mercury",
+        "outer": "venus",
+        "planetClearanceGameAU": 2.5665341741238876,
+        "systemClearanceGameAU": 2.5665341741238876
+      },
+      {
+        "inner": "venus",
+        "outer": "earth",
+        "planetClearanceGameAU": 3.7955645499157953,
+        "systemClearanceGameAU": 1.0150488749820479
+      },
+      {
+        "inner": "earth",
+        "outer": "mars",
+        "planetClearanceGameAU": 14.065090643644083,
+        "systemClearanceGameAU": 7.1320717943911145
+      },
+      {
+        "inner": "mars",
+        "outer": "jupiter",
+        "planetClearanceGameAU": 80.69684232123475,
+        "systemClearanceGameAU": 61.807703357353326
+      },
+      {
+        "inner": "jupiter",
+        "outer": "saturn",
+        "planetClearanceGameAU": 56.39730205964406,
+        "systemClearanceGameAU": 2.9635494201915478
+      },
+      {
+        "inner": "saturn",
+        "outer": "uranus",
+        "planetClearanceGameAU": 63.00547736351126,
+        "systemClearanceGameAU": 18.005672345446257
+      },
+      {
+        "inner": "uranus",
+        "outer": "neptune",
+        "planetClearanceGameAU": 97.28893529497611,
+        "systemClearanceGameAU": 84.13320114189467
+      }
+    ],
+    "satelliteClearances": [
+      {
+        "id": "moon",
+        "parent": "earth",
+        "clearanceGameAU": 1.019484325066252
+      },
+      {
+        "id": "phobos",
+        "parent": "mars",
+        "clearanceGameAU": 1.2476795570438175
+      },
+      {
+        "id": "deimos",
+        "parent": "mars",
+        "clearanceGameAU": 3.8474968256807753
+      },
+      {
+        "id": "io",
+        "parent": "jupiter",
+        "clearanceGameAU": 4.455667421442788
+      },
+      {
+        "id": "europa",
+        "parent": "jupiter",
+        "clearanceGameAU": 7.2914937035866085
+      },
+      {
+        "id": "ganymede",
+        "parent": "jupiter",
+        "clearanceGameAU": 10.40373354125613
+      },
+      {
+        "id": "callisto",
+        "parent": "jupiter",
+        "clearanceGameAU": 13.263364210437796
+      },
+      {
+        "id": "enceladus",
+        "parent": "saturn",
+        "clearanceGameAU": 1.8412227751271275
+      },
+      {
+        "id": "titan",
+        "parent": "saturn",
+        "clearanceGameAU": 4.60288315010969
+      },
+      {
+        "id": "titania",
+        "parent": "uranus",
+        "clearanceGameAU": 5.6973118318253135
+      },
+      {
+        "id": "triton",
+        "parent": "neptune",
+        "clearanceGameAU": 6.146954015093241
+      }
+    ],
+    "beltClearances": [
+      {
+        "id": "asteroid-belt",
+        "innerClearanceGameAU": 34.23503552947571,
+        "outerClearanceGameAU": 6.461806791759045
+      },
+      {
+        "id": "kuiper-belt",
+        "innerClearanceGameAU": 44.21895319934981,
+        "outerClearanceGameAU": null
+      }
+    ]
+  },
+  "futureChecks": [
+    {
+      "days": 0,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "days": 3652.5,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "days": 18262.5,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "days": 36525,
+      "valid": true,
+      "issues": []
+    }
+  ]
+}

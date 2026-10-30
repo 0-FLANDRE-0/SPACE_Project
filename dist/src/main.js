@@ -2,6 +2,7 @@ import { SUN, PLANETS, MOONS, BELTS, BODY_BY_ID, EPOCH } from './data.js';
 import { Simulation, axialTilt } from './model.js';
 import { SystemViewer } from './scene.js';
 import { loadSurfaceMaps } from './textures.js';
+import { bodyDiameterGameAU, starDiameterGameAU } from './game-space.js';
 
 const $=selector=>document.querySelector(selector);
 const simulation=new Simulation();
@@ -27,11 +28,19 @@ function showDetails(id) {
   }
   const moons=MOONS.filter(m=>m.parent===id);
   const isBelt=BELTS.some(b=>b.id===id);
-  let stats;
-  if(id==='sun')stats=stat('표면 온도','5,772','K')+stat('항성 분류','G2V')+stat('반지름','696,340','km')+stat('행성','8');
-  else if(isBelt)stats=stat('태양과의 거리',body.au,'AU')+stat('표시 입자 수',body.count.toLocaleString(),'개');
-  else stats=stat('공전 주기',Math.abs(body.period).toLocaleString('en-US',{maximumFractionDigits:1}),'일')+stat('궤도 경사',Math.abs(body.inclination).toFixed(2),'°')+stat('자전축 기울기',axialTilt(body).toFixed(2),'°')+stat('자전 주기',Math.abs(body.spinHours).toFixed(2),'시간')+stat('반지름',body.realRadius.toLocaleString(),'km')+(body.parent?stat('모행성',byId(body.parent).name):stat('궤도 장반경',body.au.toFixed(3),'AU'));
-  panel.innerHTML=`<div class="detail-top"><span class="eyebrow">${body.parent?'SATELLITE':isBelt?'SMALL BODIES':'CELESTIAL BODY'}</span><div class="detail-heading-actions"><button class="detail-expand" data-expand aria-expanded="false" title="상세 정보 펼치기">자세히</button><button class="detail-close" data-clear title="선택 해제" aria-label="선택 해제"><svg><use href="#i-cross"/></svg></button></div></div><div class="detail-title"><h3>${body.name}</h3><span class="english">${body.english}</span></div><div class="detail-type"><span class="tiny" style="background:${body.color}"></span>${body.type}</div><p class="detail-description">${body.description}</p><dl class="detail-stats">${stats}</dl><button class="detail-action" data-focus="${id}"><svg><use href="#i-focus"/></svg>${isBelt?'영역 중심으로 보기':body.parent?'위성 표면 보기':'천체 표면 보기'}<span style="margin-left:auto;color:#5e7184;font-size:9px">F</span></button>${!isBelt&&id!=='sun'?`<button class="detail-action orbit-action" data-focus-orbit="${id}"><svg><use href="#i-orbit"/></svg>주변 궤도 보기</button>`:''}<div class="detail-bottom"><span>${moons.length?`${moons.length} SATELLITES`:'SOL / HOME SYSTEM'}</span><span class="state"><span class="live-dot"></span>${isBelt?'영역 선택됨':'궤도 선택됨'}</span></div>`;
+  let gameStats,referenceStats;
+  if(body.kind==='star') {
+    gameStats=stat('Star Size',body.starSize)+stat('게임 표시 지름',starDiameterGameAU(body),'AU');
+    referenceStats=stat('유효 온도',body.temperatureK.toLocaleString(),'K')+stat('분광형',body.spectralType)+stat('실제 반지름',body.realRadiusKm.toLocaleString(),'km')+stat('태양 반지름 기준',body.realRadiusSolar,'R☉');
+  } else if(isBelt) {
+    gameStats=stat('게임 거리 범위',`${body.innerGameAU}–${body.outerGameAU}`,'AU')+stat('표시 입자 수',body.count.toLocaleString(),'개');
+    referenceStats=stat('실제 참고 범위',`${body.realInnerAU}–${body.realOuterAU}`,'실제 AU');
+  } else {
+    gameStats=stat(body.parent?'모행성 중심 장반경':'태양 중심 장반경',body.orbitGameAU,'AU')+(body.parent?stat('위성 게임 지름',bodyDiameterGameAU(body),'AU'):stat('Planet Size · 지름',body.planetSize,'AU'));
+    referenceStats=stat('실제 공전 주기',Math.abs(body.period).toLocaleString('en-US',{maximumFractionDigits:2}),'일')+stat('궤도 경사',Math.abs(body.inclination).toFixed(2),'°')+stat('자전축 기울기',axialTilt(body).toFixed(2),'°')+stat('실제 자전 주기',Math.abs(body.spinHours).toFixed(2),'시간')+stat('실제 반지름',body.realRadiusKm.toLocaleString(),'km')+stat('실제 궤도 장반경',body.realOrbitAU.toLocaleString('en-US',{maximumFractionDigits:5}),'실제 AU');
+  }
+  const satelliteLinks=moons.length?`<div class="satellite-links" aria-label="${body.name}의 위성">${moons.map(m=>`<button data-select="${m.id}">${m.name}</button>`).join('')}</div>`:'';
+  panel.innerHTML=`<div class="detail-top"><span class="eyebrow">${body.parent?'SATELLITE':isBelt?'SMALL BODIES':'CELESTIAL BODY'}</span><div class="detail-heading-actions"><button class="detail-expand" data-expand aria-expanded="false" title="상세 정보 펼치기">자세히</button><button class="detail-close" data-clear title="선택 해제" aria-label="선택 해제"><svg><use href="#i-cross"/></svg></button></div></div><div class="detail-title"><h3>${body.name}</h3><span class="english">${body.english}</span></div><div class="detail-type"><span class="tiny" style="background:${body.color}"></span>${body.type}</div><p class="detail-description">${body.description}</p><div class="stats-heading game-heading">게임 공간 · AU</div><dl class="detail-stats game-stats">${gameStats}</dl><div class="stats-heading reference-heading">천문학 참고 · 현실 측정값</div><dl class="detail-stats reference-stats">${referenceStats}</dl>${satelliteLinks}<button class="detail-action" data-focus="${id}"><svg><use href="#i-focus"/></svg>${isBelt?'영역 중심으로 보기':body.parent?'위성 표면 보기':'천체 표면 보기'}<span style="margin-left:auto;color:#5e7184;font-size:9px">F</span></button>${!isBelt&&id!=='sun'?`<button class="detail-action orbit-action" data-focus-orbit="${id}"><svg><use href="#i-orbit"/></svg>주변 궤도 보기</button>`:''}<div class="detail-bottom"><span>${moons.length?`${moons.length} SATELLITES`:'SOL / HOME SYSTEM'}</span><span class="state"><span class="live-dot"></span>${isBelt?'영역 선택됨':'궤도 선택됨'}</span></div>`;
 }
 
 function select(id) {
@@ -43,9 +52,10 @@ function select(id) {
   $('#map-title').textContent=body?.name??'모항성계';
   $('#map-subtitle').textContent=body?`${body.english} / ${body.type}`:'우리의 첫 번째 항성계';
   showDetails(id);
+  $('#details').scrollTop=0;
 }
 function focus(id) {if(!viewer)return;if(simulation.selectedId!==id)select(id);viewer.lastFollowTarget=null;viewer.focus(id);toast(`${byId(id).name} 주변으로 카메라 이동`);}
-$('#details').addEventListener('click',event=>{const expand=event.target.closest('[data-expand]');if(expand){const expanded=$('#details').classList.toggle('expanded');expand.setAttribute('aria-expanded',String(expanded));expand.textContent=expanded?'접기':'자세히';}if(event.target.closest('[data-clear]'))select(null);const orbitButton=event.target.closest('[data-focus-orbit]');if(orbitButton){viewer.lastFollowTarget=null;viewer.focus(orbitButton.dataset.focusOrbit,'orbit');toast('주변 궤도로 시점 이동');}const button=event.target.closest('[data-focus]');if(button)focus(button.dataset.focus);});
+$('#details').addEventListener('click',event=>{const satellite=event.target.closest('[data-select]');if(satellite){select(satellite.dataset.select);return;}const expand=event.target.closest('[data-expand]');if(expand){const expanded=$('#details').classList.toggle('expanded');expand.setAttribute('aria-expanded',String(expanded));expand.textContent=expanded?'접기':'자세히';}if(event.target.closest('[data-clear]'))select(null);const orbitButton=event.target.closest('[data-focus-orbit]');if(orbitButton){viewer.lastFollowTarget=null;viewer.focus(orbitButton.dataset.focusOrbit,'orbit');toast('주변 궤도로 시점 이동');}const button=event.target.closest('[data-focus]');if(button)focus(button.dataset.focus);});
 function togglePause() {
   simulation.paused=!simulation.paused;
   $('#pause').innerHTML=`<svg><use href="#i-${simulation.paused?'play':'pause'}"/></svg>`;
@@ -58,7 +68,7 @@ $('#pause').addEventListener('click',togglePause);
 document.querySelectorAll('[data-speed]').forEach(button=>button.addEventListener('click',()=>{simulation.speed=Number(button.dataset.speed);document.querySelectorAll('[data-speed]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});}));
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{viewer?.setView(button.dataset.view);document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b===button));}));
 $('#reset-view').addEventListener('click',()=>home());
-$('#inner-system').addEventListener('click',()=>{select(null);viewer?.home(true);toast('내행성 영역 · 실제 AU 거리');});
+$('#inner-system').addEventListener('click',()=>{select(null);viewer?.home(true);toast('내행성 영역 · 게임 AU');});
 function home() {select(null);viewer?.home();document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view==='perspective'));}
 $('#zoom-in').addEventListener('click',()=>viewer?.zoom(.78));$('#zoom-out').addEventListener('click',()=>viewer?.zoom(1.28));
 function toggleButton(id,callback) {$(id).addEventListener('click',()=>{const button=$(id);const active=button.getAttribute('aria-pressed')!=='true';button.setAttribute('aria-pressed',String(active));button.classList.toggle('active',active);callback(active);});}
@@ -94,7 +104,7 @@ try {
       const scale=viewer.scale;
       $('#scale-label').textContent=scale.value.toLocaleString('ko-KR',{maximumFractionDigits:3})+' '+scale.unit;
       $('#scale-bar').style.width=scale.pixels+'px';
-      $('#scale-mode').textContent=scale.unit==='AU'?'항성계 거리':'근접 거리';
+      $('#scale-mode').textContent='게임 거리 · AU';
       $('#scale').dataset.unit=scale.unit;
       uiElapsed=0;
       const date=new Date(epoch+simulation.days*86400000);

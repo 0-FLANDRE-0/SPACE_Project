@@ -26,3 +26,9 @@
  dialog{max-height:calc(100dvh - 24px);padding:24px;overflow:auto}dialog h2{font-size:21px;margin:11px 0}dialog dl{gap:11px 5px}
 }
 @media(orientation:portrait) and (max-width:600px){.map-heading{top:70px}.map-heading h2{font-size:21px}.view-controls{top:18px;left:16px;right:auto}.map-tools{top:150px}.details.overview{display:none}}
+/* v0.3: game-space values and astronomy references have explicit labels. */
+.details{max-height:calc(100% - 185px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:#334150 transparent}
+.stats-heading{font-size:8px;letter-spacing:.8px;color:#7890a4;padding:0 20px;margin:17px 0 9px}.game-heading{color:#cdb482}.game-stats{border-top-color:#dfbd8025}.game-stats .stat dd{color:#e3c58e}.reference-stats .stat dd{font-size:17px}.reference-heading{margin-top:20px;color:#63788b}.satellite-links{display:flex;gap:5px;flex-wrap:wrap;padding:13px 20px 0}.satellite-links button{border:1px solid #8fa4b32c;border-radius:3px;padding:6px 9px;color:#96aabc;font-size:9px;min-height:29px}.satellite-links button:hover{color:var(--accent);border-color:#dfbd8060}.map-scale{min-width:100px}
+@media(max-width:760px){.stats-heading{padding:0 15px}.satellite-links{padding:10px 15px 0;gap:4px}.satellite-links button{padding:5px 8px}.details:not(.expanded) .stats-heading{display:none}}
+@media(orientation:landscape) and (max-height:600px){.stats-heading{padding:0 13px;font-size:7px;margin:12px 0 7px}.reference-stats .stat dd{font-size:15px}.satellite-links{padding:9px 13px 0}.satellite-links button{padding:4px 7px;font-size:8px}.details:not(.expanded) .stats-heading{display:none}.details:not(.expanded) .satellite-links{padding-top:9px}}
+@media(orientation:landscape) and (max-height:600px){.details{max-height:calc(100% - 122px)}.details.expanded{max-height:calc(100% - 100px)}}
