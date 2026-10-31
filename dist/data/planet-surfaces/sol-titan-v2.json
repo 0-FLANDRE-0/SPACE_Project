@@ -1,0 +1,2481 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "titan",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "f91617cb"
+  },
+  "geology": {
+    "cells": {
+      "sol:titan:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 84.456,
+          "radiationLevel": null,
+          "terrainObstacle": 0.276458,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-0-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 110925332.846,
+            "gradeProbabilities": {
+              "low": 0.6803182656753026,
+              "medium": 0.2665750385107264,
+              "high": 0.05310669581397096
+            },
+            "extractionDifficulty": 10.802,
+            "processingDifficulty": 38.71,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.543,
+          "radiationLevel": null,
+          "terrainObstacle": 0.340537,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-1-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 320150618.938,
+            "gradeProbabilities": {
+              "low": 0.6830238338044994,
+              "medium": 0.265946295095028,
+              "high": 0.05102987110047261
+            },
+            "extractionDifficulty": 20.038,
+            "processingDifficulty": 43.297,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-1-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1440256546.021,
+            "gradeProbabilities": {
+              "low": 0.12947945118316628,
+              "medium": 0.3637444625391739,
+              "high": 0.5067760862776598
+            },
+            "extractionDifficulty": 72.165,
+            "processingDifficulty": 43.297,
+            "discoveryTier": 4,
+            "accessDepth": 55.265,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.083,
+          "radiationLevel": null,
+          "terrainObstacle": 0.372346,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-2-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 220398918.692,
+            "gradeProbabilities": {
+              "low": 0.6830223559557609,
+              "medium": 0.264375181825252,
+              "high": 0.052602462218987144
+            },
+            "extractionDifficulty": 28.545,
+            "processingDifficulty": 61.226,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.882,
+          "radiationLevel": null,
+          "terrainObstacle": 0.386575,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-3-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 45703519.259,
+            "gradeProbabilities": {
+              "low": 0.6834713931146227,
+              "medium": 0.2651937086427376,
+              "high": 0.051334898242639704
+            },
+            "extractionDifficulty": 17.523,
+            "processingDifficulty": 15.143,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.218,
+          "radiationLevel": null,
+          "terrainObstacle": 0.26893,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-4-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 199820245.803,
+            "gradeProbabilities": {
+              "low": 0.6826426124951951,
+              "medium": 0.26064215193258383,
+              "high": 0.05671523557222108
+            },
+            "extractionDifficulty": 22.421,
+            "processingDifficulty": 43.626,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 94.37,
+          "radiationLevel": null,
+          "terrainObstacle": 0.380964,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-5-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 51903760.33,
+            "gradeProbabilities": {
+              "low": 0.683790199774053,
+              "medium": 0.2604071384494916,
+              "high": 0.055802661776455445
+            },
+            "extractionDifficulty": 30.028,
+            "processingDifficulty": 16.939,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.737,
+          "radiationLevel": null,
+          "terrainObstacle": 0.363127,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-6-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 320150317.876,
+            "gradeProbabilities": {
+              "low": 0.6807891453269087,
+              "medium": 0.2670782684081957,
+              "high": 0.0521325862648956
+            },
+            "extractionDifficulty": 32.811,
+            "processingDifficulty": 26.825,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.052,
+          "radiationLevel": null,
+          "terrainObstacle": 0.154191,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-7-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 45879933.714,
+            "gradeProbabilities": {
+              "low": 0.6848159788183086,
+              "medium": 0.2623347904005811,
+              "high": 0.052849230781110326
+            },
+            "extractionDifficulty": 21.963,
+            "processingDifficulty": 24.567,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-7-2",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 297573930.147,
+            "gradeProbabilities": {
+              "low": 0.4048300577069559,
+              "medium": 0.34396427526244566,
+              "high": 0.25120566703059843
+            },
+            "extractionDifficulty": 49.133,
+            "processingDifficulty": 24.567,
+            "discoveryTier": 1,
+            "accessDepth": 34.138,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.45,
+          "radiationLevel": null,
+          "terrainObstacle": 0.126509,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-8-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 80698911.262,
+            "gradeProbabilities": {
+              "low": 0.6827331103689186,
+              "medium": 0.264936596217917,
+              "high": 0.05233029341316442
+            },
+            "extractionDifficulty": 15.902,
+            "processingDifficulty": 54.964,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-8-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 176048807.512,
+            "gradeProbabilities": {
+              "low": 0.12494548232288279,
+              "medium": 0.36658346576496237,
+              "high": 0.5084710519121548
+            },
+            "extractionDifficulty": 62.987,
+            "processingDifficulty": 54.964,
+            "discoveryTier": 5,
+            "accessDepth": 60.229,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.485,
+          "radiationLevel": null,
+          "terrainObstacle": 0.341701,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-9-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 232653465.339,
+            "gradeProbabilities": {
+              "low": 0.6779621424476765,
+              "medium": 0.2709769115404949,
+              "high": 0.05106094601182858
+            },
+            "extractionDifficulty": 28.402,
+            "processingDifficulty": 27.743,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.617,
+          "radiationLevel": null,
+          "terrainObstacle": 0.165193,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-10-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 32728141.406,
+            "gradeProbabilities": {
+              "low": 0.6796180455709956,
+              "medium": 0.2653223150720612,
+              "high": 0.05505963935694317
+            },
+            "extractionDifficulty": 33.157,
+            "processingDifficulty": 67.534,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-10-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 105497288.671,
+            "gradeProbabilities": {
+              "low": 0.12464309907511988,
+              "medium": 0.36619857292129876,
+              "high": 0.5091583280035814
+            },
+            "extractionDifficulty": 83.077,
+            "processingDifficulty": 67.534,
+            "discoveryTier": 5,
+            "accessDepth": 86.066,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 75.861,
+          "radiationLevel": null,
+          "terrainObstacle": 0.191759,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-11-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 272431785.352,
+            "gradeProbabilities": {
+              "low": 0.6789980968839637,
+              "medium": 0.268200564346628,
+              "high": 0.05280133876940826
+            },
+            "extractionDifficulty": 21.249,
+            "processingDifficulty": 49.962,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-11-0",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 169974544.993,
+            "gradeProbabilities": {
+              "low": 0.38722254370180154,
+              "medium": 0.3506969810604458,
+              "high": 0.2620804752377527
+            },
+            "extractionDifficulty": 52.026,
+            "processingDifficulty": 49.962,
+            "discoveryTier": 2,
+            "accessDepth": 34.796,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.169,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116784,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-12-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 182513293.16,
+            "gradeProbabilities": {
+              "low": 0.6812806454568319,
+              "medium": 0.2668175701549069,
+              "high": 0.051901784388261235
+            },
+            "extractionDifficulty": 25.878,
+            "processingDifficulty": 62.417,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-12-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 517726210.595,
+            "gradeProbabilities": {
+              "low": 0.12384167187654593,
+              "medium": 0.3667288546606081,
+              "high": 0.509429473462846
+            },
+            "extractionDifficulty": 68.584,
+            "processingDifficulty": 62.417,
+            "discoveryTier": 5,
+            "accessDepth": 54.213,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.625,
+          "radiationLevel": null,
+          "terrainObstacle": 0.357801,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-13-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 223218502.672,
+            "gradeProbabilities": {
+              "low": 0.6804271398323737,
+              "medium": 0.26893732624256766,
+              "high": 0.050635533925058644
+            },
+            "extractionDifficulty": 16.717,
+            "processingDifficulty": 24.13,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.877,
+          "radiationLevel": null,
+          "terrainObstacle": 0.289537,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-14-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 109617903.197,
+            "gradeProbabilities": {
+              "low": 0.6787712661295346,
+              "medium": 0.2638574140829758,
+              "high": 0.05737131978748957
+            },
+            "extractionDifficulty": 17.6,
+            "processingDifficulty": 60.406,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-14-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 356614780.147,
+            "gradeProbabilities": {
+              "low": 0.1273807344994805,
+              "medium": 0.36200693339548284,
+              "high": 0.5106123321050366
+            },
+            "extractionDifficulty": 69.191,
+            "processingDifficulty": 60.406,
+            "discoveryTier": 3,
+            "accessDepth": 86.333,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.287,
+          "radiationLevel": null,
+          "terrainObstacle": 0.11973,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-15-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 66839818.696,
+            "gradeProbabilities": {
+              "low": 0.6822276345255933,
+              "medium": 0.26155739454308313,
+              "high": 0.05621497093132357
+            },
+            "extractionDifficulty": 29.71,
+            "processingDifficulty": 48.534,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-15-1",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 868815134.38,
+            "gradeProbabilities": {
+              "low": 0.3887426197550186,
+              "medium": 0.36648600433313894,
+              "high": 0.24477137591184248
+            },
+            "extractionDifficulty": 48.12,
+            "processingDifficulty": 48.534,
+            "discoveryTier": 1,
+            "accessDepth": 18.654,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-15-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 191254769.568,
+            "gradeProbabilities": {
+              "low": 0.12461967964091518,
+              "medium": 0.36578906892492646,
+              "high": 0.5095912514341584
+            },
+            "extractionDifficulty": 78.189,
+            "processingDifficulty": 48.534,
+            "discoveryTier": 3,
+            "accessDepth": 72.757,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.412,
+          "radiationLevel": null,
+          "terrainObstacle": 0.147122,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-16-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 89849851.438,
+            "gradeProbabilities": {
+              "low": 0.6835152910041772,
+              "medium": 0.25994575530418906,
+              "high": 0.05653895369163374
+            },
+            "extractionDifficulty": 33.891,
+            "processingDifficulty": 22.517,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-16-0",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 298724790.56,
+            "gradeProbabilities": {
+              "low": 0.39178297705416765,
+              "medium": 0.3431342645670627,
+              "high": 0.26508275837876966
+            },
+            "extractionDifficulty": 36.901,
+            "processingDifficulty": 22.517,
+            "discoveryTier": 2,
+            "accessDepth": 27.279,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-16-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 329260792.565,
+            "gradeProbabilities": {
+              "low": 0.1286607747990004,
+              "medium": 0.3673179337258565,
+              "high": 0.5040212914751431
+            },
+            "extractionDifficulty": 71.574,
+            "processingDifficulty": 22.517,
+            "discoveryTier": 4,
+            "accessDepth": 87.132,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.588,
+          "radiationLevel": null,
+          "terrainObstacle": 0.322028,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-17-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 78254177.921,
+            "gradeProbabilities": {
+              "low": 0.6842197011771761,
+              "medium": 0.25990444339567575,
+              "high": 0.055875855427148145
+            },
+            "extractionDifficulty": 15.671,
+            "processingDifficulty": 29.538,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 91.378,
+          "radiationLevel": null,
+          "terrainObstacle": 0.355412,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-18-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 211682293.175,
+            "gradeProbabilities": {
+              "low": 0.685232129615467,
+              "medium": 0.2598015541465746,
+              "high": 0.054966316237958474
+            },
+            "extractionDifficulty": 13.019,
+            "processingDifficulty": 18.542,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.035,
+          "radiationLevel": null,
+          "terrainObstacle": 0.286428,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-19-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 171431769.441,
+            "gradeProbabilities": {
+              "low": 0.678141209612336,
+              "medium": 0.2640860529536173,
+              "high": 0.057772737434046664
+            },
+            "extractionDifficulty": 17.772,
+            "processingDifficulty": 16.987,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-19-0",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1964208559.357,
+            "gradeProbabilities": {
+              "low": 0.3876261639430114,
+              "medium": 0.3488622260216032,
+              "high": 0.26351161003538537
+            },
+            "extractionDifficulty": 42.105,
+            "processingDifficulty": 16.987,
+            "discoveryTier": 2,
+            "accessDepth": 32.996,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 101.567,
+          "radiationLevel": null,
+          "terrainObstacle": 0.385458,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-20-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 62549330.548,
+            "gradeProbabilities": {
+              "low": 0.6821663737918399,
+              "medium": 0.2627776710608767,
+              "high": 0.055055955147283474
+            },
+            "extractionDifficulty": 18.922,
+            "processingDifficulty": 55.896,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.929,
+          "radiationLevel": null,
+          "terrainObstacle": 0.350712,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-21-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 68473408.863,
+            "gradeProbabilities": {
+              "low": 0.6842436063799224,
+              "medium": 0.25982430824206926,
+              "high": 0.055932085378008284
+            },
+            "extractionDifficulty": 10.359,
+            "processingDifficulty": 33.745,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-21-0",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 409301594.865,
+            "gradeProbabilities": {
+              "low": 0.3920298955666759,
+              "medium": 0.341848171289206,
+              "high": 0.2661219331441181
+            },
+            "extractionDifficulty": 53.726,
+            "processingDifficulty": 33.745,
+            "discoveryTier": 2,
+            "accessDepth": 32.419,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 101.209,
+          "radiationLevel": null,
+          "terrainObstacle": 0.305732,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-22-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 173127224.23,
+            "gradeProbabilities": {
+              "low": 0.6838410963590406,
+              "medium": 0.2604354115998165,
+              "high": 0.05572349204114298
+            },
+            "extractionDifficulty": 26.201,
+            "processingDifficulty": 54.196,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 101.635,
+          "radiationLevel": null,
+          "terrainObstacle": 0.383138,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-23-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 47448086.94,
+            "gradeProbabilities": {
+              "low": 0.684670853777524,
+              "medium": 0.2650967118287252,
+              "high": 0.05023243439375082
+            },
+            "extractionDifficulty": 31.548,
+            "processingDifficulty": 43.648,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.741,
+          "radiationLevel": null,
+          "terrainObstacle": 0.111361,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-24-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 89155101.562,
+            "gradeProbabilities": {
+              "low": 0.6797001882593297,
+              "medium": 0.26990243884490583,
+              "high": 0.05039737289576451
+            },
+            "extractionDifficulty": 24.791,
+            "processingDifficulty": 68,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-24-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 327374283.541,
+            "gradeProbabilities": {
+              "low": 0.12696405909017838,
+              "medium": 0.36843371061302,
+              "high": 0.5046022302968016
+            },
+            "extractionDifficulty": 63.951,
+            "processingDifficulty": 68,
+            "discoveryTier": 4,
+            "accessDepth": 57.759,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.414,
+          "radiationLevel": null,
+          "terrainObstacle": 0.215492,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-25-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 165569443.892,
+            "gradeProbabilities": {
+              "low": 0.6833407714727483,
+              "medium": 0.2623563038160817,
+              "high": 0.05430292471117
+            },
+            "extractionDifficulty": 30.61,
+            "processingDifficulty": 22.579,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-25-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 597502630.037,
+            "gradeProbabilities": {
+              "low": 0.12432306567014374,
+              "medium": 0.3709834730724918,
+              "high": 0.5046934612573645
+            },
+            "extractionDifficulty": 80.242,
+            "processingDifficulty": 22.579,
+            "discoveryTier": 3,
+            "accessDepth": 85.935,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.419,
+          "radiationLevel": null,
+          "terrainObstacle": 0.392719,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-26-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 153925607.094,
+            "gradeProbabilities": {
+              "low": 0.67904231035031,
+              "medium": 0.2664086021868304,
+              "high": 0.05454908746285955
+            },
+            "extractionDifficulty": 28.104,
+            "processingDifficulty": 26.509,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-26-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 635936128.097,
+            "gradeProbabilities": {
+              "low": 0.12300579032109299,
+              "medium": 0.3707187863967495,
+              "high": 0.5062754232821575
+            },
+            "extractionDifficulty": 78.812,
+            "processingDifficulty": 26.509,
+            "discoveryTier": 4,
+            "accessDepth": 62.299,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.462,
+          "radiationLevel": null,
+          "terrainObstacle": 0.14489,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-27-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 409200451.109,
+            "gradeProbabilities": {
+              "low": 0.6815684806040637,
+              "medium": 0.26183435251878356,
+              "high": 0.05659716687715272
+            },
+            "extractionDifficulty": 14.988,
+            "processingDifficulty": 23.14,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.017,
+          "radiationLevel": null,
+          "terrainObstacle": 0.374397,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-28-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 817797560.042,
+            "gradeProbabilities": {
+              "low": 0.6833204488984458,
+              "medium": 0.26211334076838355,
+              "high": 0.05456621033317069
+            },
+            "extractionDifficulty": 28.47,
+            "processingDifficulty": 36.619,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 102.33,
+          "radiationLevel": null,
+          "terrainObstacle": 0.369246,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-29-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 273903141.451,
+            "gradeProbabilities": {
+              "low": 0.6814225243206284,
+              "medium": 0.26522162131907207,
+              "high": 0.05335585436029951
+            },
+            "extractionDifficulty": 29.966,
+            "processingDifficulty": 25.935,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-29-2",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 125085088.208,
+            "gradeProbabilities": {
+              "low": 0.40091245286752664,
+              "medium": 0.3530147177904253,
+              "high": 0.24607282934204805
+            },
+            "extractionDifficulty": 40.078,
+            "processingDifficulty": 25.935,
+            "discoveryTier": 1,
+            "accessDepth": 6.272,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 105.487,
+          "radiationLevel": null,
+          "terrainObstacle": 0.260534,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-30-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 234205906.13,
+            "gradeProbabilities": {
+              "low": 0.6840392837009541,
+              "medium": 0.26185100876481987,
+              "high": 0.05410970753422598
+            },
+            "extractionDifficulty": 30.562,
+            "processingDifficulty": 66.184,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-30-0",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1603864462.996,
+            "gradeProbabilities": {
+              "low": 0.3913258499468603,
+              "medium": 0.34866154676409106,
+              "high": 0.26001260328904857
+            },
+            "extractionDifficulty": 48.66,
+            "processingDifficulty": 66.184,
+            "discoveryTier": 1,
+            "accessDepth": 27.242,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-30-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 707584369.619,
+            "gradeProbabilities": {
+              "low": 0.12256658546806493,
+              "medium": 0.37157927680268166,
+              "high": 0.5058541377292535
+            },
+            "extractionDifficulty": 65.667,
+            "processingDifficulty": 66.184,
+            "discoveryTier": 3,
+            "accessDepth": 87.071,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.446,
+          "radiationLevel": null,
+          "terrainObstacle": 0.39252,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-31-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 570420707.018,
+            "gradeProbabilities": {
+              "low": 0.6854177356462143,
+              "medium": 0.2629971320176289,
+              "high": 0.05158513233615677
+            },
+            "extractionDifficulty": 15.295,
+            "processingDifficulty": 50.784,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.223,
+          "radiationLevel": null,
+          "terrainObstacle": 0.391804,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-32-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1494549698.943,
+            "gradeProbabilities": {
+              "low": 0.6823365858706795,
+              "medium": 0.2647954634384975,
+              "high": 0.052867950690823
+            },
+            "extractionDifficulty": 27.568,
+            "processingDifficulty": 32.442,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.241,
+          "radiationLevel": null,
+          "terrainObstacle": 0.145405,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-33-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 52327857.825,
+            "gradeProbabilities": {
+              "low": 0.6796590147881918,
+              "medium": 0.2695028412820563,
+              "high": 0.05083814392975191
+            },
+            "extractionDifficulty": 17.426,
+            "processingDifficulty": 21.127,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-33-2",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 571937930.846,
+            "gradeProbabilities": {
+              "low": 0.39826483709019805,
+              "medium": 0.3508475438571875,
+              "high": 0.2508876190526145
+            },
+            "extractionDifficulty": 54.329,
+            "processingDifficulty": 21.127,
+            "discoveryTier": 1,
+            "accessDepth": 6.427,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.648,
+          "radiationLevel": null,
+          "terrainObstacle": 0.390561,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-34-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 99050299.851,
+            "gradeProbabilities": {
+              "low": 0.6834174003011696,
+              "medium": 0.26179577222222244,
+              "high": 0.05478682747660796
+            },
+            "extractionDifficulty": 29.876,
+            "processingDifficulty": 16.907,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-34-2",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 398374014.576,
+            "gradeProbabilities": {
+              "low": 0.40158817028654004,
+              "medium": 0.35063853757748054,
+              "high": 0.24777329213597943
+            },
+            "extractionDifficulty": 42.611,
+            "processingDifficulty": 16.907,
+            "discoveryTier": 1,
+            "accessDepth": 22.029,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-34-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 392431271.274,
+            "gradeProbabilities": {
+              "low": 0.1287522070835642,
+              "medium": 0.3682995313692021,
+              "high": 0.5029482615472337
+            },
+            "extractionDifficulty": 80.071,
+            "processingDifficulty": 16.907,
+            "discoveryTier": 4,
+            "accessDepth": 78.381,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.292,
+          "radiationLevel": null,
+          "terrainObstacle": 0.304657,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-35-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 165309522.087,
+            "gradeProbabilities": {
+              "low": 0.6850141067418418,
+              "medium": 0.25827557582163974,
+              "high": 0.05671031743651847
+            },
+            "extractionDifficulty": 31.364,
+            "processingDifficulty": 20.966,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-35-2",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 120469897.815,
+            "gradeProbabilities": {
+              "low": 0.40266545414579297,
+              "medium": 0.34655020972447137,
+              "high": 0.2507843361297356
+            },
+            "extractionDifficulty": 44.827,
+            "processingDifficulty": 20.966,
+            "discoveryTier": 1,
+            "accessDepth": 19.192,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-35-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 317579984.907,
+            "gradeProbabilities": {
+              "low": 0.12797170314372697,
+              "medium": 0.36794380699536977,
+              "high": 0.5040844898609033
+            },
+            "extractionDifficulty": 70.381,
+            "processingDifficulty": 20.966,
+            "discoveryTier": 4,
+            "accessDepth": 73.653,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 106.757,
+          "radiationLevel": null,
+          "terrainObstacle": 0.307469,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-36-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 436767941.275,
+            "gradeProbabilities": {
+              "low": 0.6830828064612262,
+              "medium": 0.2642200352934912,
+              "high": 0.05269715824528257
+            },
+            "extractionDifficulty": 11.003,
+            "processingDifficulty": 61.917,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 107.3,
+          "radiationLevel": null,
+          "terrainObstacle": 0.133524,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-37-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 78673925.679,
+            "gradeProbabilities": {
+              "low": 0.6831381150006466,
+              "medium": 0.25908926793316156,
+              "high": 0.05777261706619183
+            },
+            "extractionDifficulty": 14.104,
+            "processingDifficulty": 48.783,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 106.097,
+          "radiationLevel": null,
+          "terrainObstacle": 0.388416,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-38-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 96033124.055,
+            "gradeProbabilities": {
+              "low": 0.6781451311360263,
+              "medium": 0.27019819119328414,
+              "high": 0.05165667767068962
+            },
+            "extractionDifficulty": 26.703,
+            "processingDifficulty": 20.421,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.83,
+          "radiationLevel": null,
+          "terrainObstacle": 0.252474,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-39-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 236144790.496,
+            "gradeProbabilities": {
+              "low": 0.6821486006814204,
+              "medium": 0.266984043668376,
+              "high": 0.05086735565020362
+            },
+            "extractionDifficulty": 14.135,
+            "processingDifficulty": 58.443,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-39-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 773408586.75,
+            "gradeProbabilities": {
+              "low": 0.12500777236738422,
+              "medium": 0.37118600816532243,
+              "high": 0.5038062194672933
+            },
+            "extractionDifficulty": 60.471,
+            "processingDifficulty": 58.443,
+            "discoveryTier": 5,
+            "accessDepth": 57.971,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.01,
+          "radiationLevel": null,
+          "terrainObstacle": 0.37832,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-40-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 153102313.854,
+            "gradeProbabilities": {
+              "low": 0.6786206735621355,
+              "medium": 0.26682798205071845,
+              "high": 0.05455134438714604
+            },
+            "extractionDifficulty": 19.706,
+            "processingDifficulty": 31.635,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-40-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 504238964.062,
+            "gradeProbabilities": {
+              "low": 0.12347025465958932,
+              "medium": 0.3735561522233414,
+              "high": 0.5029735931170694
+            },
+            "extractionDifficulty": 63.157,
+            "processingDifficulty": 31.635,
+            "discoveryTier": 4,
+            "accessDepth": 91.254,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:titan:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.69,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116579,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-surface-41-0",
+            "groupId": "g1-sol-titan-fe08c0eb-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 77964310.688,
+            "gradeProbabilities": {
+              "low": 0.6809189893107078,
+              "medium": 0.2624187316199557,
+              "high": 0.056662279069336456
+            },
+            "extractionDifficulty": 32.03,
+            "processingDifficulty": 23.049,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-vein-41-1",
+            "groupId": "g1-sol-titan-fe08c0eb-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1197016405.63,
+            "gradeProbabilities": {
+              "low": 0.3842811255867519,
+              "medium": 0.3665446821089242,
+              "high": 0.2491741923043238
+            },
+            "extractionDifficulty": 44.538,
+            "processingDifficulty": 23.049,
+            "discoveryTier": 2,
+            "accessDepth": 22.185,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-titan-fe08c0eb-deep-41-0",
+            "groupId": "g1-sol-titan-fe08c0eb-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 251527892.77,
+            "gradeProbabilities": {
+              "low": 0.12637560715892532,
+              "medium": 0.36634615647672886,
+              "high": 0.5072782363643459
+            },
+            "extractionDifficulty": 83.175,
+            "processingDifficulty": 23.049,
+            "discoveryTier": 5,
+            "accessDepth": 78.642,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:titan:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:titan:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 24672141974.658,
+    "typeShares": {
+      "surface": 0.3656979731803136,
+      "vein": 0.3252796762687189,
+      "deep": 0.3090223505509676
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.6822350146481768,
+        "medium": 0.26422408525599156,
+        "high": 0.0535409000958316
+      },
+      "vein": {
+        "low": 0.39088025465607645,
+        "medium": 0.352913458738476,
+        "high": 0.25620628660544753
+      },
+      "deep": {
+        "low": 0.1259222685196437,
+        "medium": 0.3681474794563837,
+        "high": 0.5059302520239726
+      }
+    },
+    "jitter": 0.04,
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:titan:resources:v1",
+    "generatorVersion": 1,
+    "budgetPolicy": "procedural"
+  },
+  "hydrogenSources": [
+    {
+      "sourceId": "h1-sol-titan-fe08c0eb-0",
+      "tileId": "sol:titan:surface:00015",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 27386141.832,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 82.817,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    },
+    {
+      "sourceId": "h1-sol-titan-fe08c0eb-1",
+      "tileId": "sol:titan:surface:00021",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 26650151.382,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 66.542,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    }
+  ],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+  }
+}

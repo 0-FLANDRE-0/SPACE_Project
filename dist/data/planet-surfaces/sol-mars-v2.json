@@ -1,0 +1,2927 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "mars",
+  "bodyKind": "planet",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "3bbb92d2"
+  },
+  "geology": {
+    "cells": {
+      "sol:mars:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 179.833,
+          "radiationLevel": null,
+          "terrainObstacle": 0.304296,
+          "habitability": 0.0275,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-0-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 122687407.038,
+            "gradeProbabilities": {
+              "low": 0.5506364786793521,
+              "medium": 0.4031593669659524,
+              "high": 0.04620415435469556
+            },
+            "extractionDifficulty": 17.81,
+            "processingDifficulty": 31.868,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-0-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 82811466.237,
+            "gradeProbabilities": {
+              "low": 0.14998715864532575,
+              "medium": 0.3480857939642842,
+              "high": 0.5019270473903901
+            },
+            "extractionDifficulty": 81.176,
+            "processingDifficulty": 31.868,
+            "discoveryTier": 3,
+            "accessDepth": 95.588,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 205.32,
+          "radiationLevel": null,
+          "terrainObstacle": 0.315274,
+          "habitability": 0.0365,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-1-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 376552335.577,
+            "gradeProbabilities": {
+              "low": 0.5497820851170501,
+              "medium": 0.39740221757880134,
+              "high": 0.05281569730414856
+            },
+            "extractionDifficulty": 16.309,
+            "processingDifficulty": 16.44,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-1-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 256715123.084,
+            "gradeProbabilities": {
+              "low": 0.15079897729345546,
+              "medium": 0.3490230266523535,
+              "high": 0.500177996054191
+            },
+            "extractionDifficulty": 72.026,
+            "processingDifficulty": 16.44,
+            "discoveryTier": 3,
+            "accessDepth": 98.283,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 206.914,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0365,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-2-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 82875239.586,
+            "gradeProbabilities": {
+              "low": 0.5513537164294203,
+              "medium": 0.39834629446333936,
+              "high": 0.050299989107240324
+            },
+            "extractionDifficulty": 13.376,
+            "processingDifficulty": 32.991,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-2-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 203649347.57,
+            "gradeProbabilities": {
+              "low": 0.15212792547644063,
+              "medium": 0.35272508200602487,
+              "high": 0.4951469925175345
+            },
+            "extractionDifficulty": 64.551,
+            "processingDifficulty": 32.991,
+            "discoveryTier": 3,
+            "accessDepth": 52.139,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.349,
+          "radiationLevel": null,
+          "terrainObstacle": 0.313147,
+          "habitability": 0.0425,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-3-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 646324548.303,
+            "gradeProbabilities": {
+              "low": 0.5491133327652743,
+              "medium": 0.3994933274469404,
+              "high": 0.0513933397877853
+            },
+            "extractionDifficulty": 22.758,
+            "processingDifficulty": 34.375,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 216.289,
+          "radiationLevel": null,
+          "terrainObstacle": 0.24252,
+          "habitability": 0.0425,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-4-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2066364455.93,
+            "gradeProbabilities": {
+              "low": 0.5481018915214618,
+              "medium": 0.4007980300585805,
+              "high": 0.051100078419957645
+            },
+            "extractionDifficulty": 22.018,
+            "processingDifficulty": 43.348,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 204.907,
+          "radiationLevel": null,
+          "terrainObstacle": 0.319146,
+          "habitability": 0.035429,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-5-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 228852943.364,
+            "gradeProbabilities": {
+              "low": 0.5483021722083022,
+              "medium": 0.40366685723020423,
+              "high": 0.04803097056149352
+            },
+            "extractionDifficulty": 15.04,
+            "processingDifficulty": 39.286,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 201.72,
+          "radiationLevel": null,
+          "terrainObstacle": 0.276932,
+          "habitability": 0.0365,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-6-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 533966832.936,
+            "gradeProbabilities": {
+              "low": 0.5495863877759357,
+              "medium": 0.4039328548523664,
+              "high": 0.046480757371697906
+            },
+            "extractionDifficulty": 15.231,
+            "processingDifficulty": 50.307,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 203.139,
+          "radiationLevel": null,
+          "terrainObstacle": 0.326833,
+          "habitability": 0.0365,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-7-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 266290997.799,
+            "gradeProbabilities": {
+              "low": 0.5473108525835951,
+              "medium": 0.40317356548710453,
+              "high": 0.04951558192930031
+            },
+            "extractionDifficulty": 11.742,
+            "processingDifficulty": 50.122,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-7-0",
+            "groupId": "g1-sol-mars-182b99a2-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 107485440.833,
+            "gradeProbabilities": {
+              "low": 0.30710039933587396,
+              "medium": 0.38602444744472475,
+              "high": 0.3068751532194013
+            },
+            "extractionDifficulty": 36.799,
+            "processingDifficulty": 50.122,
+            "discoveryTier": 2,
+            "accessDepth": 27.516,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-7-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 69020999.876,
+            "gradeProbabilities": {
+              "low": 0.15038192207963152,
+              "medium": 0.34834045784706125,
+              "high": 0.5012776200733072
+            },
+            "extractionDifficulty": 76.606,
+            "processingDifficulty": 50.122,
+            "discoveryTier": 4,
+            "accessDepth": 87.526,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 210.291,
+          "radiationLevel": null,
+          "terrainObstacle": 0.196374,
+          "habitability": 0.0425,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-8-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 667797782.954,
+            "gradeProbabilities": {
+              "low": 0.5488524518386503,
+              "medium": 0.40495878808638747,
+              "high": 0.04618876007496226
+            },
+            "extractionDifficulty": 11.198,
+            "processingDifficulty": 20.324,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-8-0",
+            "groupId": "g1-sol-mars-182b99a2-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 866308067.13,
+            "gradeProbabilities": {
+              "low": 0.3015270953197309,
+              "medium": 0.3931351951266554,
+              "high": 0.3053377095536137
+            },
+            "extractionDifficulty": 49.508,
+            "processingDifficulty": 20.324,
+            "discoveryTier": 2,
+            "accessDepth": 31.437,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 213.112,
+          "radiationLevel": null,
+          "terrainObstacle": 0.16892,
+          "habitability": 0.0425,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-9-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2035218515.446,
+            "gradeProbabilities": {
+              "low": 0.5514397098832806,
+              "medium": 0.40150038047759523,
+              "high": 0.04705990963912416
+            },
+            "extractionDifficulty": 20.565,
+            "processingDifficulty": 52.295,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-9-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 805058224.454,
+            "gradeProbabilities": {
+              "low": 0.14985456587039814,
+              "medium": 0.350934449936914,
+              "high": 0.4992109841926879
+            },
+            "extractionDifficulty": 84.468,
+            "processingDifficulty": 52.295,
+            "discoveryTier": 4,
+            "accessDepth": 56.286,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 198.074,
+          "radiationLevel": null,
+          "terrainObstacle": 0.211153,
+          "habitability": 0.035429,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-10-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 564378619.985,
+            "gradeProbabilities": {
+              "low": 0.55082380307103,
+              "medium": 0.3957798612459629,
+              "high": 0.053396335683007126
+            },
+            "extractionDifficulty": 20.864,
+            "processingDifficulty": 41.453,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-10-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 88926525.801,
+            "gradeProbabilities": {
+              "low": 0.15040357846991106,
+              "medium": 0.3514314385873254,
+              "high": 0.49816498294276357
+            },
+            "extractionDifficulty": 83.805,
+            "processingDifficulty": 41.453,
+            "discoveryTier": 5,
+            "accessDepth": 75.24,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 182.032,
+          "radiationLevel": null,
+          "terrainObstacle": 0.390038,
+          "habitability": 0.0275,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-11-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 68592282.288,
+            "gradeProbabilities": {
+              "low": 0.5468462340013166,
+              "medium": 0.4063071772965669,
+              "high": 0.04684658870211649
+            },
+            "extractionDifficulty": 19.144,
+            "processingDifficulty": 47.769,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-11-1",
+            "groupId": "g1-sol-mars-182b99a2-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 386611866.002,
+            "gradeProbabilities": {
+              "low": 0.2758855475839504,
+              "medium": 0.42812298303273594,
+              "high": 0.2959914693833137
+            },
+            "extractionDifficulty": 47.478,
+            "processingDifficulty": 47.769,
+            "discoveryTier": 2,
+            "accessDepth": 22.944,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-11-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 44871826.133,
+            "gradeProbabilities": {
+              "low": 0.14763489172832056,
+              "medium": 0.35615892052436127,
+              "high": 0.4962061877473182
+            },
+            "extractionDifficulty": 64.912,
+            "processingDifficulty": 47.769,
+            "discoveryTier": 5,
+            "accessDepth": 79.906,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 205.097,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0365,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-12-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 111433985.097,
+            "gradeProbabilities": {
+              "low": 0.5511899885387203,
+              "medium": 0.3969933853137373,
+              "high": 0.05181662614754248
+            },
+            "extractionDifficulty": 33.01,
+            "processingDifficulty": 20.65,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 202.269,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0365,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-13-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 372343064.207,
+            "gradeProbabilities": {
+              "low": 0.5474433102701833,
+              "medium": 0.3995284305389105,
+              "high": 0.053028259190906174
+            },
+            "extractionDifficulty": 16.85,
+            "processingDifficulty": 19.537,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 214.537,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0425,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-14-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1804538600.356,
+            "gradeProbabilities": {
+              "low": 0.5474976575319698,
+              "medium": 0.3993384122165917,
+              "high": 0.0531639302514385
+            },
+            "extractionDifficulty": 12.067,
+            "processingDifficulty": 18.877,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-14-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 394010991.265,
+            "gradeProbabilities": {
+              "low": 0.15046183322035656,
+              "medium": 0.3475111987178202,
+              "high": 0.5020269680618232
+            },
+            "extractionDifficulty": 78.821,
+            "processingDifficulty": 18.877,
+            "discoveryTier": 4,
+            "accessDepth": 74.917,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 213.028,
+          "radiationLevel": null,
+          "terrainObstacle": 0.281092,
+          "habitability": 0.0425,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-15-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 601642725.113,
+            "gradeProbabilities": {
+              "low": 0.5484628826306244,
+              "medium": 0.3983914619914322,
+              "high": 0.0531456553779434
+            },
+            "extractionDifficulty": 34.933,
+            "processingDifficulty": 28.787,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 201.838,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.035429,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-16-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 262127051.592,
+            "gradeProbabilities": {
+              "low": 0.5528396147863051,
+              "medium": 0.399897816735047,
+              "high": 0.04726256847864795
+            },
+            "extractionDifficulty": 33.933,
+            "processingDifficulty": 23.876,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 210.008,
+          "radiationLevel": null,
+          "terrainObstacle": 0.270296,
+          "habitability": 0.0365,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-17-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 155105565.837,
+            "gradeProbabilities": {
+              "low": 0.5487826912515839,
+              "medium": 0.4010557078520834,
+              "high": 0.050161600896332745
+            },
+            "extractionDifficulty": 30.212,
+            "processingDifficulty": 59.332,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 200.668,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0365,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-18-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 883526554.092,
+            "gradeProbabilities": {
+              "low": 0.5474221825898667,
+              "medium": 0.40370909778653374,
+              "high": 0.04886871962359953
+            },
+            "extractionDifficulty": 12.877,
+            "processingDifficulty": 48.752,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-18-1",
+            "groupId": "g1-sol-mars-182b99a2-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 215293555.559,
+            "gradeProbabilities": {
+              "low": 0.273569164536921,
+              "medium": 0.4352171929105101,
+              "high": 0.291213642552569
+            },
+            "extractionDifficulty": 51.448,
+            "processingDifficulty": 48.752,
+            "discoveryTier": 1,
+            "accessDepth": 26.504,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.18754,
+          "waterFraction": 0.81246
+        },
+        "environment": {
+          "temperatureK": 214.412,
+          "radiationLevel": null,
+          "terrainObstacle": 0.233743,
+          "habitability": 0.0425,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-19-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2648132914.285,
+            "gradeProbabilities": {
+              "low": 0.5536614884958645,
+              "medium": 0.40024840717269766,
+              "high": 0.04609010433143783
+            },
+            "extractionDifficulty": 11.855,
+            "processingDifficulty": 39.785,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-19-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 523168016.147,
+            "gradeProbabilities": {
+              "low": 0.15111188011468335,
+              "medium": 0.34695678967023147,
+              "high": 0.5019313302150852
+            },
+            "extractionDifficulty": 60.125,
+            "processingDifficulty": 39.785,
+            "discoveryTier": 5,
+            "accessDepth": 95.186,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 219.935,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138824,
+          "habitability": 0.0425,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-20-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 768538027.126,
+            "gradeProbabilities": {
+              "low": 0.5469932713621338,
+              "medium": 0.40604807834765605,
+              "high": 0.04695865029021013
+            },
+            "extractionDifficulty": 23.61,
+            "processingDifficulty": 53.022,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-20-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 121885592.377,
+            "gradeProbabilities": {
+              "low": 0.15023944775239512,
+              "medium": 0.35438892341190825,
+              "high": 0.4953716288356966
+            },
+            "extractionDifficulty": 65.699,
+            "processingDifficulty": 53.022,
+            "discoveryTier": 3,
+            "accessDepth": 98.11,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 204.601,
+          "radiationLevel": null,
+          "terrainObstacle": 0.284435,
+          "habitability": 0.035429,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-21-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 496291054.826,
+            "gradeProbabilities": {
+              "low": 0.5541829622686884,
+              "medium": 0.3966111675265311,
+              "high": 0.04920587020478058
+            },
+            "extractionDifficulty": 23.794,
+            "processingDifficulty": 54.857,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-21-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 90462156.804,
+            "gradeProbabilities": {
+              "low": 0.14853730658666178,
+              "medium": 0.3498040265624399,
+              "high": 0.5016586668508983
+            },
+            "extractionDifficulty": 71.156,
+            "processingDifficulty": 54.857,
+            "discoveryTier": 3,
+            "accessDepth": 69.463,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 221.359,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-22-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 95936198.336,
+            "gradeProbabilities": {
+              "low": 0.5475888268706431,
+              "medium": 0.40319719212381827,
+              "high": 0.04921398100553859
+            },
+            "extractionDifficulty": 11.439,
+            "processingDifficulty": 64.312,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-22-2",
+            "groupId": "g1-sol-mars-182b99a2-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 612540320.736,
+            "gradeProbabilities": {
+              "low": 0.28068917930128956,
+              "medium": 0.414138300340521,
+              "high": 0.3051725203581894
+            },
+            "extractionDifficulty": 42.795,
+            "processingDifficulty": 64.312,
+            "discoveryTier": 1,
+            "accessDepth": 23.933,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 223.305,
+          "radiationLevel": null,
+          "terrainObstacle": 0.161349,
+          "habitability": 0.0455,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-23-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 415460823.926,
+            "gradeProbabilities": {
+              "low": 0.5533716713731219,
+              "medium": 0.3931410813412695,
+              "high": 0.05348724728560853
+            },
+            "extractionDifficulty": 13.145,
+            "processingDifficulty": 21.08,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.637,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0455,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-24-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 162677062.544,
+            "gradeProbabilities": {
+              "low": 0.5473778088559439,
+              "medium": 0.4025267274162798,
+              "high": 0.05009546372777629
+            },
+            "extractionDifficulty": 19.656,
+            "processingDifficulty": 31.144,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-24-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 291486844.876,
+            "gradeProbabilities": {
+              "low": 0.14824164597541972,
+              "medium": 0.35670178415225706,
+              "high": 0.49505656987232327
+            },
+            "extractionDifficulty": 82.212,
+            "processingDifficulty": 31.144,
+            "discoveryTier": 5,
+            "accessDepth": 90.426,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 217.028,
+          "radiationLevel": null,
+          "terrainObstacle": 0.3167,
+          "habitability": 0.042071,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-25-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 140027817.412,
+            "gradeProbabilities": {
+              "low": 0.5486308833603789,
+              "medium": 0.4047509898140162,
+              "high": 0.04661812682560492
+            },
+            "extractionDifficulty": 29.995,
+            "processingDifficulty": 31.134,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-25-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 38629830.808,
+            "gradeProbabilities": {
+              "low": 0.1497743386145769,
+              "medium": 0.3549224663523014,
+              "high": 0.4953031950331217
+            },
+            "extractionDifficulty": 84.447,
+            "processingDifficulty": 31.134,
+            "discoveryTier": 4,
+            "accessDepth": 63.141,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.906,
+          "radiationLevel": null,
+          "terrainObstacle": 0.246368,
+          "habitability": 0.0455,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-26-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2661766508.379,
+            "gradeProbabilities": {
+              "low": 0.5512430652604481,
+              "medium": 0.3976476369041084,
+              "high": 0.051109297835443504
+            },
+            "extractionDifficulty": 25.749,
+            "processingDifficulty": 20.893,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-26-2",
+            "groupId": "g1-sol-mars-182b99a2-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 923502465.24,
+            "gradeProbabilities": {
+              "low": 0.27494123248572433,
+              "medium": 0.42217279890169473,
+              "high": 0.30288596861258094
+            },
+            "extractionDifficulty": 33.477,
+            "processingDifficulty": 20.893,
+            "discoveryTier": 2,
+            "accessDepth": 34.856,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 217.11,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0455,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-27-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1094496957.645,
+            "gradeProbabilities": {
+              "low": 0.548091735394769,
+              "medium": 0.40468960887073263,
+              "high": 0.047218655734498384
+            },
+            "extractionDifficulty": 16.901,
+            "processingDifficulty": 22.755,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 213.679,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.042071,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-28-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 293552432.167,
+            "gradeProbabilities": {
+              "low": 0.5504548211080065,
+              "medium": 0.40227341161547886,
+              "high": 0.04727176727651465
+            },
+            "extractionDifficulty": 34.492,
+            "processingDifficulty": 16.596,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-28-2",
+            "groupId": "g1-sol-mars-182b99a2-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1431266803.717,
+            "gradeProbabilities": {
+              "low": 0.27631529523621284,
+              "medium": 0.41646864627850316,
+              "high": 0.30721605848528394
+            },
+            "extractionDifficulty": 47.936,
+            "processingDifficulty": 16.596,
+            "discoveryTier": 1,
+            "accessDepth": 25.502,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-28-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 378986331.799,
+            "gradeProbabilities": {
+              "low": 0.14891333946437524,
+              "medium": 0.35001861957246316,
+              "high": 0.5010680409631616
+            },
+            "extractionDifficulty": 82.568,
+            "processingDifficulty": 16.596,
+            "discoveryTier": 3,
+            "accessDepth": 84.171,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 216.794,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-29-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 193623963.104,
+            "gradeProbabilities": {
+              "low": 0.5513802665808281,
+              "medium": 0.4023808036918818,
+              "high": 0.04623892972729016
+            },
+            "extractionDifficulty": 29.777,
+            "processingDifficulty": 66.796,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-29-0",
+            "groupId": "g1-sol-mars-182b99a2-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 272037244.097,
+            "gradeProbabilities": {
+              "low": 0.30152285442317805,
+              "medium": 0.3968925711157647,
+              "high": 0.30158457446105724
+            },
+            "extractionDifficulty": 35.239,
+            "processingDifficulty": 66.796,
+            "discoveryTier": 2,
+            "accessDepth": 5.537,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 212.37,
+          "radiationLevel": null,
+          "terrainObstacle": 0.314157,
+          "habitability": 0.0455,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-30-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1097295287.98,
+            "gradeProbabilities": {
+              "low": 0.5511549327504863,
+              "medium": 0.39844602454705824,
+              "high": 0.050399042702455404
+            },
+            "extractionDifficulty": 13.41,
+            "processingDifficulty": 28.97,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-30-3",
+            "groupId": "g1-sol-mars-182b99a2-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 367140999.213,
+            "gradeProbabilities": {
+              "low": 0.27535847815687736,
+              "medium": 0.4325549030228433,
+              "high": 0.2920866188202793
+            },
+            "extractionDifficulty": 46.357,
+            "processingDifficulty": 28.97,
+            "discoveryTier": 2,
+            "accessDepth": 11.568,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-30-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 177689979.38,
+            "gradeProbabilities": {
+              "low": 0.1504678542152135,
+              "medium": 0.3517780020439054,
+              "high": 0.4977541437408811
+            },
+            "extractionDifficulty": 66.303,
+            "processingDifficulty": 28.97,
+            "discoveryTier": 4,
+            "accessDepth": 60.946,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 216.54,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0455,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-31-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 597953107.034,
+            "gradeProbabilities": {
+              "low": 0.5535779415425887,
+              "medium": 0.39772997741467053,
+              "high": 0.04869208104274082
+            },
+            "extractionDifficulty": 12.267,
+            "processingDifficulty": 24.047,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 209.223,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.042071,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-32-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 647457547.639,
+            "gradeProbabilities": {
+              "low": 0.5504938998595854,
+              "medium": 0.403527751340258,
+              "high": 0.045978348800156596
+            },
+            "extractionDifficulty": 20.41,
+            "processingDifficulty": 60.728,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-32-3",
+            "groupId": "g1-sol-mars-182b99a2-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 959574213.823,
+            "gradeProbabilities": {
+              "low": 0.27248442036475023,
+              "medium": 0.4336498811597851,
+              "high": 0.2938656984754646
+            },
+            "extractionDifficulty": 52.307,
+            "processingDifficulty": 60.728,
+            "discoveryTier": 2,
+            "accessDepth": 12.652,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-32-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 325780398.679,
+            "gradeProbabilities": {
+              "low": 0.14723332883269474,
+              "medium": 0.35053392478609335,
+              "high": 0.5022327463812118
+            },
+            "extractionDifficulty": 68.291,
+            "processingDifficulty": 60.728,
+            "discoveryTier": 4,
+            "accessDepth": 62.753,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 214.263,
+          "radiationLevel": null,
+          "terrainObstacle": 0.250687,
+          "habitability": 0.0455,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-33-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 325322311.624,
+            "gradeProbabilities": {
+              "low": 0.5472787134909114,
+              "medium": 0.4047152740608035,
+              "high": 0.048006012448285104
+            },
+            "extractionDifficulty": 29.904,
+            "processingDifficulty": 57.173,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-33-0",
+            "groupId": "g1-sol-mars-182b99a2-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 321030121.424,
+            "gradeProbabilities": {
+              "low": 0.3052408823874124,
+              "medium": 0.39247260276590556,
+              "high": 0.302286514846682
+            },
+            "extractionDifficulty": 45.153,
+            "processingDifficulty": 57.173,
+            "discoveryTier": 1,
+            "accessDepth": 17.172,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-33-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 79741577.729,
+            "gradeProbabilities": {
+              "low": 0.14727751969770475,
+              "medium": 0.35320434147650254,
+              "high": 0.4995181388257927
+            },
+            "extractionDifficulty": 65.308,
+            "processingDifficulty": 57.173,
+            "discoveryTier": 3,
+            "accessDepth": 70.286,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.072,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.0455,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-34-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 346454970.805,
+            "gradeProbabilities": {
+              "low": 0.5541456688215067,
+              "medium": 0.39610278328760257,
+              "high": 0.04975154789089072
+            },
+            "extractionDifficulty": 32.458,
+            "processingDifficulty": 40.207,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.253,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.042071,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-35-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 138275517.863,
+            "gradeProbabilities": {
+              "low": 0.5515043491796633,
+              "medium": 0.3995028288054346,
+              "high": 0.04899282201490212
+            },
+            "extractionDifficulty": 21.328,
+            "processingDifficulty": 46.671,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 219.545,
+          "radiationLevel": null,
+          "terrainObstacle": 0.170857,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-36-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1260500070.648,
+            "gradeProbabilities": {
+              "low": 0.5544943788965275,
+              "medium": 0.3929553337476282,
+              "high": 0.052550287355844265
+            },
+            "extractionDifficulty": 11.204,
+            "processingDifficulty": 40.516,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.851,
+          "radiationLevel": null,
+          "terrainObstacle": 0.215092,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-37-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 954747207.652,
+            "gradeProbabilities": {
+              "low": 0.5504320722856602,
+              "medium": 0.39848870395934866,
+              "high": 0.05107922375499118
+            },
+            "extractionDifficulty": 15.618,
+            "processingDifficulty": 38.921,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-37-3",
+            "groupId": "g1-sol-mars-182b99a2-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1643752457.719,
+            "gradeProbabilities": {
+              "low": 0.27321550940538725,
+              "medium": 0.4352108077592132,
+              "high": 0.2915736828353996
+            },
+            "extractionDifficulty": 37.797,
+            "processingDifficulty": 38.921,
+            "discoveryTier": 1,
+            "accessDepth": 25.788,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-37-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 566252680.945,
+            "gradeProbabilities": {
+              "low": 0.15237083599754556,
+              "medium": 0.3454033777953114,
+              "high": 0.5022257862071431
+            },
+            "extractionDifficulty": 79.707,
+            "processingDifficulty": 38.921,
+            "discoveryTier": 3,
+            "accessDepth": 84.646,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 222.398,
+          "radiationLevel": null,
+          "terrainObstacle": 0.137813,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-38-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1610481306.959,
+            "gradeProbabilities": {
+              "low": 0.5471047285870692,
+              "medium": 0.3991480291101216,
+              "high": 0.053747242302809244
+            },
+            "extractionDifficulty": 10.324,
+            "processingDifficulty": 29.056,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-vein-38-2",
+            "groupId": "g1-sol-mars-182b99a2-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1673456444.507,
+            "gradeProbabilities": {
+              "low": 0.27823504193874976,
+              "medium": 0.41973684975122183,
+              "high": 0.30202810831002835
+            },
+            "extractionDifficulty": 53.673,
+            "processingDifficulty": 29.056,
+            "discoveryTier": 2,
+            "accessDepth": 18.059,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 219.082,
+          "radiationLevel": null,
+          "terrainObstacle": 0.241794,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-39-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2712572487.081,
+            "gradeProbabilities": {
+              "low": 0.5475992841553917,
+              "medium": 0.3991903577062367,
+              "high": 0.05321035813837159
+            },
+            "extractionDifficulty": 14.118,
+            "processingDifficulty": 46.063,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 219.212,
+          "radiationLevel": null,
+          "terrainObstacle": 0.322862,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-40-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1339758987.715,
+            "gradeProbabilities": {
+              "low": 0.5487033936736216,
+              "medium": 0.4053629098950951,
+              "high": 0.04593369643128324
+            },
+            "extractionDifficulty": 16.684,
+            "processingDifficulty": 32.099,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      },
+      "sol:mars:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 217.679,
+          "radiationLevel": null,
+          "terrainObstacle": 0.262918,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-mars-182b99a2-surface-41-0",
+            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2378057929.75,
+            "gradeProbabilities": {
+              "low": 0.5508398945034524,
+              "medium": 0.39818182699634425,
+              "high": 0.050978278500203374
+            },
+            "extractionDifficulty": 34.363,
+            "processingDifficulty": 31.783,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r1-sol-mars-182b99a2-deep-41-0",
+            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 350852086.036,
+            "gradeProbabilities": {
+              "low": 0.14854328866899894,
+              "medium": 0.3516395290081377,
+              "high": 0.4998171823228634
+            },
+            "extractionDifficulty": 66.533,
+            "processingDifficulty": 31.783,
+            "discoveryTier": 4,
+            "accessDepth": 96.904,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": "잠정 2100 식민지: 총인구/단일 위치 조정 가능",
+    "cells": {
+      "sol:mars:surface:00000": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00001": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00002": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00003": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00004": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00005": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00006": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00007": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00008": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00009": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00010": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00011": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00012": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00013": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00014": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00015": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00016": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00017": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00018": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00019": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00020": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00021": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00022": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00023": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00024": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00025": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00026": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00027": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00028": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00029": {
+        "populationPersons": 50000,
+        "urbanizationRate": 0.15,
+        "infrastructureLevel": 1,
+        "civilizationId": "human",
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00030": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00031": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00032": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00033": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00034": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00035": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00036": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00037": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00038": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00039": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00040": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mars:surface:00041": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 48900000000,
+    "typeShares": {
+      "surface": 0.7,
+      "vein": 0.2,
+      "deep": 0.1
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.55,
+        "medium": 0.4,
+        "high": 0.05
+      },
+      "vein": {
+        "low": 0.28,
+        "medium": 0.42,
+        "high": 0.3
+      },
+      "deep": {
+        "low": 0.15,
+        "medium": 0.35,
+        "high": 0.5
+      }
+    },
+    "jitter": 0.04,
+    "certainty": "mixed",
+    "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안",
+    "worldSeed": "sol:mars:resources:v1",
+    "generatorVersion": 1,
+    "budgetPolicy": "fixed"
+  },
+  "hydrogenSources": [],
+  "initialResourceKnowledge": [
+    {
+      "civilizationId": "human",
+      "tiers": [
+        {
+          "tier": 0,
+          "surveyProgress": 1
+        }
+      ],
+      "deposits": [
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-0-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-1-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-2-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-3-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-4-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-5-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-6-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-7-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-7-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-8-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-8-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-9-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-10-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-11-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-11-1",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-12-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-13-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-14-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-15-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-16-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-17-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-18-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-18-1",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-19-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-20-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-21-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-22-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-22-2",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-23-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-24-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-25-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-26-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-26-2",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-27-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-28-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-28-2",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-29-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-29-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-30-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-30-3",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-31-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-32-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-32-3",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-33-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-33-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-34-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-35-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-36-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-37-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-37-3",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-38-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-vein-38-2",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-39-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-40-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-mars-182b99a2-surface-41-0",
+          "detectedFraction": 0.2,
+          "confirmedFraction": 0.1,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        }
+      ]
+    }
+  ],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+  }
+}

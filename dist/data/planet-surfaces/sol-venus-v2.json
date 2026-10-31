@@ -1,0 +1,5195 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "venus",
+  "bodyKind": "planet",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 3,
+    "orientationId": "body-local-v1",
+    "cellCount": 92,
+    "gridFingerprint": "0b932045"
+  },
+  "geology": {
+    "cells": {
+      "sol:venus:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 205.504,
+          "radiationLevel": null,
+          "terrainObstacle": 0.139524,
+          "habitability": 0.032726,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-0-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 130185139.823,
+            "gradeProbabilities": {
+              "low": 0.32874309293792625,
+              "medium": 0.4237186836650646,
+              "high": 0.24753822339700915
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 41.184,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-0-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 967240040.209,
+            "gradeProbabilities": {
+              "low": 0.010195011891550438,
+              "medium": 0.17316192540777875,
+              "high": 0.8166430627006708
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 41.184,
+            "discoveryTier": 3,
+            "accessDepth": 64.77,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 204.877,
+          "radiationLevel": null,
+          "terrainObstacle": 0.126776,
+          "habitability": 0.032726,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-1-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 113231421.371,
+            "gradeProbabilities": {
+              "low": 0.33001892093994695,
+              "medium": 0.4181501230685092,
+              "high": 0.2518309559915439
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.464,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-1-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 871252036.355,
+            "gradeProbabilities": {
+              "low": 0.01351688588050665,
+              "medium": 0.16688956503449037,
+              "high": 0.8195935490850029
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.464,
+            "discoveryTier": 5,
+            "accessDepth": 57.131,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 200.715,
+          "radiationLevel": null,
+          "terrainObstacle": 0.12462,
+          "habitability": 0.03041,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-2-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 130430366.129,
+            "gradeProbabilities": {
+              "low": 0.33152605671302454,
+              "medium": 0.4155967976817913,
+              "high": 0.2528771456051842
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 54.88,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-2-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 287007784.677,
+            "gradeProbabilities": {
+              "low": 0.01224643129681708,
+              "medium": 0.1678277560777034,
+              "high": 0.8199258126254795
+            },
+            "extractionDifficulty": 80.896,
+            "processingDifficulty": 54.88,
+            "discoveryTier": 3,
+            "accessDepth": 59.866,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 0.939625,
+          "waterFraction": 0.060374999999999956
+        },
+        "environment": {
+          "temperatureK": 217.62,
+          "radiationLevel": null,
+          "terrainObstacle": 0.178313,
+          "habitability": 0.041184,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-3-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 431550894.305,
+            "gradeProbabilities": {
+              "low": 0.3305389337023445,
+              "medium": 0.421616617034567,
+              "high": 0.2478444492630885
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 31.72,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-3-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3310522714.404,
+            "gradeProbabilities": {
+              "low": 0.00978041084868373,
+              "medium": 0.1679743917013522,
+              "high": 0.822245197449964
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 31.72,
+            "discoveryTier": 5,
+            "accessDepth": 59.886,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.67068,
+          "waterFraction": 0.32931999999999995
+        },
+        "environment": {
+          "temperatureK": 214.559,
+          "radiationLevel": null,
+          "terrainObstacle": 0.174526,
+          "habitability": 0.038278,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-4-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 185057015.543,
+            "gradeProbabilities": {
+              "low": 0.3307924191230633,
+              "medium": 0.42197040278781706,
+              "high": 0.24723717808911957
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 60.037,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-4-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 370033497.404,
+            "gradeProbabilities": {
+              "low": 0.08216444196411885,
+              "medium": 0.21830410434672343,
+              "high": 0.6995314536891577
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 60.037,
+            "discoveryTier": 1,
+            "accessDepth": 27.611,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.655,
+          "radiationLevel": null,
+          "terrainObstacle": 0.156489,
+          "habitability": 0.041184,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-5-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 100718985.282,
+            "gradeProbabilities": {
+              "low": 0.33106685250491874,
+              "medium": 0.4187765706008351,
+              "high": 0.25015657689424614
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 52.859,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 213.49,
+          "radiationLevel": null,
+          "terrainObstacle": 0.126358,
+          "habitability": 0.038278,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-6-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 107463680.026,
+            "gradeProbabilities": {
+              "low": 0.333029386982853,
+              "medium": 0.41980064796414734,
+              "high": 0.24716996505299965
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 16.732,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 216.08,
+          "radiationLevel": null,
+          "terrainObstacle": 0.181712,
+          "habitability": 0.044774,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-7-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1647747188.289,
+            "gradeProbabilities": {
+              "low": 0.3316362297689267,
+              "medium": 0.41999531553257763,
+              "high": 0.24836845469849567
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.61,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-7-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1893236835.629,
+            "gradeProbabilities": {
+              "low": 0.08156965215922808,
+              "medium": 0.21685759346181266,
+              "high": 0.7015727543789593
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.61,
+            "discoveryTier": 1,
+            "accessDepth": 22.375,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 217.644,
+          "radiationLevel": null,
+          "terrainObstacle": 0.189891,
+          "habitability": 0.045236,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-8-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 396610203.635,
+            "gradeProbabilities": {
+              "low": 0.32588947240502614,
+              "medium": 0.4236815030606515,
+              "high": 0.2504290245343224
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 44.54,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-8-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1080250255.529,
+            "gradeProbabilities": {
+              "low": 0.07873732090787507,
+              "medium": 0.22253332742484022,
+              "high": 0.6987293516672847
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 44.54,
+            "discoveryTier": 2,
+            "accessDepth": 27.719,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-8-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 288273130.454,
+            "gradeProbabilities": {
+              "low": 0.007589233236513154,
+              "medium": 0.17246465260414434,
+              "high": 0.8199461141593425
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 44.54,
+            "discoveryTier": 5,
+            "accessDepth": 87.864,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.459,
+          "radiationLevel": null,
+          "terrainObstacle": 0.146863,
+          "habitability": 0.045236,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-9-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1152631526.143,
+            "gradeProbabilities": {
+              "low": 0.3331530484096803,
+              "medium": 0.4155947890760428,
+              "high": 0.2512521625142769
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 62.39,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-9-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1850296422.869,
+            "gradeProbabilities": {
+              "low": 0.07778779159159875,
+              "medium": 0.22322111244680098,
+              "high": 0.6989910959616003
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 62.39,
+            "discoveryTier": 2,
+            "accessDepth": 16.242,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-9-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1609173629.084,
+            "gradeProbabilities": {
+              "low": 0.012776279427236931,
+              "medium": 0.1682968962329443,
+              "high": 0.8189268243398188
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 62.39,
+            "discoveryTier": 4,
+            "accessDepth": 68.737,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 199.146,
+          "radiationLevel": null,
+          "terrainObstacle": 0.141475,
+          "habitability": 0.03041,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-10-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 81018750.403,
+            "gradeProbabilities": {
+              "low": 0.3266493439567931,
+              "medium": 0.42576387773585084,
+              "high": 0.24758677830735604
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 25.009,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-10-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1254933698.737,
+            "gradeProbabilities": {
+              "low": 0.006581181682772056,
+              "medium": 0.1743743342111821,
+              "high": 0.8190444841060458
+            },
+            "extractionDifficulty": 81.268,
+            "processingDifficulty": 25.009,
+            "discoveryTier": 5,
+            "accessDepth": 73.922,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 209.409,
+          "radiationLevel": null,
+          "terrainObstacle": 0.171621,
+          "habitability": 0.035318,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-11-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 86265297.868,
+            "gradeProbabilities": {
+              "low": 0.32782446759806055,
+              "medium": 0.4215729393264329,
+              "high": 0.2506025930755065
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 17.534,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-11-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1250894559.031,
+            "gradeProbabilities": {
+              "low": 0.006195210931948438,
+              "medium": 0.17212192288292605,
+              "high": 0.8216828661851255
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 17.534,
+            "discoveryTier": 5,
+            "accessDepth": 99.081,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 207.642,
+          "radiationLevel": null,
+          "terrainObstacle": 0.151776,
+          "habitability": 0.035318,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-12-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 122931048.33,
+            "gradeProbabilities": {
+              "low": 0.3324844071926274,
+              "medium": 0.41933652651999653,
+              "high": 0.24817906628737607
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 17.157,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 212.419,
+          "radiationLevel": null,
+          "terrainObstacle": 0.197191,
+          "habitability": 0.039809,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-13-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 201769631.815,
+            "gradeProbabilities": {
+              "low": 0.32973867193662604,
+              "medium": 0.41643925875928767,
+              "high": 0.25382206930408635
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 30.456,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 214.061,
+          "radiationLevel": null,
+          "terrainObstacle": 0.201566,
+          "habitability": 0.039809,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-14-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 568946218.552,
+            "gradeProbabilities": {
+              "low": 0.32921197563462934,
+              "medium": 0.4231038824053532,
+              "high": 0.24768414196001748
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 29.639,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 207.979,
+          "radiationLevel": null,
+          "terrainObstacle": 0.176389,
+          "habitability": 0.035429,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-15-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 57668692.852,
+            "gradeProbabilities": {
+              "low": 0.32633376212098675,
+              "medium": 0.4220425513865477,
+              "high": 0.2516236864924655
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 47.767,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.205731,
+          "waterFraction": 0.794269
+        },
+        "environment": {
+          "temperatureK": 218.866,
+          "radiationLevel": null,
+          "terrainObstacle": 0.199795,
+          "habitability": 0.041184,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-16-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2119665212.947,
+            "gradeProbabilities": {
+              "low": 0.3301829764065989,
+              "medium": 0.42174579949621616,
+              "high": 0.24807122409718493
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 35.526,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.425841,
+          "waterFraction": 0.574159
+        },
+        "environment": {
+          "temperatureK": 215.095,
+          "radiationLevel": null,
+          "terrainObstacle": 0.168484,
+          "habitability": 0.038278,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-17-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 480209100.052,
+            "gradeProbabilities": {
+              "low": 0.33130459557899317,
+              "medium": 0.4140697845270908,
+              "high": 0.254625619893916
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 68.927,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 214.375,
+          "radiationLevel": null,
+          "terrainObstacle": 0.126114,
+          "habitability": 0.041184,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-18-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 306433118.476,
+            "gradeProbabilities": {
+              "low": 0.32858228160866576,
+              "medium": 0.42330078185108067,
+              "high": 0.24811693654025355
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 50.988,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-18-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 445651711.625,
+            "gradeProbabilities": {
+              "low": 0.005643710570535675,
+              "medium": 0.17365049203364213,
+              "high": 0.8207057973958222
+            },
+            "extractionDifficulty": 83.202,
+            "processingDifficulty": 50.988,
+            "discoveryTier": 4,
+            "accessDepth": 71.614,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 213.738,
+          "radiationLevel": null,
+          "terrainObstacle": 0.117806,
+          "habitability": 0.038278,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-19-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 144980362.374,
+            "gradeProbabilities": {
+              "low": 0.3311564491284736,
+              "medium": 0.42104216740597555,
+              "high": 0.24780138346555092
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 33.204,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-19-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 661136902.221,
+            "gradeProbabilities": {
+              "low": 0.007397930465764419,
+              "medium": 0.17156817400334434,
+              "high": 0.8210338955308912
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 33.204,
+            "discoveryTier": 5,
+            "accessDepth": 56.901,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 216.528,
+          "radiationLevel": null,
+          "terrainObstacle": 0.207434,
+          "habitability": 0.044774,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-20-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 564935385.94,
+            "gradeProbabilities": {
+              "low": 0.3304190710900076,
+              "medium": 0.418908085215283,
+              "high": 0.2506728436947093
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.128,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 214.383,
+          "radiationLevel": null,
+          "terrainObstacle": 0.166756,
+          "habitability": 0.045236,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-21-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 210058319.935,
+            "gradeProbabilities": {
+              "low": 0.32970711430587846,
+              "medium": 0.42276421924066304,
+              "high": 0.24752866645345845
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 15.323,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-21-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 430285468.218,
+            "gradeProbabilities": {
+              "low": 0.006600561235225812,
+              "medium": 0.1717892726275142,
+              "high": 0.82161016613726
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 15.323,
+            "discoveryTier": 3,
+            "accessDepth": 85.996,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 220.34,
+          "radiationLevel": null,
+          "terrainObstacle": 0.264106,
+          "habitability": 0.045236,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-22-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1106042405.726,
+            "gradeProbabilities": {
+              "low": 0.33179735007935246,
+              "medium": 0.4160022439895248,
+              "high": 0.2522004059311227
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 42.148,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-22-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 936654107.103,
+            "gradeProbabilities": {
+              "low": 0.010995568001768605,
+              "medium": 0.16849057522853872,
+              "high": 0.8205138567696927
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 42.148,
+            "discoveryTier": 4,
+            "accessDepth": 89.08,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 211.016,
+          "radiationLevel": null,
+          "terrainObstacle": 0.135162,
+          "habitability": 0.035318,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-23-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 243944196.637,
+            "gradeProbabilities": {
+              "low": 0.3311141784028806,
+              "medium": 0.4144616145560569,
+              "high": 0.2544242070410625
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 67.526,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 209.928,
+          "radiationLevel": null,
+          "terrainObstacle": 0.123531,
+          "habitability": 0.035318,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-24-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 115538069.089,
+            "gradeProbabilities": {
+              "low": 0.3330402645958312,
+              "medium": 0.41298743691240014,
+              "high": 0.2539722984917686
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 30.656,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 213.675,
+          "radiationLevel": null,
+          "terrainObstacle": 0.1427,
+          "habitability": 0.039809,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-25-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 288999465.511,
+            "gradeProbabilities": {
+              "low": 0.32889241419226906,
+              "medium": 0.4186272795027172,
+              "high": 0.25248030630501367
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 56.702,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.911,
+          "radiationLevel": null,
+          "terrainObstacle": 0.158386,
+          "habitability": 0.039809,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-26-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 918425863.848,
+            "gradeProbabilities": {
+              "low": 0.3308020511777796,
+              "medium": 0.42093124969807033,
+              "high": 0.24826669912415006
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 17.375,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-26-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 639661085.733,
+            "gradeProbabilities": {
+              "low": 0.011483457489064947,
+              "medium": 0.17021054877406017,
+              "high": 0.8183059937368748
+            },
+            "extractionDifficulty": 83.566,
+            "processingDifficulty": 17.375,
+            "discoveryTier": 3,
+            "accessDepth": 68.561,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 210.609,
+          "radiationLevel": null,
+          "terrainObstacle": 0.129322,
+          "habitability": 0.035429,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-27-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 154323328.592,
+            "gradeProbabilities": {
+              "low": 0.328839296801547,
+              "medium": 0.41921700390931727,
+              "high": 0.25194369928913574
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 62.227,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-27-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 269863452.74,
+            "gradeProbabilities": {
+              "low": 0.009108508318788424,
+              "medium": 0.17406950544258615,
+              "high": 0.8168219862386255
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 62.227,
+            "discoveryTier": 3,
+            "accessDepth": 83.726,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 201.386,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.032726,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-28-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 91375993.848,
+            "gradeProbabilities": {
+              "low": 0.32891248686851043,
+              "medium": 0.4206798541186428,
+              "high": 0.25040765901284673
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 28.416,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 203.907,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.032726,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-29-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 86774592.608,
+            "gradeProbabilities": {
+              "low": 0.32635293734126763,
+              "medium": 0.421289529654575,
+              "high": 0.2523575330041573
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 45.121,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-29-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1242765598.504,
+            "gradeProbabilities": {
+              "low": 0.008351838028184191,
+              "medium": 0.1701633951856758,
+              "high": 0.82148476678614
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 45.121,
+            "discoveryTier": 3,
+            "accessDepth": 88.154,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 197.206,
+          "radiationLevel": null,
+          "terrainObstacle": 0.380313,
+          "habitability": 0.03041,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-30-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 96573393.41,
+            "gradeProbabilities": {
+              "low": 0.3330810329900779,
+              "medium": 0.4171548429964161,
+              "high": 0.24976412401350595
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 30.859,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 211.258,
+          "radiationLevel": null,
+          "terrainObstacle": 0.197192,
+          "habitability": 0.041184,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-31-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 85944228.157,
+            "gradeProbabilities": {
+              "low": 0.32859878816322463,
+              "medium": 0.41972986937631435,
+              "high": 0.251671342460461
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 51.048,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 209.198,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.038278,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-32-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 59683698.189,
+            "gradeProbabilities": {
+              "low": 0.3278710948550798,
+              "medium": 0.4176715873865462,
+              "high": 0.254457317758374
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 32.988,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 219.386,
+          "radiationLevel": null,
+          "terrainObstacle": 0.236317,
+          "habitability": 0.041184,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-33-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 916980257.393,
+            "gradeProbabilities": {
+              "low": 0.32763076570310673,
+              "medium": 0.4253223125854557,
+              "high": 0.2470469217114375
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 67.674,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.576,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.038278,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-34-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 125492602.364,
+            "gradeProbabilities": {
+              "low": 0.33344897173770743,
+              "medium": 0.41708477668222554,
+              "high": 0.24946625158006708
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.245,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 216.961,
+          "radiationLevel": null,
+          "terrainObstacle": 0.117739,
+          "habitability": 0.044774,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-35-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1591114010.153,
+            "gradeProbabilities": {
+              "low": 0.33230310571805616,
+              "medium": 0.41647472873461017,
+              "high": 0.25122216554733373
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 59.277,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 220.226,
+          "radiationLevel": null,
+          "terrainObstacle": 0.143324,
+          "habitability": 0.045236,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-36-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1830186476.928,
+            "gradeProbabilities": {
+              "low": 0.3257620476936646,
+              "medium": 0.4270126604935205,
+              "high": 0.24722529181281486
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 60.586,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-36-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1228407288.855,
+            "gradeProbabilities": {
+              "low": 0.01344798775588633,
+              "medium": 0.1676726969487038,
+              "high": 0.8188793152954099
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 60.586,
+            "discoveryTier": 3,
+            "accessDepth": 54.516,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.261,
+          "radiationLevel": null,
+          "terrainObstacle": 0.117859,
+          "habitability": 0.045236,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-37-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 393371348.599,
+            "gradeProbabilities": {
+              "low": 0.32846082907781976,
+              "medium": 0.4232690630381979,
+              "high": 0.24827010788398243
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 49.368,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 197.592,
+          "radiationLevel": null,
+          "terrainObstacle": 0.343722,
+          "habitability": 0.03041,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-38-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 69711328.648,
+            "gradeProbabilities": {
+              "low": 0.332032840902517,
+              "medium": 0.4180087102199024,
+              "high": 0.24995844887758056
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.27,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 205.456,
+          "radiationLevel": null,
+          "terrainObstacle": 0.287032,
+          "habitability": 0.035318,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-39-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 76385354.068,
+            "gradeProbabilities": {
+              "low": 0.32680983546429354,
+              "medium": 0.42012991238516334,
+              "high": 0.2530602521505431
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 25.145,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-39-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1031588458.567,
+            "gradeProbabilities": {
+              "low": 0.01128807995480956,
+              "medium": 0.1674911562564787,
+              "high": 0.8212207637887118
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 25.145,
+            "discoveryTier": 5,
+            "accessDepth": 96.979,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 210.278,
+          "radiationLevel": null,
+          "terrainObstacle": 0.303235,
+          "habitability": 0.035318,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-40-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 121538247.814,
+            "gradeProbabilities": {
+              "low": 0.33284050727502484,
+              "medium": 0.4182531665986454,
+              "high": 0.24890632612632968
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.053,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-40-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1318566937.395,
+            "gradeProbabilities": {
+              "low": 0.009928850965700165,
+              "medium": 0.1721446448794569,
+              "high": 0.8179265041548429
+            },
+            "extractionDifficulty": 82.069,
+            "processingDifficulty": 36.053,
+            "discoveryTier": 4,
+            "accessDepth": 53.541,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.717,
+          "radiationLevel": null,
+          "terrainObstacle": 0.159773,
+          "habitability": 0.039809,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-41-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 566030085.035,
+            "gradeProbabilities": {
+              "low": 0.3272135652905055,
+              "medium": 0.42288768105712293,
+              "high": 0.24989875365237155
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 53.46,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-41-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 685212158.876,
+            "gradeProbabilities": {
+              "low": 0.01063172032696666,
+              "medium": 0.1723420004907067,
+              "high": 0.8170262791823266
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 53.46,
+            "discoveryTier": 3,
+            "accessDepth": 73.689,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00042": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 212.164,
+          "radiationLevel": null,
+          "terrainObstacle": 0.152024,
+          "habitability": 0.039809,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-42-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 305338869.941,
+            "gradeProbabilities": {
+              "low": 0.32570945682802277,
+              "medium": 0.42596537098791964,
+              "high": 0.2483251721840576
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 47.326,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-42-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 427358074.39,
+            "gradeProbabilities": {
+              "low": 0.0059173589480435995,
+              "medium": 0.17463809696277643,
+              "high": 0.81944454408918
+            },
+            "extractionDifficulty": 80.31,
+            "processingDifficulty": 47.326,
+            "discoveryTier": 5,
+            "accessDepth": 99.645,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00043": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 208.369,
+          "radiationLevel": null,
+          "terrainObstacle": 0.237794,
+          "habitability": 0.035429,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-43-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 59111213.452,
+            "gradeProbabilities": {
+              "low": 0.32796654009499626,
+              "medium": 0.41952010448966687,
+              "high": 0.25251335541533687
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 15.02,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-43-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 795663080.819,
+            "gradeProbabilities": {
+              "low": 0.00870847611141862,
+              "medium": 0.16968973401254073,
+              "high": 0.8216017898760406
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 15.02,
+            "discoveryTier": 4,
+            "accessDepth": 77.229,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00044": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 216.034,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.041184,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-44-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 255503378.623,
+            "gradeProbabilities": {
+              "low": 0.32864525218547364,
+              "medium": 0.4197201351238465,
+              "high": 0.2516346126906798
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 47.169,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-44-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 376619242.269,
+            "gradeProbabilities": {
+              "low": 0.01039202104893984,
+              "medium": 0.1676183877612467,
+              "high": 0.8219895911898134
+            },
+            "extractionDifficulty": 84.349,
+            "processingDifficulty": 47.169,
+            "discoveryTier": 4,
+            "accessDepth": 72.056,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00045": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 211.582,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.038278,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-45-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 110319397.026,
+            "gradeProbabilities": {
+              "low": 0.3324062012234427,
+              "medium": 0.41428766730186106,
+              "high": 0.25330613147469616
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 41.846,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-45-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 384820619.422,
+            "gradeProbabilities": {
+              "low": 0.008129481937862055,
+              "medium": 0.17370848979307374,
+              "high": 0.8181620282690643
+            },
+            "extractionDifficulty": 84.82,
+            "processingDifficulty": 41.846,
+            "discoveryTier": 3,
+            "accessDepth": 78.257,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00046": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.241,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.041184,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-46-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1971043793.458,
+            "gradeProbabilities": {
+              "low": 0.32554634408519645,
+              "medium": 0.4217973245712048,
+              "high": 0.2526563313435988
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 28.128,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-46-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1352649054.66,
+            "gradeProbabilities": {
+              "low": 0.00963540468005003,
+              "medium": 0.16899772804668212,
+              "high": 0.8213668672732679
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 28.128,
+            "discoveryTier": 5,
+            "accessDepth": 87.307,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00047": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 213.605,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.038278,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-47-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 436416918.324,
+            "gradeProbabilities": {
+              "low": 0.3316866169856586,
+              "medium": 0.4155706194130755,
+              "high": 0.2527427636012659
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 15.405,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-47-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 2260156733.785,
+            "gradeProbabilities": {
+              "low": 0.010288930274671928,
+              "medium": 0.17144305303199248,
+              "high": 0.8182680166933356
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 15.405,
+            "discoveryTier": 5,
+            "accessDepth": 67.057,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00048": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.696,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.044774,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-48-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 707985747.391,
+            "gradeProbabilities": {
+              "low": 0.3320475627990164,
+              "medium": 0.4131545290699279,
+              "high": 0.25479790813105563
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 23.043,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-48-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1742147930.403,
+            "gradeProbabilities": {
+              "low": 0.007965193677819386,
+              "medium": 0.175010331605282,
+              "high": 0.8170244747168987
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 23.043,
+            "discoveryTier": 4,
+            "accessDepth": 51.942,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00049": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.764,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.045236,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-49-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1754604189.844,
+            "gradeProbabilities": {
+              "low": 0.33206658752501983,
+              "medium": 0.4155608494537002,
+              "high": 0.25237256302127997
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 62.128,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-49-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1881849113.114,
+            "gradeProbabilities": {
+              "low": 0.011856347989416734,
+              "medium": 0.17225537844998795,
+              "high": 0.8158882735605953
+            },
+            "extractionDifficulty": 80.001,
+            "processingDifficulty": 62.128,
+            "discoveryTier": 4,
+            "accessDepth": 71.81,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00050": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.503,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.045236,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-50-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 391102807.944,
+            "gradeProbabilities": {
+              "low": 0.33097160649539015,
+              "medium": 0.41585650283974174,
+              "high": 0.2531718906648681
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 44.974,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00051": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 206.909,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.035318,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-51-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 226467201.485,
+            "gradeProbabilities": {
+              "low": 0.3318783569788285,
+              "medium": 0.4172552285617268,
+              "high": 0.2508664144594447
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.302,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-51-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 314875038.114,
+            "gradeProbabilities": {
+              "low": 0.010127554986751691,
+              "medium": 0.16696190923145082,
+              "high": 0.8229105357817975
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.302,
+            "discoveryTier": 5,
+            "accessDepth": 51.154,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00052": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 207.788,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.035318,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-52-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 536045632.115,
+            "gradeProbabilities": {
+              "low": 0.3330139276856281,
+              "medium": 0.41702153433617717,
+              "high": 0.24996453797819473
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 44.777,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00053": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 212.877,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.039809,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-53-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 716018722.941,
+            "gradeProbabilities": {
+              "low": 0.332869086660976,
+              "medium": 0.41982432950605214,
+              "high": 0.24730658383297183
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 61.39,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00054": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 212.767,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.039809,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-54-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 226978632.685,
+            "gradeProbabilities": {
+              "low": 0.3324671949116238,
+              "medium": 0.4152506895413673,
+              "high": 0.2522821155470089
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 31.866,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00055": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 207.31,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.035429,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-55-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 200632815.802,
+            "gradeProbabilities": {
+              "low": 0.3302920955797382,
+              "medium": 0.41639845446441837,
+              "high": 0.2533094499558435
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.805,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-55-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 177852272.776,
+            "gradeProbabilities": {
+              "low": 0.009664377510673419,
+              "medium": 0.17244385812683072,
+              "high": 0.8178917643624959
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.805,
+            "discoveryTier": 4,
+            "accessDepth": 58.888,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00056": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 223.524,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-56-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 375509828.569,
+            "gradeProbabilities": {
+              "low": 0.33009875786916393,
+              "medium": 0.41880126730669803,
+              "high": 0.2510999748241381
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 19.344,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00057": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 220.391,
+          "radiationLevel": null,
+          "terrainObstacle": 0.23006,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-57-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 202644719.083,
+            "gradeProbabilities": {
+              "low": 0.3268946796400197,
+              "medium": 0.4230086220590449,
+              "high": 0.2500966983009354
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 24.777,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-57-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 121642072.226,
+            "gradeProbabilities": {
+              "low": 0.07847655838587797,
+              "medium": 0.22163674076454454,
+              "high": 0.6998867008495775
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 24.777,
+            "discoveryTier": 1,
+            "accessDepth": 16.767,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00058": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 221.629,
+          "radiationLevel": null,
+          "terrainObstacle": 0.314517,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-58-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 102092941.739,
+            "gradeProbabilities": {
+              "low": 0.3292008628757395,
+              "medium": 0.42121026456673216,
+              "high": 0.2495888725575284
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 68.585,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00059": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 222.42,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-59-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 537616435.962,
+            "gradeProbabilities": {
+              "low": 0.33275964386069257,
+              "medium": 0.41340928591173653,
+              "high": 0.2538310702275709
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.831,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00060": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 217.231,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140824,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-60-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 237569841.47,
+            "gradeProbabilities": {
+              "low": 0.3296699779225238,
+              "medium": 0.41872903894763946,
+              "high": 0.2516009831298367
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 45.301,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-60-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 295640879.733,
+            "gradeProbabilities": {
+              "low": 0.07814261496858216,
+              "medium": 0.21904666658112515,
+              "high": 0.7028107184502926
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 45.301,
+            "discoveryTier": 1,
+            "accessDepth": 18.787,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00061": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 220.878,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-61-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 52233833.061,
+            "gradeProbabilities": {
+              "low": 0.32944217451156155,
+              "medium": 0.4184202786790258,
+              "high": 0.25213754680941264
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 66.199,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-61-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1458405250.06,
+            "gradeProbabilities": {
+              "low": 0.006266882173842803,
+              "medium": 0.17206572249410712,
+              "high": 0.8216673953320501
+            },
+            "extractionDifficulty": 84.864,
+            "processingDifficulty": 66.199,
+            "discoveryTier": 4,
+            "accessDepth": 72.621,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00062": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 220.176,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.04405,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-62-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 180933573.996,
+            "gradeProbabilities": {
+              "low": 0.33315915165708443,
+              "medium": 0.4134063424797779,
+              "high": 0.25343450586313765
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 69.474,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-62-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 568271615.896,
+            "gradeProbabilities": {
+              "low": 0.0063595838268613964,
+              "medium": 0.1717641409437175,
+              "high": 0.8218762752294211
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 69.474,
+            "discoveryTier": 5,
+            "accessDepth": 57.657,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00063": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.714,
+          "radiationLevel": null,
+          "terrainObstacle": 0.29113,
+          "habitability": 0.04405,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-63-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 100394169.463,
+            "gradeProbabilities": {
+              "low": 0.32589104652271644,
+              "medium": 0.426649545778898,
+              "high": 0.2474594076983855
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 20.162,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00064": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.965,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.042071,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-64-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 51845769.776,
+            "gradeProbabilities": {
+              "low": 0.3315675910344072,
+              "medium": 0.4149831762755341,
+              "high": 0.25344923269005876
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 42.888,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-64-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 927512478.027,
+            "gradeProbabilities": {
+              "low": 0.012272482974580542,
+              "medium": 0.16664738074569074,
+              "high": 0.8210801362797288
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 42.888,
+            "discoveryTier": 4,
+            "accessDepth": 94.571,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00065": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 223.091,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-65-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1740054748.408,
+            "gradeProbabilities": {
+              "low": 0.3263325343453981,
+              "medium": 0.4259288609599746,
+              "high": 0.2477386046946273
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 59.684,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00066": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 220.504,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140693,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-66-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 566084763.711,
+            "gradeProbabilities": {
+              "low": 0.3276533758179941,
+              "medium": 0.4206734850550122,
+              "high": 0.2516731391269938
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 25.365,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-66-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1449050368.492,
+            "gradeProbabilities": {
+              "low": 0.08372721851849473,
+              "medium": 0.21449304619984444,
+              "high": 0.7017797352816608
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 25.365,
+            "discoveryTier": 2,
+            "accessDepth": 28.943,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00067": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 221.206,
+          "radiationLevel": null,
+          "terrainObstacle": 0.283836,
+          "habitability": 0.04405,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-67-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 670592259.896,
+            "gradeProbabilities": {
+              "low": 0.33082286643848796,
+              "medium": 0.4216772170638716,
+              "high": 0.2474999164976404
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.129,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00068": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 219.933,
+          "radiationLevel": null,
+          "terrainObstacle": 0.197688,
+          "habitability": 0.04405,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-68-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 378855406.737,
+            "gradeProbabilities": {
+              "low": 0.3263958850582786,
+              "medium": 0.42487297161240634,
+              "high": 0.24873114332931498
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 48.637,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-68-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 408411807.825,
+            "gradeProbabilities": {
+              "low": 0.07820134066091394,
+              "medium": 0.22458622848795473,
+              "high": 0.6972124308511314
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 48.637,
+            "discoveryTier": 2,
+            "accessDepth": 17.661,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00069": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.745,
+          "radiationLevel": null,
+          "terrainObstacle": 0.221025,
+          "habitability": 0.042071,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-69-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 206717009.383,
+            "gradeProbabilities": {
+              "low": 0.33194633837469895,
+              "medium": 0.41330922484528776,
+              "high": 0.25474443678001324
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 37.499,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-69-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3487462786.325,
+            "gradeProbabilities": {
+              "low": 0.011862722158557788,
+              "medium": 0.16526184008708256,
+              "high": 0.8228754377543597
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 37.499,
+            "discoveryTier": 4,
+            "accessDepth": 96.071,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00070": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 221.464,
+          "radiationLevel": null,
+          "terrainObstacle": 0.133571,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-70-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 365644582.511,
+            "gradeProbabilities": {
+              "low": 0.32901450552844486,
+              "medium": 0.4237413122126884,
+              "high": 0.24724418225886682
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 19.439,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-70-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 476116111.384,
+            "gradeProbabilities": {
+              "low": 0.013466969698793307,
+              "medium": 0.1670656887355263,
+              "high": 0.8194673415656804
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 19.439,
+            "discoveryTier": 3,
+            "accessDepth": 76.87,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00071": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 224.561,
+          "radiationLevel": null,
+          "terrainObstacle": 0.147771,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-71-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 142173805.177,
+            "gradeProbabilities": {
+              "low": 0.32745748646424194,
+              "medium": 0.418668014570517,
+              "high": 0.2538744989652411
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 51.806,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00072": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 223.257,
+          "radiationLevel": null,
+          "terrainObstacle": 0.114496,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-72-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 46150906.858,
+            "gradeProbabilities": {
+              "low": 0.32656308601477224,
+              "medium": 0.4212275031724996,
+              "high": 0.2522094108127282
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 64.463,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-72-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1414301747.052,
+            "gradeProbabilities": {
+              "low": 0.00822431603459181,
+              "medium": 0.17622909399373488,
+              "high": 0.8155465899716733
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 64.463,
+            "discoveryTier": 5,
+            "accessDepth": 73.544,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00073": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.03,
+          "radiationLevel": null,
+          "terrainObstacle": 0.247211,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-73-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1897020629.484,
+            "gradeProbabilities": {
+              "low": 0.33192880690895993,
+              "medium": 0.418084987546695,
+              "high": 0.24998620554434517
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 23.216,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-73-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1026152256.221,
+            "gradeProbabilities": {
+              "low": 0.012799764197445529,
+              "medium": 0.17112940069539506,
+              "high": 0.8160708351071594
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 23.216,
+            "discoveryTier": 5,
+            "accessDepth": 93.535,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00074": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 223.148,
+          "radiationLevel": null,
+          "terrainObstacle": 0.185378,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-74-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 679731926.72,
+            "gradeProbabilities": {
+              "low": 0.3318405966596403,
+              "medium": 0.4198228529295004,
+              "high": 0.24833655041085936
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 23.008,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-74-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1050964862.389,
+            "gradeProbabilities": {
+              "low": 0.008569011617577688,
+              "medium": 0.17036584209529715,
+              "high": 0.8210651462871251
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 23.008,
+            "discoveryTier": 4,
+            "accessDepth": 62.111,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00075": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 223.432,
+          "radiationLevel": null,
+          "terrainObstacle": 0.18957,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-75-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 98081982.096,
+            "gradeProbabilities": {
+              "low": 0.33169331456028894,
+              "medium": 0.41691255126093096,
+              "high": 0.2513941341787801
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 49.372,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-75-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 2872346736.583,
+            "gradeProbabilities": {
+              "low": 0.011494572589299694,
+              "medium": 0.17153650730354753,
+              "high": 0.8169689201071528
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 49.372,
+            "discoveryTier": 4,
+            "accessDepth": 63.646,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00076": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 219.548,
+          "radiationLevel": null,
+          "terrainObstacle": 0.325902,
+          "habitability": 0.04405,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-76-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 450771888.281,
+            "gradeProbabilities": {
+              "low": 0.33344199766644317,
+              "medium": 0.41535032651518056,
+              "high": 0.25120767581837633
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 29.692,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00077": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 222.445,
+          "radiationLevel": null,
+          "terrainObstacle": 0.275736,
+          "habitability": 0.04405,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-77-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 448670699.344,
+            "gradeProbabilities": {
+              "low": 0.33258442953654604,
+              "medium": 0.41369096518066284,
+              "high": 0.25372460528279106
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 55.606,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-77-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3553146135.212,
+            "gradeProbabilities": {
+              "low": 0.007943238025656954,
+              "medium": 0.171204477960896,
+              "high": 0.820852284013447
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 55.606,
+            "discoveryTier": 4,
+            "accessDepth": 50.362,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00078": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 219.706,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.042071,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-78-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 161488083.546,
+            "gradeProbabilities": {
+              "low": 0.32841736619600137,
+              "medium": 0.4230515366228348,
+              "high": 0.2485310971811638
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 62.283,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-78-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 6699499706.752,
+            "gradeProbabilities": {
+              "low": 0.01154942030285956,
+              "medium": 0.1655889475612905,
+              "high": 0.82286163213585
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 62.283,
+            "discoveryTier": 3,
+            "accessDepth": 91.519,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00079": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 216.906,
+          "radiationLevel": null,
+          "terrainObstacle": 0.13659,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-79-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 465645200.589,
+            "gradeProbabilities": {
+              "low": 0.329061084520603,
+              "medium": 0.4196952892983383,
+              "high": 0.25124362618105867
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 16.891,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00080": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 222.054,
+          "radiationLevel": null,
+          "terrainObstacle": 0.160478,
+          "habitability": 0.04709,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-80-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 187194432.092,
+            "gradeProbabilities": {
+              "low": 0.3283244185210862,
+              "medium": 0.42419386221785604,
+              "high": 0.24748171926105775
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 53.444,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-80-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 211311786.408,
+            "gradeProbabilities": {
+              "low": 0.0792922100075475,
+              "medium": 0.22300091413961465,
+              "high": 0.6977068758528379
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 53.444,
+            "discoveryTier": 2,
+            "accessDepth": 15.878,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00081": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.905,
+          "radiationLevel": null,
+          "terrainObstacle": 0.113363,
+          "habitability": 0.04405,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-81-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 89899460.717,
+            "gradeProbabilities": {
+              "low": 0.33059422054194887,
+              "medium": 0.41833159738909964,
+              "high": 0.2510741820689515
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 31.602,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00082": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 221.136,
+          "radiationLevel": null,
+          "terrainObstacle": 0.123256,
+          "habitability": 0.04405,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-82-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 82886865.902,
+            "gradeProbabilities": {
+              "low": 0.32926062961534636,
+              "medium": 0.4229466711649722,
+              "high": 0.24779269921968142
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 52.108,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00083": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.889,
+          "radiationLevel": null,
+          "terrainObstacle": 0.113569,
+          "habitability": 0.042071,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-83-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 75877395.718,
+            "gradeProbabilities": {
+              "low": 0.32725394151971715,
+              "medium": 0.42513117473517126,
+              "high": 0.24761488374511162
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 28.141,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00084": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.639,
+          "radiationLevel": null,
+          "terrainObstacle": 0.330761,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-84-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1115389869.041,
+            "gradeProbabilities": {
+              "low": 0.33049305684172586,
+              "medium": 0.42189249880556523,
+              "high": 0.24761444435270885
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 60.329,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00085": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.638,
+          "radiationLevel": null,
+          "terrainObstacle": 0.276836,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-85-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 750392912.529,
+            "gradeProbabilities": {
+              "low": 0.33253163646028416,
+              "medium": 0.4174019416844523,
+              "high": 0.2500664218552635
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.863,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-85-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3014473039.978,
+            "gradeProbabilities": {
+              "low": 0.009981859645000712,
+              "medium": 0.17129557464150735,
+              "high": 0.8187225657134919
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.863,
+            "discoveryTier": 3,
+            "accessDepth": 64.386,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00086": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 215.649,
+          "radiationLevel": null,
+          "terrainObstacle": 0.215511,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-86-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 706049322.903,
+            "gradeProbabilities": {
+              "low": 0.3315362936058738,
+              "medium": 0.4164617253964818,
+              "high": 0.2520019809976444
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 60.362,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00087": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mountain",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 221.778,
+          "radiationLevel": null,
+          "terrainObstacle": 0.8,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-87-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 365521102.129,
+            "gradeProbabilities": {
+              "low": 0.3283119775546439,
+              "medium": 0.42434579069857065,
+              "high": 0.24734223174678543
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.556,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00088": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 217.3,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118853,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-88-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1228784903.193,
+            "gradeProbabilities": {
+              "low": 0.32682999880292496,
+              "medium": 0.42357573550697925,
+              "high": 0.2495942656900958
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 21.62,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-88-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3727846312.21,
+            "gradeProbabilities": {
+              "low": 0.07885903320135093,
+              "medium": 0.22135845527792097,
+              "high": 0.6997825115207281
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 21.62,
+            "discoveryTier": 2,
+            "accessDepth": 30.667,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-88-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1374155657.693,
+            "gradeProbabilities": {
+              "low": 0.006473692041016236,
+              "medium": 0.17498414248293304,
+              "high": 0.8185421654760507
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 21.62,
+            "discoveryTier": 5,
+            "accessDepth": 92.778,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00089": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.456,
+          "radiationLevel": null,
+          "terrainObstacle": 0.139901,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-89-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1298541677.644,
+            "gradeProbabilities": {
+              "low": 0.3311819777941056,
+              "medium": 0.42086518915501,
+              "high": 0.2479528330508844
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.89,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00090": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 221.169,
+          "radiationLevel": null,
+          "terrainObstacle": 0.166013,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-90-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 616526244.893,
+            "gradeProbabilities": {
+              "low": 0.32797488382698076,
+              "medium": 0.42338911355976533,
+              "high": 0.24863600261325397
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.018,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-90-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 806097110.244,
+            "gradeProbabilities": {
+              "low": 0.08115263718785262,
+              "medium": 0.22224748747603718,
+              "high": 0.6965998753361102
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.018,
+            "discoveryTier": 1,
+            "accessDepth": 34.795,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      },
+      "sol:venus:surface:00091": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "desert",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 218.438,
+          "radiationLevel": null,
+          "terrainObstacle": 0.11764,
+          "habitability": 0.05,
+          "atmosphereNotes": "게임용 생성 프로필: dry-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-venus-c09668b0-surface-91-0",
+            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 543898979.641,
+            "gradeProbabilities": {
+              "low": 0.33230083084718365,
+              "medium": 0.41750735417884355,
+              "high": 0.2501918149739728
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 27.39,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-vein-91-0",
+            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1490182651.431,
+            "gradeProbabilities": {
+              "low": 0.0808230447568885,
+              "medium": 0.21769143383199097,
+              "high": 0.7014855214111205
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 27.39,
+            "discoveryTier": 2,
+            "accessDepth": 17.566,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r1-sol-venus-c09668b0-deep-91-0",
+            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 734109693.888,
+            "gradeProbabilities": {
+              "low": 0.011262666860721127,
+              "medium": 0.16805253720535007,
+              "high": 0.8206847959339288
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 27.39,
+            "discoveryTier": 5,
+            "accessDepth": 70.943,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:venus:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00042": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00043": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00044": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00045": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00046": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00047": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00048": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00049": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00050": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00051": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00052": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00053": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00054": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00055": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00056": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00057": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00058": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00059": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00060": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00061": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00062": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00063": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00064": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00065": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00066": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00067": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00068": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00069": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00070": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00071": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00072": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00073": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00074": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00075": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00076": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00077": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00078": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00079": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00080": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00081": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00082": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00083": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00084": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00085": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00086": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00087": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00088": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00089": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00090": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:venus:surface:00091": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 114200000000,
+    "typeShares": {
+      "surface": 0.38,
+      "vein": 0.12,
+      "deep": 0.5
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.33,
+        "medium": 0.42,
+        "high": 0.25
+      },
+      "vein": {
+        "low": 0.08,
+        "medium": 0.22,
+        "high": 0.7
+      },
+      "deep": {
+        "low": 0.01,
+        "medium": 0.17,
+        "high": 0.82
+      }
+    },
+    "jitter": 0.04,
+    "certainty": "confirmed",
+    "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도",
+    "worldSeed": "sol:venus:resources:v1",
+    "extractionFloor": 80,
+    "generatorVersion": 1,
+    "budgetPolicy": "fixed"
+  },
+  "hydrogenSources": [],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+  }
+}

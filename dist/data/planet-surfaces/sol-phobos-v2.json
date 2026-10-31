@@ -1,0 +1,2584 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "phobos",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "d0969f84"
+  },
+  "geology": {
+    "cells": {
+      "sol:phobos:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.139012,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-0-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9092.137,
+            "gradeProbabilities": {
+              "low": 0.33640776106237347,
+              "medium": 0.5215140795204124,
+              "high": 0.14207815941721413
+            },
+            "extractionDifficulty": 31.002,
+            "processingDifficulty": 33.959,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-0-2",
+            "groupId": "g1-sol-phobos-518551af-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 6602.065,
+            "gradeProbabilities": {
+              "low": 0.31251098272929523,
+              "medium": 0.5409168189745391,
+              "high": 0.1465721982961656
+            },
+            "extractionDifficulty": 48.364,
+            "processingDifficulty": 33.959,
+            "discoveryTier": 1,
+            "accessDepth": 31.422,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-0-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 45246.409,
+            "gradeProbabilities": {
+              "low": 0.17657264211963056,
+              "medium": 0.33850065402204416,
+              "high": 0.4849267038583253
+            },
+            "extractionDifficulty": 80.573,
+            "processingDifficulty": 33.959,
+            "discoveryTier": 4,
+            "accessDepth": 94.037,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.126181,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-1-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 81492.634,
+            "gradeProbabilities": {
+              "low": 0.33573428261360994,
+              "medium": 0.523895065611162,
+              "high": 0.14037065177522812
+            },
+            "extractionDifficulty": 26.58,
+            "processingDifficulty": 60.417,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-1-2",
+            "groupId": "g1-sol-phobos-518551af-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 40172.167,
+            "gradeProbabilities": {
+              "low": 0.31743526388312315,
+              "medium": 0.5386364546809341,
+              "high": 0.14392828143594277
+            },
+            "extractionDifficulty": 42.477,
+            "processingDifficulty": 60.417,
+            "discoveryTier": 2,
+            "accessDepth": 22.268,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-1-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 279530.712,
+            "gradeProbabilities": {
+              "low": 0.177212152361899,
+              "medium": 0.34358320837917045,
+              "high": 0.47920463925893053
+            },
+            "extractionDifficulty": 71.708,
+            "processingDifficulty": 60.417,
+            "discoveryTier": 5,
+            "accessDepth": 78.781,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.147476,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-2-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 29518.772,
+            "gradeProbabilities": {
+              "low": 0.3343465513501959,
+              "medium": 0.5231296130082836,
+              "high": 0.14252383564152038
+            },
+            "extractionDifficulty": 13.766,
+            "processingDifficulty": 47.877,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-2-4",
+            "groupId": "g1-sol-phobos-518551af-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 12831.702,
+            "gradeProbabilities": {
+              "low": 0.30431041501442524,
+              "medium": 0.5515706200432028,
+              "high": 0.14411896494237197
+            },
+            "extractionDifficulty": 30.504,
+            "processingDifficulty": 47.877,
+            "discoveryTier": 2,
+            "accessDepth": 10.892,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-2-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 50614.104,
+            "gradeProbabilities": {
+              "low": 0.18014152556846974,
+              "medium": 0.3413770052928688,
+              "high": 0.47848146913866146
+            },
+            "extractionDifficulty": 68.257,
+            "processingDifficulty": 47.877,
+            "discoveryTier": 5,
+            "accessDepth": 59.82,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116814,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-3-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 15694.389,
+            "gradeProbabilities": {
+              "low": 0.3326895994440364,
+              "medium": 0.5246282839737169,
+              "high": 0.14268211658224678
+            },
+            "extractionDifficulty": 10.303,
+            "processingDifficulty": 34.751,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-3-4",
+            "groupId": "g1-sol-phobos-518551af-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 48635.763,
+            "gradeProbabilities": {
+              "low": 0.3014392572080586,
+              "medium": 0.5554832843951876,
+              "high": 0.1430774583967538
+            },
+            "extractionDifficulty": 34.691,
+            "processingDifficulty": 34.751,
+            "discoveryTier": 1,
+            "accessDepth": 22.86,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118105,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-4-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 96879.471,
+            "gradeProbabilities": {
+              "low": 0.33196482596627347,
+              "medium": 0.5245586807857534,
+              "high": 0.14347649324797307
+            },
+            "extractionDifficulty": 11.639,
+            "processingDifficulty": 24.33,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-4-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 96643.346,
+            "gradeProbabilities": {
+              "low": 0.1804164460879111,
+              "medium": 0.3344385709528091,
+              "high": 0.4851449829592798
+            },
+            "extractionDifficulty": 78.424,
+            "processingDifficulty": 24.33,
+            "discoveryTier": 5,
+            "accessDepth": 94.278,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.113046,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-5-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 26184.599,
+            "gradeProbabilities": {
+              "low": 0.33307973622611636,
+              "medium": 0.5225945105291238,
+              "high": 0.1443257532447598
+            },
+            "extractionDifficulty": 29.379,
+            "processingDifficulty": 34.994,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-5-4",
+            "groupId": "g1-sol-phobos-518551af-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 30175.919,
+            "gradeProbabilities": {
+              "low": 0.3029161117056254,
+              "medium": 0.5509501359127458,
+              "high": 0.14613375238162887
+            },
+            "extractionDifficulty": 46.462,
+            "processingDifficulty": 34.994,
+            "discoveryTier": 1,
+            "accessDepth": 25.844,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.186543,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-6-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 13248.197,
+            "gradeProbabilities": {
+              "low": 0.33763067843100897,
+              "medium": 0.5208285888712189,
+              "high": 0.14154073269777212
+            },
+            "extractionDifficulty": 19.032,
+            "processingDifficulty": 27.271,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-6-2",
+            "groupId": "g1-sol-phobos-518551af-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 63982.029,
+            "gradeProbabilities": {
+              "low": 0.3147768844885621,
+              "medium": 0.5347271017543966,
+              "high": 0.15049601375704122
+            },
+            "extractionDifficulty": 30.507,
+            "processingDifficulty": 27.271,
+            "discoveryTier": 2,
+            "accessDepth": 28.318,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.147158,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-7-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6311.858,
+            "gradeProbabilities": {
+              "low": 0.33486364557861265,
+              "medium": 0.5236883214655599,
+              "high": 0.14144803295582747
+            },
+            "extractionDifficulty": 16.896,
+            "processingDifficulty": 44.165,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.120233,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-8-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 15752.318,
+            "gradeProbabilities": {
+              "low": 0.3315639987912672,
+              "medium": 0.5265980137604556,
+              "high": 0.14183798744827722
+            },
+            "extractionDifficulty": 12.624,
+            "processingDifficulty": 39.132,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-8-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 39567.89,
+            "gradeProbabilities": {
+              "low": 0.17643449140156744,
+              "medium": 0.341445940854794,
+              "high": 0.48211956774363857
+            },
+            "extractionDifficulty": 75.789,
+            "processingDifficulty": 39.132,
+            "discoveryTier": 5,
+            "accessDepth": 82.385,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.162196,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-9-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 63009.131,
+            "gradeProbabilities": {
+              "low": 0.3352444905423271,
+              "medium": 0.5233706033694825,
+              "high": 0.14138490608819043
+            },
+            "extractionDifficulty": 17.476,
+            "processingDifficulty": 38.466,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.16776,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-10-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9992.966,
+            "gradeProbabilities": {
+              "low": 0.33405076944350176,
+              "medium": 0.5201374316512875,
+              "high": 0.14581179890521084
+            },
+            "extractionDifficulty": 27.627,
+            "processingDifficulty": 46.416,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.311241,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-11-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 10828.466,
+            "gradeProbabilities": {
+              "low": 0.33707252461730414,
+              "medium": 0.5210111303682706,
+              "high": 0.14191634501442527
+            },
+            "extractionDifficulty": 15.359,
+            "processingDifficulty": 18.166,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-11-1",
+            "groupId": "g1-sol-phobos-518551af-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 11020.603,
+            "gradeProbabilities": {
+              "low": 0.29933924093077513,
+              "medium": 0.5709378206115212,
+              "high": 0.12972293845770372
+            },
+            "extractionDifficulty": 43.796,
+            "processingDifficulty": 18.166,
+            "discoveryTier": 2,
+            "accessDepth": 20.019,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-11-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 38401.748,
+            "gradeProbabilities": {
+              "low": 0.18227953207682013,
+              "medium": 0.3378950614229055,
+              "high": 0.4798254065002744
+            },
+            "extractionDifficulty": 68.838,
+            "processingDifficulty": 18.166,
+            "discoveryTier": 5,
+            "accessDepth": 75.031,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.19183,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-12-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 22653.538,
+            "gradeProbabilities": {
+              "low": 0.3376016653616624,
+              "medium": 0.5183504347521147,
+              "high": 0.14404789988622282
+            },
+            "extractionDifficulty": 19.665,
+            "processingDifficulty": 32.273,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.333186,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-13-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 48323.415,
+            "gradeProbabilities": {
+              "low": 0.333091770443012,
+              "medium": 0.5256791400349965,
+              "high": 0.14122908952199137
+            },
+            "extractionDifficulty": 14.403,
+            "processingDifficulty": 56.859,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-13-1",
+            "groupId": "g1-sol-phobos-518551af-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 30731.281,
+            "gradeProbabilities": {
+              "low": 0.29800244305262896,
+              "medium": 0.5741748355329033,
+              "high": 0.12782272141446782
+            },
+            "extractionDifficulty": 48.236,
+            "processingDifficulty": 56.859,
+            "discoveryTier": 1,
+            "accessDepth": 5.815,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.224495,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-14-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 62651.69,
+            "gradeProbabilities": {
+              "low": 0.3315021828476983,
+              "medium": 0.5269256314746371,
+              "high": 0.14157218567766464
+            },
+            "extractionDifficulty": 14.342,
+            "processingDifficulty": 58.92,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-14-1",
+            "groupId": "g1-sol-phobos-518551af-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 181328.054,
+            "gradeProbabilities": {
+              "low": 0.3029992741772774,
+              "medium": 0.5637848919164385,
+              "high": 0.1332158339062841
+            },
+            "extractionDifficulty": 46.999,
+            "processingDifficulty": 58.92,
+            "discoveryTier": 1,
+            "accessDepth": 6.99,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.163035,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-15-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 18047.748,
+            "gradeProbabilities": {
+              "low": 0.33369462795264,
+              "medium": 0.5207941573969355,
+              "high": 0.14551121465042446
+            },
+            "extractionDifficulty": 16.959,
+            "processingDifficulty": 28.466,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.227951,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-16-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 14562.921,
+            "gradeProbabilities": {
+              "low": 0.3340345562928068,
+              "medium": 0.5236072995494386,
+              "high": 0.14235814415775452
+            },
+            "extractionDifficulty": 21.675,
+            "processingDifficulty": 27.388,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.144499,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-17-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9244.805,
+            "gradeProbabilities": {
+              "low": 0.33809471191733054,
+              "medium": 0.5200199815537117,
+              "high": 0.14188530652895784
+            },
+            "extractionDifficulty": 20.76,
+            "processingDifficulty": 31.279,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-17-1",
+            "groupId": "g1-sol-phobos-518551af-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 32953.569,
+            "gradeProbabilities": {
+              "low": 0.3016322515195105,
+              "medium": 0.5705728245656934,
+              "high": 0.12779492391479624
+            },
+            "extractionDifficulty": 41.966,
+            "processingDifficulty": 31.279,
+            "discoveryTier": 2,
+            "accessDepth": 26.223,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-17-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 13054.691,
+            "gradeProbabilities": {
+              "low": 0.17662787284332454,
+              "medium": 0.3450592185862572,
+              "high": 0.4783129085704182
+            },
+            "extractionDifficulty": 69.703,
+            "processingDifficulty": 31.279,
+            "discoveryTier": 5,
+            "accessDepth": 85.372,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.359823,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-18-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 17722.947,
+            "gradeProbabilities": {
+              "low": 0.33574789717501874,
+              "medium": 0.5203788249622365,
+              "high": 0.14387327786274468
+            },
+            "extractionDifficulty": 14.859,
+            "processingDifficulty": 60.552,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.131897,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-19-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 50677.332,
+            "gradeProbabilities": {
+              "low": 0.33352860168634824,
+              "medium": 0.5233141761048964,
+              "high": 0.14315722220875535
+            },
+            "extractionDifficulty": 30.933,
+            "processingDifficulty": 16.264,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-19-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 136251.389,
+            "gradeProbabilities": {
+              "low": 0.18329345772790848,
+              "medium": 0.3345507202919783,
+              "high": 0.4821558219801132
+            },
+            "extractionDifficulty": 75.029,
+            "processingDifficulty": 16.264,
+            "discoveryTier": 4,
+            "accessDepth": 52.15,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.142198,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-20-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 20506.447,
+            "gradeProbabilities": {
+              "low": 0.33321639037585726,
+              "medium": 0.5272017138227156,
+              "high": 0.1395818958014271
+            },
+            "extractionDifficulty": 18.332,
+            "processingDifficulty": 61.374,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.218396,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-21-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7281.013,
+            "gradeProbabilities": {
+              "low": 0.33205125911055977,
+              "medium": 0.5260059751457802,
+              "high": 0.14194276574366008
+            },
+            "extractionDifficulty": 22.412,
+            "processingDifficulty": 41.282,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-21-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 18345.982,
+            "gradeProbabilities": {
+              "low": 0.18255498913678467,
+              "medium": 0.3319277859077068,
+              "high": 0.48551722495550853
+            },
+            "extractionDifficulty": 68.43,
+            "processingDifficulty": 41.282,
+            "discoveryTier": 4,
+            "accessDepth": 61.778,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.22281,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-22-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 17285.446,
+            "gradeProbabilities": {
+              "low": 0.3331471449144828,
+              "medium": 0.5229938933774165,
+              "high": 0.14385896170810078
+            },
+            "extractionDifficulty": 11.255,
+            "processingDifficulty": 41.989,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-22-3",
+            "groupId": "g1-sol-phobos-518551af-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 26205.572,
+            "gradeProbabilities": {
+              "low": 0.30087571477125025,
+              "medium": 0.5798706829473372,
+              "high": 0.1192536022814126
+            },
+            "extractionDifficulty": 46.011,
+            "processingDifficulty": 41.989,
+            "discoveryTier": 1,
+            "accessDepth": 14.199,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.173847,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-23-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7406.473,
+            "gradeProbabilities": {
+              "low": 0.3315734359220313,
+              "medium": 0.5238878833948902,
+              "high": 0.1445386806830785
+            },
+            "extractionDifficulty": 13.926,
+            "processingDifficulty": 15.027,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.231651,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-24-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 26918.14,
+            "gradeProbabilities": {
+              "low": 0.33722525107196444,
+              "medium": 0.5224507560952834,
+              "high": 0.1403239928327522
+            },
+            "extractionDifficulty": 15.693,
+            "processingDifficulty": 38.193,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-24-3",
+            "groupId": "g1-sol-phobos-518551af-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 21065.735,
+            "gradeProbabilities": {
+              "low": 0.30027264949473176,
+              "medium": 0.5797891707364465,
+              "high": 0.11993817976882172
+            },
+            "extractionDifficulty": 43.928,
+            "processingDifficulty": 38.193,
+            "discoveryTier": 1,
+            "accessDepth": 14.266,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.160627,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-25-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 10308.97,
+            "gradeProbabilities": {
+              "low": 0.3342363846682655,
+              "medium": 0.5212065357267193,
+              "high": 0.14455707960501527
+            },
+            "extractionDifficulty": 33.692,
+            "processingDifficulty": 44.294,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.204938,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-26-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 45771.46,
+            "gradeProbabilities": {
+              "low": 0.3372201851148801,
+              "medium": 0.5210411197784623,
+              "high": 0.1417386951066575
+            },
+            "extractionDifficulty": 28.998,
+            "processingDifficulty": 47.517,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-26-3",
+            "groupId": "g1-sol-phobos-518551af-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 178507.388,
+            "gradeProbabilities": {
+              "low": 0.30291872375066015,
+              "medium": 0.5772969665452834,
+              "high": 0.11978430970405651
+            },
+            "extractionDifficulty": 47.512,
+            "processingDifficulty": 47.517,
+            "discoveryTier": 2,
+            "accessDepth": 33.023,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-26-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 63937.563,
+            "gradeProbabilities": {
+              "low": 0.1789919112138742,
+              "medium": 0.3409474633474113,
+              "high": 0.48006062543871447
+            },
+            "extractionDifficulty": 63.588,
+            "processingDifficulty": 47.517,
+            "discoveryTier": 4,
+            "accessDepth": 96.705,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.212313,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-27-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 128852.957,
+            "gradeProbabilities": {
+              "low": 0.333284929339652,
+              "medium": 0.5216050650830647,
+              "high": 0.14511000557728326
+            },
+            "extractionDifficulty": 24.24,
+            "processingDifficulty": 38.606,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-27-3",
+            "groupId": "g1-sol-phobos-518551af-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 94401.259,
+            "gradeProbabilities": {
+              "low": 0.3035389774607364,
+              "medium": 0.5785293892957265,
+              "high": 0.11793163324353707
+            },
+            "extractionDifficulty": 35.813,
+            "processingDifficulty": 38.606,
+            "discoveryTier": 2,
+            "accessDepth": 6.241,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.193746,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-28-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 41713.185,
+            "gradeProbabilities": {
+              "low": 0.33184515388949687,
+              "medium": 0.5233688737414113,
+              "high": 0.14478597236909185
+            },
+            "extractionDifficulty": 11.51,
+            "processingDifficulty": 54.172,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-28-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 132718.635,
+            "gradeProbabilities": {
+              "low": 0.18246740716326176,
+              "medium": 0.33406152886228885,
+              "high": 0.48347106397444944
+            },
+            "extractionDifficulty": 64.65,
+            "processingDifficulty": 54.172,
+            "discoveryTier": 5,
+            "accessDepth": 73.986,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.23103,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-29-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 12363.403,
+            "gradeProbabilities": {
+              "low": 0.3338160098892348,
+              "medium": 0.5225052102188846,
+              "high": 0.1436787798918805
+            },
+            "extractionDifficulty": 10.561,
+            "processingDifficulty": 54.045,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.239191,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-30-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 35988.286,
+            "gradeProbabilities": {
+              "low": 0.3360073050380396,
+              "medium": 0.5192737526967457,
+              "high": 0.14471894226521467
+            },
+            "extractionDifficulty": 12.979,
+            "processingDifficulty": 59.643,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.278949,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-31-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 73937.903,
+            "gradeProbabilities": {
+              "low": 0.3372531746093827,
+              "medium": 0.5224192755556931,
+              "high": 0.1403275498349241
+            },
+            "extractionDifficulty": 16.619,
+            "processingDifficulty": 60.313,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-31-1",
+            "groupId": "g1-sol-phobos-518551af-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 116028.253,
+            "gradeProbabilities": {
+              "low": 0.29782725338617894,
+              "medium": 0.5743609695192422,
+              "high": 0.12781177709457886
+            },
+            "extractionDifficulty": 32.068,
+            "processingDifficulty": 60.313,
+            "discoveryTier": 2,
+            "accessDepth": 7.747,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.31977,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-32-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27309.545,
+            "gradeProbabilities": {
+              "low": 0.3343785325725275,
+              "medium": 0.5208578829783281,
+              "high": 0.14476358444914436
+            },
+            "extractionDifficulty": 15.732,
+            "processingDifficulty": 42.386,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-32-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 232773.856,
+            "gradeProbabilities": {
+              "low": 0.18100519014152824,
+              "medium": 0.33668632356340306,
+              "high": 0.4823084862950687
+            },
+            "extractionDifficulty": 74.742,
+            "processingDifficulty": 42.386,
+            "discoveryTier": 4,
+            "accessDepth": 81.908,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.162943,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-33-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9746.082,
+            "gradeProbabilities": {
+              "low": 0.3337014949888634,
+              "medium": 0.5265541911515673,
+              "high": 0.13974431385956917
+            },
+            "extractionDifficulty": 21.751,
+            "processingDifficulty": 23.97,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-33-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 11749.633,
+            "gradeProbabilities": {
+              "low": 0.1764009167328769,
+              "medium": 0.34478187972197555,
+              "high": 0.4788172035451476
+            },
+            "extractionDifficulty": 76.254,
+            "processingDifficulty": 23.97,
+            "discoveryTier": 3,
+            "accessDepth": 89.001,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.200443,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-34-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 17908.581,
+            "gradeProbabilities": {
+              "low": 0.3315680299148607,
+              "medium": 0.5214342204778721,
+              "high": 0.14699774960726714
+            },
+            "extractionDifficulty": 17.887,
+            "processingDifficulty": 28.82,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-34-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 82673.684,
+            "gradeProbabilities": {
+              "low": 0.18244256501088976,
+              "medium": 0.3354130402960094,
+              "high": 0.4821443946931009
+            },
+            "extractionDifficulty": 77.889,
+            "processingDifficulty": 28.82,
+            "discoveryTier": 3,
+            "accessDepth": 59.042,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.190145,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-35-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 8572.453,
+            "gradeProbabilities": {
+              "low": 0.3323487707067924,
+              "medium": 0.5273393929935326,
+              "high": 0.14031183629967486
+            },
+            "extractionDifficulty": 10.614,
+            "processingDifficulty": 24.693,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-35-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 33966.102,
+            "gradeProbabilities": {
+              "low": 0.17928854228186547,
+              "medium": 0.33635659577215327,
+              "high": 0.4843548619459812
+            },
+            "extractionDifficulty": 63.029,
+            "processingDifficulty": 24.693,
+            "discoveryTier": 3,
+            "accessDepth": 62.183,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.111474,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-36-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 184594.373,
+            "gradeProbabilities": {
+              "low": 0.3363596704144674,
+              "medium": 0.5168019481822184,
+              "high": 0.14683838140331423
+            },
+            "extractionDifficulty": 27.799,
+            "processingDifficulty": 42.434,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-36-0",
+            "groupId": "g1-sol-phobos-518551af-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 147586.604,
+            "gradeProbabilities": {
+              "low": 0.2975956264266614,
+              "medium": 0.5598065467439587,
+              "high": 0.14259782682937994
+            },
+            "extractionDifficulty": 35.609,
+            "processingDifficulty": 42.434,
+            "discoveryTier": 1,
+            "accessDepth": 17.102,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-36-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 501524.936,
+            "gradeProbabilities": {
+              "low": 0.17800219118784308,
+              "medium": 0.3397032782033296,
+              "high": 0.4822945306088273
+            },
+            "extractionDifficulty": 73.365,
+            "processingDifficulty": 42.434,
+            "discoveryTier": 4,
+            "accessDepth": 70.17,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.115562,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-37-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 98300.783,
+            "gradeProbabilities": {
+              "low": 0.33573965979262166,
+              "medium": 0.5174068664218566,
+              "high": 0.14685347378552174
+            },
+            "extractionDifficulty": 15.968,
+            "processingDifficulty": 30.972,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-vein-37-0",
+            "groupId": "g1-sol-phobos-518551af-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 78502.109,
+            "gradeProbabilities": {
+              "low": 0.29824921885485384,
+              "medium": 0.5615520823057737,
+              "high": 0.14019869883937253
+            },
+            "extractionDifficulty": 50.064,
+            "processingDifficulty": 30.972,
+            "discoveryTier": 1,
+            "accessDepth": 5.914,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.174878,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-38-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 105375.182,
+            "gradeProbabilities": {
+              "low": 0.33130431852011855,
+              "medium": 0.526388574019008,
+              "high": 0.14230710746087347
+            },
+            "extractionDifficulty": 23.042,
+            "processingDifficulty": 48.325,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140889,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-39-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 33316.126,
+            "gradeProbabilities": {
+              "low": 0.33389935605867677,
+              "medium": 0.5205736251714908,
+              "high": 0.1455270187698326
+            },
+            "extractionDifficulty": 30.135,
+            "processingDifficulty": 43.835,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-39-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 82981.767,
+            "gradeProbabilities": {
+              "low": 0.18023526613230942,
+              "medium": 0.3415835143912794,
+              "high": 0.4781812194764112
+            },
+            "extractionDifficulty": 74.388,
+            "processingDifficulty": 43.835,
+            "discoveryTier": 4,
+            "accessDepth": 70.515,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.184074,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-40-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 43745.032,
+            "gradeProbabilities": {
+              "low": 0.3373946345698732,
+              "medium": 0.5217704591526917,
+              "high": 0.14083490627743517
+            },
+            "extractionDifficulty": 27.42,
+            "processingDifficulty": 46.071,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:phobos:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.160601,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-phobos-518551af-surface-41-0",
+            "groupId": "g1-sol-phobos-518551af-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 34828.619,
+            "gradeProbabilities": {
+              "low": 0.3385374031056362,
+              "medium": 0.5215021010152331,
+              "high": 0.1399604958791307
+            },
+            "extractionDifficulty": 31.561,
+            "processingDifficulty": 69.239,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-phobos-518551af-deep-41-0",
+            "groupId": "g1-sol-phobos-518551af-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 111993.037,
+            "gradeProbabilities": {
+              "low": 0.17779488380442499,
+              "medium": 0.34158238930704315,
+              "high": 0.48062272688853186
+            },
+            "extractionDifficulty": 73.446,
+            "processingDifficulty": 69.239,
+            "discoveryTier": 5,
+            "accessDepth": 83.915,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:phobos:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:phobos:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 4706625.349,
+    "typeShares": {
+      "surface": 0.3429038160834452,
+      "vein": 0.238117544690309,
+      "deep": 0.4189786392262458
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.3345314502133988,
+        "medium": 0.5220838526589796,
+        "high": 0.1433846971276216
+      },
+      "vein": {
+        "low": 0.30232896357774736,
+        "medium": 0.5652847031131387,
+        "high": 0.13238633330911398
+      },
+      "deep": {
+        "low": 0.17944937874097378,
+        "medium": 0.338900581006892,
+        "high": 0.4816500402521342
+      }
+    },
+    "jitter": 0.04,
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:phobos:resources:v1",
+    "generatorVersion": 1,
+    "budgetPolicy": "procedural"
+  },
+  "hydrogenSources": [],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+  }
+}

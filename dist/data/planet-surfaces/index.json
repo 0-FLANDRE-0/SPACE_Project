@@ -1,1 +1,24 @@
-{"schemaVersion":1,"templates":{}}
+{
+  "schemaVersion": 1,
+  "templates": {
+    "sol:mercury": "./data/planet-surfaces/sol-mercury-v2.json",
+    "sol:venus": "./data/planet-surfaces/sol-venus-v2.json",
+    "sol:earth": "./data/planet-surfaces/sol-earth-v2.json",
+    "sol:mars": "./data/planet-surfaces/sol-mars-v2.json",
+    "sol:jupiter": "./data/planet-surfaces/sol-jupiter-v2.json",
+    "sol:saturn": "./data/planet-surfaces/sol-saturn-v2.json",
+    "sol:uranus": "./data/planet-surfaces/sol-uranus-v2.json",
+    "sol:neptune": "./data/planet-surfaces/sol-neptune-v2.json",
+    "sol:moon": "./data/planet-surfaces/sol-moon-v2.json",
+    "sol:phobos": "./data/planet-surfaces/sol-phobos-v2.json",
+    "sol:deimos": "./data/planet-surfaces/sol-deimos-v2.json",
+    "sol:io": "./data/planet-surfaces/sol-io-v2.json",
+    "sol:europa": "./data/planet-surfaces/sol-europa-v2.json",
+    "sol:ganymede": "./data/planet-surfaces/sol-ganymede-v2.json",
+    "sol:callisto": "./data/planet-surfaces/sol-callisto-v2.json",
+    "sol:titan": "./data/planet-surfaces/sol-titan-v2.json",
+    "sol:enceladus": "./data/planet-surfaces/sol-enceladus-v2.json",
+    "sol:titania": "./data/planet-surfaces/sol-titania-v2.json",
+    "sol:triton": "./data/planet-surfaces/sol-triton-v2.json"
+  }
+}

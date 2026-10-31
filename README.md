@@ -1,12 +1,16 @@
-# SPACE Project · v0.5C 행성 데이터 자동 설정·일괄 작성
+# SPACE Project · v0.5D 자원 지질·품질 확률·Sol 초기 프리셋
 
-HTML/CSS/JavaScript + Three.js 기반 Phase 0 프로토타입입니다. **전 행성·위성의 시드 기반 지형·자원·초기 인구 자동 설정, 미리보기·수동값 보존·색상 검수 지도**를 제공합니다. 태양계의 기존 3D 공전·자전·위성·텍스처와 v0.3 거리·크기 체계를 유지합니다. [v0.5C 보고·스크린샷](docs/v0.5C/REVIEW.md), [검증 기록](docs/VERIFICATION.md), [작업 지시서](docs/v0.5C/REQUEST_KO.md)를 참고하세요.
+HTML/CSS/JavaScript + Three.js 기반 Phase 0 프로토타입입니다. **19개 Sol 기본 프리셋, 표면·광맥·심층 매장지, 매장량 가중 품질 확률과 개발자 검수·편집**를 제공합니다. 태양계의 기존 3D 공전·자전·위성·텍스처와 v0.3 거리·크기 체계를 유지합니다. [v0.5D 보고·스크린샷](docs/v0.5D/REVIEW.md), [검증 기록](docs/VERIFICATION.md), [작업 지시서](docs/v0.5D/REQUEST_KO.md)를 참고하세요.
 
-## 자동 설정 조작
+## 자원 지질 조작
 
-SPACE 로고 5초 내 7회 → 천체 선택 → 표면 지도 → **자동 설정**. 기본은 미설정만 채우기이며, 자원 총량/총 POP는 확정한 값만 입력합니다. 미리보기의 6개 검수 레이어와 이전값/예정값을 확인한 후 확인 체크 → 적용합니다. 되돌리기와 v1 JSON 내보내기·가져오기를 지원합니다. 선택한 구역만 작성할 때도 예산은 **행성 전체 목표에서 기존 고정값을 뺀 잔여량**입니다.
+SPACE 로고5초 내7회 → 천체 선택 → 표면 지도 → **자원**. 기본은 미설정값 보존이며, 다른 시드의 재배치는 전체 ore 교체/초기 인지 이관 여부를 선택하고 미리보기 → 확인 → 원본 백업 → 적용합니다. 7개 검수 지도·개별 매장지/품질/기술 가정·고급 JSON 편집과 Undo를 제공합니다. v0.5C 자동 설정의 지형/인구 작성도 유지합니다.
 
-지구 육해는 로컬 포함된 Natural Earth 1:50m Land v5.1.2 (Public Domain), 다른 천체는 게임용 절차적 분포입니다. 인구·매장량 기본값은 미정이며 승인 전 프리셋을 자동 등록하지 않습니다. 시드·출처는 별도 sidecar JSON, 최종 초기 데이터는 기존 schema1입니다. [테라포밍 확장 계약](docs/architecture/TERRAFORMING_DATA_CONTRACT.md)은 원본과 미래 현재 상태를 분리하며 실제 테라포밍은 구현하지 않습니다.
+기본 v2 프리셋은 태양계19개 모두 실제 등록되어 있습니다. **기존 로컬 v1/v2 초안이 우선**하며 자동 덮어쓰기를 하지 않습니다. 자원 패널의 공식 프리셋 불러오기 또는 v1→v2 이관은 별도 미리보기/확인/백업을 거칩니다. 파일 UI에서 두 스키마를 가져오고 현재 버전으로 내보낼 수 있습니다.
+
+지구는 사용자 원본의8893000000명/도시화/지형/환경/시나리오를 보존하고 ore만783억→786억 U로 재배분했습니다. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도 해저 단괴입니다(수심이 없어 육해혼합 구역으로 대륙붕 근사). [확정 예산·품질과 잠정값](docs/v0.5D/REVIEW.md)을 구분했습니다. 품질별 별도 매장량은 없고 실제 ore를 한 번만 합산합니다. 1 U=10톤, 기본 합금 수율 저14/중33/고52%입니다. 수소는 유한/대기채집 잠재 공급원이며 실제 생산·재고·연료 소비를 실행하지 않습니다.
+
+지구 육해는 Natural Earth 1:50m Land v5.1.2(Public Domain), 다른 천체 환경·미확정 매장량/초기 인지/달·화성 식민지 수치 등은 게임용 잠정값입니다. [미래 상태 분리 계약](docs/architecture/TERRAFORMING_DATA_CONTRACT.md)을 유지하며 실제 채굴·경제·성장·테라포밍은 미구현입니다.
 
 ## 실행
 
@@ -17,7 +21,7 @@ npm run dev
 # http://localhost:5173
 ```
 
-정적 파일은 `dist/`에 있습니다. ES 모듈이므로 `file://` 대신 HTTP 서버를 사용하세요. Three.js와 OrbitControls는 MIT 라이선스와 함께 저장소에 포함했습니다. 선택적인 웹폰트가 로드되지 않으면 시스템 폰트를 사용합니다.
+정적 파일은 `dist/`에 있습니다. ES 모듈이므로 `file://` 대신 HTTP 서버를 사용하세요. Three.js와 OrbitControls는 MIT 라이선스와 함께 저장소에 포함했습니다. 외부 웹폰트를 요청하지 않고 시스템 폰트를 사용합니다.
 
 ## 기능과 조작
 
@@ -66,7 +70,7 @@ JSON은 천체 하나씩 내보내고, 가져오기 검증·미리보기·덮어
 
 ## 실행 ZIP
 
-완료된 배포의 `/downloads/SPACE_Project_v0.5C_HTML.zip`에서 HTML 실행 패키지를 받습니다. HTML·JS·Three.js·표면 이미지·라이선스와 `serve.py`를 포함합니다. 압축 해제 후 `python3 serve.py`(Windows: `py serve.py`)를 실행하고 `http://localhost:8765`를 여세요. ES 모듈을 사용하므로 HTML 파일 직접 열기 대신 로컬 HTTP 서버가 필요합니다.
+완료된 배포의 `/downloads/SPACE_Project_v0.5D_HTML.zip`에서 HTML 실행 패키지를 받습니다. HTML·JS·Three.js·표면 이미지·라이선스와 `serve.py`를 포함합니다. 압축 해제 후 `python3 serve.py`(Windows: `py serve.py`)를 실행하고 `http://localhost:8765`를 여세요. ES 모듈을 사용하므로 HTML 파일 직접 열기 대신 로컬 HTTP 서버가 필요합니다.
 
 ```sh
 python3 scripts/package-release.py

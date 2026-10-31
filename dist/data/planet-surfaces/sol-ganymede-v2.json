@@ -1,0 +1,2625 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "ganymede",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "90f5ac09"
+  },
+  "geology": {
+    "cells": {
+      "sol:ganymede:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 81.717,
+          "radiationLevel": null,
+          "terrainObstacle": 0.10894,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-0-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 83929949.654,
+            "gradeProbabilities": {
+              "low": 0.5129212506961911,
+              "medium": 0.4619732046117109,
+              "high": 0.025105544692098018
+            },
+            "extractionDifficulty": 10.955,
+            "processingDifficulty": 38.483,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-0-4",
+            "groupId": "g1-sol-ganymede-121a6851-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 20243402.837,
+            "gradeProbabilities": {
+              "low": 0.29751224748138694,
+              "medium": 0.5095800270838036,
+              "high": 0.19290772543480952
+            },
+            "extractionDifficulty": 54.291,
+            "processingDifficulty": 38.483,
+            "discoveryTier": 1,
+            "accessDepth": 8.267,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-0-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 9590627.271,
+            "gradeProbabilities": {
+              "low": 0.06597849323324999,
+              "medium": 0.5581497274072611,
+              "high": 0.37587177935948896
+            },
+            "extractionDifficulty": 72.463,
+            "processingDifficulty": 38.483,
+            "discoveryTier": 3,
+            "accessDepth": 55.444,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.985,
+          "radiationLevel": null,
+          "terrainObstacle": 0.141752,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-1-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 80981629.886,
+            "gradeProbabilities": {
+              "low": 0.5115287141789585,
+              "medium": 0.4613195402127724,
+              "high": 0.027151745608269093
+            },
+            "extractionDifficulty": 22.586,
+            "processingDifficulty": 56.337,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-1-4",
+            "groupId": "g1-sol-ganymede-121a6851-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 101502967.174,
+            "gradeProbabilities": {
+              "low": 0.29018007448781635,
+              "medium": 0.5175525876813872,
+              "high": 0.19226733783079644
+            },
+            "extractionDifficulty": 41.352,
+            "processingDifficulty": 56.337,
+            "discoveryTier": 1,
+            "accessDepth": 30.157,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.574,
+          "radiationLevel": null,
+          "terrainObstacle": 0.212333,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-2-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 25013802.557,
+            "gradeProbabilities": {
+              "low": 0.5129812948879688,
+              "medium": 0.45914505437659436,
+              "high": 0.027873650735436795
+            },
+            "extractionDifficulty": 24.527,
+            "processingDifficulty": 52.105,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.046,
+          "radiationLevel": null,
+          "terrainObstacle": 0.222576,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-3-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 15222061.968,
+            "gradeProbabilities": {
+              "low": 0.5132782952812402,
+              "medium": 0.45838630636493083,
+              "high": 0.028335398353828905
+            },
+            "extractionDifficulty": 13.768,
+            "processingDifficulty": 24.569,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-3-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 32268394.533,
+            "gradeProbabilities": {
+              "low": 0.06160474427700183,
+              "medium": 0.5619604851430052,
+              "high": 0.37643477057999297
+            },
+            "extractionDifficulty": 65.862,
+            "processingDifficulty": 24.569,
+            "discoveryTier": 3,
+            "accessDepth": 89.15,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 94.84,
+          "radiationLevel": null,
+          "terrainObstacle": 0.208746,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-4-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 47900300.961,
+            "gradeProbabilities": {
+              "low": 0.5131427616727441,
+              "medium": 0.4576028164037537,
+              "high": 0.029254421923502204
+            },
+            "extractionDifficulty": 25.333,
+            "processingDifficulty": 28.479,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-4-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 126975050.175,
+            "gradeProbabilities": {
+              "low": 0.0628999707801654,
+              "medium": 0.5583472863802457,
+              "high": 0.378752742839589
+            },
+            "extractionDifficulty": 66.382,
+            "processingDifficulty": 28.479,
+            "discoveryTier": 5,
+            "accessDepth": 74.517,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.568,
+          "radiationLevel": null,
+          "terrainObstacle": 0.179848,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-5-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 15286348.42,
+            "gradeProbabilities": {
+              "low": 0.5130406881169318,
+              "medium": 0.4571184507672709,
+              "high": 0.029840861115797278
+            },
+            "extractionDifficulty": 24.675,
+            "processingDifficulty": 51.653,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-5-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 25412803.891,
+            "gradeProbabilities": {
+              "low": 0.062064841055349915,
+              "medium": 0.5572175355715447,
+              "high": 0.3807176233731054
+            },
+            "extractionDifficulty": 75.583,
+            "processingDifficulty": 51.653,
+            "discoveryTier": 3,
+            "accessDepth": 87.637,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.688,
+          "radiationLevel": null,
+          "terrainObstacle": 0.114236,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-6-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 79539694.855,
+            "gradeProbabilities": {
+              "low": 0.51291412636348,
+              "medium": 0.4626633192011189,
+              "high": 0.024422554435401082
+            },
+            "extractionDifficulty": 23.765,
+            "processingDifficulty": 50.475,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-6-4",
+            "groupId": "g1-sol-ganymede-121a6851-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 53600927.979,
+            "gradeProbabilities": {
+              "low": 0.293854697075676,
+              "medium": 0.5148907295362396,
+              "high": 0.19125457338808435
+            },
+            "extractionDifficulty": 53.335,
+            "processingDifficulty": 50.475,
+            "discoveryTier": 1,
+            "accessDepth": 30.064,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 91.298,
+          "radiationLevel": null,
+          "terrainObstacle": 0.151212,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-7-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 37173884.323,
+            "gradeProbabilities": {
+              "low": 0.5113134069190263,
+              "medium": 0.4603641413030249,
+              "high": 0.028322451777948853
+            },
+            "extractionDifficulty": 25.004,
+            "processingDifficulty": 40.844,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-7-0",
+            "groupId": "g1-sol-ganymede-121a6851-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 27773204.252,
+            "gradeProbabilities": {
+              "low": 0.30850159708690256,
+              "medium": 0.4771384086338176,
+              "high": 0.2143599942792799
+            },
+            "extractionDifficulty": 37.176,
+            "processingDifficulty": 40.844,
+            "discoveryTier": 1,
+            "accessDepth": 30.225,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-7-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 5197982.263,
+            "gradeProbabilities": {
+              "low": 0.06170190688692173,
+              "medium": 0.5630429508922391,
+              "high": 0.3752551422208391
+            },
+            "extractionDifficulty": 78.6,
+            "processingDifficulty": 40.844,
+            "discoveryTier": 3,
+            "accessDepth": 92.042,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.898,
+          "radiationLevel": null,
+          "terrainObstacle": 0.226342,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-8-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 14621811.425,
+            "gradeProbabilities": {
+              "low": 0.5142428091474711,
+              "medium": 0.45960211531715806,
+              "high": 0.026155075535370824
+            },
+            "extractionDifficulty": 19.678,
+            "processingDifficulty": 46.472,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-8-0",
+            "groupId": "g1-sol-ganymede-121a6851-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 125659306.256,
+            "gradeProbabilities": {
+              "low": 0.3106251978771797,
+              "medium": 0.4755114979361488,
+              "high": 0.21386330418667157
+            },
+            "extractionDifficulty": 38.571,
+            "processingDifficulty": 46.472,
+            "discoveryTier": 1,
+            "accessDepth": 30.112,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-8-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 42328389.559,
+            "gradeProbabilities": {
+              "low": 0.060200092646332,
+              "medium": 0.5644853626614206,
+              "high": 0.3753145446922474
+            },
+            "extractionDifficulty": 68.518,
+            "processingDifficulty": 46.472,
+            "discoveryTier": 4,
+            "accessDepth": 91.854,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.321,
+          "radiationLevel": null,
+          "terrainObstacle": 0.145355,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-9-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 29978020.148,
+            "gradeProbabilities": {
+              "low": 0.5122739011262446,
+              "medium": 0.4642334648174267,
+              "high": 0.023492634056328652
+            },
+            "extractionDifficulty": 26.562,
+            "processingDifficulty": 18.44,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-9-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 144336166.32,
+            "gradeProbabilities": {
+              "low": 0.06559512241654238,
+              "medium": 0.5527853185919814,
+              "high": 0.38161955899147615
+            },
+            "extractionDifficulty": 69.526,
+            "processingDifficulty": 18.44,
+            "discoveryTier": 5,
+            "accessDepth": 54.908,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.484,
+          "radiationLevel": null,
+          "terrainObstacle": 0.115827,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-10-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 23680663.702,
+            "gradeProbabilities": {
+              "low": 0.5117278746598303,
+              "medium": 0.45842374475198205,
+              "high": 0.029848380588187694
+            },
+            "extractionDifficulty": 24.948,
+            "processingDifficulty": 68.469,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-10-0",
+            "groupId": "g1-sol-ganymede-121a6851-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 41031268.72,
+            "gradeProbabilities": {
+              "low": 0.30294807973970084,
+              "medium": 0.47959111241710617,
+              "high": 0.21746080784319302
+            },
+            "extractionDifficulty": 42.575,
+            "processingDifficulty": 68.469,
+            "discoveryTier": 2,
+            "accessDepth": 22.67,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 78.766,
+          "radiationLevel": null,
+          "terrainObstacle": 0.22136,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-11-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 51889041.742,
+            "gradeProbabilities": {
+              "low": 0.5088090528146266,
+              "medium": 0.4665878705409389,
+              "high": 0.024603076644434452
+            },
+            "extractionDifficulty": 13.364,
+            "processingDifficulty": 20.009,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.409,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219455,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-12-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 37781107.965,
+            "gradeProbabilities": {
+              "low": 0.5107473031104445,
+              "medium": 0.4662658272282254,
+              "high": 0.022986869661330102
+            },
+            "extractionDifficulty": 14.407,
+            "processingDifficulty": 18.675,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-12-1",
+            "groupId": "g1-sol-ganymede-121a6851-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 36551927.442,
+            "gradeProbabilities": {
+              "low": 0.30368061415572073,
+              "medium": 0.5002503692553684,
+              "high": 0.19606901658891102
+            },
+            "extractionDifficulty": 42.193,
+            "processingDifficulty": 18.675,
+            "discoveryTier": 1,
+            "accessDepth": 22.887,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-12-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 14490831.026,
+            "gradeProbabilities": {
+              "low": 0.061440155570433946,
+              "medium": 0.5626884821126008,
+              "high": 0.37587136231696533
+            },
+            "extractionDifficulty": 78.5,
+            "processingDifficulty": 18.675,
+            "discoveryTier": 3,
+            "accessDepth": 79.812,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.484,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219399,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-13-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 40517030.721,
+            "gradeProbabilities": {
+              "low": 0.5120392471467048,
+              "medium": 0.46470107095213936,
+              "high": 0.023259681901155828
+            },
+            "extractionDifficulty": 28.624,
+            "processingDifficulty": 44.927,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-13-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 39546764.223,
+            "gradeProbabilities": {
+              "low": 0.06266465294458112,
+              "medium": 0.5616742290923142,
+              "high": 0.3756611179631047
+            },
+            "extractionDifficulty": 62.673,
+            "processingDifficulty": 44.927,
+            "discoveryTier": 4,
+            "accessDepth": 69.374,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.656,
+          "radiationLevel": null,
+          "terrainObstacle": 0.119891,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-14-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 41689504.849,
+            "gradeProbabilities": {
+              "low": 0.5103248967555254,
+              "medium": 0.46073136185566305,
+              "high": 0.028943741388811586
+            },
+            "extractionDifficulty": 33.738,
+            "processingDifficulty": 52.898,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.983,
+          "radiationLevel": null,
+          "terrainObstacle": 0.137013,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-15-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 23657803.451,
+            "gradeProbabilities": {
+              "low": 0.5099503467072636,
+              "medium": 0.46197572553428223,
+              "high": 0.0280739277584542
+            },
+            "extractionDifficulty": 18.207,
+            "processingDifficulty": 58.035,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-15-1",
+            "groupId": "g1-sol-ganymede-121a6851-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 123081011.246,
+            "gradeProbabilities": {
+              "low": 0.30129376634303834,
+              "medium": 0.5054790766639007,
+              "high": 0.1932271569930609
+            },
+            "extractionDifficulty": 47.501,
+            "processingDifficulty": 58.035,
+            "discoveryTier": 1,
+            "accessDepth": 10.526,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.501,
+          "radiationLevel": null,
+          "terrainObstacle": 0.150695,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-16-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9717131.659,
+            "gradeProbabilities": {
+              "low": 0.5140678059206246,
+              "medium": 0.4565651452363503,
+              "high": 0.029367048843025087
+            },
+            "extractionDifficulty": 15.173,
+            "processingDifficulty": 48.132,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.437,
+          "radiationLevel": null,
+          "terrainObstacle": 0.202632,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-17-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 58657010.951,
+            "gradeProbabilities": {
+              "low": 0.5103787084323257,
+              "medium": 0.4606953811113756,
+              "high": 0.028925910456298706
+            },
+            "extractionDifficulty": 15.206,
+            "processingDifficulty": 61.447,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-17-1",
+            "groupId": "g1-sol-ganymede-121a6851-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 13574459.903,
+            "gradeProbabilities": {
+              "low": 0.2979979368494859,
+              "medium": 0.5076095560425266,
+              "high": 0.1943925071079876
+            },
+            "extractionDifficulty": 44.205,
+            "processingDifficulty": 61.447,
+            "discoveryTier": 1,
+            "accessDepth": 7.389,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 88.86,
+          "radiationLevel": null,
+          "terrainObstacle": 0.315259,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-18-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 77248975.817,
+            "gradeProbabilities": {
+              "low": 0.508819089622134,
+              "medium": 0.4662915585459243,
+              "high": 0.02488935183194172
+            },
+            "extractionDifficulty": 30.435,
+            "processingDifficulty": 40.729,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-18-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 18186936.878,
+            "gradeProbabilities": {
+              "low": 0.06313991662584385,
+              "medium": 0.5543642079116546,
+              "high": 0.3824958754625015
+            },
+            "extractionDifficulty": 65.324,
+            "processingDifficulty": 40.729,
+            "discoveryTier": 4,
+            "accessDepth": 77.553,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.568,
+          "radiationLevel": null,
+          "terrainObstacle": 0.331077,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-19-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 51741683.201,
+            "gradeProbabilities": {
+              "low": 0.5133746612713574,
+              "medium": 0.45729329918409106,
+              "high": 0.02933203954455149
+            },
+            "extractionDifficulty": 25.336,
+            "processingDifficulty": 37.377,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-19-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 171831584.288,
+            "gradeProbabilities": {
+              "low": 0.06403699194736918,
+              "medium": 0.5561180169893198,
+              "high": 0.379844991063311
+            },
+            "extractionDifficulty": 83.355,
+            "processingDifficulty": 37.377,
+            "discoveryTier": 5,
+            "accessDepth": 64.488,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.428,
+          "radiationLevel": null,
+          "terrainObstacle": 0.165039,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-20-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 25705572.846,
+            "gradeProbabilities": {
+              "low": 0.51349926037983,
+              "medium": 0.46313777590999716,
+              "high": 0.02336296371017289
+            },
+            "extractionDifficulty": 34.178,
+            "processingDifficulty": 54.653,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-20-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 35795833.411,
+            "gradeProbabilities": {
+              "low": 0.0638095537173017,
+              "medium": 0.5615231248525673,
+              "high": 0.37466732143013104
+            },
+            "extractionDifficulty": 74.182,
+            "processingDifficulty": 54.653,
+            "discoveryTier": 3,
+            "accessDepth": 72.608,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.127,
+          "radiationLevel": null,
+          "terrainObstacle": 0.249375,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-21-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 29923306.484,
+            "gradeProbabilities": {
+              "low": 0.5159798347827881,
+              "medium": 0.45884352105753834,
+              "high": 0.02517664415967357
+            },
+            "extractionDifficulty": 18.543,
+            "processingDifficulty": 41.725,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-21-1",
+            "groupId": "g1-sol-ganymede-121a6851-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 54565977.891,
+            "gradeProbabilities": {
+              "low": 0.29812920821551586,
+              "medium": 0.5061384652712687,
+              "high": 0.19573232651321548
+            },
+            "extractionDifficulty": 51.713,
+            "processingDifficulty": 41.725,
+            "discoveryTier": 2,
+            "accessDepth": 9.49,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.05,
+          "radiationLevel": null,
+          "terrainObstacle": 0.293211,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-22-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 135462240.728,
+            "gradeProbabilities": {
+              "low": 0.5136886510074973,
+              "medium": 0.45849509908901864,
+              "high": 0.027816249903484105
+            },
+            "extractionDifficulty": 33.946,
+            "processingDifficulty": 35.102,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.784,
+          "radiationLevel": null,
+          "terrainObstacle": 0.143575,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-23-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 31170927.362,
+            "gradeProbabilities": {
+              "low": 0.5124845531777381,
+              "medium": 0.46392803398231386,
+              "high": 0.023587412839948058
+            },
+            "extractionDifficulty": 33.514,
+            "processingDifficulty": 53.277,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-23-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 19319450.463,
+            "gradeProbabilities": {
+              "low": 0.06707176402308186,
+              "medium": 0.5578762179346525,
+              "high": 0.3750520180422656
+            },
+            "extractionDifficulty": 69.497,
+            "processingDifficulty": 53.277,
+            "discoveryTier": 5,
+            "accessDepth": 51.565,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.174,
+          "radiationLevel": null,
+          "terrainObstacle": 0.323626,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-24-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 23750524.747,
+            "gradeProbabilities": {
+              "low": 0.5141317213148713,
+              "medium": 0.45674374345029106,
+              "high": 0.02912453523483765
+            },
+            "extractionDifficulty": 18.966,
+            "processingDifficulty": 48.872,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-24-3",
+            "groupId": "g1-sol-ganymede-121a6851-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 35356447.271,
+            "gradeProbabilities": {
+              "low": 0.3127425373634359,
+              "medium": 0.4805907138110443,
+              "high": 0.20666674882551989
+            },
+            "extractionDifficulty": 38.182,
+            "processingDifficulty": 48.872,
+            "discoveryTier": 2,
+            "accessDepth": 17.828,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-24-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 26797586.645,
+            "gradeProbabilities": {
+              "low": 0.06514286968395254,
+              "medium": 0.5578339757894867,
+              "high": 0.37702315452656077
+            },
+            "extractionDifficulty": 79.348,
+            "processingDifficulty": 48.872,
+            "discoveryTier": 5,
+            "accessDepth": 71.379,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.996,
+          "radiationLevel": null,
+          "terrainObstacle": 0.299326,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-25-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 67906405.6,
+            "gradeProbabilities": {
+              "low": 0.5096665825852096,
+              "medium": 0.4657035455600392,
+              "high": 0.024629871854751226
+            },
+            "extractionDifficulty": 33.051,
+            "processingDifficulty": 61.231,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-25-1",
+            "groupId": "g1-sol-ganymede-121a6851-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 23163986.062,
+            "gradeProbabilities": {
+              "low": 0.3051295247608831,
+              "medium": 0.49854464660858044,
+              "high": 0.19632582863053638
+            },
+            "extractionDifficulty": 54.217,
+            "processingDifficulty": 61.231,
+            "discoveryTier": 2,
+            "accessDepth": 33.705,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.534,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140276,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-26-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 158981256.923,
+            "gradeProbabilities": {
+              "low": 0.5109583247740656,
+              "medium": 0.46035662223296575,
+              "high": 0.028685052992968675
+            },
+            "extractionDifficulty": 19.425,
+            "processingDifficulty": 40.939,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.022,
+          "radiationLevel": null,
+          "terrainObstacle": 0.305173,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-27-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 55575698.717,
+            "gradeProbabilities": {
+              "low": 0.5134605642267406,
+              "medium": 0.4637928968676399,
+              "high": 0.0227465389056195
+            },
+            "extractionDifficulty": 26.625,
+            "processingDifficulty": 31.019,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-27-3",
+            "groupId": "g1-sol-ganymede-121a6851-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 402579914.623,
+            "gradeProbabilities": {
+              "low": 0.3146292953351548,
+              "medium": 0.4750075315655513,
+              "high": 0.2103631730992939
+            },
+            "extractionDifficulty": 54.457,
+            "processingDifficulty": 31.019,
+            "discoveryTier": 1,
+            "accessDepth": 22.106,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.95,
+          "radiationLevel": null,
+          "terrainObstacle": 0.176784,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-28-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 441115259.122,
+            "gradeProbabilities": {
+              "low": 0.5123844398603677,
+              "medium": 0.4649176235859316,
+              "high": 0.022697936553700684
+            },
+            "extractionDifficulty": 29.094,
+            "processingDifficulty": 20.665,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-28-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 38441964.08,
+            "gradeProbabilities": {
+              "low": 0.061623162315265746,
+              "medium": 0.5631785288503164,
+              "high": 0.3751983088344179
+            },
+            "extractionDifficulty": 70.781,
+            "processingDifficulty": 20.665,
+            "discoveryTier": 3,
+            "accessDepth": 67.072,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.678,
+          "radiationLevel": null,
+          "terrainObstacle": 0.28808,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-29-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 130867473.689,
+            "gradeProbabilities": {
+              "low": 0.5097740142875253,
+              "medium": 0.4659355175019276,
+              "high": 0.02429046821054709
+            },
+            "extractionDifficulty": 22.973,
+            "processingDifficulty": 39.572,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 91.597,
+          "radiationLevel": null,
+          "terrainObstacle": 0.323551,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-30-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 114755368.91,
+            "gradeProbabilities": {
+              "low": 0.5158706159301936,
+              "medium": 0.46117570210518655,
+              "high": 0.022953681964619874
+            },
+            "extractionDifficulty": 31.604,
+            "processingDifficulty": 18.137,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-30-2",
+            "groupId": "g1-sol-ganymede-121a6851-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 125591759.409,
+            "gradeProbabilities": {
+              "low": 0.29721900267992524,
+              "medium": 0.5029266955954326,
+              "high": 0.1998543017246421
+            },
+            "extractionDifficulty": 33.693,
+            "processingDifficulty": 18.137,
+            "discoveryTier": 1,
+            "accessDepth": 26.769,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.087,
+          "radiationLevel": null,
+          "terrainObstacle": 0.214053,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-31-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 57884709.139,
+            "gradeProbabilities": {
+              "low": 0.509337768408367,
+              "medium": 0.4656248078671318,
+              "high": 0.02503742372450125
+            },
+            "extractionDifficulty": 19.458,
+            "processingDifficulty": 53.921,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-31-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 158711260.376,
+            "gradeProbabilities": {
+              "low": 0.06342934575215121,
+              "medium": 0.5587397312124961,
+              "high": 0.3778309230353527
+            },
+            "extractionDifficulty": 65.044,
+            "processingDifficulty": 53.921,
+            "discoveryTier": 5,
+            "accessDepth": 86.266,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.023,
+          "radiationLevel": null,
+          "terrainObstacle": 0.277765,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-32-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 442946837.584,
+            "gradeProbabilities": {
+              "low": 0.5149178904694408,
+              "medium": 0.4569744909190606,
+              "high": 0.028107618611498592
+            },
+            "extractionDifficulty": 26.513,
+            "processingDifficulty": 19.22,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-32-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 33432275.598,
+            "gradeProbabilities": {
+              "low": 0.06559603231683514,
+              "medium": 0.5535763742359124,
+              "high": 0.38082759344725237
+            },
+            "extractionDifficulty": 81.265,
+            "processingDifficulty": 19.22,
+            "discoveryTier": 5,
+            "accessDepth": 80.902,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.368,
+          "radiationLevel": null,
+          "terrainObstacle": 0.28344,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-33-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 41742257.394,
+            "gradeProbabilities": {
+              "low": 0.5118345404853015,
+              "medium": 0.46308999904888093,
+              "high": 0.02507546046581757
+            },
+            "extractionDifficulty": 31.416,
+            "processingDifficulty": 56.973,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-33-2",
+            "groupId": "g1-sol-ganymede-121a6851-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 64185602.129,
+            "gradeProbabilities": {
+              "low": 0.29832262688409894,
+              "medium": 0.49762209623952636,
+              "high": 0.20405527687637467
+            },
+            "extractionDifficulty": 52.214,
+            "processingDifficulty": 56.973,
+            "discoveryTier": 2,
+            "accessDepth": 22.23,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.864,
+          "radiationLevel": null,
+          "terrainObstacle": 0.306113,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-34-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 26500893.672,
+            "gradeProbabilities": {
+              "low": 0.5150856188767492,
+              "medium": 0.4565315888308954,
+              "high": 0.028382792292355418
+            },
+            "extractionDifficulty": 10.59,
+            "processingDifficulty": 54.517,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-34-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 35489064.792,
+            "gradeProbabilities": {
+              "low": 0.06438291812598845,
+              "medium": 0.5585571224907182,
+              "high": 0.37705995938329323
+            },
+            "extractionDifficulty": 81.258,
+            "processingDifficulty": 54.517,
+            "discoveryTier": 4,
+            "accessDepth": 64.507,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.29,
+          "radiationLevel": null,
+          "terrainObstacle": 0.268612,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-35-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 74115116.575,
+            "gradeProbabilities": {
+              "low": 0.5090223629464298,
+              "medium": 0.4687325816721689,
+              "high": 0.0222450553814013
+            },
+            "extractionDifficulty": 23.381,
+            "processingDifficulty": 46.749,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.461,
+          "radiationLevel": null,
+          "terrainObstacle": 0.257766,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-36-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 83308951.582,
+            "gradeProbabilities": {
+              "low": 0.5108273488514959,
+              "medium": 0.4593122350246679,
+              "high": 0.029860416123836157
+            },
+            "extractionDifficulty": 28.479,
+            "processingDifficulty": 17.172,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.074,
+          "radiationLevel": null,
+          "terrainObstacle": 0.345463,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-37-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 29194275.514,
+            "gradeProbabilities": {
+              "low": 0.51617820907467,
+              "medium": 0.46048621491426933,
+              "high": 0.023335576011060594
+            },
+            "extractionDifficulty": 12.664,
+            "processingDifficulty": 21.578,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.482,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138085,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-38-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 44864729.321,
+            "gradeProbabilities": {
+              "low": 0.5142407330040722,
+              "medium": 0.4629921677363139,
+              "high": 0.02276709925961387
+            },
+            "extractionDifficulty": 11.013,
+            "processingDifficulty": 57.356,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-38-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 100938835.606,
+            "gradeProbabilities": {
+              "low": 0.05989592613376817,
+              "medium": 0.558390162303462,
+              "high": 0.38171391156276985
+            },
+            "extractionDifficulty": 82.628,
+            "processingDifficulty": 57.356,
+            "discoveryTier": 5,
+            "accessDepth": 51.113,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.383,
+          "radiationLevel": null,
+          "terrainObstacle": 0.120823,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-39-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 98211087.781,
+            "gradeProbabilities": {
+              "low": 0.51627374691599,
+              "medium": 0.45572279501231727,
+              "high": 0.028003458071692702
+            },
+            "extractionDifficulty": 17.043,
+            "processingDifficulty": 29.335,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.244,
+          "radiationLevel": null,
+          "terrainObstacle": 0.149178,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-40-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 55361133.965,
+            "gradeProbabilities": {
+              "low": 0.5098630265024393,
+              "medium": 0.46754025182770903,
+              "high": 0.02259672166985166
+            },
+            "extractionDifficulty": 27.271,
+            "processingDifficulty": 34.566,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-deep-40-0",
+            "groupId": "g1-sol-ganymede-121a6851-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 114279089.284,
+            "gradeProbabilities": {
+              "low": 0.06366936511084577,
+              "medium": 0.5591467039597922,
+              "high": 0.37718393092936203
+            },
+            "extractionDifficulty": 62.739,
+            "processingDifficulty": 34.566,
+            "discoveryTier": 3,
+            "accessDepth": 55.61,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:ganymede:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.583,
+          "radiationLevel": null,
+          "terrainObstacle": 0.194319,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-ganymede-121a6851-surface-41-0",
+            "groupId": "g1-sol-ganymede-121a6851-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 35463904.325,
+            "gradeProbabilities": {
+              "low": 0.5113838934366494,
+              "medium": 0.46515499792145903,
+              "high": 0.023461108641891597
+            },
+            "extractionDifficulty": 12.61,
+            "processingDifficulty": 53.361,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-ganymede-121a6851-vein-41-3",
+            "groupId": "g1-sol-ganymede-121a6851-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 319663606.003,
+            "gradeProbabilities": {
+              "low": 0.31175834151264636,
+              "medium": 0.4788484421362473,
+              "high": 0.20939321635110636
+            },
+            "extractionDifficulty": 35.442,
+            "processingDifficulty": 53.361,
+            "discoveryTier": 2,
+            "accessDepth": 9.585,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:ganymede:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:ganymede:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 5812532050.114,
+    "typeShares": {
+      "surface": 0.524906420116055,
+      "vein": 0.2697835909853581,
+      "deep": 0.2053099888985867
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.5125194693915547,
+        "medium": 0.46168484372086815,
+        "high": 0.025795686887577177
+      },
+      "vein": {
+        "low": 0.3065306202508509,
+        "medium": 0.48853286160156134,
+        "high": 0.2049365181475878
+      },
+      "deep": {
+        "low": 0.06335242511238903,
+        "medium": 0.5580027647130191,
+        "high": 0.37864481017459184
+      }
+    },
+    "jitter": 0.04,
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:ganymede:resources:v1",
+    "generatorVersion": 1,
+    "budgetPolicy": "procedural"
+  },
+  "hydrogenSources": [
+    {
+      "sourceId": "h1-sol-ganymede-121a6851-0",
+      "tileId": "sol:ganymede:surface:00022",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 25897144.936,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 89.776,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    },
+    {
+      "sourceId": "h1-sol-ganymede-121a6851-1",
+      "tileId": "sol:ganymede:surface:00006",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 13075039.508,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 37.749,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    }
+  ],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+  }
+}

@@ -1,0 +1,5070 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "earth",
+  "bodyKind": "planet",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 3,
+    "orientationId": "body-local-v1",
+    "cellCount": 92,
+    "gridFingerprint": "7d4c00a6"
+  },
+  "geology": {
+    "cells": {
+      "sol:earth:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.54977634,
+          "waterFraction": 0.45022366
+        },
+        "environment": {
+          "temperatureK": 259.154,
+          "radiationLevel": null,
+          "terrainObstacle": 0.278588,
+          "habitability": 0.523621,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-0-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 132308165.141,
+            "gradeProbabilities": {
+              "low": 0.6002605078410174,
+              "medium": 0.37602520638855863,
+              "high": 0.023714285770424004
+            },
+            "extractionDifficulty": 33.604,
+            "processingDifficulty": 30.284,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.77286835,
+          "waterFraction": 0.22713165000000002
+        },
+        "environment": {
+          "temperatureK": 261.827,
+          "radiationLevel": null,
+          "terrainObstacle": 0.199776,
+          "habitability": 0.523621,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-1-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 107206015.388,
+            "gradeProbabilities": {
+              "low": 0.6005012652262861,
+              "medium": 0.38027063322405097,
+              "high": 0.01922810154966294
+            },
+            "extractionDifficulty": 30.727,
+            "processingDifficulty": 28.097,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.26620985,
+          "waterFraction": 0.7337901499999999
+        },
+        "environment": {
+          "temperatureK": 250.614,
+          "radiationLevel": null,
+          "terrainObstacle": 0.2672,
+          "habitability": 0.486563,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-2-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 164345509.142,
+            "gradeProbabilities": {
+              "low": 0.6014267620820368,
+              "medium": 0.37472314031946236,
+              "high": 0.02385009759850084
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 30.015,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.03958411,
+          "waterFraction": 0.96041589
+        },
+        "environment": {
+          "temperatureK": 280.482,
+          "radiationLevel": null,
+          "terrainObstacle": 0.163144,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-3-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 105524380.618,
+            "gradeProbabilities": {
+              "low": 0.5994761665150339,
+              "medium": 0.3770290103830653,
+              "high": 0.02349482310190081
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 19.597,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.98318341,
+          "waterFraction": 0.01681659000000002
+        },
+        "environment": {
+          "temperatureK": 272.834,
+          "radiationLevel": null,
+          "terrainObstacle": 0.175593,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-4-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 104658217.74,
+            "gradeProbabilities": {
+              "low": 0.6029281472418273,
+              "medium": 0.3792277703710156,
+              "high": 0.017844082387157074
+            },
+            "extractionDifficulty": 33.052,
+            "processingDifficulty": 39.586,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-4-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 625430342.858,
+            "gradeProbabilities": {
+              "low": 0.22903245096608116,
+              "medium": 0.44160110625597937,
+              "high": 0.32936644277793947
+            },
+            "extractionDifficulty": 68.877,
+            "processingDifficulty": 39.586,
+            "discoveryTier": 3,
+            "accessDepth": 99.016,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.21309547,
+          "waterFraction": 0.7869045299999999
+        },
+        "environment": {
+          "temperatureK": 283.779,
+          "radiationLevel": null,
+          "terrainObstacle": 0.146263,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-5-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 62400299.58,
+            "gradeProbabilities": {
+              "low": 0.6013756475824679,
+              "medium": 0.3807801326770591,
+              "high": 0.017844219740473025
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 43.265,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.99313352,
+          "waterFraction": 0.006866480000000008
+        },
+        "environment": {
+          "temperatureK": 278.274,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140194,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-6-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 51514244.498,
+            "gradeProbabilities": {
+              "low": 0.5963321030366981,
+              "medium": 0.3858799236338841,
+              "high": 0.0177879733294177
+            },
+            "extractionDifficulty": 13.255,
+            "processingDifficulty": 55.83,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-6-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 158067663.833,
+            "gradeProbabilities": {
+              "low": 0.23137174162595583,
+              "medium": 0.43694182716097035,
+              "high": 0.3316864312130738
+            },
+            "extractionDifficulty": 65.844,
+            "processingDifficulty": 55.83,
+            "discoveryTier": 4,
+            "accessDepth": 80.549,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 286.738,
+          "radiationLevel": null,
+          "terrainObstacle": 0.134725,
+          "habitability": 0.716379,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-7-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 571106192.99,
+            "gradeProbabilities": {
+              "low": 0.6031611238907839,
+              "medium": 0.37990441362525096,
+              "high": 0.01693446248396515
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 22.368,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-7-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 138166902.383,
+            "gradeProbabilities": {
+              "low": 0.2317721996489079,
+              "medium": 0.4352194668219546,
+              "high": 0.33300833352913745
+            },
+            "extractionDifficulty": 63.104,
+            "processingDifficulty": 22.368,
+            "discoveryTier": 4,
+            "accessDepth": 99.471,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00053426,
+          "waterFraction": 0.99946574
+        },
+        "environment": {
+          "temperatureK": 287.555,
+          "radiationLevel": null,
+          "terrainObstacle": 0.134606,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-8-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 142306705.024,
+            "gradeProbabilities": {
+              "low": 0.5990320274833406,
+              "medium": 0.38236548223498035,
+              "high": 0.018602490281679027
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 42.687,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00259912,
+          "waterFraction": 0.99740088
+        },
+        "environment": {
+          "temperatureK": 285.474,
+          "radiationLevel": null,
+          "terrainObstacle": 0.126496,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-9-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 552820428.813,
+            "gradeProbabilities": {
+              "low": 0.6000523173961605,
+              "medium": 0.3820574835833417,
+              "high": 0.017890199020497793
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 64.052,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.09551549,
+          "waterFraction": 0.90448451
+        },
+        "environment": {
+          "temperatureK": 255.515,
+          "radiationLevel": null,
+          "terrainObstacle": 0.303822,
+          "habitability": 0.486563,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-10-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 26775652.63,
+            "gradeProbabilities": {
+              "low": 0.5960865808132851,
+              "medium": 0.38624844291212734,
+              "high": 0.017664976274587504
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 43.846,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.53627582,
+          "waterFraction": 0.46372418000000004
+        },
+        "environment": {
+          "temperatureK": 270.48,
+          "radiationLevel": null,
+          "terrainObstacle": 0.289239,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-11-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 41830350.353,
+            "gradeProbabilities": {
+              "low": 0.6010811502601767,
+              "medium": 0.3746398138251411,
+              "high": 0.024279035914682143
+            },
+            "extractionDifficulty": 19.611,
+            "processingDifficulty": 40.512,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.73361659,
+          "waterFraction": 0.26638341
+        },
+        "environment": {
+          "temperatureK": 272.318,
+          "radiationLevel": null,
+          "terrainObstacle": 0.214269,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-12-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 32990040.439,
+            "gradeProbabilities": {
+              "low": 0.6004543046153897,
+              "medium": 0.3761548144366848,
+              "high": 0.023390880947925442
+            },
+            "extractionDifficulty": 11.293,
+            "processingDifficulty": 38,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00222484,
+          "waterFraction": 0.99777516
+        },
+        "environment": {
+          "temperatureK": 282.372,
+          "radiationLevel": null,
+          "terrainObstacle": 0.192664,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-13-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 80671195.815,
+            "gradeProbabilities": {
+              "low": 0.599075987533089,
+              "medium": 0.3834516661331313,
+              "high": 0.017472346333779688
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 31.265,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 281.725,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219942,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-14-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 79177755.158,
+            "gradeProbabilities": {
+              "low": 0.6004296777456815,
+              "medium": 0.38162958630512234,
+              "high": 0.017940735949196214
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 18.893,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.23168133,
+          "waterFraction": 0.76831867
+        },
+        "environment": {
+          "temperatureK": 273.096,
+          "radiationLevel": null,
+          "terrainObstacle": 0.278199,
+          "habitability": 0.56687,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-15-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 46430023.713,
+            "gradeProbabilities": {
+              "low": 0.603753913216647,
+              "medium": 0.3748352355618286,
+              "high": 0.02141085122152447
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 40.398,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00035111,
+          "waterFraction": 0.99964889
+        },
+        "environment": {
+          "temperatureK": 276.233,
+          "radiationLevel": null,
+          "terrainObstacle": 0.117489,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-16-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 565799477.687,
+            "gradeProbabilities": {
+              "low": 0.5990050837885404,
+              "medium": 0.3826785475515085,
+              "high": 0.018316368659951083
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 27.012,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.65418472,
+          "waterFraction": 0.34581527999999995
+        },
+        "environment": {
+          "temperatureK": 271.055,
+          "radiationLevel": null,
+          "terrainObstacle": 0.143052,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-17-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 577000933.688,
+            "gradeProbabilities": {
+              "low": 0.60292255546188,
+              "medium": 0.3752724306784826,
+              "high": 0.021805013859637373
+            },
+            "extractionDifficulty": 22.525,
+            "processingDifficulty": 50.425,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-17-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 773105856.365,
+            "gradeProbabilities": {
+              "low": 0.22726914201817525,
+              "medium": 0.44509015409994224,
+              "high": 0.3276407038818825
+            },
+            "extractionDifficulty": 68.68,
+            "processingDifficulty": 50.425,
+            "discoveryTier": 5,
+            "accessDepth": 55.439,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.79443665,
+          "waterFraction": 0.20556335000000003
+        },
+        "environment": {
+          "temperatureK": 276.791,
+          "radiationLevel": null,
+          "terrainObstacle": 0.122831,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-18-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 159240121.535,
+            "gradeProbabilities": {
+              "low": 0.5997847078110838,
+              "medium": 0.37840188999811886,
+              "high": 0.02181340219079732
+            },
+            "extractionDifficulty": 31.465,
+            "processingDifficulty": 59.374,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-18-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 94320612.68,
+            "gradeProbabilities": {
+              "low": 0.22992246163032068,
+              "medium": 0.44074217895950474,
+              "high": 0.32933535941017456
+            },
+            "extractionDifficulty": 77.958,
+            "processingDifficulty": 59.374,
+            "discoveryTier": 5,
+            "accessDepth": 79.67,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 275.241,
+          "radiationLevel": null,
+          "terrainObstacle": 0.125915,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-19-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 167620881.199,
+            "gradeProbabilities": {
+              "low": 0.5994524195588942,
+              "medium": 0.38260507478157746,
+              "high": 0.017942505659528367
+            },
+            "extractionDifficulty": 32.34,
+            "processingDifficulty": 32.796,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-19-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 143085132.179,
+            "gradeProbabilities": {
+              "low": 0.2263753718393953,
+              "medium": 0.4435526785885106,
+              "high": 0.3300719495720941
+            },
+            "extractionDifficulty": 79.079,
+            "processingDifficulty": 32.796,
+            "discoveryTier": 5,
+            "accessDepth": 73.758,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 280.481,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138557,
+          "habitability": 0.716379,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-20-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 165346608.057,
+            "gradeProbabilities": {
+              "low": 0.6009640467952753,
+              "medium": 0.38131585103983756,
+              "high": 0.017720102164887182
+            },
+            "extractionDifficulty": 27.529,
+            "processingDifficulty": 41.227,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-20-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 416305949.472,
+            "gradeProbabilities": {
+              "low": 0.23092960732012105,
+              "medium": 0.44009544727738303,
+              "high": 0.32897494540249594
+            },
+            "extractionDifficulty": 80.364,
+            "processingDifficulty": 41.227,
+            "discoveryTier": 5,
+            "accessDepth": 90.895,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.96230505,
+          "waterFraction": 0.037694950000000005
+        },
+        "environment": {
+          "temperatureK": 281.156,
+          "radiationLevel": null,
+          "terrainObstacle": 0.150896,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-21-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 68641050.084,
+            "gradeProbabilities": {
+              "low": 0.6037845142263735,
+              "medium": 0.37243976849469124,
+              "high": 0.023775717278935307
+            },
+            "extractionDifficulty": 18.97,
+            "processingDifficulty": 50.557,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-21-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 121291794.831,
+            "gradeProbabilities": {
+              "low": 0.2270673227305622,
+              "medium": 0.44356082970063493,
+              "high": 0.3293718475688029
+            },
+            "extractionDifficulty": 75.434,
+            "processingDifficulty": 50.557,
+            "discoveryTier": 5,
+            "accessDepth": 77.351,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.10894195,
+          "waterFraction": 0.89105805
+        },
+        "environment": {
+          "temperatureK": 281.048,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118281,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-22-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 350806317.415,
+            "gradeProbabilities": {
+              "low": 0.6025506080038662,
+              "medium": 0.378747208127405,
+              "high": 0.01870218386872887
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 57.587,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-22-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 208822403.097,
+            "gradeProbabilities": {
+              "low": 0.229173943930781,
+              "medium": 0.43810492443080357,
+              "high": 0.3327211316384155
+            },
+            "extractionDifficulty": 63.135,
+            "processingDifficulty": 57.587,
+            "discoveryTier": 4,
+            "accessDepth": 67.418,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.15170755,
+          "waterFraction": 0.84829245
+        },
+        "environment": {
+          "temperatureK": 263.695,
+          "radiationLevel": null,
+          "terrainObstacle": 0.187567,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-23-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 252696049.012,
+            "gradeProbabilities": {
+              "low": 0.5994894992060775,
+              "medium": 0.3834421335511165,
+              "high": 0.01706836724280595
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 21.063,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.90199136,
+          "waterFraction": 0.09800863999999998
+        },
+        "environment": {
+          "temperatureK": 264.337,
+          "radiationLevel": null,
+          "terrainObstacle": 0.158758,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-24-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 122052533.998,
+            "gradeProbabilities": {
+              "low": 0.6021900250747616,
+              "medium": 0.3771601884939032,
+              "high": 0.020649786431335204
+            },
+            "extractionDifficulty": 27.573,
+            "processingDifficulty": 26.884,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.59619076,
+          "waterFraction": 0.40380923999999996
+        },
+        "environment": {
+          "temperatureK": 272.455,
+          "radiationLevel": null,
+          "terrainObstacle": 0.137665,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-25-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 116827984.615,
+            "gradeProbabilities": {
+              "low": 0.600623249706235,
+              "medium": 0.3754162899066018,
+              "high": 0.023960460387163155
+            },
+            "extractionDifficulty": 16.442,
+            "processingDifficulty": 57.002,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-25-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 106501862.852,
+            "gradeProbabilities": {
+              "low": 0.23236565343803775,
+              "medium": 0.4341319505141239,
+              "high": 0.3335023960478384
+            },
+            "extractionDifficulty": 81.23,
+            "processingDifficulty": 57.002,
+            "discoveryTier": 4,
+            "accessDepth": 68.677,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.15467474,
+          "waterFraction": 0.84532526
+        },
+        "environment": {
+          "temperatureK": 273.038,
+          "radiationLevel": null,
+          "terrainObstacle": 0.131936,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-26-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 248712184.873,
+            "gradeProbabilities": {
+              "low": 0.5995239822421039,
+              "medium": 0.38167622917297056,
+              "high": 0.018799788584925526
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 28.012,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.36095986,
+          "waterFraction": 0.63904014
+        },
+        "environment": {
+          "temperatureK": 263.121,
+          "radiationLevel": null,
+          "terrainObstacle": 0.181474,
+          "habitability": 0.56687,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-27-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 64377070.904,
+            "gradeProbabilities": {
+              "low": 0.6009359510376866,
+              "medium": 0.3792290725723164,
+              "high": 0.019834976389997
+            },
+            "extractionDifficulty": 15.891,
+            "processingDifficulty": 35.498,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.20772145,
+          "waterFraction": 0.79227855
+        },
+        "environment": {
+          "temperatureK": 259.225,
+          "radiationLevel": null,
+          "terrainObstacle": 0.283857,
+          "habitability": 0.523621,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-28-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 58526610.249,
+            "gradeProbabilities": {
+              "low": 0.6029846757970566,
+              "medium": 0.37584907719085686,
+              "high": 0.021166247012086505
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.949,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.53139907,
+          "waterFraction": 0.46860093
+        },
+        "environment": {
+          "temperatureK": 258.035,
+          "radiationLevel": null,
+          "terrainObstacle": 0.298378,
+          "habitability": 0.523621,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-29-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 82620749.586,
+            "gradeProbabilities": {
+              "low": 0.5971452280640418,
+              "medium": 0.38546521048958177,
+              "high": 0.017389561446376437
+            },
+            "extractionDifficulty": 13.978,
+            "processingDifficulty": 40.585,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-29-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 386501644.764,
+            "gradeProbabilities": {
+              "low": 0.23119947584486616,
+              "medium": 0.4356623395846348,
+              "high": 0.3331381845704991
+            },
+            "extractionDifficulty": 78.11,
+            "processingDifficulty": 40.585,
+            "discoveryTier": 3,
+            "accessDepth": 79.1,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.69549726,
+          "waterFraction": 0.30450274
+        },
+        "environment": {
+          "temperatureK": 251.334,
+          "radiationLevel": null,
+          "terrainObstacle": 0.320485,
+          "habitability": 0.486563,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-30-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 186371019.336,
+            "gradeProbabilities": {
+              "low": 0.6024496432117934,
+              "medium": 0.38034580161201526,
+              "high": 0.017204555176191322
+            },
+            "extractionDifficulty": 18.046,
+            "processingDifficulty": 38.911,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 277.334,
+          "radiationLevel": null,
+          "terrainObstacle": 0.177269,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-31-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 41755066.59,
+            "gradeProbabilities": {
+              "low": 0.6013961319032872,
+              "medium": 0.37920325471798655,
+              "high": 0.01940061337872624
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 66.163,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-31-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 101388165.596,
+            "gradeProbabilities": {
+              "low": 0.2296940896525146,
+              "medium": 0.44371888920638064,
+              "high": 0.32658702114110477
+            },
+            "extractionDifficulty": 79.614,
+            "processingDifficulty": 66.163,
+            "discoveryTier": 4,
+            "accessDepth": 96.207,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 273.349,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219125,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-32-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 61621140.376,
+            "gradeProbabilities": {
+              "low": 0.5965243647344226,
+              "medium": 0.38158214837650534,
+              "high": 0.021893486889072056
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 16.168,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.5069993,
+          "waterFraction": 0.49300069999999996
+        },
+        "environment": {
+          "temperatureK": 279.625,
+          "radiationLevel": null,
+          "terrainObstacle": 0.240009,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-33-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 252610643.751,
+            "gradeProbabilities": {
+              "low": 0.6021391328614021,
+              "medium": 0.37623055704462105,
+              "high": 0.02163031009397685
+            },
+            "extractionDifficulty": 26.791,
+            "processingDifficulty": 51.071,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 274.743,
+          "radiationLevel": null,
+          "terrainObstacle": 0.271109,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-34-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 139182717.709,
+            "gradeProbabilities": {
+              "low": 0.5981584700237775,
+              "medium": 0.3784409544315445,
+              "high": 0.023400575544677966
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 49.31,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00491673,
+          "waterFraction": 0.99508327
+        },
+        "environment": {
+          "temperatureK": 280.808,
+          "radiationLevel": null,
+          "terrainObstacle": 0.125217,
+          "habitability": 0.716379,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-35-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 465621290.704,
+            "gradeProbabilities": {
+              "low": 0.5973898436989451,
+              "medium": 0.3837040324785071,
+              "high": 0.018906123822547787
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.939,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-35-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 174848547.49,
+            "gradeProbabilities": {
+              "low": 0.22876988428226722,
+              "medium": 0.4425019772627513,
+              "high": 0.3287281384549815
+            },
+            "extractionDifficulty": 83.139,
+            "processingDifficulty": 26.939,
+            "discoveryTier": 4,
+            "accessDepth": 73.25,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.23030031,
+          "waterFraction": 0.7696996899999999
+        },
+        "environment": {
+          "temperatureK": 283.417,
+          "radiationLevel": null,
+          "terrainObstacle": 0.155245,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-36-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 482423591.993,
+            "gradeProbabilities": {
+              "low": 0.5990624133352006,
+              "medium": 0.3814866149124014,
+              "high": 0.019450971752398006
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 45.534,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.0005274,
+          "waterFraction": 0.9994726
+        },
+        "environment": {
+          "temperatureK": 281.817,
+          "radiationLevel": null,
+          "terrainObstacle": 0.122691,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-37-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 103839927.866,
+            "gradeProbabilities": {
+              "low": 0.5964492030296291,
+              "medium": 0.3788577210638927,
+              "high": 0.02469307590647816
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 53.918,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.55815022,
+          "waterFraction": 0.44184977999999997
+        },
+        "environment": {
+          "temperatureK": 250.151,
+          "radiationLevel": null,
+          "terrainObstacle": 0.296943,
+          "habitability": 0.486563,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-38-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 34425627.107,
+            "gradeProbabilities": {
+              "low": 0.59796405250242,
+              "medium": 0.38427388710121385,
+              "high": 0.017762060396366113
+            },
+            "extractionDifficulty": 26.695,
+            "processingDifficulty": 64.564,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 264.621,
+          "radiationLevel": null,
+          "terrainObstacle": 0.259336,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-39-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 55873397.647,
+            "gradeProbabilities": {
+              "low": 0.5984086619581843,
+              "medium": 0.38303096437233264,
+              "high": 0.018560373669483057
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 17.299,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.08468636,
+          "waterFraction": 0.91531364
+        },
+        "environment": {
+          "temperatureK": 264.862,
+          "radiationLevel": null,
+          "terrainObstacle": 0.250613,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-40-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 45669101.057,
+            "gradeProbabilities": {
+              "low": 0.5969379661217148,
+              "medium": 0.38618379819917253,
+              "high": 0.016878235679112667
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 43.577,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.05448557,
+          "waterFraction": 0.94551443
+        },
+        "environment": {
+          "temperatureK": 273.821,
+          "radiationLevel": null,
+          "terrainObstacle": 0.189358,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-41-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 157407358.472,
+            "gradeProbabilities": {
+              "low": 0.6014195991832579,
+              "medium": 0.37997797241772285,
+              "high": 0.018602428399019235
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 58.268,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-41-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 98921545.246,
+            "gradeProbabilities": {
+              "low": 0.22679132694891704,
+              "medium": 0.4468313687515567,
+              "high": 0.32637730429952627
+            },
+            "extractionDifficulty": 74.895,
+            "processingDifficulty": 58.268,
+            "discoveryTier": 3,
+            "accessDepth": 66.263,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00042": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00079886,
+          "waterFraction": 0.99920114
+        },
+        "environment": {
+          "temperatureK": 273.352,
+          "radiationLevel": null,
+          "terrainObstacle": 0.184381,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-42-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 66643688.372,
+            "gradeProbabilities": {
+              "low": 0.6011287258121932,
+              "medium": 0.37977856448258035,
+              "high": 0.019092709705226415
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 27.974,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-42-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 84352278.963,
+            "gradeProbabilities": {
+              "low": 0.22824448313332213,
+              "medium": 0.4430347835791419,
+              "high": 0.328720733287536
+            },
+            "extractionDifficulty": 73.666,
+            "processingDifficulty": 27.974,
+            "discoveryTier": 4,
+            "accessDepth": 74.276,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00043": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00027143,
+          "waterFraction": 0.99972857
+        },
+        "environment": {
+          "temperatureK": 264.034,
+          "radiationLevel": null,
+          "terrainObstacle": 0.243805,
+          "habitability": 0.56687,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-43-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 26196545.377,
+            "gradeProbabilities": {
+              "low": 0.5992288501824999,
+              "medium": 0.37933152483741517,
+              "high": 0.02143962498008489
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 48.943,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00044": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.16547096,
+          "waterFraction": 0.83452904
+        },
+        "environment": {
+          "temperatureK": 278.801,
+          "radiationLevel": null,
+          "terrainObstacle": 0.183394,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-44-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 151956312.953,
+            "gradeProbabilities": {
+              "low": 0.5964809308614398,
+              "medium": 0.3847749177698301,
+              "high": 0.01874415136873006
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.915,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-44-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 78631426.764,
+            "gradeProbabilities": {
+              "low": 0.23205568172364546,
+              "medium": 0.4385777280365239,
+              "high": 0.32936659023983067
+            },
+            "extractionDifficulty": 65.327,
+            "processingDifficulty": 26.915,
+            "discoveryTier": 4,
+            "accessDepth": 61.374,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00045": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.26306916,
+          "waterFraction": 0.73693084
+        },
+        "environment": {
+          "temperatureK": 274.126,
+          "radiationLevel": null,
+          "terrainObstacle": 0.214965,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-45-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 186525604.718,
+            "gradeProbabilities": {
+              "low": 0.5987253107581103,
+              "medium": 0.3769790630392986,
+              "high": 0.024295626202591056
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 41.414,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00046": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.01308516,
+          "waterFraction": 0.98691484
+        },
+        "environment": {
+          "temperatureK": 278.047,
+          "radiationLevel": null,
+          "terrainObstacle": 0.296068,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-46-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 524067860.259,
+            "gradeProbabilities": {
+              "low": 0.6032984334476108,
+              "medium": 0.37969020823354593,
+              "high": 0.017011358318843237
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 27.215,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00047": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00108198,
+          "waterFraction": 0.99891802
+        },
+        "environment": {
+          "temperatureK": 273.819,
+          "radiationLevel": null,
+          "terrainObstacle": 0.287988,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-47-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 719173309.785,
+            "gradeProbabilities": {
+              "low": 0.5989056977838094,
+              "medium": 0.37835294349829424,
+              "high": 0.022741358717896336
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 24.024,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00048": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00441862,
+          "waterFraction": 0.99558138
+        },
+        "environment": {
+          "temperatureK": 281.681,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219365,
+          "habitability": 0.716379,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-48-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 92923265.013,
+            "gradeProbabilities": {
+              "low": 0.5974978139571662,
+              "medium": 0.3817811108414339,
+              "high": 0.020721075201399916
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 31.684,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00049": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.91375142,
+          "waterFraction": 0.08624858000000002
+        },
+        "environment": {
+          "temperatureK": 282.588,
+          "radiationLevel": null,
+          "terrainObstacle": 0.272239,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-49-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 394271764.744,
+            "gradeProbabilities": {
+              "low": 0.6021745295025224,
+              "medium": 0.3803549532030034,
+              "high": 0.017470517294474238
+            },
+            "extractionDifficulty": 17.563,
+            "processingDifficulty": 23.836,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00050": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 282.168,
+          "radiationLevel": null,
+          "terrainObstacle": 0.156337,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-50-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 135559702.778,
+            "gradeProbabilities": {
+              "low": 0.6028888797092998,
+              "medium": 0.37737267307529926,
+              "high": 0.01973844721540093
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 20.189,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-50-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 80013689.302,
+            "gradeProbabilities": {
+              "low": 0.23075177563122523,
+              "medium": 0.4365600255818229,
+              "high": 0.33268819878695194
+            },
+            "extractionDifficulty": 75.649,
+            "processingDifficulty": 20.189,
+            "discoveryTier": 5,
+            "accessDepth": 73.563,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00051": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00380356,
+          "waterFraction": 0.99619644
+        },
+        "environment": {
+          "temperatureK": 267.038,
+          "radiationLevel": null,
+          "terrainObstacle": 0.266546,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-51-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 88651145.663,
+            "gradeProbabilities": {
+              "low": 0.6007863966900672,
+              "medium": 0.38033038106526007,
+              "high": 0.01888322224467277
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 57.218,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-51-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 83745270.33,
+            "gradeProbabilities": {
+              "low": 0.22555993349432063,
+              "medium": 0.44438301655809687,
+              "high": 0.33005704994758256
+            },
+            "extractionDifficulty": 82.865,
+            "processingDifficulty": 57.218,
+            "discoveryTier": 3,
+            "accessDepth": 99.214,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00052": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.05629306,
+          "waterFraction": 0.94370694
+        },
+        "environment": {
+          "temperatureK": 265.213,
+          "radiationLevel": null,
+          "terrainObstacle": 0.322412,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-52-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 167104129.56,
+            "gradeProbabilities": {
+              "low": 0.5978169755864704,
+              "medium": 0.3790631973143923,
+              "high": 0.023119827099137298
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.926,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-52-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 262691541.501,
+            "gradeProbabilities": {
+              "low": 0.2305329578886838,
+              "medium": 0.44094839193645224,
+              "high": 0.328518650174864
+            },
+            "extractionDifficulty": 80.594,
+            "processingDifficulty": 26.926,
+            "discoveryTier": 5,
+            "accessDepth": 80.117,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00053": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.06744349,
+          "waterFraction": 0.93255651
+        },
+        "environment": {
+          "temperatureK": 274.956,
+          "radiationLevel": null,
+          "terrainObstacle": 0.301627,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-53-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 159858288.41,
+            "gradeProbabilities": {
+              "low": 0.59651292910276,
+              "medium": 0.37916058358329113,
+              "high": 0.024326487313948864
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 63.17,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00054": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 275.785,
+          "radiationLevel": null,
+          "terrainObstacle": 0.233803,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-54-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 133532323.44,
+            "gradeProbabilities": {
+              "low": 0.5964402850273812,
+              "medium": 0.3863223019927996,
+              "high": 0.01723741297981917
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 42.419,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00055": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 266.293,
+          "radiationLevel": null,
+          "terrainObstacle": 0.307148,
+          "habitability": 0.56687,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-55-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 88529943.959,
+            "gradeProbabilities": {
+              "low": 0.6020595272168333,
+              "medium": 0.3734305018816399,
+              "high": 0.024509970901526804
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 21.231,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-55-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 67332717.557,
+            "gradeProbabilities": {
+              "low": 0.22769774845196916,
+              "medium": 0.4417480227143626,
+              "high": 0.3305542288336683
+            },
+            "extractionDifficulty": 61.339,
+            "processingDifficulty": 21.231,
+            "discoveryTier": 5,
+            "accessDepth": 66.755,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00056": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.91116531,
+          "waterFraction": 0.08883469
+        },
+        "environment": {
+          "temperatureK": 285.363,
+          "radiationLevel": null,
+          "terrainObstacle": 0.128258,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-56-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 462141791.997,
+            "gradeProbabilities": {
+              "low": 0.6016839814226891,
+              "medium": 0.37442291662807337,
+              "high": 0.023893101949237577
+            },
+            "extractionDifficulty": 11.591,
+            "processingDifficulty": 42.432,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-56-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 169873302.815,
+            "gradeProbabilities": {
+              "low": 0.22651585993125153,
+              "medium": 0.44167596745836835,
+              "high": 0.3318081726103801
+            },
+            "extractionDifficulty": 84.286,
+            "processingDifficulty": 42.432,
+            "discoveryTier": 4,
+            "accessDepth": 88.654,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00057": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 285.629,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116461,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-57-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 38003789.039,
+            "gradeProbabilities": {
+              "low": 0.6008671417295749,
+              "medium": 0.3815803698819386,
+              "high": 0.017552488388486498
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 56.297,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00058": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.18180242,
+          "waterFraction": 0.81819758
+        },
+        "environment": {
+          "temperatureK": 283.928,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116495,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-58-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 132165335.91,
+            "gradeProbabilities": {
+              "low": 0.5976691227428431,
+              "medium": 0.38287170795875364,
+              "high": 0.019459169298403255
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 44.671,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00059": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.93091539,
+          "waterFraction": 0.06908460999999999
+        },
+        "environment": {
+          "temperatureK": 284.04,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140216,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-59-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 167474999.478,
+            "gradeProbabilities": {
+              "low": 0.5978279109749759,
+              "medium": 0.38518704288418165,
+              "high": 0.01698504614084243
+            },
+            "extractionDifficulty": 30.819,
+            "processingDifficulty": 27.672,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-59-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 120402581.078,
+            "gradeProbabilities": {
+              "low": 0.22710236389144373,
+              "medium": 0.44415482313531734,
+              "high": 0.3287428129732389
+            },
+            "extractionDifficulty": 83.358,
+            "processingDifficulty": 27.672,
+            "discoveryTier": 4,
+            "accessDepth": 67.881,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00060": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 284.567,
+          "radiationLevel": null,
+          "terrainObstacle": 0.119173,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-60-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 90072998.864,
+            "gradeProbabilities": {
+              "low": 0.6015507639277542,
+              "medium": 0.37543685877474725,
+              "high": 0.02301237729749858
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 41.213,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00061": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.02356561,
+          "waterFraction": 0.97643439
+        },
+        "environment": {
+          "temperatureK": 285.698,
+          "radiationLevel": null,
+          "terrainObstacle": 0.139993,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-61-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 114987154.244,
+            "gradeProbabilities": {
+              "low": 0.5975070909637774,
+              "medium": 0.38305134912359284,
+              "high": 0.01944155991262972
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 66.27,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-61-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 472437052.891,
+            "gradeProbabilities": {
+              "low": 0.2315429597492428,
+              "medium": 0.4353872023650567,
+              "high": 0.33306983788570055
+            },
+            "extractionDifficulty": 79.899,
+            "processingDifficulty": 66.27,
+            "discoveryTier": 4,
+            "accessDepth": 53.308,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00062": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.66761333,
+          "waterFraction": 0.33238667
+        },
+        "environment": {
+          "temperatureK": 283.089,
+          "radiationLevel": null,
+          "terrainObstacle": 0.164909,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-62-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 150522829.246,
+            "gradeProbabilities": {
+              "low": 0.6020736229851658,
+              "medium": 0.38064127202669856,
+              "high": 0.017285104988135687
+            },
+            "extractionDifficulty": 26.041,
+            "processingDifficulty": 28.079,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-62-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 130173673.673,
+            "gradeProbabilities": {
+              "low": 0.23153481573565912,
+              "medium": 0.4392287797217379,
+              "high": 0.32923640454260295
+            },
+            "extractionDifficulty": 77.526,
+            "processingDifficulty": 28.079,
+            "discoveryTier": 4,
+            "accessDepth": 78.266,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00063": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 282.945,
+          "radiationLevel": null,
+          "terrainObstacle": 0.151443,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-63-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27263998.534,
+            "gradeProbabilities": {
+              "low": 0.6035363087303752,
+              "medium": 0.37598952578718536,
+              "high": 0.020474165482439393
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 68.858,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-63-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 113102464.679,
+            "gradeProbabilities": {
+              "low": 0.2315173402852477,
+              "medium": 0.4401359450386027,
+              "high": 0.32834671467614956
+            },
+            "extractionDifficulty": 78.769,
+            "processingDifficulty": 68.858,
+            "discoveryTier": 3,
+            "accessDepth": 55.407,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00064": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 280.906,
+          "radiationLevel": null,
+          "terrainObstacle": 0.179305,
+          "habitability": 0.67313,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-64-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 78047115.177,
+            "gradeProbabilities": {
+              "low": 0.6002141170467997,
+              "medium": 0.3765678503863769,
+              "high": 0.02321803256682336
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.216,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-64-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 285054929.416,
+            "gradeProbabilities": {
+              "low": 0.22800357764727486,
+              "medium": 0.4396368633338372,
+              "high": 0.3323595590188879
+            },
+            "extractionDifficulty": 60.274,
+            "processingDifficulty": 36.216,
+            "discoveryTier": 3,
+            "accessDepth": 54.009,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00065": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.08596232,
+          "waterFraction": 0.91403768
+        },
+        "environment": {
+          "temperatureK": 283.015,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116649,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-65-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 587026073.547,
+            "gradeProbabilities": {
+              "low": 0.5998173146065141,
+              "medium": 0.38206870487483907,
+              "high": 0.01811398051864683
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 50.574,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00066": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 284.883,
+          "radiationLevel": null,
+          "terrainObstacle": 0.113719,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-66-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 127276519.062,
+            "gradeProbabilities": {
+              "low": 0.6003100023124183,
+              "medium": 0.3800925969291734,
+              "high": 0.019597400758408302
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 57.962,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00067": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.04217202,
+          "waterFraction": 0.95782798
+        },
+        "environment": {
+          "temperatureK": 280.499,
+          "radiationLevel": null,
+          "terrainObstacle": 0.114381,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-67-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1100223058.826,
+            "gradeProbabilities": {
+              "low": 0.6018838219888324,
+              "medium": 0.3801844076846051,
+              "high": 0.01793177032656252
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 19.846,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-67-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 642385374.035,
+            "gradeProbabilities": {
+              "low": 0.23097652118980003,
+              "medium": 0.4427272308335761,
+              "high": 0.3262962479766238
+            },
+            "extractionDifficulty": 64.174,
+            "processingDifficulty": 19.846,
+            "discoveryTier": 4,
+            "accessDepth": 70.919,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00068": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.36307278,
+          "waterFraction": 0.63692722
+        },
+        "environment": {
+          "temperatureK": 281.206,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118595,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-68-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 79942044.291,
+            "gradeProbabilities": {
+              "low": 0.6022268005259152,
+              "medium": 0.3790570593323814,
+              "high": 0.01871614014170348
+            },
+            "extractionDifficulty": 29.723,
+            "processingDifficulty": 43.628,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00069": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.64568213,
+          "waterFraction": 0.35431787000000003
+        },
+        "environment": {
+          "temperatureK": 277.741,
+          "radiationLevel": null,
+          "terrainObstacle": 0.120887,
+          "habitability": 0.67313,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-69-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 367465973.055,
+            "gradeProbabilities": {
+              "low": 0.6022855673640782,
+              "medium": 0.3803427555669355,
+              "high": 0.01737167706898629
+            },
+            "extractionDifficulty": 20.961,
+            "processingDifficulty": 55.208,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00070": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00653124,
+          "waterFraction": 0.99346876
+        },
+        "environment": {
+          "temperatureK": 289.288,
+          "radiationLevel": null,
+          "terrainObstacle": 0.191752,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-70-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 400720348.984,
+            "gradeProbabilities": {
+              "low": 0.5994154586348499,
+              "medium": 0.37840843601676394,
+              "high": 0.02217610534838616
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 32.765,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00071": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.2840123,
+          "waterFraction": 0.7159877
+        },
+        "environment": {
+          "temperatureK": 291.9,
+          "radiationLevel": null,
+          "terrainObstacle": 0.190451,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-71-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 82170847.194,
+            "gradeProbabilities": {
+              "low": 0.6034147814888323,
+              "medium": 0.37969715884106925,
+              "high": 0.016888059670098418
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.38,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00072": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.23775756,
+          "waterFraction": 0.76224244
+        },
+        "environment": {
+          "temperatureK": 290.942,
+          "radiationLevel": null,
+          "terrainObstacle": 0.152205,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-72-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 49323959.836,
+            "gradeProbabilities": {
+              "low": 0.5960520735088551,
+              "medium": 0.3798222901314753,
+              "high": 0.02412563635966956
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 22.648,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-vein-72-0",
+            "groupId": "g1-sol-earth-d71207a1-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 23092955106.373,
+            "gradeProbabilities": {
+              "low": 0.45230327273040427,
+              "medium": 0.49652029469441156,
+              "high": 0.05117643257518416
+            },
+            "extractionDifficulty": 52.288,
+            "processingDifficulty": 22.648,
+            "discoveryTier": 2,
+            "accessDepth": 18.094,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 육지/대륙붕(육해혼합 근사) 우선"
+          }
+        ]
+      },
+      "sol:earth:surface:00073": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.16206804,
+          "waterFraction": 0.83793196
+        },
+        "environment": {
+          "temperatureK": 285.331,
+          "radiationLevel": null,
+          "terrainObstacle": 0.236805,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-73-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 534744411.47,
+            "gradeProbabilities": {
+              "low": 0.598737548288312,
+              "medium": 0.38218548911961486,
+              "high": 0.019076962592073077
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 49.668,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00074": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.44593175,
+          "waterFraction": 0.55406825
+        },
+        "environment": {
+          "temperatureK": 288.621,
+          "radiationLevel": null,
+          "terrainObstacle": 0.201031,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-74-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 221043142.451,
+            "gradeProbabilities": {
+              "low": 0.6039610022403116,
+              "medium": 0.3729589697323995,
+              "high": 0.023080028027288906
+            },
+            "extractionDifficulty": 24.804,
+            "processingDifficulty": 49.336,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-74-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 166604738.87,
+            "gradeProbabilities": {
+              "low": 0.23064268258354675,
+              "medium": 0.4361671917305449,
+              "high": 0.3331901256859083
+            },
+            "extractionDifficulty": 74.093,
+            "processingDifficulty": 49.336,
+            "discoveryTier": 3,
+            "accessDepth": 54.448,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00075": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 291.303,
+          "radiationLevel": null,
+          "terrainObstacle": 0.250234,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-75-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 285521760.48,
+            "gradeProbabilities": {
+              "low": 0.5971368805769647,
+              "medium": 0.37924702133389887,
+              "high": 0.023616098089136475
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 65.84,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00076": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00052055,
+          "waterFraction": 0.99947945
+        },
+        "environment": {
+          "temperatureK": 285.383,
+          "radiationLevel": null,
+          "terrainObstacle": 0.262992,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-76-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1339264371.352,
+            "gradeProbabilities": {
+              "low": 0.5985409039895797,
+              "medium": 0.3803563500061887,
+              "high": 0.021102746004231565
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.27,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00077": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.25031126,
+          "waterFraction": 0.7496887400000001
+        },
+        "environment": {
+          "temperatureK": 287.703,
+          "radiationLevel": null,
+          "terrainObstacle": 0.275051,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-77-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 127856747.013,
+            "gradeProbabilities": {
+              "low": 0.599165617676806,
+              "medium": 0.3837633627742784,
+              "high": 0.017071019548915618
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 41.072,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-77-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 777962753.981,
+            "gradeProbabilities": {
+              "low": 0.2324428830142231,
+              "medium": 0.43590818180303376,
+              "high": 0.33164893518274313
+            },
+            "extractionDifficulty": 67.306,
+            "processingDifficulty": 41.072,
+            "discoveryTier": 4,
+            "accessDepth": 93.783,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00078": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 284.17,
+          "radiationLevel": null,
+          "terrainObstacle": 0.279379,
+          "habitability": 0.67313,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-78-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 240964941.861,
+            "gradeProbabilities": {
+              "low": 0.5961493047386224,
+              "medium": 0.38565573436359635,
+              "high": 0.018194960897781248
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 15.758,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00079": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.53505707,
+          "waterFraction": 0.46494293
+        },
+        "environment": {
+          "temperatureK": 284.552,
+          "radiationLevel": null,
+          "terrainObstacle": 0.152916,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-79-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 146297625.602,
+            "gradeProbabilities": {
+              "low": 0.5978198313828373,
+              "medium": 0.378006131130855,
+              "high": 0.024174037486307615
+            },
+            "extractionDifficulty": 21.49,
+            "processingDifficulty": 36.743,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00080": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.04985033,
+          "waterFraction": 0.9501496700000001
+        },
+        "environment": {
+          "temperatureK": 289.256,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140801,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-80-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 84717186.028,
+            "gradeProbabilities": {
+              "low": 0.600751037573796,
+              "medium": 0.3791880818546074,
+              "high": 0.020060880571596617
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 56.433,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00081": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.63235235,
+          "waterFraction": 0.36764765
+        },
+        "environment": {
+          "temperatureK": 285.036,
+          "radiationLevel": null,
+          "terrainObstacle": 0.125115,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-81-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 92881414.589,
+            "gradeProbabilities": {
+              "low": 0.6013487862873639,
+              "medium": 0.37550574222172367,
+              "high": 0.02314547149091243
+            },
+            "extractionDifficulty": 27.102,
+            "processingDifficulty": 56.229,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-vein-81-0",
+            "groupId": "g1-sol-earth-d71207a1-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 27997044893.627,
+            "gradeProbabilities": {
+              "low": 0.4481001790023537,
+              "medium": 0.502870184289473,
+              "high": 0.04902963670817321
+            },
+            "extractionDifficulty": 43.722,
+            "processingDifficulty": 56.229,
+            "discoveryTier": 1,
+            "accessDepth": 7.235,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 육지/대륙붕(육해혼합 근사) 우선"
+          }
+        ]
+      },
+      "sol:earth:surface:00082": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.65363601,
+          "waterFraction": 0.34636398999999995
+        },
+        "environment": {
+          "temperatureK": 287.905,
+          "radiationLevel": null,
+          "terrainObstacle": 0.131807,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-82-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 59359468.142,
+            "gradeProbabilities": {
+              "low": 0.6008498803250307,
+              "medium": 0.37708495787123913,
+              "high": 0.022065161803730124
+            },
+            "extractionDifficulty": 11.97,
+            "processingDifficulty": 53.26,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00083": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.99491915,
+          "waterFraction": 0.005080850000000026
+        },
+        "environment": {
+          "temperatureK": 284.777,
+          "radiationLevel": null,
+          "terrainObstacle": 0.123524,
+          "habitability": 0.67313,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-83-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 61031237.566,
+            "gradeProbabilities": {
+              "low": 0.6000114318266327,
+              "medium": 0.3786755089439707,
+              "high": 0.021313059229396573
+            },
+            "extractionDifficulty": 16.956,
+            "processingDifficulty": 50.865,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00084": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.1626026,
+          "waterFraction": 0.8373974
+        },
+        "environment": {
+          "temperatureK": 283.496,
+          "radiationLevel": null,
+          "terrainObstacle": 0.146833,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-84-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 230897009.238,
+            "gradeProbabilities": {
+              "low": 0.5965455546736533,
+              "medium": 0.3795731409207242,
+              "high": 0.023881304405622476
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 63.904,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00085": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.60915139,
+          "waterFraction": 0.39084861000000004
+        },
+        "environment": {
+          "temperatureK": 284.152,
+          "radiationLevel": null,
+          "terrainObstacle": 0.201111,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-85-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 183769232.58,
+            "gradeProbabilities": {
+              "low": 0.6007393914595063,
+              "medium": 0.37513899624685515,
+              "high": 0.02412161229363858
+            },
+            "extractionDifficulty": 18.19,
+            "processingDifficulty": 34.19,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00086": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.97547241,
+          "waterFraction": 0.024527590000000044
+        },
+        "environment": {
+          "temperatureK": 284.64,
+          "radiationLevel": null,
+          "terrainObstacle": 0.210454,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-86-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 113478631.668,
+            "gradeProbabilities": {
+              "low": 0.597556544609722,
+              "medium": 0.381148150222029,
+              "high": 0.021295305168249005
+            },
+            "extractionDifficulty": 29.766,
+            "processingDifficulty": 59.034,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00087": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.06305465,
+          "waterFraction": 0.93694535
+        },
+        "environment": {
+          "temperatureK": 283.489,
+          "radiationLevel": null,
+          "terrainObstacle": 0.127312,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-87-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 135888488.79,
+            "gradeProbabilities": {
+              "low": 0.6016670718103463,
+              "medium": 0.37940679476561723,
+              "high": 0.018926133424036495
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 52.149,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-87-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 246254324.502,
+            "gradeProbabilities": {
+              "low": 0.2277963126464845,
+              "medium": 0.4404877802820067,
+              "high": 0.33171590707150883
+            },
+            "extractionDifficulty": 70.384,
+            "processingDifficulty": 52.149,
+            "discoveryTier": 3,
+            "accessDepth": 88.961,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00088": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00055525,
+          "waterFraction": 0.99944475
+        },
+        "environment": {
+          "temperatureK": 285.365,
+          "radiationLevel": null,
+          "terrainObstacle": 0.11142,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-88-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 573568637.173,
+            "gradeProbabilities": {
+              "low": 0.5985327548201943,
+              "medium": 0.38125279488938624,
+              "high": 0.020214450290419454
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 43.867,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          },
+          {
+            "depositId": "r1-sol-earth-d71207a1-deep-88-0",
+            "groupId": "g1-sol-earth-d71207a1-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 532223455.997,
+            "gradeProbabilities": {
+              "low": 0.23263091168320787,
+              "medium": 0.438673627072678,
+              "high": 0.3286954612441141
+            },
+            "extractionDifficulty": 75.578,
+            "processingDifficulty": 43.867,
+            "discoveryTier": 4,
+            "accessDepth": 83.312,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시"
+          }
+        ]
+      },
+      "sol:earth:surface:00089": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00165384,
+          "waterFraction": 0.99834616
+        },
+        "environment": {
+          "temperatureK": 286.433,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118168,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-89-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 323159563.061,
+            "gradeProbabilities": {
+              "low": 0.6007309289503658,
+              "medium": 0.3781784230709332,
+              "high": 0.02109064797870099
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 65.608,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00090": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.11942545,
+          "waterFraction": 0.88057455
+        },
+        "environment": {
+          "temperatureK": 288.147,
+          "radiationLevel": null,
+          "terrainObstacle": 0.13795,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-90-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 269282808.217,
+            "gradeProbabilities": {
+              "low": 0.5975737794901992,
+              "medium": 0.3843295502249407,
+              "high": 0.018096670284860127
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 55.67,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      },
+      "sol:earth:surface:00091": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00068209,
+          "waterFraction": 0.99931791
+        },
+        "environment": {
+          "temperatureK": 285.351,
+          "radiationLevel": null,
+          "terrainObstacle": 0.111462,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-earth-d71207a1-surface-91-0",
+            "groupId": "g1-sol-earth-d71207a1-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 307315967.852,
+            "gradeProbabilities": {
+              "low": 0.5971893298610861,
+              "medium": 0.38117359616758995,
+              "high": 0.021637073971323962
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 24.058,
+            "discoveryTier": 3,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시 · 해양 표면형: 해저 단괴"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:earth:surface:00000": {
+        "populationPersons": 53830383,
+        "urbanizationRate": 0.350643,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00001": {
+        "populationPersons": 90142390,
+        "urbanizationRate": 0.438384,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00002": {
+        "populationPersons": 11190732,
+        "urbanizationRate": 0.169993,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00003": {
+        "populationPersons": 616185,
+        "urbanizationRate": 0.041429,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00004": {
+        "populationPersons": 305766009,
+        "urbanizationRate": 0.704495,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00005": {
+        "populationPersons": 11669815,
+        "urbanizationRate": 0.173409,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00006": {
+        "populationPersons": 184773824,
+        "urbanizationRate": 0.586308,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00007": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00008": {
+        "populationPersons": 55,
+        "urbanizationRate": 0.000396,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00009": {
+        "populationPersons": 1766,
+        "urbanizationRate": 0.002243,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00010": {
+        "populationPersons": 1179621,
+        "urbanizationRate": 0.057068,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00011": {
+        "populationPersons": 56642191,
+        "urbanizationRate": 0.358613,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00012": {
+        "populationPersons": 85851674,
+        "urbanizationRate": 0.429408,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00013": {
+        "populationPersons": 872,
+        "urbanizationRate": 0.001575,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00014": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00015": {
+        "populationPersons": 7112675,
+        "urbanizationRate": 0.136906,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00016": {
+        "populationPersons": 51,
+        "urbanizationRate": 0.000381,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00017": {
+        "populationPersons": 108921527,
+        "urbanizationRate": 0.474553,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00018": {
+        "populationPersons": 348270877,
+        "urbanizationRate": 0.736007,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00019": {
+        "populationPersons": 214391861,
+        "urbanizationRate": 0.620269,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00020": {
+        "populationPersons": 1201330181,
+        "urbanizationRate": 0.97,
+        "infrastructureLevel": 4,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00021": {
+        "populationPersons": 948719866,
+        "urbanizationRate": 0.953333,
+        "infrastructureLevel": 4,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00022": {
+        "populationPersons": 8514324,
+        "urbanizationRate": 0.14923,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00023": {
+        "populationPersons": 5833563,
+        "urbanizationRate": 0.124451,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00024": {
+        "populationPersons": 224887608,
+        "urbanizationRate": 0.631379,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00025": {
+        "populationPersons": 288048997,
+        "urbanizationRate": 0.690111,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00026": {
+        "populationPersons": 15435513,
+        "urbanizationRate": 0.1979,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00027": {
+        "populationPersons": 38107184,
+        "urbanizationRate": 0.300442,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00028": {
+        "populationPersons": 26285944,
+        "urbanizationRate": 0.253587,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00029": {
+        "populationPersons": 85064218,
+        "urbanizationRate": 0.427729,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00030": {
+        "populationPersons": 200245109,
+        "urbanizationRate": 0.604557,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00031": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00032": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00033": {
+        "populationPersons": 50970311,
+        "urbanizationRate": 0.342263,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00034": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00035": {
+        "populationPersons": 9770,
+        "urbanizationRate": 0.005269,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00036": {
+        "populationPersons": 11621995,
+        "urbanizationRate": 0.173072,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00037": {
+        "populationPersons": 227,
+        "urbanizationRate": 0.000803,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00038": {
+        "populationPersons": 132486081,
+        "urbanizationRate": 0.514187,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00039": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00040": {
+        "populationPersons": 1936318,
+        "urbanizationRate": 0.07279,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00041": {
+        "populationPersons": 1043648,
+        "urbanizationRate": 0.053729,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00042": {
+        "populationPersons": 578,
+        "urbanizationRate": 0.001284,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00043": {
+        "populationPersons": 34,
+        "urbanizationRate": 0.000311,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00044": {
+        "populationPersons": 18809156,
+        "urbanizationRate": 0.217114,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00045": {
+        "populationPersons": 50987146,
+        "urbanizationRate": 0.342313,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00046": {
+        "populationPersons": 72917,
+        "urbanizationRate": 0.014358,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00047": {
+        "populationPersons": 307,
+        "urbanizationRate": 0.000936,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00048": {
+        "populationPersons": 10114,
+        "urbanizationRate": 0.00536,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00049": {
+        "populationPersons": 433206567,
+        "urbanizationRate": 0.788732,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00050": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00051": {
+        "populationPersons": 7824,
+        "urbanizationRate": 0.004715,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00052": {
+        "populationPersons": 1334208,
+        "urbanizationRate": 0.060632,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00053": {
+        "populationPersons": 2174409,
+        "urbanizationRate": 0.077041,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00054": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00055": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00056": {
+        "populationPersons": 772778016,
+        "urbanizationRate": 0.917255,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00057": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00058": {
+        "populationPersons": 31067044,
+        "urbanizationRate": 0.273799,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00059": {
+        "populationPersons": 606050808,
+        "urbanizationRate": 0.866659,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00060": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00061": {
+        "populationPersons": 792878,
+        "urbanizationRate": 0.046922,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00062": {
+        "populationPersons": 440502540,
+        "urbanizationRate": 0.792732,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00063": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00064": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00065": {
+        "populationPersons": 4087654,
+        "urbanizationRate": 0.104784,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00066": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00067": {
+        "populationPersons": 764382,
+        "urbanizationRate": 0.046082,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00068": {
+        "populationPersons": 102596433,
+        "urbanizationRate": 0.462889,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00069": {
+        "populationPersons": 156709968,
+        "urbanizationRate": 0.549875,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00070": {
+        "populationPersons": 12344,
+        "urbanizationRate": 0.005922,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00071": {
+        "populationPersons": 24286886,
+        "urbanizationRate": 0.244498,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00072": {
+        "populationPersons": 13520107,
+        "urbanizationRate": 0.18592,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00073": {
+        "populationPersons": 10738518,
+        "urbanizationRate": 0.166694,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00074": {
+        "populationPersons": 42780376,
+        "urbanizationRate": 0.316515,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00075": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00076": {
+        "populationPersons": 69,
+        "urbanizationRate": 0.000444,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00077": {
+        "populationPersons": 11245588,
+        "urbanizationRate": 0.170388,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00078": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00079": {
+        "populationPersons": 145881084,
+        "urbanizationRate": 0.53447,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00080": {
+        "populationPersons": 717677,
+        "urbanizationRate": 0.04467,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00081": {
+        "populationPersons": 110178199,
+        "urbanizationRate": 0.476813,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00082": {
+        "populationPersons": 122016993,
+        "urbanizationRate": 0.497261,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00083": {
+        "populationPersons": 176784223,
+        "urbanizationRate": 0.576402,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00084": {
+        "populationPersons": 18945508,
+        "urbanizationRate": 0.217846,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00085": {
+        "populationPersons": 312461032,
+        "urbanizationRate": 0.709728,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00086": {
+        "populationPersons": 555973520,
+        "urbanizationRate": 0.847288,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00087": {
+        "populationPersons": 2066815,
+        "urbanizationRate": 0.075152,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00088": {
+        "populationPersons": 87,
+        "urbanizationRate": 0.000498,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00089": {
+        "populationPersons": 551,
+        "urbanizationRate": 0.001253,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00090": {
+        "populationPersons": 2533868,
+        "urbanizationRate": 0.083023,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00091": {
+        "populationPersons": 207,
+        "urbanizationRate": 0.000768,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 78600000000,
+    "typeShares": {
+      "surface": 0.25,
+      "vein": 0.65,
+      "deep": 0.1
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.6,
+        "medium": 0.38,
+        "high": 0.02
+      },
+      "vein": {
+        "low": 0.45,
+        "medium": 0.5,
+        "high": 0.05
+      },
+      "deep": {
+        "low": 0.23,
+        "medium": 0.44,
+        "high": 0.33
+      }
+    },
+    "jitter": 0.04,
+    "certainty": "confirmed",
+    "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시",
+    "worldSeed": "sol:earth:resources:v1",
+    "placementPolicy": {
+      "veinPreferredLandThreshold": 0.2,
+      "oceanSurfaceWaterThreshold": 0.7,
+      "oceanExtractionFloor": 80,
+      "oceanDiscoveryTierMin": 3
+    },
+    "generatorVersion": 1,
+    "budgetPolicy": "fixed"
+  },
+  "hydrogenSources": [
+    {
+      "sourceId": "h1-sol-earth-d71207a1-0",
+      "tileId": "sol:earth:surface:00014",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 11202571.946,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 89.799,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    },
+    {
+      "sourceId": "h1-sol-earth-d71207a1-1",
+      "tileId": "sol:earth:surface:00077",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 27819485.653,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 51.198,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    }
+  ],
+  "initialResourceKnowledge": [
+    {
+      "civilizationId": "human",
+      "tiers": [
+        {
+          "tier": 0,
+          "surveyProgress": 1
+        }
+      ],
+      "deposits": [
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-0-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-1-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-4-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-6-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-11-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-12-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-17-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-18-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-19-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-20-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-21-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-24-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-25-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-27-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-29-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-30-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-33-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-38-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-49-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-56-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-59-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-62-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-68-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-69-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-vein-72-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-74-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-79-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-81-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-vein-81-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-82-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-83-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-85-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-earth-d71207a1-surface-86-0",
+          "detectedFraction": 0.9,
+          "confirmedFraction": 0.7,
+          "gradeConfidence": 0.6,
+          "estimatedGradeProbabilities": null
+        }
+      ]
+    }
+  ],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+  }
+}

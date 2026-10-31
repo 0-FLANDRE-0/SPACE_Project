@@ -1,0 +1,2261 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "moon",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "ed718a1e"
+  },
+  "geology": {
+    "cells": {
+      "sol:moon:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.191503,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-0-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2406498053.545,
+            "gradeProbabilities": {
+              "low": 0.7986323577649189,
+              "medium": 0.17507025436931709,
+              "high": 0.026297387865763983
+            },
+            "extractionDifficulty": 20.087,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.137544,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-1-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3876683524.072,
+            "gradeProbabilities": {
+              "low": 0.8010643249600423,
+              "medium": 0.1670000646679239,
+              "high": 0.031935610372033796
+            },
+            "extractionDifficulty": 25.085,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.128259,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-2-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2082649993.397,
+            "gradeProbabilities": {
+              "low": 0.7971241108457786,
+              "medium": 0.17621002739356328,
+              "high": 0.026665861760658105
+            },
+            "extractionDifficulty": 19.604,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.113643,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-3-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 894975597.438,
+            "gradeProbabilities": {
+              "low": 0.8013660873341603,
+              "medium": 0.16557405779757964,
+              "high": 0.03305985486826011
+            },
+            "extractionDifficulty": 21.476,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116466,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-4-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2137620261.919,
+            "gradeProbabilities": {
+              "low": 0.7982802642415506,
+              "medium": 0.1690848051986234,
+              "high": 0.03263493055982598
+            },
+            "extractionDifficulty": 10.338,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.123028,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-5-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1477481496.191,
+            "gradeProbabilities": {
+              "low": 0.7990420477128817,
+              "medium": 0.17175175132104617,
+              "high": 0.029206200966072165
+            },
+            "extractionDifficulty": 19.254,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.223235,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-6-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1526226264.744,
+            "gradeProbabilities": {
+              "low": 0.8032500747441543,
+              "medium": 0.16792249494665723,
+              "high": 0.028827430309188447
+            },
+            "extractionDifficulty": 29.635,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.24532,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-7-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 427964708.859,
+            "gradeProbabilities": {
+              "low": 0.8013809610548658,
+              "medium": 0.17047663639174268,
+              "high": 0.028142402553391534
+            },
+            "extractionDifficulty": 21.709,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.258199,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-8-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1019582579.535,
+            "gradeProbabilities": {
+              "low": 0.8025278207901163,
+              "medium": 0.16823758612820366,
+              "high": 0.02923459308168002
+            },
+            "extractionDifficulty": 20.497,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.273321,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-9-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2136781183.549,
+            "gradeProbabilities": {
+              "low": 0.8001242546866877,
+              "medium": 0.17092716415659948,
+              "high": 0.028948581156712852
+            },
+            "extractionDifficulty": 32.023,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.256787,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-10-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 677600899.782,
+            "gradeProbabilities": {
+              "low": 0.7991492614968909,
+              "medium": 0.1734909230905161,
+              "high": 0.02735981541259297
+            },
+            "extractionDifficulty": 15.003,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.237925,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-11-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2359145536.418,
+            "gradeProbabilities": {
+              "low": 0.7999531262944681,
+              "medium": 0.1670623197226362,
+              "high": 0.032984553982895695
+            },
+            "extractionDifficulty": 32.988,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.167893,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-12-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2181414557.163,
+            "gradeProbabilities": {
+              "low": 0.8004151927679075,
+              "medium": 0.17088894520760933,
+              "high": 0.028695862024483165
+            },
+            "extractionDifficulty": 11.729,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.295019,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-13-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7637443306.448,
+            "gradeProbabilities": {
+              "low": 0.8029226150083585,
+              "medium": 0.16999863100485363,
+              "high": 0.027078753986787878
+            },
+            "extractionDifficulty": 27.803,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.18908,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-14-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1759522852.127,
+            "gradeProbabilities": {
+              "low": 0.7992775363995922,
+              "medium": 0.16841885416084396,
+              "high": 0.032303609439563834
+            },
+            "extractionDifficulty": 13.818,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138301,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-15-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 574488635.673,
+            "gradeProbabilities": {
+              "low": 0.7997966924290402,
+              "medium": 0.16956730875992637,
+              "high": 0.030635998811033446
+            },
+            "extractionDifficulty": 34.373,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.1712,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-16-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1152150387.053,
+            "gradeProbabilities": {
+              "low": 0.7983694462272567,
+              "medium": 0.16963933222056793,
+              "high": 0.03199122155217536
+            },
+            "extractionDifficulty": 21.664,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.28345,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-17-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 380558409.244,
+            "gradeProbabilities": {
+              "low": 0.7970392420309824,
+              "medium": 0.16987417242736982,
+              "high": 0.033086585541647756
+            },
+            "extractionDifficulty": 15.02,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.389037,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-18-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2312549706.988,
+            "gradeProbabilities": {
+              "low": 0.8028922748453212,
+              "medium": 0.16380476315939296,
+              "high": 0.03330296199528583
+            },
+            "extractionDifficulty": 12.224,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.395729,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-19-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1524759681.225,
+            "gradeProbabilities": {
+              "low": 0.8026052209454817,
+              "medium": 0.16686883006864656,
+              "high": 0.030525948985871753
+            },
+            "extractionDifficulty": 22.182,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.390561,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-20-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 642804029.625,
+            "gradeProbabilities": {
+              "low": 0.7998850874173684,
+              "medium": 0.16734894667440514,
+              "high": 0.03276596590822645
+            },
+            "extractionDifficulty": 28.595,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.381469,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-21-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 317726293.917,
+            "gradeProbabilities": {
+              "low": 0.7996135220731837,
+              "medium": 0.16819679294401274,
+              "high": 0.03218968498280354
+            },
+            "extractionDifficulty": 24.656,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.126342,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-22-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2230892714.483,
+            "gradeProbabilities": {
+              "low": 0.8014421098194314,
+              "medium": 0.1662715051906691,
+              "high": 0.032286384989899476
+            },
+            "extractionDifficulty": 16.59,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.290936,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-23-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 525722570.843,
+            "gradeProbabilities": {
+              "low": 0.8011636787596388,
+              "medium": 0.16731647141711276,
+              "high": 0.031519849823248465
+            },
+            "extractionDifficulty": 32.975,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116661,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-24-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1624810667.308,
+            "gradeProbabilities": {
+              "low": 0.803081753613357,
+              "medium": 0.16876945698881018,
+              "high": 0.02814878939783283
+            },
+            "extractionDifficulty": 15.5,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.157026,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-25-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2232660732.864,
+            "gradeProbabilities": {
+              "low": 0.7981596624366236,
+              "medium": 0.16991888536201286,
+              "high": 0.031921452201363526
+            },
+            "extractionDifficulty": 23.873,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.256347,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-26-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2123028306.475,
+            "gradeProbabilities": {
+              "low": 0.7959311218261016,
+              "medium": 0.17618543766499922,
+              "high": 0.02788344050889917
+            },
+            "extractionDifficulty": 32.785,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.108732,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-27-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6912361936.587,
+            "gradeProbabilities": {
+              "low": 0.8005457178763342,
+              "medium": 0.17161513919444252,
+              "high": 0.02783914292922326
+            },
+            "extractionDifficulty": 12.391,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.139561,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-28-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 8437910346.867,
+            "gradeProbabilities": {
+              "low": 0.797615252677281,
+              "medium": 0.17592277265028525,
+              "high": 0.026461974672433813
+            },
+            "extractionDifficulty": 17.822,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.248479,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-29-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3617160246.039,
+            "gradeProbabilities": {
+              "low": 0.8008103018216086,
+              "medium": 0.16543247128338978,
+              "high": 0.03375722689500161
+            },
+            "extractionDifficulty": 13.194,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.379582,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-30-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2116507542.596,
+            "gradeProbabilities": {
+              "low": 0.8020197944062991,
+              "medium": 0.17153664473318914,
+              "high": 0.02644356086051174
+            },
+            "extractionDifficulty": 24.053,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.240901,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-31-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5429329128.275,
+            "gradeProbabilities": {
+              "low": 0.8014246461837782,
+              "medium": 0.1702293428058312,
+              "high": 0.0283460110103906
+            },
+            "extractionDifficulty": 28.464,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.367788,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-32-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 13752532464.615,
+            "gradeProbabilities": {
+              "low": 0.798128611994837,
+              "medium": 0.16889722531908619,
+              "high": 0.03297416268607684
+            },
+            "extractionDifficulty": 23.146,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.303288,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-33-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 361646925.535,
+            "gradeProbabilities": {
+              "low": 0.7961839120256944,
+              "medium": 0.17088544249409296,
+              "high": 0.03293064548021265
+            },
+            "extractionDifficulty": 33.317,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.12098,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-34-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 859258401.299,
+            "gradeProbabilities": {
+              "low": 0.7984451255480988,
+              "medium": 0.1742559483150528,
+              "high": 0.02729892613684841
+            },
+            "extractionDifficulty": 28.818,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.19286,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-35-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 863150534.784,
+            "gradeProbabilities": {
+              "low": 0.7965438334009839,
+              "medium": 0.17534897750304504,
+              "high": 0.02810718909597107
+            },
+            "extractionDifficulty": 28.794,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.368388,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-36-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2970379693,
+            "gradeProbabilities": {
+              "low": 0.801665928142075,
+              "medium": 0.1644083564026789,
+              "high": 0.03392571545524605
+            },
+            "extractionDifficulty": 31.968,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.357064,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-37-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2003666616.35,
+            "gradeProbabilities": {
+              "low": 0.8014524878076507,
+              "medium": 0.1683046620475636,
+              "high": 0.030242850144785723
+            },
+            "extractionDifficulty": 31.461,
+            "processingDifficulty": 80,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.366638,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-38-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 991785277.262,
+            "gradeProbabilities": {
+              "low": 0.802627561682765,
+              "medium": 0.1649674896790223,
+              "high": 0.03240494863821276
+            },
+            "extractionDifficulty": 22.816,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.12303,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-39-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1841142102.162,
+            "gradeProbabilities": {
+              "low": 0.7992397258020235,
+              "medium": 0.17333051359528165,
+              "high": 0.02742976060269483
+            },
+            "extractionDifficulty": 30.615,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.144818,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-40-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 769238024.485,
+            "gradeProbabilities": {
+              "low": 0.7989345713070822,
+              "medium": 0.16753021783628927,
+              "high": 0.0335352108566285
+            },
+            "extractionDifficulty": 28.714,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      },
+      "sol:moon:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.108936,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-moon-23714862-surface-41-0",
+            "groupId": "g1-sol-moon-23714862-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 830187809.259,
+            "gradeProbabilities": {
+              "low": 0.8006372995897425,
+              "medium": 0.1665228046985851,
+              "high": 0.03283989571167239
+            },
+            "extractionDifficulty": 27.474,
+            "processingDifficulty": 80,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": "잠정 2100 식민지: 총인구/단일 위치 조정 가능",
+    "cells": {
+      "sol:moon:surface:00000": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00001": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00002": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00003": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00004": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00005": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00006": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00007": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00008": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00009": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00010": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00011": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00012": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00013": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00014": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00015": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00016": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00017": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00018": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00019": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00020": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00021": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00022": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00023": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00024": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00025": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00026": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00027": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00028": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00029": {
+        "populationPersons": 200000,
+        "urbanizationRate": 0.2,
+        "infrastructureLevel": 1,
+        "civilizationId": "human",
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00030": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00031": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00032": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00033": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00034": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00035": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00036": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00037": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00038": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00039": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00040": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:moon:surface:00041": {
+        "populationPersons": 0,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 100000000000,
+    "typeShares": {
+      "surface": 1,
+      "vein": 0,
+      "deep": 0
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.8,
+        "medium": 0.17,
+        "high": 0.03
+      },
+      "vein": {
+        "low": 0.6,
+        "medium": 0.35,
+        "high": 0.05
+      },
+      "deep": {
+        "low": 0.3,
+        "medium": 0.4,
+        "high": 0.3
+      }
+    },
+    "jitter": 0.04,
+    "certainty": "mixed",
+    "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정",
+    "worldSeed": "sol:moon:resources:v1",
+    "processingFloor": 80,
+    "generatorVersion": 1,
+    "budgetPolicy": "fixed"
+  },
+  "hydrogenSources": [],
+  "initialResourceKnowledge": [
+    {
+      "civilizationId": "human",
+      "tiers": [
+        {
+          "tier": 0,
+          "surveyProgress": 1
+        }
+      ],
+      "deposits": [
+        {
+          "depositId": "r1-sol-moon-23714862-surface-0-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-1-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-2-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-3-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-4-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-5-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-6-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-7-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-8-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-9-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-10-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-11-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-12-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-13-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-14-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-15-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-16-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-17-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-18-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-19-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-20-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-21-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-22-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-23-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-24-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-25-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-26-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-27-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-28-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-29-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-30-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-31-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-32-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-33-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-34-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-35-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-36-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-37-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-38-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-39-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-40-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        },
+        {
+          "depositId": "r1-sol-moon-23714862-surface-41-0",
+          "detectedFraction": 0.3,
+          "confirmedFraction": 0.15,
+          "gradeConfidence": 0.15,
+          "estimatedGradeProbabilities": null
+        }
+      ]
+    }
+  ],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+  }
+}

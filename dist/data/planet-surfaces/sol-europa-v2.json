@@ -1,0 +1,2337 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "europa",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "5286b61f"
+  },
+  "geology": {
+    "cells": {
+      "sol:europa:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 84.519,
+          "radiationLevel": null,
+          "terrainObstacle": 0.239802,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-0-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 42713143.838,
+            "gradeProbabilities": {
+              "low": 0.3071957862249533,
+              "medium": 0.6746901180822816,
+              "high": 0.01811409569276513
+            },
+            "extractionDifficulty": 31.992,
+            "processingDifficulty": 43.029,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-0-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 15671401.966,
+            "gradeProbabilities": {
+              "low": 0.046451277067725,
+              "medium": 0.7023375408387951,
+              "high": 0.2512111820934799
+            },
+            "extractionDifficulty": 77.645,
+            "processingDifficulty": 43.029,
+            "discoveryTier": 4,
+            "accessDepth": 53.048,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.559,
+          "radiationLevel": null,
+          "terrainObstacle": 0.205929,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-1-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 230218463.682,
+            "gradeProbabilities": {
+              "low": 0.303758174814559,
+              "medium": 0.6784045958411362,
+              "high": 0.017837229344304813
+            },
+            "extractionDifficulty": 15.038,
+            "processingDifficulty": 23.541,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.395,
+          "radiationLevel": null,
+          "terrainObstacle": 0.147598,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-2-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 67594421.081,
+            "gradeProbabilities": {
+              "low": 0.304348587813131,
+              "medium": 0.6783743949015106,
+              "high": 0.017277017285358322
+            },
+            "extractionDifficulty": 13.181,
+            "processingDifficulty": 29.645,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.464,
+          "radiationLevel": null,
+          "terrainObstacle": 0.132785,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-3-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 137916906.665,
+            "gradeProbabilities": {
+              "low": 0.3065554918109397,
+              "medium": 0.6749053119332011,
+              "high": 0.01853919625585915
+            },
+            "extractionDifficulty": 31.68,
+            "processingDifficulty": 61.947,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.031,
+          "radiationLevel": null,
+          "terrainObstacle": 0.197239,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-4-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 297957207.234,
+            "gradeProbabilities": {
+              "low": 0.30624799171117645,
+              "medium": 0.6747285566464479,
+              "high": 0.0190234516423756
+            },
+            "extractionDifficulty": 23.513,
+            "processingDifficulty": 41.884,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-4-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 336518947.214,
+            "gradeProbabilities": {
+              "low": 0.04692518551259154,
+              "medium": 0.700368011768835,
+              "high": 0.2527068027185735
+            },
+            "extractionDifficulty": 70.734,
+            "processingDifficulty": 41.884,
+            "discoveryTier": 4,
+            "accessDepth": 75.317,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.774,
+          "radiationLevel": null,
+          "terrainObstacle": 0.149935,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-5-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 125534710.107,
+            "gradeProbabilities": {
+              "low": 0.30772090358873405,
+              "medium": 0.6766439658668305,
+              "high": 0.015635130544435397
+            },
+            "extractionDifficulty": 27.241,
+            "processingDifficulty": 39.212,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 94.999,
+          "radiationLevel": null,
+          "terrainObstacle": 0.326801,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-6-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 62498182.186,
+            "gradeProbabilities": {
+              "low": 0.3034252467940519,
+              "medium": 0.6758779514771368,
+              "high": 0.02069680172881128
+            },
+            "extractionDifficulty": 23.525,
+            "processingDifficulty": 28.83,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.832,
+          "radiationLevel": null,
+          "terrainObstacle": 0.227798,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-7-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 31405401.446,
+            "gradeProbabilities": {
+              "low": 0.3057738277635495,
+              "medium": 0.6772939669866527,
+              "high": 0.016932205249797716
+            },
+            "extractionDifficulty": 14.592,
+            "processingDifficulty": 66.081,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.187,
+          "radiationLevel": null,
+          "terrainObstacle": 0.256791,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-8-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 135153835.32,
+            "gradeProbabilities": {
+              "low": 0.30151855144490997,
+              "medium": 0.6791901013911185,
+              "high": 0.019291347163971677
+            },
+            "extractionDifficulty": 15.556,
+            "processingDifficulty": 36.242,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-vein-8-1",
+            "groupId": "g1-sol-europa-7c56020e-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 748918033.254,
+            "gradeProbabilities": {
+              "low": 0.2722490236710239,
+              "medium": 0.5517990295326505,
+              "high": 0.1759519467963257
+            },
+            "extractionDifficulty": 52.601,
+            "processingDifficulty": 36.242,
+            "discoveryTier": 1,
+            "accessDepth": 6.303,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-8-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 119448755.299,
+            "gradeProbabilities": {
+              "low": 0.04789952882363313,
+              "medium": 0.7010830863508604,
+              "high": 0.2510173848255065
+            },
+            "extractionDifficulty": 79.174,
+            "processingDifficulty": 36.242,
+            "discoveryTier": 4,
+            "accessDepth": 52.172,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.905,
+          "radiationLevel": null,
+          "terrainObstacle": 0.272989,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-9-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 201808357.615,
+            "gradeProbabilities": {
+              "low": 0.3073115203010807,
+              "medium": 0.6754042865656729,
+              "high": 0.017284193133246317
+            },
+            "extractionDifficulty": 11.028,
+            "processingDifficulty": 33.536,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.017,
+          "radiationLevel": null,
+          "terrainObstacle": 0.323332,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-10-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 34866624.907,
+            "gradeProbabilities": {
+              "low": 0.30183938581710257,
+              "medium": 0.6784882843293663,
+              "high": 0.019672329853531137
+            },
+            "extractionDifficulty": 13.113,
+            "processingDifficulty": 21.662,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 74.657,
+          "radiationLevel": null,
+          "terrainObstacle": 0.131249,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-11-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 41253189.836,
+            "gradeProbabilities": {
+              "low": 0.3055696119575719,
+              "medium": 0.6803048536874767,
+              "high": 0.014125534354951395
+            },
+            "extractionDifficulty": 11.217,
+            "processingDifficulty": 23.753,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.887,
+          "radiationLevel": null,
+          "terrainObstacle": 0.20102,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-12-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 102338008.795,
+            "gradeProbabilities": {
+              "low": 0.3071130226089577,
+              "medium": 0.6761103006568219,
+              "high": 0.016776676734220397
+            },
+            "extractionDifficulty": 26.311,
+            "processingDifficulty": 53.687,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-vein-12-0",
+            "groupId": "g1-sol-europa-7c56020e-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 784953763.362,
+            "gradeProbabilities": {
+              "low": 0.2917336399785656,
+              "medium": 0.545372799334878,
+              "high": 0.16289356068655636
+            },
+            "extractionDifficulty": 43.592,
+            "processingDifficulty": 53.687,
+            "discoveryTier": 2,
+            "accessDepth": 12.744,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 84.65,
+          "radiationLevel": null,
+          "terrainObstacle": 0.108836,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-13-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 291431632.976,
+            "gradeProbabilities": {
+              "low": 0.30227354916398924,
+              "medium": 0.6808082012072619,
+              "high": 0.016918249628748907
+            },
+            "extractionDifficulty": 21.318,
+            "processingDifficulty": 69.483,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.912,
+          "radiationLevel": null,
+          "terrainObstacle": 0.121338,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-14-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 348868070.099,
+            "gradeProbabilities": {
+              "low": 0.3018792347705881,
+              "medium": 0.6799422506209876,
+              "high": 0.018178514608424318
+            },
+            "extractionDifficulty": 25.396,
+            "processingDifficulty": 31.31,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-14-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 180823341.447,
+            "gradeProbabilities": {
+              "low": 0.04388804110123628,
+              "medium": 0.7016531705389939,
+              "high": 0.25445878835976987
+            },
+            "extractionDifficulty": 64.465,
+            "processingDifficulty": 31.31,
+            "discoveryTier": 3,
+            "accessDepth": 62.955,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.562,
+          "radiationLevel": null,
+          "terrainObstacle": 0.271724,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-15-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 140880698.321,
+            "gradeProbabilities": {
+              "low": 0.30536900215064683,
+              "medium": 0.673579204539251,
+              "high": 0.021051793310102238
+            },
+            "extractionDifficulty": 24.825,
+            "processingDifficulty": 33.899,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-15-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 59562925.964,
+            "gradeProbabilities": {
+              "low": 0.04705283961429113,
+              "medium": 0.7051525383143894,
+              "high": 0.2477946220713195
+            },
+            "extractionDifficulty": 64.518,
+            "processingDifficulty": 33.899,
+            "discoveryTier": 3,
+            "accessDepth": 69.681,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 86.559,
+          "radiationLevel": null,
+          "terrainObstacle": 0.131403,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-16-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 117240480.967,
+            "gradeProbabilities": {
+              "low": 0.30233164320168593,
+              "medium": 0.6814670650329854,
+              "high": 0.016201291765328658
+            },
+            "extractionDifficulty": 30.457,
+            "processingDifficulty": 28.504,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.431,
+          "radiationLevel": null,
+          "terrainObstacle": 0.155907,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-17-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 41104710.194,
+            "gradeProbabilities": {
+              "low": 0.3067716891228179,
+              "medium": 0.6786320272278454,
+              "high": 0.01459628364933671
+            },
+            "extractionDifficulty": 22.396,
+            "processingDifficulty": 39.801,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-vein-17-0",
+            "groupId": "g1-sol-europa-7c56020e-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 506510448.035,
+            "gradeProbabilities": {
+              "low": 0.2960651851452369,
+              "medium": 0.5450598258597943,
+              "high": 0.1588749889949688
+            },
+            "extractionDifficulty": 38.669,
+            "processingDifficulty": 39.801,
+            "discoveryTier": 2,
+            "accessDepth": 24.376,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-17-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 25450686.566,
+            "gradeProbabilities": {
+              "low": 0.04619282360358947,
+              "medium": 0.6988141723423473,
+              "high": 0.2549930040540632
+            },
+            "extractionDifficulty": 83.16,
+            "processingDifficulty": 39.801,
+            "discoveryTier": 5,
+            "accessDepth": 82.293,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 86.865,
+          "radiationLevel": null,
+          "terrainObstacle": 0.148033,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-18-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 56023247.111,
+            "gradeProbabilities": {
+              "low": 0.30488577916500664,
+              "medium": 0.6794128815554497,
+              "high": 0.01570133927954377
+            },
+            "extractionDifficulty": 12.259,
+            "processingDifficulty": 58.518,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.351,
+          "radiationLevel": null,
+          "terrainObstacle": 0.244721,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-19-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 295215476.461,
+            "gradeProbabilities": {
+              "low": 0.3015522530491421,
+              "medium": 0.6798983745504584,
+              "high": 0.01854937240039946
+            },
+            "extractionDifficulty": 17.899,
+            "processingDifficulty": 68.249,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.33,
+          "radiationLevel": null,
+          "terrainObstacle": 0.193105,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-20-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 76888941.107,
+            "gradeProbabilities": {
+              "low": 0.30696387938251296,
+              "medium": 0.6785111292623397,
+              "high": 0.014524991355147374
+            },
+            "extractionDifficulty": 25.018,
+            "processingDifficulty": 28.456,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 87.326,
+          "radiationLevel": null,
+          "terrainObstacle": 0.148997,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-21-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 18762220.186,
+            "gradeProbabilities": {
+              "low": 0.3013750599048058,
+              "medium": 0.6816711360462424,
+              "high": 0.016953804048951877
+            },
+            "extractionDifficulty": 19.346,
+            "processingDifficulty": 54.824,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.66,
+          "radiationLevel": null,
+          "terrainObstacle": 0.177717,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-22-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27133710.211,
+            "gradeProbabilities": {
+              "low": 0.30135998659794727,
+              "medium": 0.6802693633161898,
+              "high": 0.01837065008586289
+            },
+            "extractionDifficulty": 23.895,
+            "processingDifficulty": 22.233,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-22-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 15741222.478,
+            "gradeProbabilities": {
+              "low": 0.04552394092066997,
+              "medium": 0.7023509762454054,
+              "high": 0.25212508283392454
+            },
+            "extractionDifficulty": 75.333,
+            "processingDifficulty": 22.233,
+            "discoveryTier": 3,
+            "accessDepth": 52.491,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.164,
+          "radiationLevel": null,
+          "terrainObstacle": 0.142046,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-23-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27212381.207,
+            "gradeProbabilities": {
+              "low": 0.3070113147611688,
+              "medium": 0.675595883099776,
+              "high": 0.017392802139055145
+            },
+            "extractionDifficulty": 31.504,
+            "processingDifficulty": 62.916,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-23-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 99751959.301,
+            "gradeProbabilities": {
+              "low": 0.04153870367615336,
+              "medium": 0.7108114604222797,
+              "high": 0.24764983590156703
+            },
+            "extractionDifficulty": 78.046,
+            "processingDifficulty": 62.916,
+            "discoveryTier": 4,
+            "accessDepth": 73.26,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.949,
+          "radiationLevel": null,
+          "terrainObstacle": 0.319119,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-24-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 191512758.585,
+            "gradeProbabilities": {
+              "low": 0.305693012096263,
+              "medium": 0.6728244754955586,
+              "high": 0.021482512408178462
+            },
+            "extractionDifficulty": 11.636,
+            "processingDifficulty": 15.365,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 94.09,
+          "radiationLevel": null,
+          "terrainObstacle": 0.167255,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-25-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27275327.911,
+            "gradeProbabilities": {
+              "low": 0.30498950102766553,
+              "medium": 0.6768919674795534,
+              "high": 0.018118531492781056
+            },
+            "extractionDifficulty": 19.154,
+            "processingDifficulty": 55.82,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.295,
+          "radiationLevel": null,
+          "terrainObstacle": 0.170761,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-26-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 144433090.249,
+            "gradeProbabilities": {
+              "low": 0.30096186235760847,
+              "medium": 0.683163389880624,
+              "high": 0.01587474776176752
+            },
+            "extractionDifficulty": 13.183,
+            "processingDifficulty": 39.194,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.656,
+          "radiationLevel": null,
+          "terrainObstacle": 0.29363,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-27-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 718030470.263,
+            "gradeProbabilities": {
+              "low": 0.3014085291831712,
+              "medium": 0.6781104754977342,
+              "high": 0.02048099531909467
+            },
+            "extractionDifficulty": 28.299,
+            "processingDifficulty": 51.906,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-27-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 98063323.991,
+            "gradeProbabilities": {
+              "low": 0.04060137347674781,
+              "medium": 0.7106841111368707,
+              "high": 0.24871451538638142
+            },
+            "extractionDifficulty": 71.378,
+            "processingDifficulty": 51.906,
+            "discoveryTier": 5,
+            "accessDepth": 74.326,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.038,
+          "radiationLevel": null,
+          "terrainObstacle": 0.255217,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-28-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 187031721.756,
+            "gradeProbabilities": {
+              "low": 0.3072320921479682,
+              "medium": 0.6726291150249954,
+              "high": 0.020138792827036393
+            },
+            "extractionDifficulty": 26.571,
+            "processingDifficulty": 45,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 105.581,
+          "radiationLevel": null,
+          "terrainObstacle": 0.152893,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-29-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27287379.542,
+            "gradeProbabilities": {
+              "low": 0.30392760128182866,
+              "medium": 0.676317026131269,
+              "high": 0.019755372586902395
+            },
+            "extractionDifficulty": 29.217,
+            "processingDifficulty": 43.039,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-vein-29-1",
+            "groupId": "g1-sol-europa-7c56020e-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1636734380.75,
+            "gradeProbabilities": {
+              "low": 0.2675684773630876,
+              "medium": 0.5549821068009528,
+              "high": 0.17744941583595958
+            },
+            "extractionDifficulty": 44.058,
+            "processingDifficulty": 43.039,
+            "discoveryTier": 1,
+            "accessDepth": 14.878,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-29-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 32024250,
+            "gradeProbabilities": {
+              "low": 0.04183819069324845,
+              "medium": 0.7042435453272633,
+              "high": 0.2539182639794883
+            },
+            "extractionDifficulty": 65.71,
+            "processingDifficulty": 43.039,
+            "discoveryTier": 3,
+            "accessDepth": 66.463,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.702,
+          "radiationLevel": null,
+          "terrainObstacle": 0.23666,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-30-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 73796857.01,
+            "gradeProbabilities": {
+              "low": 0.30475304370401,
+              "medium": 0.6747285802927282,
+              "high": 0.02051837600326182
+            },
+            "extractionDifficulty": 19.71,
+            "processingDifficulty": 25.537,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.892,
+          "radiationLevel": null,
+          "terrainObstacle": 0.110291,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-31-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 856788873.679,
+            "gradeProbabilities": {
+              "low": 0.307657136379085,
+              "medium": 0.673601694388729,
+              "high": 0.018741169232186092
+            },
+            "extractionDifficulty": 11.289,
+            "processingDifficulty": 46.552,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.712,
+          "radiationLevel": null,
+          "terrainObstacle": 0.124785,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-32-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 140342686.097,
+            "gradeProbabilities": {
+              "low": 0.3040425459689418,
+              "medium": 0.6791764368065115,
+              "high": 0.016781017224546686
+            },
+            "extractionDifficulty": 22.536,
+            "processingDifficulty": 41.873,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 105.236,
+          "radiationLevel": null,
+          "terrainObstacle": 0.226895,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-33-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 38606746.558,
+            "gradeProbabilities": {
+              "low": 0.3033012778389225,
+              "medium": 0.6759545603137876,
+              "high": 0.020744161847289815
+            },
+            "extractionDifficulty": 27.806,
+            "processingDifficulty": 48.992,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-vein-33-1",
+            "groupId": "g1-sol-europa-7c56020e-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 300529755.061,
+            "gradeProbabilities": {
+              "low": 0.2744709490097541,
+              "medium": 0.5474047456884923,
+              "high": 0.17812430530175355
+            },
+            "extractionDifficulty": 46.984,
+            "processingDifficulty": 48.992,
+            "discoveryTier": 2,
+            "accessDepth": 30.349,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-33-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 86909016.286,
+            "gradeProbabilities": {
+              "low": 0.04225651957078689,
+              "medium": 0.7068672443385444,
+              "high": 0.2508762360906687
+            },
+            "extractionDifficulty": 69.722,
+            "processingDifficulty": 48.992,
+            "discoveryTier": 5,
+            "accessDepth": 92.248,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.861,
+          "radiationLevel": null,
+          "terrainObstacle": 0.120658,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-34-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 66946333.228,
+            "gradeProbabilities": {
+              "low": 0.30517792047773995,
+              "medium": 0.6797888962053176,
+              "high": 0.015033183316942467
+            },
+            "extractionDifficulty": 23.618,
+            "processingDifficulty": 42.743,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.978,
+          "radiationLevel": null,
+          "terrainObstacle": 0.169533,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-35-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27774285.206,
+            "gradeProbabilities": {
+              "low": 0.30564655385193923,
+              "medium": 0.6790263067208643,
+              "high": 0.015327139427196396
+            },
+            "extractionDifficulty": 33.602,
+            "processingDifficulty": 32.907,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-35-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 23231618.623,
+            "gradeProbabilities": {
+              "low": 0.04246507157928163,
+              "medium": 0.7054370693191163,
+              "high": 0.2520978591016021
+            },
+            "extractionDifficulty": 71.016,
+            "processingDifficulty": 32.907,
+            "discoveryTier": 4,
+            "accessDepth": 97.948,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.86,
+          "radiationLevel": null,
+          "terrainObstacle": 0.273186,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-36-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 616837282.908,
+            "gradeProbabilities": {
+              "low": 0.30671902872463264,
+              "medium": 0.6722311370414163,
+              "high": 0.021049834233950987
+            },
+            "extractionDifficulty": 33.634,
+            "processingDifficulty": 18.836,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-36-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 103309696.612,
+            "gradeProbabilities": {
+              "low": 0.04411964804104382,
+              "medium": 0.7068386452607087,
+              "high": 0.24904170669824746
+            },
+            "extractionDifficulty": 69.261,
+            "processingDifficulty": 18.836,
+            "discoveryTier": 3,
+            "accessDepth": 69.038,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 102.354,
+          "radiationLevel": null,
+          "terrainObstacle": 0.288334,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-37-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 356369521.029,
+            "gradeProbabilities": {
+              "low": 0.3082995367779354,
+              "medium": 0.6737537184436287,
+              "high": 0.01794674477843584
+            },
+            "extractionDifficulty": 25.796,
+            "processingDifficulty": 39.303,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.775,
+          "radiationLevel": null,
+          "terrainObstacle": 0.208766,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-38-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 354628038.696,
+            "gradeProbabilities": {
+              "low": 0.3080655544179449,
+              "medium": 0.6702084403526452,
+              "high": 0.021726005229409946
+            },
+            "extractionDifficulty": 33.199,
+            "processingDifficulty": 62.214,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-38-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 252402666.788,
+            "gradeProbabilities": {
+              "low": 0.04140494654497915,
+              "medium": 0.7082977525386236,
+              "high": 0.25029730091639724
+            },
+            "extractionDifficulty": 82.991,
+            "processingDifficulty": 62.214,
+            "discoveryTier": 4,
+            "accessDepth": 54.796,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.909,
+          "radiationLevel": null,
+          "terrainObstacle": 0.202371,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-39-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 135867088.644,
+            "gradeProbabilities": {
+              "low": 0.30539199465354483,
+              "medium": 0.676459611526173,
+              "high": 0.018148393820282233
+            },
+            "extractionDifficulty": 13.23,
+            "processingDifficulty": 58.172,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.359,
+          "radiationLevel": null,
+          "terrainObstacle": 0.117916,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-40-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 265804548.155,
+            "gradeProbabilities": {
+              "low": 0.3041624361502896,
+              "medium": 0.6740438334182318,
+              "high": 0.021793730431478635
+            },
+            "extractionDifficulty": 18.649,
+            "processingDifficulty": 28.715,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:europa:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.148,
+          "radiationLevel": null,
+          "terrainObstacle": 0.321487,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r1-sol-europa-7c56020e-surface-41-0",
+            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 199185791.411,
+            "gradeProbabilities": {
+              "low": 0.30781379865882497,
+              "medium": 0.6771018524006422,
+              "high": 0.015084348940532817
+            },
+            "extractionDifficulty": 14.953,
+            "processingDifficulty": 45.94,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r1-sol-europa-7c56020e-deep-41-0",
+            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 245009396.819,
+            "gradeProbabilities": {
+              "low": 0.04512166891603583,
+              "medium": 0.703553263403403,
+              "high": 0.25132506768056123
+            },
+            "extractionDifficulty": 61.453,
+            "processingDifficulty": 45.94,
+            "discoveryTier": 3,
+            "accessDepth": 97.187,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:europa:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:europa:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 13052104412.295,
+    "typeShares": {
+      "surface": 0.5654673445246559,
+      "vein": 0.3047513454393737,
+      "deep": 0.12978131003597038
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.3051148879225366,
+        "medium": 0.6760433712718077,
+        "high": 0.01884174080565572
+      },
+      "vein": {
+        "low": 0.27736878525465725,
+        "medium": 0.5506504780380055,
+        "high": 0.1719807367073372
+      },
+      "deep": {
+        "low": 0.04431108136894181,
+        "medium": 0.7044625396770425,
+        "high": 0.25122637895401567
+      }
+    },
+    "jitter": 0.04,
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:europa:resources:v1",
+    "generatorVersion": 1,
+    "budgetPolicy": "procedural"
+  },
+  "hydrogenSources": [
+    {
+      "sourceId": "h1-sol-europa-7c56020e-0",
+      "tileId": "sol:europa:surface:00011",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 22152317.052,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 49.016,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    },
+    {
+      "sourceId": "h1-sol-europa-7c56020e-1",
+      "tileId": "sol:europa:surface:00003",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 11741687.073,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 59.263,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    }
+  ],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+  }
+}
