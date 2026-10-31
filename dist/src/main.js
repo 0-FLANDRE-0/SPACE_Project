@@ -1,3 +1,4 @@
+import {resetDevelopmentStorage} from './development-session.js';
 import { IndustryUI } from './industry-ui.js';
 import { PlanetarySurfaceUI } from './planetary-surface-ui.js';
 import { DeveloperMode } from './developer-mode.js';
@@ -10,6 +11,7 @@ import { createSolContext } from './system-context.js';
 import { ContextPanel } from './context-panel.js';
 import { loadSurfaceMaps } from './textures.js';
 const $=s=>document.querySelector(s);
+const developmentReset=resetDevelopmentStorage(()=>window.localStorage);
 let context=createSolContext(),selection=null,viewer=null,administration=null,surfaceUI=null,developer=null,fullscreen=null,industry=null,toastTimer;
 const foregroundClock=new ForegroundClock(performance.now(),!document.hidden);
 const simulation=new Simulation(context.bodyById);
@@ -29,7 +31,7 @@ async function setSystem(value){
   if(typeof value==='string'){
     const {SYSTEM_FACTORIES}=await import('./fixtures/systems.js');if(!SYSTEM_FACTORIES[value])throw new Error('Unknown fixture');next=SYSTEM_FACTORIES[value]();
   }
-  advanceClock(performance.now());industry?.store?.persist();context=next;selection=null;simulation.setSystem(context);panel.setSelection(null,context);viewer.setSystemContext(context);administration?.setSystem();foregroundClock.setVisible(!document.hidden,performance.now());closeSettings();$('#developer-drawer').hidden=true;$('#developer-tools').setAttribute('aria-expanded','false');$('#hover-sector').hidden=true;await industry?.load(context,{restore:false});renderContextHeader();if(typeof value==='string')$('#system-picker').value=value;
+  advanceClock(performance.now());context=next;selection=null;simulation.setSystem(context);panel.setSelection(null,context);viewer.setSystemContext(context);administration?.setSystem();foregroundClock.setVisible(!document.hidden,performance.now());closeSettings();$('#developer-drawer').hidden=true;$('#developer-tools').setAttribute('aria-expanded','false');$('#hover-sector').hidden=true;await industry?.load(context);renderContextHeader();if(typeof value==='string')$('#system-picker').value=value;
 }
 function home(inner=false){surfaceUI?.exit(false);viewer.select(null);viewer.home(inner);closeSettings();}
 function advanceClock(now){const seconds=foregroundClock.sample(now);simulation.advance(seconds);industry?.advance(simulation.days);if(foregroundClock.suspended)toast('긴 대기에서 복귀했습니다. 대기 시간은 정산하지 않습니다.');return seconds;}
@@ -70,7 +72,7 @@ try {
   developer.setEnabled(params.has('dev'));
   if(params.has('dev')){await ensureDeveloperSystems();if(params.has('system')){await setSystem(params.get('system'));$('#system-picker').value=params.get('system');}}
   $('#loading').hidden=true;
-  window.spacePrototype={simulation,industry,viewer,panel,administration,surfaceUI,developer,fullscreen,foregroundClock,get context(){return context;},get selection(){return selection;},setSystem,select:id=>viewer.select(id),focus:(id,mode)=>viewer.focus(id,mode),home};
+  window.spacePrototype={developmentReset,simulation,industry,viewer,panel,administration,surfaceUI,developer,fullscreen,foregroundClock,get context(){return context;},get selection(){return selection;},setSystem,select:id=>viewer.select(id),focus:(id,mode)=>viewer.focus(id,mode),home};
   let uiElapsed=0;
   function frame(now){
     if(viewer.disposed)return;const elapsed=advanceClock(now),seconds=Math.min(elapsed,.1);

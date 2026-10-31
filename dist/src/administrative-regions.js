@@ -36,7 +36,7 @@ export function administrativeEdges(grid,assignments){
   return edges;
 }
 export class AdministrativeRegions {
-  constructor(grid,{storage=null,onChange=()=>{},onError=()=>{}}={}){this.storage=storage;this.onChange=onChange;this.onError=onError;this.histories=new Map();this.quarantined=new Set();this.systems=Object.create(null);this.load();this.setGrid(grid);}
+  constructor(grid,{storage=null,onChange=()=>{},onError=()=>{},transient=false}={}){this.transient=transient;this.storage=transient?null:storage;this.onChange=onChange;this.onError=onError;this.histories=new Map();this.quarantined=new Set();this.systems=Object.create(null);if(!transient)this.load();this.setGrid(grid);}
   load(){
     try{const raw=this.storage?.getItem(ADMIN_STORAGE_KEY);if(!raw)return;const d=JSON.parse(raw);requireValue(d.schemaVersion===ADMIN_SCHEMA_VERSION&&d.systems&&typeof d.systems==='object'&&!Array.isArray(d.systems),'지원하지 않는 저장 버전 또는 형식입니다.');this.systems=Object.assign(Object.create(null),clone(d.systems));}
     catch(error){this.loadError=error.message;this.storageBlocked=true;this.onError('행정 저장을 읽지 못했습니다. 원본을 보존합니다: '+error.message);}
@@ -59,7 +59,7 @@ export class AdministrativeRegions {
     const history=this.histories.get(this.systemId)??[];history.push(clone(this.state));if(history.length>20)history.shift();this.histories.set(this.systemId,history);
     this.state=next;this.systems[this.systemId]=clone(next);this.reindex();this.persist();this.onChange();return result;
   }
-  persist(){try{this.storage?.setItem(ADMIN_STORAGE_KEY,this.serialize());this.saveError=null;}catch(error){this.saveError=error.message;this.onError('저장 실패: 이번 편집은 현재 탭에만 남습니다. '+error.message);}}
+  persist(){if(this.transient){this.saveError=null;return;}try{this.storage?.setItem(ADMIN_STORAGE_KEY,this.serialize());this.saveError=null;}catch(error){this.saveError=error.message;this.onError('저장 실패: 이번 편집은 현재 탭에만 남습니다. '+error.message);}}
   serialize(){return JSON.stringify({schemaVersion:ADMIN_SCHEMA_VERSION,systems:this.systems});}
   create(sectorIds,name,color=REGION_COLORS[0]){return this.transaction(s=>{const id=`${this.systemId}:admin:${s.nextRegionSerial++}`;s.regions.push({id,systemId:this.systemId,name:name.trim(),color,sectorIds:[...sectorIds]});return id;});}
   update(id,{name,color}={}){return this.transaction(s=>{const r=s.regions.find(r=>r.id===id);requireValue(r,'구역을 선택하세요.');if(name!==undefined)r.name=name.trim();if(color!==undefined)r.color=color;});}
