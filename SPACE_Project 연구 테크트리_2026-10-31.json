@@ -1,0 +1,1014 @@
+{
+  "schema": "space-tech-tree",
+  "schemaVersion": 1,
+  "editorVersion": "1.0.0",
+  "project": {
+    "id": "project_de62ddf0-b655-4646-89c5-798e9d0dbaf3",
+    "name": "SPACE_Project 연구 테크트리",
+    "createdAt": "2026-10-31T09:25:35.669Z",
+    "updatedAt": "2026-10-31T10:09:23.943Z",
+    "notes": "초기 함선은 개량형 원자로를 사용한다. 핵융합로는 존재하지만 함선 탑재용 안정화 기술이 부족하다. 개량형 원자로의 구체적 방식은 미정.\n양자역학은 초반에 가장 먼저 추가 개방되고, 역장 조작이 비교적 짧은 간격으로 뒤따른다. 거대구조공학은 중반에 개방한다. 정확한 선행 조건과 시점은 미정.\n중기 우주 시대는 웜홀 관련 이벤트와 성간 개척을 포함하는 긴 구간이다. III++는 선택 단계로 건너뛰고 IV에 진입할 수 있다. VI는 현재 최종 단계이며 추후 확장 여지는 남긴다.\n이 문서의 개별 기술 목록은 기획 초안이다. 누적 지식은 연구 시 소비되지 않으며, 승격은 상한만 높이고 실제 지식을 자동으로 보충하지 않는다."
+  },
+  "catalog": {
+    "knowledgeUnit": "K",
+    "categories": [
+      {
+        "id": "physics",
+        "name": "물리학",
+        "color": "#7ab2ff"
+      },
+      {
+        "id": "society",
+        "name": "사회학",
+        "color": "#d8a4eb"
+      },
+      {
+        "id": "engineering",
+        "name": "공학",
+        "color": "#78d2b5"
+      }
+    ],
+    "fields": [
+      {
+        "id": "computing",
+        "name": "컴퓨터공학",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "particle",
+        "name": "입자물리학",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "fields",
+        "name": "역장 조작",
+        "categoryId": "physics",
+        "initiallyAvailable": false,
+        "unlockNote": "초반: 양자역학 다음, 비교적 짧은 간격. 정확한 조건 미정."
+      },
+      {
+        "id": "energy",
+        "name": "에너지",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "navigation",
+        "name": "항행",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "quantum",
+        "name": "양자역학",
+        "categoryId": "physics",
+        "initiallyAvailable": false,
+        "unlockNote": "추가 개방 분야 중 가장 먼저. 초반 개방, 정확한 조건 미정."
+      },
+      {
+        "id": "astroplanetary",
+        "name": "천체행성학",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "biology",
+        "name": "생물학",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "militaryTheory",
+        "name": "군사이론",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "governance",
+        "name": "국가운영",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "colonization",
+        "name": "식민지학",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "economics",
+        "name": "경제학",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "materials",
+        "name": "재료공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "propulsion",
+        "name": "추진공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "astrodynamics",
+        "name": "우주역학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "industry",
+        "name": "산업공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "logistics",
+        "name": "물류공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "shipbuilding",
+        "name": "조선공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "megastructure",
+        "name": "거대구조공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": false,
+        "unlockNote": "중반 개방. 정확한 조건 미정."
+      }
+    ],
+    "eras": [
+      {
+        "id": "I",
+        "name": "초기 우주 시대",
+        "knowledgeCapK": 1000,
+        "optional": false,
+        "initial": true
+      },
+      {
+        "id": "I+",
+        "name": "초기 우주 시대",
+        "knowledgeCapK": 1500,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "II",
+        "name": "확장 우주 시대",
+        "knowledgeCapK": 3000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "II+",
+        "name": "확장 우주 시대",
+        "knowledgeCapK": 5000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "III",
+        "name": "중기 우주 시대",
+        "knowledgeCapK": 8000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "III+",
+        "name": "중기 우주 시대",
+        "knowledgeCapK": 10000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "III++",
+        "name": "중기 우주 시대",
+        "knowledgeCapK": 12500,
+        "optional": true,
+        "initial": false
+      },
+      {
+        "id": "IV",
+        "name": "후기 우주 시대",
+        "knowledgeCapK": 25000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "IV+",
+        "name": "후기 우주 시대",
+        "knowledgeCapK": 35000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "V",
+        "name": "차세대 우주 시대",
+        "knowledgeCapK": 60000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "V+",
+        "name": "차세대 우주 시대",
+        "knowledgeCapK": 100000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "VI",
+        "name": "특이점",
+        "knowledgeCapK": 300000,
+        "optional": false,
+        "initial": false
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "node_3f960323-1434-43f8-a06d-320cb3ee8621",
+      "type": "technology",
+      "title": "극초고온 플라스마 안정화",
+      "fieldId": "particle",
+      "relatedFieldIds": [
+        "computing",
+        "energy",
+        "materials",
+        "particle"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "approved",
+      "initialState": "discovered",
+      "prerequisiteMode": "all",
+      "description": "우주적 환경 및 우주선 내의 환경에서 핵융합로의 안정화",
+      "effects": "함선 탑재 핵융합로 해제.\n에너지 발전 효율 개선.",
+      "discovery": "초기 우주 시대 I 연구",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 250,
+      "resources": "합금 50U",
+      "facilities": "없음",
+      "fieldwork": "없음",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 25,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 50,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 25,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 25,
+          "kind": "required"
+        }
+      ],
+      "x": 480,
+      "y": 192
+    },
+    {
+      "id": "node_d4244577-76c4-4896-b80a-78d841c0c101",
+      "type": "technology",
+      "title": "펄스 안정화",
+      "fieldId": "navigation",
+      "relatedFieldIds": [
+        "particle",
+        "navigation",
+        "propulsion"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "approved",
+      "initialState": "discovered",
+      "prerequisiteMode": "all",
+      "description": "펄스 드라이브의 효율성과 최대속도, 가동시간 개선",
+      "effects": "펄스 드라이브의 최대속도 증가, 가동 지연 시간 감소.\n\n하이퍼펄스 드라이브의 가동 지연 시간 감소.",
+      "discovery": "초기 우주 시대 I 연구",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 100,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "navigation",
+          "amountK": 15,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 25,
+          "kind": "required"
+        },
+        {
+          "fieldId": "propulsion",
+          "amountK": 10,
+          "kind": "required"
+        }
+      ],
+      "x": 480,
+      "y": 528
+    },
+    {
+      "id": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "type": "technology",
+      "title": "슈퍼컴퓨터 능동성 개량",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "approved",
+      "initialState": "discovered",
+      "prerequisiteMode": "all",
+      "description": "연구용 슈퍼컴퓨터의 개량",
+      "effects": "영구적인 연구속도 보너스",
+      "discovery": "초기 우주 시대 I 연구",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 500,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 35,
+          "kind": "required"
+        }
+      ],
+      "x": 480,
+      "y": 24
+    },
+    {
+      "id": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "type": "technology",
+      "title": "에너지 효율성 개선",
+      "fieldId": "energy",
+      "relatedFieldIds": [
+        "energy",
+        "particle"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "발전소 등의 에너지 생산량 증대",
+      "effects": "발전소 전력 생산량 증가",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 500,
+      "resources": "합금 200U",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "energy",
+          "amountK": 25,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 15,
+          "kind": "required"
+        }
+      ],
+      "x": 792,
+      "y": 264
+    },
+    {
+      "id": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "type": "technology",
+      "title": "레이저 분광기 개량",
+      "fieldId": "particle",
+      "relatedFieldIds": [
+        "particle",
+        "materials"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "approved",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "레이저형 무기의 개선",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 150,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "particle",
+          "amountK": 20,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 15,
+          "kind": "required"
+        }
+      ],
+      "x": 480,
+      "y": 360
+    },
+    {
+      "id": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "type": "technology",
+      "title": "계산 알고리즘 최적화",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing",
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "슈퍼컴퓨터의 연산력 개선 및 컴퓨터 개량",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 50,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 25,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": -48
+    },
+    {
+      "id": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "technology",
+      "title": "하이퍼펄스 항법 안정화",
+      "fieldId": "navigation",
+      "relatedFieldIds": [
+        "particle",
+        "navigation",
+        "propulsion"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "하이퍼펄스 드라이브의 개량",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 2500,
+      "resources": "합금 1500U, 아스트로지늄 1.5U",
+      "facilities": "연구소",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "navigation",
+          "amountK": 75,
+          "kind": "required"
+        },
+        {
+          "fieldId": "navigation",
+          "amountK": 150,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 60,
+          "kind": "required"
+        },
+        {
+          "fieldId": "propulsion",
+          "amountK": 50,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 100,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "propulsion",
+          "amountK": 70,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 65,
+          "kind": "required"
+        }
+      ],
+      "x": 1104,
+      "y": 528
+    },
+    {
+      "id": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "type": "technology",
+      "title": "연구 알고리즘 최적화",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing",
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "연구 알고리즘의 최적화",
+      "effects": "연구 효율성 증가",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 500,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 65,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 70,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": -216
+    },
+    {
+      "id": "node_3be45b42-ad3b-4fd9-9ca7-3c5ec13a2187",
+      "type": "technology",
+      "title": "정밀 천체 관측",
+      "fieldId": "astroplanetary",
+      "relatedFieldIds": [
+        "particle",
+        "astroplanetary"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "천체 관측 및 탐사 효율 증가",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 550,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "astroplanetary",
+          "amountK": 60,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 40,
+          "kind": "required"
+        }
+      ],
+      "x": 1104,
+      "y": 24
+    },
+    {
+      "id": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "type": "technology",
+      "title": "데이터 자동 분석 알고리즘",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "자율발견 효율 개선",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 100,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 105,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1104,
+      "y": -144
+    },
+    {
+      "id": "node_57209f39-711b-4da4-8f7b-2e24417ec0f7",
+      "type": "technology",
+      "title": "핵융합 출력 안정화",
+      "fieldId": "energy",
+      "relatedFieldIds": [
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "핵융합로 출력 향상",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 100,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "energy",
+          "amountK": 70,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1104,
+      "y": 192
+    },
+    {
+      "id": "node_18ef226b-e936-4324-a690-cb8ab34625d3",
+      "type": "technology",
+      "title": "우주 항법 최적화",
+      "fieldId": "navigation",
+      "relatedFieldIds": [
+        "computing",
+        "energy",
+        "navigation"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "드라이브의 가동 지연 시간 감소",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "navigation",
+          "amountK": 70,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 85,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 60,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1104,
+      "y": 360
+    },
+    {
+      "id": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "technology",
+      "title": "중력 역학",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing",
+        "particle",
+        "astrodynamics"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "중력 감지기 및 중력 이상 연구",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 700,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 170,
+          "kind": "required"
+        },
+        {
+          "fieldId": "astrodynamics",
+          "amountK": 100,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 80,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1416,
+      "y": 792
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_cebe17ca-daf3-417d-807f-daea6c9759d4",
+      "from": "node_3f960323-1434-43f8-a06d-320cb3ee8621",
+      "to": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_c06c28f0-b135-48d4-a42a-868326de4261",
+      "from": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "to": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_9630e2f7-e177-4c05-9b89-ed0152a5dcf3",
+      "from": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "to": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_6547a75d-baf7-4fa5-8c4c-4a946f351a89",
+      "from": "node_d4244577-76c4-4896-b80a-78d841c0c101",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_4e125658-62cc-4ef9-9b39-bf9f087157d6",
+      "from": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_fa5ce1f3-f7d3-4fa0-af07-6c9785d51c14",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_086b4113-50c2-4b11-9cc7-029d3cfb5bde",
+      "from": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "to": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_aa3d4f48-dbd6-4350-8d8b-341a46c296b0",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "type": "discovery",
+      "label": ""
+    },
+    {
+      "id": "edge_f8f54b71-b773-4fc5-90d3-3b0efdd2bacd",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_3be45b42-ad3b-4fd9-9ca7-3c5ec13a2187",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_be007d9f-dd6a-4fdb-a23d-9b97a6818584",
+      "from": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "to": "node_3be45b42-ad3b-4fd9-9ca7-3c5ec13a2187",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_65513e39-0144-46dc-9c04-5353d28945e4",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_4d66d049-df90-4222-aa5b-955259bccc98",
+      "from": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "to": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_296df0e6-0596-476a-b5f4-dfcb131b6d5f",
+      "from": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_19a5eda9-cbfa-43de-bdd8-e0ecb98f4674",
+      "from": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "to": "node_57209f39-711b-4da4-8f7b-2e24417ec0f7",
+      "type": "discovery",
+      "label": ""
+    },
+    {
+      "id": "edge_dd5b47d7-a4e2-4925-b819-db11f27b8d9d",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_57209f39-711b-4da4-8f7b-2e24417ec0f7",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_60f6e432-0252-45b8-a629-f14dac5b46f4",
+      "from": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "to": "node_18ef226b-e936-4324-a690-cb8ab34625d3",
+      "type": "discovery",
+      "label": ""
+    },
+    {
+      "id": "edge_56ee4bd4-97a7-494f-9368-2368ec272fbb",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_a9ce869a-86cc-44c8-a1a5-7a55705e50e1",
+      "from": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "to": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_8c2fdbc8-e27f-499c-adf8-6949396ef180",
+      "from": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "to": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_80b34934-6a9e-4d8b-96ea-39863eaa7ce4",
+      "from": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "to": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "support",
+      "label": ""
+    }
+  ],
+  "view": {
+    "x": -40.645910945109335,
+    "y": 205.436381406813,
+    "zoom": 0.5488116360940262,
+    "snap": true
+  },
+  "exportedAt": "2026-10-31T10:09:31.983Z"
+}
