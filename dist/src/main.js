@@ -58,7 +58,7 @@ try {
   const surfaces=await loadSurfaceMaps(context.surfaceFiles);
   viewer=new SystemViewer($('#viewport'),context,{labels:$('#labels'),surfaces,onSelection,onHover:sector=>{$('#hover-sector').hidden=!sector;if(sector)$('#hover-sector').textContent=sector.id+' · R'+sector.ring;}});
   administration=new AdministrativeRegionUI({viewer,panel,onError:toast});
-  renderContextHeader();renderSpeed();foregroundClock.setVisible(!document.hidden,performance.now());$('#loading').hidden=true;
+  renderContextHeader();renderSpeed();foregroundClock.setVisible(!document.hidden,performance.now());
   const params=new URLSearchParams(location.search);let developerSystems;
   const ensureDeveloperSystems=()=>developerSystems??=(async()=>{const {SYSTEM_FACTORIES}=await import('./fixtures/systems.js');$('#system-picker').replaceChildren(...Object.entries(SYSTEM_FACTORIES).map(([key,factory])=>new Option(factory().displayName,key)));$('#system-picker').addEventListener('change',e=>setSystem(e.target.value).catch(error=>{console.error(error);toast('시험계 전환 실패');}));})();
   surfaceUI=new PlanetarySurfaceUI({viewer,panel,administration,notify:toast,isDeveloper:()=>developer?.enabled??false});
@@ -69,6 +69,7 @@ try {
   fullscreen=new FullscreenControl($('#map'),$('#fullscreen-toggle'),{notify:toast,onResize:()=>requestAnimationFrame(()=>viewer.resize())});
   developer.setEnabled(params.has('dev'));
   if(params.has('dev')){await ensureDeveloperSystems();if(params.has('system')){await setSystem(params.get('system'));$('#system-picker').value=params.get('system');}}
+  $('#loading').hidden=true;
   window.spacePrototype={simulation,industry,viewer,panel,administration,surfaceUI,developer,fullscreen,foregroundClock,get context(){return context;},get selection(){return selection;},setSystem,select:id=>viewer.select(id),focus:(id,mode)=>viewer.focus(id,mode),home};
   let uiElapsed=0;
   function frame(now){
