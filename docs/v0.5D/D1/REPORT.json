@@ -1,0 +1,4272 @@
+{
+  "baselineCommit": "25bc2ea4d5d9f778e5d9dce80a756470649f428a",
+  "policy": "per-component-v2 / concentration-v2",
+  "exceptions": [],
+  "scaledForms": [],
+  "bodies": [
+    {
+      "bodyId": "mercury",
+      "seed": "sol:mercury:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 5,
+        "veinCells": 19,
+        "maxCellFraction": 0.0955527159567108,
+        "maxGroupFraction": 0.3411456414456285,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.4325307314872758,
+              "max": 0.4399485859677212
+            },
+            "medium": {
+              "min": 0.470760602552081,
+              "max": 0.4846193739879974
+            },
+            "high": {
+              "min": 0.08182456695585305,
+              "max": 0.0895008866183346
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.3908894198928892,
+              "max": 0.42297051859655677
+            },
+            "medium": {
+              "min": 0.24226465215206183,
+              "max": 0.2951994873531912
+            },
+            "high": {
+              "min": 0.3087938203657296,
+              "max": 0.33500097577779264
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.16977467150458883,
+              "max": 0.17721883155250737
+            },
+            "medium": {
+              "min": 0.4344704327654221,
+              "max": 0.44751400746369147
+            },
+            "high": {
+              "min": 0.3807782430239472,
+              "max": 0.3884047164917442
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 21,
+        "groupCount": 5,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 465903852974,
+        "maxCellFraction": 0.07522323585468549,
+        "maxGroupFraction": 0.4739361751658118,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.3915711393421457,
+                "max": 0.4861708992742933,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.42461993735689507,
+                "max": 0.5491888472749478,
+                "actualMaxDeviation": 0.07104321287102977
+              },
+              "high": {
+                "min": 0.04337519796637967,
+                "max": 0.13568346632178874,
+                "actualMaxDeviation": 0.05000000000000002
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 21,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.35928248697891835,
+                "max": 0.44138483116202315,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.2233162986931051,
+                "max": 0.3547463225827739,
+                "actualMaxDeviation": 0.0858529132253677
+              },
+              "high": {
+                "min": 0.2718241036636755,
+                "max": 0.34015637099280266,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 20,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.14059752132461717,
+                "max": 0.22390216858591883,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.37725345886001826,
+                "max": 0.5120710943834852,
+                "actualMaxDeviation": 0.0704515274576838
+              },
+              "high": {
+                "min": 0.33447826448827983,
+                "max": 0.4110715626237684,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-mercury-eff5e1bc-vein-3",
+          "cellIds": [
+            "sol:mercury:surface:00000",
+            "sol:mercury:surface:00004",
+            "sol:mercury:surface:00005"
+          ],
+          "quanta": 86900307751,
+          "totalU": 86900307.751
+        },
+        {
+          "groupId": "g2-sol-mercury-eff5e1bc-vein-1",
+          "cellIds": [
+            "sol:mercury:surface:00001",
+            "sol:mercury:surface:00009",
+            "sol:mercury:surface:00026",
+            "sol:mercury:surface:00027",
+            "sol:mercury:surface:00028"
+          ],
+          "quanta": 804171845888,
+          "totalU": 804171845.888
+        },
+        {
+          "groupId": "g2-sol-mercury-eff5e1bc-vein-4",
+          "cellIds": [
+            "sol:mercury:surface:00002",
+            "sol:mercury:surface:00029",
+            "sol:mercury:surface:00031",
+            "sol:mercury:surface:00034"
+          ],
+          "quanta": 338187731120,
+          "totalU": 338187731.12
+        },
+        {
+          "groupId": "g2-sol-mercury-eff5e1bc-vein-0",
+          "cellIds": [
+            "sol:mercury:surface:00008",
+            "sol:mercury:surface:00019",
+            "sol:mercury:surface:00036",
+            "sol:mercury:surface:00037",
+            "sol:mercury:surface:00038"
+          ],
+          "quanta": 297906589956,
+          "totalU": 297906589.956
+        },
+        {
+          "groupId": "g2-sol-mercury-eff5e1bc-vein-2",
+          "cellIds": [
+            "sol:mercury:surface:00011",
+            "sol:mercury:surface:00012",
+            "sol:mercury:surface:00017",
+            "sol:mercury:surface:00025"
+          ],
+          "quanta": 169627076878,
+          "totalU": 169627076.878
+        }
+      ],
+      "summary": {
+        "totalQuanta": 4659038529744,
+        "totalU": 4659038529.744,
+        "gradeMean": {
+          "low": 0.37199405694449705,
+          "medium": 0.3943631707730541,
+          "high": 0.2336427722824487
+        },
+        "types": {
+          "surface": {
+            "quanta": 1996143163911,
+            "totalU": 1996143163.911,
+            "gradeMean": {
+              "low": 0.4361708992742933,
+              "medium": 0.4781456344039181,
+              "high": 0.08568346632178875
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 1696793551593,
+            "totalU": 1696793551.593,
+            "gradeMean": {
+              "low": 0.4092824869789184,
+              "medium": 0.2688934093574062,
+              "high": 0.32182410366367553
+            },
+            "deposits": 21,
+            "groups": 5
+          },
+          "deep": {
+            "quanta": 966101814240,
+            "totalU": 966101814.24,
+            "gradeMean": {
+              "low": 0.1739021685859189,
+              "medium": 0.44161956692580134,
+              "high": 0.3844782644882798
+            },
+            "deposits": 20,
+            "groups": 1
+          }
+        },
+        "depositCount": 83
+      }
+    },
+    {
+      "bodyId": "venus",
+      "seed": "sol:venus:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 1,
+        "veinCells": 12,
+        "maxCellFraction": 0.060078702191751314,
+        "maxGroupFraction": 1,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.32554634408519645,
+              "max": 0.33344897173770743
+            },
+            "medium": {
+              "min": 0.41298743691240014,
+              "max": 0.4270126604935205
+            },
+            "high": {
+              "min": 0.2470469217114375,
+              "max": 0.25479790813105563
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.07778779159159875,
+              "max": 0.08372721851849473
+            },
+            "medium": {
+              "min": 0.21449304619984444,
+              "max": 0.22458622848795473
+            },
+            "high": {
+              "min": 0.6965998753361102,
+              "max": 0.7028107184502926
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.005643710570535675,
+              "max": 0.01351688588050665
+            },
+            "medium": {
+              "min": 0.16526184008708256,
+              "max": 0.17622909399373488
+            },
+            "high": {
+              "min": 0.8155465899716733,
+              "max": 0.8229105357817975
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 92,
+        "requiredCoverage": 23,
+        "veinCells": 41,
+        "groupCount": 4,
+        "minimumGroupCells": 8,
+        "exceptions": [],
+        "nominalCellCapQuanta": 11420000000000,
+        "maxCellFraction": 0.048277792447285466,
+        "maxGroupFraction": 0.5,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 92,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.2823398703953601,
+                "max": 0.38,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.34119609594086414,
+                "max": 0.505155009793565,
+                "actualMaxDeviation": 0.085155009793565
+              },
+              "high": {
+                "min": 0.20469846629592262,
+                "max": 0.3,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 41,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.03,
+                "max": 0.10394830734635288,
+                "actualMaxDeviation": 0.05
+              },
+              "medium": {
+                "min": 0.16479703987890637,
+                "max": 0.3138787070210658,
+                "actualMaxDeviation": 0.0938787070210658
+              },
+              "high": {
+                "min": 0.6499999999999999,
+                "max": 0.7385141711911574,
+                "actualMaxDeviation": 0.050000000000000044
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 37,
+            "amplitudes": {
+              "low": 0.0075,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.0025000000000000005,
+                "max": 0.015324635393409551,
+                "actualMaxDeviation": 0.0075
+              },
+              "medium": {
+                "min": 0.1321127493860662,
+                "max": 0.22208891098602135,
+                "actualMaxDeviation": 0.052088910986021336
+              },
+              "high": {
+                "min": 0.7699999999999999,
+                "max": 0.8562801092482857,
+                "actualMaxDeviation": 0.050000000000000044
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-venus-5224a0a-vein-0",
+          "cellIds": [
+            "sol:venus:surface:00001",
+            "sol:venus:surface:00006",
+            "sol:venus:surface:00010",
+            "sol:venus:surface:00019",
+            "sol:venus:surface:00020",
+            "sol:venus:surface:00021",
+            "sol:venus:surface:00024",
+            "sol:venus:surface:00025",
+            "sol:venus:surface:00027"
+          ],
+          "quanta": 2778212082466,
+          "totalU": 2778212082.466
+        },
+        {
+          "groupId": "g2-sol-venus-5224a0a-vein-2",
+          "cellIds": [
+            "sol:venus:surface:00018",
+            "sol:venus:surface:00070",
+            "sol:venus:surface:00072",
+            "sol:venus:surface:00079",
+            "sol:venus:surface:00081",
+            "sol:venus:surface:00083",
+            "sol:venus:surface:00085",
+            "sol:venus:surface:00086"
+          ],
+          "quanta": 2663194888040,
+          "totalU": 2663194888.04
+        },
+        {
+          "groupId": "g2-sol-venus-5224a0a-vein-1",
+          "cellIds": [
+            "sol:venus:surface:00028",
+            "sol:venus:surface:00032",
+            "sol:venus:surface:00039",
+            "sol:venus:surface:00044",
+            "sol:venus:surface:00045",
+            "sol:venus:surface:00054",
+            "sol:venus:surface:00056",
+            "sol:venus:surface:00061",
+            "sol:venus:surface:00063",
+            "sol:venus:surface:00064"
+          ],
+          "quanta": 1410593029494,
+          "totalU": 1410593029.494
+        },
+        {
+          "groupId": "g2-sol-venus-5224a0a-vein-3",
+          "cellIds": [
+            "sol:venus:surface:00029",
+            "sol:venus:surface:00030",
+            "sol:venus:surface:00033",
+            "sol:venus:surface:00034",
+            "sol:venus:surface:00035",
+            "sol:venus:surface:00037",
+            "sol:venus:surface:00038",
+            "sol:venus:surface:00040",
+            "sol:venus:surface:00041",
+            "sol:venus:surface:00043",
+            "sol:venus:surface:00046",
+            "sol:venus:surface:00047",
+            "sol:venus:surface:00052",
+            "sol:venus:surface:00073"
+          ],
+          "quanta": 6852000000000,
+          "totalU": 6852000000
+        }
+      ],
+      "summary": {
+        "totalQuanta": 114200000000000,
+        "totalU": 114200000000,
+        "gradeMean": {
+          "low": 0.14,
+          "medium": 0.271,
+          "high": 0.589
+        },
+        "types": {
+          "surface": {
+            "quanta": 43396000000000,
+            "totalU": 43396000000,
+            "gradeMean": {
+              "low": 0.3299999999999999,
+              "medium": 0.4199999999999996,
+              "high": 0.24999999999999992
+            },
+            "deposits": 92,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 13704000000000,
+            "totalU": 13704000000,
+            "gradeMean": {
+              "low": 0.08000000000000003,
+              "medium": 0.22,
+              "high": 0.7
+            },
+            "deposits": 41,
+            "groups": 4
+          },
+          "deep": {
+            "quanta": 57100000000000,
+            "totalU": 57100000000,
+            "gradeMean": {
+              "low": 0.009999999999999998,
+              "medium": 0.1700000000000001,
+              "high": 0.82
+            },
+            "deposits": 37,
+            "groups": 1
+          }
+        },
+        "depositCount": 170
+      }
+    },
+    {
+      "bodyId": "earth",
+      "seed": "sol:earth:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 1,
+        "veinCells": 2,
+        "maxCellFraction": 0.3573781973055471,
+        "maxGroupFraction": 1,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.5960520735088551,
+              "max": 0.6039610022403116
+            },
+            "medium": {
+              "min": 0.37243976849469124,
+              "max": 0.3863223019927996
+            },
+            "high": {
+              "min": 0.016878235679112667,
+              "max": 0.02469307590647816
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.4481001790023537,
+              "max": 0.45230327273040427
+            },
+            "medium": {
+              "min": 0.49652029469441156,
+              "max": 0.502870184289473
+            },
+            "high": {
+              "min": 0.04902963670817321,
+              "max": 0.05117643257518416
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.22555993349432063,
+              "max": 0.23263091168320787
+            },
+            "medium": {
+              "min": 0.4341319505141239,
+              "max": 0.4468313687515567
+            },
+            "high": {
+              "min": 0.3262962479766238,
+              "max": 0.3335023960478384
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 40,
+        "requiredCoverage": 10,
+        "veinCells": 13,
+        "groupCount": 3,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 7860000000000,
+        "maxCellFraction": 0.1,
+        "maxGroupFraction": 0.5,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 91,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.015
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.5499999999999999,
+                "max": 0.6497004105603927,
+                "actualMaxDeviation": 0.050000000000000044
+              },
+              "medium": {
+                "min": 0.3160367001715172,
+                "max": 0.4409022809943471,
+                "actualMaxDeviation": 0.06396329982848281
+              },
+              "high": {
+                "min": 0.007185692631630868,
+                "max": 0.034999999999999996,
+                "actualMaxDeviation": 0.014999999999999996
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 13,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.037500000000000006
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.4,
+                "max": 0.47523285811250243,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.45946191504078127,
+                "max": 0.579555092910981,
+                "actualMaxDeviation": 0.07955509291098095
+              },
+              "high": {
+                "min": 0.012499999999999997,
+                "max": 0.06633485068926759,
+                "actualMaxDeviation": 0.037500000000000006
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 41,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.18,
+                "max": 0.2738932871198564,
+                "actualMaxDeviation": 0.05000000000000002
+              },
+              "medium": {
+                "min": 0.35808886357654884,
+                "max": 0.5392815242073681,
+                "actualMaxDeviation": 0.09928152420736808
+              },
+              "high": {
+                "min": 0.28064172129384135,
+                "max": 0.38,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-earth-988ed46b-vein-0",
+          "cellIds": [
+            "sol:earth:surface:00000",
+            "sol:earth:surface:00001",
+            "sol:earth:surface:00002",
+            "sol:earth:surface:00004",
+            "sol:earth:surface:00017",
+            "sol:earth:surface:00027",
+            "sol:earth:surface:00069"
+          ],
+          "quanta": 25545000000000,
+          "totalU": 25545000000
+        },
+        {
+          "groupId": "g2-sol-earth-988ed46b-vein-1",
+          "cellIds": [
+            "sol:earth:surface:00005",
+            "sol:earth:surface:00006",
+            "sol:earth:surface:00012"
+          ],
+          "quanta": 14663996908056,
+          "totalU": 14663996908.056
+        },
+        {
+          "groupId": "g2-sol-earth-988ed46b-vein-2",
+          "cellIds": [
+            "sol:earth:surface:00019",
+            "sol:earth:surface:00079",
+            "sol:earth:surface:00081"
+          ],
+          "quanta": 10881003091944,
+          "totalU": 10881003091.944
+        }
+      ],
+      "summary": {
+        "totalQuanta": 78600000000000,
+        "totalU": 78600000000,
+        "gradeMean": {
+          "low": 0.4655000000000002,
+          "medium": 0.4640000000000003,
+          "high": 0.07050000000000001
+        },
+        "types": {
+          "surface": {
+            "quanta": 19650000000000,
+            "totalU": 19650000000,
+            "gradeMean": {
+              "low": 0.5999999999999999,
+              "medium": 0.37999999999999984,
+              "high": 0.02
+            },
+            "deposits": 91,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 51090000000000,
+            "totalU": 51090000000,
+            "gradeMean": {
+              "low": 0.45000000000000007,
+              "medium": 0.49999999999999994,
+              "high": 0.05
+            },
+            "deposits": 13,
+            "groups": 3
+          },
+          "deep": {
+            "quanta": 7860000000000,
+            "totalU": 7860000000,
+            "gradeMean": {
+              "low": 0.23,
+              "medium": 0.4399999999999999,
+              "high": 0.32999999999999996
+            },
+            "deposits": 41,
+            "groups": 1
+          }
+        },
+        "depositCount": 145
+      }
+    },
+    {
+      "bodyId": "mars",
+      "seed": "sol:mars:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 4,
+        "veinCells": 13,
+        "maxCellFraction": 0.07331838391858897,
+        "maxGroupFraction": 0.4745159544171779,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.5468462340013166,
+              "max": 0.5544943788965275
+            },
+            "medium": {
+              "min": 0.3929553337476282,
+              "max": 0.4063071772965669
+            },
+            "high": {
+              "min": 0.04593369643128324,
+              "max": 0.053747242302809244
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.27248442036475023,
+              "max": 0.30710039933587396
+            },
+            "medium": {
+              "min": 0.38602444744472475,
+              "max": 0.4352171929105101
+            },
+            "high": {
+              "min": 0.291213642552569,
+              "max": 0.30721605848528394
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.14723332883269474,
+              "max": 0.15237083599754556
+            },
+            "medium": {
+              "min": 0.3454033777953114,
+              "max": 0.35670178415225706
+            },
+            "high": {
+              "min": 0.49505656987232327,
+              "max": 0.5022327463812118
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 12,
+        "groupCount": 3,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 4890000000000,
+        "maxCellFraction": 0.0956507448193865,
+        "maxGroupFraction": 0.49173120358721883,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.037500000000000006
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.5,
+                "max": 0.5983238826104847,
+                "actualMaxDeviation": 0.050000000000000044
+              },
+              "medium": {
+                "min": 0.33666378425516114,
+                "max": 0.47259725987149376,
+                "actualMaxDeviation": 0.07259725987149374
+              },
+              "high": {
+                "min": 0.012499999999999997,
+                "max": 0.08408159839224431,
+                "actualMaxDeviation": 0.037500000000000006
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 12,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.24422105503803865,
+                "max": 0.33,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.31999999999999995,
+                "max": 0.4784875521782306,
+                "actualMaxDeviation": 0.10000000000000003
+              },
+              "high": {
+                "min": 0.2618604391699417,
+                "max": 0.35,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 19,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.10125726380991362,
+                "max": 0.2,
+                "actualMaxDeviation": 0.05000000000000002
+              },
+              "medium": {
+                "min": 0.25781454787057767,
+                "max": 0.4456076535234037,
+                "actualMaxDeviation": 0.09560765352340372
+              },
+              "high": {
+                "min": 0.45,
+                "max": 0.5478657232307242,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-mars-d6d3a77c-vein-0",
+          "cellIds": [
+            "sol:mars:surface:00000",
+            "sol:mars:surface:00006",
+            "sol:mars:surface:00007",
+            "sol:mars:surface:00033"
+          ],
+          "quanta": 3043740043702,
+          "totalU": 3043740043.702
+        },
+        {
+          "groupId": "g2-sol-mars-d6d3a77c-vein-2",
+          "cellIds": [
+            "sol:mars:surface:00014",
+            "sol:mars:surface:00016",
+            "sol:mars:surface:00029",
+            "sol:mars:surface:00031",
+            "sol:mars:surface:00032"
+          ],
+          "quanta": 4809131171083,
+          "totalU": 4809131171.083
+        },
+        {
+          "groupId": "g2-sol-mars-d6d3a77c-vein-1",
+          "cellIds": [
+            "sol:mars:surface:00022",
+            "sol:mars:surface:00027",
+            "sol:mars:surface:00041"
+          ],
+          "quanta": 1927128785215,
+          "totalU": 1927128785.215
+        }
+      ],
+      "summary": {
+        "totalQuanta": 48900000000000,
+        "totalU": 48900000000,
+        "gradeMean": {
+          "low": 0.4559999999999999,
+          "medium": 0.39899999999999997,
+          "high": 0.14500000000000005
+        },
+        "types": {
+          "surface": {
+            "quanta": 34230000000000,
+            "totalU": 34230000000,
+            "gradeMean": {
+              "low": 0.55,
+              "medium": 0.3999999999999999,
+              "high": 0.05000000000000002
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 9780000000000,
+            "totalU": 9780000000,
+            "gradeMean": {
+              "low": 0.28,
+              "medium": 0.41999999999999993,
+              "high": 0.3
+            },
+            "deposits": 12,
+            "groups": 3
+          },
+          "deep": {
+            "quanta": 4890000000000,
+            "totalU": 4890000000,
+            "gradeMean": {
+              "low": 0.14999999999999994,
+              "medium": 0.35000000000000003,
+              "high": 0.4999999999999999
+            },
+            "deposits": 19,
+            "groups": 1
+          }
+        },
+        "depositCount": 73
+      }
+    },
+    {
+      "bodyId": "jupiter",
+      "seed": "sol:jupiter:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 0,
+        "requiredCoverage": 0,
+        "veinCells": 0,
+        "groupCount": 0,
+        "minimumGroupCells": 0,
+        "exceptions": [],
+        "nominalCellCapQuanta": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.042543454178958204
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          }
+        }
+      },
+      "groups": [],
+      "summary": {
+        "totalQuanta": 0,
+        "totalU": 0,
+        "gradeMean": null,
+        "types": {
+          "surface": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "vein": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "deep": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          }
+        },
+        "depositCount": 0
+      }
+    },
+    {
+      "bodyId": "saturn",
+      "seed": "sol:saturn:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 0,
+        "requiredCoverage": 0,
+        "veinCells": 0,
+        "groupCount": 0,
+        "minimumGroupCells": 0,
+        "exceptions": [],
+        "nominalCellCapQuanta": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          }
+        }
+      },
+      "groups": [],
+      "summary": {
+        "totalQuanta": 0,
+        "totalU": 0,
+        "gradeMean": null,
+        "types": {
+          "surface": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "vein": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "deep": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          }
+        },
+        "depositCount": 0
+      }
+    },
+    {
+      "bodyId": "uranus",
+      "seed": "sol:uranus:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 0,
+        "requiredCoverage": 0,
+        "veinCells": 0,
+        "groupCount": 0,
+        "minimumGroupCells": 0,
+        "exceptions": [],
+        "nominalCellCapQuanta": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.00968606428534258
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          }
+        }
+      },
+      "groups": [],
+      "summary": {
+        "totalQuanta": 0,
+        "totalU": 0,
+        "gradeMean": null,
+        "types": {
+          "surface": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "vein": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "deep": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          }
+        },
+        "depositCount": 0
+      }
+    },
+    {
+      "bodyId": "neptune",
+      "seed": "sol:neptune:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 0,
+        "requiredCoverage": 0,
+        "veinCells": 0,
+        "groupCount": 0,
+        "minimumGroupCells": 0,
+        "exceptions": [],
+        "nominalCellCapQuanta": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.028920773727586495,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          }
+        }
+      },
+      "groups": [],
+      "summary": {
+        "totalQuanta": 0,
+        "totalU": 0,
+        "gradeMean": null,
+        "types": {
+          "surface": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "vein": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "deep": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          }
+        },
+        "depositCount": 0
+      }
+    },
+    {
+      "bodyId": "moon",
+      "seed": "sol:moon:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0.13752532464615,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.7959311218261016,
+              "max": 0.8032500747441543
+            },
+            "medium": {
+              "min": 0.16380476315939296,
+              "max": 0.17621002739356328
+            },
+            "high": {
+              "min": 0.026297387865763983,
+              "max": 0.03392571545524605
+            }
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 0,
+        "requiredCoverage": 0,
+        "veinCells": 0,
+        "groupCount": 0,
+        "minimumGroupCells": 0,
+        "exceptions": [],
+        "nominalCellCapQuanta": 10000000000000,
+        "maxCellFraction": 0.1,
+        "maxGroupFraction": 0,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.0225
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.75,
+                "max": 0.8467445522186573,
+                "actualMaxDeviation": 0.050000000000000044
+              },
+              "medium": {
+                "min": 0.11091315399738952,
+                "max": 0.23211042024421252,
+                "actualMaxDeviation": 0.06211042024421251
+              },
+              "high": {
+                "min": 0.0075,
+                "max": 0.0512768341723442,
+                "actualMaxDeviation": 0.0225
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.037500000000000006
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 0,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "medium": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              },
+              "high": {
+                "min": null,
+                "max": null,
+                "actualMaxDeviation": 0
+              }
+            }
+          }
+        }
+      },
+      "groups": [],
+      "summary": {
+        "totalQuanta": 100000000000000,
+        "totalU": 100000000000,
+        "gradeMean": {
+          "low": 0.8,
+          "medium": 0.16999999999999993,
+          "high": 0.03000000000000001
+        },
+        "types": {
+          "surface": {
+            "quanta": 100000000000000,
+            "totalU": 100000000000,
+            "gradeMean": {
+              "low": 0.8,
+              "medium": 0.16999999999999993,
+              "high": 0.03000000000000001
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          },
+          "deep": {
+            "quanta": 0,
+            "totalU": 0,
+            "gradeMean": null,
+            "deposits": 0,
+            "groups": 0
+          }
+        },
+        "depositCount": 42
+      }
+    },
+    {
+      "bodyId": "phobos",
+      "seed": "sol:phobos:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 5,
+        "veinCells": 17,
+        "maxCellFraction": 0.1771345393312715,
+        "maxGroupFraction": 0.33198159779547703,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.33130431852011855,
+              "max": 0.3385374031056362
+            },
+            "medium": {
+              "min": 0.5168019481822184,
+              "max": 0.5273393929935326
+            },
+            "high": {
+              "min": 0.1395818958014271,
+              "max": 0.14699774960726714
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.2975956264266614,
+              "max": 0.31743526388312315
+            },
+            "medium": {
+              "min": 0.5347271017543966,
+              "max": 0.5798706829473372
+            },
+            "high": {
+              "min": 0.11793163324353707,
+              "max": 0.15049601375704122
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.1764009167328769,
+              "max": 0.18329345772790848
+            },
+            "medium": {
+              "min": 0.3319277859077068,
+              "max": 0.3450592185862572
+            },
+            "high": {
+              "min": 0.4781812194764112,
+              "max": 0.48551722495550853
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 12,
+        "groupCount": 2,
+        "minimumGroupCells": 4,
+        "exceptions": [],
+        "nominalCellCapQuanta": 470662534,
+        "maxCellFraction": 0.09999999980878019,
+        "maxGroupFraction": 0.5,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.2845314502133988,
+                "max": 0.3787029100331048,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.45436507091992473,
+                "max": 0.6110772348235418,
+                "actualMaxDeviation": 0.08899338216456221
+              },
+              "high": {
+                "min": 0.09338469712762161,
+                "max": 0.18039305616695706,
+                "actualMaxDeviation": 0.05
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 12,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.2529233363804873,
+                "max": 0.35232896357774734,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.5513363286947728,
+                "max": 0.6028484689822312,
+                "actualMaxDeviation": 0.03756376586909249
+              },
+              "high": {
+                "min": 0.08238633330911398,
+                "max": 0.18131204506460383,
+                "actualMaxDeviation": 0.05
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 23,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.1294493787409738,
+                "max": 0.22860234221345746,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.2531194546459995,
+                "max": 0.40582134011314525,
+                "actualMaxDeviation": 0.08578112636089252
+              },
+              "high": {
+                "min": 0.454678194321914,
+                "max": 0.5316500402521342,
+                "actualMaxDeviation": 0.050000000000000044
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-phobos-c11de6fb-vein-0",
+          "cellIds": [
+            "sol:phobos:surface:00002",
+            "sol:phobos:surface:00003",
+            "sol:phobos:surface:00005",
+            "sol:phobos:surface:00035"
+          ],
+          "quanta": 560365036,
+          "totalU": 560365.036
+        },
+        {
+          "groupId": "g2-sol-phobos-c11de6fb-vein-1",
+          "cellIds": [
+            "sol:phobos:surface:00008",
+            "sol:phobos:surface:00009",
+            "sol:phobos:surface:00010",
+            "sol:phobos:surface:00019",
+            "sol:phobos:surface:00020",
+            "sol:phobos:surface:00026",
+            "sol:phobos:surface:00036",
+            "sol:phobos:surface:00038"
+          ],
+          "quanta": 560365036,
+          "totalU": 560365.036
+        }
+      ],
+      "summary": {
+        "totalQuanta": 4706625349,
+        "totalU": 4706625.349,
+        "gradeMean": {
+          "low": 0.26188739789044196,
+          "medium": 0.45562085521573914,
+          "high": 0.28249174689381873
+        },
+        "types": {
+          "surface": {
+            "quanta": 1613919793,
+            "totalU": 1613919.793,
+            "gradeMean": {
+              "low": 0.3345314502133987,
+              "medium": 0.5220838526589797,
+              "high": 0.14338469712762164
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 1120730072,
+            "totalU": 1120730.072,
+            "gradeMean": {
+              "low": 0.30232896357774736,
+              "medium": 0.5652847031131387,
+              "high": 0.13238633330911395
+            },
+            "deposits": 12,
+            "groups": 2
+          },
+          "deep": {
+            "quanta": 1971975484,
+            "totalU": 1971975.484,
+            "gradeMean": {
+              "low": 0.17944937874097375,
+              "medium": 0.338900581006892,
+              "high": 0.4816500402521341
+            },
+            "deposits": 23,
+            "groups": 1
+          }
+        },
+        "depositCount": 77
+      }
+    },
+    {
+      "bodyId": "deimos",
+      "seed": "sol:deimos:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 1,
+        "veinCells": 6,
+        "maxCellFraction": 0.08311797438481809,
+        "maxGroupFraction": 1,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.27607869818612657,
+              "max": 0.2836760659440579
+            },
+            "medium": {
+              "min": 0.6289071343043088,
+              "max": 0.6424144053519905
+            },
+            "high": {
+              "min": 0.08082145124260474,
+              "max": 0.08847079450037468
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.4393592951291854,
+              "max": 0.44593371500015805
+            },
+            "medium": {
+              "min": 0.33415474838269665,
+              "max": 0.34509027196345654
+            },
+            "high": {
+              "min": 0.21555043290735806,
+              "max": 0.22169334230938578
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.13790454769562166,
+              "max": 0.14435952857750634
+            },
+            "medium": {
+              "min": 0.18879964235906732,
+              "max": 0.1995761419843627
+            },
+            "high": {
+              "min": 0.6601454556214024,
+              "max": 0.6677450189760287
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 20,
+        "groupCount": 6,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 66928222,
+        "maxCellFraction": 0.09999999895410341,
+        "maxGroupFraction": 0.2893823964767276,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.23057098112767566,
+                "max": 0.3143941020389809,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.5728888385629881,
+                "max": 0.7109292512149213,
+                "actualMaxDeviation": 0.07523719195692224
+              },
+              "high": {
+                "min": 0.03865576345325814,
+                "max": 0.1337369596143253,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 20,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.3941081383265555,
+                "max": 0.4785991685019291,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.2811913939604158,
+                "max": 0.39867587899533113,
+                "actualMaxDeviation": 0.0629374611631503
+              },
+              "high": {
+                "min": 0.1726231657516856,
+                "max": 0.27015344384126366,
+                "actualMaxDeviation": 0.05000000000000002
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 15,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.10300986056376568,
+                "max": 0.19114675339777024,
+                "actualMaxDeviation": 0.05000000000000002
+              },
+              "medium": {
+                "min": 0.13285020212675525,
+                "max": 0.2629821772998,
+                "actualMaxDeviation": 0.06852537410182746
+              },
+              "high": {
+                "min": 0.6334347179879176,
+                "max": 0.7143964434042573,
+                "actualMaxDeviation": 0.050000000000000044
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-deimos-470ef0dd-vein-1",
+          "cellIds": [
+            "sol:deimos:surface:00004",
+            "sol:deimos:surface:00039",
+            "sol:deimos:surface:00040"
+          ],
+          "quanta": 8772905,
+          "totalU": 8772.905
+        },
+        {
+          "groupId": "g2-sol-deimos-470ef0dd-vein-0",
+          "cellIds": [
+            "sol:deimos:surface:00006",
+            "sol:deimos:surface:00023",
+            "sol:deimos:surface:00026",
+            "sol:deimos:surface:00038"
+          ],
+          "quanta": 7524158,
+          "totalU": 7524.158
+        },
+        {
+          "groupId": "g2-sol-deimos-470ef0dd-vein-5",
+          "cellIds": [
+            "sol:deimos:surface:00009",
+            "sol:deimos:surface:00020",
+            "sol:deimos:surface:00036"
+          ],
+          "quanta": 11847412,
+          "totalU": 11847.412
+        },
+        {
+          "groupId": "g2-sol-deimos-470ef0dd-vein-3",
+          "cellIds": [
+            "sol:deimos:surface:00013",
+            "sol:deimos:surface:00016",
+            "sol:deimos:surface:00032"
+          ],
+          "quanta": 23299440,
+          "totalU": 23299.44
+        },
+        {
+          "groupId": "g2-sol-deimos-470ef0dd-vein-2",
+          "cellIds": [
+            "sol:deimos:surface:00019",
+            "sol:deimos:surface:00021",
+            "sol:deimos:surface:00037"
+          ],
+          "quanta": 7392206,
+          "totalU": 7392.206
+        },
+        {
+          "groupId": "g2-sol-deimos-470ef0dd-vein-4",
+          "cellIds": [
+            "sol:deimos:surface:00022",
+            "sol:deimos:surface:00025",
+            "sol:deimos:surface:00027",
+            "sol:deimos:surface:00028"
+          ],
+          "quanta": 23959634,
+          "totalU": 23959.634
+        }
+      ],
+      "summary": {
+        "totalQuanta": 669282227,
+        "totalU": 669282.227,
+        "gradeMean": {
+          "low": 0.2675346988938239,
+          "medium": 0.4933047974861115,
+          "high": 0.23916050362006508
+        },
+        "types": {
+          "surface": {
+            "quanta": 426793033,
+            "totalU": 426793.033,
+            "gradeMean": {
+              "low": 0.28057098112767553,
+              "medium": 0.635692059257999,
+              "high": 0.08373695961432533
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 82795755,
+            "totalU": 82795.755,
+            "gradeMean": {
+              "low": 0.4441081383265555,
+              "medium": 0.3357384178321809,
+              "high": 0.22015344384126362
+            },
+            "deposits": 20,
+            "groups": 6
+          },
+          "deep": {
+            "quanta": 159693439,
+            "totalU": 159693.439,
+            "gradeMean": {
+              "low": 0.14114675339777027,
+              "medium": 0.19445680319797248,
+              "high": 0.6643964434042574
+            },
+            "deposits": 15,
+            "groups": 1
+          }
+        },
+        "depositCount": 77
+      }
+    },
+    {
+      "bodyId": "io",
+      "seed": "sol:io:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 2,
+        "veinCells": 6,
+        "maxCellFraction": 0.1192487436909427,
+        "maxGroupFraction": 0.6293881968820513,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.6329539800573641,
+              "max": 0.6402483234059567
+            },
+            "medium": {
+              "min": 0.2630195677276713,
+              "max": 0.27516913592778275
+            },
+            "high": {
+              "min": 0.08990874625513777,
+              "max": 0.09688252899008319
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.3581341331342979,
+              "max": 0.3678394099104031
+            },
+            "medium": {
+              "min": 0.4674246444270359,
+              "max": 0.48277376122366356
+            },
+            "high": {
+              "min": 0.1567155501060962,
+              "max": 0.16705096865453117
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.16364425650356595,
+              "max": 0.17090852122871464
+            },
+            "medium": {
+              "min": 0.30596564875597876,
+              "max": 0.316690943992313
+            },
+            "high": {
+              "min": 0.5185811377001454,
+              "max": 0.5255586280935902
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 22,
+        "groupCount": 6,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 424087618053,
+        "maxCellFraction": 0.09255404652328376,
+        "maxGroupFraction": 0.32967737095608923,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.5951658786169446,
+                "max": 0.6863211644580589,
+                "actualMaxDeviation": 0.050000000000000044
+              },
+              "medium": {
+                "min": 0.19787721702337413,
+                "max": 0.3516090572844188,
+                "actualMaxDeviation": 0.08150262454849894
+              },
+              "high": {
+                "min": 0.04516449324068803,
+                "max": 0.14357240280602127,
+                "actualMaxDeviation": 0.05
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 22,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.3124997626058758,
+                "max": 0.3889915056827337,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.4177369987632469,
+                "max": 0.5207701842174033,
+                "actualMaxDeviation": 0.0589236026589437
+              },
+              "high": {
+                "min": 0.11653932121969934,
+                "max": 0.21083963597193361,
+                "actualMaxDeviation": 0.05000000000000002
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 12,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.11786900991108266,
+                "max": 0.2137605649356284,
+                "actualMaxDeviation": 0.05
+              },
+              "medium": {
+                "min": 0.2401033005221862,
+                "max": 0.3831723962244374,
+                "actualMaxDeviation": 0.07315809992000283
+              },
+              "high": {
+                "min": 0.4721166937844828,
+                "max": 0.5633205162642155,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-io-ba5fbfd-vein-3",
+          "cellIds": [
+            "sol:io:surface:00000",
+            "sol:io:surface:00002",
+            "sol:io:surface:00007",
+            "sol:io:surface:00008"
+          ],
+          "quanta": 142769182341,
+          "totalU": 142769182.341
+        },
+        {
+          "groupId": "g2-sol-io-ba5fbfd-vein-5",
+          "cellIds": [
+            "sol:io:surface:00003",
+            "sol:io:surface:00039",
+            "sol:io:surface:00040"
+          ],
+          "quanta": 266217705756,
+          "totalU": 266217705.756
+        },
+        {
+          "groupId": "g2-sol-io-ba5fbfd-vein-4",
+          "cellIds": [
+            "sol:io:surface:00006",
+            "sol:io:surface:00009",
+            "sol:io:surface:00038"
+          ],
+          "quanta": 237003600297,
+          "totalU": 237003600.297
+        },
+        {
+          "groupId": "g2-sol-io-ba5fbfd-vein-0",
+          "cellIds": [
+            "sol:io:surface:00013",
+            "sol:io:surface:00014",
+            "sol:io:surface:00031"
+          ],
+          "quanta": 158492757040,
+          "totalU": 158492757.04
+        },
+        {
+          "groupId": "g2-sol-io-ba5fbfd-vein-1",
+          "cellIds": [
+            "sol:io:surface:00018",
+            "sol:io:surface:00019",
+            "sol:io:surface:00020",
+            "sol:io:surface:00029",
+            "sol:io:surface:00030",
+            "sol:io:surface:00033"
+          ],
+          "quanta": 426346878285,
+          "totalU": 426346878.285
+        },
+        {
+          "groupId": "g2-sol-io-ba5fbfd-vein-2",
+          "cellIds": [
+            "sol:io:surface:00024",
+            "sol:io:surface:00025",
+            "sol:io:surface:00041"
+          ],
+          "quanta": 62394452322,
+          "totalU": 62394452.322
+        }
+      ],
+      "summary": {
+        "totalQuanta": 4240876180538,
+        "totalU": 4240876180.538,
+        "gradeMean": {
+          "low": 0.47233246270170703,
+          "medium": 0.33995055273710145,
+          "high": 0.18771698456119146
+        },
+        "types": {
+          "surface": {
+            "quanta": 2218989756064,
+            "totalU": 2218989756.064,
+            "gradeMean": {
+              "low": 0.6363211644580589,
+              "medium": 0.2701064327359198,
+              "high": 0.09357240280602128
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 1293224576041,
+            "totalU": 1293224576.041,
+            "gradeMean": {
+              "low": 0.36249976260587574,
+              "medium": 0.4766606014221906,
+              "high": 0.16083963597193357
+            },
+            "deposits": 22,
+            "groups": 6
+          },
+          "deep": {
+            "quanta": 728661848433,
+            "totalU": 728661848.433,
+            "gradeMean": {
+              "low": 0.16786900991108264,
+              "medium": 0.3100142963044345,
+              "high": 0.5221166937844829
+            },
+            "deposits": 12,
+            "groups": 1
+          }
+        },
+        "depositCount": 76
+      }
+    },
+    {
+      "bodyId": "europa",
+      "seed": "sol:europa:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 2,
+        "veinCells": 5,
+        "maxCellFraction": 0.1299442570114851,
+        "maxGroupFraction": 0.6753195010645974,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.30096186235760847,
+              "max": 0.3082995367779354
+            },
+            "medium": {
+              "min": 0.6702084403526452,
+              "max": 0.683163389880624
+            },
+            "high": {
+              "min": 0.014125534354951395,
+              "max": 0.021793730431478635
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.2675684773630876,
+              "max": 0.2960651851452369
+            },
+            "medium": {
+              "min": 0.5450598258597943,
+              "max": 0.5549821068009528
+            },
+            "high": {
+              "min": 0.1588749889949688,
+              "max": 0.17812430530175355
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.04060137347674781,
+              "max": 0.04789952882363313
+            },
+            "medium": {
+              "min": 0.6988141723423473,
+              "max": 0.7108114604222797
+            },
+            "high": {
+              "min": 0.24764983590156703,
+              "max": 0.2549930040540632
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 27,
+        "groupCount": 6,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 1305210441229,
+        "maxCellFraction": 0.08464718310353561,
+        "maxGroupFraction": 0.2865845509103798,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.014131305604241789
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.2551148879225366,
+                "max": 0.3377998553128983,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.6341336397043882,
+                "max": 0.7302551558358661,
+                "actualMaxDeviation": 0.054211784564058396
+              },
+              "high": {
+                "min": 0.005223081022638203,
+                "max": 0.03297304640989751,
+                "actualMaxDeviation": 0.014131305604241792
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 27,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.23949527235875417,
+                "max": 0.32736878525465724,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.47124250384876315,
+                "max": 0.6235253739217225,
+                "actualMaxDeviation": 0.07940797418924234
+              },
+              "high": {
+                "min": 0.13340077499266123,
+                "max": 0.22198073670733723,
+                "actualMaxDeviation": 0.05000000000000002
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 19,
+            "amplitudes": {
+              "low": 0.03323331102670636,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.011077770342235449,
+                "max": 0.07004675036096222,
+                "actualMaxDeviation": 0.03323331102670636
+              },
+              "medium": {
+                "min": 0.6496252054282252,
+                "max": 0.7433468290322092,
+                "actualMaxDeviation": 0.054837334248817315
+              },
+              "high": {
+                "min": 0.20647000877599,
+                "max": 0.30122637895401566,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-europa-76e8715d-vein-1",
+          "cellIds": [
+            "sol:europa:surface:00002",
+            "sol:europa:surface:00003",
+            "sol:europa:surface:00039",
+            "sol:europa:surface:00041"
+          ],
+          "quanta": 745250773389,
+          "totalU": 745250773.389
+        },
+        {
+          "groupId": "g2-sol-europa-76e8715d-vein-4",
+          "cellIds": [
+            "sol:europa:surface:00004",
+            "sol:europa:surface:00006",
+            "sol:europa:surface:00010",
+            "sol:europa:surface:00022",
+            "sol:europa:surface:00025",
+            "sol:europa:surface:00027",
+            "sol:europa:surface:00028"
+          ],
+          "quanta": 907576939336,
+          "totalU": 907576939.336
+        },
+        {
+          "groupId": "g2-sol-europa-76e8715d-vein-2",
+          "cellIds": [
+            "sol:europa:surface:00011",
+            "sol:europa:surface:00012",
+            "sol:europa:surface:00018",
+            "sol:europa:surface:00021"
+          ],
+          "quanta": 168088566983,
+          "totalU": 168088566.983
+        },
+        {
+          "groupId": "g2-sol-europa-76e8715d-vein-3",
+          "cellIds": [
+            "sol:europa:surface:00013",
+            "sol:europa:surface:00014",
+            "sol:europa:surface:00015",
+            "sol:europa:surface:00016"
+          ],
+          "quanta": 522548803720,
+          "totalU": 522548803.72
+        },
+        {
+          "groupId": "g2-sol-europa-76e8715d-vein-5",
+          "cellIds": [
+            "sol:europa:surface:00019",
+            "sol:europa:surface:00030",
+            "sol:europa:surface:00033",
+            "sol:europa:surface:00035",
+            "sol:europa:surface:00037"
+          ],
+          "quanta": 1139932001625,
+          "totalU": 1139932001.625
+        },
+        {
+          "groupId": "g2-sol-europa-76e8715d-vein-0",
+          "cellIds": [
+            "sol:europa:surface:00029",
+            "sol:europa:surface:00031",
+            "sol:europa:surface:00032"
+          ],
+          "quanta": 494249295409,
+          "totalU": 494249295.409
+        }
+      ],
+      "summary": {
+        "totalQuanta": 13052104412295,
+        "totalU": 13052104412.295,
+        "gradeMean": {
+          "low": 0.26281176612690643,
+          "medium": 0.6415179952560358,
+          "high": 0.09567023861705752
+        },
+        "types": {
+          "surface": {
+            "quanta": 7380538822479,
+            "totalU": 7380538822.479,
+            "gradeMean": {
+              "low": 0.30511488792253666,
+              "medium": 0.6760433712718077,
+              "high": 0.018841740805655725
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 3977646380462,
+            "totalU": 3977646380.462,
+            "gradeMean": {
+              "low": 0.2773687852546572,
+              "medium": 0.5506504780380056,
+              "high": 0.1719807367073372
+            },
+            "deposits": 27,
+            "groups": 6
+          },
+          "deep": {
+            "quanta": 1693919209354,
+            "totalU": 1693919209.354,
+            "gradeMean": {
+              "low": 0.04431108136894183,
+              "medium": 0.7044625396770428,
+              "high": 0.25122637895401567
+            },
+            "deposits": 19,
+            "groups": 1
+          }
+        },
+        "depositCount": 88
+      }
+    },
+    {
+      "bodyId": "ganymede",
+      "seed": "sol:ganymede:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 5,
+        "veinCells": 16,
+        "maxCellFraction": 0.08250401358089621,
+        "maxGroupFraction": 0.4831244934422249,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.5088090528146266,
+              "max": 0.51627374691599
+            },
+            "medium": {
+              "min": 0.45572279501231727,
+              "max": 0.4687325816721689
+            },
+            "high": {
+              "min": 0.0222450553814013,
+              "max": 0.029860416123836157
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.29018007448781635,
+              "max": 0.3146292953351548
+            },
+            "medium": {
+              "min": 0.4750075315655513,
+              "max": 0.5175525876813872
+            },
+            "high": {
+              "min": 0.19125457338808435,
+              "max": 0.21746080784319302
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.05989592613376817,
+              "max": 0.06707176402308186
+            },
+            "medium": {
+              "min": 0.5527853185919814,
+              "max": 0.5644853626614206
+            },
+            "high": {
+              "min": 0.37466732143013104,
+              "max": 0.3824958754625015
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 19,
+        "groupCount": 6,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 581253205011,
+        "maxCellFraction": 0.09411850883992467,
+        "maxGroupFraction": 0.3392733626827882,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.019346765165682882
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.4625194693915547,
+                "max": 0.5543163243317548,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.4098074085735591,
+                "max": 0.5228454066934433,
+                "actualMaxDeviation": 0.061160562972575105
+              },
+              "high": {
+                "min": 0.010193857069679183,
+                "max": 0.04514245205326006,
+                "actualMaxDeviation": 0.019346765165682886
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 19,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.25653062025085094,
+                "max": 0.3378676866730809,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.42395516750259193,
+                "max": 0.5566710006376591,
+                "actualMaxDeviation": 0.06813813903609772
+              },
+              "high": {
+                "min": 0.1549365181475878,
+                "max": 0.25365315797432114,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 21,
+            "amplitudes": {
+              "low": 0.047514318834291774,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.015838106278097258,
+                "max": 0.10964316636114557,
+                "actualMaxDeviation": 0.047514318834291774
+              },
+              "medium": {
+                "min": 0.4721912585214047,
+                "max": 0.6274907712218281,
+                "actualMaxDeviation": 0.08581150619161443
+              },
+              "high": {
+                "min": 0.33467945025115137,
+                "max": 0.42864481017459183,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-ganymede-3d3bc6a6-vein-5",
+          "cellIds": [
+            "sol:ganymede:surface:00003",
+            "sol:ganymede:surface:00034",
+            "sol:ganymede:surface:00039"
+          ],
+          "quanta": 194437252420,
+          "totalU": 194437252.42
+        },
+        {
+          "groupId": "g2-sol-ganymede-3d3bc6a6-vein-2",
+          "cellIds": [
+            "sol:ganymede:surface:00008",
+            "sol:ganymede:surface:00029",
+            "sol:ganymede:surface:00033"
+          ],
+          "quanta": 124219341859,
+          "totalU": 124219341.859
+        },
+        {
+          "groupId": "g2-sol-ganymede-3d3bc6a6-vein-3",
+          "cellIds": [
+            "sol:ganymede:surface:00009",
+            "sol:ganymede:surface:00010",
+            "sol:ganymede:surface:00026",
+            "sol:ganymede:surface:00036"
+          ],
+          "quanta": 416363011180,
+          "totalU": 416363011.18
+        },
+        {
+          "groupId": "g2-sol-ganymede-3d3bc6a6-vein-0",
+          "cellIds": [
+            "sol:ganymede:surface:00011",
+            "sol:ganymede:surface:00015",
+            "sol:ganymede:surface:00016"
+          ],
+          "quanta": 157538118129,
+          "totalU": 157538118.129
+        },
+        {
+          "groupId": "g2-sol-ganymede-3d3bc6a6-vein-1",
+          "cellIds": [
+            "sol:ganymede:surface:00020",
+            "sol:ganymede:surface:00023",
+            "sol:ganymede:surface:00025"
+          ],
+          "quanta": 143544742784,
+          "totalU": 143544742.784
+        },
+        {
+          "groupId": "g2-sol-ganymede-3d3bc6a6-vein-4",
+          "cellIds": [
+            "sol:ganymede:surface:00024",
+            "sol:ganymede:surface:00027",
+            "sol:ganymede:surface:00028"
+          ],
+          "quanta": 532023302825,
+          "totalU": 532023302.825
+        }
+      ],
+      "summary": {
+        "totalQuanta": 5812532050114,
+        "totalU": 5812532050.114,
+        "gradeMean": {
+          "low": 0.3647285770928444,
+          "medium": 0.48870302968519996,
+          "high": 0.14656839322195578
+        },
+        "types": {
+          "surface": {
+            "quanta": 3051035390235,
+            "totalU": 3051035390.235,
+            "gradeMean": {
+              "low": 0.5125194693915546,
+              "medium": 0.46168484372086827,
+              "high": 0.02579568688757718
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 1568125769197,
+            "totalU": 1568125769.197,
+            "gradeMean": {
+              "low": 0.3065306202508509,
+              "medium": 0.48853286160156134,
+              "high": 0.20493651814758782
+            },
+            "deposits": 19,
+            "groups": 6
+          },
+          "deep": {
+            "quanta": 1193370890682,
+            "totalU": 1193370890.682,
+            "gradeMean": {
+              "low": 0.06335242511238905,
+              "medium": 0.558002764713019,
+              "high": 0.37864481017459173
+            },
+            "deposits": 21,
+            "groups": 1
+          }
+        },
+        "depositCount": 82
+      }
+    },
+    {
+      "bodyId": "callisto",
+      "seed": "sol:callisto:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 2,
+        "veinCells": 10,
+        "maxCellFraction": 0.10390407462975197,
+        "maxGroupFraction": 0.7795926091903362,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.745753082677859,
+              "max": 0.7535049438943594
+            },
+            "medium": {
+              "min": 0.15302147354752912,
+              "max": 0.16622817108974947
+            },
+            "high": {
+              "min": 0.0877993648385268,
+              "max": 0.09527474390320595
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.424073626584676,
+              "max": 0.4436671714497031
+            },
+            "medium": {
+              "min": 0.15844059627054485,
+              "max": 0.1836820194508717
+            },
+            "high": {
+              "min": 0.39107784534012213,
+              "max": 0.3993519299938275
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.038588020949083014,
+              "max": 0.0460988277666444
+            },
+            "medium": {
+              "min": 0.4239590996215292,
+              "max": 0.43687457646338135
+            },
+            "high": {
+              "min": 0.523676729405823,
+              "max": 0.5302972387695339
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 15,
+        "groupCount": 5,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 2172927613717,
+        "maxCellFraction": 0.1,
+        "maxGroupFraction": 0.4216450396858334,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.7144003369544087,
+                "max": 0.7989881435758435,
+                "actualMaxDeviation": 0.050000000000000044
+              },
+              "medium": {
+                "min": 0.07739403483774712,
+                "max": 0.22540129540611184,
+                "actualMaxDeviation": 0.08292190822688664
+              },
+              "high": {
+                "min": 0.040695913359522815,
+                "max": 0.13020845813315512,
+                "actualMaxDeviation": 0.05
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 15,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.388878841418773,
+                "max": 0.4824484509790498,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.12280175114935798,
+                "max": 0.1953025632623298,
+                "actualMaxDeviation": 0.04203107355208524
+              },
+              "high": {
+                "min": 0.3462883338797838,
+                "max": 0.4260972473597695,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 19,
+            "amplitudes": {
+              "low": 0.0323086588899605,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.014585676889515797,
+                "max": 0.07538687074324116,
+                "actualMaxDeviation": 0.0323086588899605
+              },
+              "medium": {
+                "min": 0.37249306574466323,
+                "max": 0.473510452987598,
+                "actualMaxDeviation": 0.05669736037028339
+              },
+              "high": {
+                "min": 0.4901571604985574,
+                "max": 0.5777313620317728,
+                "actualMaxDeviation": 0.050000000000000044
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-callisto-9cda5fd2-vein-3",
+          "cellIds": [
+            "sol:callisto:surface:00000",
+            "sol:callisto:surface:00002",
+            "sol:callisto:surface:00007"
+          ],
+          "quanta": 168487263599,
+          "totalU": 168487263.599
+        },
+        {
+          "groupId": "g2-sol-callisto-9cda5fd2-vein-0",
+          "cellIds": [
+            "sol:callisto:surface:00001",
+            "sol:callisto:surface:00006",
+            "sol:callisto:surface:00026"
+          ],
+          "quanta": 623971136261,
+          "totalU": 623971136.261
+        },
+        {
+          "groupId": "g2-sol-callisto-9cda5fd2-vein-4",
+          "cellIds": [
+            "sol:callisto:surface:00008",
+            "sol:callisto:surface:00010",
+            "sol:callisto:surface:00036"
+          ],
+          "quanta": 994610435361,
+          "totalU": 994610435.361
+        },
+        {
+          "groupId": "g2-sol-callisto-9cda5fd2-vein-2",
+          "cellIds": [
+            "sol:callisto:surface:00017",
+            "sol:callisto:surface:00020",
+            "sol:callisto:surface:00021"
+          ],
+          "quanta": 177178706763,
+          "totalU": 177178706.763
+        },
+        {
+          "groupId": "g2-sol-callisto-9cda5fd2-vein-1",
+          "cellIds": [
+            "sol:callisto:surface:00029",
+            "sol:callisto:surface:00033",
+            "sol:callisto:surface:00034"
+          ],
+          "quanta": 394633369083,
+          "totalU": 394633369.083
+        }
+      ],
+      "summary": {
+        "totalQuanta": 21729276137170,
+        "totalU": 21729276137.17,
+        "gradeMean": {
+          "low": 0.594381236778998,
+          "medium": 0.2068720159072073,
+          "high": 0.19874674731379524
+        },
+        "types": {
+          "surface": {
+            "quanta": 15647561562484,
+            "totalU": 15647561562.484,
+            "gradeMean": {
+              "low": 0.7489881435758438,
+              "medium": 0.16031594306463381,
+              "high": 0.09069591335952285
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 2358880911067,
+            "totalU": 2358880911.067,
+            "gradeMean": {
+              "low": 0.4388788414187731,
+              "medium": 0.16483282470144325,
+              "high": 0.39628833387978385
+            },
+            "deposits": 15,
+            "groups": 5
+          },
+          "deep": {
+            "quanta": 3722833663619,
+            "totalU": 3722833663.619,
+            "gradeMean": {
+              "low": 0.04307821185328067,
+              "medium": 0.4291904261149466,
+              "high": 0.5277313620317727
+            },
+            "deposits": 19,
+            "groups": 1
+          }
+        },
+        "depositCount": 76
+      }
+    },
+    {
+      "bodyId": "titan",
+      "seed": "sol:titan:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 3,
+        "veinCells": 12,
+        "maxCellFraction": 0.10317931622474327,
+        "maxGroupFraction": 0.5540039963942915,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.6779621424476765,
+              "max": 0.6854177356462143
+            },
+            "medium": {
+              "min": 0.25827557582163974,
+              "max": 0.2709769115404949
+            },
+            "high": {
+              "min": 0.05023243439375082,
+              "max": 0.057772737434046664
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.3842811255867519,
+              "max": 0.4048300577069559
+            },
+            "medium": {
+              "min": 0.341848171289206,
+              "max": 0.3665446821089242
+            },
+            "high": {
+              "min": 0.24477137591184248,
+              "max": 0.2661219331441181
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.12256658546806493,
+              "max": 0.12947945118316628
+            },
+            "medium": {
+              "min": 0.36200693339548284,
+              "max": 0.3735561522233414
+            },
+            "high": {
+              "min": 0.5029482615472337,
+              "max": 0.5106123321050366
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 11,
+        "groupCount": 3,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 2467214197465,
+        "maxCellFraction": 0.09999999999996757,
+        "maxGroupFraction": 0.471511209003968,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 40,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.0401556750718737
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.6505455877982942,
+                "max": 0.7322350146481769,
+                "actualMaxDeviation": 0.050000000000000044
+              },
+              "medium": {
+                "min": 0.1910799313171538,
+                "max": 0.3140194762145565,
+                "actualMaxDeviation": 0.07314415393883775
+              },
+              "high": {
+                "min": 0.021740301761073208,
+                "max": 0.0936965751677053,
+                "actualMaxDeviation": 0.040155675071873696
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 11,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.3526039671197787,
+                "max": 0.44088025465607644,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.26467367994802266,
+                "max": 0.4364724114658435,
+                "actualMaxDeviation": 0.08823977879045336
+              },
+              "high": {
+                "min": 0.2084746844811879,
+                "max": 0.3062062866054475,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 15,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.07592226851964369,
+                "max": 0.15121807117100927,
+                "actualMaxDeviation": 0.05
+              },
+              "medium": {
+                "min": 0.3184548476740061,
+                "max": 0.4524581055508572,
+                "actualMaxDeviation": 0.08431062609447348
+              },
+              "high": {
+                "min": 0.4559302520239726,
+                "max": 0.5429563275947048,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-titan-79e02d35-vein-1",
+          "cellIds": [
+            "sol:titan:surface:00000",
+            "sol:titan:surface:00008",
+            "sol:titan:surface:00009",
+            "sol:titan:surface:00010",
+            "sol:titan:surface:00036"
+          ],
+          "quanta": 3784040762226,
+          "totalU": 3784040762.226
+        },
+        {
+          "groupId": "g2-sol-titan-79e02d35-vein-0",
+          "cellIds": [
+            "sol:titan:surface:00011",
+            "sol:titan:surface:00016",
+            "sol:titan:surface:00017"
+          ],
+          "quanta": 626218776087,
+          "totalU": 626218776.087
+        },
+        {
+          "groupId": "g2-sol-titan-79e02d35-vein-2",
+          "cellIds": [
+            "sol:titan:surface:00014",
+            "sol:titan:surface:00029",
+            "sol:titan:surface:00031"
+          ],
+          "quanta": 3615086816060,
+          "totalU": 3615086816.06
+        }
+      ],
+      "summary": {
+        "totalQuanta": 24672141974658,
+        "totalU": 24672141974.658,
+        "gradeMean": {
+          "low": 0.41555016018848867,
+          "medium": 0.3251875875038908,
+          "high": 0.2592622523076202
+        },
+        "types": {
+          "surface": {
+            "quanta": 9022552314149,
+            "totalU": 9022552314.149,
+            "gradeMean": {
+              "low": 0.6822350146481767,
+              "medium": 0.26422408525599167,
+              "high": 0.05354090009583159
+            },
+            "deposits": 40,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 8025346354373,
+            "totalU": 8025346354.373,
+            "gradeMean": {
+              "low": 0.3908802546560765,
+              "medium": 0.352913458738476,
+              "high": 0.2562062866054476
+            },
+            "deposits": 11,
+            "groups": 3
+          },
+          "deep": {
+            "quanta": 7624243306136,
+            "totalU": 7624243306.136,
+            "gradeMean": {
+              "low": 0.12592226851964372,
+              "medium": 0.36814747945638376,
+              "high": 0.5059302520239727
+            },
+            "deposits": 15,
+            "groups": 1
+          }
+        },
+        "depositCount": 66
+      }
+    },
+    {
+      "bodyId": "enceladus",
+      "seed": "sol:enceladus:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 4,
+        "veinCells": 17,
+        "maxCellFraction": 0.08229685161907668,
+        "maxGroupFraction": 0.4443553696994868,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.4456734132093647,
+              "max": 0.45309954558846444
+            },
+            "medium": {
+              "min": 0.4985211868618852,
+              "max": 0.5108269443397647
+            },
+            "high": {
+              "min": 0.04266134493848832,
+              "max": 0.0499235586771235
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.14108125306230085,
+              "max": 0.16872677356127697
+            },
+            "medium": {
+              "min": 0.6903629335039311,
+              "max": 0.7461438519493693
+            },
+            "high": {
+              "min": 0.11074712830798498,
+              "max": 0.14449962755122953
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.10844605894221188,
+              "max": 0.11548800086995782
+            },
+            "medium": {
+              "min": 0.2921924179076594,
+              "max": 0.3047188904687208
+            },
+            "high": {
+              "min": 0.5854557176908827,
+              "max": 0.5924243842946715
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 15,
+        "groupCount": 5,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 24886724020,
+        "maxCellFraction": 0.09932370775936053,
+        "maxGroupFraction": 0.3780742412261763,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.03452280427620281
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.42028943917353645,
+                "max": 0.499010531778913,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.4384893179702248,
+                "max": 0.5619518002854053,
+                "actualMaxDeviation": 0.06646974454925841
+              },
+              "high": {
+                "min": 0.011507601425400936,
+                "max": 0.06681813986222562,
+                "actualMaxDeviation": 0.03452280427620281
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 15,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.0999210768379271,
+                "max": 0.19154338449808278,
+                "actualMaxDeviation": 0.05
+              },
+              "medium": {
+                "min": 0.6839520595545225,
+                "max": 0.8001732773752444,
+                "actualMaxDeviation": 0.07900843440084981
+              },
+              "high": {
+                "min": 0.07891408018767833,
+                "max": 0.1768732164745994,
+                "actualMaxDeviation": 0.05
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 16,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.07268862368778473,
+                "max": 0.16347198170376942,
+                "actualMaxDeviation": 0.05
+              },
+              "medium": {
+                "min": 0.19814887840067963,
+                "max": 0.3546886627740369,
+                "actualMaxDeviation": 0.10000000000000009
+              },
+              "high": {
+                "min": 0.5385026676141916,
+                "max": 0.638379139895551,
+                "actualMaxDeviation": 0.050000000000000044
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-enceladus-ef440a5b-vein-2",
+          "cellIds": [
+            "sol:enceladus:surface:00001",
+            "sol:enceladus:surface:00006",
+            "sol:enceladus:surface:00026"
+          ],
+          "quanta": 20744999970,
+          "totalU": 20744999.97
+        },
+        {
+          "groupId": "g2-sol-enceladus-ef440a5b-vein-4",
+          "cellIds": [
+            "sol:enceladus:surface:00012",
+            "sol:enceladus:surface:00015",
+            "sol:enceladus:surface:00016"
+          ],
+          "quanta": 3765223855,
+          "totalU": 3765223.855
+        },
+        {
+          "groupId": "g2-sol-enceladus-ef440a5b-vein-0",
+          "cellIds": [
+            "sol:enceladus:surface:00019",
+            "sol:enceladus:surface:00020",
+            "sol:enceladus:surface:00036"
+          ],
+          "quanta": 7430037716,
+          "totalU": 7430037.716
+        },
+        {
+          "groupId": "g2-sol-enceladus-ef440a5b-vein-1",
+          "cellIds": [
+            "sol:enceladus:surface:00029",
+            "sol:enceladus:surface:00031",
+            "sol:enceladus:surface:00033"
+          ],
+          "quanta": 9676159302,
+          "totalU": 9676159.302
+        },
+        {
+          "groupId": "g2-sol-enceladus-ef440a5b-vein-3",
+          "cellIds": [
+            "sol:enceladus:surface:00039",
+            "sol:enceladus:surface:00040",
+            "sol:enceladus:surface:00041"
+          ],
+          "quanta": 13253754662,
+          "totalU": 13253754.662
+        }
+      ],
+      "summary": {
+        "totalQuanta": 248867240205,
+        "totalU": 248867240.205,
+        "gradeMean": {
+          "low": 0.33096927963071326,
+          "medium": 0.520517231510349,
+          "high": 0.1485134888589376
+        },
+        "types": {
+          "surface": {
+            "quanta": 155356170039,
+            "totalU": 155356170.039,
+            "gradeMean": {
+              "low": 0.4490105317789127,
+              "medium": 0.5049590625194831,
+              "high": 0.046030405701603744
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 54870175505,
+            "totalU": 54870175.505,
+            "gradeMean": {
+              "low": 0.1499210768379271,
+              "medium": 0.7211648429743944,
+              "high": 0.12891408018767836
+            },
+            "deposits": 15,
+            "groups": 5
+          },
+          "deep": {
+            "quanta": 38640894661,
+            "totalU": 38640894.661,
+            "gradeMean": {
+              "low": 0.11347198170376939,
+              "medium": 0.2981488784006797,
+              "high": 0.5883791398955509
+            },
+            "deposits": 16,
+            "groups": 1
+          }
+        },
+        "depositCount": 73
+      }
+    },
+    {
+      "bodyId": "titania",
+      "seed": "sol:titania:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 4,
+        "veinCells": 14,
+        "maxCellFraction": 0.09177576783355601,
+        "maxGroupFraction": 0.49468758295839277,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.39815554880322745,
+              "max": 0.4053376266730004
+            },
+            "medium": {
+              "min": 0.5650760849849344,
+              "max": 0.5771869718194964
+            },
+            "high": {
+              "min": 0.02451319754291226,
+              "max": 0.032431722443363564
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.4290855068304071,
+              "max": 0.45831756143462454
+            },
+            "medium": {
+              "min": 0.33326592433051117,
+              "max": 0.3723009541013177
+            },
+            "high": {
+              "min": 0.1954620529937233,
+              "max": 0.22350108370023325
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.14819848104895728,
+              "max": 0.1553078122116037
+            },
+            "medium": {
+              "min": 0.2501988310527634,
+              "max": 0.2623465566199852
+            },
+            "high": {
+              "min": 0.588913789839671,
+              "max": 0.5964546412855397
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 19,
+        "groupCount": 4,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 98863163643,
+        "maxCellFraction": 0.09999999999989885,
+        "maxGroupFraction": 0.4999999999985364,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 41,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.020758751551620658
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.36126795033295017,
+                "max": 0.4517570721800439,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.5092821672932321,
+                "max": 0.6309077484304831,
+                "actualMaxDeviation": 0.06128242512456317
+              },
+              "high": {
+                "min": 0.006919583850540222,
+                "max": 0.045928117286308454,
+                "actualMaxDeviation": 0.020758751551620658
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 19,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.39071602914482356,
+                "max": 0.48753959918872336,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.2883933347974815,
+                "max": 0.450705686548967,
+                "actualMaxDeviation": 0.09313137700060387
+              },
+              "high": {
+                "min": 0.15170966130681335,
+                "max": 0.2282486383359188,
+                "actualMaxDeviation": 0.05000000000000002
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 17,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.10124576130881906,
+                "max": 0.18366229145214713,
+                "actualMaxDeviation": 0.05
+              },
+              "medium": {
+                "min": 0.18699262328764954,
+                "max": 0.3197232712920851,
+                "actualMaxDeviation": 0.06948128782825014
+              },
+              "high": {
+                "min": 0.550382043457109,
+                "max": 0.6422803275752813,
+                "actualMaxDeviation": 0.050000000000000044
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-titania-f8d6faa8-vein-1",
+          "cellIds": [
+            "sol:titania:surface:00000",
+            "sol:titania:surface:00007",
+            "sol:titania:surface:00009",
+            "sol:titania:surface:00010",
+            "sol:titania:surface:00029",
+            "sol:titania:surface:00033",
+            "sol:titania:surface:00035",
+            "sol:titania:surface:00037"
+          ],
+          "quanta": 103282078253,
+          "totalU": 103282078.253
+        },
+        {
+          "groupId": "g2-sol-titania-f8d6faa8-vein-2",
+          "cellIds": [
+            "sol:titania:surface:00001",
+            "sol:titania:surface:00004",
+            "sol:titania:surface:00041"
+          ],
+          "quanta": 36087411177,
+          "totalU": 36087411.177
+        },
+        {
+          "groupId": "g2-sol-titania-f8d6faa8-vein-3",
+          "cellIds": [
+            "sol:titania:surface:00022",
+            "sol:titania:surface:00025",
+            "sol:titania:surface:00026",
+            "sol:titania:surface:00027",
+            "sol:titania:surface:00028"
+          ],
+          "quanta": 170811927441,
+          "totalU": 170811927.441
+        },
+        {
+          "groupId": "g2-sol-titania-f8d6faa8-vein-0",
+          "cellIds": [
+            "sol:titania:surface:00023",
+            "sol:titania:surface:00036",
+            "sol:titania:surface:00038"
+          ],
+          "quanta": 31442438012,
+          "totalU": 31442438.012
+        }
+      ],
+      "summary": {
+        "totalQuanta": 988631636431,
+        "totalU": 988631636.431,
+        "gradeMean": {
+          "low": 0.3562583407745975,
+          "medium": 0.42304001306494615,
+          "high": 0.22070164616045632
+        },
+        "types": {
+          "surface": {
+            "quanta": 414320506300,
+            "totalU": 414320506.3,
+            "gradeMean": {
+              "low": 0.401757072180044,
+              "medium": 0.5705645924177952,
+              "high": 0.027678335402160872
+            },
+            "deposits": 41,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 341623854883,
+            "totalU": 341623854.883,
+            "gradeMean": {
+              "low": 0.4407160291448236,
+              "medium": 0.3575743095483631,
+              "high": 0.2017096613068134
+            },
+            "deposits": 19,
+            "groups": 4
+          },
+          "deep": {
+            "quanta": 232687275248,
+            "totalU": 232687275.248,
+            "gradeMean": {
+              "low": 0.15124576130881912,
+              "medium": 0.25647391111589973,
+              "high": 0.5922803275752814
+            },
+            "deposits": 17,
+            "groups": 1
+          }
+        },
+        "depositCount": 77
+      }
+    },
+    {
+      "bodyId": "triton",
+      "seed": "sol:triton:resources:v1",
+      "generatorVersion": 2,
+      "before": {
+        "veinGroups": 3,
+        "veinCells": 8,
+        "maxCellFraction": 0.19836164658898975,
+        "maxGroupFraction": 0.7531860757591797,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.5190522051231923,
+              "max": 0.5266260343438002
+            },
+            "medium": {
+              "min": 0.439809537725829,
+              "max": 0.4532574024501521
+            },
+            "high": {
+              "min": 0.027000706331313445,
+              "max": 0.034534994193793134
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.26880470541518975,
+              "max": 0.3023002767826324
+            },
+            "medium": {
+              "min": 0.2968954921352698,
+              "max": 0.35655038042245646
+            },
+            "high": {
+              "min": 0.37359479839821275,
+              "max": 0.40323328983132656
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.12613681228485238,
+              "max": 0.1329939671608461
+            },
+            "medium": {
+              "min": 0.19582436725253727,
+              "max": 0.20996665021719885
+            },
+            "high": {
+              "min": 0.6638965374979487,
+              "max": 0.6714932628705463
+            }
+          }
+        }
+      },
+      "after": {
+        "candidateCells": 42,
+        "requiredCoverage": 11,
+        "veinCells": 12,
+        "groupCount": 3,
+        "minimumGroupCells": 3,
+        "exceptions": [],
+        "nominalCellCapQuanta": 118417226952,
+        "maxCellFraction": 0.09999999999957776,
+        "maxGroupFraction": 0.43508793911475896,
+        "qualityJitterDiagnostics": {
+          "surface": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 42,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.022622823140700347
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.48259644375423394,
+                "max": 0.5728962805937046,
+                "actualMaxDeviation": 0.050000000000000044
+              },
+              "medium": {
+                "min": 0.3789348120819793,
+                "max": 0.5022531177520336,
+                "actualMaxDeviation": 0.06800514313671568
+              },
+              "high": {
+                "min": 0.008490464885880844,
+                "max": 0.05278658732830081,
+                "actualMaxDeviation": 0.022622823140700347
+              }
+            }
+          },
+          "vein": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 12,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.2453348003327847,
+                "max": 0.3431852472743872,
+                "actualMaxDeviation": 0.04999999999999999
+              },
+              "medium": {
+                "min": 0.28929969649307247,
+                "max": 0.3537174931873189,
+                "actualMaxDeviation": 0.0324837674897927
+              },
+              "high": {
+                "min": 0.33683333371706153,
+                "max": 0.4328817356843501,
+                "actualMaxDeviation": 0.04999999999999999
+              }
+            }
+          },
+          "deep": {
+            "policy": "per-component-v2",
+            "maxDeviation": 0.05,
+            "count": 16,
+            "amplitudes": {
+              "low": 0.05,
+              "high": 0.05
+            },
+            "scaleK": 1,
+            "mediumGuardRelaxed": false,
+            "ranges": {
+              "low": {
+                "min": 0.08103054830105975,
+                "max": 0.16444330184694148,
+                "actualMaxDeviation": 0.05
+              },
+              "medium": {
+                "min": 0.14015459418977783,
+                "max": 0.2921217656125433,
+                "actualMaxDeviation": 0.09220941550695594
+              },
+              "high": {
+                "min": 0.6190571015933528,
+                "max": 0.711515178974302,
+                "actualMaxDeviation": 0.050000000000000044
+              }
+            }
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupId": "g2-sol-triton-446fa496-vein-1",
+          "cellIds": [
+            "sol:triton:surface:00001",
+            "sol:triton:surface:00022",
+            "sol:triton:surface:00027"
+          ],
+          "quanta": 98492541517,
+          "totalU": 98492541.517
+        },
+        {
+          "groupId": "g2-sol-triton-446fa496-vein-0",
+          "cellIds": [
+            "sol:triton:surface:00011",
+            "sol:triton:surface:00013",
+            "sol:triton:surface:00031",
+            "sol:triton:surface:00034"
+          ],
+          "quanta": 122413032238,
+          "totalU": 122413032.238
+        },
+        {
+          "groupId": "g2-sol-triton-446fa496-vein-2",
+          "cellIds": [
+            "sol:triton:surface:00012",
+            "sol:triton:surface:00017",
+            "sol:triton:surface:00023",
+            "sol:triton:surface:00024",
+            "sol:triton:surface:00038"
+          ],
+          "quanta": 60446817872,
+          "totalU": 60446817.872
+        }
+      ],
+      "summary": {
+        "totalQuanta": 1184172269525,
+        "totalU": 1184172269.525,
+        "gradeMean": {
+          "low": 0.3851647985387961,
+          "medium": 0.3644625616546523,
+          "high": 0.2503726398065512
+        },
+        "types": {
+          "surface": {
+            "quanta": 649996456986,
+            "totalU": 649996456.986,
+            "gradeMean": {
+              "low": 0.5228962805937044,
+              "medium": 0.4469399552186949,
+              "high": 0.03016376418760046
+            },
+            "deposits": 42,
+            "groups": 1
+          },
+          "vein": {
+            "quanta": 281352391627,
+            "totalU": 281352391.627,
+            "gradeMean": {
+              "low": 0.2953348003327847,
+              "medium": 0.32178346398286517,
+              "high": 0.3828817356843502
+            },
+            "deposits": 12,
+            "groups": 3
+          },
+          "deep": {
+            "quanta": 252823420912,
+            "totalU": 252823420.912,
+            "gradeMean": {
+              "low": 0.13103054830105976,
+              "medium": 0.19991235010558742,
+              "high": 0.6690571015933529
+            },
+            "deposits": 16,
+            "groups": 1
+          }
+        },
+        "depositCount": 70
+      }
+    }
+  ]
+}

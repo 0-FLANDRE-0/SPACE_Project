@@ -68,3 +68,30 @@ python3 scripts/package-release.py
 ```
 
 HTML ZIP에는 42모듈/두 자원·환경 Worker/19개v2와manifest/사용자v1원본/지구마스크/Three.js/표면이미지/라이선스/serve.py/SOURCE.json이 들어갑니다. 압축 해제 후 `python3 serve.py` (Windows `py serve.py`)、file:// 직접 실행은 지원하지 않습니다. 최종 ZIP의 CRC/소스 SHA/독립 서버에서 공식 로드와 Worker 미리보기를 별도로 검증합니다.
+
+## v0.5D.1 — 광맥 집중도·성분별 품질 편차 보정
+
+같은 `feat/v0.5d-resource-geology-grade-sol-presets` 브랜치/PR #6에 추가 커밋으로 반영합니다. [D.1 지시서](D1/REQUEST_KO.md), [천체별 전→후 표·지구 그룹별 셀/실제 U](D1/COMPARISON.md), [전 성분·A·k·예외 진단](D1/REPORT.json), [v0.5D25bc2ea 고정 비교 기준](D1/BASELINE.json).
+
+- 지구: **광맥1그룹·2셀 → 3그룹·13셀**, 그룹당 최소3셀, 육지/대륙붕 후보40셀 중13셀 사용. 최대 셀 비중 약35.6%→10%, 최대 그룹100%→50%. 총량/25·65·10%/형태별 품질 평균은 그대로입니다.
+- 공식19개 모두 단일 셀 ore≤10%, 2개 이상 광맥 그룹 각각≤광맥 예산50%를 **정수 quanta**로 검사했습니다. 예외 천체 허용 목록은 비어 있습니다. 수소 공급원도 원본과 같습니다.
+- 고정 최소3/가변 최소2·최대6그룹, 최소3셀/그룹·후보25% 커버리지의 공용 규칙을 프로필로 분리했습니다. 가중치 분배에서 상한에 닿은 셀/그룹을 포화시키고 같은 형태의 잔여 후보로 정수 재분배합니다. 지구 시드10개 모두 기준을 만족하면서 그룹수/위치/길이가 달라졌습니다.
+- 타이탄처럼 광맥 예산 quanta가 홀수인 경우2그룹으로50%씩 정확히 나눌 수 없습니다. 후보가 충분할 때3그룹 이상을 선택하므로 공식 데이터의 상한 예외로 처리하지 않았습니다. 임의 입력의 후보 부족/단일 quanta 예외 사유는 concentrationDiagnostics에 남기고 테스트합니다.
+- 저·고 성분을 각각 중심화·정규화해 `A=min(0.05,0.75t,0.75(1−t))`까지 사용합니다. 중품질 범위 위반만 공통k로 줄이며 개별 clamp는 하지 않습니다. 공식 프리셋에서 k<1인 형태는 없고, 별도 합성 테스트에서 k<1·극단0/100%·단일 매장지를 확인했습니다.
+- 지구 심층 고품질 **28.0642–38.0000%**, 금성 심층 고품질 **77.0000–85.6280%**로 확대됐으며 지정 가중평균33/82%를 유지합니다. 중품질은 지시서의 `1−저−고` 종속값이므로 두 편차의 합에 따라±5%p보다 클 수 있습니다. 모든 실제 중품질 범위도 REPORT.json에 기록합니다.
+- 자원 generatorVersion2 / qualityJitterPolicy=per-component-v2 / maxDeviation0.05를 기록합니다. 기존 jitter는 기존 UI 호환용으로 **성분별 최대 편차 요청의 별칭**으로 남깁니다(최대0.05). 격자 generatorVersion1과 템플릿 schema2는 그대로입니다.
+- 배치용 시드만resources-v2로 분리하고 총량/형태/타깃·수소 공급원의 키는resources-v1을 유지했습니다. 그래서 가변 천체의 기존 숫자도 deep-equal로 같습니다. 새로운ore ID로 초기 인지 참조를 재생성합니다.
+- generator1인 기존 로컬 초안은 자동으로 덮어쓰지 않습니다. fill-unset의 완전 보호 결과도 원래 메타데이터를 그대로 유지합니다. 새 공식 배분은 자원→공식 프리셋 미리보기→확인/백업/적용으로 전환합니다.
+
+### D.1 실제 검사
+
+`npm run check` **43모듈**, `npm test` **131개(기존122+신규9)**. 상한/편차 폭/예산·평균·지구 원본/가변타깃·시나리오·수소 불변/시드10개/구형 로컬 보호와 두 독립 임시 폴더의 공식19개 **바이트 재현**을 검사했습니다. [단위 로그](D1/unit-tests.log).
+
+기존 브라우저6개와 새 D.1 시각/구버전전환 검사 결과는 다음 로그에 보존합니다. 실제 iPhone/Safari/하드웨어 GPU는 미검증입니다. UI/격자/지형/시나리오/시계/전체화면 구조는 수정하지 않았습니다.
+
+[지도](D1/browser-smoke.log) · [행정/시간](D1/browser-administration.log) · [표면](D1/browser-surface.log) · [기존 생성](D1/browser-generation.log) · [안전 경로](D1/browser-safety.log) · [자원](D1/browser-resources.log) · [D.1 지도/로컬 generator1 보호·명시적 전환](D1/browser-correction.log).
+
+PC: [광맥](D1/screenshots/earth-veins-1440.png), [고품질 확률](D1/screenshots/earth-quality-1440.png).
+844×390: [광맥](D1/screenshots/earth-veins-844.png), [고품질 확률](D1/screenshots/earth-quality-844.png).
+
+사용자 최신 요청에 따라 D.1 HTML ZIP은 새로 만들지 않습니다. 기존 실행 사이트를 같은 접근 범위로 갱신합니다. 배포용 tar만 만들며 기존 D/C 등의 ZIP 링크는 과거 버전으로 유지합니다.

@@ -30,38 +30,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-0-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-0-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 130185139.823,
+            "initialReserveU": 428382296.622,
             "gradeProbabilities": {
-              "low": 0.32874309293792625,
-              "medium": 0.4237186836650646,
-              "high": 0.24753822339700915
+              "low": 0.3579084088900795,
+              "medium": 0.4211502104271709,
+              "high": 0.22094138068274966
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 41.184,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-0-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 967240040.209,
-            "gradeProbabilities": {
-              "low": 0.010195011891550438,
-              "medium": 0.17316192540777875,
-              "high": 0.8166430627006708
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 41.184,
-            "discoveryTier": 3,
-            "accessDepth": 64.77,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -83,15 +65,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-1-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-1-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 113231421.371,
+            "initialReserveU": 514082119.182,
             "gradeProbabilities": {
-              "low": 0.33001892093994695,
-              "medium": 0.4181501230685092,
-              "high": 0.2518309559915439
+              "low": 0.33682011268326956,
+              "medium": 0.3803308046661805,
+              "high": 0.28284908265055
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 46.464,
@@ -101,15 +83,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-1-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-1-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 93136531.851,
+            "gradeProbabilities": {
+              "low": 0.05874657715213584,
+              "medium": 0.2319235415026294,
+              "high": 0.7093298813452348
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 46.464,
+            "discoveryTier": 2,
+            "accessDepth": 9.279,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-1-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 871252036.355,
+            "initialReserveU": 317175209.493,
             "gradeProbabilities": {
-              "low": 0.01351688588050665,
-              "medium": 0.16688956503449037,
-              "high": 0.8195935490850029
+              "low": 0.007207934368529583,
+              "medium": 0.15200319754436942,
+              "high": 0.840788868087101
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 46.464,
@@ -136,15 +136,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-2-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-2-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 130430366.129,
+            "initialReserveU": 316620484.119,
             "gradeProbabilities": {
-              "low": 0.33152605671302454,
-              "medium": 0.4155967976817913,
-              "high": 0.2528771456051842
+              "low": 0.31328340221422935,
+              "medium": 0.4133799537287523,
+              "high": 0.27333664405701835
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 54.88,
@@ -154,15 +154,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-2-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-2-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 287007784.677,
+            "initialReserveU": 278146671.078,
             "gradeProbabilities": {
-              "low": 0.01224643129681708,
-              "medium": 0.1678277560777034,
-              "high": 0.8199258126254795
+              "low": 0.008118232716190135,
+              "medium": 0.2052808766849743,
+              "high": 0.7866008905988355
             },
             "extractionDifficulty": 80.896,
             "processingDifficulty": 54.88,
@@ -189,15 +189,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-3-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-3-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 431550894.305,
+            "initialReserveU": 522913767.979,
             "gradeProbabilities": {
-              "low": 0.3305389337023445,
-              "medium": 0.421616617034567,
-              "high": 0.2478444492630885
+              "low": 0.3671102590314513,
+              "medium": 0.3616305280664378,
+              "high": 0.27125921290211097
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 31.72,
@@ -207,15 +207,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-3-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-3-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 3310522714.404,
+            "initialReserveU": 2946822435.808,
             "gradeProbabilities": {
-              "low": 0.00978041084868373,
-              "medium": 0.1679743917013522,
-              "high": 0.822245197449964
+              "low": 0.01453888479673392,
+              "medium": 0.14165650436958854,
+              "high": 0.8438046108336775
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 31.72,
@@ -242,38 +242,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-4-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-4-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 185057015.543,
+            "initialReserveU": 1487791995.975,
             "gradeProbabilities": {
-              "low": 0.3307924191230633,
-              "medium": 0.42197040278781706,
-              "high": 0.24723717808911957
+              "low": 0.33138366795738927,
+              "medium": 0.3711385047718064,
+              "high": 0.29747782727080435
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 60.037,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-vein-4-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 370033497.404,
-            "gradeProbabilities": {
-              "low": 0.08216444196411885,
-              "medium": 0.21830410434672343,
-              "high": 0.6995314536891577
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 60.037,
-            "discoveryTier": 1,
-            "accessDepth": 27.611,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -295,20 +277,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-5-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-5-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 100718985.282,
+            "initialReserveU": 126550192.954,
             "gradeProbabilities": {
-              "low": 0.33106685250491874,
-              "medium": 0.4187765706008351,
-              "high": 0.25015657689424614
+              "low": 0.3031850366740206,
+              "medium": 0.45340929895726034,
+              "high": 0.24340566436871916
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 52.859,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-5-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 248027209.667,
+            "gradeProbabilities": {
+              "low": 0.006335429364809833,
+              "medium": 0.17905342725744333,
+              "high": 0.8146111433777469
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 52.859,
+            "discoveryTier": 3,
+            "accessDepth": 74.207,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -330,20 +330,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-6-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-6-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 107463680.026,
+            "initialReserveU": 424799083.574,
             "gradeProbabilities": {
-              "low": 0.333029386982853,
-              "medium": 0.41980064796414734,
-              "high": 0.24716996505299965
+              "low": 0.3216062754089967,
+              "medium": 0.4264767158507287,
+              "high": 0.2519170087402745
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 16.732,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-6-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 48086492.26,
+            "gradeProbabilities": {
+              "low": 0.04499253699923849,
+              "medium": 0.22095366161623675,
+              "high": 0.7340538013845248
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 16.732,
+            "discoveryTier": 1,
+            "accessDepth": 18.957,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -365,15 +383,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-7-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-7-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1647747188.289,
+            "initialReserveU": 310909380.518,
             "gradeProbabilities": {
-              "low": 0.3316362297689267,
-              "medium": 0.41999531553257763,
-              "high": 0.24836845469849567
+              "low": 0.2892068676342225,
+              "medium": 0.505155009793565,
+              "high": 0.20563812257221248
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 46.61,
@@ -383,20 +401,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-vein-7-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-7-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 1893236835.629,
+            "depositKind": "deep",
+            "initialReserveU": 4331698510.128,
             "gradeProbabilities": {
-              "low": 0.08156965215922808,
-              "medium": 0.21685759346181266,
-              "high": 0.7015727543789593
+              "low": 0.012321636780851228,
+              "medium": 0.13476951612740617,
+              "high": 0.8529088470917426
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 46.61,
-            "discoveryTier": 1,
-            "accessDepth": 22.375,
+            "discoveryTier": 3,
+            "accessDepth": 78.959,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -418,56 +436,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-8-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-8-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 396610203.635,
+            "initialReserveU": 150024399.028,
             "gradeProbabilities": {
-              "low": 0.32588947240502614,
-              "medium": 0.4236815030606515,
-              "high": 0.2504290245343224
+              "low": 0.359620686445287,
+              "medium": 0.40779903737439194,
+              "high": 0.2325802761803211
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 44.54,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-vein-8-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 1080250255.529,
-            "gradeProbabilities": {
-              "low": 0.07873732090787507,
-              "medium": 0.22253332742484022,
-              "high": 0.6987293516672847
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 44.54,
-            "discoveryTier": 2,
-            "accessDepth": 27.719,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-8-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 288273130.454,
-            "gradeProbabilities": {
-              "low": 0.007589233236513154,
-              "medium": 0.17246465260414434,
-              "high": 0.8199461141593425
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 44.54,
-            "discoveryTier": 5,
-            "accessDepth": 87.864,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -489,15 +471,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-9-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-9-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1152631526.143,
+            "initialReserveU": 316001921.333,
             "gradeProbabilities": {
-              "low": 0.3331530484096803,
-              "medium": 0.4155947890760428,
-              "high": 0.2512521625142769
+              "low": 0.3528013927376451,
+              "medium": 0.3926099967642093,
+              "high": 0.2545886104981456
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 62.39,
@@ -507,33 +489,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-vein-9-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 1850296422.869,
-            "gradeProbabilities": {
-              "low": 0.07778779159159875,
-              "medium": 0.22322111244680098,
-              "high": 0.6989910959616003
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 62.39,
-            "discoveryTier": 2,
-            "accessDepth": 16.242,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-9-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-9-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1609173629.084,
+            "initialReserveU": 2685768521.505,
             "gradeProbabilities": {
-              "low": 0.012776279427236931,
-              "medium": 0.1682968962329443,
-              "high": 0.8189268243398188
+              "low": 0.005025086015576927,
+              "medium": 0.1438524586906662,
+              "high": 0.8511224552937569
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 62.39,
@@ -560,15 +524,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-10-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-10-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 81018750.403,
+            "initialReserveU": 622408415.759,
             "gradeProbabilities": {
-              "low": 0.3266493439567931,
-              "medium": 0.42576387773585084,
-              "high": 0.24758677830735604
+              "low": 0.3254960829805463,
+              "medium": 0.4689380276550629,
+              "high": 0.2055658893643909
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 25.009,
@@ -578,15 +542,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-10-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-10-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 83688247.061,
+            "gradeProbabilities": {
+              "low": 0.046820216141629484,
+              "medium": 0.21797100233198696,
+              "high": 0.7352087815263836
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 25.009,
+            "discoveryTier": 2,
+            "accessDepth": 19.353,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-10-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1254933698.737,
+            "initialReserveU": 174574554.332,
             "gradeProbabilities": {
-              "low": 0.006581181682772056,
-              "medium": 0.1743743342111821,
-              "high": 0.8190444841060458
+              "low": 0.005085549698088216,
+              "medium": 0.22208891098602135,
+              "high": 0.7728255393158905
             },
             "extractionDifficulty": 81.268,
             "processingDifficulty": 25.009,
@@ -613,38 +595,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-11-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-11-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 86265297.868,
+            "initialReserveU": 508428299.648,
             "gradeProbabilities": {
-              "low": 0.32782446759806055,
-              "medium": 0.4215729393264329,
-              "high": 0.2506025930755065
+              "low": 0.3048819665374386,
+              "medium": 0.4240650017216339,
+              "high": 0.2710530317409275
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 17.534,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-11-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 1250894559.031,
-            "gradeProbabilities": {
-              "low": 0.006195210931948438,
-              "medium": 0.17212192288292605,
-              "high": 0.8216828661851255
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 17.534,
-            "discoveryTier": 5,
-            "accessDepth": 99.081,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -666,15 +630,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-12-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-12-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 122931048.33,
+            "initialReserveU": 267298757.675,
             "gradeProbabilities": {
-              "low": 0.3324844071926274,
-              "medium": 0.41933652651999653,
-              "high": 0.24817906628737607
+              "low": 0.311726576359267,
+              "medium": 0.4623061281145352,
+              "high": 0.2259672955261979
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 17.157,
@@ -701,15 +665,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-13-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-13-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 201769631.815,
+            "initialReserveU": 105259180.112,
             "gradeProbabilities": {
-              "low": 0.32973867193662604,
-              "medium": 0.41643925875928767,
-              "high": 0.25382206930408635
+              "low": 0.3419815707585724,
+              "medium": 0.4119983384286939,
+              "high": 0.24602009081273374
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 30.456,
@@ -736,15 +700,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-14-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-14-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 568946218.552,
+            "initialReserveU": 340821236.72,
             "gradeProbabilities": {
-              "low": 0.32921197563462934,
-              "medium": 0.4231038824053532,
-              "high": 0.24768414196001748
+              "low": 0.35475366754453974,
+              "medium": 0.36323600290229674,
+              "high": 0.2820103295531635
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 29.639,
@@ -771,15 +735,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-15-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-15-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 57668692.852,
+            "initialReserveU": 91152576.168,
             "gradeProbabilities": {
-              "low": 0.32633376212098675,
-              "medium": 0.4220425513865477,
-              "high": 0.2516236864924655
+              "low": 0.31570783153360654,
+              "medium": 0.40103990376571075,
+              "high": 0.28325226470068265
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 47.767,
@@ -806,15 +770,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-16-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-16-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2119665212.947,
+            "initialReserveU": 658238895.418,
             "gradeProbabilities": {
-              "low": 0.3301829764065989,
-              "medium": 0.42174579949621616,
-              "high": 0.24807122409718493
+              "low": 0.2857307659373137,
+              "medium": 0.4276003609781699,
+              "high": 0.2866688730845164
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 35.526,
@@ -841,20 +805,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-17-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-17-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 480209100.052,
+            "initialReserveU": 1324146258.156,
             "gradeProbabilities": {
-              "low": 0.33130459557899317,
-              "medium": 0.4140697845270908,
-              "high": 0.254625619893916
+              "low": 0.3381121237345042,
+              "medium": 0.4526100249558982,
+              "high": 0.2092778513095976
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 68.927,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-17-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 725831860.735,
+            "gradeProbabilities": {
+              "low": 0.01385379199511549,
+              "medium": 0.1336862441936656,
+              "high": 0.8524599638112189
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 68.927,
+            "discoveryTier": 3,
+            "accessDepth": 94.719,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -876,15 +858,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-18-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-18-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 306433118.476,
+            "initialReserveU": 119850055.027,
             "gradeProbabilities": {
-              "low": 0.32858228160866576,
-              "medium": 0.42330078185108067,
-              "high": 0.24811693654025355
+              "low": 0.2888740112697401,
+              "medium": 0.45509307444458225,
+              "high": 0.25603291428567765
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 50.988,
@@ -894,20 +876,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-18-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-18-2",
+            "groupId": "g2-sol-venus-5224a0a-vein-2",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 445651711.625,
+            "depositKind": "vein",
+            "initialReserveU": 351628448.142,
             "gradeProbabilities": {
-              "low": 0.005643710570535675,
-              "medium": 0.17365049203364213,
-              "high": 0.8207057973958222
+              "low": 0.0959631112248778,
+              "medium": 0.1891308921049275,
+              "high": 0.7149059966701947
             },
-            "extractionDifficulty": 83.202,
+            "extractionDifficulty": 80,
             "processingDifficulty": 50.988,
-            "discoveryTier": 4,
-            "accessDepth": 71.614,
+            "discoveryTier": 2,
+            "accessDepth": 17.968,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -929,15 +911,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-19-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-19-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 144980362.374,
+            "initialReserveU": 272109449.205,
             "gradeProbabilities": {
-              "low": 0.3311564491284736,
-              "medium": 0.42104216740597555,
-              "high": 0.24780138346555092
+              "low": 0.36643536644750135,
+              "medium": 0.34802242079915685,
+              "high": 0.28554221275334185
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 33.204,
@@ -947,15 +929,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-19-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-19-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 154388867.167,
+            "gradeProbabilities": {
+              "low": 0.04719872655716127,
+              "medium": 0.24105732466399699,
+              "high": 0.7117439487788417
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 33.204,
+            "discoveryTier": 2,
+            "accessDepth": 9.141,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-19-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 661136902.221,
+            "initialReserveU": 284080112.587,
             "gradeProbabilities": {
-              "low": 0.007397930465764419,
-              "medium": 0.17156817400334434,
-              "high": 0.8210338955308912
+              "low": 0.005060689034571771,
+              "medium": 0.18773936178479322,
+              "high": 0.807199949180635
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 33.204,
@@ -982,20 +982,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-20-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-20-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 564935385.94,
+            "initialReserveU": 422183369.394,
             "gradeProbabilities": {
-              "low": 0.3304190710900076,
-              "medium": 0.418908085215283,
-              "high": 0.2506728436947093
+              "low": 0.30565753561465225,
+              "medium": 0.4799635935368925,
+              "high": 0.21437887084845525
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 36.128,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-20-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 968523108.692,
+            "gradeProbabilities": {
+              "low": 0.04772533558885828,
+              "medium": 0.2562181332900212,
+              "high": 0.6960565311211205
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.128,
+            "discoveryTier": 2,
+            "accessDepth": 5.074,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1017,15 +1035,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-21-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-21-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 210058319.935,
+            "initialReserveU": 108940997.718,
             "gradeProbabilities": {
-              "low": 0.32970711430587846,
-              "medium": 0.42276421924066304,
-              "high": 0.24752866645345845
+              "low": 0.32798397286869546,
+              "medium": 0.4600032466572939,
+              "high": 0.21201278047401056
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 15.323,
@@ -1035,15 +1053,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-21-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-21-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 332099118.73,
+            "gradeProbabilities": {
+              "low": 0.05996005921483524,
+              "medium": 0.20152576959400736,
+              "high": 0.7385141711911574
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 15.323,
+            "discoveryTier": 1,
+            "accessDepth": 26.598,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-21-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 430285468.218,
+            "initialReserveU": 1352778711.272,
             "gradeProbabilities": {
-              "low": 0.006600561235225812,
-              "medium": 0.1717892726275142,
-              "high": 0.82161016613726
+              "low": 0.012415918991885828,
+              "medium": 0.15058445918354413,
+              "high": 0.83699962182457
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 15.323,
@@ -1070,15 +1106,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-22-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-22-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1106042405.726,
+            "initialReserveU": 604558766.809,
             "gradeProbabilities": {
-              "low": 0.33179735007935246,
-              "medium": 0.4160022439895248,
-              "high": 0.2522004059311227
+              "low": 0.3237828619834629,
+              "medium": 0.39188783642433184,
+              "high": 0.2843293015922053
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 42.148,
@@ -1088,15 +1124,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-22-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-22-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 936654107.103,
+            "initialReserveU": 2785101991.43,
             "gradeProbabilities": {
-              "low": 0.010995568001768605,
-              "medium": 0.16849057522853872,
-              "high": 0.8205138567696927
+              "low": 0.009308884225025772,
+              "medium": 0.17935046741711103,
+              "high": 0.8113406483578632
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 42.148,
@@ -1123,20 +1159,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-23-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-23-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 243944196.637,
+            "initialReserveU": 228382576.96,
             "gradeProbabilities": {
-              "low": 0.3311141784028806,
-              "medium": 0.4144616145560569,
-              "high": 0.2544242070410625
+              "low": 0.32783287011460605,
+              "medium": 0.3888498174451449,
+              "high": 0.28331731244024905
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 67.526,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-23-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1403242623.411,
+            "gradeProbabilities": {
+              "low": 0.010293683740152902,
+              "medium": 0.17471412134112108,
+              "high": 0.814992194918726
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 67.526,
+            "discoveryTier": 3,
+            "accessDepth": 77.322,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1158,20 +1212,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-24-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-24-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 115538069.089,
+            "initialReserveU": 230539227.682,
             "gradeProbabilities": {
-              "low": 0.3330402645958312,
-              "medium": 0.41298743691240014,
-              "high": 0.2539722984917686
+              "low": 0.34282756908498574,
+              "medium": 0.41080091686633036,
+              "high": 0.24637151404868385
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 30.656,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-24-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 301614772.438,
+            "gradeProbabilities": {
+              "low": 0.05644563892498493,
+              "medium": 0.2407409378489881,
+              "high": 0.702813423226027
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 30.656,
+            "discoveryTier": 1,
+            "accessDepth": 23.879,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1193,20 +1265,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-25-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-25-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 288999465.511,
+            "initialReserveU": 191745121.398,
             "gradeProbabilities": {
-              "low": 0.32889241419226906,
-              "medium": 0.4186272795027172,
-              "high": 0.25248030630501367
+              "low": 0.29206907009800304,
+              "medium": 0.4564390267461115,
+              "high": 0.25149190315588543
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 56.702,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-25-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 500904365.551,
+            "gradeProbabilities": {
+              "low": 0.05470166114030951,
+              "medium": 0.22507033751531547,
+              "high": 0.720228001344375
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 56.702,
+            "discoveryTier": 1,
+            "accessDepth": 31.879,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1228,38 +1318,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-26-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-26-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 918425863.848,
+            "initialReserveU": 200608227.738,
             "gradeProbabilities": {
-              "low": 0.3308020511777796,
-              "medium": 0.42093124969807033,
-              "high": 0.24826669912415006
+              "low": 0.34909804579037057,
+              "medium": 0.4077844858582088,
+              "high": 0.24311746835142067
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 17.375,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-26-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 639661085.733,
-            "gradeProbabilities": {
-              "low": 0.011483457489064947,
-              "medium": 0.17021054877406017,
-              "high": 0.8183059937368748
-            },
-            "extractionDifficulty": 83.566,
-            "processingDifficulty": 17.375,
-            "discoveryTier": 3,
-            "accessDepth": 68.561,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1281,15 +1353,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-27-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-27-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 154323328.592,
+            "initialReserveU": 141449826.422,
             "gradeProbabilities": {
-              "low": 0.328839296801547,
-              "medium": 0.41921700390931727,
-              "high": 0.25194369928913574
+              "low": 0.28590361485556237,
+              "medium": 0.47010553759856255,
+              "high": 0.24399084754587505
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 62.227,
@@ -1299,20 +1371,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-27-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-27-0",
+            "groupId": "g2-sol-venus-5224a0a-vein-0",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 269863452.74,
+            "depositKind": "vein",
+            "initialReserveU": 295770578.716,
             "gradeProbabilities": {
-              "low": 0.009108508318788424,
-              "medium": 0.17406950544258615,
-              "high": 0.8168219862386255
+              "low": 0.060493192034651956,
+              "medium": 0.22249353817248985,
+              "high": 0.7170132697928582
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 62.227,
-            "discoveryTier": 3,
-            "accessDepth": 83.726,
+            "discoveryTier": 1,
+            "accessDepth": 25.236,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1334,20 +1406,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-28-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-28-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 91375993.848,
+            "initialReserveU": 439461618.105,
             "gradeProbabilities": {
-              "low": 0.32891248686851043,
-              "medium": 0.4206798541186428,
-              "high": 0.25040765901284673
+              "low": 0.3742263531539094,
+              "medium": 0.3792480450883602,
+              "high": 0.2465256017577304
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 28.416,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-28-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 60239561.411,
+            "gradeProbabilities": {
+              "low": 0.03253047780840452,
+              "medium": 0.31284917898129494,
+              "high": 0.6546203432103005
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 28.416,
+            "discoveryTier": 2,
+            "accessDepth": 20.03,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1369,15 +1459,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-29-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-29-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 86774592.608,
+            "initialReserveU": 720056268.704,
             "gradeProbabilities": {
-              "low": 0.32635293734126763,
-              "medium": 0.421289529654575,
-              "high": 0.2523575330041573
+              "low": 0.2935125662691668,
+              "medium": 0.44494784393203385,
+              "high": 0.2615395897987994
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 45.121,
@@ -1387,20 +1477,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-29-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-29-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 1242765598.504,
+            "depositKind": "vein",
+            "initialReserveU": 109188018.494,
             "gradeProbabilities": {
-              "low": 0.008351838028184191,
-              "medium": 0.1701633951856758,
-              "high": 0.82148476678614
+              "low": 0.09942324539492559,
+              "medium": 0.2023301750760811,
+              "high": 0.6982465795289934
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 45.121,
-            "discoveryTier": 3,
-            "accessDepth": 88.154,
+            "discoveryTier": 1,
+            "accessDepth": 27.892,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1422,20 +1512,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-30-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-30-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 96573393.41,
+            "initialReserveU": 399763585.161,
             "gradeProbabilities": {
-              "low": 0.3330810329900779,
-              "medium": 0.4171548429964161,
-              "high": 0.24976412401350595
+              "low": 0.3384735607606524,
+              "medium": 0.3924296281962662,
+              "high": 0.2690968110430814
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 30.859,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-30-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 128547503.763,
+            "gradeProbabilities": {
+              "low": 0.09524885568922203,
+              "medium": 0.21730430562605174,
+              "high": 0.6874468386847262
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 30.859,
+            "discoveryTier": 1,
+            "accessDepth": 33.755,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1457,20 +1565,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-31-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-31-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 85944228.157,
+            "initialReserveU": 239950357.664,
             "gradeProbabilities": {
-              "low": 0.32859878816322463,
-              "medium": 0.41972986937631435,
-              "high": 0.251671342460461
+              "low": 0.31086682608671706,
+              "medium": 0.46265925569792743,
+              "high": 0.22647391821535545
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 51.048,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-31-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 423676299.633,
+            "gradeProbabilities": {
+              "low": 0.004953043264818323,
+              "medium": 0.14562614452377198,
+              "high": 0.8494208122114097
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 51.048,
+            "discoveryTier": 5,
+            "accessDepth": 86.061,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1492,20 +1618,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-32-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-32-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 59683698.189,
+            "initialReserveU": 221304750.367,
             "gradeProbabilities": {
-              "low": 0.3278710948550798,
-              "medium": 0.4176715873865462,
-              "high": 0.254457317758374
+              "low": 0.3440854524071536,
+              "medium": 0.3886723642170868,
+              "high": 0.2672421833757596
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 32.988,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-32-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 53111678.987,
+            "gradeProbabilities": {
+              "low": 0.03430927925715065,
+              "medium": 0.2911850577434987,
+              "high": 0.6745056629993507
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 32.988,
+            "discoveryTier": 2,
+            "accessDepth": 31.548,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1527,20 +1671,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-33-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-33-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 916980257.393,
+            "initialReserveU": 457124472.24,
             "gradeProbabilities": {
-              "low": 0.32763076570310673,
-              "medium": 0.4253223125854557,
-              "high": 0.2470469217114375
+              "low": 0.35510789124455516,
+              "medium": 0.41299910101714643,
+              "high": 0.23189300773829846
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 67.674,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-33-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 425741245.057,
+            "gradeProbabilities": {
+              "low": 0.087148842887092,
+              "medium": 0.20599539646036413,
+              "high": 0.7068557606525439
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 67.674,
+            "discoveryTier": 2,
+            "accessDepth": 5.027,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1562,20 +1724,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-34-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-34-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 125492602.364,
+            "initialReserveU": 2009031483.199,
             "gradeProbabilities": {
-              "low": 0.33344897173770743,
-              "medium": 0.41708477668222554,
-              "high": 0.24946625158006708
+              "low": 0.36445839611087116,
+              "medium": 0.3869996319118226,
+              "high": 0.24854197197730626
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 26.245,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-34-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 181550881.021,
+            "gradeProbabilities": {
+              "low": 0.1016307754590767,
+              "medium": 0.22517543299604925,
+              "high": 0.673193791544874
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.245,
+            "discoveryTier": 1,
+            "accessDepth": 22.627,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1597,20 +1777,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-35-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-35-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1591114010.153,
+            "initialReserveU": 242551662.981,
             "gradeProbabilities": {
-              "low": 0.33230310571805616,
-              "medium": 0.41647472873461017,
-              "high": 0.25122216554733373
+              "low": 0.3405620942781823,
+              "medium": 0.3984960040230965,
+              "high": 0.2609419016987212
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 59.277,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-35-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1581108669.873,
+            "gradeProbabilities": {
+              "low": 0.09145655979185238,
+              "medium": 0.19934289998908694,
+              "high": 0.7092005402190606
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 59.277,
+            "discoveryTier": 1,
+            "accessDepth": 30.503,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-35-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3689663564.626,
+            "gradeProbabilities": {
+              "low": 0.006652629882769427,
+              "medium": 0.18950079364526162,
+              "high": 0.803846576471969
+            },
+            "extractionDifficulty": 84.574,
+            "processingDifficulty": 59.277,
+            "discoveryTier": 3,
+            "accessDepth": 92.505,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1632,15 +1848,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-36-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-36-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1830186476.928,
+            "initialReserveU": 237947169.761,
             "gradeProbabilities": {
-              "low": 0.3257620476936646,
-              "medium": 0.4270126604935205,
-              "high": 0.24722529181281486
+              "low": 0.34041187508764936,
+              "medium": 0.430049367515013,
+              "high": 0.22953875739733767
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 60.586,
@@ -1650,15 +1866,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-36-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-36-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1228407288.855,
+            "initialReserveU": 2460462916.561,
             "gradeProbabilities": {
-              "low": 0.01344798775588633,
-              "medium": 0.1676726969487038,
-              "high": 0.8188793152954099
+              "low": 0.006657861947653831,
+              "medium": 0.1606189881346145,
+              "high": 0.8327231499177317
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 60.586,
@@ -1685,20 +1901,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-37-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-37-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 393371348.599,
+            "initialReserveU": 250757842.967,
             "gradeProbabilities": {
-              "low": 0.32846082907781976,
-              "medium": 0.4232690630381979,
-              "high": 0.24827010788398243
+              "low": 0.29408089232146023,
+              "medium": 0.44285693470009174,
+              "high": 0.2630621729784481
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 49.368,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-37-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 402252282.185,
+            "gradeProbabilities": {
+              "low": 0.10394830734635288,
+              "medium": 0.16479703987890637,
+              "high": 0.7312546527747408
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 49.368,
+            "discoveryTier": 2,
+            "accessDepth": 20.036,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1720,20 +1954,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-38-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-38-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 69711328.648,
+            "initialReserveU": 339680868.02,
             "gradeProbabilities": {
-              "low": 0.332032840902517,
-              "medium": 0.4180087102199024,
-              "high": 0.24995844887758056
+              "low": 0.30532670131096173,
+              "medium": 0.48871219156738743,
+              "high": 0.2059611071216508
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 36.27,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-38-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 96172226.404,
+            "gradeProbabilities": {
+              "low": 0.08498904686685348,
+              "medium": 0.18598228120521332,
+              "high": 0.7290286719279332
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.27,
+            "discoveryTier": 2,
+            "accessDepth": 24.312,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-38-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 179506765.348,
+            "gradeProbabilities": {
+              "low": 0.012197355211939171,
+              "medium": 0.1572134088792363,
+              "high": 0.8305892359088245
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.27,
+            "discoveryTier": 5,
+            "accessDepth": 82.186,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1755,15 +2025,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-39-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-39-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 76385354.068,
+            "initialReserveU": 339927561.782,
             "gradeProbabilities": {
-              "low": 0.32680983546429354,
-              "medium": 0.42012991238516334,
-              "high": 0.2530602521505431
+              "low": 0.28238377671636805,
+              "medium": 0.49161604483016996,
+              "high": 0.22600017845346196
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 25.145,
@@ -1773,20 +2043,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-39-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-39-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 1031588458.567,
+            "depositKind": "vein",
+            "initialReserveU": 52207716.712,
             "gradeProbabilities": {
-              "low": 0.01128807995480956,
-              "medium": 0.1674911562564787,
-              "high": 0.8212207637887118
+              "low": 0.033829875362566576,
+              "medium": 0.3138787070210658,
+              "high": 0.6522914176163677
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 25.145,
-            "discoveryTier": 5,
-            "accessDepth": 96.979,
+            "discoveryTier": 2,
+            "accessDepth": 33.188,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1808,15 +2078,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-40-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-40-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 121538247.814,
+            "initialReserveU": 265560665.226,
             "gradeProbabilities": {
-              "low": 0.33284050727502484,
-              "medium": 0.4182531665986454,
-              "high": 0.24890632612632968
+              "low": 0.29933786720529765,
+              "medium": 0.4870508232381705,
+              "high": 0.21361130955653188
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 36.053,
@@ -1826,15 +2096,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-40-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-40-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 151289968.234,
+            "gradeProbabilities": {
+              "low": 0.08902009209558245,
+              "medium": 0.2161689925081265,
+              "high": 0.694810915396291
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.053,
+            "discoveryTier": 1,
+            "accessDepth": 7.125,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-40-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1318566937.395,
+            "initialReserveU": 227236204.065,
             "gradeProbabilities": {
-              "low": 0.009928850965700165,
-              "medium": 0.1721446448794569,
-              "high": 0.8179265041548429
+              "low": 0.009213594021508998,
+              "medium": 0.18595466411274086,
+              "high": 0.8048317418657501
             },
             "extractionDifficulty": 82.069,
             "processingDifficulty": 36.053,
@@ -1861,15 +2149,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-41-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-41-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 566030085.035,
+            "initialReserveU": 273797767.642,
             "gradeProbabilities": {
-              "low": 0.3272135652905055,
-              "medium": 0.42288768105712293,
-              "high": 0.24989875365237155
+              "low": 0.2823398703953601,
+              "medium": 0.49264101399042326,
+              "high": 0.22501911561421659
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 53.46,
@@ -1879,15 +2167,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-41-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-41-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 394908088.12,
+            "gradeProbabilities": {
+              "low": 0.09087049459358833,
+              "medium": 0.23331986896206325,
+              "high": 0.6758096364443484
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 53.46,
+            "discoveryTier": 1,
+            "accessDepth": 19.214,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-41-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 685212158.876,
+            "initialReserveU": 1719146678.833,
             "gradeProbabilities": {
-              "low": 0.01063172032696666,
-              "medium": 0.1723420004907067,
-              "high": 0.8170262791823266
+              "low": 0.004004129746491981,
+              "medium": 0.21933207921678866,
+              "high": 0.7766637910367193
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 53.46,
@@ -1914,38 +2220,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-42-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-42-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 305338869.941,
+            "initialReserveU": 189558924.122,
             "gradeProbabilities": {
-              "low": 0.32570945682802277,
-              "medium": 0.42596537098791964,
-              "high": 0.2483251721840576
+              "low": 0.3584833668939504,
+              "medium": 0.3479970798330537,
+              "high": 0.29351955327299584
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 47.326,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-42-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 427358074.39,
-            "gradeProbabilities": {
-              "low": 0.0059173589480435995,
-              "medium": 0.17463809696277643,
-              "high": 0.81944454408918
-            },
-            "extractionDifficulty": 80.31,
-            "processingDifficulty": 47.326,
-            "discoveryTier": 5,
-            "accessDepth": 99.645,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -1967,15 +2255,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-43-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-43-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 59111213.452,
+            "initialReserveU": 120128998.164,
             "gradeProbabilities": {
-              "low": 0.32796654009499626,
-              "medium": 0.41952010448966687,
-              "high": 0.25251335541533687
+              "low": 0.3364337813729797,
+              "medium": 0.4068417747145732,
+              "high": 0.25672444391244714
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 15.02,
@@ -1985,20 +2273,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-43-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-43-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 795663080.819,
+            "depositKind": "vein",
+            "initialReserveU": 112696859.65,
             "gradeProbabilities": {
-              "low": 0.00870847611141862,
-              "medium": 0.16968973401254073,
-              "high": 0.8216017898760406
+              "low": 0.08764863226056505,
+              "medium": 0.2254917033440158,
+              "high": 0.6868596643954191
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 15.02,
-            "discoveryTier": 4,
-            "accessDepth": 77.229,
+            "discoveryTier": 1,
+            "accessDepth": 21.337,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2020,15 +2308,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-44-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-44-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 255503378.623,
+            "initialReserveU": 132036233.017,
             "gradeProbabilities": {
-              "low": 0.32864525218547364,
-              "medium": 0.4197201351238465,
-              "high": 0.2516346126906798
+              "low": 0.3071581063433819,
+              "medium": 0.4139276062397269,
+              "high": 0.27891428741689117
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 47.169,
@@ -2038,20 +2326,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-44-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-44-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 376619242.269,
+            "depositKind": "vein",
+            "initialReserveU": 461384174.241,
             "gradeProbabilities": {
-              "low": 0.01039202104893984,
-              "medium": 0.1676183877612467,
-              "high": 0.8219895911898134
+              "low": 0.03906505922388792,
+              "medium": 0.31093494077611217,
+              "high": 0.6499999999999999
             },
-            "extractionDifficulty": 84.349,
+            "extractionDifficulty": 80,
             "processingDifficulty": 47.169,
-            "discoveryTier": 4,
-            "accessDepth": 72.056,
+            "discoveryTier": 1,
+            "accessDepth": 18.233,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2073,15 +2361,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-45-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-45-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 110319397.026,
+            "initialReserveU": 358249798.48,
             "gradeProbabilities": {
-              "low": 0.3324062012234427,
-              "medium": 0.41428766730186106,
-              "high": 0.25330613147469616
+              "low": 0.37018297695122465,
+              "medium": 0.3521242534777126,
+              "high": 0.2776927695710628
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 41.846,
@@ -2091,20 +2379,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-45-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-45-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 384820619.422,
+            "depositKind": "vein",
+            "initialReserveU": 155464922.434,
             "gradeProbabilities": {
-              "low": 0.008129481937862055,
-              "medium": 0.17370848979307374,
-              "high": 0.8181620282690643
+              "low": 0.043631557163813235,
+              "medium": 0.2964467460519764,
+              "high": 0.6599216967842103
             },
-            "extractionDifficulty": 84.82,
+            "extractionDifficulty": 80,
             "processingDifficulty": 41.846,
-            "discoveryTier": 3,
-            "accessDepth": 78.257,
+            "discoveryTier": 1,
+            "accessDepth": 21.954,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2126,15 +2414,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-46-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-46-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1971043793.458,
+            "initialReserveU": 337929340.055,
             "gradeProbabilities": {
-              "low": 0.32554634408519645,
-              "medium": 0.4217973245712048,
-              "high": 0.2526563313435988
+              "low": 0.31045275296609026,
+              "medium": 0.47763949010428053,
+              "high": 0.21190775692962918
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 28.128,
@@ -2144,20 +2432,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-46-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-46-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 1352649054.66,
+            "depositKind": "vein",
+            "initialReserveU": 1405580430.823,
             "gradeProbabilities": {
-              "low": 0.00963540468005003,
-              "medium": 0.16899772804668212,
-              "high": 0.8213668672732679
+              "low": 0.0979561139624324,
+              "medium": 0.1874710282060792,
+              "high": 0.7145728578314884
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 28.128,
-            "discoveryTier": 5,
-            "accessDepth": 87.307,
+            "discoveryTier": 2,
+            "accessDepth": 27.384,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2179,15 +2467,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-47-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-47-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 436416918.324,
+            "initialReserveU": 1303843393.717,
             "gradeProbabilities": {
-              "low": 0.3316866169856586,
-              "medium": 0.4155706194130755,
-              "high": 0.2527427636012659
+              "low": 0.33293117487320834,
+              "medium": 0.38897533142137153,
+              "high": 0.27809349370542014
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 15.405,
@@ -2197,20 +2485,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-47-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-47-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 2260156733.785,
+            "depositKind": "vein",
+            "initialReserveU": 389555685.369,
             "gradeProbabilities": {
-              "low": 0.010288930274671928,
-              "medium": 0.17144305303199248,
-              "high": 0.8182680166933356
+              "low": 0.09460854430431875,
+              "medium": 0.19495389530711482,
+              "high": 0.7104375603885664
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 15.405,
-            "discoveryTier": 5,
-            "accessDepth": 67.057,
+            "discoveryTier": 2,
+            "accessDepth": 15.234,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2232,15 +2520,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-48-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-48-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 707985747.391,
+            "initialReserveU": 233513658.381,
             "gradeProbabilities": {
-              "low": 0.3320475627990164,
-              "medium": 0.4131545290699279,
-              "high": 0.25479790813105563
+              "low": 0.2998123712829245,
+              "medium": 0.43817098513271086,
+              "high": 0.26201664358436466
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 23.043,
@@ -2250,15 +2538,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-48-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-48-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1742147930.403,
+            "initialReserveU": 2117738398.834,
             "gradeProbabilities": {
-              "low": 0.007965193677819386,
-              "medium": 0.175010331605282,
-              "high": 0.8170244747168987
+              "low": 0.0140068360526679,
+              "medium": 0.20249316422493024,
+              "high": 0.7834999997224018
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 23.043,
@@ -2285,15 +2573,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-49-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-49-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1754604189.844,
+            "initialReserveU": 762839845.171,
             "gradeProbabilities": {
-              "low": 0.33206658752501983,
-              "medium": 0.4155608494537002,
-              "high": 0.25237256302127997
+              "low": 0.28577317488419357,
+              "medium": 0.4527119928955774,
+              "high": 0.261514832220229
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 62.128,
@@ -2303,15 +2591,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-49-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-49-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1881849113.114,
+            "initialReserveU": 4290193372.924,
             "gradeProbabilities": {
-              "low": 0.011856347989416734,
-              "medium": 0.17225537844998795,
-              "high": 0.8158882735605953
+              "low": 0.00863880569563907,
+              "medium": 0.20527098255309084,
+              "high": 0.7860902117512701
             },
             "extractionDifficulty": 80.001,
             "processingDifficulty": 62.128,
@@ -2338,20 +2626,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-50-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-50-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 391102807.944,
+            "initialReserveU": 183109601.022,
             "gradeProbabilities": {
-              "low": 0.33097160649539015,
-              "medium": 0.41585650283974174,
-              "high": 0.2531718906648681
+              "low": 0.37948876545153043,
+              "medium": 0.34420620531849355,
+              "high": 0.276305029229976
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 44.974,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-50-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1338128579.757,
+            "gradeProbabilities": {
+              "low": 0.0026955660777648943,
+              "medium": 0.14102432467394943,
+              "high": 0.8562801092482857
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 44.974,
+            "discoveryTier": 3,
+            "accessDepth": 65.372,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2373,38 +2679,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-51-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-51-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 226467201.485,
+            "initialReserveU": 226469944.678,
             "gradeProbabilities": {
-              "low": 0.3318783569788285,
-              "medium": 0.4172552285617268,
-              "high": 0.2508664144594447
+              "low": 0.30370269843182945,
+              "medium": 0.46536337782915593,
+              "high": 0.2309339237390147
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 46.302,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-51-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 314875038.114,
-            "gradeProbabilities": {
-              "low": 0.010127554986751691,
-              "medium": 0.16696190923145082,
-              "high": 0.8229105357817975
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 46.302,
-            "discoveryTier": 5,
-            "accessDepth": 51.154,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2426,20 +2714,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-52-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-52-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 536045632.115,
+            "initialReserveU": 284082002.936,
             "gradeProbabilities": {
-              "low": 0.3330139276856281,
-              "medium": 0.41702153433617717,
-              "high": 0.24996453797819473
+              "low": 0.306379520046203,
+              "medium": 0.47792075963540886,
+              "high": 0.2156997203183882
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 44.777,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-52-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 436932102.197,
+            "gradeProbabilities": {
+              "low": 0.09348655247861087,
+              "medium": 0.19777141778800222,
+              "high": 0.708742029733387
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 44.777,
+            "discoveryTier": 1,
+            "accessDepth": 14.607,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2461,15 +2767,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-53-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-53-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 716018722.941,
+            "initialReserveU": 295651165.404,
             "gradeProbabilities": {
-              "low": 0.332869086660976,
-              "medium": 0.41982432950605214,
-              "high": 0.24730658383297183
+              "low": 0.3462450004786757,
+              "medium": 0.3722905055554292,
+              "high": 0.2814644939658951
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 61.39,
@@ -2496,20 +2802,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-54-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-54-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 226978632.685,
+            "initialReserveU": 97153098.814,
             "gradeProbabilities": {
-              "low": 0.3324671949116238,
-              "medium": 0.4152506895413673,
-              "high": 0.2522821155470089
+              "low": 0.31323308290209306,
+              "medium": 0.3966549468422284,
+              "high": 0.29011197025567853
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 31.866,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-54-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 227149331.744,
+            "gradeProbabilities": {
+              "low": 0.04822601298287257,
+              "medium": 0.2851871009135192,
+              "high": 0.6665868861036083
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 31.866,
+            "discoveryTier": 1,
+            "accessDepth": 11.679,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2531,38 +2855,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-55-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-55-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 200632815.802,
+            "initialReserveU": 108725242.815,
             "gradeProbabilities": {
-              "low": 0.3302920955797382,
-              "medium": 0.41639845446441837,
-              "high": 0.2533094499558435
+              "low": 0.30524737095306925,
+              "medium": 0.4600543303765473,
+              "high": 0.2346982986703835
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 36.805,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-55-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 177852272.776,
-            "gradeProbabilities": {
-              "low": 0.009664377510673419,
-              "medium": 0.17244385812683072,
-              "high": 0.8178917643624959
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 36.805,
-            "discoveryTier": 4,
-            "accessDepth": 58.888,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2584,20 +2890,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-56-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-56-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 375509828.569,
+            "initialReserveU": 281176636.564,
             "gradeProbabilities": {
-              "low": 0.33009875786916393,
-              "medium": 0.41880126730669803,
-              "high": 0.2510999748241381
+              "low": 0.35642514394354124,
+              "medium": 0.3774756409142626,
+              "high": 0.2660992151421961
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 19.344,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-56-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 180238794.469,
+            "gradeProbabilities": {
+              "low": 0.03,
+              "medium": 0.30899923843585086,
+              "high": 0.6610007615641491
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 19.344,
+            "discoveryTier": 2,
+            "accessDepth": 33.75,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2619,38 +2943,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-57-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-57-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 202644719.083,
+            "initialReserveU": 557246593.811,
             "gradeProbabilities": {
-              "low": 0.3268946796400197,
-              "medium": 0.4230086220590449,
-              "high": 0.2500966983009354
+              "low": 0.36374353578906915,
+              "medium": 0.42283121998198947,
+              "high": 0.2134252442289414
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 24.777,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-vein-57-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 121642072.226,
-            "gradeProbabilities": {
-              "low": 0.07847655838587797,
-              "medium": 0.22163674076454454,
-              "high": 0.6998867008495775
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 24.777,
-            "discoveryTier": 1,
-            "accessDepth": 16.767,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2672,15 +2978,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-58-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-58-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 102092941.739,
+            "initialReserveU": 1371334175.026,
             "gradeProbabilities": {
-              "low": 0.3292008628757395,
-              "medium": 0.42121026456673216,
-              "high": 0.2495888725575284
+              "low": 0.3536250648200102,
+              "medium": 0.4399023277044462,
+              "high": 0.20647260747554358
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 68.585,
@@ -2707,20 +3013,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-59-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-59-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 537616435.962,
+            "initialReserveU": 192502589.262,
             "gradeProbabilities": {
-              "low": 0.33275964386069257,
-              "medium": 0.41340928591173653,
-              "high": 0.2538310702275709
+              "low": 0.303235967900967,
+              "medium": 0.43923793520084137,
+              "high": 0.25752609689819156
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 36.831,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-59-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1733638953.143,
+            "gradeProbabilities": {
+              "low": 0.014667304849252785,
+              "medium": 0.18151677238485753,
+              "high": 0.8038159227658896
+            },
+            "extractionDifficulty": 82.746,
+            "processingDifficulty": 36.831,
+            "discoveryTier": 5,
+            "accessDepth": 63.121,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2742,15 +3066,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-60-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-60-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 237569841.47,
+            "initialReserveU": 191995921.077,
             "gradeProbabilities": {
-              "low": 0.3296699779225238,
-              "medium": 0.41872903894763946,
-              "high": 0.2516009831298367
+              "low": 0.3704914093422417,
+              "medium": 0.39893479910745777,
+              "high": 0.23057379155030053
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 45.301,
@@ -2760,20 +3084,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-vein-60-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-60-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 295640879.733,
+            "depositKind": "deep",
+            "initialReserveU": 391986262.185,
             "gradeProbabilities": {
-              "low": 0.07814261496858216,
-              "medium": 0.21904666658112515,
-              "high": 0.7028107184502926
+              "low": 0.012531837136748325,
+              "medium": 0.15313330749118825,
+              "high": 0.8343348553720634
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 45.301,
-            "discoveryTier": 1,
-            "accessDepth": 18.787,
+            "discoveryTier": 3,
+            "accessDepth": 72.979,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2795,15 +3119,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-61-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-61-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 52233833.061,
+            "initialReserveU": 382497861.625,
             "gradeProbabilities": {
-              "low": 0.32944217451156155,
-              "medium": 0.4184202786790258,
-              "high": 0.25213754680941264
+              "low": 0.330028249603656,
+              "medium": 0.4258581635501694,
+              "high": 0.24411358684617462
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 66.199,
@@ -2813,20 +3137,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-61-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-61-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 1458405250.06,
+            "depositKind": "vein",
+            "initialReserveU": 44874671.817,
             "gradeProbabilities": {
-              "low": 0.006266882173842803,
-              "medium": 0.17206572249410712,
-              "high": 0.8216673953320501
+              "low": 0.04000178503197361,
+              "medium": 0.2962943912551421,
+              "high": 0.6637038237128843
             },
-            "extractionDifficulty": 84.864,
+            "extractionDifficulty": 80,
             "processingDifficulty": 66.199,
-            "discoveryTier": 4,
-            "accessDepth": 72.621,
+            "discoveryTier": 2,
+            "accessDepth": 18.573,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2848,38 +3172,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-62-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-62-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 180933573.996,
+            "initialReserveU": 171030425.928,
             "gradeProbabilities": {
-              "low": 0.33315915165708443,
-              "medium": 0.4134063424797779,
-              "high": 0.25343450586313765
+              "low": 0.3485542455971616,
+              "medium": 0.3868240803525101,
+              "high": 0.2646216740503284
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 69.474,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-62-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 568271615.896,
-            "gradeProbabilities": {
-              "low": 0.0063595838268613964,
-              "medium": 0.1717641409437175,
-              "high": 0.8218762752294211
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 69.474,
-            "discoveryTier": 5,
-            "accessDepth": 57.657,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2901,20 +3207,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-63-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-63-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 100394169.463,
+            "initialReserveU": 367555757.109,
             "gradeProbabilities": {
-              "low": 0.32589104652271644,
-              "medium": 0.426649545778898,
-              "high": 0.2474594076983855
+              "low": 0.3394708490129211,
+              "medium": 0.3682411679936198,
+              "high": 0.2922879829934591
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 20.162,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-63-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 85007077.599,
+            "gradeProbabilities": {
+              "low": 0.03698380027086039,
+              "medium": 0.277169056085652,
+              "high": 0.6858471436434876
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 20.162,
+            "discoveryTier": 2,
+            "accessDepth": 18.011,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-63-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 238891898.281,
+            "gradeProbabilities": {
+              "low": 0.014294605469520324,
+              "medium": 0.21570539453047977,
+              "high": 0.7699999999999999
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 20.162,
+            "discoveryTier": 5,
+            "accessDepth": 71.685,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2936,15 +3278,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-64-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-64-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 51845769.776,
+            "initialReserveU": 218691285.487,
             "gradeProbabilities": {
-              "low": 0.3315675910344072,
-              "medium": 0.4149831762755341,
-              "high": 0.25344923269005876
+              "low": 0.37886600545243815,
+              "medium": 0.39561927349790643,
+              "high": 0.22551472104965536
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 42.888,
@@ -2954,20 +3296,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-64-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-64-1",
+            "groupId": "g2-sol-venus-5224a0a-vein-1",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 927512478.027,
+            "depositKind": "vein",
+            "initialReserveU": 90915100.08,
             "gradeProbabilities": {
-              "low": 0.012272482974580542,
-              "medium": 0.16664738074569074,
-              "high": 0.8210801362797288
+              "low": 0.046524778071240516,
+              "medium": 0.27028989821500393,
+              "high": 0.6831853237137555
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 42.888,
-            "discoveryTier": 4,
-            "accessDepth": 94.571,
+            "discoveryTier": 2,
+            "accessDepth": 31.743,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -2989,15 +3331,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-65-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-65-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1740054748.408,
+            "initialReserveU": 264827136.665,
             "gradeProbabilities": {
-              "low": 0.3263325343453981,
-              "medium": 0.4259288609599746,
-              "high": 0.2477386046946273
+              "low": 0.3357221599827581,
+              "medium": 0.4211645329566166,
+              "high": 0.2431133070606253
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 59.684,
@@ -3024,15 +3366,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-66-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-66-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 566084763.711,
+            "initialReserveU": 251174395.261,
             "gradeProbabilities": {
-              "low": 0.3276533758179941,
-              "medium": 0.4206734850550122,
-              "high": 0.2516731391269938
+              "low": 0.36112760624099316,
+              "medium": 0.386488877755293,
+              "high": 0.25238351600371384
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 25.365,
@@ -3042,20 +3384,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-vein-66-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-66-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 1449050368.492,
+            "depositKind": "deep",
+            "initialReserveU": 2424641766.309,
             "gradeProbabilities": {
-              "low": 0.08372721851849473,
-              "medium": 0.21449304619984444,
-              "high": 0.7017797352816608
+              "low": 0.011397619900363806,
+              "medium": 0.15143865960651492,
+              "high": 0.8371637204931213
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 25.365,
-            "discoveryTier": 2,
-            "accessDepth": 28.943,
+            "discoveryTier": 4,
+            "accessDepth": 89.905,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3077,20 +3419,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-67-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-67-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 670592259.896,
+            "initialReserveU": 518617149.876,
             "gradeProbabilities": {
-              "low": 0.33082286643848796,
-              "medium": 0.4216772170638716,
-              "high": 0.2474999164976404
+              "low": 0.3504527212368003,
+              "medium": 0.4075646348463401,
+              "high": 0.24198264391685964
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 36.129,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-67-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3529984462.031,
+            "gradeProbabilities": {
+              "low": 0.013000314718762448,
+              "medium": 0.19786391000084536,
+              "high": 0.7891357752803922
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 36.129,
+            "discoveryTier": 3,
+            "accessDepth": 76.338,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3112,38 +3472,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-68-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-68-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 378855406.737,
+            "initialReserveU": 2345796397.441,
             "gradeProbabilities": {
-              "low": 0.3263958850582786,
-              "medium": 0.42487297161240634,
-              "high": 0.24873114332931498
+              "low": 0.2911372676194878,
+              "medium": 0.45299544719560125,
+              "high": 0.25586728518491086
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 48.637,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-vein-68-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 408411807.825,
-            "gradeProbabilities": {
-              "low": 0.07820134066091394,
-              "medium": 0.22458622848795473,
-              "high": 0.6972124308511314
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 48.637,
-            "discoveryTier": 2,
-            "accessDepth": 17.661,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3165,15 +3507,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-69-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-69-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 206717009.383,
+            "initialReserveU": 1744821433.153,
             "gradeProbabilities": {
-              "low": 0.33194633837469895,
-              "medium": 0.41330922484528776,
-              "high": 0.25474443678001324
+              "low": 0.38,
+              "medium": 0.34733225135944434,
+              "high": 0.27266774864055565
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 37.499,
@@ -3183,15 +3525,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-69-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-69-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 3487462786.325,
+            "initialReserveU": 1000278739.528,
             "gradeProbabilities": {
-              "low": 0.011862722158557788,
-              "medium": 0.16526184008708256,
-              "high": 0.8228754377543597
+              "low": 0.0123785984100457,
+              "medium": 0.13371071254040245,
+              "high": 0.8539106890495518
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 37.499,
@@ -3218,15 +3560,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-70-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-70-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 365644582.511,
+            "initialReserveU": 432874332.344,
             "gradeProbabilities": {
-              "low": 0.32901450552844486,
-              "medium": 0.4237413122126884,
-              "high": 0.24724418225886682
+              "low": 0.3742701715300807,
+              "medium": 0.34119609594086414,
+              "high": 0.28453373252905517
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 19.439,
@@ -3236,20 +3578,20 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-70-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-70-2",
+            "groupId": "g2-sol-venus-5224a0a-vein-2",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 476116111.384,
+            "depositKind": "vein",
+            "initialReserveU": 381135839.275,
             "gradeProbabilities": {
-              "low": 0.013466969698793307,
-              "medium": 0.1670656887355263,
-              "high": 0.8194673415656804
+              "low": 0.08775618507745508,
+              "medium": 0.20262289614104534,
+              "high": 0.7096209187814996
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 19.439,
-            "discoveryTier": 3,
-            "accessDepth": 76.87,
+            "discoveryTier": 1,
+            "accessDepth": 21.122,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3271,20 +3613,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-71-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-71-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 142173805.177,
+            "initialReserveU": 566952157.615,
             "gradeProbabilities": {
-              "low": 0.32745748646424194,
-              "medium": 0.418668014570517,
-              "high": 0.2538744989652411
+              "low": 0.3166435414539277,
+              "medium": 0.4786579922501497,
+              "high": 0.20469846629592262
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 51.806,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-71-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 471104580.805,
+            "gradeProbabilities": {
+              "low": 0.006239487371791958,
+              "medium": 0.22015432710696814,
+              "high": 0.7736061855212399
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 51.806,
+            "discoveryTier": 3,
+            "accessDepth": 75.913,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3306,15 +3666,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-72-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-72-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 46150906.858,
+            "initialReserveU": 324140661.654,
             "gradeProbabilities": {
-              "low": 0.32656308601477224,
-              "medium": 0.4212275031724996,
-              "high": 0.2522094108127282
+              "low": 0.3787102274037927,
+              "medium": 0.403553679639784,
+              "high": 0.21773609295642332
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 64.463,
@@ -3324,15 +3684,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-72-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-72-2",
+            "groupId": "g2-sol-venus-5224a0a-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 95153773.813,
+            "gradeProbabilities": {
+              "low": 0.09385338724391466,
+              "medium": 0.24246537852947636,
+              "high": 0.663681234226609
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 64.463,
+            "discoveryTier": 2,
+            "accessDepth": 19.127,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-72-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1414301747.052,
+            "initialReserveU": 163575424.667,
             "gradeProbabilities": {
-              "low": 0.00822431603459181,
-              "medium": 0.17622909399373488,
-              "high": 0.8155465899716733
+              "low": 0.0064995004542827434,
+              "medium": 0.17512020284291052,
+              "high": 0.8183802967028068
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 64.463,
@@ -3359,15 +3737,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-73-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-73-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1897020629.484,
+            "initialReserveU": 206548908.815,
             "gradeProbabilities": {
-              "low": 0.33192880690895993,
-              "medium": 0.418084987546695,
-              "high": 0.24998620554434517
+              "low": 0.29286255652543264,
+              "medium": 0.48110075932143526,
+              "high": 0.22603668415313216
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 23.216,
@@ -3377,15 +3755,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-73-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-73-3",
+            "groupId": "g2-sol-venus-5224a0a-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1036476038.81,
+            "gradeProbabilities": {
+              "low": 0.08616198788524262,
+              "medium": 0.20973857693760722,
+              "high": 0.7040994351771501
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 23.216,
+            "discoveryTier": 2,
+            "accessDepth": 31.121,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-73-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1026152256.221,
+            "initialReserveU": 3508880647.202,
             "gradeProbabilities": {
-              "low": 0.012799764197445529,
-              "medium": 0.17112940069539506,
-              "high": 0.8160708351071594
+              "low": 0.008885140733436176,
+              "medium": 0.18364869857016708,
+              "high": 0.8074661606963968
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 23.216,
@@ -3412,15 +3808,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-74-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-74-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 679731926.72,
+            "initialReserveU": 278151662.94,
             "gradeProbabilities": {
-              "low": 0.3318405966596403,
-              "medium": 0.4198228529295004,
-              "high": 0.24833655041085936
+              "low": 0.2891244896317052,
+              "medium": 0.4178824612810388,
+              "high": 0.2929930490872561
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 23.008,
@@ -3430,15 +3826,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-74-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-74-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1050964862.389,
+            "initialReserveU": 2957466173.543,
             "gradeProbabilities": {
-              "low": 0.008569011617577688,
-              "medium": 0.17036584209529715,
-              "high": 0.8210651462871251
+              "low": 0.015324635393409551,
+              "medium": 0.14971382505670006,
+              "high": 0.8349615395498904
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 23.008,
@@ -3465,38 +3861,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-75-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-75-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 98081982.096,
+            "initialReserveU": 1190507464.054,
             "gradeProbabilities": {
-              "low": 0.33169331456028894,
-              "medium": 0.41691255126093096,
-              "high": 0.2513941341787801
+              "low": 0.28357975249142675,
+              "medium": 0.48501601185346277,
+              "high": 0.2314042356551105
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 49.372,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-75-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 2872346736.583,
-            "gradeProbabilities": {
-              "low": 0.011494572589299694,
-              "medium": 0.17153650730354753,
-              "high": 0.8169689201071528
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 49.372,
-            "discoveryTier": 4,
-            "accessDepth": 63.646,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3518,15 +3896,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-76-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-76-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 450771888.281,
+            "initialReserveU": 1317623063.043,
             "gradeProbabilities": {
-              "low": 0.33344199766644317,
-              "medium": 0.41535032651518056,
-              "high": 0.25120767581837633
+              "low": 0.3292484336046201,
+              "medium": 0.4617051855155023,
+              "high": 0.20904638087987762
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 29.692,
@@ -3553,15 +3931,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-77-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-77-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 448670699.344,
+            "initialReserveU": 1703242031.105,
             "gradeProbabilities": {
-              "low": 0.33258442953654604,
-              "medium": 0.41369096518066284,
-              "high": 0.25372460528279106
+              "low": 0.34288565052307957,
+              "medium": 0.37914707062611674,
+              "high": 0.27796727885080375
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 55.606,
@@ -3571,15 +3949,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-77-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-77-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 3553146135.212,
+            "initialReserveU": 451399157.257,
             "gradeProbabilities": {
-              "low": 0.007943238025656954,
-              "medium": 0.171204477960896,
-              "high": 0.820852284013447
+              "low": 0.005631329726666572,
+              "medium": 0.18176440169807107,
+              "high": 0.8126042685752624
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 55.606,
@@ -3606,38 +3984,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-78-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-78-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 161488083.546,
+            "initialReserveU": 1755593332.341,
             "gradeProbabilities": {
-              "low": 0.32841736619600137,
-              "medium": 0.4230515366228348,
-              "high": 0.2485310971811638
+              "low": 0.31358291194960625,
+              "medium": 0.437580044172863,
+              "high": 0.24883704387753072
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 62.283,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-78-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 6699499706.752,
-            "gradeProbabilities": {
-              "low": 0.01154942030285956,
-              "medium": 0.1655889475612905,
-              "high": 0.82286163213585
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 62.283,
-            "discoveryTier": 3,
-            "accessDepth": 91.519,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3659,20 +4019,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-79-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-79-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 465645200.589,
+            "initialReserveU": 131481726.846,
             "gradeProbabilities": {
-              "low": 0.329061084520603,
-              "medium": 0.4196952892983383,
-              "high": 0.25124362618105867
+              "low": 0.314742791940889,
+              "medium": 0.47251652695043744,
+              "high": 0.2127406811086736
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 16.891,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-79-2",
+            "groupId": "g2-sol-venus-5224a0a-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 551481537.619,
+            "gradeProbabilities": {
+              "low": 0.1016705825968579,
+              "medium": 0.2141113716243005,
+              "high": 0.6842180457788416
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 16.891,
+            "discoveryTier": 1,
+            "accessDepth": 17.053,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-79-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1367954469.626,
+            "gradeProbabilities": {
+              "low": 0.014447536065666369,
+              "medium": 0.1329603596890272,
+              "high": 0.8525921042453064
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 16.891,
+            "discoveryTier": 3,
+            "accessDepth": 70.088,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3694,38 +4090,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-80-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-80-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 187194432.092,
+            "initialReserveU": 112092662.222,
             "gradeProbabilities": {
-              "low": 0.3283244185210862,
-              "medium": 0.42419386221785604,
-              "high": 0.24748171926105775
+              "low": 0.3518211632637204,
+              "medium": 0.43690562477275474,
+              "high": 0.21127321196352475
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 53.444,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-vein-80-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 211311786.408,
-            "gradeProbabilities": {
-              "low": 0.0792922100075475,
-              "medium": 0.22300091413961465,
-              "high": 0.6977068758528379
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 53.444,
-            "discoveryTier": 2,
-            "accessDepth": 15.878,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3747,20 +4125,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-81-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-81-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 89899460.717,
+            "initialReserveU": 284148343.552,
             "gradeProbabilities": {
-              "low": 0.33059422054194887,
-              "medium": 0.41833159738909964,
-              "high": 0.2510741820689515
+              "low": 0.2923215875594941,
+              "medium": 0.4076784124405059,
+              "high": 0.3
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 31.602,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-81-2",
+            "groupId": "g2-sol-venus-5224a0a-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 107944155.799,
+            "gradeProbabilities": {
+              "low": 0.10233144501600001,
+              "medium": 0.23372307685460803,
+              "high": 0.663945478129392
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 31.602,
+            "discoveryTier": 2,
+            "accessDepth": 5.581,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3782,20 +4178,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-82-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-82-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 82886865.902,
+            "initialReserveU": 379891898.427,
             "gradeProbabilities": {
-              "low": 0.32926062961534636,
-              "medium": 0.4229466711649722,
-              "high": 0.24779269921968142
+              "low": 0.36456761876617205,
+              "medium": 0.41253067018260237,
+              "high": 0.22290171105122555
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 52.108,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-82-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 250044924.169,
+            "gradeProbabilities": {
+              "low": 0.003779449616867348,
+              "medium": 0.150038623726231,
+              "high": 0.8461819266569016
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 52.108,
+            "discoveryTier": 4,
+            "accessDepth": 93.213,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3817,20 +4231,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-83-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-83-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 75877395.718,
+            "initialReserveU": 510953811.162,
             "gradeProbabilities": {
-              "low": 0.32725394151971715,
-              "medium": 0.42513117473517126,
-              "high": 0.24761488374511162
+              "low": 0.32103516543099325,
+              "medium": 0.39025480273233326,
+              "high": 0.28871003183667343
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 28.141,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-83-2",
+            "groupId": "g2-sol-venus-5224a0a-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 94631255.061,
+            "gradeProbabilities": {
+              "low": 0.08853822718396878,
+              "medium": 0.1974778688501747,
+              "high": 0.7139839039658565
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 28.141,
+            "discoveryTier": 1,
+            "accessDepth": 5.353,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-83-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 180210953.699,
+            "gradeProbabilities": {
+              "low": 0.008742363287286996,
+              "medium": 0.14849396955266836,
+              "high": 0.8427636671600447
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 28.141,
+            "discoveryTier": 4,
+            "accessDepth": 50.588,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3852,15 +4302,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-84-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-84-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1115389869.041,
+            "initialReserveU": 758447811.299,
             "gradeProbabilities": {
-              "low": 0.33049305684172586,
-              "medium": 0.42189249880556523,
-              "high": 0.24761444435270885
+              "low": 0.30501777239227434,
+              "medium": 0.4873953444803729,
+              "high": 0.20758688312735274
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 60.329,
@@ -3887,15 +4337,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-85-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-85-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 750392912.529,
+            "initialReserveU": 414191716.347,
             "gradeProbabilities": {
-              "low": 0.33253163646028416,
-              "medium": 0.4174019416844523,
-              "high": 0.2500664218552635
+              "low": 0.344361461335541,
+              "medium": 0.417818224865138,
+              "high": 0.23782031379932098
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 26.863,
@@ -3905,15 +4355,33 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-deep-85-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-vein-85-2",
+            "groupId": "g2-sol-venus-5224a0a-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 469661897.337,
+            "gradeProbabilities": {
+              "low": 0.09945575066718643,
+              "medium": 0.18824666066998996,
+              "high": 0.7122975886628236
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 26.863,
+            "discoveryTier": 1,
+            "accessDepth": 13.631,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-deep-85-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 3014473039.978,
+            "initialReserveU": 2003506293.499,
             "gradeProbabilities": {
-              "low": 0.009981859645000712,
-              "medium": 0.17129557464150735,
-              "high": 0.8187225657134919
+              "low": 0.0025000000000000005,
+              "medium": 0.21644893365520856,
+              "high": 0.7810510663447915
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 26.863,
@@ -3940,20 +4408,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-86-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-86-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 706049322.903,
+            "initialReserveU": 252941683.732,
             "gradeProbabilities": {
-              "low": 0.3315362936058738,
-              "medium": 0.4164617253964818,
-              "high": 0.2520019809976444
+              "low": 0.3618096622370637,
+              "medium": 0.3782571632874892,
+              "high": 0.2599331744754471
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 60.362,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
+          },
+          {
+            "depositId": "r2-sol-venus-5224a0a-vein-86-2",
+            "groupId": "g2-sol-venus-5224a0a-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 611557980.994,
+            "gradeProbabilities": {
+              "low": 0.09426468509758869,
+              "medium": 0.2454788234429991,
+              "high": 0.6602564914594122
+            },
+            "extractionDifficulty": 80,
+            "processingDifficulty": 60.362,
+            "discoveryTier": 2,
+            "accessDepth": 23.527,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -3975,15 +4461,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-87-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-87-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 365521102.129,
+            "initialReserveU": 333464626.868,
             "gradeProbabilities": {
-              "low": 0.3283119775546439,
-              "medium": 0.42434579069857065,
-              "high": 0.24734223174678543
+              "low": 0.29647038261834024,
+              "medium": 0.46197243702135776,
+              "high": 0.241557180360302
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 26.556,
@@ -4010,15 +4496,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-88-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-88-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1228784903.193,
+            "initialReserveU": 585389098.004,
             "gradeProbabilities": {
-              "low": 0.32682999880292496,
-              "medium": 0.42357573550697925,
-              "high": 0.2495942656900958
+              "low": 0.37708646320565253,
+              "medium": 0.3666117118349599,
+              "high": 0.2563018249593876
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 21.62,
@@ -4028,33 +4514,15 @@
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           },
           {
-            "depositId": "r1-sol-venus-c09668b0-vein-88-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 3727846312.21,
-            "gradeProbabilities": {
-              "low": 0.07885903320135093,
-              "medium": 0.22135845527792097,
-              "high": 0.6997825115207281
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 21.62,
-            "discoveryTier": 2,
-            "accessDepth": 30.667,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-88-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
+            "depositId": "r2-sol-venus-5224a0a-deep-88-0",
+            "groupId": "g2-sol-venus-5224a0a-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 1374155657.693,
+            "initialReserveU": 2447434102.029,
             "gradeProbabilities": {
-              "low": 0.006473692041016236,
-              "medium": 0.17498414248293304,
-              "high": 0.8185421654760507
+              "low": 0.01270684143147156,
+              "medium": 0.1321127493860662,
+              "high": 0.8551804091824622
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 21.62,
@@ -4081,15 +4549,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-89-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-89-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1298541677.644,
+            "initialReserveU": 326756689.317,
             "gradeProbabilities": {
-              "low": 0.3311819777941056,
-              "medium": 0.42086518915501,
-              "high": 0.2479528330508844
+              "low": 0.30039747043155707,
+              "medium": 0.48986955438374613,
+              "high": 0.2097329751846968
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 26.89,
@@ -4116,38 +4584,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-90-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-90-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 616526244.893,
+            "initialReserveU": 292575187.863,
             "gradeProbabilities": {
-              "low": 0.32797488382698076,
-              "medium": 0.42338911355976533,
-              "high": 0.24863600261325397
+              "low": 0.29694637399019275,
+              "medium": 0.4065547839287647,
+              "high": 0.29649884208104255
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 36.018,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-vein-90-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 806097110.244,
-            "gradeProbabilities": {
-              "low": 0.08115263718785262,
-              "medium": 0.22224748747603718,
-              "high": 0.6965998753361102
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 36.018,
-            "discoveryTier": 1,
-            "accessDepth": 34.795,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -4169,56 +4619,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-venus-c09668b0-surface-91-0",
-            "groupId": "g1-sol-venus-c09668b0-surface-0",
+            "depositId": "r2-sol-venus-5224a0a-surface-91-0",
+            "groupId": "g2-sol-venus-5224a0a-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 543898979.641,
+            "initialReserveU": 272359172.277,
             "gradeProbabilities": {
-              "low": 0.33230083084718365,
-              "medium": 0.41750735417884355,
-              "high": 0.2501918149739728
+              "low": 0.3160035853724994,
+              "medium": 0.4191090465655779,
+              "high": 0.2648873680619227
             },
             "extractionDifficulty": 80,
             "processingDifficulty": 27.39,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-vein-91-0",
-            "groupId": "g1-sol-venus-c09668b0-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 1490182651.431,
-            "gradeProbabilities": {
-              "low": 0.0808230447568885,
-              "medium": 0.21769143383199097,
-              "high": 0.7014855214111205
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 27.39,
-            "discoveryTier": 2,
-            "accessDepth": 17.566,
-            "compositionTags": [],
-            "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
-          },
-          {
-            "depositId": "r1-sol-venus-c09668b0-deep-91-0",
-            "groupId": "g1-sol-venus-c09668b0-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 734109693.888,
-            "gradeProbabilities": {
-              "low": 0.011262666860721127,
-              "medium": 0.16805253720535007,
-              "high": 0.8206847959339288
-            },
-            "extractionDifficulty": 80,
-            "processingDifficulty": 27.39,
-            "discoveryTier": 5,
-            "accessDepth": 70.943,
             "compositionTags": [],
             "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도"
           }
@@ -5177,19 +5591,127 @@
         "high": 0.82
       }
     },
-    "jitter": 0.04,
     "certainty": "confirmed",
     "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도",
     "worldSeed": "sol:venus:resources:v1",
     "extractionFloor": 80,
-    "generatorVersion": 1,
-    "budgetPolicy": "fixed"
+    "generatorVersion": 2,
+    "budgetPolicy": "fixed",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 92,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.2823398703953601,
+            "max": 0.38,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.34119609594086414,
+            "max": 0.505155009793565,
+            "actualMaxDeviation": 0.085155009793565
+          },
+          "high": {
+            "min": 0.20469846629592262,
+            "max": 0.3,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 41,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.03,
+            "max": 0.10394830734635288,
+            "actualMaxDeviation": 0.05
+          },
+          "medium": {
+            "min": 0.16479703987890637,
+            "max": 0.3138787070210658,
+            "actualMaxDeviation": 0.0938787070210658
+          },
+          "high": {
+            "min": 0.6499999999999999,
+            "max": 0.7385141711911574,
+            "actualMaxDeviation": 0.050000000000000044
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 37,
+        "amplitudes": {
+          "low": 0.0075,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.0025000000000000005,
+            "max": 0.015324635393409551,
+            "actualMaxDeviation": 0.0075
+          },
+          "medium": {
+            "min": 0.1321127493860662,
+            "max": 0.22208891098602135,
+            "actualMaxDeviation": 0.052088910986021336
+          },
+          "high": {
+            "min": 0.7699999999999999,
+            "max": 0.8562801092482857,
+            "actualMaxDeviation": 0.050000000000000044
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 92,
+      "requiredCoverage": 23,
+      "veinCells": 41,
+      "groupCount": 4,
+      "minimumGroupCells": 8,
+      "exceptions": [],
+      "nominalCellCapQuanta": 11420000000000,
+      "maxCellFraction": 0.048277792447285466,
+      "maxGroupFraction": 0.5
+    }
   },
   "hydrogenSources": [],
   "initialResourceKnowledge": [],
   "migration": {
     "migrationVersion": 1,
     "fromSchemaVersion": 1,
-    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
   }
 }

@@ -7,14 +7,23 @@ export function resourceRandom(...keys){let h=2166136261;for(const c of JSON.str
 export const getBaseGradeProbabilities=d=>({...validateGradeProbabilities(d.gradeProbabilities)});
 export function getEffectiveGradeProbabilities(base,{miningTech=0,beneficiationTech=0}={}){validateGradeProbabilities(base);for(const n of [miningTech,beneficiationTech])if(!Number.isFinite(n)||n<0||n>100)throw Error('기술 가정은 0–100입니다.');const shift=Math.min(.8,.015*miningTech+.02*beneficiationTech),low=base.low*(1-shift),medium=base.medium*(1-shift*.5);return {low,medium,high:Math.max(0,1-low-medium)};}
 export function weightedGradeMean(deposits){const total=deposits.reduce((n,d)=>n+d.initialReserveU,0);return total?Object.fromEntries(ORE_GRADES.map(k=>[k,deposits.reduce((n,d)=>n+d.initialReserveU*d.gradeProbabilities[k],0)/total])):null;}
-export function assignGradeJitter(deposits,target,{seed,strength=.04}={}){
- validateGradeProbabilities(target);if(!Number.isFinite(strength)||strength<0||strength>.2)throw Error('품질 편차는 0–0.2입니다.');const rows=[...deposits].sort((a,b)=>a.depositId<b.depositId?-1:1),total=rows.reduce((n,d)=>n+d.initialReserveU,0);if(!total)return;
- const raw=rows.map(d=>({low:(resourceRandom(seed,d.groupId,'low')-.5)*.8+(resourceRandom(seed,d.depositId,'low')-.5)*.2,high:(resourceRandom(seed,d.groupId,'high')-.5)*.8+(resourceRandom(seed,d.depositId,'high')-.5)*.2})),mean=k=>raw.reduce((n,x,i)=>n+x[k]*rows[i].initialReserveU,0)/total,mLow=mean('low'),mHigh=mean('high');
- const delta=raw.map(x=>{let low=x.low-mLow,high=x.high-mHigh;if(target.low===0||target.low===1)low=0;if(target.high===0||target.high===1)high=0;if(target.medium===0||target.medium===1)high=-low;if(Object.values(target).includes(1)){low=0;high=0;}return {low,high,medium:-low-high};});let alpha=strength;
- for(const x of delta)for(const k of ORE_GRADES)if(x[k]!==0)alpha=Math.min(alpha,.95*(x[k]>0?(1-target[k])/x[k]:-target[k]/x[k]));
- for(let i=0;i<rows.length;i++){const low=target.low+alpha*delta[i].low,high=target.high+alpha*delta[i].high;rows[i].gradeProbabilities=target.medium===0?{low,medium:0,high:1-low}:target.high===0?{low,medium:1-low,high:0}:{low,medium:1-low-high,high};validateGradeProbabilities(rows[i].gradeProbabilities);}
- const actual=weightedGradeMean(rows);for(const k of ORE_GRADES)if(Math.abs(actual[k]-target[k])>1e-10)throw Error('품질 가중평균 보존 실패');
+export function assignGradeJitter(deposits,target,{seed,strength=.05}={}){
+ validateGradeProbabilities(target);if(!Number.isFinite(strength)||strength<0||strength>.2)throw Error('품질 편차는 0–0.2입니다.');const rows=[...deposits].sort((a,b)=>a.depositId<b.depositId?-1:1),total=rows.reduce((n,d)=>n+d.initialReserveU,0),limit=Math.min(.05,strength),amplitudes=Object.fromEntries(['low','high'].map(k=>[k,Math.min(limit,.75*target[k],.75*(1-target[k]))]));
+ const report={policy:'per-component-v2',maxDeviation:limit,count:rows.length,amplitudes,scaleK:1,mediumGuardRelaxed:target.medium<.001||target.medium>.999,ranges:{}};
+ if(total){const raw=rows.map(d=>({low:(resourceRandom(seed,d.groupId,'low')-.5)*.8+(resourceRandom(seed,d.depositId,'low')-.5)*.2,high:(resourceRandom(seed,d.groupId,'high')-.5)*.8+(resourceRandom(seed,d.depositId,'high')-.5)*.2})),mean=k=>raw.reduce((n,x,i)=>n+x[k]*rows[i].initialReserveU,0)/total,center={low:mean('low'),high:mean('high')},delta=raw.map(x=>({low:x.low-center.low,high:x.high-center.high})),alpha={};
+  for(const k of ['low','high']){const maximum=Math.max(0,...delta.map(x=>Math.abs(x[k])));alpha[k]=maximum?amplitudes[k]/maximum:0;}
+  let shifts=delta.map(x=>({low:alpha.low*x.low,high:alpha.high*x.high}));
+  if(target.medium===0){const maximum=Math.max(0,...delta.map(x=>Math.abs(x.low))),a=maximum?Math.min(amplitudes.low,amplitudes.high)/maximum:0;shifts=delta.map(x=>({low:a*x.low,high:-a*x.low}));}
+  if(target.medium===1)shifts=delta.map(()=>({low:0,high:0}));
+  const floor=report.mediumGuardRelaxed?0:.001,ceiling=report.mediumGuardRelaxed?1:.999;let scaleK=1;
+  for(const x of shifts){const medium=-(x.low+x.high);if(medium<0)scaleK=Math.min(scaleK,(target.medium-floor)/-medium);else if(medium>0)scaleK=Math.min(scaleK,(ceiling-target.medium)/medium);}
+  report.scaleK=Math.max(0,Math.min(1,scaleK));
+  for(let i=0;i<rows.length;i++){const low=target.low+report.scaleK*shifts[i].low,high=target.high+report.scaleK*shifts[i].high;rows[i].gradeProbabilities=rows.length===1?{...target}:target.medium===0?{low,medium:0,high:1-low}:target.high===0?{low,medium:1-low,high:0}:{low,medium:1-low-high,high};validateGradeProbabilities(rows[i].gradeProbabilities);}
+  const actual=weightedGradeMean(rows);for(const k of ORE_GRADES)if(Math.abs(actual[k]-target[k])>1e-10)throw Error('품질 가중평균 보존 실패');
+ }
+ for(const k of ORE_GRADES){const values=rows.map(d=>d.gradeProbabilities[k]);report.ranges[k]={min:values.length?Math.min(...values):null,max:values.length?Math.max(...values):null,actualMaxDeviation:values.length?Math.max(...values.map(v=>Math.abs(v-target[k]))):0};}return report;
 }
+
 function binomial(n,p,key){if(!n||!p)return 0;if(p===1)return n;if(n<=256){let count=0;for(let i=0;i<n;i++)if(resourceRandom(...key,i)<p)count++;return count;}
  // Large-batch bounded normal approximation; O(1), no loop per ore quantum.
  const u=Math.max(1e-12,resourceRandom(...key,'u')),v=resourceRandom(...key,'v'),z=Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v);return Math.max(0,Math.min(n,Math.round(n*p+Math.sqrt(n*p*(1-p))*z)));

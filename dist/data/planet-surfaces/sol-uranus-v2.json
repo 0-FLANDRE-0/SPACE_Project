@@ -6599,12 +6599,120 @@
         "high": 0.516240025521256
       }
     },
-    "jitter": 0.04,
     "certainty": "provisional",
     "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
     "worldSeed": "sol:uranus:resources:v1",
-    "generatorVersion": 1,
-    "budgetPolicy": "procedural"
+    "generatorVersion": 2,
+    "budgetPolicy": "procedural",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 0,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.00968606428534258
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          },
+          "medium": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          },
+          "high": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 0,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          },
+          "medium": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          },
+          "high": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 0,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          },
+          "medium": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          },
+          "high": {
+            "min": null,
+            "max": null,
+            "actualMaxDeviation": 0
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 0,
+      "requiredCoverage": 0,
+      "veinCells": 0,
+      "groupCount": 0,
+      "minimumGroupCells": 0,
+      "exceptions": [],
+      "nominalCellCapQuanta": 0,
+      "maxCellFraction": 0,
+      "maxGroupFraction": 0
+    }
   },
   "hydrogenSources": [
     {
@@ -6645,6 +6753,6 @@
   "migration": {
     "migrationVersion": 1,
     "fromSchemaVersion": 1,
-    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
   }
 }

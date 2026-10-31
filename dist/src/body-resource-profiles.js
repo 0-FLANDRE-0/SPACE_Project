@@ -1,4 +1,4 @@
-export const RESOURCE_GENERATOR_VERSION=1;
+export const RESOURCE_GENERATOR_VERSION=2;
 export const DEPOSIT_KINDS=new Map([['surface',{name:'표면 전역형'}],['vein',{name:'연결 광맥형'}],['deep',{name:'심층형'}]]);
 export const HYDROGEN_SOURCE_TYPES=new Set(['finite-source','atmospheric-collector']);
 const p=(low,medium,high)=>({low,medium,high});
@@ -9,4 +9,7 @@ export const SOL_RESOURCE_SETTINGS={
  moon:{totalOreU:100000000000,typeShares:{surface:1,vein:0,deep:0},gradeTargets:{surface:p(.8,.17,.03),vein:p(.6,.35,.05),deep:p(.3,.4,.3)},certainty:'mixed',processingFloor:80,notes:'1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정'},
 };
 export const PROVISIONAL_SCENARIOS={moon:{populationPersons:200000,urbanizationRate:.2,infrastructureLevel:1,knowledgeDetected:.3,knowledgeConfirmed:.15},mars:{populationPersons:50000,urbanizationRate:.15,infrastructureLevel:1,knowledgeDetected:.2,knowledgeConfirmed:.1}};
-export const PROCEDURAL_RESOURCE_PARAMETERS=Object.freeze({minimumRichness:.25,maximumRichness:3,absenceProbability:.06,baseOreU:40000000000,jitter:.04});
+export const PROCEDURAL_RESOURCE_PARAMETERS=Object.freeze({minimumRichness:.25,maximumRichness:3,absenceProbability:.06,baseOreU:40000000000,jitter:.05});
+
+// v0.5D.1 provisional shared constraints; independent of Sol/body IDs.
+export const RESOURCE_CONCENTRATION_POLICY=Object.freeze({minimumFixedGroups:3,minimumProceduralGroups:2,maximumGroups:6,minimumGroupCells:3,minimumCoverage:.25,maximumCellShare:.10,maximumGroupShare:.50});

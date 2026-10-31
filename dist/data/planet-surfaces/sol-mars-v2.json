@@ -30,15 +30,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-0-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-0-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 122687407.038,
+            "initialReserveU": 138206565.384,
             "gradeProbabilities": {
-              "low": 0.5506364786793521,
-              "medium": 0.4031593669659524,
-              "high": 0.04620415435469556
+              "low": 0.5938119610561885,
+              "medium": 0.3728807181251277,
+              "high": 0.0333073208186838
             },
             "extractionDifficulty": 17.81,
             "processingDifficulty": 31.868,
@@ -48,20 +48,20 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-0-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-vein-0-0",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-0",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 82811466.237,
+            "depositKind": "vein",
+            "initialReserveU": 181528513.958,
             "gradeProbabilities": {
-              "low": 0.14998715864532575,
-              "medium": 0.3480857939642842,
-              "high": 0.5019270473903901
+              "low": 0.28594242545836196,
+              "medium": 0.4203966045666988,
+              "high": 0.2936609699749392
             },
-            "extractionDifficulty": 81.176,
+            "extractionDifficulty": 51.11,
             "processingDifficulty": 31.868,
-            "discoveryTier": 3,
-            "accessDepth": 95.588,
+            "discoveryTier": 1,
+            "accessDepth": 32.353,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -83,15 +83,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-1-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-1-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 376552335.577,
+            "initialReserveU": 319774057.095,
             "gradeProbabilities": {
-              "low": 0.5497820851170501,
-              "medium": 0.39740221757880134,
-              "high": 0.05281569730414856
+              "low": 0.5434881578313625,
+              "medium": 0.3740465147364081,
+              "high": 0.08246532743222941
             },
             "extractionDifficulty": 16.309,
             "processingDifficulty": 16.44,
@@ -101,15 +101,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-1-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-1-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 256715123.084,
+            "initialReserveU": 58324402.711,
             "gradeProbabilities": {
-              "low": 0.15079897729345546,
-              "medium": 0.3490230266523535,
-              "high": 0.500177996054191
+              "low": 0.11457300332295321,
+              "medium": 0.376848975008909,
+              "high": 0.5085780216681378
             },
             "extractionDifficulty": 72.026,
             "processingDifficulty": 16.44,
@@ -136,38 +136,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-2-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-2-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 82875239.586,
+            "initialReserveU": 247689257.223,
             "gradeProbabilities": {
-              "low": 0.5513537164294203,
-              "medium": 0.39834629446333936,
-              "high": 0.050299989107240324
+              "low": 0.56307266836504,
+              "medium": 0.38669986196752126,
+              "high": 0.05022746966743873
             },
             "extractionDifficulty": 13.376,
             "processingDifficulty": 32.991,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-2-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 203649347.57,
-            "gradeProbabilities": {
-              "low": 0.15212792547644063,
-              "medium": 0.35272508200602487,
-              "high": 0.4951469925175345
-            },
-            "extractionDifficulty": 64.551,
-            "processingDifficulty": 32.991,
-            "discoveryTier": 3,
-            "accessDepth": 52.139,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -189,20 +171,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-3-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-3-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 646324548.303,
+            "initialReserveU": 404088019.043,
             "gradeProbabilities": {
-              "low": 0.5491133327652743,
-              "medium": 0.3994933274469404,
-              "high": 0.0513933397877853
+              "low": 0.5,
+              "medium": 0.45548580629458546,
+              "high": 0.04451419370541454
             },
             "extractionDifficulty": 22.758,
             "processingDifficulty": 34.375,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-3-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 124744058.034,
+            "gradeProbabilities": {
+              "low": 0.17521316231724096,
+              "medium": 0.3590534101729914,
+              "high": 0.46573342750976765
+            },
+            "extractionDifficulty": 67.343,
+            "processingDifficulty": 34.375,
+            "discoveryTier": 3,
+            "accessDepth": 66.159,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -224,15 +224,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-4-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-4-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2066364455.93,
+            "initialReserveU": 2006972914.015,
             "gradeProbabilities": {
-              "low": 0.5481018915214618,
-              "medium": 0.4007980300585805,
-              "high": 0.051100078419957645
+              "low": 0.5817140116230992,
+              "medium": 0.3849846317733178,
+              "high": 0.03330135660358295
             },
             "extractionDifficulty": 22.018,
             "processingDifficulty": 43.348,
@@ -259,20 +259,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-5-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-5-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 228852943.364,
+            "initialReserveU": 564680822.658,
             "gradeProbabilities": {
-              "low": 0.5483021722083022,
-              "medium": 0.40366685723020423,
-              "high": 0.04803097056149352
+              "low": 0.5918185498382801,
+              "medium": 0.33666378425516114,
+              "high": 0.0715176659065588
             },
             "extractionDifficulty": 15.04,
             "processingDifficulty": 39.286,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-5-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 54647602.682,
+            "gradeProbabilities": {
+              "low": 0.15517768165641663,
+              "medium": 0.3478066564918763,
+              "high": 0.49701566185170704
+            },
+            "extractionDifficulty": 75.924,
+            "processingDifficulty": 39.286,
+            "discoveryTier": 4,
+            "accessDepth": 65.186,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -294,20 +312,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-6-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-6-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 533966832.936,
+            "initialReserveU": 475436742.656,
             "gradeProbabilities": {
-              "low": 0.5495863877759357,
-              "medium": 0.4039328548523664,
-              "high": 0.046480757371697906
+              "low": 0.5662991734690546,
+              "medium": 0.39452075879075316,
+              "high": 0.03918006774019226
             },
             "extractionDifficulty": 15.231,
             "processingDifficulty": 50.307,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-vein-6-0",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1143400487.529,
+            "gradeProbabilities": {
+              "low": 0.25965200865182775,
+              "medium": 0.4784875521782306,
+              "high": 0.2618604391699417
+            },
+            "extractionDifficulty": 36.067,
+            "processingDifficulty": 50.307,
+            "discoveryTier": 2,
+            "accessDepth": 20.855,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -329,15 +365,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-7-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-7-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 266290997.799,
+            "initialReserveU": 136101618.914,
             "gradeProbabilities": {
-              "low": 0.5473108525835951,
-              "medium": 0.40317356548710453,
-              "high": 0.04951558192930031
+              "low": 0.5061755931121859,
+              "medium": 0.45623415702835335,
+              "high": 0.03759024985946083
             },
             "extractionDifficulty": 11.742,
             "processingDifficulty": 50.122,
@@ -347,38 +383,20 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-vein-7-0",
-            "groupId": "g1-sol-mars-182b99a2-vein-0",
+            "depositId": "r2-sol-mars-d6d3a77c-vein-7-0",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-0",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 107485440.833,
+            "initialReserveU": 1074657302.404,
             "gradeProbabilities": {
-              "low": 0.30710039933587396,
-              "medium": 0.38602444744472475,
-              "high": 0.3068751532194013
+              "low": 0.26853246133888253,
+              "medium": 0.46101358926130953,
+              "high": 0.27045394939980794
             },
             "extractionDifficulty": 36.799,
             "processingDifficulty": 50.122,
             "discoveryTier": 2,
             "accessDepth": 27.516,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-7-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 69020999.876,
-            "gradeProbabilities": {
-              "low": 0.15038192207963152,
-              "medium": 0.34834045784706125,
-              "high": 0.5012776200733072
-            },
-            "extractionDifficulty": 76.606,
-            "processingDifficulty": 50.122,
-            "discoveryTier": 4,
-            "accessDepth": 87.526,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -400,38 +418,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-8-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-8-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 667797782.954,
+            "initialReserveU": 842956929.93,
             "gradeProbabilities": {
-              "low": 0.5488524518386503,
-              "medium": 0.40495878808638747,
-              "high": 0.04618876007496226
+              "low": 0.5612545254308,
+              "medium": 0.37400836971233054,
+              "high": 0.06473710485686943
             },
             "extractionDifficulty": 11.198,
             "processingDifficulty": 20.324,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-vein-8-0",
-            "groupId": "g1-sol-mars-182b99a2-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 866308067.13,
-            "gradeProbabilities": {
-              "low": 0.3015270953197309,
-              "medium": 0.3931351951266554,
-              "high": 0.3053377095536137
-            },
-            "extractionDifficulty": 49.508,
-            "processingDifficulty": 20.324,
-            "discoveryTier": 2,
-            "accessDepth": 31.437,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -453,15 +453,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-9-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-9-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2035218515.446,
+            "initialReserveU": 3016498488.621,
             "gradeProbabilities": {
-              "low": 0.5514397098832806,
-              "medium": 0.40150038047759523,
-              "high": 0.04705990963912416
+              "low": 0.5485639699094328,
+              "medium": 0.4191688775538549,
+              "high": 0.03226715253671229
             },
             "extractionDifficulty": 20.565,
             "processingDifficulty": 52.295,
@@ -471,15 +471,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-9-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-9-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 805058224.454,
+            "initialReserveU": 148180939.393,
             "gradeProbabilities": {
-              "low": 0.14985456587039814,
-              "medium": 0.350934449936914,
-              "high": 0.4992109841926879
+              "low": 0.19265648818979797,
+              "medium": 0.30833390074405137,
+              "high": 0.49900961106615066
             },
             "extractionDifficulty": 84.468,
             "processingDifficulty": 52.295,
@@ -506,38 +506,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-10-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-10-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 564378619.985,
+            "initialReserveU": 374780488.799,
             "gradeProbabilities": {
-              "low": 0.55082380307103,
-              "medium": 0.3957798612459629,
-              "high": 0.053396335683007126
+              "low": 0.5382861047334586,
+              "medium": 0.40779861684852015,
+              "high": 0.05391527841802127
             },
             "extractionDifficulty": 20.864,
             "processingDifficulty": 41.453,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-10-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 88926525.801,
-            "gradeProbabilities": {
-              "low": 0.15040357846991106,
-              "medium": 0.3514314385873254,
-              "high": 0.49816498294276357
-            },
-            "extractionDifficulty": 83.805,
-            "processingDifficulty": 41.453,
-            "discoveryTier": 5,
-            "accessDepth": 75.24,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -559,56 +541,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-11-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-11-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 68592282.288,
+            "initialReserveU": 145066960.303,
             "gradeProbabilities": {
-              "low": 0.5468462340013166,
-              "medium": 0.4063071772965669,
-              "high": 0.04684658870211649
+              "low": 0.5701321080937903,
+              "medium": 0.3654538202363601,
+              "high": 0.06441407166984955
             },
             "extractionDifficulty": 19.144,
             "processingDifficulty": 47.769,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-vein-11-1",
-            "groupId": "g1-sol-mars-182b99a2-vein-1",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 386611866.002,
-            "gradeProbabilities": {
-              "low": 0.2758855475839504,
-              "medium": 0.42812298303273594,
-              "high": 0.2959914693833137
-            },
-            "extractionDifficulty": 47.478,
-            "processingDifficulty": 47.769,
-            "discoveryTier": 2,
-            "accessDepth": 22.944,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-11-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 44871826.133,
-            "gradeProbabilities": {
-              "low": 0.14763489172832056,
-              "medium": 0.35615892052436127,
-              "high": 0.4962061877473182
-            },
-            "extractionDifficulty": 64.912,
-            "processingDifficulty": 47.769,
-            "discoveryTier": 5,
-            "accessDepth": 79.906,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -630,15 +576,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-12-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-12-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 111433985.097,
+            "initialReserveU": 321987388.688,
             "gradeProbabilities": {
-              "low": 0.5511899885387203,
-              "medium": 0.3969933853137373,
-              "high": 0.05181662614754248
+              "low": 0.5004409037873062,
+              "medium": 0.4248722371957224,
+              "high": 0.07468685901697139
             },
             "extractionDifficulty": 33.01,
             "processingDifficulty": 20.65,
@@ -665,15 +611,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-13-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-13-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 372343064.207,
+            "initialReserveU": 287070043.569,
             "gradeProbabilities": {
-              "low": 0.5474433102701833,
-              "medium": 0.3995284305389105,
-              "high": 0.053028259190906174
+              "low": 0.5983238826104847,
+              "medium": 0.3816300909012741,
+              "high": 0.02004602648824119
             },
             "extractionDifficulty": 16.85,
             "processingDifficulty": 19.537,
@@ -700,15 +646,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-14-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-14-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1804538600.356,
+            "initialReserveU": 3003533356.748,
             "gradeProbabilities": {
-              "low": 0.5474976575319698,
-              "medium": 0.3993384122165917,
-              "high": 0.0531639302514385
+              "low": 0.5766999779333741,
+              "medium": 0.4061014475392668,
+              "high": 0.01719857452735904
             },
             "extractionDifficulty": 12.067,
             "processingDifficulty": 18.877,
@@ -718,20 +664,20 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-14-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-vein-14-2",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-2",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 394010991.265,
+            "depositKind": "vein",
+            "initialReserveU": 1673788064.92,
             "gradeProbabilities": {
-              "low": 0.15046183322035656,
-              "medium": 0.3475111987178202,
-              "high": 0.5020269680618232
+              "low": 0.25427423717891806,
+              "medium": 0.44319295061018976,
+              "high": 0.3025328122108922
             },
-            "extractionDifficulty": 78.821,
+            "extractionDifficulty": 51.493,
             "processingDifficulty": 18.877,
-            "discoveryTier": 4,
-            "accessDepth": 74.917,
+            "discoveryTier": 1,
+            "accessDepth": 19.95,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -753,15 +699,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-15-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-15-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 601642725.113,
+            "initialReserveU": 1092431405.751,
             "gradeProbabilities": {
-              "low": 0.5484628826306244,
-              "medium": 0.3983914619914322,
-              "high": 0.0531456553779434
+              "low": 0.5520819776232676,
+              "medium": 0.3701736322118485,
+              "high": 0.07774439016488388
             },
             "extractionDifficulty": 34.933,
             "processingDifficulty": 28.787,
@@ -788,20 +734,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-16-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-16-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 262127051.592,
+            "initialReserveU": 444662905.865,
             "gradeProbabilities": {
-              "low": 0.5528396147863051,
-              "medium": 0.399897816735047,
-              "high": 0.04726256847864795
+              "low": 0.5703679181690535,
+              "medium": 0.36556786929598606,
+              "high": 0.06406421253496039
             },
             "extractionDifficulty": 33.933,
             "processingDifficulty": 23.876,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-vein-16-2",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 184181777.828,
+            "gradeProbabilities": {
+              "low": 0.29663318487282064,
+              "medium": 0.40118027891675007,
+              "high": 0.3021865362104293
+            },
+            "extractionDifficulty": 35.006,
+            "processingDifficulty": 23.876,
+            "discoveryTier": 1,
+            "accessDepth": 26.681,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-16-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 64862237.939,
+            "gradeProbabilities": {
+              "low": 0.13392363038842092,
+              "medium": 0.3900815958559949,
+              "high": 0.4759947737555842
+            },
+            "extractionDifficulty": 80.273,
+            "processingDifficulty": 23.876,
+            "discoveryTier": 4,
+            "accessDepth": 86.134,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -823,15 +805,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-17-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-17-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 155105565.837,
+            "initialReserveU": 230815636.908,
             "gradeProbabilities": {
-              "low": 0.5487826912515839,
-              "medium": 0.4010557078520834,
-              "high": 0.050161600896332745
+              "low": 0.5067109275000934,
+              "medium": 0.42838756333320893,
+              "high": 0.06490150916669767
             },
             "extractionDifficulty": 30.212,
             "processingDifficulty": 59.332,
@@ -858,38 +840,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-18-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-18-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 883526554.092,
+            "initialReserveU": 550367466.687,
             "gradeProbabilities": {
-              "low": 0.5474221825898667,
-              "medium": 0.40370909778653374,
-              "high": 0.04886871962359953
+              "low": 0.522972631797995,
+              "medium": 0.3955931766703673,
+              "high": 0.08143419153163767
             },
             "extractionDifficulty": 12.877,
             "processingDifficulty": 48.752,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-vein-18-1",
-            "groupId": "g1-sol-mars-182b99a2-vein-1",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 215293555.559,
-            "gradeProbabilities": {
-              "low": 0.273569164536921,
-              "medium": 0.4352171929105101,
-              "high": 0.291213642552569
-            },
-            "extractionDifficulty": 51.448,
-            "processingDifficulty": 48.752,
-            "discoveryTier": 1,
-            "accessDepth": 26.504,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -911,38 +875,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-19-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-19-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2648132914.285,
+            "initialReserveU": 1225523048.201,
             "gradeProbabilities": {
-              "low": 0.5536614884958645,
-              "medium": 0.40024840717269766,
-              "high": 0.04609010433143783
+              "low": 0.5315603375568856,
+              "medium": 0.4025270325928131,
+              "high": 0.06591262985030133
             },
             "extractionDifficulty": 11.855,
             "processingDifficulty": 39.785,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-19-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 523168016.147,
-            "gradeProbabilities": {
-              "low": 0.15111188011468335,
-              "medium": 0.34695678967023147,
-              "high": 0.5019313302150852
-            },
-            "extractionDifficulty": 60.125,
-            "processingDifficulty": 39.785,
-            "discoveryTier": 5,
-            "accessDepth": 95.186,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -964,38 +910,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-20-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-20-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 768538027.126,
+            "initialReserveU": 1038765163.701,
             "gradeProbabilities": {
-              "low": 0.5469932713621338,
-              "medium": 0.40604807834765605,
-              "high": 0.04695865029021013
+              "low": 0.5448265404024042,
+              "medium": 0.3878188395234309,
+              "high": 0.06735462007416491
             },
             "extractionDifficulty": 23.61,
             "processingDifficulty": 53.022,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-20-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 121885592.377,
-            "gradeProbabilities": {
-              "low": 0.15023944775239512,
-              "medium": 0.35438892341190825,
-              "high": 0.4953716288356966
-            },
-            "extractionDifficulty": 65.699,
-            "processingDifficulty": 53.022,
-            "discoveryTier": 3,
-            "accessDepth": 98.11,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1017,15 +945,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-21-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-21-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 496291054.826,
+            "initialReserveU": 391961685.057,
             "gradeProbabilities": {
-              "low": 0.5541829622686884,
-              "medium": 0.3966111675265311,
-              "high": 0.04920587020478058
+              "low": 0.5163827002996627,
+              "medium": 0.43381678848345095,
+              "high": 0.049800511216886355
             },
             "extractionDifficulty": 23.794,
             "processingDifficulty": 54.857,
@@ -1035,15 +963,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-21-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-21-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 90462156.804,
+            "initialReserveU": 204388779.211,
             "gradeProbabilities": {
-              "low": 0.14853730658666178,
-              "medium": 0.3498040265624399,
-              "high": 0.5016586668508983
+              "low": 0.10843990770968703,
+              "medium": 0.36752822225794834,
+              "high": 0.5240318700323646
             },
             "extractionDifficulty": 71.156,
             "processingDifficulty": 54.857,
@@ -1070,15 +998,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-22-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-22-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 95936198.336,
+            "initialReserveU": 94613723.146,
             "gradeProbabilities": {
-              "low": 0.5475888268706431,
-              "medium": 0.40319719212381827,
-              "high": 0.04921398100553859
+              "low": 0.5926829510212629,
+              "medium": 0.3948170489787371,
+              "high": 0.012499999999999997
             },
             "extractionDifficulty": 11.439,
             "processingDifficulty": 64.312,
@@ -1088,20 +1016,38 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-vein-22-2",
-            "groupId": "g1-sol-mars-182b99a2-vein-2",
+            "depositId": "r2-sol-mars-d6d3a77c-vein-22-1",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-1",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 612540320.736,
+            "initialReserveU": 307841063.154,
             "gradeProbabilities": {
-              "low": 0.28068917930128956,
-              "medium": 0.414138300340521,
-              "high": 0.3051725203581894
+              "low": 0.2863401228176141,
+              "medium": 0.3791227383220572,
+              "high": 0.3345371388603287
             },
             "extractionDifficulty": 42.795,
             "processingDifficulty": 64.312,
             "discoveryTier": 1,
             "accessDepth": 23.933,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-22-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 197119269.514,
+            "gradeProbabilities": {
+              "low": 0.16613522120098936,
+              "medium": 0.3389836376871953,
+              "high": 0.49488114111181536
+            },
+            "extractionDifficulty": 67.21,
+            "processingDifficulty": 64.312,
+            "discoveryTier": 3,
+            "accessDepth": 81.555,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1123,15 +1069,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-23-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-23-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 415460823.926,
+            "initialReserveU": 196487407.504,
             "gradeProbabilities": {
-              "low": 0.5533716713731219,
-              "medium": 0.3931410813412695,
-              "high": 0.05348724728560853
+              "low": 0.5385559255640672,
+              "medium": 0.398793313413757,
+              "high": 0.06265076102217582
             },
             "extractionDifficulty": 13.145,
             "processingDifficulty": 21.08,
@@ -1158,15 +1104,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-24-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-24-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 162677062.544,
+            "initialReserveU": 315843645.061,
             "gradeProbabilities": {
-              "low": 0.5473778088559439,
-              "medium": 0.4025267274162798,
-              "high": 0.05009546372777629
+              "low": 0.5823377896796686,
+              "medium": 0.3474327096634605,
+              "high": 0.07022950065687081
             },
             "extractionDifficulty": 19.656,
             "processingDifficulty": 31.144,
@@ -1176,15 +1122,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-24-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-24-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 291486844.876,
+            "initialReserveU": 58466071.276,
             "gradeProbabilities": {
-              "low": 0.14824164597541972,
-              "medium": 0.35670178415225706,
-              "high": 0.49505656987232327
+              "low": 0.10242018934179828,
+              "medium": 0.4082394238659392,
+              "high": 0.4893403867922625
             },
             "extractionDifficulty": 82.212,
             "processingDifficulty": 31.144,
@@ -1211,15 +1157,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-25-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-25-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 140027817.412,
+            "initialReserveU": 77921543.478,
             "gradeProbabilities": {
-              "low": 0.5486308833603789,
-              "medium": 0.4047509898140162,
-              "high": 0.04661812682560492
+              "low": 0.513951313037527,
+              "medium": 0.4082624722029702,
+              "high": 0.07778621475950284
             },
             "extractionDifficulty": 29.995,
             "processingDifficulty": 31.134,
@@ -1229,15 +1175,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-25-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-25-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 38629830.808,
+            "initialReserveU": 66708912.174,
             "gradeProbabilities": {
-              "low": 0.1497743386145769,
-              "medium": 0.3549224663523014,
-              "high": 0.4953031950331217
+              "low": 0.14447358111444253,
+              "medium": 0.32725055175268136,
+              "high": 0.5282758671328761
             },
             "extractionDifficulty": 84.447,
             "processingDifficulty": 31.134,
@@ -1264,15 +1210,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-26-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-26-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2661766508.379,
+            "initialReserveU": 1228143759.289,
             "gradeProbabilities": {
-              "low": 0.5512430652604481,
-              "medium": 0.3976476369041084,
-              "high": 0.051109297835443504
+              "low": 0.5184746696630013,
+              "medium": 0.44112078478407624,
+              "high": 0.040404545552922486
             },
             "extractionDifficulty": 25.749,
             "processingDifficulty": 20.893,
@@ -1282,20 +1228,20 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-vein-26-2",
-            "groupId": "g1-sol-mars-182b99a2-vein-2",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-26-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 923502465.24,
+            "depositKind": "deep",
+            "initialReserveU": 965546143.05,
             "gradeProbabilities": {
-              "low": 0.27494123248572433,
-              "medium": 0.42217279890169473,
-              "high": 0.30288596861258094
+              "low": 0.19988642613671498,
+              "medium": 0.34960380257271034,
+              "high": 0.4505097712905746
             },
-            "extractionDifficulty": 33.477,
+            "extractionDifficulty": 80.218,
             "processingDifficulty": 20.893,
-            "discoveryTier": 2,
-            "accessDepth": 34.856,
+            "discoveryTier": 4,
+            "accessDepth": 99.76,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1317,20 +1263,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-27-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-27-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1094496957.645,
+            "initialReserveU": 2488900733.618,
             "gradeProbabilities": {
-              "low": 0.548091735394769,
-              "medium": 0.40468960887073263,
-              "high": 0.047218655734498384
+              "low": 0.5308093326493917,
+              "medium": 0.40448230754599646,
+              "high": 0.06470835980461184
             },
             "extractionDifficulty": 16.901,
             "processingDifficulty": 22.755,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-vein-27-1",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 315964096.771,
+            "gradeProbabilities": {
+              "low": 0.33,
+              "medium": 0.31999999999999995,
+              "high": 0.35
+            },
+            "extractionDifficulty": 54.911,
+            "processingDifficulty": 22.755,
+            "discoveryTier": 1,
+            "accessDepth": 11.463,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-27-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 179419218.739,
+            "gradeProbabilities": {
+              "low": 0.18470417742680467,
+              "medium": 0.2703211847521243,
+              "high": 0.544974637821071
+            },
+            "extractionDifficulty": 81.497,
+            "processingDifficulty": 22.755,
+            "discoveryTier": 3,
+            "accessDepth": 60.772,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1352,15 +1334,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-28-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-28-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 293552432.167,
+            "initialReserveU": 235493270.106,
             "gradeProbabilities": {
-              "low": 0.5504548211080065,
-              "medium": 0.40227341161547886,
-              "high": 0.04727176727651465
+              "low": 0.5597045237912709,
+              "medium": 0.42380411298352677,
+              "high": 0.016491363225202324
             },
             "extractionDifficulty": 34.492,
             "processingDifficulty": 16.596,
@@ -1370,33 +1352,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-vein-28-2",
-            "groupId": "g1-sol-mars-182b99a2-vein-2",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 1431266803.717,
-            "gradeProbabilities": {
-              "low": 0.27631529523621284,
-              "medium": 0.41646864627850316,
-              "high": 0.30721605848528394
-            },
-            "extractionDifficulty": 47.936,
-            "processingDifficulty": 16.596,
-            "discoveryTier": 1,
-            "accessDepth": 25.502,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-28-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-28-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 378986331.799,
+            "initialReserveU": 442900779.682,
             "gradeProbabilities": {
-              "low": 0.14891333946437524,
-              "medium": 0.35001861957246316,
-              "high": 0.5010680409631616
+              "low": 0.12732974301025315,
+              "medium": 0.3532065147966563,
+              "high": 0.5194637421930905
             },
             "extractionDifficulty": 82.568,
             "processingDifficulty": 16.596,
@@ -1423,15 +1387,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-29-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-29-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 193623963.104,
+            "initialReserveU": 236968532.905,
             "gradeProbabilities": {
-              "low": 0.5513802665808281,
-              "medium": 0.4023808036918818,
-              "high": 0.04623892972729016
+              "low": 0.5687318696660769,
+              "medium": 0.3620339935524548,
+              "high": 0.06923413678146831
             },
             "extractionDifficulty": 29.777,
             "processingDifficulty": 66.796,
@@ -1441,20 +1405,38 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-vein-29-0",
-            "groupId": "g1-sol-mars-182b99a2-vein-0",
+            "depositId": "r2-sol-mars-d6d3a77c-vein-29-2",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-2",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 272037244.097,
+            "initialReserveU": 485313117.566,
             "gradeProbabilities": {
-              "low": 0.30152285442317805,
-              "medium": 0.3968925711157647,
-              "high": 0.30158457446105724
+              "low": 0.26365645334936083,
+              "medium": 0.3963158504001038,
+              "high": 0.34002769625053536
             },
             "extractionDifficulty": 35.239,
             "processingDifficulty": 66.796,
             "discoveryTier": 2,
             "accessDepth": 5.537,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-29-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 183964151.844,
+            "gradeProbabilities": {
+              "low": 0.1262193131612009,
+              "medium": 0.42378068683879905,
+              "high": 0.45
+            },
+            "extractionDifficulty": 78.211,
+            "processingDifficulty": 66.796,
+            "discoveryTier": 5,
+            "accessDepth": 50.896,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1476,15 +1458,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-30-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-30-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1097295287.98,
+            "initialReserveU": 1466915286.531,
             "gradeProbabilities": {
-              "low": 0.5511549327504863,
-              "medium": 0.39844602454705824,
-              "high": 0.050399042702455404
+              "low": 0.5611642577463387,
+              "medium": 0.3689261851860867,
+              "high": 0.06990955706757455
             },
             "extractionDifficulty": 13.41,
             "processingDifficulty": 28.97,
@@ -1494,33 +1476,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-vein-30-3",
-            "groupId": "g1-sol-mars-182b99a2-vein-3",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 367140999.213,
-            "gradeProbabilities": {
-              "low": 0.27535847815687736,
-              "medium": 0.4325549030228433,
-              "high": 0.2920866188202793
-            },
-            "extractionDifficulty": 46.357,
-            "processingDifficulty": 28.97,
-            "discoveryTier": 2,
-            "accessDepth": 11.568,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-30-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-30-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 177689979.38,
+            "initialReserveU": 1155940406.24,
             "gradeProbabilities": {
-              "low": 0.1504678542152135,
-              "medium": 0.3517780020439054,
-              "high": 0.4977541437408811
+              "low": 0.10125726380991362,
+              "medium": 0.3976374065707846,
+              "high": 0.5011053296193018
             },
             "extractionDifficulty": 66.303,
             "processingDifficulty": 28.97,
@@ -1547,20 +1511,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-31-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-31-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 597953107.034,
+            "initialReserveU": 1247015056.112,
             "gradeProbabilities": {
-              "low": 0.5535779415425887,
-              "medium": 0.39772997741467053,
-              "high": 0.04869208104274082
+              "low": 0.5557010590185124,
+              "medium": 0.39741980287881007,
+              "high": 0.04687913810267749
             },
             "extractionDifficulty": 12.267,
             "processingDifficulty": 24.047,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-vein-31-2",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 735774839.39,
+            "gradeProbabilities": {
+              "low": 0.27666666066250456,
+              "medium": 0.39782350417527085,
+              "high": 0.3255098351622246
+            },
+            "extractionDifficulty": 53.706,
+            "processingDifficulty": 24.047,
+            "discoveryTier": 1,
+            "accessDepth": 17.972,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1582,15 +1564,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-32-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-32-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 647457547.639,
+            "initialReserveU": 520170106.113,
             "gradeProbabilities": {
-              "low": 0.5504938998595854,
-              "medium": 0.403527751340258,
-              "high": 0.045978348800156596
+              "low": 0.5759446508774737,
+              "medium": 0.3630864963732707,
+              "high": 0.06096885274925564
             },
             "extractionDifficulty": 20.41,
             "processingDifficulty": 60.728,
@@ -1600,15 +1582,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-vein-32-3",
-            "groupId": "g1-sol-mars-182b99a2-vein-3",
+            "depositId": "r2-sol-mars-d6d3a77c-vein-32-2",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-2",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 959574213.823,
+            "initialReserveU": 1730073371.379,
             "gradeProbabilities": {
-              "low": 0.27248442036475023,
-              "medium": 0.4336498811597851,
-              "high": 0.2938656984754646
+              "low": 0.3102658787066743,
+              "medium": 0.40104549993548755,
+              "high": 0.2886886213578381
             },
             "extractionDifficulty": 52.307,
             "processingDifficulty": 60.728,
@@ -1618,15 +1600,15 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-32-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-deep-32-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 325780398.679,
+            "initialReserveU": 253289787.59,
             "gradeProbabilities": {
-              "low": 0.14723332883269474,
-              "medium": 0.35053392478609335,
-              "high": 0.5022327463812118
+              "low": 0.1820651166332344,
+              "medium": 0.2700691601360413,
+              "high": 0.5478657232307242
             },
             "extractionDifficulty": 68.291,
             "processingDifficulty": 60.728,
@@ -1653,15 +1635,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-33-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-33-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 325322311.624,
+            "initialReserveU": 382678042.203,
             "gradeProbabilities": {
-              "low": 0.5472787134909114,
-              "medium": 0.4047152740608035,
-              "high": 0.048006012448285104
+              "low": 0.5053372124747101,
+              "medium": 0.4199157962729158,
+              "high": 0.0747469912523741
             },
             "extractionDifficulty": 29.904,
             "processingDifficulty": 57.173,
@@ -1671,38 +1653,20 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-vein-33-0",
-            "groupId": "g1-sol-mars-182b99a2-vein-0",
+            "depositId": "r2-sol-mars-d6d3a77c-vein-33-0",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-0",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 321030121.424,
+            "initialReserveU": 644153739.811,
             "gradeProbabilities": {
-              "low": 0.3052408823874124,
-              "medium": 0.39247260276590556,
-              "high": 0.302286514846682
+              "low": 0.24422105503803865,
+              "medium": 0.4651568165624095,
+              "high": 0.2906221283995519
             },
             "extractionDifficulty": 45.153,
             "processingDifficulty": 57.173,
             "discoveryTier": 1,
             "accessDepth": 17.172,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-33-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 79741577.729,
-            "gradeProbabilities": {
-              "low": 0.14727751969770475,
-              "medium": 0.35320434147650254,
-              "high": 0.4995181388257927
-            },
-            "extractionDifficulty": 65.308,
-            "processingDifficulty": 57.173,
-            "discoveryTier": 3,
-            "accessDepth": 70.286,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1724,20 +1688,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-34-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-34-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 346454970.805,
+            "initialReserveU": 213852765.513,
             "gradeProbabilities": {
-              "low": 0.5541456688215067,
-              "medium": 0.39610278328760257,
-              "high": 0.04975154789089072
+              "low": 0.5644510158294235,
+              "medium": 0.35571513272816857,
+              "high": 0.07983385144240794
             },
             "extractionDifficulty": 32.458,
             "processingDifficulty": 40.207,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-34-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 35171603.57,
+            "gradeProbabilities": {
+              "low": 0.1020249684155084,
+              "medium": 0.4456076535234037,
+              "high": 0.45236737806108795
+            },
+            "extractionDifficulty": 78.16,
+            "processingDifficulty": 40.207,
+            "discoveryTier": 4,
+            "accessDepth": 86.819,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1759,20 +1741,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-35-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-35-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 138275517.863,
+            "initialReserveU": 141786700.369,
             "gradeProbabilities": {
-              "low": 0.5515043491796633,
-              "medium": 0.3995028288054346,
-              "high": 0.04899282201490212
+              "low": 0.5744972886092138,
+              "medium": 0.3485327776549325,
+              "high": 0.07696993373585367
             },
             "extractionDifficulty": 21.328,
             "processingDifficulty": 46.671,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-35-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 66942136.885,
+            "gradeProbabilities": {
+              "low": 0.13154715406997372,
+              "medium": 0.3309812522203469,
+              "high": 0.5374715937096793
+            },
+            "extractionDifficulty": 73.898,
+            "processingDifficulty": 46.671,
+            "discoveryTier": 4,
+            "accessDepth": 57.134,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1794,20 +1794,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-36-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-36-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1260500070.648,
+            "initialReserveU": 1628975310.936,
             "gradeProbabilities": {
-              "low": 0.5544943788965275,
-              "medium": 0.3929553337476282,
-              "high": 0.052550287355844265
+              "low": 0.5616815558583576,
+              "medium": 0.388418565759763,
+              "high": 0.049899878381879405
             },
             "extractionDifficulty": 11.204,
             "processingDifficulty": 40.516,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-36-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 279928520.979,
+            "gradeProbabilities": {
+              "low": 0.13398644346026148,
+              "medium": 0.3238880272160356,
+              "high": 0.542125529323703
+            },
+            "extractionDifficulty": 81.829,
+            "processingDifficulty": 40.516,
+            "discoveryTier": 4,
+            "accessDepth": 55.198,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1829,56 +1847,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-37-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-37-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 954747207.652,
+            "initialReserveU": 1085441935.935,
             "gradeProbabilities": {
-              "low": 0.5504320722856602,
-              "medium": 0.39848870395934866,
-              "high": 0.05107922375499118
+              "low": 0.5425351192107163,
+              "medium": 0.3936949541986272,
+              "high": 0.06376992659065647
             },
             "extractionDifficulty": 15.618,
             "processingDifficulty": 38.921,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-vein-37-3",
-            "groupId": "g1-sol-mars-182b99a2-vein-3",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 1643752457.719,
-            "gradeProbabilities": {
-              "low": 0.27321550940538725,
-              "medium": 0.4352108077592132,
-              "high": 0.2915736828353996
-            },
-            "extractionDifficulty": 37.797,
-            "processingDifficulty": 38.921,
-            "discoveryTier": 1,
-            "accessDepth": 25.788,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-deep-37-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 566252680.945,
-            "gradeProbabilities": {
-              "low": 0.15237083599754556,
-              "medium": 0.3454033777953114,
-              "high": 0.5022257862071431
-            },
-            "extractionDifficulty": 79.707,
-            "processingDifficulty": 38.921,
-            "discoveryTier": 3,
-            "accessDepth": 84.646,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1900,38 +1882,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-38-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-38-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1610481306.959,
+            "initialReserveU": 1069971218.755,
             "gradeProbabilities": {
-              "low": 0.5471047285870692,
-              "medium": 0.3991480291101216,
-              "high": 0.053747242302809244
+              "low": 0.504578673625201,
+              "medium": 0.47259725987149376,
+              "high": 0.02282406650330522
             },
             "extractionDifficulty": 10.324,
             "processingDifficulty": 29.056,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
-          },
-          {
-            "depositId": "r1-sol-mars-182b99a2-vein-38-2",
-            "groupId": "g1-sol-mars-182b99a2-vein-2",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 1673456444.507,
-            "gradeProbabilities": {
-              "low": 0.27823504193874976,
-              "medium": 0.41973684975122183,
-              "high": 0.30202810831002835
-            },
-            "extractionDifficulty": 53.673,
-            "processingDifficulty": 29.056,
-            "discoveryTier": 2,
-            "accessDepth": 18.059,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -1953,15 +1917,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-39-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-39-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2712572487.081,
+            "initialReserveU": 1100617701.712,
             "gradeProbabilities": {
-              "low": 0.5475992841553917,
-              "medium": 0.3991903577062367,
-              "high": 0.05321035813837159
+              "low": 0.5857955459608544,
+              "medium": 0.341571071326908,
+              "high": 0.0726333827122376
             },
             "extractionDifficulty": 14.118,
             "processingDifficulty": 46.063,
@@ -1988,20 +1952,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-40-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-40-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1339758987.715,
+            "initialReserveU": 2051740213.193,
             "gradeProbabilities": {
-              "low": 0.5487033936736216,
-              "medium": 0.4053629098950951,
-              "high": 0.04593369643128324
+              "low": 0.5349391121301699,
+              "medium": 0.44749239300849175,
+              "high": 0.017568494861338407
             },
             "extractionDifficulty": 16.684,
             "processingDifficulty": 32.099,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
+          },
+          {
+            "depositId": "r2-sol-mars-d6d3a77c-deep-40-0",
+            "groupId": "g2-sol-mars-d6d3a77c-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 349454978.487,
+            "gradeProbabilities": {
+              "low": 0.2,
+              "medium": 0.25781454787057767,
+              "high": 0.5421854521294224
+            },
+            "extractionDifficulty": 77.295,
+            "processingDifficulty": 32.099,
+            "discoveryTier": 3,
+            "accessDepth": 72.624,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -2023,15 +2005,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-mars-182b99a2-surface-41-0",
-            "groupId": "g1-sol-mars-182b99a2-surface-0",
+            "depositId": "r2-sol-mars-d6d3a77c-surface-41-0",
+            "groupId": "g2-sol-mars-d6d3a77c-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2378057929.75,
+            "initialReserveU": 1187092081.705,
             "gradeProbabilities": {
-              "low": 0.5508398945034524,
-              "medium": 0.39818182699634425,
-              "high": 0.050978278500203374
+              "low": 0.5248298066919014,
+              "medium": 0.3910885949158543,
+              "high": 0.08408159839224431
             },
             "extractionDifficulty": 34.363,
             "processingDifficulty": 31.783,
@@ -2041,20 +2023,20 @@
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           },
           {
-            "depositId": "r1-sol-mars-182b99a2-deep-41-0",
-            "groupId": "g1-sol-mars-182b99a2-deep-0",
+            "depositId": "r2-sol-mars-d6d3a77c-vein-41-1",
+            "groupId": "g2-sol-mars-d6d3a77c-vein-1",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 350852086.036,
+            "depositKind": "vein",
+            "initialReserveU": 1303323625.29,
             "gradeProbabilities": {
-              "low": 0.14854328866899894,
-              "medium": 0.3516395290081377,
-              "high": 0.4998171823228634
+              "low": 0.3090228170511897,
+              "medium": 0.36576934868186584,
+              "high": 0.32520783426694444
             },
-            "extractionDifficulty": 66.533,
+            "extractionDifficulty": 31.189,
             "processingDifficulty": 31.783,
-            "discoveryTier": 4,
-            "accessDepth": 96.904,
+            "discoveryTier": 1,
+            "accessDepth": 33.142,
             "compositionTags": [],
             "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안"
           }
@@ -2513,12 +2495,120 @@
         "high": 0.5
       }
     },
-    "jitter": 0.04,
     "certainty": "mixed",
     "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안",
     "worldSeed": "sol:mars:resources:v1",
-    "generatorVersion": 1,
-    "budgetPolicy": "fixed"
+    "generatorVersion": 2,
+    "budgetPolicy": "fixed",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 42,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.037500000000000006
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.5,
+            "max": 0.5983238826104847,
+            "actualMaxDeviation": 0.050000000000000044
+          },
+          "medium": {
+            "min": 0.33666378425516114,
+            "max": 0.47259725987149376,
+            "actualMaxDeviation": 0.07259725987149374
+          },
+          "high": {
+            "min": 0.012499999999999997,
+            "max": 0.08408159839224431,
+            "actualMaxDeviation": 0.037500000000000006
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 12,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.24422105503803865,
+            "max": 0.33,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.31999999999999995,
+            "max": 0.4784875521782306,
+            "actualMaxDeviation": 0.10000000000000003
+          },
+          "high": {
+            "min": 0.2618604391699417,
+            "max": 0.35,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 19,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.10125726380991362,
+            "max": 0.2,
+            "actualMaxDeviation": 0.05000000000000002
+          },
+          "medium": {
+            "min": 0.25781454787057767,
+            "max": 0.4456076535234037,
+            "actualMaxDeviation": 0.09560765352340372
+          },
+          "high": {
+            "min": 0.45,
+            "max": 0.5478657232307242,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 42,
+      "requiredCoverage": 11,
+      "veinCells": 12,
+      "groupCount": 3,
+      "minimumGroupCells": 3,
+      "exceptions": [],
+      "nominalCellCapQuanta": 4890000000000,
+      "maxCellFraction": 0.0956507448193865,
+      "maxGroupFraction": 0.49173120358721883
+    }
   },
   "hydrogenSources": [],
   "initialResourceKnowledge": [
@@ -2532,385 +2622,378 @@
       ],
       "deposits": [
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-0-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-0-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-1-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-0-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-2-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-1-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-3-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-2-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-4-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-3-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-5-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-4-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-6-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-5-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-7-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-6-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-7-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-6-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-8-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-7-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-8-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-7-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-9-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-8-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-10-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-9-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-11-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-10-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-11-1",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-11-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-12-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-12-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-13-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-13-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-14-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-14-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-15-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-14-2",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-16-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-15-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-17-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-16-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-18-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-16-2",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-18-1",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-17-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-19-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-18-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-20-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-19-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-21-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-20-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-22-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-21-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-22-2",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-22-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-23-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-22-1",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-24-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-23-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-25-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-24-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-26-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-25-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-26-2",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-26-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-27-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-27-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-28-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-27-1",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-28-2",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-28-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-29-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-29-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-29-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-29-2",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-30-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-30-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-30-3",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-31-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-31-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-31-2",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-32-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-32-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-32-3",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-32-2",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-33-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-33-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-33-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-33-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-34-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-34-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-35-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-35-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-36-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-36-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-37-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-37-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-37-3",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-38-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-38-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-39-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-vein-38-2",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-40-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-39-0",
+          "depositId": "r2-sol-mars-d6d3a77c-surface-41-0",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
           "estimatedGradeProbabilities": null
         },
         {
-          "depositId": "r1-sol-mars-182b99a2-surface-40-0",
-          "detectedFraction": 0.2,
-          "confirmedFraction": 0.1,
-          "gradeConfidence": 0.15,
-          "estimatedGradeProbabilities": null
-        },
-        {
-          "depositId": "r1-sol-mars-182b99a2-surface-41-0",
+          "depositId": "r2-sol-mars-d6d3a77c-vein-41-1",
           "detectedFraction": 0.2,
           "confirmedFraction": 0.1,
           "gradeConfidence": 0.15,
@@ -2922,6 +3005,6 @@
   "migration": {
     "migrationVersion": 1,
     "fromSchemaVersion": 1,
-    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
   }
 }

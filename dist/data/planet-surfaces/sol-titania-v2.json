@@ -30,15 +30,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-0-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-0-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1097047.194,
+            "initialReserveU": 2252309.093,
             "gradeProbabilities": {
-              "low": 0.4010289243345135,
-              "medium": 0.5683060296685458,
-              "high": 0.03066504599694063
+              "low": 0.39594128158777553,
+              "medium": 0.5742134321717393,
+              "high": 0.02984528624048517
             },
             "extractionDifficulty": 25.637,
             "processingDifficulty": 16.163,
@@ -48,38 +48,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-0-2",
-            "groupId": "g1-sol-titania-d09d3e82-vein-2",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-0-1",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-1",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 8578508.751,
+            "initialReserveU": 9922145.477,
             "gradeProbabilities": {
-              "low": 0.4503307598457167,
-              "medium": 0.35035304460645567,
-              "high": 0.19931619554782765
+              "low": 0.4649140755105676,
+              "medium": 0.3094397843644277,
+              "high": 0.22564614012500467
             },
             "extractionDifficulty": 31.18,
             "processingDifficulty": 16.163,
             "discoveryTier": 2,
             "accessDepth": 34.09,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-0-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 14696876.698,
-            "gradeProbabilities": {
-              "low": 0.15103095341244416,
-              "medium": 0.25412197907200285,
-              "high": 0.594847067515553
-            },
-            "extractionDifficulty": 68.936,
-            "processingDifficulty": 16.163,
-            "discoveryTier": 5,
-            "accessDepth": 98.483,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -101,15 +83,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-1-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-1-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 3263808.767,
+            "initialReserveU": 1802836.795,
             "gradeProbabilities": {
-              "low": 0.4021269797884845,
-              "medium": 0.568901713649279,
-              "high": 0.028971306562236444
+              "low": 0.384776535739062,
+              "medium": 0.5729882870897187,
+              "high": 0.04223517717121923
             },
             "extractionDifficulty": 33.869,
             "processingDifficulty": 63.21,
@@ -119,38 +101,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-1-2",
-            "groupId": "g1-sol-titania-d09d3e82-vein-2",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-1-2",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-2",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 66518449.54,
+            "initialReserveU": 12349976.467,
             "gradeProbabilities": {
-              "low": 0.45353006538007945,
-              "medium": 0.3494552021433498,
-              "high": 0.19701473247657075
+              "low": 0.39585788738491834,
+              "medium": 0.4421785599251214,
+              "high": 0.16196355268996027
             },
             "extractionDifficulty": 30.958,
             "processingDifficulty": 63.21,
             "discoveryTier": 1,
             "accessDepth": 25.124,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-1-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 10474019.986,
-            "gradeProbabilities": {
-              "low": 0.15285002049201804,
-              "medium": 0.2567569222089482,
-              "high": 0.5903930572990338
-            },
-            "extractionDifficulty": 67.467,
-            "processingDifficulty": 63.21,
-            "discoveryTier": 3,
-            "accessDepth": 83.539,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -172,20 +136,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-2-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-2-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 888089.014,
+            "initialReserveU": 2199990.817,
             "gradeProbabilities": {
-              "low": 0.3986724954021149,
-              "medium": 0.5697751312763454,
-              "high": 0.03155237332153966
+              "low": 0.4237463174660042,
+              "medium": 0.5496171588808976,
+              "high": 0.02663652365309822
             },
             "extractionDifficulty": 22.651,
             "processingDifficulty": 49.731,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-2-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 2027409.243,
+            "gradeProbabilities": {
+              "low": 0.17302851607958672,
+              "medium": 0.1952182545278356,
+              "high": 0.6317532293925777
+            },
+            "extractionDifficulty": 67.967,
+            "processingDifficulty": 49.731,
+            "discoveryTier": 5,
+            "accessDepth": 61.514,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -207,38 +189,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-3-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-3-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 6253193.87,
+            "initialReserveU": 9028712.785,
             "gradeProbabilities": {
-              "low": 0.39943473444850974,
-              "medium": 0.5707253420618387,
-              "high": 0.029839923489651577
+              "low": 0.3916538238697668,
+              "medium": 0.5686532573711678,
+              "high": 0.03969291875906532
             },
             "extractionDifficulty": 22.75,
             "processingDifficulty": 20.869,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-3-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 4158044.53,
-            "gradeProbabilities": {
-              "low": 0.15210679858693557,
-              "medium": 0.25581631697086815,
-              "high": 0.5920768844421963
-            },
-            "extractionDifficulty": 79.012,
-            "processingDifficulty": 20.869,
-            "discoveryTier": 4,
-            "accessDepth": 72.708,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -260,20 +224,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-4-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-4-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 20035240.591,
+            "initialReserveU": 14488447.675,
             "gradeProbabilities": {
-              "low": 0.3990335952022099,
-              "medium": 0.5685979549256177,
-              "high": 0.03236844987217237
+              "low": 0.42829375635858274,
+              "medium": 0.5349592154132017,
+              "high": 0.036747028228215683
             },
             "extractionDifficulty": 11.081,
             "processingDifficulty": 43.442,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-vein-4-2",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 15812621.269,
+            "gradeProbabilities": {
+              "low": 0.4026222927882224,
+              "medium": 0.43610903570643145,
+              "high": 0.16126867150534618
+            },
+            "extractionDifficulty": 51.09,
+            "processingDifficulty": 43.442,
+            "discoveryTier": 1,
+            "accessDepth": 12.879,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-4-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 19395744.422,
+            "gradeProbabilities": {
+              "low": 0.12441187375958261,
+              "medium": 0.2942398582739295,
+              "high": 0.5813482679664879
+            },
+            "extractionDifficulty": 61.972,
+            "processingDifficulty": 43.442,
+            "discoveryTier": 4,
+            "accessDepth": 63.132,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -295,38 +295,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-5-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-5-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 4110035.272,
+            "initialReserveU": 3392349.975,
             "gradeProbabilities": {
-              "low": 0.39920917180897525,
-              "medium": 0.569388499653435,
-              "high": 0.031402328537589806
+              "low": 0.40902616101104416,
+              "medium": 0.571745196218082,
+              "high": 0.019228642770873924
             },
             "extractionDifficulty": 22.885,
             "processingDifficulty": 33.684,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-5-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 3376705.226,
-            "gradeProbabilities": {
-              "low": 0.15371213041016535,
-              "medium": 0.25373187444104073,
-              "high": 0.5925559951487939
-            },
-            "extractionDifficulty": 81.802,
-            "processingDifficulty": 33.684,
-            "discoveryTier": 4,
-            "accessDepth": 73.127,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -348,15 +330,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-6-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-6-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 9010418.256,
+            "initialReserveU": 9234427.969,
             "gradeProbabilities": {
-              "low": 0.39967230587238306,
-              "medium": 0.5729510387987854,
-              "high": 0.02737665532883157
+              "low": 0.4446012439516564,
+              "medium": 0.530787847554841,
+              "high": 0.02461090849350261
             },
             "extractionDifficulty": 26.145,
             "processingDifficulty": 65.319,
@@ -366,20 +348,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-6-2",
-            "groupId": "g1-sol-titania-d09d3e82-vein-2",
+            "depositId": "r2-sol-titania-f8d6faa8-deep-6-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
             "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 11543720.101,
+            "depositKind": "deep",
+            "initialReserveU": 17981377.265,
             "gradeProbabilities": {
-              "low": 0.4534591936394999,
-              "medium": 0.3494667961892571,
-              "high": 0.1970740101712431
+              "low": 0.17791545080235727,
+              "medium": 0.2369781367753201,
+              "high": 0.5851064124223226
             },
-            "extractionDifficulty": 35.833,
+            "extractionDifficulty": 81.549,
             "processingDifficulty": 65.319,
-            "discoveryTier": 1,
-            "accessDepth": 32.229,
+            "discoveryTier": 4,
+            "accessDepth": 95.381,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -401,15 +383,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-7-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-7-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2418100.803,
+            "initialReserveU": 2724362.23,
             "gradeProbabilities": {
-              "low": 0.40118608329230776,
-              "medium": 0.5697646752153548,
-              "high": 0.029049241492337483
+              "low": 0.3735832661496146,
+              "medium": 0.6094947942064765,
+              "high": 0.01692193964390899
             },
             "extractionDifficulty": 28.158,
             "processingDifficulty": 55.988,
@@ -419,15 +401,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-7-0",
-            "groupId": "g1-sol-titania-d09d3e82-vein-0",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-7-1",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-1",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 7070387.536,
+            "initialReserveU": 12351713.157,
             "gradeProbabilities": {
-              "low": 0.4349571855385283,
-              "medium": 0.3692265679740245,
-              "high": 0.19581624648744717
+              "low": 0.46598994138292044,
+              "medium": 0.31910508070271704,
+              "high": 0.21490497791436244
             },
             "extractionDifficulty": 38.599,
             "processingDifficulty": 55.988,
@@ -437,15 +419,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-deep-7-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
+            "depositId": "r2-sol-titania-f8d6faa8-deep-7-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 9546713.455,
+            "initialReserveU": 11643536.161,
             "gradeProbabilities": {
-              "low": 0.14819848104895728,
-              "medium": 0.2623465566199852,
-              "high": 0.5894549623310575
+              "low": 0.11895113016195995,
+              "medium": 0.29256230372682235,
+              "high": 0.5884865661112177
             },
             "extractionDifficulty": 80.776,
             "processingDifficulty": 55.988,
@@ -472,38 +454,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-8-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-8-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 8085900.731,
+            "initialReserveU": 6320773.388,
             "gradeProbabilities": {
-              "low": 0.3985746617295765,
-              "medium": 0.5765742957876089,
-              "high": 0.024851042482814684
+              "low": 0.3882715212533345,
+              "medium": 0.5964429026915002,
+              "high": 0.015285576055165189
             },
             "extractionDifficulty": 16.964,
             "processingDifficulty": 46.396,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-8-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 5124669.445,
-            "gradeProbabilities": {
-              "low": 0.14852453801365273,
-              "medium": 0.2597950808790159,
-              "high": 0.5916803811073313
-            },
-            "extractionDifficulty": 61.806,
-            "processingDifficulty": 46.396,
-            "discoveryTier": 4,
-            "accessDepth": 68.452,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -525,20 +489,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-9-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-9-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 11566713.908,
+            "initialReserveU": 19231336.169,
             "gradeProbabilities": {
-              "low": 0.3990063004025244,
-              "medium": 0.5763435723171594,
-              "high": 0.02465012728031625
+              "low": 0.41933193457029927,
+              "medium": 0.5654207589092695,
+              "high": 0.015247306520431284
             },
             "extractionDifficulty": 18.335,
             "processingDifficulty": 19.589,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-vein-9-1",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 14516203.327,
+            "gradeProbabilities": {
+              "low": 0.47394882095247964,
+              "medium": 0.30252526887799824,
+              "high": 0.22352591016952214
+            },
+            "extractionDifficulty": 46.594,
+            "processingDifficulty": 19.589,
+            "discoveryTier": 2,
+            "accessDepth": 5.519,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -560,20 +542,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-10-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-10-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 3898019.649,
+            "initialReserveU": 3061764.551,
             "gradeProbabilities": {
-              "low": 0.40412684790203207,
-              "medium": 0.5690408678599657,
-              "high": 0.0268322842380022
+              "low": 0.397887489981691,
+              "medium": 0.5738962309417759,
+              "high": 0.028216279076533173
             },
             "extractionDifficulty": 15.036,
             "processingDifficulty": 31.891,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-vein-10-1",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 8230958.569,
+            "gradeProbabilities": {
+              "low": 0.4800650894598168,
+              "medium": 0.29296160390194903,
+              "high": 0.22697330663823412
+            },
+            "extractionDifficulty": 32.103,
+            "processingDifficulty": 31.891,
+            "discoveryTier": 1,
+            "accessDepth": 11.665,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-10-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 4809479.145,
+            "gradeProbabilities": {
+              "low": 0.13332863735936923,
+              "medium": 0.24094171026743794,
+              "high": 0.6257296523731929
+            },
+            "extractionDifficulty": 75.546,
+            "processingDifficulty": 31.891,
+            "discoveryTier": 3,
+            "accessDepth": 61.108,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -595,15 +613,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-11-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-11-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 932856.36,
+            "initialReserveU": 1187978.591,
             "gradeProbabilities": {
-              "low": 0.3991810006179833,
-              "medium": 0.5743773181908789,
-              "high": 0.026441681191137927
+              "low": 0.4234880662131054,
+              "medium": 0.5376477469189106,
+              "high": 0.03886418686798399
             },
             "extractionDifficulty": 13.029,
             "processingDifficulty": 53.022,
@@ -613,15 +631,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-deep-11-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
+            "depositId": "r2-sol-titania-f8d6faa8-deep-11-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 9526297.056,
+            "initialReserveU": 4802215.848,
             "gradeProbabilities": {
-              "low": 0.14929411315874833,
-              "medium": 0.2581397859205139,
-              "high": 0.5925661009207378
+              "low": 0.13572771396954308,
+              "medium": 0.29135579867238914,
+              "high": 0.5729164873580678
             },
             "extractionDifficulty": 70.88,
             "processingDifficulty": 53.022,
@@ -648,38 +666,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-12-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-12-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1433331.452,
+            "initialReserveU": 1170377.771,
             "gradeProbabilities": {
-              "low": 0.4047026387636536,
-              "medium": 0.5664656431810022,
-              "high": 0.02883171805534412
+              "low": 0.44349759852567955,
+              "medium": 0.5418351818719689,
+              "high": 0.01466721960235164
             },
             "extractionDifficulty": 17.049,
             "processingDifficulty": 45.652,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-vein-12-1",
-            "groupId": "g1-sol-titania-d09d3e82-vein-1",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 11606386.219,
-            "gradeProbabilities": {
-              "low": 0.4316906258836815,
-              "medium": 0.3460180431862261,
-              "high": 0.22229133093009248
-            },
-            "extractionDifficulty": 54.737,
-            "processingDifficulty": 45.652,
-            "discoveryTier": 1,
-            "accessDepth": 30.361,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -701,20 +701,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-13-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-13-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 3420746.537,
+            "initialReserveU": 2299071.659,
             "gradeProbabilities": {
-              "low": 0.40454978268937997,
-              "medium": 0.5669338122368814,
-              "high": 0.028516405073738593
+              "low": 0.4364621151707868,
+              "medium": 0.5553709293793696,
+              "high": 0.00816695544984361
             },
             "extractionDifficulty": 29.737,
             "processingDifficulty": 37.417,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-13-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 4437133.877,
+            "gradeProbabilities": {
+              "low": 0.1381111771837573,
+              "medium": 0.26720023620285316,
+              "high": 0.5946885866133895
+            },
+            "extractionDifficulty": 71.64,
+            "processingDifficulty": 37.417,
+            "discoveryTier": 5,
+            "accessDepth": 96.857,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -736,15 +754,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-14-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-14-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 33302973.689,
+            "initialReserveU": 25393014.986,
             "gradeProbabilities": {
-              "low": 0.39920303012588854,
-              "medium": 0.5749926439863654,
-              "high": 0.025804325887746112
+              "low": 0.40853894855536876,
+              "medium": 0.5568620681855126,
+              "high": 0.03459898325911858
             },
             "extractionDifficulty": 21.167,
             "processingDifficulty": 66.085,
@@ -771,15 +789,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-15-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-15-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 5736547.031,
+            "initialReserveU": 5416753.015,
             "gradeProbabilities": {
-              "low": 0.3987085919042104,
-              "medium": 0.5701703314376088,
-              "high": 0.031121076658180848
+              "low": 0.36226693540106075,
+              "medium": 0.6258156374785121,
+              "high": 0.011917427120427097
             },
             "extractionDifficulty": 32.914,
             "processingDifficulty": 35.16,
@@ -789,15 +807,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-deep-15-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
+            "depositId": "r2-sol-titania-f8d6faa8-deep-15-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 4449122.488,
+            "initialReserveU": 4939589.785,
             "gradeProbabilities": {
-              "low": 0.15277505537638145,
-              "medium": 0.2554815812849086,
-              "high": 0.5917433633387099
+              "low": 0.10832634423810819,
+              "medium": 0.3197232712920851,
+              "high": 0.5719503844698067
             },
             "extractionDifficulty": 71.206,
             "processingDifficulty": 35.16,
@@ -824,38 +842,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-16-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-16-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 3910817.302,
+            "initialReserveU": 2559619.13,
             "gradeProbabilities": {
-              "low": 0.4030524437350207,
-              "medium": 0.5716917861574353,
-              "high": 0.02525577010754396
+              "low": 0.4450079638583991,
+              "medium": 0.5104919876688857,
+              "high": 0.04450004847271523
             },
             "extractionDifficulty": 24.049,
             "processingDifficulty": 28.963,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-16-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 3418975.278,
-            "gradeProbabilities": {
-              "low": 0.15484234644615727,
-              "medium": 0.2518904327314926,
-              "high": 0.5932672208223502
-            },
-            "extractionDifficulty": 67.1,
-            "processingDifficulty": 28.963,
-            "discoveryTier": 5,
-            "accessDepth": 77.909,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -877,15 +877,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-17-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-17-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 4044114.69,
+            "initialReserveU": 4200101.635,
             "gradeProbabilities": {
-              "low": 0.404175351213383,
-              "medium": 0.5663888208107116,
-              "high": 0.029435827975905434
+              "low": 0.41274419279161406,
+              "medium": 0.5508339680589653,
+              "high": 0.0364218391494206
             },
             "extractionDifficulty": 29.447,
             "processingDifficulty": 42.387,
@@ -912,20 +912,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-18-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-18-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 10073438.301,
+            "initialReserveU": 8287343.096,
             "gradeProbabilities": {
-              "low": 0.40271156850801637,
-              "medium": 0.5669680681307825,
-              "high": 0.030320363361201183
+              "low": 0.3949195465175024,
+              "medium": 0.5708386721119955,
+              "high": 0.03424178137050212
             },
             "extractionDifficulty": 30.766,
             "processingDifficulty": 65.949,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-18-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 24634889.699,
+            "gradeProbabilities": {
+              "low": 0.17875156369641926,
+              "medium": 0.27086639284647185,
+              "high": 0.550382043457109
+            },
+            "extractionDifficulty": 79.919,
+            "processingDifficulty": 65.949,
+            "discoveryTier": 5,
+            "accessDepth": 75.581,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -947,56 +965,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-19-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-19-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 31460206.559,
+            "initialReserveU": 31009804.386,
             "gradeProbabilities": {
-              "low": 0.4034708310083472,
-              "medium": 0.568185863700232,
-              "high": 0.028343305291420713
+              "low": 0.40379891130816686,
+              "medium": 0.5595992372013763,
+              "high": 0.036601851490456874
             },
             "extractionDifficulty": 11.754,
             "processingDifficulty": 26.743,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-vein-19-0",
-            "groupId": "g1-sol-titania-d09d3e82-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 53624569.715,
-            "gradeProbabilities": {
-              "low": 0.43839516952638125,
-              "medium": 0.36577100302436305,
-              "high": 0.19583382744925573
-            },
-            "extractionDifficulty": 43.744,
-            "processingDifficulty": 26.743,
-            "discoveryTier": 2,
-            "accessDepth": 17.151,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-19-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 5647651.264,
-            "gradeProbabilities": {
-              "low": 0.15238310149641413,
-              "medium": 0.25639608250675927,
-              "high": 0.5912208159968266
-            },
-            "extractionDifficulty": 76.601,
-            "processingDifficulty": 26.743,
-            "discoveryTier": 4,
-            "accessDepth": 70.252,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1018,15 +1000,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-20-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-20-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 5490942.452,
+            "initialReserveU": 5883803.271,
             "gradeProbabilities": {
-              "low": 0.40325207061478724,
-              "medium": 0.5650760849849344,
-              "high": 0.031671844400278225
+              "low": 0.3711217719690033,
+              "medium": 0.6200711534570388,
+              "high": 0.008807074573957924
             },
             "extractionDifficulty": 14.656,
             "processingDifficulty": 45.171,
@@ -1036,20 +1018,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-20-0",
-            "groupId": "g1-sol-titania-d09d3e82-vein-0",
+            "depositId": "r2-sol-titania-f8d6faa8-deep-20-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
             "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 23686759.219,
+            "depositKind": "deep",
+            "initialReserveU": 3993657.986,
             "gradeProbabilities": {
-              "low": 0.43223665760275515,
-              "medium": 0.3708659309835071,
-              "high": 0.19689741141373768
+              "low": 0.16231341435641408,
+              "medium": 0.2343834730678026,
+              "high": 0.6033031125757833
             },
-            "extractionDifficulty": 49.668,
+            "extractionDifficulty": 78.501,
             "processingDifficulty": 45.171,
-            "discoveryTier": 2,
-            "accessDepth": 13.039,
+            "discoveryTier": 5,
+            "accessDepth": 63.399,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1071,15 +1053,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-21-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-21-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 5715371.577,
+            "initialReserveU": 8373334.984,
             "gradeProbabilities": {
-              "low": 0.40205046117277676,
-              "medium": 0.567565791791773,
-              "high": 0.030383747035450236
+              "low": 0.3960179187413839,
+              "medium": 0.573428893462745,
+              "high": 0.03055318779587115
             },
             "extractionDifficulty": 24.783,
             "processingDifficulty": 32.834,
@@ -1106,15 +1088,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-22-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-22-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2736242.935,
+            "initialReserveU": 3601953.153,
             "gradeProbabilities": {
-              "low": 0.40304229573691125,
-              "medium": 0.5652466295775981,
-              "high": 0.03171107468549062
+              "low": 0.3662287005757534,
+              "medium": 0.6246108983950452,
+              "high": 0.0091604010292013
             },
             "extractionDifficulty": 26.136,
             "processingDifficulty": 63.439,
@@ -1124,15 +1106,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-22-3",
-            "groupId": "g1-sol-titania-d09d3e82-vein-3",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-22-3",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-3",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 5258009.382,
+            "initialReserveU": 19734915.962,
             "gradeProbabilities": {
-              "low": 0.45335328060579094,
-              "medium": 0.3423810492527569,
-              "high": 0.2042656701414521
+              "low": 0.4479054995276402,
+              "medium": 0.34840301982643973,
+              "high": 0.20369148064592013
             },
             "extractionDifficulty": 30.325,
             "processingDifficulty": 63.439,
@@ -1159,20 +1141,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-23-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-23-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 6188805.019,
+            "initialReserveU": 8037933.624,
             "gradeProbabilities": {
-              "low": 0.398365553699153,
-              "medium": 0.5732926575099142,
-              "high": 0.02834178879093279
+              "low": 0.3700604897431461,
+              "medium": 0.600653266092737,
+              "high": 0.029286244164116987
             },
             "extractionDifficulty": 32.005,
             "processingDifficulty": 67.831,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-vein-23-0",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 8538063.9,
+            "gradeProbabilities": {
+              "low": 0.3913314862380086,
+              "medium": 0.3943421493665883,
+              "high": 0.2143263643954031
+            },
+            "extractionDifficulty": 44.88,
+            "processingDifficulty": 67.831,
+            "discoveryTier": 2,
+            "accessDepth": 16.596,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1194,56 +1194,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-24-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-24-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2787760.498,
+            "initialReserveU": 2750512.896,
             "gradeProbabilities": {
-              "low": 0.4041350737658315,
-              "medium": 0.5708044469249458,
-              "high": 0.025060479309222596
+              "low": 0.4021791389507846,
+              "medium": 0.5693278606049005,
+              "high": 0.02849300044431486
             },
             "extractionDifficulty": 15.671,
             "processingDifficulty": 65.543,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-vein-24-1",
-            "groupId": "g1-sol-titania-d09d3e82-vein-1",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 24822861.267,
-            "gradeProbabilities": {
-              "low": 0.4290855068304071,
-              "medium": 0.3523954318162883,
-              "high": 0.21851906135330454
-            },
-            "extractionDifficulty": 50.297,
-            "processingDifficulty": 65.543,
-            "discoveryTier": 2,
-            "accessDepth": 8.82,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-24-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 5182969.739,
-            "gradeProbabilities": {
-              "low": 0.1553078122116037,
-              "medium": 0.2510825494371933,
-              "high": 0.593609638351203
-            },
-            "extractionDifficulty": 81.359,
-            "processingDifficulty": 65.543,
-            "discoveryTier": 4,
-            "accessDepth": 56.367,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1265,15 +1229,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-25-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-25-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 804529.039,
+            "initialReserveU": 2245750.399,
             "gradeProbabilities": {
-              "low": 0.39996751637728745,
-              "medium": 0.5754214416206839,
-              "high": 0.02461104200202872
+              "low": 0.372080697926216,
+              "medium": 0.6140367499607309,
+              "high": 0.013882552113053072
             },
             "extractionDifficulty": 12.118,
             "processingDifficulty": 16.604,
@@ -1283,20 +1247,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-deep-25-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-25-3",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-3",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 13970273.016,
+            "depositKind": "vein",
+            "initialReserveU": 10101605.219,
             "gradeProbabilities": {
-              "low": 0.15305432046347933,
-              "medium": 0.25655016135914444,
-              "high": 0.5903955181773762
+              "low": 0.4416060857227547,
+              "medium": 0.35530718973686987,
+              "high": 0.2030867245403754
             },
-            "extractionDifficulty": 77.336,
+            "extractionDifficulty": 42.038,
             "processingDifficulty": 16.604,
-            "discoveryTier": 5,
-            "accessDepth": 53.664,
+            "discoveryTier": 2,
+            "accessDepth": 7.198,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1318,15 +1282,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-26-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-26-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 21775330.73,
+            "initialReserveU": 21584051.261,
             "gradeProbabilities": {
-              "low": 0.40200933646010095,
-              "medium": 0.5722143196803542,
-              "high": 0.02577634385954489
+              "low": 0.3626303226892124,
+              "medium": 0.6081466274949269,
+              "high": 0.029223049815860665
             },
             "extractionDifficulty": 23.331,
             "processingDifficulty": 51.882,
@@ -1336,15 +1300,33 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-deep-26-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-26-3",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 28772203.627,
+            "gradeProbabilities": {
+              "low": 0.43450193751588717,
+              "medium": 0.3610563007173041,
+              "high": 0.20444176176680873
+            },
+            "extractionDifficulty": 44.335,
+            "processingDifficulty": 51.882,
+            "discoveryTier": 1,
+            "accessDepth": 26.099,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-26-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 14978011.127,
+            "initialReserveU": 48506908.755,
             "gradeProbabilities": {
-              "low": 0.1495906808595516,
-              "medium": 0.25552932766942504,
-              "high": 0.5948799914710233
+              "low": 0.12730334420605707,
+              "medium": 0.27077880783010855,
+              "high": 0.6019178479638344
             },
             "extractionDifficulty": 84.888,
             "processingDifficulty": 51.882,
@@ -1371,15 +1353,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-27-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-27-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 13513474.963,
+            "initialReserveU": 9220718.415,
             "gradeProbabilities": {
-              "low": 0.39815554880322745,
-              "medium": 0.5760652950448009,
-              "high": 0.025779156151971714
+              "low": 0.3711277212480135,
+              "medium": 0.590225316696315,
+              "high": 0.03864696205567151
             },
             "extractionDifficulty": 20.109,
             "processingDifficulty": 59.476,
@@ -1389,15 +1371,33 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-deep-27-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-27-3",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 15774656.899,
+            "gradeProbabilities": {
+              "low": 0.4473068902654018,
+              "medium": 0.35441919691811086,
+              "high": 0.19827391281648732
+            },
+            "extractionDifficulty": 49.351,
+            "processingDifficulty": 59.476,
+            "discoveryTier": 1,
+            "accessDepth": 15.494,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-27-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 21926766.854,
+            "initialReserveU": 12293601.744,
             "gradeProbabilities": {
-              "low": 0.15113233851784544,
-              "medium": 0.25842438933929623,
-              "high": 0.5904432721428583
+              "low": 0.15645160851482348,
+              "medium": 0.2412110301730811,
+              "high": 0.6023373613120954
             },
             "extractionDifficulty": 72.626,
             "processingDifficulty": 59.476,
@@ -1424,33 +1424,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-28-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
-            "resourceId": "ore",
-            "depositKind": "surface",
-            "initialReserveU": 6722279.768,
-            "gradeProbabilities": {
-              "low": 0.400505692265647,
-              "medium": 0.5690793342390122,
-              "high": 0.030414973495340843
-            },
-            "extractionDifficulty": 32.993,
-            "processingDifficulty": 32.244,
-            "discoveryTier": 1,
-            "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-vein-28-3",
-            "groupId": "g1-sol-titania-d09d3e82-vein-3",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-28-3",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-3",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 21618458.831,
+            "initialReserveU": 96428545.734,
             "gradeProbabilities": {
-              "low": 0.45831756143462454,
-              "medium": 0.33326592433051117,
-              "high": 0.20841651423486426
+              "low": 0.4310744297378619,
+              "medium": 0.3794481114601908,
+              "high": 0.18947745880194727
             },
             "extractionDifficulty": 39.528,
             "processingDifficulty": 32.244,
@@ -1460,15 +1442,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-deep-28-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
+            "depositId": "r2-sol-titania-f8d6faa8-deep-28-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 41042181.247,
+            "initialReserveU": 2434617.909,
             "gradeProbabilities": {
-              "low": 0.15029208913029807,
-              "medium": 0.25905427179044305,
-              "high": 0.5906536390792588
+              "low": 0.17572364180205013,
+              "medium": 0.18699262328764954,
+              "high": 0.6372837349103003
             },
             "extractionDifficulty": 61.472,
             "processingDifficulty": 32.244,
@@ -1495,20 +1477,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-29-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-29-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1173629.236,
+            "initialReserveU": 3110213.947,
             "gradeProbabilities": {
-              "low": 0.40094891449035935,
-              "medium": 0.5706658497848572,
-              "high": 0.028385235724783436
+              "low": 0.4353370246298001,
+              "medium": 0.5286537622690334,
+              "high": 0.03600921310116658
             },
             "extractionDifficulty": 11.357,
             "processingDifficulty": 22.798,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-vein-29-1",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 31229750.086,
+            "gradeProbabilities": {
+              "low": 0.48753959918872336,
+              "medium": 0.2883933347974815,
+              "high": 0.22406706601379509
+            },
+            "extractionDifficulty": 36.555,
+            "processingDifficulty": 22.798,
+            "discoveryTier": 1,
+            "accessDepth": 25.05,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1530,38 +1530,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-30-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-30-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 29602798.226,
+            "initialReserveU": 21313301.552,
             "gradeProbabilities": {
-              "low": 0.4039591215417706,
-              "medium": 0.5706357432794782,
-              "high": 0.025405135178751245
+              "low": 0.44501112276913046,
+              "medium": 0.5377150885655886,
+              "high": 0.01727378866528093
             },
             "extractionDifficulty": 15.418,
             "processingDifficulty": 59.468,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-30-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 19693475.839,
-            "gradeProbabilities": {
-              "low": 0.15334652766169685,
-              "medium": 0.2501988310527634,
-              "high": 0.5964546412855397
-            },
-            "extractionDifficulty": 73.326,
-            "processingDifficulty": 59.468,
-            "discoveryTier": 4,
-            "accessDepth": 69.027,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1583,38 +1565,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-31-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-31-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 11254264.624,
+            "initialReserveU": 6414146.906,
             "gradeProbabilities": {
-              "low": 0.40313894531288974,
-              "medium": 0.5719398801536324,
-              "high": 0.02492117453347792
+              "low": 0.3684864872918466,
+              "medium": 0.5904334470903444,
+              "high": 0.04108006561780906
             },
             "extractionDifficulty": 11.751,
             "processingDifficulty": 20.192,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-31-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 20260715.405,
-            "gradeProbabilities": {
-              "low": 0.148214015928597,
-              "medium": 0.2580346515916867,
-              "high": 0.5937513324797163
-            },
-            "extractionDifficulty": 65.606,
-            "processingDifficulty": 20.192,
-            "discoveryTier": 3,
-            "accessDepth": 98.3,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1636,15 +1600,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-32-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-32-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 6492246.811,
+            "initialReserveU": 7504418.23,
             "gradeProbabilities": {
-              "low": 0.4045054054108434,
-              "medium": 0.5684744423744292,
-              "high": 0.027020152214727297
+              "low": 0.44331633118488184,
+              "medium": 0.5332386808254646,
+              "high": 0.023444987989653613
             },
             "extractionDifficulty": 34.506,
             "processingDifficulty": 59.003,
@@ -1671,15 +1635,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-33-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-33-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 3373648.403,
+            "initialReserveU": 3532456.183,
             "gradeProbabilities": {
-              "low": 0.40164314537839824,
-              "medium": 0.5736494240970376,
-              "high": 0.024707430524564283
+              "low": 0.4517570721800439,
+              "medium": 0.5092821672932321,
+              "high": 0.038960760526724
             },
             "extractionDifficulty": 32.851,
             "processingDifficulty": 40.725,
@@ -1689,38 +1653,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-33-0",
-            "groupId": "g1-sol-titania-d09d3e82-vein-0",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-33-1",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-1",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 4567110.136,
+            "initialReserveU": 8272524.699,
             "gradeProbabilities": {
-              "low": 0.43480628286678885,
-              "medium": 0.36973166413948777,
-              "high": 0.1954620529937233
+              "low": 0.47788207559011514,
+              "medium": 0.29515526889748284,
+              "high": 0.22696265551240197
             },
             "extractionDifficulty": 42.132,
             "processingDifficulty": 40.725,
             "discoveryTier": 2,
             "accessDepth": 9.823,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-33-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 5777666.436,
-            "gradeProbabilities": {
-              "low": 0.14844443875694352,
-              "medium": 0.2570832135707719,
-              "high": 0.5944723476722846
-            },
-            "extractionDifficulty": 63.611,
-            "processingDifficulty": 40.725,
-            "discoveryTier": 4,
-            "accessDepth": 58.038,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1742,15 +1688,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-34-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-34-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 2366986.675,
+            "initialReserveU": 3689450.048,
             "gradeProbabilities": {
-              "low": 0.3982998306375914,
-              "medium": 0.5771869718194964,
-              "high": 0.02451319754291226
+              "low": 0.36126795033295017,
+              "medium": 0.6309077484304831,
+              "high": 0.007824301236566768
             },
             "extractionDifficulty": 28.433,
             "processingDifficulty": 19.797,
@@ -1777,15 +1723,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-35-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-35-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 1602315.562,
+            "initialReserveU": 2309688.146,
             "gradeProbabilities": {
-              "low": 0.4051220209390842,
-              "medium": 0.5699491478861334,
-              "high": 0.024928831174782413
+              "low": 0.3759226691056965,
+              "medium": 0.6171577470437632,
+              "high": 0.006919583850540222
             },
             "extractionDifficulty": 19.046,
             "processingDifficulty": 52.556,
@@ -1795,20 +1741,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-deep-35-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-35-1",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-1",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 10465011.394,
+            "depositKind": "vein",
+            "initialReserveU": 6784208.788,
             "gradeProbabilities": {
-              "low": 0.15421377286271828,
-              "medium": 0.25687243729761067,
-              "high": 0.588913789839671
+              "low": 0.4744632885556198,
+              "medium": 0.2972880731084614,
+              "high": 0.2282486383359188
             },
-            "extractionDifficulty": 60.074,
+            "extractionDifficulty": 45.79,
             "processingDifficulty": 52.556,
-            "discoveryTier": 3,
-            "accessDepth": 80.549,
+            "discoveryTier": 1,
+            "accessDepth": 23.33,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1830,20 +1776,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-36-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-36-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 13995840.901,
+            "initialReserveU": 21127029.444,
             "gradeProbabilities": {
-              "low": 0.40282892117621233,
-              "medium": 0.5715014524334134,
-              "high": 0.0256696263903742
+              "low": 0.37856133122132435,
+              "medium": 0.5755105514923673,
+              "high": 0.045928117286308454
             },
             "extractionDifficulty": 34.11,
             "processingDifficulty": 68.519,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-vein-36-0",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 15119876.793,
+            "gradeProbabilities": {
+              "low": 0.40418752131939034,
+              "medium": 0.3802862832869151,
+              "high": 0.2155261953936945
+            },
+            "extractionDifficulty": 30.429,
+            "processingDifficulty": 68.519,
+            "discoveryTier": 2,
+            "accessDepth": 21.335,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-36-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 9984224.255,
+            "gradeProbabilities": {
+              "low": 0.10124576130881906,
+              "medium": 0.2564739111158997,
+              "high": 0.6422803275752813
+            },
+            "extractionDifficulty": 66.939,
+            "processingDifficulty": 68.519,
+            "discoveryTier": 4,
+            "accessDepth": 77.225,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1865,15 +1847,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-37-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-37-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 23178852.06,
+            "initialReserveU": 12057555.899,
             "gradeProbabilities": {
-              "low": 0.4014170770251178,
-              "medium": 0.5692262888276043,
-              "high": 0.029356634147277967
+              "low": 0.4153837452110159,
+              "medium": 0.5674362923902492,
+              "high": 0.017179962398734972
             },
             "extractionDifficulty": 12.651,
             "processingDifficulty": 49.764,
@@ -1883,20 +1865,38 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-37-0",
-            "groupId": "g1-sol-titania-d09d3e82-vein-0",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-37-1",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-1",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 53528715.834,
+            "initialReserveU": 11974574.15,
             "gradeProbabilities": {
-              "low": 0.4321341209244409,
-              "medium": 0.3723009541013177,
-              "high": 0.1955649249742414
+              "low": 0.47059275720247995,
+              "medium": 0.3119886604971528,
+              "high": 0.21741858230036723
             },
             "extractionDifficulty": 34.875,
             "processingDifficulty": 49.764,
             "discoveryTier": 1,
             "accessDepth": 26.125,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-37-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 12003100.331,
+            "gradeProbabilities": {
+              "low": 0.1704550002657149,
+              "medium": 0.22263654704221902,
+              "high": 0.6069084526920661
+            },
+            "extractionDifficulty": 69.606,
+            "processingDifficulty": 49.764,
+            "discoveryTier": 3,
+            "accessDepth": 85.208,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1918,15 +1918,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-38-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-38-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 12703459.355,
+            "initialReserveU": 14544401.6,
             "gradeProbabilities": {
-              "low": 0.3983916288723224,
-              "medium": 0.5691766486843141,
-              "high": 0.032431722443363564
+              "low": 0.4106222567845626,
+              "medium": 0.560980004256408,
+              "high": 0.028397738959029438
             },
             "extractionDifficulty": 27.585,
             "processingDifficulty": 35.586,
@@ -1936,15 +1936,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-38-0",
-            "groupId": "g1-sol-titania-d09d3e82-vein-0",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-38-0",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-0",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 26519536.613,
+            "initialReserveU": 7784497.319,
             "gradeProbabilities": {
-              "low": 0.4354321202245036,
-              "medium": 0.36641269861691544,
-              "high": 0.19815518115858094
+              "low": 0.39071602914482356,
+              "medium": 0.3932301663652916,
+              "high": 0.21605380448988484
             },
             "extractionDifficulty": 46.789,
             "processingDifficulty": 35.586,
@@ -1971,20 +1971,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-39-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-39-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 47364682.825,
+            "initialReserveU": 56303693.793,
             "gradeProbabilities": {
-              "low": 0.4053376266730004,
-              "medium": 0.5691317283534468,
-              "high": 0.02553064497355272
+              "low": 0.3793903775969786,
+              "medium": 0.6065502634839816,
+              "high": 0.014059358919039812
             },
             "extractionDifficulty": 23.463,
             "processingDifficulty": 41.313,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-39-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 26316418.549,
+            "gradeProbabilities": {
+              "low": 0.176307254612138,
+              "medium": 0.2412195793443911,
+              "high": 0.5824731660434709
+            },
+            "extractionDifficulty": 84.488,
+            "processingDifficulty": 41.313,
+            "discoveryTier": 5,
+            "accessDepth": 90.362,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -2006,20 +2024,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-40-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-40-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 19134891.524,
+            "initialReserveU": 21777817.234,
             "gradeProbabilities": {
-              "low": 0.40071417332040005,
-              "medium": 0.5689792220317783,
-              "high": 0.03030660464782168
+              "low": 0.4213603004700181,
+              "medium": 0.5502419396309448,
+              "high": 0.02839775989903707
             },
             "extractionDifficulty": 15.081,
             "processingDifficulty": 26.927,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-titania-f8d6faa8-deep-40-0",
+            "groupId": "g2-sol-titania-f8d6faa8-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 22483370.274,
+            "gradeProbabilities": {
+              "low": 0.18366229145214713,
+              "medium": 0.21526097784617382,
+              "high": 0.6010767307016791
+            },
+            "extractionDifficulty": 69.077,
+            "processingDifficulty": 26.927,
+            "discoveryTier": 5,
+            "accessDepth": 76.522,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -2041,15 +2077,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-titania-d09d3e82-surface-41-0",
-            "groupId": "g1-sol-titania-d09d3e82-surface-0",
+            "depositId": "r2-sol-titania-f8d6faa8-surface-41-0",
+            "groupId": "g2-sol-titania-f8d6faa8-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 11400553.141,
+            "initialReserveU": 23676899.599,
             "gradeProbabilities": {
-              "low": 0.4025192657240652,
-              "medium": 0.5670959519674094,
-              "high": 0.03038478230852534
+              "low": 0.4263251930413902,
+              "medium": 0.528317960531203,
+              "high": 0.04535684642740682
             },
             "extractionDifficulty": 14.961,
             "processingDifficulty": 27.298,
@@ -2059,38 +2095,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-titania-d09d3e82-vein-41-1",
-            "groupId": "g1-sol-titania-d09d3e82-vein-1",
+            "depositId": "r2-sol-titania-f8d6faa8-vein-41-2",
+            "groupId": "g2-sol-titania-f8d6faa8-vein-2",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 22680381.739,
+            "initialReserveU": 7924813.441,
             "gradeProbabilities": {
-              "low": 0.43441339990314637,
-              "medium": 0.34208551639662044,
-              "high": 0.22350108370023325
+              "low": 0.3975846521442197,
+              "medium": 0.450705686548967,
+              "high": 0.15170966130681335
             },
             "extractionDifficulty": 53.598,
             "processingDifficulty": 27.298,
             "discoveryTier": 2,
             "accessDepth": 7.822,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-titania-d09d3e82-deep-41-0",
-            "groupId": "g1-sol-titania-d09d3e82-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 8971128.765,
-            "gradeProbabilities": {
-              "low": 0.1552393782972701,
-              "medium": 0.2510996377349479,
-              "high": 0.593660983967782
-            },
-            "extractionDifficulty": 81.626,
-            "processingDifficulty": 27.298,
-            "discoveryTier": 4,
-            "accessDepth": 54.704,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -2549,12 +2567,120 @@
         "high": 0.5922803275752813
       }
     },
-    "jitter": 0.04,
     "certainty": "provisional",
     "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
     "worldSeed": "sol:titania:resources:v1",
-    "generatorVersion": 1,
-    "budgetPolicy": "procedural"
+    "generatorVersion": 2,
+    "budgetPolicy": "procedural",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 41,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.020758751551620658
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.36126795033295017,
+            "max": 0.4517570721800439,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.5092821672932321,
+            "max": 0.6309077484304831,
+            "actualMaxDeviation": 0.06128242512456317
+          },
+          "high": {
+            "min": 0.006919583850540222,
+            "max": 0.045928117286308454,
+            "actualMaxDeviation": 0.020758751551620658
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 19,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.39071602914482356,
+            "max": 0.48753959918872336,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.2883933347974815,
+            "max": 0.450705686548967,
+            "actualMaxDeviation": 0.09313137700060387
+          },
+          "high": {
+            "min": 0.15170966130681335,
+            "max": 0.2282486383359188,
+            "actualMaxDeviation": 0.05000000000000002
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 17,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.10124576130881906,
+            "max": 0.18366229145214713,
+            "actualMaxDeviation": 0.05
+          },
+          "medium": {
+            "min": 0.18699262328764954,
+            "max": 0.3197232712920851,
+            "actualMaxDeviation": 0.06948128782825014
+          },
+          "high": {
+            "min": 0.550382043457109,
+            "max": 0.6422803275752813,
+            "actualMaxDeviation": 0.050000000000000044
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 42,
+      "requiredCoverage": 11,
+      "veinCells": 19,
+      "groupCount": 4,
+      "minimumGroupCells": 3,
+      "exceptions": [],
+      "nominalCellCapQuanta": 98863163643,
+      "maxCellFraction": 0.09999999999989885,
+      "maxGroupFraction": 0.4999999999985364
+    }
   },
   "hydrogenSources": [
     {
@@ -2584,6 +2710,6 @@
   "migration": {
     "migrationVersion": 1,
     "fromSchemaVersion": 1,
-    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
   }
 }

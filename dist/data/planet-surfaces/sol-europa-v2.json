@@ -30,38 +30,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-0-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-0-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 42713143.838,
+            "initialReserveU": 45575884.657,
             "gradeProbabilities": {
-              "low": 0.3071957862249533,
-              "medium": 0.6746901180822816,
-              "high": 0.01811409569276513
+              "low": 0.3285153293427292,
+              "medium": 0.6597261833102027,
+              "high": 0.011758487347068108
             },
             "extractionDifficulty": 31.992,
             "processingDifficulty": 43.029,
             "discoveryTier": 0,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-europa-7c56020e-deep-0-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 15671401.966,
-            "gradeProbabilities": {
-              "low": 0.046451277067725,
-              "medium": 0.7023375408387951,
-              "high": 0.2512111820934799
-            },
-            "extractionDifficulty": 77.645,
-            "processingDifficulty": 43.029,
-            "discoveryTier": 4,
-            "accessDepth": 53.048,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -83,20 +65,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-1-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-1-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 230218463.682,
+            "initialReserveU": 212827023.725,
             "gradeProbabilities": {
-              "low": 0.303758174814559,
-              "medium": 0.6784045958411362,
-              "high": 0.017837229344304813
+              "low": 0.3041703491438784,
+              "medium": 0.6860491364473457,
+              "high": 0.009780514408775911
             },
             "extractionDifficulty": 15.038,
             "processingDifficulty": 23.541,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-1-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 98383076.447,
+            "gradeProbabilities": {
+              "low": 0.03938364879987874,
+              "medium": 0.6861825967530688,
+              "high": 0.27443375444705237
+            },
+            "extractionDifficulty": 80.667,
+            "processingDifficulty": 23.541,
+            "discoveryTier": 5,
+            "accessDepth": 68.225,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -118,20 +118,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-2-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-2-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 67594421.081,
+            "initialReserveU": 36918599.327,
             "gradeProbabilities": {
-              "low": 0.304348587813131,
-              "medium": 0.6783743949015106,
-              "high": 0.017277017285358322
+              "low": 0.26949567396176005,
+              "medium": 0.7185109327630227,
+              "high": 0.011993393275217316
             },
             "extractionDifficulty": 13.181,
             "processingDifficulty": 29.645,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-2-1",
+            "groupId": "g2-sol-europa-76e8715d-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 40811870.467,
+            "gradeProbabilities": {
+              "low": 0.2657311776176395,
+              "medium": 0.5825886618106265,
+              "high": 0.15168016057173406
+            },
+            "extractionDifficulty": 52.16,
+            "processingDifficulty": 29.645,
+            "discoveryTier": 1,
+            "accessDepth": 19.081,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-2-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 27488417.571,
+            "gradeProbabilities": {
+              "low": 0.03533102232432031,
+              "medium": 0.7284167923920446,
+              "high": 0.2362521852836351
+            },
+            "extractionDifficulty": 66.5,
+            "processingDifficulty": 29.645,
+            "discoveryTier": 3,
+            "accessDepth": 73.469,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -153,20 +189,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-3-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-3-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 137916906.665,
+            "initialReserveU": 95187675.652,
             "gradeProbabilities": {
-              "low": 0.3065554918109397,
-              "medium": 0.6749053119332011,
-              "high": 0.01853919625585915
+              "low": 0.28320402862844934,
+              "medium": 0.6876893684690953,
+              "high": 0.02910660290245531
             },
             "extractionDifficulty": 31.68,
             "processingDifficulty": 61.947,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-3-1",
+            "groupId": "g2-sol-europa-76e8715d-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 81569781.847,
+            "gradeProbabilities": {
+              "low": 0.2685605268293459,
+              "medium": 0.5773492940685002,
+              "high": 0.15409017910215395
+            },
+            "extractionDifficulty": 35.537,
+            "processingDifficulty": 61.947,
+            "discoveryTier": 1,
+            "accessDepth": 19.593,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-3-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 37724291.502,
+            "gradeProbabilities": {
+              "low": 0.049148415617759116,
+              "medium": 0.6496252054282252,
+              "high": 0.30122637895401566
+            },
+            "extractionDifficulty": 72.442,
+            "processingDifficulty": 61.947,
+            "discoveryTier": 3,
+            "accessDepth": 74.321,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -188,15 +260,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-4-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-4-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 297957207.234,
+            "initialReserveU": 468885471.87,
             "gradeProbabilities": {
-              "low": 0.30624799171117645,
-              "medium": 0.6747285566464479,
-              "high": 0.0190234516423756
+              "low": 0.3035752255644066,
+              "medium": 0.6729176281696592,
+              "high": 0.023507146265934156
             },
             "extractionDifficulty": 23.513,
             "processingDifficulty": 41.884,
@@ -206,15 +278,33 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-4-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-vein-4-4",
+            "groupId": "g2-sol-europa-76e8715d-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 401418524.84,
+            "gradeProbabilities": {
+              "low": 0.3187197925440158,
+              "medium": 0.48258858187587506,
+              "high": 0.19869162558010922
+            },
+            "extractionDifficulty": 52.651,
+            "processingDifficulty": 41.884,
+            "discoveryTier": 1,
+            "accessDepth": 20.19,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-4-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 336518947.214,
+            "initialReserveU": 162743088.352,
             "gradeProbabilities": {
-              "low": 0.04692518551259154,
-              "medium": 0.700368011768835,
-              "high": 0.2527068027185735
+              "low": 0.04773276680910759,
+              "medium": 0.6709130751203243,
+              "high": 0.2813541580705682
             },
             "extractionDifficulty": 70.734,
             "processingDifficulty": 41.884,
@@ -241,15 +331,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-5-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-5-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 125534710.107,
+            "initialReserveU": 95517440.715,
             "gradeProbabilities": {
-              "low": 0.30772090358873405,
-              "medium": 0.6766439658668305,
-              "high": 0.015635130544435397
+              "low": 0.28081721885121524,
+              "medium": 0.686726268432875,
+              "high": 0.032456512715909824
             },
             "extractionDifficulty": 27.241,
             "processingDifficulty": 39.212,
@@ -276,20 +366,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-6-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-6-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 62498182.186,
+            "initialReserveU": 83390876.962,
             "gradeProbabilities": {
-              "low": 0.3034252467940519,
-              "medium": 0.6758779514771368,
-              "high": 0.02069680172881128
+              "low": 0.2698719909789838,
+              "medium": 0.6998651745408261,
+              "high": 0.030262834480190133
             },
             "extractionDifficulty": 23.525,
             "processingDifficulty": 28.83,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-6-4",
+            "groupId": "g2-sol-europa-76e8715d-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 47660764.849,
+            "gradeProbabilities": {
+              "low": 0.31238470302235594,
+              "medium": 0.49275314755435995,
+              "high": 0.19486214942328414
+            },
+            "extractionDifficulty": 50.673,
+            "processingDifficulty": 28.83,
+            "discoveryTier": 2,
+            "accessDepth": 10,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -311,20 +419,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-7-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-7-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 31405401.446,
+            "initialReserveU": 32544041.984,
             "gradeProbabilities": {
-              "low": 0.3057738277635495,
-              "medium": 0.6772939669866527,
-              "high": 0.016932205249797716
+              "low": 0.307913202988781,
+              "medium": 0.6658665233756373,
+              "high": 0.026220273635581687
             },
             "extractionDifficulty": 14.592,
             "processingDifficulty": 66.081,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-7-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 109584087.734,
+            "gradeProbabilities": {
+              "low": 0.05400655625290643,
+              "medium": 0.7326491734012931,
+              "high": 0.21334427034580047
+            },
+            "extractionDifficulty": 61.996,
+            "processingDifficulty": 66.081,
+            "discoveryTier": 3,
+            "accessDepth": 52.854,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -346,15 +472,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-8-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-8-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 135153835.32,
+            "initialReserveU": 124010510.256,
             "gradeProbabilities": {
-              "low": 0.30151855144490997,
-              "medium": 0.6791901013911185,
-              "high": 0.019291347163971677
+              "low": 0.27937778503184424,
+              "medium": 0.7035963203533403,
+              "high": 0.01702589461481553
             },
             "extractionDifficulty": 15.556,
             "processingDifficulty": 36.242,
@@ -364,33 +490,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-vein-8-1",
-            "groupId": "g1-sol-europa-7c56020e-vein-1",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 748918033.254,
-            "gradeProbabilities": {
-              "low": 0.2722490236710239,
-              "medium": 0.5517990295326505,
-              "high": 0.1759519467963257
-            },
-            "extractionDifficulty": 52.601,
-            "processingDifficulty": 36.242,
-            "discoveryTier": 1,
-            "accessDepth": 6.303,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-europa-7c56020e-deep-8-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-deep-8-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 119448755.299,
+            "initialReserveU": 47728530.6,
             "gradeProbabilities": {
-              "low": 0.04789952882363313,
-              "medium": 0.7010830863508604,
-              "high": 0.2510173848255065
+              "low": 0.06694331262449985,
+              "medium": 0.7265866785995102,
+              "high": 0.20647000877599
             },
             "extractionDifficulty": 79.174,
             "processingDifficulty": 36.242,
@@ -417,15 +525,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-9-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-9-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 201808357.615,
+            "initialReserveU": 214602918.959,
             "gradeProbabilities": {
-              "low": 0.3073115203010807,
-              "medium": 0.6754042865656729,
-              "high": 0.017284193133246317
+              "low": 0.2707032776276696,
+              "medium": 0.6965329148902573,
+              "high": 0.032763807482073116
             },
             "extractionDifficulty": 11.028,
             "processingDifficulty": 33.536,
@@ -452,20 +560,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-10-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-10-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 34866624.907,
+            "initialReserveU": 51111171.387,
             "gradeProbabilities": {
-              "low": 0.30183938581710257,
-              "medium": 0.6784882843293663,
-              "high": 0.019672329853531137
+              "low": 0.27334119549360647,
+              "medium": 0.7102501831725577,
+              "high": 0.016408621333835853
             },
             "extractionDifficulty": 13.113,
             "processingDifficulty": 21.662,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-10-4",
+            "groupId": "g2-sol-europa-76e8715d-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 54506512.459,
+            "gradeProbabilities": {
+              "low": 0.32736878525465724,
+              "medium": 0.47124250384876315,
+              "high": 0.20138871089657967
+            },
+            "extractionDifficulty": 54.299,
+            "processingDifficulty": 21.662,
+            "discoveryTier": 1,
+            "accessDepth": 20.208,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -487,20 +613,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-11-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-11-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 41253189.836,
+            "initialReserveU": 31541387.418,
             "gradeProbabilities": {
-              "low": 0.3055696119575719,
-              "medium": 0.6803048536874767,
-              "high": 0.014125534354951395
+              "low": 0.25808174893448155,
+              "medium": 0.7302551558358661,
+              "high": 0.011663095229652313
             },
             "extractionDifficulty": 11.217,
             "processingDifficulty": 23.753,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-11-2",
+            "groupId": "g2-sol-europa-76e8715d-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 23682721.376,
+            "gradeProbabilities": {
+              "low": 0.3091036577645055,
+              "medium": 0.5574955672428333,
+              "high": 0.13340077499266123
+            },
+            "extractionDifficulty": 38.307,
+            "processingDifficulty": 23.753,
+            "discoveryTier": 1,
+            "accessDepth": 25.217,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-11-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 132445661.242,
+            "gradeProbabilities": {
+              "low": 0.026741364261710403,
+              "medium": 0.7433468290322092,
+              "high": 0.22991180670608047
+            },
+            "extractionDifficulty": 83.962,
+            "processingDifficulty": 23.753,
+            "discoveryTier": 3,
+            "accessDepth": 83.695,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -522,15 +684,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-12-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-12-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 102338008.795,
+            "initialReserveU": 72138523.727,
             "gradeProbabilities": {
-              "low": 0.3071130226089577,
-              "medium": 0.6761103006568219,
-              "high": 0.016776676734220397
+              "low": 0.298954489968301,
+              "medium": 0.6713900638213041,
+              "high": 0.02965544621039496
             },
             "extractionDifficulty": 26.311,
             "processingDifficulty": 53.687,
@@ -540,15 +702,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-vein-12-0",
-            "groupId": "g1-sol-europa-7c56020e-vein-0",
+            "depositId": "r2-sol-europa-76e8715d-vein-12-2",
+            "groupId": "g2-sol-europa-76e8715d-vein-2",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 784953763.362,
+            "initialReserveU": 41889351.712,
             "gradeProbabilities": {
-              "low": 0.2917336399785656,
-              "medium": 0.545372799334878,
-              "high": 0.16289356068655636
+              "low": 0.3203685422994425,
+              "medium": 0.5208465184613118,
+              "high": 0.1587849392392458
             },
             "extractionDifficulty": 43.592,
             "processingDifficulty": 53.687,
@@ -575,20 +737,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-13-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-13-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 291431632.976,
+            "initialReserveU": 210546177.992,
             "gradeProbabilities": {
-              "low": 0.30227354916398924,
-              "medium": 0.6808082012072619,
-              "high": 0.016918249628748907
+              "low": 0.28964038838539263,
+              "medium": 0.7025032856160952,
+              "high": 0.007856325998512145
             },
             "extractionDifficulty": 21.318,
             "processingDifficulty": 69.483,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-13-3",
+            "groupId": "g2-sol-europa-76e8715d-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 48203357.695,
+            "gradeProbabilities": {
+              "low": 0.23949527235875417,
+              "medium": 0.6235253739217225,
+              "high": 0.13697935371952333
+            },
+            "extractionDifficulty": 52.88,
+            "processingDifficulty": 69.483,
+            "discoveryTier": 1,
+            "accessDepth": 16.552,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-13-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 82620579.477,
+            "gradeProbabilities": {
+              "low": 0.04804175088210301,
+              "medium": 0.6870892042925489,
+              "high": 0.264869044825348
+            },
+            "extractionDifficulty": 64.634,
+            "processingDifficulty": 69.483,
+            "discoveryTier": 4,
+            "accessDepth": 69.253,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -610,15 +808,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-14-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-14-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 348868070.099,
+            "initialReserveU": 395249491.873,
             "gradeProbabilities": {
-              "low": 0.3018792347705881,
-              "medium": 0.6799422506209876,
-              "high": 0.018178514608424318
+              "low": 0.27741584107541184,
+              "medium": 0.6974649109280323,
+              "high": 0.02511924799655585
             },
             "extractionDifficulty": 25.396,
             "processingDifficulty": 31.31,
@@ -628,15 +826,33 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-14-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-vein-14-3",
+            "groupId": "g2-sol-europa-76e8715d-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 326314257.603,
+            "gradeProbabilities": {
+              "low": 0.2505756631767178,
+              "medium": 0.6159444485696077,
+              "high": 0.13347988825367446
+            },
+            "extractionDifficulty": 44.73,
+            "processingDifficulty": 31.31,
+            "discoveryTier": 1,
+            "accessDepth": 12.773,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-14-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 180823341.447,
+            "initialReserveU": 132511638.971,
             "gradeProbabilities": {
-              "low": 0.04388804110123628,
-              "medium": 0.7016531705389939,
-              "high": 0.25445878835976987
+              "low": 0.06727373622309515,
+              "medium": 0.676400058267399,
+              "high": 0.2563262055095058
             },
             "extractionDifficulty": 64.465,
             "processingDifficulty": 31.31,
@@ -663,15 +879,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-15-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-15-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 140880698.321,
+            "initialReserveU": 177554999.796,
             "gradeProbabilities": {
-              "low": 0.30536900215064683,
-              "medium": 0.673579204539251,
-              "high": 0.021051793310102238
+              "low": 0.3129712709158524,
+              "medium": 0.6645004285548952,
+              "high": 0.022528300529252386
             },
             "extractionDifficulty": 24.825,
             "processingDifficulty": 33.899,
@@ -681,15 +897,33 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-15-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-vein-15-3",
+            "groupId": "g2-sol-europa-76e8715d-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 82066218.617,
+            "gradeProbabilities": {
+              "low": 0.2412319160786568,
+              "medium": 0.6105197366904869,
+              "high": 0.14824834723085634
+            },
+            "extractionDifficulty": 54.506,
+            "processingDifficulty": 33.899,
+            "discoveryTier": 1,
+            "accessDepth": 16.809,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-15-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 59562925.964,
+            "initialReserveU": 38866045.242,
             "gradeProbabilities": {
-              "low": 0.04705283961429113,
-              "medium": 0.7051525383143894,
-              "high": 0.2477946220713195
+              "low": 0.013926102975097589,
+              "medium": 0.7358127554440297,
+              "high": 0.25026114158087276
             },
             "extractionDifficulty": 64.518,
             "processingDifficulty": 33.899,
@@ -716,20 +950,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-16-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-16-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 117240480.967,
+            "initialReserveU": 152727705.673,
             "gradeProbabilities": {
-              "low": 0.30233164320168593,
-              "medium": 0.6814670650329854,
-              "high": 0.016201291765328658
+              "low": 0.3293950975904695,
+              "medium": 0.637631855999633,
+              "high": 0.03297304640989751
             },
             "extractionDifficulty": 30.457,
             "processingDifficulty": 28.504,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-16-3",
+            "groupId": "g2-sol-europa-76e8715d-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 65964969.805,
+            "gradeProbabilities": {
+              "low": 0.24159725611829125,
+              "medium": 0.6169726146400639,
+              "high": 0.1414301292416448
+            },
+            "extractionDifficulty": 39.533,
+            "processingDifficulty": 28.504,
+            "discoveryTier": 1,
+            "accessDepth": 20.555,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -751,56 +1003,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-17-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-17-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 41104710.194,
+            "initialReserveU": 32055033.657,
             "gradeProbabilities": {
-              "low": 0.3067716891228179,
-              "medium": 0.6786320272278454,
-              "high": 0.01459628364933671
+              "low": 0.2993678904659908,
+              "medium": 0.6839731582473668,
+              "high": 0.016658951286642246
             },
             "extractionDifficulty": 22.396,
             "processingDifficulty": 39.801,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-europa-7c56020e-vein-17-0",
-            "groupId": "g1-sol-europa-7c56020e-vein-0",
-            "resourceId": "ore",
-            "depositKind": "vein",
-            "initialReserveU": 506510448.035,
-            "gradeProbabilities": {
-              "low": 0.2960651851452369,
-              "medium": 0.5450598258597943,
-              "high": 0.1588749889949688
-            },
-            "extractionDifficulty": 38.669,
-            "processingDifficulty": 39.801,
-            "discoveryTier": 2,
-            "accessDepth": 24.376,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-europa-7c56020e-deep-17-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 25450686.566,
-            "gradeProbabilities": {
-              "low": 0.04619282360358947,
-              "medium": 0.6988141723423473,
-              "high": 0.2549930040540632
-            },
-            "extractionDifficulty": 83.16,
-            "processingDifficulty": 39.801,
-            "discoveryTier": 5,
-            "accessDepth": 82.293,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -822,20 +1038,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-18-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-18-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 56023247.111,
+            "initialReserveU": 85324828.377,
             "gradeProbabilities": {
-              "low": 0.30488577916500664,
-              "medium": 0.6794128815554497,
-              "high": 0.01570133927954377
+              "low": 0.3283374222032128,
+              "medium": 0.6591004775468489,
+              "high": 0.012562100249938302
             },
             "extractionDifficulty": 12.259,
             "processingDifficulty": 58.518,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-18-2",
+            "groupId": "g2-sol-europa-76e8715d-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 76536605.084,
+            "gradeProbabilities": {
+              "low": 0.32665665956779044,
+              "medium": 0.5188455917540553,
+              "high": 0.15449774867815422
+            },
+            "extractionDifficulty": 36.688,
+            "processingDifficulty": 58.518,
+            "discoveryTier": 1,
+            "accessDepth": 34.09,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -857,20 +1091,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-19-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-19-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 295215476.461,
+            "initialReserveU": 558116205.637,
             "gradeProbabilities": {
-              "low": 0.3015522530491421,
-              "medium": 0.6798983745504584,
-              "high": 0.01854937240039946
+              "low": 0.31423395066782417,
+              "medium": 0.6764632431226573,
+              "high": 0.009302806209518457
             },
             "extractionDifficulty": 17.899,
             "processingDifficulty": 68.249,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-19-5",
+            "groupId": "g2-sol-europa-76e8715d-vein-5",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 473305808.848,
+            "gradeProbabilities": {
+              "low": 0.24555868450279794,
+              "medium": 0.5989855387951071,
+              "high": 0.155455776702095
+            },
+            "extractionDifficulty": 52.426,
+            "processingDifficulty": 68.249,
+            "discoveryTier": 1,
+            "accessDepth": 27.334,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -892,20 +1144,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-20-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-20-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 76888941.107,
+            "initialReserveU": 148144862.112,
             "gradeProbabilities": {
-              "low": 0.30696387938251296,
-              "medium": 0.6785111292623397,
-              "high": 0.014524991355147374
+              "low": 0.3289388782309128,
+              "medium": 0.650128313080923,
+              "high": 0.020932808688164155
             },
             "extractionDifficulty": 25.018,
             "processingDifficulty": 28.456,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-20-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 47265214.518,
+            "gradeProbabilities": {
+              "low": 0.07004675036096222,
+              "medium": 0.692388784203052,
+              "high": 0.23756446543598572
+            },
+            "extractionDifficulty": 60.873,
+            "processingDifficulty": 28.456,
+            "discoveryTier": 4,
+            "accessDepth": 63.734,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -927,20 +1197,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-21-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-21-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 18762220.186,
+            "initialReserveU": 41272862.595,
             "gradeProbabilities": {
-              "low": 0.3013750599048058,
-              "medium": 0.6816711360462424,
-              "high": 0.016953804048951877
+              "low": 0.2830528558787153,
+              "medium": 0.7110749047390592,
+              "high": 0.005872239382225478
             },
             "extractionDifficulty": 19.346,
             "processingDifficulty": 54.824,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-21-2",
+            "groupId": "g2-sol-europa-76e8715d-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 25979888.811,
+            "gradeProbabilities": {
+              "low": 0.319144324815962,
+              "medium": 0.5315181610247932,
+              "high": 0.14933751415924482
+            },
+            "extractionDifficulty": 40.296,
+            "processingDifficulty": 54.824,
+            "discoveryTier": 2,
+            "accessDepth": 10.351,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-21-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 95519431.887,
+            "gradeProbabilities": {
+              "low": 0.011077770342235449,
+              "medium": 0.7363849552571315,
+              "high": 0.25253727440063295
+            },
+            "extractionDifficulty": 73.642,
+            "processingDifficulty": 54.824,
+            "discoveryTier": 5,
+            "accessDepth": 58.919,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -962,15 +1268,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-22-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-22-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 27133710.211,
+            "initialReserveU": 23405179.85,
             "gradeProbabilities": {
-              "low": 0.30135998659794727,
-              "medium": 0.6802693633161898,
-              "high": 0.01837065008586289
+              "low": 0.33585245678203873,
+              "medium": 0.6341336397043882,
+              "high": 0.03001390351357315
             },
             "extractionDifficulty": 23.895,
             "processingDifficulty": 22.233,
@@ -980,20 +1286,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-22-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-vein-22-4",
+            "groupId": "g2-sol-europa-76e8715d-vein-4",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 15741222.478,
+            "depositKind": "vein",
+            "initialReserveU": 21913336.243,
             "gradeProbabilities": {
-              "low": 0.04552394092066997,
-              "medium": 0.7023509762454054,
-              "high": 0.25212508283392454
+              "low": 0.31536898473658287,
+              "medium": 0.4929028771834257,
+              "high": 0.1917281380799915
             },
-            "extractionDifficulty": 75.333,
+            "extractionDifficulty": 33.988,
             "processingDifficulty": 22.233,
-            "discoveryTier": 3,
-            "accessDepth": 52.491,
+            "discoveryTier": 1,
+            "accessDepth": 6.494,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1015,38 +1321,20 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-23-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-23-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 27212381.207,
+            "initialReserveU": 35046625.409,
             "gradeProbabilities": {
-              "low": 0.3070113147611688,
-              "medium": 0.675595883099776,
-              "high": 0.017392802139055145
+              "low": 0.33143716458231387,
+              "medium": 0.6622736624885235,
+              "high": 0.00628917292916264
             },
             "extractionDifficulty": 31.504,
             "processingDifficulty": 62.916,
             "discoveryTier": 1,
             "accessDepth": 0,
-            "compositionTags": [],
-            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
-          },
-          {
-            "depositId": "r1-sol-europa-7c56020e-deep-23-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
-            "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 99751959.301,
-            "gradeProbabilities": {
-              "low": 0.04153870367615336,
-              "medium": 0.7108114604222797,
-              "high": 0.24764983590156703
-            },
-            "extractionDifficulty": 78.046,
-            "processingDifficulty": 62.916,
-            "discoveryTier": 4,
-            "accessDepth": 73.26,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1068,15 +1356,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-24-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-24-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 191512758.585,
+            "initialReserveU": 69670841.644,
             "gradeProbabilities": {
-              "low": 0.305693012096263,
-              "medium": 0.6728244754955586,
-              "high": 0.021482512408178462
+              "low": 0.3190978707342997,
+              "medium": 0.6747347029373014,
+              "high": 0.006167426328398857
             },
             "extractionDifficulty": 11.636,
             "processingDifficulty": 15.365,
@@ -1103,20 +1391,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-25-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-25-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 27275327.911,
+            "initialReserveU": 15466366.823,
             "gradeProbabilities": {
-              "low": 0.30498950102766553,
-              "medium": 0.6768919674795534,
-              "high": 0.018118531492781056
+              "low": 0.265687315942828,
+              "medium": 0.7232854190676781,
+              "high": 0.011027264989493893
             },
             "extractionDifficulty": 19.154,
             "processingDifficulty": 55.82,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-25-4",
+            "groupId": "g2-sol-europa-76e8715d-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 16725288.162,
+            "gradeProbabilities": {
+              "low": 0.3152987760129073,
+              "medium": 0.47344314290748124,
+              "high": 0.2112580810796114
+            },
+            "extractionDifficulty": 34.96,
+            "processingDifficulty": 55.82,
+            "discoveryTier": 1,
+            "accessDepth": 18.638,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-25-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 93664150.506,
+            "gradeProbabilities": {
+              "low": 0.01987987254566592,
+              "medium": 0.7107101415840482,
+              "high": 0.2694099858702858
+            },
+            "extractionDifficulty": 84.748,
+            "processingDifficulty": 55.82,
+            "discoveryTier": 3,
+            "accessDepth": 72.731,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1138,15 +1462,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-26-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-26-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 144433090.249,
+            "initialReserveU": 161478694.872,
             "gradeProbabilities": {
-              "low": 0.30096186235760847,
-              "medium": 0.683163389880624,
-              "high": 0.01587474776176752
+              "low": 0.27486554706943367,
+              "medium": 0.7147631570158895,
+              "high": 0.010371295914676797
             },
             "extractionDifficulty": 13.183,
             "processingDifficulty": 39.194,
@@ -1173,15 +1497,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-27-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-27-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 718030470.263,
+            "initialReserveU": 588763160.903,
             "gradeProbabilities": {
-              "low": 0.3014085291831712,
-              "medium": 0.6781104754977342,
-              "high": 0.02048099531909467
+              "low": 0.33055684802197927,
+              "medium": 0.6497247144550586,
+              "high": 0.019718437522962057
             },
             "extractionDifficulty": 28.299,
             "processingDifficulty": 51.906,
@@ -1191,15 +1515,33 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-27-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-vein-27-4",
+            "groupId": "g2-sol-europa-76e8715d-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 320964820.069,
+            "gradeProbabilities": {
+              "low": 0.30423912954636156,
+              "medium": 0.49187153979800186,
+              "high": 0.20388933065563658
+            },
+            "extractionDifficulty": 38.053,
+            "processingDifficulty": 51.906,
+            "discoveryTier": 2,
+            "accessDepth": 19.596,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-27-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 98063323.991,
+            "initialReserveU": 147463572.49,
             "gradeProbabilities": {
-              "low": 0.04060137347674781,
-              "medium": 0.7106841111368707,
-              "high": 0.24871451538638142
+              "low": 0.0695614512563706,
+              "medium": 0.6747499937420005,
+              "high": 0.25568855500162896
             },
             "extractionDifficulty": 71.378,
             "processingDifficulty": 51.906,
@@ -1226,20 +1568,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-28-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-28-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 187031721.756,
+            "initialReserveU": 177707837.508,
             "gradeProbabilities": {
-              "low": 0.3072320921479682,
-              "medium": 0.6726291150249954,
-              "high": 0.020138792827036393
+              "low": 0.2551148879225366,
+              "medium": 0.7153061962032548,
+              "high": 0.029578915874208585
             },
             "extractionDifficulty": 26.571,
             "processingDifficulty": 45,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-28-4",
+            "groupId": "g2-sol-europa-76e8715d-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 44387692.714,
+            "gradeProbabilities": {
+              "low": 0.3106105493876603,
+              "medium": 0.4892416158882434,
+              "high": 0.2001478347240963
+            },
+            "extractionDifficulty": 40.222,
+            "processingDifficulty": 45,
+            "discoveryTier": 2,
+            "accessDepth": 27.057,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1261,15 +1621,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-29-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-29-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 27287379.542,
+            "initialReserveU": 31120911.183,
             "gradeProbabilities": {
-              "low": 0.30392760128182866,
-              "medium": 0.676317026131269,
-              "high": 0.019755372586902395
+              "low": 0.28376505903444266,
+              "medium": 0.699987093678965,
+              "high": 0.016247847286592225
             },
             "extractionDifficulty": 29.217,
             "processingDifficulty": 43.039,
@@ -1279,15 +1639,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-vein-29-1",
-            "groupId": "g1-sol-europa-7c56020e-vein-1",
+            "depositId": "r2-sol-europa-76e8715d-vein-29-0",
+            "groupId": "g2-sol-europa-76e8715d-vein-0",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 1636734380.75,
+            "initialReserveU": 31308185.634,
             "gradeProbabilities": {
-              "low": 0.2675684773630876,
-              "medium": 0.5549821068009528,
-              "high": 0.17744941583595958
+              "low": 0.27995702875391415,
+              "medium": 0.49806223453874865,
+              "high": 0.22198073670733723
             },
             "extractionDifficulty": 44.058,
             "processingDifficulty": 43.039,
@@ -1297,15 +1657,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-29-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-deep-29-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 32024250,
+            "initialReserveU": 101109507.099,
             "gradeProbabilities": {
-              "low": 0.04183819069324845,
-              "medium": 0.7042435453272633,
-              "high": 0.2539182639794883
+              "low": 0.028286178812549734,
+              "medium": 0.7165767418520756,
+              "high": 0.2551370793353746
             },
             "extractionDifficulty": 65.71,
             "processingDifficulty": 43.039,
@@ -1332,20 +1692,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-30-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-30-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 73796857.01,
+            "initialReserveU": 165029967.432,
             "gradeProbabilities": {
-              "low": 0.30475304370401,
-              "medium": 0.6747285802927282,
-              "high": 0.02051837600326182
+              "low": 0.26873581526850066,
+              "medium": 0.7125156575110956,
+              "high": 0.018748527220403773
             },
             "extractionDifficulty": 19.71,
             "processingDifficulty": 25.537,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-30-5",
+            "groupId": "g2-sol-europa-76e8715d-vein-5",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 262393857.422,
+            "gradeProbabilities": {
+              "low": 0.25679833430981286,
+              "medium": 0.5643283951671358,
+              "high": 0.1788732705230514
+            },
+            "extractionDifficulty": 43.281,
+            "processingDifficulty": 25.537,
+            "discoveryTier": 2,
+            "accessDepth": 10.681,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1367,20 +1745,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-31-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-31-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 856788873.679,
+            "initialReserveU": 714879145.471,
             "gradeProbabilities": {
-              "low": 0.307657136379085,
-              "medium": 0.673601694388729,
-              "high": 0.018741169232186092
+              "low": 0.33744855798568435,
+              "medium": 0.6453731435513075,
+              "high": 0.017178298463008185
             },
             "extractionDifficulty": 11.289,
             "processingDifficulty": 46.552,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-31-0",
+            "groupId": "g2-sol-europa-76e8715d-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 389944726.603,
+            "gradeProbabilities": {
+              "low": 0.2950061677790072,
+              "medium": 0.49608839262841414,
+              "high": 0.20890543959257862
+            },
+            "extractionDifficulty": 48.801,
+            "processingDifficulty": 46.552,
+            "discoveryTier": 2,
+            "accessDepth": 19.429,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1402,20 +1798,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-32-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-32-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 140342686.097,
+            "initialReserveU": 112576322.081,
             "gradeProbabilities": {
-              "low": 0.3040425459689418,
-              "medium": 0.6791764368065115,
-              "high": 0.016781017224546686
+              "low": 0.26262105014432807,
+              "medium": 0.7187826210974481,
+              "high": 0.01859632875822394
             },
             "extractionDifficulty": 22.536,
             "processingDifficulty": 41.873,
             "discoveryTier": 1,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-32-0",
+            "groupId": "g2-sol-europa-76e8715d-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 72996383.172,
+            "gradeProbabilities": {
+              "low": 0.28652976789977574,
+              "medium": 0.5081805820629506,
+              "high": 0.20528965003727365
+            },
+            "extractionDifficulty": 46.161,
+            "processingDifficulty": 41.873,
+            "discoveryTier": 2,
+            "accessDepth": 34.623,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1437,15 +1851,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-33-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-33-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 38606746.558,
+            "initialReserveU": 37299289.44,
             "gradeProbabilities": {
-              "low": 0.3033012778389225,
-              "medium": 0.6759545603137876,
-              "high": 0.020744161847289815
+              "low": 0.3376122551133254,
+              "medium": 0.6516715661161946,
+              "high": 0.010716178770479999
             },
             "extractionDifficulty": 27.806,
             "processingDifficulty": 48.992,
@@ -1455,15 +1869,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-vein-33-1",
-            "groupId": "g1-sol-europa-7c56020e-vein-1",
+            "depositId": "r2-sol-europa-76e8715d-vein-33-5",
+            "groupId": "g2-sol-europa-76e8715d-vein-5",
             "resourceId": "ore",
             "depositKind": "vein",
-            "initialReserveU": 300529755.061,
+            "initialReserveU": 45133770.996,
             "gradeProbabilities": {
-              "low": 0.2744709490097541,
-              "medium": 0.5474047456884923,
-              "high": 0.17812430530175355
+              "low": 0.25747965966341624,
+              "medium": 0.5797666176271921,
+              "high": 0.16275372270939173
             },
             "extractionDifficulty": 46.984,
             "processingDifficulty": 48.992,
@@ -1473,15 +1887,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-33-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-deep-33-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 86909016.286,
+            "initialReserveU": 47255623.975,
             "gradeProbabilities": {
-              "low": 0.04225651957078689,
-              "medium": 0.7068672443385444,
-              "high": 0.2508762360906687
+              "low": 0.022481216371916204,
+              "medium": 0.7206533246836786,
+              "high": 0.2568654589444051
             },
             "extractionDifficulty": 69.722,
             "processingDifficulty": 48.992,
@@ -1508,15 +1922,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-34-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-34-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 66946333.228,
+            "initialReserveU": 152398492.487,
             "gradeProbabilities": {
-              "low": 0.30517792047773995,
-              "medium": 0.6797888962053176,
-              "high": 0.015033183316942467
+              "low": 0.3377998553128983,
+              "medium": 0.6520710603042956,
+              "high": 0.010129084382806092
             },
             "extractionDifficulty": 23.618,
             "processingDifficulty": 42.743,
@@ -1543,15 +1957,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-35-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-35-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 27774285.206,
+            "initialReserveU": 29165619.349,
             "gradeProbabilities": {
-              "low": 0.30564655385193923,
-              "medium": 0.6790263067208643,
-              "high": 0.015327139427196396
+              "low": 0.2795319354230199,
+              "medium": 0.7099058465841576,
+              "high": 0.01056221799282258
             },
             "extractionDifficulty": 33.602,
             "processingDifficulty": 32.907,
@@ -1561,20 +1975,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-35-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-vein-35-5",
+            "groupId": "g2-sol-europa-76e8715d-vein-5",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 23231618.623,
+            "depositKind": "vein",
+            "initialReserveU": 20040827.21,
             "gradeProbabilities": {
-              "low": 0.04246507157928163,
-              "medium": 0.7054370693191163,
-              "high": 0.2520978591016021
+              "low": 0.26463326935780573,
+              "medium": 0.5540897652543636,
+              "high": 0.18127696538783067
             },
-            "extractionDifficulty": 71.016,
+            "extractionDifficulty": 30.323,
             "processingDifficulty": 32.907,
-            "discoveryTier": 4,
-            "accessDepth": 97.948,
+            "discoveryTier": 2,
+            "accessDepth": 33.769,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1596,15 +2010,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-36-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-36-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 616837282.908,
+            "initialReserveU": 610627498.578,
             "gradeProbabilities": {
-              "low": 0.30671902872463264,
-              "medium": 0.6722311370414163,
-              "high": 0.021049834233950987
+              "low": 0.2856215222739925,
+              "medium": 0.6912721751095792,
+              "high": 0.02310630261642835
             },
             "extractionDifficulty": 33.634,
             "processingDifficulty": 18.836,
@@ -1614,15 +2028,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-36-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-deep-36-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 103309696.612,
+            "initialReserveU": 154783266.694,
             "gradeProbabilities": {
-              "low": 0.04411964804104382,
-              "medium": 0.7068386452607087,
-              "high": 0.24904170669824746
+              "low": 0.05986909376096018,
+              "medium": 0.724681039840017,
+              "high": 0.21544986639902286
             },
             "extractionDifficulty": 69.261,
             "processingDifficulty": 18.836,
@@ -1649,20 +2063,56 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-37-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-37-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 356369521.029,
+            "initialReserveU": 170609856.329,
             "gradeProbabilities": {
-              "low": 0.3082995367779354,
-              "medium": 0.6737537184436287,
-              "high": 0.01794674477843584
+              "low": 0.32359785573495825,
+              "medium": 0.6711790632424035,
+              "high": 0.005223081022638203
             },
             "extractionDifficulty": 25.796,
             "processingDifficulty": 39.303,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-37-5",
+            "groupId": "g2-sol-europa-76e8715d-vein-5",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 339057737.149,
+            "gradeProbabilities": {
+              "low": 0.2645292307903117,
+              "medium": 0.5590790265754719,
+              "high": 0.1763917426342163
+            },
+            "extractionDifficulty": 35.13,
+            "processingDifficulty": 39.303,
+            "discoveryTier": 1,
+            "accessDepth": 28.84,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-deep-37-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 85170502.632,
+            "gradeProbabilities": {
+              "low": 0.03642303214625364,
+              "medium": 0.7135222541138939,
+              "high": 0.2500547137398525
+            },
+            "extractionDifficulty": 65.79,
+            "processingDifficulty": 39.303,
+            "discoveryTier": 4,
+            "accessDepth": 89.733,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1684,15 +2134,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-38-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-38-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 354628038.696,
+            "initialReserveU": 210710352.933,
             "gradeProbabilities": {
-              "low": 0.3080655544179449,
-              "medium": 0.6702084403526452,
-              "high": 0.021726005229409946
+              "low": 0.2860415505057483,
+              "medium": 0.6973914909757293,
+              "high": 0.016566958518522357
             },
             "extractionDifficulty": 33.199,
             "processingDifficulty": 62.214,
@@ -1702,15 +2152,15 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-38-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-deep-38-0",
+            "groupId": "g2-sol-europa-76e8715d-deep-0",
             "resourceId": "ore",
             "depositKind": "deep",
-            "initialReserveU": 252402666.788,
+            "initialReserveU": 51592522.415,
             "gradeProbabilities": {
-              "low": 0.04140494654497915,
-              "medium": 0.7082977525386236,
-              "high": 0.25029730091639724
+              "low": 0.03355263123252651,
+              "medium": 0.6799642106247575,
+              "high": 0.28648315814271597
             },
             "extractionDifficulty": 82.991,
             "processingDifficulty": 62.214,
@@ -1737,20 +2187,38 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-39-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-39-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 135867088.644,
+            "initialReserveU": 193152639.748,
             "gradeProbabilities": {
-              "low": 0.30539199465354483,
-              "medium": 0.676459611526173,
-              "high": 0.018148393820282233
+              "low": 0.3182056440141457,
+              "medium": 0.6547760589307547,
+              "high": 0.027018297055099588
             },
             "extractionDifficulty": 13.23,
             "processingDifficulty": 58.172,
             "discoveryTier": 0,
             "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-europa-76e8715d-vein-39-1",
+            "groupId": "g2-sol-europa-76e8715d-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 330553717.449,
+            "gradeProbabilities": {
+              "low": 0.26929679752964114,
+              "medium": 0.5779197479920885,
+              "high": 0.15278345447827035
+            },
+            "extractionDifficulty": 34.5,
+            "processingDifficulty": 58.172,
+            "discoveryTier": 1,
+            "accessDepth": 13.584,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -1772,15 +2240,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-40-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-40-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 265804548.155,
+            "initialReserveU": 277425561.644,
             "gradeProbabilities": {
-              "low": 0.3041624361502896,
-              "medium": 0.6740438334182318,
-              "high": 0.021793730431478635
+              "low": 0.3233281625204383,
+              "medium": 0.6546532329605796,
+              "high": 0.02201860451898211
             },
             "extractionDifficulty": 18.649,
             "processingDifficulty": 28.715,
@@ -1807,15 +2275,15 @@
         },
         "deposits": [
           {
-            "depositId": "r1-sol-europa-7c56020e-surface-41-0",
-            "groupId": "g1-sol-europa-7c56020e-surface-0",
+            "depositId": "r2-sol-europa-76e8715d-surface-41-0",
+            "groupId": "g2-sol-europa-76e8715d-surface-0",
             "resourceId": "ore",
             "depositKind": "surface",
-            "initialReserveU": 199185791.411,
+            "initialReserveU": 238760764.444,
             "gradeProbabilities": {
-              "low": 0.30781379865882497,
-              "medium": 0.6771018524006422,
-              "high": 0.015084348940532817
+              "low": 0.3344892863556211,
+              "medium": 0.6555567679190881,
+              "high": 0.009953945725290831
             },
             "extractionDifficulty": 14.953,
             "processingDifficulty": 45.94,
@@ -1825,20 +2293,20 @@
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           },
           {
-            "depositId": "r1-sol-europa-7c56020e-deep-41-0",
-            "groupId": "g1-sol-europa-7c56020e-deep-0",
+            "depositId": "r2-sol-europa-76e8715d-vein-41-1",
+            "groupId": "g2-sol-europa-76e8715d-vein-1",
             "resourceId": "ore",
-            "depositKind": "deep",
-            "initialReserveU": 245009396.819,
+            "depositKind": "vein",
+            "initialReserveU": 292315403.626,
             "gradeProbabilities": {
-              "low": 0.04512166891603583,
-              "medium": 0.703553263403403,
-              "high": 0.25132506768056123
+              "low": 0.27092757719021054,
+              "medium": 0.5892673126517625,
+              "high": 0.13980511015802702
             },
-            "extractionDifficulty": 61.453,
+            "extractionDifficulty": 42.99,
             "processingDifficulty": 45.94,
-            "discoveryTier": 3,
-            "accessDepth": 97.187,
+            "discoveryTier": 1,
+            "accessDepth": 33.312,
             "compositionTags": [],
             "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
           }
@@ -2297,12 +2765,120 @@
         "high": 0.25122637895401567
       }
     },
-    "jitter": 0.04,
     "certainty": "provisional",
     "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
     "worldSeed": "sol:europa:resources:v1",
-    "generatorVersion": 1,
-    "budgetPolicy": "procedural"
+    "generatorVersion": 2,
+    "budgetPolicy": "procedural",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 42,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.014131305604241789
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.2551148879225366,
+            "max": 0.3377998553128983,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.6341336397043882,
+            "max": 0.7302551558358661,
+            "actualMaxDeviation": 0.054211784564058396
+          },
+          "high": {
+            "min": 0.005223081022638203,
+            "max": 0.03297304640989751,
+            "actualMaxDeviation": 0.014131305604241792
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 27,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.23949527235875417,
+            "max": 0.32736878525465724,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.47124250384876315,
+            "max": 0.6235253739217225,
+            "actualMaxDeviation": 0.07940797418924234
+          },
+          "high": {
+            "min": 0.13340077499266123,
+            "max": 0.22198073670733723,
+            "actualMaxDeviation": 0.05000000000000002
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 19,
+        "amplitudes": {
+          "low": 0.03323331102670636,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.011077770342235449,
+            "max": 0.07004675036096222,
+            "actualMaxDeviation": 0.03323331102670636
+          },
+          "medium": {
+            "min": 0.6496252054282252,
+            "max": 0.7433468290322092,
+            "actualMaxDeviation": 0.054837334248817315
+          },
+          "high": {
+            "min": 0.20647000877599,
+            "max": 0.30122637895401566,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 42,
+      "requiredCoverage": 11,
+      "veinCells": 27,
+      "groupCount": 6,
+      "minimumGroupCells": 3,
+      "exceptions": [],
+      "nominalCellCapQuanta": 1305210441229,
+      "maxCellFraction": 0.08464718310353561,
+      "maxGroupFraction": 0.2865845509103798
+    }
   },
   "hydrogenSources": [
     {
@@ -2332,6 +2908,6 @@
   "migration": {
     "migrationVersion": 1,
     "fromSchemaVersion": 1,
-    "notes": "v1 기본 구조에서 v2로 이관 후 승인된 자원 배분 적용. 지구 시나리오/지형/환경 보존, ore ID·양은 공식 설정대로 재구성."
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
   }
 }
