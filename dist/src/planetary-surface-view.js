@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { SURFACE_RADIUS, pickSurfaceTile, normalize, add, mul } from './planetary-surface-grid.js';
+import { FACILITY_MAP_COLORS } from './surface-distribution-model.js';
 const V=p=>new THREE.Vector3(p.x,p.y,p.z);
 const geometry=positions=>new THREE.BufferGeometry().setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
 export class PlanetarySurfaceView {
@@ -15,12 +16,14 @@ export class PlanetarySurfaceView {
  setSelected(id){this.selectedId=id;const tile=this.grid.byId.get(id),positions=[],triangles=[];if(tile){for(let i=0;i<tile.boundary.length;i++){const a=tile.boundary[i],b=tile.boundary[(i+1)%tile.boundary.length];this.edge(positions,a,b);this.triangle(triangles,tile.center,a,b,3);}}
   this.highlight.geometry.dispose();this.fill.geometry.dispose();this.highlight.geometry=geometry(positions);this.fill.geometry=geometry(triangles);
  }
- setAuthoringColors(colors){
+ setAuthoringColors(colors,{opacity=.72}={}){
   if(!colors){if(this.authoring){this.authoring.geometry.dispose();this.authoring.material.dispose();this.authoring.removeFromParent();this.authoring=null;}return;}
   if(!this.authoring){const positions=[];this.authoringSpans=[];for(const tile of this.grid.tiles){const start=positions.length;for(let i=0;i<tile.boundary.length;i++)this.triangle(positions,tile.center,tile.boundary[i],tile.boundary[(i+1)%tile.boundary.length],2);this.authoringSpans.push({id:tile.id,start,count:positions.length-start});}
    const g=geometry(positions);g.setAttribute('color',new THREE.Float32BufferAttribute(new Float32Array(positions.length),3));this.authoring=new THREE.Mesh(g,new THREE.MeshBasicMaterial({vertexColors:true,transparent:true,opacity:.72,depthWrite:false,side:THREE.FrontSide,polygonOffset:true,polygonOffsetFactor:1,polygonOffsetUnits:1}));this.authoring.name='surface-authoring-colors';this.root.add(this.authoring);}
+  this.authoring.material.opacity=opacity;this.authoring.renderOrder=1;this.lines.renderOrder=2;this.fill.renderOrder=3;this.highlight.renderOrder=4;
   const attribute=this.authoring.geometry.getAttribute('color'),rgb=attribute.array;for(const span of this.authoringSpans){const color=new THREE.Color(colors.get(span.id));for(let i=span.start;i<span.start+span.count;i+=3){rgb[i]=color.r;rgb[i+1]=color.g;rgb[i+2]=color.b;}}attribute.needsUpdate=true;
  }
+ setFacilityOutlines(tiles){if(this.facilityLines){this.facilityLines.geometry.dispose();this.facilityLines.material.dispose();this.facilityLines.removeFromParent();this.facilityLines=null;}if(!tiles?.size)return;const positions=[],colors=[];for(const [id,facilities]of tiles){const tile=this.grid.byId.get(id);if(!tile)continue;const status=['construction','active','rampup','stopped'].find(s=>facilities.some(f=>f.status===s)),color=new THREE.Color(FACILITY_MAP_COLORS[status]),start=positions.length;for(let i=0;i<tile.boundary.length;i++)this.edge(positions,tile.boundary[i],tile.boundary[(i+1)%tile.boundary.length]);for(let i=start;i<positions.length;i+=3)colors.push(color.r,color.g,color.b);}const g=geometry(positions);g.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));const m=this.material('#ffffff',1);m.vertexColors=true;this.facilityLines=new THREE.LineSegments(g,m);this.facilityLines.renderOrder=3;this.root.add(this.facilityLines);}
  setAuthoringConnections(pairs){if(this.connections){this.connections.geometry.dispose();this.connections.material.dispose();this.connections.removeFromParent();this.connections=null;}if(!pairs)return;const points=[];for(const [a,b]of pairs)this.edge(points,a,b);this.connections=new THREE.LineSegments(geometry(points),this.material('#bcf7dd',.95));this.root.add(this.connections);}
  triangle(positions,a,b,c,depth){if(depth){const ab=normalize(add(a,b)),bc=normalize(add(b,c)),ca=normalize(add(c,a));for(const t of [[a,ab,ca],[ab,b,bc],[ca,bc,c],[ab,bc,ca]])this.triangle(positions,...t,depth-1);}else for(const p of[a,b,c])positions.push(p.x*SURFACE_RADIUS,p.y*SURFACE_RADIUS,p.z*SURFACE_RADIUS);}
  pick(ray){if(this.fade<.05)return null;const inverse=new THREE.Matrix4().copy(this.entry.spin.matrixWorld).invert(),local=ray.clone().applyMatrix4(inverse);return pickSurfaceTile(this.grid,local.origin,local.direction);}

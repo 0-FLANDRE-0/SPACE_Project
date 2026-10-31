@@ -1,0 +1,937 @@
+{
+  "beforeSignature": "8d236561",
+  "afterSignature": "52cbc980",
+  "totalPersons": 8893000000,
+  "sourcePopulationPersons": 8191988536.304918,
+  "zeroCells": 19,
+  "oldPopulationWeightedUrbanization": 0.7500000949902788,
+  "newPopulationWeightedUrbanization": 0.5129369047122847,
+  "mappingStatistics": {
+    "positivePixels": 30434204,
+    "fallbackPixels": 0,
+    "boundaryTiePixels": 0,
+    "antimeridianEdgeCentresClipped": 5
+  },
+  "tiles": [
+    {
+      "id": "sol:earth:surface:00000",
+      "latitudeDegrees": 69.09484255211069,
+      "longitudeDegrees": -90,
+      "weightPersons": 84270.32055900984,
+      "positivePixels": 248303,
+      "beforePersons": 53830383,
+      "afterPersons": 91482,
+      "changePersons": -53738901
+    },
+    {
+      "id": "sol:earth:surface:00001",
+      "latitudeDegrees": 69.09484255211069,
+      "longitudeDegrees": 90,
+      "weightPersons": 3249695.1802778933,
+      "positivePixels": 35458,
+      "beforePersons": 90142390,
+      "afterPersons": 3527781,
+      "changePersons": -86614609
+    },
+    {
+      "id": "sol:earth:surface:00002",
+      "latitudeDegrees": 78.35927686322945,
+      "longitudeDegrees": 0,
+      "weightPersons": 340874.69871742796,
+      "positivePixels": 63384,
+      "beforePersons": 11190732,
+      "afterPersons": 370044,
+      "changePersons": -10820688
+    },
+    {
+      "id": "sol:earth:surface:00003",
+      "latitudeDegrees": 35.264389682754654,
+      "longitudeDegrees": -135,
+      "weightPersons": 18335116.76780107,
+      "positivePixels": 89801,
+      "beforePersons": 616185,
+      "afterPersons": 19904104,
+      "changePersons": 19287919
+    },
+    {
+      "id": "sol:earth:surface:00004",
+      "latitudeDegrees": 46.888538069123776,
+      "longitudeDegrees": -107.17203785051386,
+      "weightPersons": 54698247.67617834,
+      "positivePixels": 1096438,
+      "beforePersons": 305766009,
+      "afterPersons": 59378930,
+      "changePersons": -246387079
+    },
+    {
+      "id": "sol:earth:surface:00005",
+      "latitudeDegrees": 35.264389682754654,
+      "longitudeDegrees": 135,
+      "weightPersons": 341199703.4106371,
+      "positivePixels": 682467,
+      "beforePersons": 11669815,
+      "afterPersons": 370397120,
+      "changePersons": 358727305
+    },
+    {
+      "id": "sol:earth:surface:00006",
+      "latitudeDegrees": 46.888538069123776,
+      "longitudeDegrees": 107.17203785051386,
+      "weightPersons": 288207140.91784227,
+      "positivePixels": 749425,
+      "beforePersons": 184773824,
+      "afterPersons": 312869835,
+      "changePersons": 128096011
+    },
+    {
+      "id": "sol:earth:surface:00007",
+      "latitudeDegrees": 20.905157447889295,
+      "longitudeDegrees": -180,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00008",
+      "latitudeDegrees": 19.055104554857966,
+      "longitudeDegrees": 154.72631941395963,
+      "weightPersons": 226053.26328082694,
+      "positivePixels": 638,
+      "beforePersons": 55,
+      "afterPersons": 245397,
+      "changePersons": 245342
+    },
+    {
+      "id": "sol:earth:surface:00009",
+      "latitudeDegrees": 19.055104554857966,
+      "longitudeDegrees": -154.72631941395963,
+      "weightPersons": 1563668.6381484726,
+      "positivePixels": 4863,
+      "beforePersons": 1766,
+      "afterPersons": 1697476,
+      "changePersons": 1695710
+    },
+    {
+      "id": "sol:earth:surface:00010",
+      "latitudeDegrees": 78.35927686322945,
+      "longitudeDegrees": -180,
+      "weightPersons": 35142.28601466939,
+      "positivePixels": 1608,
+      "beforePersons": 1179621,
+      "afterPersons": 38150,
+      "changePersons": -1141471
+    },
+    {
+      "id": "sol:earth:surface:00011",
+      "latitudeDegrees": 58.72978997395134,
+      "longitudeDegrees": -141.02655266313434,
+      "weightPersons": 1174813.2078761512,
+      "positivePixels": 186138,
+      "beforePersons": 56642191,
+      "afterPersons": 1275345,
+      "changePersons": -55366846
+    },
+    {
+      "id": "sol:earth:surface:00012",
+      "latitudeDegrees": 58.72978997395134,
+      "longitudeDegrees": 141.02655266313434,
+      "weightPersons": 5509334.7247119965,
+      "positivePixels": 55451,
+      "beforePersons": 85851674,
+      "afterPersons": 5980784,
+      "changePersons": -79870890
+    },
+    {
+      "id": "sol:earth:surface:00013",
+      "latitudeDegrees": 40.76474760036151,
+      "longitudeDegrees": 164.54956291367418,
+      "weightPersons": 8596.63633136265,
+      "positivePixels": 184,
+      "beforePersons": 872,
+      "afterPersons": 9332,
+      "changePersons": 8460
+    },
+    {
+      "id": "sol:earth:surface:00014",
+      "latitudeDegrees": 40.76474760036151,
+      "longitudeDegrees": -164.54956291367418,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00015",
+      "latitudeDegrees": 58.282525588538995,
+      "longitudeDegrees": -180,
+      "weightPersons": 102597.29490446235,
+      "positivePixels": 5046,
+      "beforePersons": 7112675,
+      "afterPersons": 111377,
+      "changePersons": -7001298
+    },
+    {
+      "id": "sol:earth:surface:00016",
+      "latitudeDegrees": 35.264389682754654,
+      "longitudeDegrees": -45,
+      "weightPersons": 143329.13665244076,
+      "positivePixels": 762,
+      "beforePersons": 51,
+      "afterPersons": 155594,
+      "changePersons": 155543
+    },
+    {
+      "id": "sol:earth:surface:00017",
+      "latitudeDegrees": 46.888538069123776,
+      "longitudeDegrees": -72.82796214948617,
+      "weightPersons": 120316912.88161892,
+      "positivePixels": 903912,
+      "beforePersons": 108921527,
+      "afterPersons": 130612769,
+      "changePersons": 21691242
+    },
+    {
+      "id": "sol:earth:surface:00018",
+      "latitudeDegrees": 35.264389682754654,
+      "longitudeDegrees": 45,
+      "weightPersons": 347598089.2363186,
+      "positivePixels": 853709,
+      "beforePersons": 348270877,
+      "afterPersons": 377343034,
+      "changePersons": 29072157
+    },
+    {
+      "id": "sol:earth:surface:00019",
+      "latitudeDegrees": 46.888538069123776,
+      "longitudeDegrees": 72.82796214948617,
+      "weightPersons": 128439727.69937783,
+      "positivePixels": 582828,
+      "beforePersons": 214391861,
+      "afterPersons": 139430676,
+      "changePersons": -74961185
+    },
+    {
+      "id": "sol:earth:surface:00020",
+      "latitudeDegrees": 20.905157447889295,
+      "longitudeDegrees": 0,
+      "weightPersons": 142436520.87077832,
+      "positivePixels": 930991,
+      "beforePersons": 1201330181,
+      "afterPersons": 154625214,
+      "changePersons": -1046704967
+    },
+    {
+      "id": "sol:earth:surface:00021",
+      "latitudeDegrees": 19.055104554857966,
+      "longitudeDegrees": 25.273680586040363,
+      "weightPersons": 144811359.29245415,
+      "positivePixels": 480738,
+      "beforePersons": 948719866,
+      "afterPersons": 157203274,
+      "changePersons": -791516592
+    },
+    {
+      "id": "sol:earth:surface:00022",
+      "latitudeDegrees": 19.055104554857966,
+      "longitudeDegrees": -25.273680586040363,
+      "weightPersons": 28201387.27682151,
+      "positivePixels": 128559,
+      "beforePersons": 8514324,
+      "afterPersons": 30614659,
+      "changePersons": 22100335
+    },
+    {
+      "id": "sol:earth:surface:00023",
+      "latitudeDegrees": 58.72978997395134,
+      "longitudeDegrees": -38.973447336865654,
+      "weightPersons": 404687.1850447097,
+      "positivePixels": 6370,
+      "beforePersons": 5833563,
+      "afterPersons": 439317,
+      "changePersons": -5394246
+    },
+    {
+      "id": "sol:earth:surface:00024",
+      "latitudeDegrees": 58.72978997395134,
+      "longitudeDegrees": 38.973447336865654,
+      "weightPersons": 148394906.68942115,
+      "positivePixels": 1035205,
+      "beforePersons": 224887608,
+      "afterPersons": 161093476,
+      "changePersons": -63794132
+    },
+    {
+      "id": "sol:earth:surface:00025",
+      "latitudeDegrees": 40.76474760036151,
+      "longitudeDegrees": 15.45043708632583,
+      "weightPersons": 359841213.2708666,
+      "positivePixels": 1772746,
+      "beforePersons": 288048997,
+      "afterPersons": 390633836,
+      "changePersons": 102584839
+    },
+    {
+      "id": "sol:earth:surface:00026",
+      "latitudeDegrees": 40.76474760036151,
+      "longitudeDegrees": -15.45043708632583,
+      "weightPersons": 91755253.01638591,
+      "positivePixels": 433107,
+      "beforePersons": 15435513,
+      "afterPersons": 99607008,
+      "changePersons": 84171495
+    },
+    {
+      "id": "sol:earth:surface:00027",
+      "latitudeDegrees": 58.282525588538995,
+      "longitudeDegrees": 0,
+      "weightPersons": 224943877.0240645,
+      "positivePixels": 968275,
+      "beforePersons": 38107184,
+      "afterPersons": 244192956,
+      "changePersons": 206085772
+    },
+    {
+      "id": "sol:earth:surface:00028",
+      "latitudeDegrees": -69.09484255211069,
+      "longitudeDegrees": -90,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 26285944,
+      "afterPersons": 0,
+      "changePersons": -26285944
+    },
+    {
+      "id": "sol:earth:surface:00029",
+      "latitudeDegrees": -69.09484255211069,
+      "longitudeDegrees": 90,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 85064218,
+      "afterPersons": 0,
+      "changePersons": -85064218
+    },
+    {
+      "id": "sol:earth:surface:00030",
+      "latitudeDegrees": -78.35927686322945,
+      "longitudeDegrees": 0,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 200245109,
+      "afterPersons": 0,
+      "changePersons": -200245109
+    },
+    {
+      "id": "sol:earth:surface:00031",
+      "latitudeDegrees": -35.264389682754654,
+      "longitudeDegrees": -135,
+      "weightPersons": 456.3808083459735,
+      "positivePixels": 21,
+      "beforePersons": 0,
+      "afterPersons": 495,
+      "changePersons": 495
+    },
+    {
+      "id": "sol:earth:surface:00032",
+      "latitudeDegrees": -46.888538069123776,
+      "longitudeDegrees": -107.17203785051386,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00033",
+      "latitudeDegrees": -35.264389682754654,
+      "longitudeDegrees": 135,
+      "weightPersons": 11055581.254020415,
+      "positivePixels": 253840,
+      "beforePersons": 50970311,
+      "afterPersons": 12001638,
+      "changePersons": -38968673
+    },
+    {
+      "id": "sol:earth:surface:00034",
+      "latitudeDegrees": -46.888538069123776,
+      "longitudeDegrees": 107.17203785051386,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00035",
+      "latitudeDegrees": -20.905157447889295,
+      "longitudeDegrees": -180,
+      "weightPersons": 1600854.0656736256,
+      "positivePixels": 12150,
+      "beforePersons": 9770,
+      "afterPersons": 1737844,
+      "changePersons": 1728074
+    },
+    {
+      "id": "sol:earth:surface:00036",
+      "latitudeDegrees": -19.055104554857966,
+      "longitudeDegrees": 154.72631941395963,
+      "weightPersons": 7451367.306188024,
+      "positivePixels": 156715,
+      "beforePersons": 11621995,
+      "afterPersons": 8089002,
+      "changePersons": -3532993
+    },
+    {
+      "id": "sol:earth:surface:00037",
+      "latitudeDegrees": -19.055104554857966,
+      "longitudeDegrees": -154.72631941395963,
+      "weightPersons": 316631.73137067625,
+      "positivePixels": 1508,
+      "beforePersons": 227,
+      "afterPersons": 343727,
+      "changePersons": 343500
+    },
+    {
+      "id": "sol:earth:surface:00038",
+      "latitudeDegrees": -78.35927686322945,
+      "longitudeDegrees": -180,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 132486081,
+      "afterPersons": 0,
+      "changePersons": -132486081
+    },
+    {
+      "id": "sol:earth:surface:00039",
+      "latitudeDegrees": -58.72978997395134,
+      "longitudeDegrees": -141.02655266313434,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00040",
+      "latitudeDegrees": -58.72978997395134,
+      "longitudeDegrees": 141.02655266313434,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 1936318,
+      "afterPersons": 0,
+      "changePersons": -1936318
+    },
+    {
+      "id": "sol:earth:surface:00041",
+      "latitudeDegrees": -40.76474760036151,
+      "longitudeDegrees": 164.54956291367418,
+      "weightPersons": 11868920.485868068,
+      "positivePixels": 96639,
+      "beforePersons": 1043648,
+      "afterPersons": 12884577,
+      "changePersons": 11840929
+    },
+    {
+      "id": "sol:earth:surface:00042",
+      "latitudeDegrees": -40.76474760036151,
+      "longitudeDegrees": -164.54956291367418,
+      "weightPersons": 638.382385159377,
+      "positivePixels": 106,
+      "beforePersons": 578,
+      "afterPersons": 693,
+      "changePersons": 115
+    },
+    {
+      "id": "sol:earth:surface:00043",
+      "latitudeDegrees": -58.282525588538995,
+      "longitudeDegrees": -180,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 34,
+      "afterPersons": 0,
+      "changePersons": -34
+    },
+    {
+      "id": "sol:earth:surface:00044",
+      "latitudeDegrees": -35.264389682754654,
+      "longitudeDegrees": -45,
+      "weightPersons": 75656269.82554361,
+      "positivePixels": 466391,
+      "beforePersons": 18809156,
+      "afterPersons": 82130389,
+      "changePersons": 63321233
+    },
+    {
+      "id": "sol:earth:surface:00045",
+      "latitudeDegrees": -46.888538069123776,
+      "longitudeDegrees": -72.82796214948617,
+      "weightPersons": 9960072.699599719,
+      "positivePixels": 144084,
+      "beforePersons": 50987146,
+      "afterPersons": 10812384,
+      "changePersons": -40174762
+    },
+    {
+      "id": "sol:earth:surface:00046",
+      "latitudeDegrees": -35.264389682754654,
+      "longitudeDegrees": 45,
+      "weightPersons": 3747594.6798523935,
+      "positivePixels": 37190,
+      "beforePersons": 72917,
+      "afterPersons": 4068287,
+      "changePersons": 3995370
+    },
+    {
+      "id": "sol:earth:surface:00047",
+      "latitudeDegrees": -46.888538069123776,
+      "longitudeDegrees": 72.82796214948617,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 307,
+      "afterPersons": 0,
+      "changePersons": -307
+    },
+    {
+      "id": "sol:earth:surface:00048",
+      "latitudeDegrees": -20.905157447889295,
+      "longitudeDegrees": 0,
+      "weightPersons": 615523.3237042893,
+      "positivePixels": 1323,
+      "beforePersons": 10114,
+      "afterPersons": 668195,
+      "changePersons": 658081
+    },
+    {
+      "id": "sol:earth:surface:00049",
+      "latitudeDegrees": -19.055104554857966,
+      "longitudeDegrees": 25.273680586040363,
+      "weightPersons": 170728324.67102617,
+      "positivePixels": 1521530,
+      "beforePersons": 433206567,
+      "afterPersons": 185338027,
+      "changePersons": -247868540
+    },
+    {
+      "id": "sol:earth:surface:00050",
+      "latitudeDegrees": -19.055104554857966,
+      "longitudeDegrees": -25.273680586040363,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00051",
+      "latitudeDegrees": -58.72978997395134,
+      "longitudeDegrees": -38.973447336865654,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 7824,
+      "afterPersons": 0,
+      "changePersons": -7824
+    },
+    {
+      "id": "sol:earth:surface:00052",
+      "latitudeDegrees": -58.72978997395134,
+      "longitudeDegrees": 38.973447336865654,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 1334208,
+      "afterPersons": 0,
+      "changePersons": -1334208
+    },
+    {
+      "id": "sol:earth:surface:00053",
+      "latitudeDegrees": -40.76474760036151,
+      "longitudeDegrees": 15.45043708632583,
+      "weightPersons": 11727761.202040402,
+      "positivePixels": 93031,
+      "beforePersons": 2174409,
+      "afterPersons": 12731339,
+      "changePersons": 10556930
+    },
+    {
+      "id": "sol:earth:surface:00054",
+      "latitudeDegrees": -40.76474760036151,
+      "longitudeDegrees": -15.45043708632583,
+      "weightPersons": 354.47832426801324,
+      "positivePixels": 3,
+      "beforePersons": 0,
+      "afterPersons": 385,
+      "changePersons": 385
+    },
+    {
+      "id": "sol:earth:surface:00055",
+      "latitudeDegrees": -58.282525588538995,
+      "longitudeDegrees": 0,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00056",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": -69.0948425521107,
+      "weightPersons": 117281727.75870647,
+      "positivePixels": 809572,
+      "beforePersons": 772778016,
+      "afterPersons": 127317855,
+      "changePersons": -645460161
+    },
+    {
+      "id": "sol:earth:surface:00057",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": -110.9051574478893,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00058",
+      "latitudeDegrees": 11.640723136770607,
+      "longitudeDegrees": -90,
+      "weightPersons": 106491378.03385168,
+      "positivePixels": 454266,
+      "beforePersons": 31067044,
+      "afterPersons": 115604144,
+      "changePersons": 84537100
+    },
+    {
+      "id": "sol:earth:surface:00059",
+      "latitudeDegrees": -11.640723136770607,
+      "longitudeDegrees": -48.189685104221404,
+      "weightPersons": 131990853.72749245,
+      "positivePixels": 1593143,
+      "beforePersons": 606050808,
+      "afterPersons": 143285682,
+      "changePersons": -462765126
+    },
+    {
+      "id": "sol:earth:surface:00060",
+      "latitudeDegrees": -11.640723136770607,
+      "longitudeDegrees": -131.81031489577862,
+      "weightPersons": 13283.215167925151,
+      "positivePixels": 295,
+      "beforePersons": 0,
+      "afterPersons": 14420,
+      "changePersons": 14420
+    },
+    {
+      "id": "sol:earth:surface:00061",
+      "latitudeDegrees": -11.640723136770607,
+      "longitudeDegrees": -90,
+      "weightPersons": 18543139.69530879,
+      "positivePixels": 32502,
+      "beforePersons": 792878,
+      "afterPersons": 20129928,
+      "changePersons": 19337050
+    },
+    {
+      "id": "sol:earth:surface:00062",
+      "latitudeDegrees": -23.80018260217505,
+      "longitudeDegrees": -69.0948425521107,
+      "weightPersons": 62224212.95040715,
+      "positivePixels": 623688,
+      "beforePersons": 440502540,
+      "afterPersons": 67548914,
+      "changePersons": -372953626
+    },
+    {
+      "id": "sol:earth:surface:00063",
+      "latitudeDegrees": -23.80018260217505,
+      "longitudeDegrees": -110.9051574478893,
+      "weightPersons": 7274.573434129357,
+      "positivePixels": 45,
+      "beforePersons": 0,
+      "afterPersons": 7897,
+      "changePersons": 7897
+    },
+    {
+      "id": "sol:earth:surface:00064",
+      "latitudeDegrees": -31.717474411461005,
+      "longitudeDegrees": -90,
+      "weightPersons": 989.9190843366086,
+      "positivePixels": 10,
+      "beforePersons": 0,
+      "afterPersons": 1075,
+      "changePersons": 1075
+    },
+    {
+      "id": "sol:earth:surface:00065",
+      "latitudeDegrees": 11.640723136770607,
+      "longitudeDegrees": -48.189685104221404,
+      "weightPersons": 3660111.9152507004,
+      "positivePixels": 21220,
+      "beforePersons": 4087654,
+      "afterPersons": 3973318,
+      "changePersons": -114336
+    },
+    {
+      "id": "sol:earth:surface:00066",
+      "latitudeDegrees": 11.640723136770607,
+      "longitudeDegrees": -131.81031489577862,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00067",
+      "latitudeDegrees": 23.80018260217505,
+      "longitudeDegrees": -69.0948425521107,
+      "weightPersons": 41191076.89387096,
+      "positivePixels": 97084,
+      "beforePersons": 764382,
+      "afterPersons": 44715913,
+      "changePersons": 43951531
+    },
+    {
+      "id": "sol:earth:surface:00068",
+      "latitudeDegrees": 23.80018260217505,
+      "longitudeDegrees": -110.9051574478893,
+      "weightPersons": 106707056.40422896,
+      "positivePixels": 434269,
+      "beforePersons": 102596433,
+      "afterPersons": 115838279,
+      "changePersons": 13241846
+    },
+    {
+      "id": "sol:earth:surface:00069",
+      "latitudeDegrees": 31.717474411461005,
+      "longitudeDegrees": -90,
+      "weightPersons": 159339852.20835087,
+      "positivePixels": 1898745,
+      "beforePersons": 156709968,
+      "afterPersons": 172975011,
+      "changePersons": 16265043
+    },
+    {
+      "id": "sol:earth:surface:00070",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": 69.0948425521107,
+      "weightPersons": 47516522.180628724,
+      "positivePixels": 31575,
+      "beforePersons": 12344,
+      "afterPersons": 51582644,
+      "changePersons": 51570300
+    },
+    {
+      "id": "sol:earth:surface:00071",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": 110.9051574478893,
+      "weightPersons": 341871404.29139864,
+      "positivePixels": 599258,
+      "beforePersons": 24286886,
+      "afterPersons": 371126300,
+      "changePersons": 346839414
+    },
+    {
+      "id": "sol:earth:surface:00072",
+      "latitudeDegrees": 11.640723136770607,
+      "longitudeDegrees": 90,
+      "weightPersons": 338495264.3745213,
+      "positivePixels": 707096,
+      "beforePersons": 13520107,
+      "afterPersons": 367461255,
+      "changePersons": 353941148
+    },
+    {
+      "id": "sol:earth:surface:00073",
+      "latitudeDegrees": -11.640723136770607,
+      "longitudeDegrees": 48.189685104221404,
+      "weightPersons": 53135721.86952336,
+      "positivePixels": 398904,
+      "beforePersons": 10738518,
+      "afterPersons": 57682695,
+      "changePersons": 46944177
+    },
+    {
+      "id": "sol:earth:surface:00074",
+      "latitudeDegrees": -11.640723136770607,
+      "longitudeDegrees": 131.81031489577862,
+      "weightPersons": 18490635.16461225,
+      "positivePixels": 70118,
+      "beforePersons": 42780376,
+      "afterPersons": 20072931,
+      "changePersons": -22707445
+    },
+    {
+      "id": "sol:earth:surface:00075",
+      "latitudeDegrees": -11.640723136770607,
+      "longitudeDegrees": 90,
+      "weightPersons": 520.3957694452256,
+      "positivePixels": 16,
+      "beforePersons": 0,
+      "afterPersons": 565,
+      "changePersons": 565
+    },
+    {
+      "id": "sol:earth:surface:00076",
+      "latitudeDegrees": -23.80018260217505,
+      "longitudeDegrees": 69.0948425521107,
+      "weightPersons": 1302940.6266340157,
+      "positivePixels": 1741,
+      "beforePersons": 69,
+      "afterPersons": 1414437,
+      "changePersons": 1414368
+    },
+    {
+      "id": "sol:earth:surface:00077",
+      "latitudeDegrees": -23.80018260217505,
+      "longitudeDegrees": 110.9051574478893,
+      "weightPersons": 2760360.0021987585,
+      "positivePixels": 63976,
+      "beforePersons": 11245588,
+      "afterPersons": 2996572,
+      "changePersons": -8249016
+    },
+    {
+      "id": "sol:earth:surface:00078",
+      "latitudeDegrees": -31.717474411461005,
+      "longitudeDegrees": 90,
+      "weightPersons": 0,
+      "positivePixels": 0,
+      "beforePersons": 0,
+      "afterPersons": 0,
+      "changePersons": 0
+    },
+    {
+      "id": "sol:earth:surface:00079",
+      "latitudeDegrees": 11.640723136770607,
+      "longitudeDegrees": 48.189685104221404,
+      "weightPersons": 156038126.4044991,
+      "positivePixels": 636834,
+      "beforePersons": 145881084,
+      "afterPersons": 169390747,
+      "changePersons": 23509663
+    },
+    {
+      "id": "sol:earth:surface:00080",
+      "latitudeDegrees": 11.640723136770607,
+      "longitudeDegrees": 131.81031489577862,
+      "weightPersons": 116149274.77615942,
+      "positivePixels": 171377,
+      "beforePersons": 717677,
+      "afterPersons": 126088494,
+      "changePersons": 125370817
+    },
+    {
+      "id": "sol:earth:surface:00081",
+      "latitudeDegrees": 23.80018260217505,
+      "longitudeDegrees": 69.0948425521107,
+      "weightPersons": 970622892.1058055,
+      "positivePixels": 1735737,
+      "beforePersons": 110178199,
+      "afterPersons": 1053681819,
+      "changePersons": 943503620
+    },
+    {
+      "id": "sol:earth:surface:00082",
+      "latitudeDegrees": 23.80018260217505,
+      "longitudeDegrees": 110.9051574478893,
+      "weightPersons": 1096058405.113673,
+      "positivePixels": 2037231,
+      "beforePersons": 122016993,
+      "afterPersons": 1189851201,
+      "changePersons": 1067834208
+    },
+    {
+      "id": "sol:earth:surface:00083",
+      "latitudeDegrees": 31.717474411461005,
+      "longitudeDegrees": 90,
+      "weightPersons": 770356855.8099782,
+      "positivePixels": 963384,
+      "beforePersons": 176784223,
+      "afterPersons": 836278455,
+      "changePersons": 659494232
+    },
+    {
+      "id": "sol:earth:surface:00084",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": -11.640723136770605,
+      "weightPersons": 87069007.56554516,
+      "positivePixels": 434282,
+      "beforePersons": 18945508,
+      "afterPersons": 94519747,
+      "changePersons": 75574239
+    },
+    {
+      "id": "sol:earth:surface:00085",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": 11.640723136770605,
+      "weightPersons": 322969510.69594085,
+      "positivePixels": 963419,
+      "beforePersons": 312461032,
+      "afterPersons": 350606919,
+      "changePersons": 38145887
+    },
+    {
+      "id": "sol:earth:surface:00086",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": 31.717474411461005,
+      "weightPersons": 323076873.3475912,
+      "positivePixels": 1318456,
+      "beforePersons": 555973520,
+      "afterPersons": 350723469,
+      "changePersons": -205250051
+    },
+    {
+      "id": "sol:earth:surface:00087",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": -31.717474411461005,
+      "weightPersons": 28521830.47771018,
+      "positivePixels": 172791,
+      "beforePersons": 2066815,
+      "afterPersons": 30962524,
+      "changePersons": 28895709
+    },
+    {
+      "id": "sol:earth:surface:00088",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": -168.35927686322938,
+      "weightPersons": 7161.64124905318,
+      "positivePixels": 49,
+      "beforePersons": 87,
+      "afterPersons": 7774,
+      "changePersons": 7687
+    },
+    {
+      "id": "sol:earth:surface:00089",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": 168.35927686322938,
+      "weightPersons": 344342.1808331455,
+      "positivePixels": 2448,
+      "beforePersons": 551,
+      "afterPersons": 373808,
+      "changePersons": 373257
+    },
+    {
+      "id": "sol:earth:surface:00090",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": 148.282525588539,
+      "weightPersons": 12989997.63626286,
+      "positivePixels": 59721,
+      "beforePersons": 2533868,
+      "afterPersons": 14101588,
+      "changePersons": 11567720
+    },
+    {
+      "id": "sol:earth:surface:00091",
+      "latitudeDegrees": 0,
+      "longitudeDegrees": -148.282525588539,
+      "weightPersons": 7063.259739041328,
+      "positivePixels": 15,
+      "beforePersons": 207,
+      "afterPersons": 7668,
+      "changePersons": 7461
+    }
+  ]
+}
