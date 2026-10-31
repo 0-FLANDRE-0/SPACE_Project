@@ -1,3 +1,4 @@
+import { refreshAlternativeResourceConfiguration } from './resource-contract.js';
 import { clone, resolvedSurfaceCell, validateSurfaceTemplate } from './planetary-surface-model.js';
 import { allocateInteger, resourceQuanta, generatedDeposit, applyUrbanization, populationTarget } from './planetary-data-generator.js';
 export const GENERATION_FIELDS=['terrain','environment','deposits','population','urbanization'];
@@ -37,6 +38,7 @@ export function planSurfaceGeneration({template,draft,scope='all',selectedIds=[]
   for(const id of ids){if(!available.includes(id)){protectedValues++;continue;}const value=shares.get(id);record(id,'scenario.populationPersons',before.get(id).scenario.populationPersons,value);next.startingScenario.cells[id].populationPersons=value;}
  }
  if(fields.includes('urbanization')){const proposed=clone(next);applyUrbanization(proposed,draft,ids);for(const id of ids)for(const key of ['urbanizationRate','infrastructureLevel'])write(id,next.startingScenario.cells[id],key,proposed.startingScenario.cells[id][key],'scenario.'+key);}
+ if(next.schemaVersion===2&&changes.some(c=>c.path==='deposits'))refreshAlternativeResourceConfiguration(next);
  validateSurfaceTemplate(next,grid,body);
  // Do not materialize untouched sparse cells just because they were previewed.
  for(const id of ids){if(!template.geology.cells[id]&&equal(next.geology.cells[id],before.get(id).geology))delete next.geology.cells[id];if(!template.startingScenario.cells[id]&&equal(next.startingScenario.cells[id],before.get(id).scenario))delete next.startingScenario.cells[id];}

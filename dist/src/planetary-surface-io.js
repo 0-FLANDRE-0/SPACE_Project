@@ -1,3 +1,4 @@
+import { refreshAlternativeResourceConfiguration } from './resource-contract.js';
 import { clone, createSurfaceTemplate, resolvedSurfaceCell, validateSurfaceTemplate } from './planetary-surface-model.js';
 export const surfaceStorageKey=grid=>`space-project:surface:v1:${encodeURIComponent(grid.systemId)}:${encodeURIComponent(grid.bodyId)}`;
 // Strict parser preserves the distinction between duplicate IDs and last-key wins.
@@ -19,9 +20,9 @@ export class SurfaceDrafts {
   try{const raw=this.storage?.getItem(key);if(raw){template=importSurfaceJSON(raw,grid,body);source='유효한 로컬 초안 (정적 프리셋보다 우선)';}}catch(error){blocked=true;this.onWarning('로컬 표면 원본을 보존합니다. 현재 탭 편집은 내보내기로 백업하세요: '+error.message);}
   const entry={key,grid,body,template,previous:null,blocked,source,saveError:null};this.entries.set(key,entry);return entry;
  }
- persist(entry,explicitReplacement=false){try{if(entry.blocked&&!explicitReplacement)throw Error('손상/구버전 원본 보존 중');if(!this.storage)throw Error('브라우저 저장소 사용 불가');if(explicitReplacement){const raw=this.storage.getItem(entry.key);if(raw)this.storage.setItem(entry.key+':backup',raw);}this.storage.setItem(entry.key,JSON.stringify(entry.template));entry.blocked=false;entry.saveError=null;return true;}catch(error){entry.saveError=error.message;this.onWarning('표면 편집은 메모리에만 유지됩니다. JSON으로 백업하세요: '+error.message);return false;}}
+ persist(entry,explicitReplacement=false){try{if(entry.blocked&&!explicitReplacement)throw Error('손상/구버전 원본 보존 중');if(!this.storage)throw Error('브라우저 저장소 사용 불가');if(explicitReplacement){const raw=this.storage.getItem(entry.key),backup=raw??(entry.previous?JSON.stringify(entry.previous):null);if(backup)this.storage.setItem(entry.key+':backup',backup);}this.storage.setItem(entry.key,JSON.stringify(entry.template));entry.blocked=false;entry.saveError=null;return true;}catch(error){entry.saveError=error.message;this.onWarning('표면 편집은 메모리에만 유지됩니다. JSON으로 백업하세요: '+error.message);return false;}}
  commit(entry,next,{replace=false}={}){validateSurfaceTemplate(next,entry.grid,entry.body);entry.previous=clone(entry.template);entry.template=clone(next);entry.source='현재 작성/편집 초안';return this.persist(entry,replace);}
- applyCell(entry,id,geology,scenario){const next=clone(entry.template);next.geology.cells[id]=clone(geology);next.startingScenario.cells[id]=clone(scenario);return this.commit(entry,next);}
+ applyCell(entry,id,geology,scenario){const next=clone(entry.template);next.geology.cells[id]=clone(geology);next.startingScenario.cells[id]=clone(scenario);if(JSON.stringify(entry.template.geology.cells[id]?.deposits??null)!==JSON.stringify(geology.deposits))refreshAlternativeResourceConfiguration(next);return this.commit(entry,next);}
  undo(entry){if(!entry.previous)throw Error('되돌릴 표면 적용이 없습니다.');const previous=entry.previous;validateSurfaceTemplate(previous,entry.grid,entry.body);entry.template=clone(previous);entry.previous=null;return this.persist(entry);}
  cell(entry,id){return resolvedSurfaceCell(entry.template,entry.grid,entry.body,id);}
  export(entry){validateSurfaceTemplate(entry.template,entry.grid,entry.body);return JSON.stringify(entry.template,null,2);}

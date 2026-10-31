@@ -1,0 +1,2692 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "deimos",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "2c26c450"
+  },
+  "geology": {
+    "cells": {
+      "sol:deimos:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.114111,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-0-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 12942.395,
+            "gradeProbabilities": {
+              "low": 0.25659695346248645,
+              "medium": 0.7024229621918611,
+              "high": 0.04098008434565252
+            },
+            "extractionDifficulty": 26.948,
+            "processingDifficulty": 27.724,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-0-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 4646.366,
+            "gradeProbabilities": {
+              "low": 0.13658352603839358,
+              "medium": 0.170904598496615,
+              "high": 0.6925118754649914
+            },
+            "extractionDifficulty": 72.996,
+            "processingDifficulty": 27.724,
+            "discoveryTier": 3,
+            "accessDepth": 83.527,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.119957,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-1-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 10139.741,
+            "gradeProbabilities": {
+              "low": 0.2584146968743129,
+              "medium": 0.6313645749807564,
+              "high": 0.11022072814493084
+            },
+            "extractionDifficulty": 31.428,
+            "processingDifficulty": 35.948,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138068,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-2-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5693.076,
+            "gradeProbabilities": {
+              "low": 0.2856588534214133,
+              "medium": 0.6739734135441795,
+              "high": 0.04036773303440724
+            },
+            "extractionDifficulty": 31.167,
+            "processingDifficulty": 56.273,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138251,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-3-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3897.463,
+            "gradeProbabilities": {
+              "low": 0.2523374854484251,
+              "medium": 0.7012014505466184,
+              "high": 0.04646106400495654
+            },
+            "extractionDifficulty": 11.341,
+            "processingDifficulty": 57.704,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.163589,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-4-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6047.383,
+            "gradeProbabilities": {
+              "low": 0.23858059447958951,
+              "medium": 0.64911691804279,
+              "high": 0.11230248747762037
+            },
+            "extractionDifficulty": 23.059,
+            "processingDifficulty": 44.821,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-4-1",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3565.03,
+            "gradeProbabilities": {
+              "low": 0.41814346271223235,
+              "medium": 0.3405023942908205,
+              "high": 0.2413541429969471
+            },
+            "extractionDifficulty": 30.963,
+            "processingDifficulty": 44.821,
+            "discoveryTier": 1,
+            "accessDepth": 6.885,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.149782,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-5-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3026.296,
+            "gradeProbabilities": {
+              "low": 0.3088648569209455,
+              "medium": 0.5728888385629881,
+              "high": 0.1182463045160663
+            },
+            "extractionDifficulty": 30.588,
+            "processingDifficulty": 29.731,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-5-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1807.943,
+            "gradeProbabilities": {
+              "low": 0.1720550906167044,
+              "medium": 0.15768420174114917,
+              "high": 0.6702607076421464
+            },
+            "extractionDifficulty": 80.838,
+            "processingDifficulty": 29.731,
+            "discoveryTier": 4,
+            "accessDepth": 89.615,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.119352,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-6-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 16422.046,
+            "gradeProbabilities": {
+              "low": 0.3122274753716737,
+              "medium": 0.6234895380639576,
+              "high": 0.06428298656436873
+            },
+            "extractionDifficulty": 28.958,
+            "processingDifficulty": 47.245,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-6-0",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1841.232,
+            "gradeProbabilities": {
+              "low": 0.432795046262765,
+              "medium": 0.39458178798554944,
+              "high": 0.1726231657516856
+            },
+            "extractionDifficulty": 49.763,
+            "processingDifficulty": 47.245,
+            "discoveryTier": 1,
+            "accessDepth": 5.373,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.108137,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-7-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6827.273,
+            "gradeProbabilities": {
+              "low": 0.31304392307331774,
+              "medium": 0.5927504063263183,
+              "high": 0.09420567060036404
+            },
+            "extractionDifficulty": 31.283,
+            "processingDifficulty": 57.517,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.111524,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-8-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2075.207,
+            "gradeProbabilities": {
+              "low": 0.23057098112767566,
+              "medium": 0.6611621673279929,
+              "high": 0.1082668515443314
+            },
+            "extractionDifficulty": 17.395,
+            "processingDifficulty": 18.935,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-8-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3591.807,
+            "gradeProbabilities": {
+              "low": 0.10300986056376568,
+              "medium": 0.2629821772998,
+              "high": 0.6340079621364343
+            },
+            "extractionDifficulty": 68.595,
+            "processingDifficulty": 18.935,
+            "discoveryTier": 4,
+            "accessDepth": 69.783,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.24697,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-9-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 10489.913,
+            "gradeProbabilities": {
+              "low": 0.30306211288627977,
+              "medium": 0.6002339837053606,
+              "high": 0.09670390340835956
+            },
+            "extractionDifficulty": 10.4,
+            "processingDifficulty": 19.808,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-9-5",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-5",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 2600.932,
+            "gradeProbabilities": {
+              "low": 0.4058030707077499,
+              "medium": 0.34927264582344886,
+              "high": 0.24492428346880127
+            },
+            "extractionDifficulty": 47.568,
+            "processingDifficulty": 19.808,
+            "discoveryTier": 2,
+            "accessDepth": 23.334,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.10641,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-10-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7285.246,
+            "gradeProbabilities": {
+              "low": 0.2502016276385698,
+              "medium": 0.6187964850937407,
+              "high": 0.1310018872676895
+            },
+            "extractionDifficulty": 10.407,
+            "processingDifficulty": 64.872,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-10-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3526.766,
+            "gradeProbabilities": {
+              "low": 0.18092505330217365,
+              "medium": 0.13285020212675525,
+              "high": 0.6862247445710711
+            },
+            "extractionDifficulty": 74.058,
+            "processingDifficulty": 64.872,
+            "discoveryTier": 4,
+            "accessDepth": 80.084,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.389285,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-11-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6476.019,
+            "gradeProbabilities": {
+              "low": 0.3100568461117916,
+              "medium": 0.6129281433313438,
+              "high": 0.0770150105568646
+            },
+            "extractionDifficulty": 31.475,
+            "processingDifficulty": 20.842,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-11-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3647.735,
+            "gradeProbabilities": {
+              "low": 0.17825448318260112,
+              "medium": 0.1493261897750009,
+              "high": 0.6724193270423979
+            },
+            "extractionDifficulty": 75.331,
+            "processingDifficulty": 20.842,
+            "discoveryTier": 4,
+            "accessDepth": 99.661,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.383619,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-12-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5337.419,
+            "gradeProbabilities": {
+              "low": 0.2681085632643809,
+              "medium": 0.6495700823608817,
+              "high": 0.08232135437473748
+            },
+            "extractionDifficulty": 31.007,
+            "processingDifficulty": 35.871,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.37374,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-13-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5610.971,
+            "gradeProbabilities": {
+              "low": 0.2766298912425214,
+              "medium": 0.6826016095532867,
+              "high": 0.04076849920419186
+            },
+            "extractionDifficulty": 22.433,
+            "processingDifficulty": 67,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-13-3",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 5491.076,
+            "gradeProbabilities": {
+              "low": 0.46231618123522966,
+              "medium": 0.3488198869582944,
+              "high": 0.18886393180647593
+            },
+            "extractionDifficulty": 37.165,
+            "processingDifficulty": 67,
+            "discoveryTier": 2,
+            "accessDepth": 23.261,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.289224,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-14-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9593.88,
+            "gradeProbabilities": {
+              "low": 0.2633831532364432,
+              "medium": 0.6831222035231472,
+              "high": 0.05349464324040956
+            },
+            "extractionDifficulty": 15.968,
+            "processingDifficulty": 50.627,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.350646,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-15-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3468.368,
+            "gradeProbabilities": {
+              "low": 0.30770212309650424,
+              "medium": 0.5860863718113831,
+              "high": 0.10621150509211269
+            },
+            "extractionDifficulty": 13.313,
+            "processingDifficulty": 41.213,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.3748,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-16-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2148.482,
+            "gradeProbabilities": {
+              "low": 0.3019197211029606,
+              "medium": 0.643481436390357,
+              "high": 0.05459884250668236
+            },
+            "extractionDifficulty": 16.032,
+            "processingDifficulty": 21.451,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-16-3",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 2262.744,
+            "gradeProbabilities": {
+              "low": 0.46132007611112297,
+              "medium": 0.3568271626711087,
+              "high": 0.18185276121776842
+            },
+            "extractionDifficulty": 31.427,
+            "processingDifficulty": 21.451,
+            "discoveryTier": 2,
+            "accessDepth": 32.45,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.373625,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-17-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6956.543,
+            "gradeProbabilities": {
+              "low": 0.2669453666620203,
+              "medium": 0.6655899609976319,
+              "high": 0.06746467234034782
+            },
+            "extractionDifficulty": 19.951,
+            "processingDifficulty": 20.824,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.391406,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-18-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 18824.427,
+            "gradeProbabilities": {
+              "low": 0.28348892951831145,
+              "medium": 0.6342458889589397,
+              "high": 0.08226518152274886
+            },
+            "extractionDifficulty": 34.73,
+            "processingDifficulty": 20.195,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.384077,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-19-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 10527.05,
+            "gradeProbabilities": {
+              "low": 0.2512885119469281,
+              "medium": 0.6812228428392982,
+              "high": 0.06748864521377358
+            },
+            "extractionDifficulty": 25.728,
+            "processingDifficulty": 67.711,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-19-2",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3226.636,
+            "gradeProbabilities": {
+              "low": 0.41390890878145653,
+              "medium": 0.32499846201129934,
+              "high": 0.2610926292072442
+            },
+            "extractionDifficulty": 48.185,
+            "processingDifficulty": 67.711,
+            "discoveryTier": 2,
+            "accessDepth": 6.203,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-19-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 15268.225,
+            "gradeProbabilities": {
+              "low": 0.13805693508237335,
+              "medium": 0.18097146303073242,
+              "high": 0.6809716018868942
+            },
+            "extractionDifficulty": 79.264,
+            "processingDifficulty": 67.711,
+            "discoveryTier": 5,
+            "accessDepth": 52.004,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.375727,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-20-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2088.078,
+            "gradeProbabilities": {
+              "low": 0.2352668917418023,
+              "medium": 0.6773972864357197,
+              "high": 0.08733582182247797
+            },
+            "extractionDifficulty": 32.418,
+            "processingDifficulty": 35.575,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-20-5",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-5",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1328.035,
+            "gradeProbabilities": {
+              "low": 0.39416042502764687,
+              "medium": 0.36679686159990826,
+              "high": 0.23904271337244481
+            },
+            "extractionDifficulty": 41.256,
+            "processingDifficulty": 35.575,
+            "discoveryTier": 1,
+            "accessDepth": 7.03,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.390611,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-21-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2916.927,
+            "gradeProbabilities": {
+              "low": 0.29627230967449397,
+              "medium": 0.5874975051085841,
+              "high": 0.11623018521692194
+            },
+            "extractionDifficulty": 33.596,
+            "processingDifficulty": 22.414,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-21-2",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 729.667,
+            "gradeProbabilities": {
+              "low": 0.40974826640543144,
+              "medium": 0.332387464692187,
+              "high": 0.2578642689023815
+            },
+            "extractionDifficulty": 33.527,
+            "processingDifficulty": 22.414,
+            "discoveryTier": 2,
+            "accessDepth": 16.33,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.32868,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-22-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 11960.704,
+            "gradeProbabilities": {
+              "low": 0.2530803873058167,
+              "medium": 0.7078188895310523,
+              "high": 0.03910072316313098
+            },
+            "extractionDifficulty": 31.984,
+            "processingDifficulty": 19.247,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-22-4",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3796.657,
+            "gradeProbabilities": {
+              "low": 0.46735146255172094,
+              "medium": 0.29441089197250114,
+              "high": 0.23823764547577783
+            },
+            "extractionDifficulty": 39.383,
+            "processingDifficulty": 19.247,
+            "discoveryTier": 1,
+            "accessDepth": 10.768,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.36576,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-23-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7851.159,
+            "gradeProbabilities": {
+              "low": 0.245435035319228,
+              "medium": 0.6481729856197704,
+              "high": 0.10639197906100156
+            },
+            "extractionDifficulty": 13.751,
+            "processingDifficulty": 52.102,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-23-0",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 613.02,
+            "gradeProbabilities": {
+              "low": 0.4115894017927864,
+              "medium": 0.3971143517589626,
+              "high": 0.19129624644825105
+            },
+            "extractionDifficulty": 32.067,
+            "processingDifficulty": 52.102,
+            "discoveryTier": 1,
+            "accessDepth": 31.491,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.364471,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-24-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3185.741,
+            "gradeProbabilities": {
+              "low": 0.2340063720577504,
+              "medium": 0.6883260747488021,
+              "high": 0.07766755319344745
+            },
+            "extractionDifficulty": 18.141,
+            "processingDifficulty": 55.429,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-24-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 2855.333,
+            "gradeProbabilities": {
+              "low": 0.13770448435325994,
+              "medium": 0.17571797660475963,
+              "high": 0.6865775390419804
+            },
+            "extractionDifficulty": 71.423,
+            "processingDifficulty": 55.429,
+            "discoveryTier": 4,
+            "accessDepth": 97.083,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.378413,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-25-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5540.293,
+            "gradeProbabilities": {
+              "low": 0.2833575243134779,
+              "medium": 0.6527507196224202,
+              "high": 0.06389175606410205
+            },
+            "extractionDifficulty": 11.113,
+            "processingDifficulty": 42.226,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-25-4",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 2092.193,
+            "gradeProbabilities": {
+              "low": 0.47232723497140094,
+              "medium": 0.281579296135508,
+              "high": 0.24609346889309108
+            },
+            "extractionDifficulty": 41.649,
+            "processingDifficulty": 42.226,
+            "discoveryTier": 1,
+            "accessDepth": 23.178,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-25-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 2773.537,
+            "gradeProbabilities": {
+              "low": 0.17639090217503373,
+              "medium": 0.19017437983704866,
+              "high": 0.6334347179879176
+            },
+            "extractionDifficulty": 68.907,
+            "processingDifficulty": 42.226,
+            "discoveryTier": 3,
+            "accessDepth": 80.297,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.316414,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-26-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 25605.73,
+            "gradeProbabilities": {
+              "low": 0.23912792178408815,
+              "medium": 0.7109292512149213,
+              "high": 0.04994282700099055
+            },
+            "extractionDifficulty": 21.55,
+            "processingDifficulty": 50.56,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-26-0",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1690.902,
+            "gradeProbabilities": {
+              "low": 0.43141388716400203,
+              "medium": 0.3914236699389923,
+              "high": 0.1771624428970056
+            },
+            "extractionDifficulty": 36.969,
+            "processingDifficulty": 50.56,
+            "discoveryTier": 1,
+            "accessDepth": 10.598,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-26-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 32677.694,
+            "gradeProbabilities": {
+              "low": 0.16759531331370175,
+              "medium": 0.19477813099860264,
+              "high": 0.6376265556876956
+            },
+            "extractionDifficulty": 63.884,
+            "processingDifficulty": 50.56,
+            "discoveryTier": 4,
+            "accessDepth": 59.33,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.171745,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-27-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 12017.205,
+            "gradeProbabilities": {
+              "low": 0.2882321140117473,
+              "medium": 0.6548973930404255,
+              "high": 0.05687049294782724
+            },
+            "extractionDifficulty": 12.057,
+            "processingDifficulty": 38.572,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-27-4",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 4606.6,
+            "gradeProbabilities": {
+              "low": 0.4775584251975208,
+              "medium": 0.2872748961455882,
+              "high": 0.235166678656891
+            },
+            "extractionDifficulty": 48.495,
+            "processingDifficulty": 38.572,
+            "discoveryTier": 2,
+            "accessDepth": 18.511,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-27-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 8483.662,
+            "gradeProbabilities": {
+              "low": 0.19114675339777024,
+              "medium": 0.14126384682888993,
+              "high": 0.6675893997733399
+            },
+            "extractionDifficulty": 76.152,
+            "processingDifficulty": 38.572,
+            "discoveryTier": 4,
+            "accessDepth": 72.519,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138504,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-28-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 48160.24,
+            "gradeProbabilities": {
+              "low": 0.2866456326234768,
+              "medium": 0.6018397527499235,
+              "high": 0.11151461462659971
+            },
+            "extractionDifficulty": 22.4,
+            "processingDifficulty": 46.493,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-28-4",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 13464.184,
+            "gradeProbabilities": {
+              "low": 0.4785991685019291,
+              "medium": 0.2811913939604158,
+              "high": 0.24020943753765514
+            },
+            "extractionDifficulty": 45.648,
+            "processingDifficulty": 46.493,
+            "discoveryTier": 1,
+            "accessDepth": 33.493,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.133029,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-29-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 8043.406,
+            "gradeProbabilities": {
+              "low": 0.3095306505327889,
+              "medium": 0.6033051356989189,
+              "high": 0.08716421376829228
+            },
+            "extractionDifficulty": 32.373,
+            "processingDifficulty": 59.1,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.237223,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-30-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27761.366,
+            "gradeProbabilities": {
+              "low": 0.3143941020389809,
+              "medium": 0.5918107213342712,
+              "high": 0.09379517662674794
+            },
+            "extractionDifficulty": 12.326,
+            "processingDifficulty": 46.675,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.158885,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-31-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9704.469,
+            "gradeProbabilities": {
+              "low": 0.2628153200963135,
+              "medium": 0.6034477202893612,
+              "high": 0.1337369596143253
+            },
+            "extractionDifficulty": 13.294,
+            "processingDifficulty": 20.005,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-31-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 10185.961,
+            "gradeProbabilities": {
+              "low": 0.11826199177964461,
+              "medium": 0.21372137892956466,
+              "high": 0.6680166292907908
+            },
+            "extractionDifficulty": 67.868,
+            "processingDifficulty": 20.005,
+            "discoveryTier": 3,
+            "accessDepth": 83.735,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.281239,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-32-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 51382.602,
+            "gradeProbabilities": {
+              "low": 0.29718751940469024,
+              "medium": 0.5858758601215388,
+              "high": 0.116936620473771
+            },
+            "extractionDifficulty": 13.662,
+            "processingDifficulty": 68.175,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-32-3",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 15545.62,
+            "gradeProbabilities": {
+              "low": 0.46403903864492646,
+              "medium": 0.36245138873776894,
+              "high": 0.1735095726173046
+            },
+            "extractionDifficulty": 51.404,
+            "processingDifficulty": 68.175,
+            "discoveryTier": 2,
+            "accessDepth": 12.749,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.111212,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-33-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4976.077,
+            "gradeProbabilities": {
+              "low": 0.3028309546537133,
+              "medium": 0.619865393936895,
+              "high": 0.07730365140939165
+            },
+            "extractionDifficulty": 33.309,
+            "processingDifficulty": 36.38,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118675,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-34-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2749.048,
+            "gradeProbabilities": {
+              "low": 0.28622390075181575,
+              "medium": 0.6604549635706316,
+              "high": 0.05332113567755271
+            },
+            "extractionDifficulty": 27.805,
+            "processingDifficulty": 68.83,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-34-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 2419.955,
+            "gradeProbabilities": {
+              "low": 0.12331936675269817,
+              "medium": 0.1622841898430445,
+              "high": 0.7143964434042573
+            },
+            "extractionDifficulty": 61.458,
+            "processingDifficulty": 68.83,
+            "discoveryTier": 4,
+            "accessDepth": 93.09,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.127688,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-35-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 10518.542,
+            "gradeProbabilities": {
+              "low": 0.2751982798893681,
+              "medium": 0.6555556586389153,
+              "high": 0.06924606147171658
+            },
+            "extractionDifficulty": 10.605,
+            "processingDifficulty": 20.678,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.35363,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-36-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 8549.907,
+            "gradeProbabilities": {
+              "low": 0.27774955703930665,
+              "medium": 0.6666230090471446,
+              "high": 0.055627433913548796
+            },
+            "extractionDifficulty": 31.572,
+            "processingDifficulty": 64.11,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-36-5",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-5",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 7918.445,
+            "gradeProbabilities": {
+              "low": 0.3941081383265555,
+              "medium": 0.3550713227339491,
+              "high": 0.25082053893949546
+            },
+            "extractionDifficulty": 43.318,
+            "processingDifficulty": 64.11,
+            "discoveryTier": 2,
+            "accessDepth": 25.988,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-36-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 7552.162,
+            "gradeProbabilities": {
+              "low": 0.13484695897094484,
+              "medium": 0.16386265296094338,
+              "high": 0.7012903880681117
+            },
+            "extractionDifficulty": 71.842,
+            "processingDifficulty": 64.11,
+            "discoveryTier": 5,
+            "accessDepth": 84.981,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.182068,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-37-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3541.716,
+            "gradeProbabilities": {
+              "low": 0.25213751551880187,
+              "medium": 0.6391824288865414,
+              "high": 0.10868005559465668
+            },
+            "extractionDifficulty": 13.21,
+            "processingDifficulty": 34.8,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-37-2",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3435.903,
+            "gradeProbabilities": {
+              "low": 0.4129552059924214,
+              "medium": 0.3168913501663149,
+              "high": 0.27015344384126366
+            },
+            "extractionDifficulty": 44.631,
+            "processingDifficulty": 34.8,
+            "discoveryTier": 1,
+            "accessDepth": 27.49,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-37-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 8565.315,
+            "gradeProbabilities": {
+              "low": 0.14566897725712571,
+              "medium": 0.19946362397009687,
+              "high": 0.6548673987727774
+            },
+            "extractionDifficulty": 83.931,
+            "processingDifficulty": 34.8,
+            "discoveryTier": 3,
+            "accessDepth": 87.483,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.373954,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-38-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3350.399,
+            "gradeProbabilities": {
+              "low": 0.311095716911109,
+              "medium": 0.6502485196356328,
+              "high": 0.03865576345325814
+            },
+            "extractionDifficulty": 11.015,
+            "processingDifficulty": 48.288,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-38-0",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3379.004,
+            "gradeProbabilities": {
+              "low": 0.41476680482237394,
+              "medium": 0.39867587899533113,
+              "high": 0.18655731618229493
+            },
+            "extractionDifficulty": 41.971,
+            "processingDifficulty": 48.288,
+            "discoveryTier": 2,
+            "accessDepth": 32.505,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.179471,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-39-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 11915.526,
+            "gradeProbabilities": {
+              "low": 0.25556029023836013,
+              "medium": 0.6886365583142612,
+              "high": 0.055803151447378706
+            },
+            "extractionDifficulty": 17.905,
+            "processingDifficulty": 46.206,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-39-1",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3321.718,
+            "gradeProbabilities": {
+              "low": 0.4115578820970308,
+              "medium": 0.35349906777616247,
+              "high": 0.23494305012680672
+            },
+            "extractionDifficulty": 30.387,
+            "processingDifficulty": 46.206,
+            "discoveryTier": 2,
+            "accessDepth": 33.936,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-deep-39-0",
+            "groupId": "g2-sol-deimos-470ef0dd-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 51690.978,
+            "gradeProbabilities": {
+              "low": 0.11759399293619237,
+              "medium": 0.21561190121425,
+              "high": 0.6667941058495577
+            },
+            "extractionDifficulty": 70.938,
+            "processingDifficulty": 46.206,
+            "discoveryTier": 4,
+            "accessDepth": 98.226,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.130935,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-40-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6536.968,
+            "gradeProbabilities": {
+              "low": 0.3043331428455379,
+              "medium": 0.6472989220224717,
+              "high": 0.04836793513199036
+            },
+            "extractionDifficulty": 13.228,
+            "processingDifficulty": 50.93,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-vein-40-1",
+            "groupId": "g2-sol-deimos-470ef0dd-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1886.157,
+            "gradeProbabilities": {
+              "low": 0.4117449916717906,
+              "medium": 0.3551586406244597,
+              "high": 0.23309636770374972
+            },
+            "extractionDifficulty": 32.95,
+            "processingDifficulty": 50.93,
+            "discoveryTier": 2,
+            "accessDepth": 13.04,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:deimos:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.264603,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-deimos-470ef0dd-surface-41-0",
+            "groupId": "g2-sol-deimos-470ef0dd-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4647.732,
+            "gradeProbabilities": {
+              "low": 0.3037062638222857,
+              "medium": 0.6413574391460698,
+              "high": 0.05493629703164453
+            },
+            "extractionDifficulty": 21.59,
+            "processingDifficulty": 68.339,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:deimos:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:deimos:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 669282.227,
+    "typeShares": {
+      "surface": 0.6376876837686387,
+      "vein": 0.12370828341910063,
+      "deep": 0.23860403281226064
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.28057098112767564,
+        "medium": 0.6356920592579991,
+        "high": 0.08373695961432531
+      },
+      "vein": {
+        "low": 0.4441081383265555,
+        "medium": 0.33573841783218084,
+        "high": 0.22015344384126365
+      },
+      "deep": {
+        "low": 0.14114675339777022,
+        "medium": 0.19445680319797254,
+        "high": 0.6643964434042573
+      }
+    },
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:deimos:resources:v1",
+    "generatorVersion": 2,
+    "budgetPolicy": "procedural",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 42,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.23057098112767566,
+            "max": 0.3143941020389809,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.5728888385629881,
+            "max": 0.7109292512149213,
+            "actualMaxDeviation": 0.07523719195692224
+          },
+          "high": {
+            "min": 0.03865576345325814,
+            "max": 0.1337369596143253,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 20,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.3941081383265555,
+            "max": 0.4785991685019291,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.2811913939604158,
+            "max": 0.39867587899533113,
+            "actualMaxDeviation": 0.0629374611631503
+          },
+          "high": {
+            "min": 0.1726231657516856,
+            "max": 0.27015344384126366,
+            "actualMaxDeviation": 0.05000000000000002
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 15,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.10300986056376568,
+            "max": 0.19114675339777024,
+            "actualMaxDeviation": 0.05000000000000002
+          },
+          "medium": {
+            "min": 0.13285020212675525,
+            "max": 0.2629821772998,
+            "actualMaxDeviation": 0.06852537410182746
+          },
+          "high": {
+            "min": 0.6334347179879176,
+            "max": 0.7143964434042573,
+            "actualMaxDeviation": 0.050000000000000044
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 42,
+      "requiredCoverage": 11,
+      "veinCells": 20,
+      "groupCount": 6,
+      "minimumGroupCells": 3,
+      "exceptions": [],
+      "nominalCellCapQuanta": 66928222,
+      "maxCellFraction": 0.09999999895410341,
+      "maxGroupFraction": 0.2893823964767276
+    }
+  },
+  "hydrogenSources": [],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
+  }
+}

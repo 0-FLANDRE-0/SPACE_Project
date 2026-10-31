@@ -1,0 +1,3246 @@
+{
+  "schemaVersion": 1,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "earth",
+  "bodyKind": "planet",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 3,
+    "orientationId": "body-local-v1",
+    "cellCount": 92,
+    "gridFingerprint": "7d4c00a6"
+  },
+  "geology": {
+    "cells": {
+      "sol:earth:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.54977634,
+          "waterFraction": 0.45022366
+        },
+        "environment": {
+          "temperatureK": 259.154,
+          "radiationLevel": null,
+          "terrainObstacle": 0.278588,
+          "habitability": 0.523621,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-9aabb735-0-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1459638650.159,
+            "extractionDifficulty": 42.151,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.77286835,
+          "waterFraction": 0.22713165000000002
+        },
+        "environment": {
+          "temperatureK": 261.827,
+          "radiationLevel": null,
+          "terrainObstacle": 0.199776,
+          "habitability": 0.523621,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-dba75be5-1-ore",
+            "resourceId": "ore",
+            "initialReserveU": 960089362.231,
+            "extractionDifficulty": 70.457,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.26620985,
+          "waterFraction": 0.7337901499999999
+        },
+        "environment": {
+          "temperatureK": 250.614,
+          "radiationLevel": null,
+          "terrainObstacle": 0.2672,
+          "habitability": 0.486563,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-c1d45a33-2-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1273546558.633,
+            "extractionDifficulty": 52.53,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.03958411,
+          "waterFraction": 0.96041589
+        },
+        "environment": {
+          "temperatureK": 280.482,
+          "radiationLevel": null,
+          "terrainObstacle": 0.163144,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-4335c257-3-ore",
+            "resourceId": "ore",
+            "initialReserveU": 768032907.904,
+            "extractionDifficulty": 70.568,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.98318341,
+          "waterFraction": 0.01681659000000002
+        },
+        "environment": {
+          "temperatureK": 272.834,
+          "radiationLevel": null,
+          "terrainObstacle": 0.175593,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-526dff14-4-ore",
+            "resourceId": "ore",
+            "initialReserveU": 774211072.469,
+            "extractionDifficulty": 41.439,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.21309547,
+          "waterFraction": 0.7869045299999999
+        },
+        "environment": {
+          "temperatureK": 283.779,
+          "radiationLevel": null,
+          "terrainObstacle": 0.146263,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-26b7c109-5-ore",
+            "resourceId": "ore",
+            "initialReserveU": 675840652.729,
+            "extractionDifficulty": 70.761,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.99313352,
+          "waterFraction": 0.006866480000000008
+        },
+        "environment": {
+          "temperatureK": 278.274,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140194,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-1f673d20-6-ore",
+            "resourceId": "ore",
+            "initialReserveU": 595230289.576,
+            "extractionDifficulty": 32.318,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 286.738,
+          "radiationLevel": null,
+          "terrainObstacle": 0.134725,
+          "habitability": 0.716379,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-65b08f2-7-ore",
+            "resourceId": "ore",
+            "initialReserveU": 607756347.375,
+            "extractionDifficulty": 51.341,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00053426,
+          "waterFraction": 0.99946574
+        },
+        "environment": {
+          "temperatureK": 287.555,
+          "radiationLevel": null,
+          "terrainObstacle": 0.134606,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-f41fcfad-8-ore",
+            "resourceId": "ore",
+            "initialReserveU": 563880627.982,
+            "extractionDifficulty": 58.348,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00259912,
+          "waterFraction": 0.99740088
+        },
+        "environment": {
+          "temperatureK": 285.474,
+          "radiationLevel": null,
+          "terrainObstacle": 0.126496,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-e2d5cd1-9-ore",
+            "resourceId": "ore",
+            "initialReserveU": 515085031.61,
+            "extractionDifficulty": 58.647,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.09551549,
+          "waterFraction": 0.90448451
+        },
+        "environment": {
+          "temperatureK": 255.515,
+          "radiationLevel": null,
+          "terrainObstacle": 0.303822,
+          "habitability": 0.486563,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-b20e4661-10-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1575932783.182,
+            "extractionDifficulty": 27.548,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.53627582,
+          "waterFraction": 0.46372418000000004
+        },
+        "environment": {
+          "temperatureK": 270.48,
+          "radiationLevel": null,
+          "terrainObstacle": 0.289239,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-b9937f58-11-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1441363916.107,
+            "extractionDifficulty": 68.413,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.73361659,
+          "waterFraction": 0.26638341
+        },
+        "environment": {
+          "temperatureK": 272.318,
+          "radiationLevel": null,
+          "terrainObstacle": 0.214269,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-afbc1e1-12-ore",
+            "resourceId": "ore",
+            "initialReserveU": 964613944.291,
+            "extractionDifficulty": 34.837,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00222484,
+          "waterFraction": 0.99777516
+        },
+        "environment": {
+          "temperatureK": 282.372,
+          "radiationLevel": null,
+          "terrainObstacle": 0.192664,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-be59d11f-13-ore",
+            "resourceId": "ore",
+            "initialReserveU": 856990243.721,
+            "extractionDifficulty": 39.548,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 281.725,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219942,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-68d7aa21-14-ore",
+            "resourceId": "ore",
+            "initialReserveU": 993961785.61,
+            "extractionDifficulty": 44.449,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.23168133,
+          "waterFraction": 0.76831867
+        },
+        "environment": {
+          "temperatureK": 273.096,
+          "radiationLevel": null,
+          "terrainObstacle": 0.278199,
+          "habitability": 0.56687,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-c4c02c6e-15-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1087471493.37,
+            "extractionDifficulty": 69.798,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00035111,
+          "waterFraction": 0.99964889
+        },
+        "environment": {
+          "temperatureK": 276.233,
+          "radiationLevel": null,
+          "terrainObstacle": 0.117489,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-eeb5f1a1-16-ore",
+            "resourceId": "ore",
+            "initialReserveU": 488132535.993,
+            "extractionDifficulty": 76.685,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.65418472,
+          "waterFraction": 0.34581527999999995
+        },
+        "environment": {
+          "temperatureK": 271.055,
+          "radiationLevel": null,
+          "terrainObstacle": 0.143052,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-d534ccf9-17-ore",
+            "resourceId": "ore",
+            "initialReserveU": 610735617.602,
+            "extractionDifficulty": 22.254,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.79443665,
+          "waterFraction": 0.20556335000000003
+        },
+        "environment": {
+          "temperatureK": 276.791,
+          "radiationLevel": null,
+          "terrainObstacle": 0.122831,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-66a202be-18-ore",
+            "resourceId": "ore",
+            "initialReserveU": 528801189.115,
+            "extractionDifficulty": 53.027,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 275.241,
+          "radiationLevel": null,
+          "terrainObstacle": 0.125915,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-fb022d2f-19-ore",
+            "resourceId": "ore",
+            "initialReserveU": 511393038.531,
+            "extractionDifficulty": 43.129,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 280.481,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138557,
+          "habitability": 0.716379,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-9105f2f9-20-ore",
+            "resourceId": "ore",
+            "initialReserveU": 631044775.021,
+            "extractionDifficulty": 79.097,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.96230505,
+          "waterFraction": 0.037694950000000005
+        },
+        "environment": {
+          "temperatureK": 281.156,
+          "radiationLevel": null,
+          "terrainObstacle": 0.150896,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-79eb1c92-21-ore",
+            "resourceId": "ore",
+            "initialReserveU": 651907686.673,
+            "extractionDifficulty": 41.863,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.10894195,
+          "waterFraction": 0.89105805
+        },
+        "environment": {
+          "temperatureK": 281.048,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118281,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-d6b72018-22-ore",
+            "resourceId": "ore",
+            "initialReserveU": 459321220.223,
+            "extractionDifficulty": 68.454,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.15170755,
+          "waterFraction": 0.84829245
+        },
+        "environment": {
+          "temperatureK": 263.695,
+          "radiationLevel": null,
+          "terrainObstacle": 0.187567,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-6d9bc61b-23-ore",
+            "resourceId": "ore",
+            "initialReserveU": 832196600.651,
+            "extractionDifficulty": 50.123,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.90199136,
+          "waterFraction": 0.09800863999999998
+        },
+        "environment": {
+          "temperatureK": 264.337,
+          "radiationLevel": null,
+          "terrainObstacle": 0.158758,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-5cfe2187-24-ore",
+            "resourceId": "ore",
+            "initialReserveU": 691698222.962,
+            "extractionDifficulty": 77.645,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.59619076,
+          "waterFraction": 0.40380923999999996
+        },
+        "environment": {
+          "temperatureK": 272.455,
+          "radiationLevel": null,
+          "terrainObstacle": 0.137665,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-2605d4d3-25-ore",
+            "resourceId": "ore",
+            "initialReserveU": 581226248.774,
+            "extractionDifficulty": 77.861,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.15467474,
+          "waterFraction": 0.84532526
+        },
+        "environment": {
+          "temperatureK": 273.038,
+          "radiationLevel": null,
+          "terrainObstacle": 0.131936,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-b4bc9b94-26-ore",
+            "resourceId": "ore",
+            "initialReserveU": 548317168.37,
+            "extractionDifficulty": 78.766,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.36095986,
+          "waterFraction": 0.63904014
+        },
+        "environment": {
+          "temperatureK": 263.121,
+          "radiationLevel": null,
+          "terrainObstacle": 0.181474,
+          "habitability": 0.56687,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-f810aa21-27-ore",
+            "resourceId": "ore",
+            "initialReserveU": 645173571.752,
+            "extractionDifficulty": 43.799,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.20772145,
+          "waterFraction": 0.79227855
+        },
+        "environment": {
+          "temperatureK": 259.225,
+          "radiationLevel": null,
+          "terrainObstacle": 0.283857,
+          "habitability": 0.523621,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-12b55b8d-28-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1503908737.319,
+            "extractionDifficulty": 25.508,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.53139907,
+          "waterFraction": 0.46860093
+        },
+        "environment": {
+          "temperatureK": 258.035,
+          "radiationLevel": null,
+          "terrainObstacle": 0.298378,
+          "habitability": 0.523621,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-4a00b800-29-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1639430881.038,
+            "extractionDifficulty": 56.754,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.69549726,
+          "waterFraction": 0.30450274
+        },
+        "environment": {
+          "temperatureK": 251.334,
+          "radiationLevel": null,
+          "terrainObstacle": 0.320485,
+          "habitability": 0.486563,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-3d88a2a6-30-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1765519728.847,
+            "extractionDifficulty": 22.014,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 277.334,
+          "radiationLevel": null,
+          "terrainObstacle": 0.177269,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-e5ac713-31-ore",
+            "resourceId": "ore",
+            "initialReserveU": 842180060.215,
+            "extractionDifficulty": 78.104,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 273.349,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219125,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-ce9a6be1-32-ore",
+            "resourceId": "ore",
+            "initialReserveU": 989695373.729,
+            "extractionDifficulty": 54.487,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.5069993,
+          "waterFraction": 0.49300069999999996
+        },
+        "environment": {
+          "temperatureK": 279.625,
+          "radiationLevel": null,
+          "terrainObstacle": 0.240009,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-ebe18e1-33-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1187916214.583,
+            "extractionDifficulty": 49.411,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 274.743,
+          "radiationLevel": null,
+          "terrainObstacle": 0.271109,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-95d01614-34-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1300901994.978,
+            "extractionDifficulty": 32.633,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00491673,
+          "waterFraction": 0.99508327
+        },
+        "environment": {
+          "temperatureK": 280.808,
+          "radiationLevel": null,
+          "terrainObstacle": 0.125217,
+          "habitability": 0.716379,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-d47ac4-35-ore",
+            "resourceId": "ore",
+            "initialReserveU": 545694847.451,
+            "extractionDifficulty": 35.966,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.23030031,
+          "waterFraction": 0.7696996899999999
+        },
+        "environment": {
+          "temperatureK": 283.417,
+          "radiationLevel": null,
+          "terrainObstacle": 0.155245,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-fab20d33-36-ore",
+            "resourceId": "ore",
+            "initialReserveU": 674061255.256,
+            "extractionDifficulty": 42.031,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.0005274,
+          "waterFraction": 0.9994726
+        },
+        "environment": {
+          "temperatureK": 281.817,
+          "radiationLevel": null,
+          "terrainObstacle": 0.122691,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-ac351f04-37-ore",
+            "resourceId": "ore",
+            "initialReserveU": 490278768.255,
+            "extractionDifficulty": 75.531,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.55815022,
+          "waterFraction": 0.44184977999999997
+        },
+        "environment": {
+          "temperatureK": 250.151,
+          "radiationLevel": null,
+          "terrainObstacle": 0.296943,
+          "habitability": 0.486563,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-17a8ee14-38-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1509531313.969,
+            "extractionDifficulty": 54.225,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 264.621,
+          "radiationLevel": null,
+          "terrainObstacle": 0.259336,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-4002f26b-39-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1221027021.922,
+            "extractionDifficulty": 37.817,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.08468636,
+          "waterFraction": 0.91531364
+        },
+        "environment": {
+          "temperatureK": 264.862,
+          "radiationLevel": null,
+          "terrainObstacle": 0.250613,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-8975f09c-40-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1166174832.826,
+            "extractionDifficulty": 63.492,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.05448557,
+          "waterFraction": 0.94551443
+        },
+        "environment": {
+          "temperatureK": 273.821,
+          "radiationLevel": null,
+          "terrainObstacle": 0.189358,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-5a0f5cc8-41-ore",
+            "resourceId": "ore",
+            "initialReserveU": 840896246.11,
+            "extractionDifficulty": 48.902,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00042": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00079886,
+          "waterFraction": 0.99920114
+        },
+        "environment": {
+          "temperatureK": 273.352,
+          "radiationLevel": null,
+          "terrainObstacle": 0.184381,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-1c04206a-42-ore",
+            "resourceId": "ore",
+            "initialReserveU": 816754086.847,
+            "extractionDifficulty": 54.804,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00043": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00027143,
+          "waterFraction": 0.99972857
+        },
+        "environment": {
+          "temperatureK": 264.034,
+          "radiationLevel": null,
+          "terrainObstacle": 0.243805,
+          "habitability": 0.56687,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-f53b718b-43-ore",
+            "resourceId": "ore",
+            "initialReserveU": 904636907.188,
+            "extractionDifficulty": 39.755,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00044": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.16547096,
+          "waterFraction": 0.83452904
+        },
+        "environment": {
+          "temperatureK": 278.801,
+          "radiationLevel": null,
+          "terrainObstacle": 0.183394,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-c61ef795-44-ore",
+            "resourceId": "ore",
+            "initialReserveU": 874095835.374,
+            "extractionDifficulty": 34.536,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00045": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.26306916,
+          "waterFraction": 0.73693084
+        },
+        "environment": {
+          "temperatureK": 274.126,
+          "radiationLevel": null,
+          "terrainObstacle": 0.214965,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-7fed059a-45-ore",
+            "resourceId": "ore",
+            "initialReserveU": 968183191.369,
+            "extractionDifficulty": 50.836,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00046": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.01308516,
+          "waterFraction": 0.98691484
+        },
+        "environment": {
+          "temperatureK": 278.047,
+          "radiationLevel": null,
+          "terrainObstacle": 0.296068,
+          "habitability": 0.658942,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-33aa2989-46-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1616346016.901,
+            "extractionDifficulty": 59.518,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00047": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00108198,
+          "waterFraction": 0.99891802
+        },
+        "environment": {
+          "temperatureK": 273.819,
+          "radiationLevel": null,
+          "terrainObstacle": 0.287988,
+          "habitability": 0.612446,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-1c7c34a7-47-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1430831491.804,
+            "extractionDifficulty": 70.183,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00048": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00441862,
+          "waterFraction": 0.99558138
+        },
+        "environment": {
+          "temperatureK": 281.681,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219365,
+          "habitability": 0.716379,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-84fe81c2-48-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1066760337.579,
+            "extractionDifficulty": 35.427,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00049": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.91375142,
+          "waterFraction": 0.08624858000000002
+        },
+        "environment": {
+          "temperatureK": 282.588,
+          "radiationLevel": null,
+          "terrainObstacle": 0.272239,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-5531b884-49-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1308980870.711,
+            "extractionDifficulty": 62.349,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00050": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 282.168,
+          "radiationLevel": null,
+          "terrainObstacle": 0.156337,
+          "habitability": 0.72378,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-5381d994-50-ore",
+            "resourceId": "ore",
+            "initialReserveU": 679568111.03,
+            "extractionDifficulty": 35.29,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00051": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00380356,
+          "waterFraction": 0.99619644
+        },
+        "environment": {
+          "temperatureK": 267.038,
+          "radiationLevel": null,
+          "terrainObstacle": 0.266546,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-6d9878e8-51-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1269051153.328,
+            "extractionDifficulty": 35.348,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00052": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.05629306,
+          "waterFraction": 0.94370694
+        },
+        "environment": {
+          "temperatureK": 265.213,
+          "radiationLevel": null,
+          "terrainObstacle": 0.322412,
+          "habitability": 0.565081,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-c8574109-52-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1790783498.217,
+            "extractionDifficulty": 77.959,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00053": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.06744349,
+          "waterFraction": 0.93255651
+        },
+        "environment": {
+          "temperatureK": 274.956,
+          "radiationLevel": null,
+          "terrainObstacle": 0.301627,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-f276c662-53-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1554116285.611,
+            "extractionDifficulty": 53.231,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00054": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 275.785,
+          "radiationLevel": null,
+          "terrainObstacle": 0.233803,
+          "habitability": 0.636941,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-4cc8e5d6-54-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1068508790.108,
+            "extractionDifficulty": 61.593,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00055": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 266.293,
+          "radiationLevel": null,
+          "terrainObstacle": 0.307148,
+          "habitability": 0.56687,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-a3271964-55-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1294250546.827,
+            "extractionDifficulty": 75.205,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00056": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.91116531,
+          "waterFraction": 0.08883469
+        },
+        "environment": {
+          "temperatureK": 285.363,
+          "radiationLevel": null,
+          "terrainObstacle": 0.128258,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-b86db29f-56-ore",
+            "resourceId": "ore",
+            "initialReserveU": 566349850.635,
+            "extractionDifficulty": 46.802,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00057": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 285.629,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116461,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-b8d92ef6-57-ore",
+            "resourceId": "ore",
+            "initialReserveU": 479736527.818,
+            "extractionDifficulty": 20.001,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00058": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.18180242,
+          "waterFraction": 0.81819758
+        },
+        "environment": {
+          "temperatureK": 283.928,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116495,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-6b3d7924-58-ore",
+            "resourceId": "ore",
+            "initialReserveU": 445904283.783,
+            "extractionDifficulty": 61.678,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00059": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.93091539,
+          "waterFraction": 0.06908460999999999
+        },
+        "environment": {
+          "temperatureK": 284.04,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140216,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-9c6fcdd0-59-ore",
+            "resourceId": "ore",
+            "initialReserveU": 595347409.015,
+            "extractionDifficulty": 27.939,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00060": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 284.567,
+          "radiationLevel": null,
+          "terrainObstacle": 0.119173,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-8b32fb5a-60-ore",
+            "resourceId": "ore",
+            "initialReserveU": 465813153.793,
+            "extractionDifficulty": 58.895,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00061": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.02356561,
+          "waterFraction": 0.97643439
+        },
+        "environment": {
+          "temperatureK": 285.698,
+          "radiationLevel": null,
+          "terrainObstacle": 0.139993,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-66318e69-61-ore",
+            "resourceId": "ore",
+            "initialReserveU": 594124592.207,
+            "extractionDifficulty": 37.718,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00062": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.66761333,
+          "waterFraction": 0.33238667
+        },
+        "environment": {
+          "temperatureK": 283.089,
+          "radiationLevel": null,
+          "terrainObstacle": 0.164909,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-af265099-62-ore",
+            "resourceId": "ore",
+            "initialReserveU": 722142723.493,
+            "extractionDifficulty": 27.561,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00063": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 282.945,
+          "radiationLevel": null,
+          "terrainObstacle": 0.151443,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-45be2f3a-63-ore",
+            "resourceId": "ore",
+            "initialReserveU": 654715656.01,
+            "extractionDifficulty": 68.181,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00064": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 280.906,
+          "radiationLevel": null,
+          "terrainObstacle": 0.179305,
+          "habitability": 0.67313,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-3142cc9b-64-ore",
+            "resourceId": "ore",
+            "initialReserveU": 636738322.585,
+            "extractionDifficulty": 29.047,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00065": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.08596232,
+          "waterFraction": 0.91403768
+        },
+        "environment": {
+          "temperatureK": 283.015,
+          "radiationLevel": null,
+          "terrainObstacle": 0.116649,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-1c65254b-65-ore",
+            "resourceId": "ore",
+            "initialReserveU": 447089827.588,
+            "extractionDifficulty": 43.907,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00066": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 284.883,
+          "radiationLevel": null,
+          "terrainObstacle": 0.113719,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-c04c6f9a-66-ore",
+            "resourceId": "ore",
+            "initialReserveU": 423733986.574,
+            "extractionDifficulty": 63.423,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00067": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.04217202,
+          "waterFraction": 0.95782798
+        },
+        "environment": {
+          "temperatureK": 280.499,
+          "radiationLevel": null,
+          "terrainObstacle": 0.114381,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-c7f13003-67-ore",
+            "resourceId": "ore",
+            "initialReserveU": 429191066.057,
+            "extractionDifficulty": 30.062,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00068": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.36307278,
+          "waterFraction": 0.63692722
+        },
+        "environment": {
+          "temperatureK": 281.206,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118595,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-27c7f8e0-68-ore",
+            "resourceId": "ore",
+            "initialReserveU": 461624486.178,
+            "extractionDifficulty": 31.697,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00069": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.64568213,
+          "waterFraction": 0.35431787000000003
+        },
+        "environment": {
+          "temperatureK": 277.741,
+          "radiationLevel": null,
+          "terrainObstacle": 0.120887,
+          "habitability": 0.67313,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-673e4513-69-ore",
+            "resourceId": "ore",
+            "initialReserveU": 384158701.129,
+            "extractionDifficulty": 23.706,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00070": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00653124,
+          "waterFraction": 0.99346876
+        },
+        "environment": {
+          "temperatureK": 289.288,
+          "radiationLevel": null,
+          "terrainObstacle": 0.191752,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-527ff3c6-70-ore",
+            "resourceId": "ore",
+            "initialReserveU": 917767285.49,
+            "extractionDifficulty": 62.905,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00071": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.2840123,
+          "waterFraction": 0.7159877
+        },
+        "environment": {
+          "temperatureK": 291.9,
+          "radiationLevel": null,
+          "terrainObstacle": 0.190451,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-45c0a362-71-ore",
+            "resourceId": "ore",
+            "initialReserveU": 910949920.091,
+            "extractionDifficulty": 22.201,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00072": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.23775756,
+          "waterFraction": 0.76224244
+        },
+        "environment": {
+          "temperatureK": 290.942,
+          "radiationLevel": null,
+          "terrainObstacle": 0.152205,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-694b9251-72-ore",
+            "resourceId": "ore",
+            "initialReserveU": 658620541.888,
+            "extractionDifficulty": 58.23,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00073": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.16206804,
+          "waterFraction": 0.83793196
+        },
+        "environment": {
+          "temperatureK": 285.331,
+          "radiationLevel": null,
+          "terrainObstacle": 0.236805,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-31f0f8fd-73-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1085295274.507,
+            "extractionDifficulty": 23.315,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00074": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.44593175,
+          "waterFraction": 0.55406825
+        },
+        "environment": {
+          "temperatureK": 288.621,
+          "radiationLevel": null,
+          "terrainObstacle": 0.201031,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-690489b4-74-ore",
+            "resourceId": "ore",
+            "initialReserveU": 898062172.39,
+            "extractionDifficulty": 20.78,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00075": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 291.303,
+          "radiationLevel": null,
+          "terrainObstacle": 0.250234,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-3a97351c-75-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1163867592.546,
+            "extractionDifficulty": 43.574,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00076": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00052055,
+          "waterFraction": 0.99947945
+        },
+        "environment": {
+          "temperatureK": 285.383,
+          "radiationLevel": null,
+          "terrainObstacle": 0.262992,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-b67c815b-76-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1245050666.362,
+            "extractionDifficulty": 33.6,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00077": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.25031126,
+          "waterFraction": 0.7496887400000001
+        },
+        "environment": {
+          "temperatureK": 287.703,
+          "radiationLevel": null,
+          "terrainObstacle": 0.275051,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-cf2744fd-77-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1329432163.388,
+            "extractionDifficulty": 51.012,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00078": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0,
+          "waterFraction": 1
+        },
+        "environment": {
+          "temperatureK": 284.17,
+          "radiationLevel": null,
+          "terrainObstacle": 0.279379,
+          "habitability": 0.67313,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-2949aaa7-78-ore",
+            "resourceId": "ore",
+            "initialReserveU": 1094700420.926,
+            "extractionDifficulty": 36.525,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00079": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.53505707,
+          "waterFraction": 0.46494293
+        },
+        "environment": {
+          "temperatureK": 284.552,
+          "radiationLevel": null,
+          "terrainObstacle": 0.152916,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-13bfd057-79-ore",
+            "resourceId": "ore",
+            "initialReserveU": 662248141.034,
+            "extractionDifficulty": 47.82,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00080": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.04985033,
+          "waterFraction": 0.9501496700000001
+        },
+        "environment": {
+          "temperatureK": 289.256,
+          "radiationLevel": null,
+          "terrainObstacle": 0.140801,
+          "habitability": 0.753437,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-22d1c96e-80-ore",
+            "resourceId": "ore",
+            "initialReserveU": 598547508.544,
+            "extractionDifficulty": 28.263,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00081": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.63235235,
+          "waterFraction": 0.36764765
+        },
+        "environment": {
+          "temperatureK": 285.036,
+          "radiationLevel": null,
+          "terrainObstacle": 0.125115,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-c7675f96-81-ore",
+            "resourceId": "ore",
+            "initialReserveU": 506255384.218,
+            "extractionDifficulty": 51.415,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00082": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.65363601,
+          "waterFraction": 0.34636398999999995
+        },
+        "environment": {
+          "temperatureK": 287.905,
+          "radiationLevel": null,
+          "terrainObstacle": 0.131807,
+          "habitability": 0.704799,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-e7fed77e-82-ore",
+            "resourceId": "ore",
+            "initialReserveU": 547555488.607,
+            "extractionDifficulty": 36.057,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00083": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.99491915,
+          "waterFraction": 0.005080850000000026
+        },
+        "environment": {
+          "temperatureK": 284.777,
+          "radiationLevel": null,
+          "terrainObstacle": 0.123524,
+          "habitability": 0.67313,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-89815237-83-ore",
+            "resourceId": "ore",
+            "initialReserveU": 398542920.252,
+            "extractionDifficulty": 38.018,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00084": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.1626026,
+          "waterFraction": 0.8373974
+        },
+        "environment": {
+          "temperatureK": 283.496,
+          "radiationLevel": null,
+          "terrainObstacle": 0.146833,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-eb01347d-84-ore",
+            "resourceId": "ore",
+            "initialReserveU": 630804868.751,
+            "extractionDifficulty": 78.538,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00085": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.60915139,
+          "waterFraction": 0.39084861000000004
+        },
+        "environment": {
+          "temperatureK": 284.152,
+          "radiationLevel": null,
+          "terrainObstacle": 0.201111,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-384579da-85-ore",
+            "resourceId": "ore",
+            "initialReserveU": 898458226.509,
+            "extractionDifficulty": 40.9,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00086": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "land",
+          "landFraction": 0.97547241,
+          "waterFraction": 0.024527590000000044
+        },
+        "environment": {
+          "temperatureK": 284.64,
+          "radiationLevel": null,
+          "terrainObstacle": 0.210454,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-61825602-86-ore",
+            "resourceId": "ore",
+            "initialReserveU": 759712762.804,
+            "extractionDifficulty": 67.964,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00087": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.06305465,
+          "waterFraction": 0.93694535
+        },
+        "environment": {
+          "temperatureK": 283.489,
+          "radiationLevel": null,
+          "terrainObstacle": 0.127312,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-3f8bcbc5-87-ore",
+            "resourceId": "ore",
+            "initialReserveU": 418141666.705,
+            "extractionDifficulty": 22.518,
+            "discoveryTier": 0,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00088": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00055525,
+          "waterFraction": 0.99944475
+        },
+        "environment": {
+          "temperatureK": 285.365,
+          "radiationLevel": null,
+          "terrainObstacle": 0.11142,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-194ae897-88-ore",
+            "resourceId": "ore",
+            "initialReserveU": 403816796.626,
+            "extractionDifficulty": 75.127,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00089": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00165384,
+          "waterFraction": 0.99834616
+        },
+        "environment": {
+          "temperatureK": 286.433,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118168,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-e50dd477-89-ore",
+            "resourceId": "ore",
+            "initialReserveU": 458491182.425,
+            "extractionDifficulty": 36.292,
+            "discoveryTier": 1,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00090": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "mixed",
+          "landFraction": 0.11942545,
+          "waterFraction": 0.88057455
+        },
+        "environment": {
+          "temperatureK": 288.147,
+          "radiationLevel": null,
+          "terrainObstacle": 0.13795,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-daa41323-90-ore",
+            "resourceId": "ore",
+            "initialReserveU": 468453994.395,
+            "extractionDifficulty": 41.88,
+            "discoveryTier": 3,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      },
+      "sol:earth:surface:00091": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ocean",
+          "landFraction": 0.00068209,
+          "waterFraction": 0.99931791
+        },
+        "environment": {
+          "temperatureK": 285.351,
+          "radiationLevel": null,
+          "terrainObstacle": 0.111462,
+          "habitability": 0.8,
+          "atmosphereNotes": "게임용 생성 프로필: terrestrial-earthlike (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "gen-bcbf1467-91-ore",
+            "resourceId": "ore",
+            "initialReserveU": 324876492.669,
+            "extractionDifficulty": 34.782,
+            "discoveryTier": 2,
+            "notes": "절차적 초기 매장지 · 미발견 기록은 별도"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:earth:surface:00000": {
+        "populationPersons": 53830383,
+        "urbanizationRate": 0.350643,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00001": {
+        "populationPersons": 90142390,
+        "urbanizationRate": 0.438384,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00002": {
+        "populationPersons": 11190732,
+        "urbanizationRate": 0.169993,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00003": {
+        "populationPersons": 616185,
+        "urbanizationRate": 0.041429,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00004": {
+        "populationPersons": 305766009,
+        "urbanizationRate": 0.704495,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00005": {
+        "populationPersons": 11669815,
+        "urbanizationRate": 0.173409,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00006": {
+        "populationPersons": 184773824,
+        "urbanizationRate": 0.586308,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00007": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00008": {
+        "populationPersons": 55,
+        "urbanizationRate": 0.000396,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00009": {
+        "populationPersons": 1766,
+        "urbanizationRate": 0.002243,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00010": {
+        "populationPersons": 1179621,
+        "urbanizationRate": 0.057068,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00011": {
+        "populationPersons": 56642191,
+        "urbanizationRate": 0.358613,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00012": {
+        "populationPersons": 85851674,
+        "urbanizationRate": 0.429408,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00013": {
+        "populationPersons": 872,
+        "urbanizationRate": 0.001575,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00014": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00015": {
+        "populationPersons": 7112675,
+        "urbanizationRate": 0.136906,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00016": {
+        "populationPersons": 51,
+        "urbanizationRate": 0.000381,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00017": {
+        "populationPersons": 108921527,
+        "urbanizationRate": 0.474553,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00018": {
+        "populationPersons": 348270877,
+        "urbanizationRate": 0.736007,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00019": {
+        "populationPersons": 214391861,
+        "urbanizationRate": 0.620269,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00020": {
+        "populationPersons": 1201330181,
+        "urbanizationRate": 0.97,
+        "infrastructureLevel": 4,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00021": {
+        "populationPersons": 948719866,
+        "urbanizationRate": 0.953333,
+        "infrastructureLevel": 4,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00022": {
+        "populationPersons": 8514324,
+        "urbanizationRate": 0.14923,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00023": {
+        "populationPersons": 5833563,
+        "urbanizationRate": 0.124451,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00024": {
+        "populationPersons": 224887608,
+        "urbanizationRate": 0.631379,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00025": {
+        "populationPersons": 288048997,
+        "urbanizationRate": 0.690111,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00026": {
+        "populationPersons": 15435513,
+        "urbanizationRate": 0.1979,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00027": {
+        "populationPersons": 38107184,
+        "urbanizationRate": 0.300442,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00028": {
+        "populationPersons": 26285944,
+        "urbanizationRate": 0.253587,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00029": {
+        "populationPersons": 85064218,
+        "urbanizationRate": 0.427729,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00030": {
+        "populationPersons": 200245109,
+        "urbanizationRate": 0.604557,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00031": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00032": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00033": {
+        "populationPersons": 50970311,
+        "urbanizationRate": 0.342263,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00034": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00035": {
+        "populationPersons": 9770,
+        "urbanizationRate": 0.005269,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00036": {
+        "populationPersons": 11621995,
+        "urbanizationRate": 0.173072,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00037": {
+        "populationPersons": 227,
+        "urbanizationRate": 0.000803,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00038": {
+        "populationPersons": 132486081,
+        "urbanizationRate": 0.514187,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00039": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00040": {
+        "populationPersons": 1936318,
+        "urbanizationRate": 0.07279,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00041": {
+        "populationPersons": 1043648,
+        "urbanizationRate": 0.053729,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00042": {
+        "populationPersons": 578,
+        "urbanizationRate": 0.001284,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00043": {
+        "populationPersons": 34,
+        "urbanizationRate": 0.000311,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00044": {
+        "populationPersons": 18809156,
+        "urbanizationRate": 0.217114,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00045": {
+        "populationPersons": 50987146,
+        "urbanizationRate": 0.342313,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00046": {
+        "populationPersons": 72917,
+        "urbanizationRate": 0.014358,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00047": {
+        "populationPersons": 307,
+        "urbanizationRate": 0.000936,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00048": {
+        "populationPersons": 10114,
+        "urbanizationRate": 0.00536,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00049": {
+        "populationPersons": 433206567,
+        "urbanizationRate": 0.788732,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00050": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00051": {
+        "populationPersons": 7824,
+        "urbanizationRate": 0.004715,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00052": {
+        "populationPersons": 1334208,
+        "urbanizationRate": 0.060632,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00053": {
+        "populationPersons": 2174409,
+        "urbanizationRate": 0.077041,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00054": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00055": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00056": {
+        "populationPersons": 772778016,
+        "urbanizationRate": 0.917255,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00057": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00058": {
+        "populationPersons": 31067044,
+        "urbanizationRate": 0.273799,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00059": {
+        "populationPersons": 606050808,
+        "urbanizationRate": 0.866659,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00060": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00061": {
+        "populationPersons": 792878,
+        "urbanizationRate": 0.046922,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00062": {
+        "populationPersons": 440502540,
+        "urbanizationRate": 0.792732,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00063": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00064": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00065": {
+        "populationPersons": 4087654,
+        "urbanizationRate": 0.104784,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00066": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00067": {
+        "populationPersons": 764382,
+        "urbanizationRate": 0.046082,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00068": {
+        "populationPersons": 102596433,
+        "urbanizationRate": 0.462889,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00069": {
+        "populationPersons": 156709968,
+        "urbanizationRate": 0.549875,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00070": {
+        "populationPersons": 12344,
+        "urbanizationRate": 0.005922,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00071": {
+        "populationPersons": 24286886,
+        "urbanizationRate": 0.244498,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00072": {
+        "populationPersons": 13520107,
+        "urbanizationRate": 0.18592,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00073": {
+        "populationPersons": 10738518,
+        "urbanizationRate": 0.166694,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00074": {
+        "populationPersons": 42780376,
+        "urbanizationRate": 0.316515,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00075": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00076": {
+        "populationPersons": 69,
+        "urbanizationRate": 0.000444,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00077": {
+        "populationPersons": 11245588,
+        "urbanizationRate": 0.170388,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00078": {
+        "populationPersons": 0,
+        "urbanizationRate": 0,
+        "infrastructureLevel": 0,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00079": {
+        "populationPersons": 145881084,
+        "urbanizationRate": 0.53447,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00080": {
+        "populationPersons": 717677,
+        "urbanizationRate": 0.04467,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00081": {
+        "populationPersons": 110178199,
+        "urbanizationRate": 0.476813,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00082": {
+        "populationPersons": 122016993,
+        "urbanizationRate": 0.497261,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00083": {
+        "populationPersons": 176784223,
+        "urbanizationRate": 0.576402,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00084": {
+        "populationPersons": 18945508,
+        "urbanizationRate": 0.217846,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00085": {
+        "populationPersons": 312461032,
+        "urbanizationRate": 0.709728,
+        "infrastructureLevel": 2,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00086": {
+        "populationPersons": 555973520,
+        "urbanizationRate": 0.847288,
+        "infrastructureLevel": 3,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00087": {
+        "populationPersons": 2066815,
+        "urbanizationRate": 0.075152,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00088": {
+        "populationPersons": 87,
+        "urbanizationRate": 0.000498,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00089": {
+        "populationPersons": 551,
+        "urbanizationRate": 0.001253,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00090": {
+        "populationPersons": 2533868,
+        "urbanizationRate": 0.083023,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:earth:surface:00091": {
+        "populationPersons": 207,
+        "urbanizationRate": 0.000768,
+        "infrastructureLevel": 1,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  }
+}

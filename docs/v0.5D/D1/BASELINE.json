@@ -1,0 +1,1673 @@
+{
+  "commit": "25bc2ea4d5d9f778e5d9dce80a756470649f428a",
+  "bodies": {
+    "mercury": {
+      "config": {
+        "totalOreU": 4659038529.744,
+        "typeShares": {
+          "surface": 0.4284453007133452,
+          "vein": 0.36419392987629295,
+          "deep": 0.2073607694103618
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.4361708992742933,
+            "medium": 0.478145634403918,
+            "high": 0.08568346632178872
+          },
+          "vein": {
+            "low": 0.40928248697891834,
+            "medium": 0.2688934093574062,
+            "high": 0.3218241036636755
+          },
+          "deep": {
+            "low": 0.17390216858591884,
+            "medium": 0.4416195669258014,
+            "high": 0.3844782644882798
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:mercury:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "2a2ce2be"
+      },
+      "scenarioHash": "f6c3e09e2da018b7e1d149646982ca63940768f60a3fe175cb0d557fbf5cca12",
+      "geologyHash": "955ef537866be508cd921af7b96c6b59192efd61d5e33c0db2b496b0e1e4370c",
+      "hydrogenHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": {
+        "veinGroups": 5,
+        "veinCells": 19,
+        "maxCellFraction": 0.0955527159567108,
+        "maxGroupFraction": 0.3411456414456285,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.4325307314872758,
+              "max": 0.4399485859677212
+            },
+            "medium": {
+              "min": 0.470760602552081,
+              "max": 0.4846193739879974
+            },
+            "high": {
+              "min": 0.08182456695585305,
+              "max": 0.0895008866183346
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.3908894198928892,
+              "max": 0.42297051859655677
+            },
+            "medium": {
+              "min": 0.24226465215206183,
+              "max": 0.2951994873531912
+            },
+            "high": {
+              "min": 0.3087938203657296,
+              "max": 0.33500097577779264
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.16977467150458883,
+              "max": 0.17721883155250737
+            },
+            "medium": {
+              "min": 0.4344704327654221,
+              "max": 0.44751400746369147
+            },
+            "high": {
+              "min": 0.3807782430239472,
+              "max": 0.3884047164917442
+            }
+          }
+        }
+      }
+    },
+    "venus": {
+      "config": {
+        "totalOreU": 114200000000,
+        "typeShares": {
+          "surface": 0.38,
+          "vein": 0.12,
+          "deep": 0.5
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.33,
+            "medium": 0.42,
+            "high": 0.25
+          },
+          "vein": {
+            "low": 0.08,
+            "medium": 0.22,
+            "high": 0.7
+          },
+          "deep": {
+            "low": 0.01,
+            "medium": 0.17,
+            "high": 0.82
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "confirmed",
+        "notes": "사용자 확정 1142억 U / 38·12·50 / 고온·고압 접근 난도 별도",
+        "worldSeed": "sol:venus:resources:v1",
+        "extractionFloor": 80,
+        "generatorVersion": 1,
+        "budgetPolicy": "fixed"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 3,
+        "orientationId": "body-local-v1",
+        "cellCount": 92,
+        "gridFingerprint": "0b932045"
+      },
+      "scenarioHash": "fcf55d06d33c24119fd7fa2c12241b988df8824130d7d17dcf3bf8658bb3a7d3",
+      "geologyHash": "e7284ca1c1bb7f1d296e27a18e1b7814057a9534091e5c6ae795427e36f55ed7",
+      "hydrogenHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": {
+        "veinGroups": 1,
+        "veinCells": 12,
+        "maxCellFraction": 0.060078702191751314,
+        "maxGroupFraction": 1,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.32554634408519645,
+              "max": 0.33344897173770743
+            },
+            "medium": {
+              "min": 0.41298743691240014,
+              "max": 0.4270126604935205
+            },
+            "high": {
+              "min": 0.2470469217114375,
+              "max": 0.25479790813105563
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.07778779159159875,
+              "max": 0.08372721851849473
+            },
+            "medium": {
+              "min": 0.21449304619984444,
+              "max": 0.22458622848795473
+            },
+            "high": {
+              "min": 0.6965998753361102,
+              "max": 0.7028107184502926
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.005643710570535675,
+              "max": 0.01351688588050665
+            },
+            "medium": {
+              "min": 0.16526184008708256,
+              "max": 0.17622909399373488
+            },
+            "high": {
+              "min": 0.8155465899716733,
+              "max": 0.8229105357817975
+            }
+          }
+        }
+      }
+    },
+    "earth": {
+      "config": {
+        "totalOreU": 78600000000,
+        "typeShares": {
+          "surface": 0.25,
+          "vein": 0.65,
+          "deep": 0.1
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.6,
+            "medium": 0.38,
+            "high": 0.02
+          },
+          "vein": {
+            "low": 0.45,
+            "medium": 0.5,
+            "high": 0.05
+          },
+          "deep": {
+            "low": 0.23,
+            "medium": 0.44,
+            "high": 0.33
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "confirmed",
+        "notes": "사용자 확정 786억 U / 25·65·10 / 품질 확정. 광맥은 육지·대륙붕 우선, 해양 표면형은 고난도·고탐사 해저 단괴. 대륙붕은 육해혼합 구역 근사, 수치 임시",
+        "worldSeed": "sol:earth:resources:v1",
+        "placementPolicy": {
+          "veinPreferredLandThreshold": 0.2,
+          "oceanSurfaceWaterThreshold": 0.7,
+          "oceanExtractionFloor": 80,
+          "oceanDiscoveryTierMin": 3
+        },
+        "generatorVersion": 1,
+        "budgetPolicy": "fixed"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 3,
+        "orientationId": "body-local-v1",
+        "cellCount": 92,
+        "gridFingerprint": "7d4c00a6"
+      },
+      "scenarioHash": "22a2a000bb17bb0ad87b8a949bb0aa4c92e9e6ff102b75380fb94efff2222dee",
+      "geologyHash": "1944eb6001005e5f71c0316f36aa78cd35eb71e3b4f5aca36a47b7d26e7d4251",
+      "hydrogenHash": "894236f3d188b6ecfce551e631b006bde0a959585f06fea0a88b44af16eb1d8c",
+      "before": {
+        "veinGroups": 1,
+        "veinCells": 2,
+        "maxCellFraction": 0.3573781973055471,
+        "maxGroupFraction": 1,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.5960520735088551,
+              "max": 0.6039610022403116
+            },
+            "medium": {
+              "min": 0.37243976849469124,
+              "max": 0.3863223019927996
+            },
+            "high": {
+              "min": 0.016878235679112667,
+              "max": 0.02469307590647816
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.4481001790023537,
+              "max": 0.45230327273040427
+            },
+            "medium": {
+              "min": 0.49652029469441156,
+              "max": 0.502870184289473
+            },
+            "high": {
+              "min": 0.04902963670817321,
+              "max": 0.05117643257518416
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.22555993349432063,
+              "max": 0.23263091168320787
+            },
+            "medium": {
+              "min": 0.4341319505141239,
+              "max": 0.4468313687515567
+            },
+            "high": {
+              "min": 0.3262962479766238,
+              "max": 0.3335023960478384
+            }
+          }
+        }
+      }
+    },
+    "mars": {
+      "config": {
+        "totalOreU": 48900000000,
+        "typeShares": {
+          "surface": 0.7,
+          "vein": 0.2,
+          "deep": 0.1
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.55,
+            "medium": 0.4,
+            "high": 0.05
+          },
+          "vein": {
+            "low": 0.28,
+            "medium": 0.42,
+            "high": 0.3
+          },
+          "deep": {
+            "low": 0.15,
+            "medium": 0.35,
+            "high": 0.5
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "mixed",
+        "notes": "489억 U·70/20/10 확정. 품질 세 숫자와 식민지 수치/위치는 잠정 제안",
+        "worldSeed": "sol:mars:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "fixed"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "3bbb92d2"
+      },
+      "scenarioHash": "2c7bec341c3e9050da4238537581b81e956aa5f8f281fd56571b0145572d66ce",
+      "geologyHash": "1c6f191bc2d9b9874592632c8b468e62063245ad093e00a3a49769681735d26e",
+      "hydrogenHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": {
+        "veinGroups": 4,
+        "veinCells": 13,
+        "maxCellFraction": 0.07331838391858897,
+        "maxGroupFraction": 0.4745159544171779,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.5468462340013166,
+              "max": 0.5544943788965275
+            },
+            "medium": {
+              "min": 0.3929553337476282,
+              "max": 0.4063071772965669
+            },
+            "high": {
+              "min": 0.04593369643128324,
+              "max": 0.053747242302809244
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.27248442036475023,
+              "max": 0.30710039933587396
+            },
+            "medium": {
+              "min": 0.38602444744472475,
+              "max": 0.4352171929105101
+            },
+            "high": {
+              "min": 0.291213642552569,
+              "max": 0.30721605848528394
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.14723332883269474,
+              "max": 0.15237083599754556
+            },
+            "medium": {
+              "min": 0.3454033777953114,
+              "max": 0.35670178415225706
+            },
+            "high": {
+              "min": 0.49505656987232327,
+              "max": 0.5022327463812118
+            }
+          }
+        }
+      }
+    },
+    "jupiter": {
+      "config": {
+        "totalOreU": 0,
+        "typeShares": {
+          "surface": 0.311613465028624,
+          "vein": 0.24331756594653273,
+          "deep": 0.4450689690248434
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.5465273439651355,
+            "medium": 0.3967480504629203,
+            "high": 0.05672460557194427
+          },
+          "vein": {
+            "low": 0.3127249103970826,
+            "medium": 0.34723091206979007,
+            "high": 0.3400441775331273
+          },
+          "deep": {
+            "low": 0.14741647257003931,
+            "medium": 0.4571136164991185,
+            "high": 0.39546991093084216
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:jupiter:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 8,
+        "orientationId": "body-local-v1",
+        "cellCount": 642,
+        "gridFingerprint": "1e6e4428"
+      },
+      "scenarioHash": "f18988e8ad954562f2c212ad5e91c69212691b3eab485bbc5cd90273c6098ab3",
+      "geologyHash": "8bec889bf7464c14b7dc08b3d7b9f6a8a59df8ee29f0f4c841d22cf1023c8fb9",
+      "hydrogenHash": "dc729e7dac71164a9dd06231e1c854e525f3d74c27431641c3d8536d412679ce",
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      }
+    },
+    "saturn": {
+      "config": {
+        "totalOreU": 0,
+        "typeShares": {
+          "surface": 0.5127273794080985,
+          "vein": 0.23807498928550347,
+          "deep": 0.24919763130639802
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.3917440628167242,
+            "medium": 0.4674411567486823,
+            "high": 0.14081478043459356
+          },
+          "vein": {
+            "low": 0.446993883792311,
+            "medium": 0.24042105199769137,
+            "high": 0.31258506420999765
+          },
+          "deep": {
+            "low": 0.07873841903172432,
+            "medium": 0.4734879299812019,
+            "high": 0.4477736509870738
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:saturn:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 7,
+        "orientationId": "body-local-v1",
+        "cellCount": 492,
+        "gridFingerprint": "1e5bb3e4"
+      },
+      "scenarioHash": "3a4c868f9096d0a5f8d1f1531c9ddd1c64049de824a757d79682449e5c4422c2",
+      "geologyHash": "2d65dd28682df206ac7a932f60965fbc925b4b8833a8a3846db1772b669eb76b",
+      "hydrogenHash": "6343549f1c6767d83f9228d3eaa8f8fcce813b0f31c8cfb05ef3b24a520e73f7",
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      }
+    },
+    "uranus": {
+      "config": {
+        "totalOreU": 0,
+        "typeShares": {
+          "surface": 0.562992733068667,
+          "vein": 0.12878518614540932,
+          "deep": 0.3082220807859238
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.5066380200325511,
+            "medium": 0.48044722758699215,
+            "high": 0.012914752380456775
+          },
+          "vein": {
+            "low": 0.39687613407149913,
+            "medium": 0.4902528894366696,
+            "high": 0.11287097649183125
+          },
+          "deep": {
+            "low": 0.12955311828525737,
+            "medium": 0.3542068561934866,
+            "high": 0.516240025521256
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:uranus:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 5,
+        "orientationId": "body-local-v1",
+        "cellCount": 252,
+        "gridFingerprint": "5e8e78cf"
+      },
+      "scenarioHash": "65c10b7260af176a48a4bd786d9f876bf615da58d9a5d5c081817311a44a9203",
+      "geologyHash": "e420b5a04ca4c9e36143cf9add2e68b9e792eb05f7bd538ab5e8a50a995ce9e7",
+      "hydrogenHash": "52cbefc57aae51b8503d403352143bbb29dd909ac2da20959f94cd704f3d8e32",
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      }
+    },
+    "neptune": {
+      "config": {
+        "totalOreU": 0,
+        "typeShares": {
+          "surface": 0.5007939255090782,
+          "vein": 0.10544296917418775,
+          "deep": 0.3937631053167342
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.43995193667942656,
+            "medium": 0.4201360716926865,
+            "high": 0.1399119916278869
+          },
+          "vein": {
+            "low": 0.13451902307569982,
+            "medium": 0.585003849142231,
+            "high": 0.2804771277820691
+          },
+          "deep": {
+            "low": 0.03856103163678199,
+            "medium": 0.6989544674800708,
+            "high": 0.2624845008831471
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:neptune:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 5,
+        "orientationId": "body-local-v1",
+        "cellCount": 252,
+        "gridFingerprint": "95c3dacc"
+      },
+      "scenarioHash": "2bb059eeb37c0a4da12d683cf72d43ddaa3f083c5480c5670b17f95235d8492b",
+      "geologyHash": "c0f5583ed06a89557d14a2f76fc121b3abaa3c2f468b66eaee06f4183dc72751",
+      "hydrogenHash": "62a3f1ee33d4a5356ca02ce587fd472bf2dbad7956f509de28095e6e8682c869",
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      }
+    },
+    "moon": {
+      "config": {
+        "totalOreU": 100000000000,
+        "typeShares": {
+          "surface": 1,
+          "vein": 0,
+          "deep": 0
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.8,
+            "medium": 0.17,
+            "high": 0.03
+          },
+          "vein": {
+            "low": 0.6,
+            "medium": 0.35,
+            "high": 0.05
+          },
+          "deep": {
+            "low": 0.3,
+            "medium": 0.4,
+            "high": 0.3
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "mixed",
+        "notes": "1000억 U·표면형100%·저품질80% 확정. 중17/고3·식민지는 잠정",
+        "worldSeed": "sol:moon:resources:v1",
+        "processingFloor": 80,
+        "generatorVersion": 1,
+        "budgetPolicy": "fixed"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "ed718a1e"
+      },
+      "scenarioHash": "eb7939aa17a596fe29b416be8ee6b3d52a523fc5803a1a3bf7a7de0adcc461ff",
+      "geologyHash": "4bb1793974498f69ddd4bb7e1708e87a7e95294900e20aa7c56e81e7cb3d2933",
+      "hydrogenHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": {
+        "veinGroups": 0,
+        "veinCells": 0,
+        "maxCellFraction": 0.13752532464615,
+        "maxGroupFraction": 0,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.7959311218261016,
+              "max": 0.8032500747441543
+            },
+            "medium": {
+              "min": 0.16380476315939296,
+              "max": 0.17621002739356328
+            },
+            "high": {
+              "min": 0.026297387865763983,
+              "max": 0.03392571545524605
+            }
+          },
+          "vein": {
+            "low": null,
+            "medium": null,
+            "high": null
+          },
+          "deep": {
+            "low": null,
+            "medium": null,
+            "high": null
+          }
+        }
+      }
+    },
+    "phobos": {
+      "config": {
+        "totalOreU": 4706625.349,
+        "typeShares": {
+          "surface": 0.3429038160834452,
+          "vein": 0.238117544690309,
+          "deep": 0.4189786392262458
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.3345314502133988,
+            "medium": 0.5220838526589796,
+            "high": 0.1433846971276216
+          },
+          "vein": {
+            "low": 0.30232896357774736,
+            "medium": 0.5652847031131387,
+            "high": 0.13238633330911398
+          },
+          "deep": {
+            "low": 0.17944937874097378,
+            "medium": 0.338900581006892,
+            "high": 0.4816500402521342
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:phobos:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "d0969f84"
+      },
+      "scenarioHash": "0d4c5e4638bfb52da8684ffbc775d99469052bd04a19b8137db534b344fe3d5a",
+      "geologyHash": "75846913c50169207f0679006a74e3fcd418f17d41eeade2e737f680b2d6fdcc",
+      "hydrogenHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": {
+        "veinGroups": 5,
+        "veinCells": 17,
+        "maxCellFraction": 0.1771345393312715,
+        "maxGroupFraction": 0.33198159779547703,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.33130431852011855,
+              "max": 0.3385374031056362
+            },
+            "medium": {
+              "min": 0.5168019481822184,
+              "max": 0.5273393929935326
+            },
+            "high": {
+              "min": 0.1395818958014271,
+              "max": 0.14699774960726714
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.2975956264266614,
+              "max": 0.31743526388312315
+            },
+            "medium": {
+              "min": 0.5347271017543966,
+              "max": 0.5798706829473372
+            },
+            "high": {
+              "min": 0.11793163324353707,
+              "max": 0.15049601375704122
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.1764009167328769,
+              "max": 0.18329345772790848
+            },
+            "medium": {
+              "min": 0.3319277859077068,
+              "max": 0.3450592185862572
+            },
+            "high": {
+              "min": 0.4781812194764112,
+              "max": 0.48551722495550853
+            }
+          }
+        }
+      }
+    },
+    "deimos": {
+      "config": {
+        "totalOreU": 669282.227,
+        "typeShares": {
+          "surface": 0.6376876837686387,
+          "vein": 0.12370828341910063,
+          "deep": 0.23860403281226064
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.28057098112767564,
+            "medium": 0.6356920592579991,
+            "high": 0.08373695961432531
+          },
+          "vein": {
+            "low": 0.4441081383265555,
+            "medium": 0.33573841783218084,
+            "high": 0.22015344384126365
+          },
+          "deep": {
+            "low": 0.14114675339777022,
+            "medium": 0.19445680319797254,
+            "high": 0.6643964434042573
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:deimos:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "2c26c450"
+      },
+      "scenarioHash": "b232bb995c8aee32d11f7787a5871cc6f558c4e0f83cfbdc960cc124e1a0610b",
+      "geologyHash": "543d07745ac68639d7d58dd6c79933f0319b425411d72201a8a7f2ebc9139ddb",
+      "hydrogenHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": {
+        "veinGroups": 1,
+        "veinCells": 6,
+        "maxCellFraction": 0.08311797438481809,
+        "maxGroupFraction": 1,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.27607869818612657,
+              "max": 0.2836760659440579
+            },
+            "medium": {
+              "min": 0.6289071343043088,
+              "max": 0.6424144053519905
+            },
+            "high": {
+              "min": 0.08082145124260474,
+              "max": 0.08847079450037468
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.4393592951291854,
+              "max": 0.44593371500015805
+            },
+            "medium": {
+              "min": 0.33415474838269665,
+              "max": 0.34509027196345654
+            },
+            "high": {
+              "min": 0.21555043290735806,
+              "max": 0.22169334230938578
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.13790454769562166,
+              "max": 0.14435952857750634
+            },
+            "medium": {
+              "min": 0.18879964235906732,
+              "max": 0.1995761419843627
+            },
+            "high": {
+              "min": 0.6601454556214024,
+              "max": 0.6677450189760287
+            }
+          }
+        }
+      }
+    },
+    "io": {
+      "config": {
+        "totalOreU": 4240876180.538,
+        "typeShares": {
+          "surface": 0.5232385152499525,
+          "vein": 0.3049427809224567,
+          "deep": 0.17181870382759093
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.6363211644580589,
+            "medium": 0.2701064327359199,
+            "high": 0.09357240280602126
+          },
+          "vein": {
+            "low": 0.3624997626058758,
+            "medium": 0.4766606014221906,
+            "high": 0.1608396359719336
+          },
+          "deep": {
+            "low": 0.16786900991108267,
+            "medium": 0.31001429630443456,
+            "high": 0.5221166937844828
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:io:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "6c730ead"
+      },
+      "scenarioHash": "f458d97eaa6eaa64829e8a78c6496ce6a21adedc95cf401a4e2a65b7739ae988",
+      "geologyHash": "5673e810b83e4ebf9d9eadfbe25afdebdefc03851ffab275ed9e497088b2f70e",
+      "hydrogenHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": {
+        "veinGroups": 2,
+        "veinCells": 6,
+        "maxCellFraction": 0.1192487436909427,
+        "maxGroupFraction": 0.6293881968820513,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.6329539800573641,
+              "max": 0.6402483234059567
+            },
+            "medium": {
+              "min": 0.2630195677276713,
+              "max": 0.27516913592778275
+            },
+            "high": {
+              "min": 0.08990874625513777,
+              "max": 0.09688252899008319
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.3581341331342979,
+              "max": 0.3678394099104031
+            },
+            "medium": {
+              "min": 0.4674246444270359,
+              "max": 0.48277376122366356
+            },
+            "high": {
+              "min": 0.1567155501060962,
+              "max": 0.16705096865453117
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.16364425650356595,
+              "max": 0.17090852122871464
+            },
+            "medium": {
+              "min": 0.30596564875597876,
+              "max": 0.316690943992313
+            },
+            "high": {
+              "min": 0.5185811377001454,
+              "max": 0.5255586280935902
+            }
+          }
+        }
+      }
+    },
+    "europa": {
+      "config": {
+        "totalOreU": 13052104412.295,
+        "typeShares": {
+          "surface": 0.5654673445246559,
+          "vein": 0.3047513454393737,
+          "deep": 0.12978131003597038
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.3051148879225366,
+            "medium": 0.6760433712718077,
+            "high": 0.01884174080565572
+          },
+          "vein": {
+            "low": 0.27736878525465725,
+            "medium": 0.5506504780380055,
+            "high": 0.1719807367073372
+          },
+          "deep": {
+            "low": 0.04431108136894181,
+            "medium": 0.7044625396770425,
+            "high": 0.25122637895401567
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:europa:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "5286b61f"
+      },
+      "scenarioHash": "03674559c2bcc88b91e5cfdf4fb6045d940d2600b2a81e6b5182515f635fc963",
+      "geologyHash": "0a5ea37b107f57469e35c50a68639819c641b2f5c5bfdfcf5e3cfead961fa41a",
+      "hydrogenHash": "1feb3a01adf1a2707a4eb0a8e97ca47d796d92725dc70cc0d01fa40ca6bf2ecc",
+      "before": {
+        "veinGroups": 2,
+        "veinCells": 5,
+        "maxCellFraction": 0.1299442570114851,
+        "maxGroupFraction": 0.6753195010645974,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.30096186235760847,
+              "max": 0.3082995367779354
+            },
+            "medium": {
+              "min": 0.6702084403526452,
+              "max": 0.683163389880624
+            },
+            "high": {
+              "min": 0.014125534354951395,
+              "max": 0.021793730431478635
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.2675684773630876,
+              "max": 0.2960651851452369
+            },
+            "medium": {
+              "min": 0.5450598258597943,
+              "max": 0.5549821068009528
+            },
+            "high": {
+              "min": 0.1588749889949688,
+              "max": 0.17812430530175355
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.04060137347674781,
+              "max": 0.04789952882363313
+            },
+            "medium": {
+              "min": 0.6988141723423473,
+              "max": 0.7108114604222797
+            },
+            "high": {
+              "min": 0.24764983590156703,
+              "max": 0.2549930040540632
+            }
+          }
+        }
+      }
+    },
+    "ganymede": {
+      "config": {
+        "totalOreU": 5812532050.114,
+        "typeShares": {
+          "surface": 0.524906420116055,
+          "vein": 0.2697835909853581,
+          "deep": 0.2053099888985867
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.5125194693915547,
+            "medium": 0.46168484372086815,
+            "high": 0.025795686887577177
+          },
+          "vein": {
+            "low": 0.3065306202508509,
+            "medium": 0.48853286160156134,
+            "high": 0.2049365181475878
+          },
+          "deep": {
+            "low": 0.06335242511238903,
+            "medium": 0.5580027647130191,
+            "high": 0.37864481017459184
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:ganymede:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "90f5ac09"
+      },
+      "scenarioHash": "446bd789586d4b9f43c2e11bcf9ed5f8e494d46ec377737c3ca2b962bb76aacf",
+      "geologyHash": "bc316a9cb3c8638f9aed57d0134bc603c34d0f00cba716b08e706595f319077c",
+      "hydrogenHash": "bfe2aadf10adfbd5a43f18cfd004b96c20df0d12b9f16b4d9081cf842ee4a8e8",
+      "before": {
+        "veinGroups": 5,
+        "veinCells": 16,
+        "maxCellFraction": 0.08250401358089621,
+        "maxGroupFraction": 0.4831244934422249,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.5088090528146266,
+              "max": 0.51627374691599
+            },
+            "medium": {
+              "min": 0.45572279501231727,
+              "max": 0.4687325816721689
+            },
+            "high": {
+              "min": 0.0222450553814013,
+              "max": 0.029860416123836157
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.29018007448781635,
+              "max": 0.3146292953351548
+            },
+            "medium": {
+              "min": 0.4750075315655513,
+              "max": 0.5175525876813872
+            },
+            "high": {
+              "min": 0.19125457338808435,
+              "max": 0.21746080784319302
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.05989592613376817,
+              "max": 0.06707176402308186
+            },
+            "medium": {
+              "min": 0.5527853185919814,
+              "max": 0.5644853626614206
+            },
+            "high": {
+              "min": 0.37466732143013104,
+              "max": 0.3824958754625015
+            }
+          }
+        }
+      }
+    },
+    "callisto": {
+      "config": {
+        "totalOreU": 21729276137.17,
+        "typeShares": {
+          "surface": 0.7201142580040685,
+          "vein": 0.10855773087774671,
+          "deep": 0.17132801111818483
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.7489881435758434,
+            "medium": 0.16031594306463376,
+            "high": 0.09069591335952282
+          },
+          "vein": {
+            "low": 0.438878841418773,
+            "medium": 0.16483282470144323,
+            "high": 0.3962883338797838
+          },
+          "deep": {
+            "low": 0.04307821185328066,
+            "medium": 0.4291904261149466,
+            "high": 0.5277313620317727
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:callisto:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "8a1149de"
+      },
+      "scenarioHash": "00e52dff7e6e1c2f576745b8750c21d6c3c5b74ee3816e27f67d4d65cab92c55",
+      "geologyHash": "066f83de1609b9b3421112b8a09acbbc661516c278e67d2f39ad616f802aaa9d",
+      "hydrogenHash": "a98edfcf3e33b3b77a9237dd998b7a6200c434ee049258c0978630f1850e4fa3",
+      "before": {
+        "veinGroups": 2,
+        "veinCells": 10,
+        "maxCellFraction": 0.10390407462975197,
+        "maxGroupFraction": 0.7795926091903362,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.745753082677859,
+              "max": 0.7535049438943594
+            },
+            "medium": {
+              "min": 0.15302147354752912,
+              "max": 0.16622817108974947
+            },
+            "high": {
+              "min": 0.0877993648385268,
+              "max": 0.09527474390320595
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.424073626584676,
+              "max": 0.4436671714497031
+            },
+            "medium": {
+              "min": 0.15844059627054485,
+              "max": 0.1836820194508717
+            },
+            "high": {
+              "min": 0.39107784534012213,
+              "max": 0.3993519299938275
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.038588020949083014,
+              "max": 0.0460988277666444
+            },
+            "medium": {
+              "min": 0.4239590996215292,
+              "max": 0.43687457646338135
+            },
+            "high": {
+              "min": 0.523676729405823,
+              "max": 0.5302972387695339
+            }
+          }
+        }
+      }
+    },
+    "titan": {
+      "config": {
+        "totalOreU": 24672141974.658,
+        "typeShares": {
+          "surface": 0.3656979731803136,
+          "vein": 0.3252796762687189,
+          "deep": 0.3090223505509676
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.6822350146481768,
+            "medium": 0.26422408525599156,
+            "high": 0.0535409000958316
+          },
+          "vein": {
+            "low": 0.39088025465607645,
+            "medium": 0.352913458738476,
+            "high": 0.25620628660544753
+          },
+          "deep": {
+            "low": 0.1259222685196437,
+            "medium": 0.3681474794563837,
+            "high": 0.5059302520239726
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:titan:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "f91617cb"
+      },
+      "scenarioHash": "eccf1104538c1de5a353ea54e40646b4bdc5961ea2d565a2c863365492d7c930",
+      "geologyHash": "ae050c63b43ea98108633587a70360468b22002e4db946e749a9c76ea0bcef40",
+      "hydrogenHash": "c1549e928d59fb0b3346d581cbbd7268b8218555816f17de788f153d9c721dff",
+      "before": {
+        "veinGroups": 3,
+        "veinCells": 12,
+        "maxCellFraction": 0.10317931622474327,
+        "maxGroupFraction": 0.5540039963942915,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.6779621424476765,
+              "max": 0.6854177356462143
+            },
+            "medium": {
+              "min": 0.25827557582163974,
+              "max": 0.2709769115404949
+            },
+            "high": {
+              "min": 0.05023243439375082,
+              "max": 0.057772737434046664
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.3842811255867519,
+              "max": 0.4048300577069559
+            },
+            "medium": {
+              "min": 0.341848171289206,
+              "max": 0.3665446821089242
+            },
+            "high": {
+              "min": 0.24477137591184248,
+              "max": 0.2661219331441181
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.12256658546806493,
+              "max": 0.12947945118316628
+            },
+            "medium": {
+              "min": 0.36200693339548284,
+              "max": 0.3735561522233414
+            },
+            "high": {
+              "min": 0.5029482615472337,
+              "max": 0.5106123321050366
+            }
+          }
+        }
+      }
+    },
+    "enceladus": {
+      "config": {
+        "totalOreU": 248867240.205,
+        "typeShares": {
+          "surface": 0.6242531958427773,
+          "vein": 0.22047970419824972,
+          "deep": 0.1552670999589729
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.44901053177891304,
+            "medium": 0.5049590625194832,
+            "high": 0.046030405701603744
+          },
+          "vein": {
+            "low": 0.1499210768379271,
+            "medium": 0.7211648429743945,
+            "high": 0.12891408018767833
+          },
+          "deep": {
+            "low": 0.11347198170376942,
+            "medium": 0.2981488784006797,
+            "high": 0.5883791398955509
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:enceladus:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "a50de54d"
+      },
+      "scenarioHash": "ed6067e867806a0101562f714b323e3bbd0924962ef44ad2adc32673419e72bb",
+      "geologyHash": "2e649738205552e9bc6c9b2c07df80566bdf40b8ca092108549b364eaa06702c",
+      "hydrogenHash": "56e82b984a5ccfb5df5870406cad01afe986946282c1d7fdd2368f85f81d3233",
+      "before": {
+        "veinGroups": 4,
+        "veinCells": 17,
+        "maxCellFraction": 0.08229685161907668,
+        "maxGroupFraction": 0.4443553696994868,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.4456734132093647,
+              "max": 0.45309954558846444
+            },
+            "medium": {
+              "min": 0.4985211868618852,
+              "max": 0.5108269443397647
+            },
+            "high": {
+              "min": 0.04266134493848832,
+              "max": 0.0499235586771235
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.14108125306230085,
+              "max": 0.16872677356127697
+            },
+            "medium": {
+              "min": 0.6903629335039311,
+              "max": 0.7461438519493693
+            },
+            "high": {
+              "min": 0.11074712830798498,
+              "max": 0.14449962755122953
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.10844605894221188,
+              "max": 0.11548800086995782
+            },
+            "medium": {
+              "min": 0.2921924179076594,
+              "max": 0.3047188904687208
+            },
+            "high": {
+              "min": 0.5854557176908827,
+              "max": 0.5924243842946715
+            }
+          }
+        }
+      }
+    },
+    "titania": {
+      "config": {
+        "totalOreU": 988631636.431,
+        "typeShares": {
+          "surface": 0.4190848148417225,
+          "vein": 0.34555221813074455,
+          "deep": 0.2353629670275331
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.4017570721800439,
+            "medium": 0.5705645924177952,
+            "high": 0.02767833540216088
+          },
+          "vein": {
+            "low": 0.44071602914482355,
+            "medium": 0.3575743095483631,
+            "high": 0.20170966130681336
+          },
+          "deep": {
+            "low": 0.15124576130881906,
+            "medium": 0.2564739111158997,
+            "high": 0.5922803275752813
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:titania:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "c27cfbbd"
+      },
+      "scenarioHash": "97808ae37ad11a455a2a236b7aee9b019007a9b93c2ca95b614d8f7917f605c6",
+      "geologyHash": "2022aa3b7b852785980626570a2f15ca48bcbdcec04c7090c0da0074faca9696",
+      "hydrogenHash": "939eecf25505ff8c3f095cb1dfb57b15fa0c5fb22dbc2d2924dff34d26d91f04",
+      "before": {
+        "veinGroups": 4,
+        "veinCells": 14,
+        "maxCellFraction": 0.09177576783355601,
+        "maxGroupFraction": 0.49468758295839277,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.39815554880322745,
+              "max": 0.4053376266730004
+            },
+            "medium": {
+              "min": 0.5650760849849344,
+              "max": 0.5771869718194964
+            },
+            "high": {
+              "min": 0.02451319754291226,
+              "max": 0.032431722443363564
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.4290855068304071,
+              "max": 0.45831756143462454
+            },
+            "medium": {
+              "min": 0.33326592433051117,
+              "max": 0.3723009541013177
+            },
+            "high": {
+              "min": 0.1954620529937233,
+              "max": 0.22350108370023325
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.14819848104895728,
+              "max": 0.1553078122116037
+            },
+            "medium": {
+              "min": 0.2501988310527634,
+              "max": 0.2623465566199852
+            },
+            "high": {
+              "min": 0.588913789839671,
+              "max": 0.5964546412855397
+            }
+          }
+        }
+      }
+    },
+    "triton": {
+      "config": {
+        "totalOreU": 1184172269.525,
+        "typeShares": {
+          "surface": 0.5489036297453037,
+          "vein": 0.23759413969376658,
+          "deep": 0.21350223056092987
+        },
+        "gradeTargets": {
+          "surface": {
+            "low": 0.5228962805937045,
+            "medium": 0.446939955218695,
+            "high": 0.030163764187600466
+          },
+          "vein": {
+            "low": 0.2953348003327847,
+            "medium": 0.32178346398286517,
+            "high": 0.38288173568435013
+          },
+          "deep": {
+            "low": 0.13103054830105976,
+            "medium": 0.1999123501055874,
+            "high": 0.6690571015933529
+          }
+        },
+        "jitter": 0.04,
+        "certainty": "provisional",
+        "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+        "worldSeed": "sol:triton:resources:v1",
+        "generatorVersion": 1,
+        "budgetPolicy": "procedural"
+      },
+      "grid": {
+        "type": "icosahedral-dual",
+        "generatorVersion": 1,
+        "frequency": 2,
+        "orientationId": "body-local-v1",
+        "cellCount": 42,
+        "gridFingerprint": "86458cd7"
+      },
+      "scenarioHash": "592a8bdc82f06bed75b73046428d8766d685732e2224ddb829c7b29d3a8b09a9",
+      "geologyHash": "d7e2a2e8465ff886d437fb1934f22f6db24602f169a2f5ccfed1459e577014df",
+      "hydrogenHash": "57420e27c2c6b7737483d43a4c1fe136223a3a2c9b85f842c826e2e308036290",
+      "before": {
+        "veinGroups": 3,
+        "veinCells": 8,
+        "maxCellFraction": 0.19836164658898975,
+        "maxGroupFraction": 0.7531860757591797,
+        "qualityRanges": {
+          "surface": {
+            "low": {
+              "min": 0.5190522051231923,
+              "max": 0.5266260343438002
+            },
+            "medium": {
+              "min": 0.439809537725829,
+              "max": 0.4532574024501521
+            },
+            "high": {
+              "min": 0.027000706331313445,
+              "max": 0.034534994193793134
+            }
+          },
+          "vein": {
+            "low": {
+              "min": 0.26880470541518975,
+              "max": 0.3023002767826324
+            },
+            "medium": {
+              "min": 0.2968954921352698,
+              "max": 0.35655038042245646
+            },
+            "high": {
+              "min": 0.37359479839821275,
+              "max": 0.40323328983132656
+            }
+          },
+          "deep": {
+            "low": {
+              "min": 0.12613681228485238,
+              "max": 0.1329939671608461
+            },
+            "medium": {
+              "min": 0.19582436725253727,
+              "max": 0.20996665021719885
+            },
+            "high": {
+              "min": 0.6638965374979487,
+              "max": 0.6714932628705463
+            }
+          }
+        }
+      }
+    }
+  }
+}

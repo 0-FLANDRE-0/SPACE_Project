@@ -4,6 +4,7 @@ export const MAX_RESOURCE_U=1e12; // prototype numeric safety bound, not a reser
 export const MAX_POPULATION_PERSONS=1e12;
 export const RESOURCE_DEFINITIONS=new Map([
  ['ore',{id:'ore',name:'광석',unit:'U',naturalDeposit:true}],
+ ['hydrogen',{id:'hydrogen',name:'수소',unit:'U',naturalDeposit:false,supplySource:true}],
  ['alloy',{id:'alloy',name:'합금',unit:'U',naturalDeposit:false}],
  ['credits',{id:'credits',name:'크레딧',unit:'C',naturalDeposit:false}],
 ]);

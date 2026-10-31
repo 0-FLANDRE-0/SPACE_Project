@@ -1,0 +1,2589 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "triton",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "86458cd7"
+  },
+  "geology": {
+    "cells": {
+      "sol:triton:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 77.789,
+          "radiationLevel": null,
+          "terrainObstacle": 0.275951,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-0-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1426336.109,
+            "gradeProbabilities": {
+              "low": 0.5503925247553643,
+              "medium": 0.43589720894078626,
+              "high": 0.013710266303849479
+            },
+            "extractionDifficulty": 10.955,
+            "processingDifficulty": 55.78,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-0-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 11800510.883,
+            "gradeProbabilities": {
+              "low": 0.14555348005796387,
+              "medium": 0.18419859056982157,
+              "high": 0.6702479293722146
+            },
+            "extractionDifficulty": 64.219,
+            "processingDifficulty": 55.78,
+            "discoveryTier": 4,
+            "accessDepth": 92.581,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.984,
+          "radiationLevel": null,
+          "terrainObstacle": 0.234084,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-1-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 13484235.046,
+            "gradeProbabilities": {
+              "low": 0.5077900506036578,
+              "medium": 0.4394233620680414,
+              "high": 0.05278658732830081
+            },
+            "extractionDifficulty": 30.925,
+            "processingDifficulty": 19.43,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-1-1",
+            "groupId": "g2-sol-triton-446fa496-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 31745366.98,
+            "gradeProbabilities": {
+              "low": 0.3176715041501059,
+              "medium": 0.34549516213283255,
+              "high": 0.33683333371706153
+            },
+            "extractionDifficulty": 38.061,
+            "processingDifficulty": 19.43,
+            "discoveryTier": 1,
+            "accessDepth": 12.594,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.542,
+          "radiationLevel": null,
+          "terrainObstacle": 0.282677,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-2-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4838354.889,
+            "gradeProbabilities": {
+              "low": 0.5728962805937046,
+              "medium": 0.39737740963037244,
+              "high": 0.029726309775923013
+            },
+            "extractionDifficulty": 20.868,
+            "processingDifficulty": 25.092,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.867,
+          "radiationLevel": null,
+          "terrainObstacle": 0.258586,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-3-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 16357865.612,
+            "gradeProbabilities": {
+              "low": 0.5286110954938587,
+              "medium": 0.4521778543355265,
+              "high": 0.01921105017061489
+            },
+            "extractionDifficulty": 30.351,
+            "processingDifficulty": 52.202,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-3-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 6395014.928,
+            "gradeProbabilities": {
+              "low": 0.16444330184694148,
+              "medium": 0.14685878166882138,
+              "high": 0.6886979164842372
+            },
+            "extractionDifficulty": 73.02,
+            "processingDifficulty": 52.202,
+            "discoveryTier": 3,
+            "accessDepth": 72.729,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.909,
+          "radiationLevel": null,
+          "terrainObstacle": 0.16123,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-4-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 36593580.231,
+            "gradeProbabilities": {
+              "low": 0.5110285354113707,
+              "medium": 0.4546316436345481,
+              "high": 0.03433982095408114
+            },
+            "extractionDifficulty": 26.48,
+            "processingDifficulty": 21.111,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-4-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 19185786.067,
+            "gradeProbabilities": {
+              "low": 0.15887438910037976,
+              "medium": 0.19023428199607173,
+              "high": 0.6508913289035485
+            },
+            "extractionDifficulty": 68.569,
+            "processingDifficulty": 21.111,
+            "discoveryTier": 5,
+            "accessDepth": 62.9,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.673,
+          "radiationLevel": null,
+          "terrainObstacle": 0.235595,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-5-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5840025.152,
+            "gradeProbabilities": {
+              "low": 0.5208216169958145,
+              "medium": 0.4416712559788672,
+              "high": 0.03750712702531829
+            },
+            "extractionDifficulty": 32.692,
+            "processingDifficulty": 50.24,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.682,
+          "radiationLevel": null,
+          "terrainObstacle": 0.215118,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-6-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7420873.863,
+            "gradeProbabilities": {
+              "low": 0.5413087381535168,
+              "medium": 0.44168148224941345,
+              "high": 0.017009779597069796
+            },
+            "extractionDifficulty": 22.794,
+            "processingDifficulty": 47.657,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-6-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 30188247.597,
+            "gradeProbabilities": {
+              "low": 0.13668287732816134,
+              "medium": 0.193476210884857,
+              "high": 0.6698409117869817
+            },
+            "extractionDifficulty": 83.312,
+            "processingDifficulty": 47.657,
+            "discoveryTier": 5,
+            "accessDepth": 94.06,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.617,
+          "radiationLevel": null,
+          "terrainObstacle": 0.291887,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-7-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3802303.55,
+            "gradeProbabilities": {
+              "low": 0.48791182198317945,
+              "medium": 0.47610260392274256,
+              "high": 0.035985574094077925
+            },
+            "extractionDifficulty": 31.663,
+            "processingDifficulty": 26.775,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-7-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 11459069.338,
+            "gradeProbabilities": {
+              "low": 0.14837104496888243,
+              "medium": 0.18584944742681464,
+              "high": 0.6657795076043029
+            },
+            "extractionDifficulty": 80.326,
+            "processingDifficulty": 26.775,
+            "discoveryTier": 3,
+            "accessDepth": 67.194,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.498,
+          "radiationLevel": null,
+          "terrainObstacle": 0.361744,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-8-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 18322822.631,
+            "gradeProbabilities": {
+              "low": 0.4881479514879523,
+              "medium": 0.4723228857077041,
+              "high": 0.039529162804343584
+            },
+            "extractionDifficulty": 16.812,
+            "processingDifficulty": 37.452,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.273,
+          "radiationLevel": null,
+          "terrainObstacle": 0.256725,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-9-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 22603404.238,
+            "gradeProbabilities": {
+              "low": 0.4891988488940282,
+              "medium": 0.5022531177520336,
+              "high": 0.008548033353938205
+            },
+            "extractionDifficulty": 31.105,
+            "processingDifficulty": 69.73,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-9-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 12153893.587,
+            "gradeProbabilities": {
+              "low": 0.11582330079490605,
+              "medium": 0.21223310228124515,
+              "high": 0.6719435969238488
+            },
+            "extractionDifficulty": 78.956,
+            "processingDifficulty": 69.73,
+            "discoveryTier": 3,
+            "accessDepth": 81.655,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.853,
+          "radiationLevel": null,
+          "terrainObstacle": 0.277795,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-10-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3433547.284,
+            "gradeProbabilities": {
+              "low": 0.568469973914993,
+              "medium": 0.40569442728920413,
+              "high": 0.02583559879580288
+            },
+            "extractionDifficulty": 33.391,
+            "processingDifficulty": 18.419,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 76.54,
+          "radiationLevel": null,
+          "terrainObstacle": 0.108959,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-11-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3411433.159,
+            "gradeProbabilities": {
+              "low": 0.5175516712794465,
+              "medium": 0.4678427579242691,
+              "high": 0.014605570796284415
+            },
+            "extractionDifficulty": 10.934,
+            "processingDifficulty": 51.393,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-11-0",
+            "groupId": "g2-sol-triton-446fa496-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 4034754.55,
+            "gradeProbabilities": {
+              "low": 0.27544986995164883,
+              "medium": 0.32139729307830534,
+              "high": 0.4031528369700459
+            },
+            "extractionDifficulty": 31.452,
+            "processingDifficulty": 51.393,
+            "discoveryTier": 2,
+            "accessDepth": 18.621,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 91.918,
+          "radiationLevel": null,
+          "terrainObstacle": 0.145206,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-12-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7583792.267,
+            "gradeProbabilities": {
+              "low": 0.49962645548812473,
+              "medium": 0.48408279347674427,
+              "high": 0.016290751035131064
+            },
+            "extractionDifficulty": 31.783,
+            "processingDifficulty": 39.665,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-12-2",
+            "groupId": "g2-sol-triton-446fa496-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 6893515.477,
+            "gradeProbabilities": {
+              "low": 0.2706428398422815,
+              "medium": 0.33873069633271913,
+              "high": 0.3906264638249993
+            },
+            "extractionDifficulty": 47.984,
+            "processingDifficulty": 39.665,
+            "discoveryTier": 1,
+            "accessDepth": 22.111,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.545,
+          "radiationLevel": null,
+          "terrainObstacle": 0.107977,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-13-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 13283140.555,
+            "gradeProbabilities": {
+              "low": 0.5643280737961476,
+              "medium": 0.3866078092266598,
+              "high": 0.04906411697719259
+            },
+            "extractionDifficulty": 22.939,
+            "processingDifficulty": 37.752,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-13-0",
+            "groupId": "g2-sol-triton-446fa496-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 35625145.897,
+            "gradeProbabilities": {
+              "low": 0.2778185678225774,
+              "medium": 0.28929969649307247,
+              "high": 0.4328817356843501
+            },
+            "extractionDifficulty": 41.676,
+            "processingDifficulty": 37.752,
+            "discoveryTier": 1,
+            "accessDepth": 8.954,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.015,
+          "radiationLevel": null,
+          "terrainObstacle": 0.125311,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-14-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 45561602.947,
+            "gradeProbabilities": {
+              "low": 0.5444574512035988,
+              "medium": 0.44400866384005655,
+              "high": 0.011533884956344689
+            },
+            "extractionDifficulty": 11.421,
+            "processingDifficulty": 66.375,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.092,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118037,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-15-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 16583825.774,
+            "gradeProbabilities": {
+              "low": 0.5423701813933786,
+              "medium": 0.413898341420049,
+              "high": 0.04373147718657243
+            },
+            "extractionDifficulty": 28.05,
+            "processingDifficulty": 29.12,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 88.302,
+          "radiationLevel": null,
+          "terrainObstacle": 0.109302,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-16-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 8167896.99,
+            "gradeProbabilities": {
+              "low": 0.5012343497607558,
+              "medium": 0.48951229611124897,
+              "high": 0.009253354127995248
+            },
+            "extractionDifficulty": 11.887,
+            "processingDifficulty": 61.88,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-16-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 5232876.124,
+            "gradeProbabilities": {
+              "low": 0.08103054830105975,
+              "medium": 0.2753245265643911,
+              "high": 0.6436449251345492
+            },
+            "extractionDifficulty": 73.26,
+            "processingDifficulty": 61.88,
+            "discoveryTier": 5,
+            "accessDepth": 90.658,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.091,
+          "radiationLevel": null,
+          "terrainObstacle": 0.112234,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-17-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2810112.48,
+            "gradeProbabilities": {
+              "low": 0.5026798282342555,
+              "medium": 0.48063752525402426,
+              "high": 0.016682646511720262
+            },
+            "extractionDifficulty": 24.097,
+            "processingDifficulty": 45.016,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-17-2",
+            "groupId": "g2-sol-triton-446fa496-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 4553583.486,
+            "gradeProbabilities": {
+              "low": 0.29803569952897063,
+              "medium": 0.32701142156871044,
+              "high": 0.374952878902319
+            },
+            "extractionDifficulty": 48.314,
+            "processingDifficulty": 45.016,
+            "discoveryTier": 2,
+            "accessDepth": 30.406,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 87.26,
+          "radiationLevel": null,
+          "terrainObstacle": 0.121453,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-18-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6863772.146,
+            "gradeProbabilities": {
+              "low": 0.5082647582527913,
+              "medium": 0.45099017918708345,
+              "high": 0.040745062560125285
+            },
+            "extractionDifficulty": 29.164,
+            "processingDifficulty": 54.948,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.201,
+          "radiationLevel": null,
+          "terrainObstacle": 0.217252,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-19-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 54574708.49,
+            "gradeProbabilities": {
+              "low": 0.5006392576121492,
+              "medium": 0.4674780678929235,
+              "high": 0.031882674494927266
+            },
+            "extractionDifficulty": 10.208,
+            "processingDifficulty": 15.163,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-19-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 15187409.434,
+            "gradeProbabilities": {
+              "low": 0.08250568800694028,
+              "medium": 0.2837860601626482,
+              "high": 0.6337082518304116
+            },
+            "extractionDifficulty": 74.211,
+            "processingDifficulty": 15.163,
+            "discoveryTier": 3,
+            "accessDepth": 87.382,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 94.484,
+          "radiationLevel": null,
+          "terrainObstacle": 0.119138,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-20-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 16178429.657,
+            "gradeProbabilities": {
+              "low": 0.5423828738129812,
+              "medium": 0.42489301560748494,
+              "high": 0.03272411057953386
+            },
+            "extractionDifficulty": 18.606,
+            "processingDifficulty": 32.194,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 85.169,
+          "radiationLevel": null,
+          "terrainObstacle": 0.108081,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-21-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3843825.627,
+            "gradeProbabilities": {
+              "low": 0.5610682569890263,
+              "medium": 0.41187053206991675,
+              "high": 0.02706121094105694
+            },
+            "extractionDifficulty": 21.837,
+            "processingDifficulty": 24.426,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 101.262,
+          "radiationLevel": null,
+          "terrainObstacle": 0.141156,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-22-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5736747.699,
+            "gradeProbabilities": {
+              "low": 0.5668742864649219,
+              "medium": 0.42033922502807697,
+              "high": 0.012786488507001148
+            },
+            "extractionDifficulty": 34.723,
+            "processingDifficulty": 25.176,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-22-1",
+            "groupId": "g2-sol-triton-446fa496-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 6800407.514,
+            "gradeProbabilities": {
+              "low": 0.3431852472743872,
+              "medium": 0.3188344821781063,
+              "high": 0.33798027054750646
+            },
+            "extractionDifficulty": 41.974,
+            "processingDifficulty": 25.176,
+            "discoveryTier": 2,
+            "accessDepth": 25.651,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-22-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 32339734.959,
+            "gradeProbabilities": {
+              "low": 0.16016504127623127,
+              "medium": 0.1999243455259928,
+              "high": 0.639910613197776
+            },
+            "extractionDifficulty": 68.062,
+            "processingDifficulty": 25.176,
+            "discoveryTier": 5,
+            "accessDepth": 84.418,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.221,
+          "radiationLevel": null,
+          "terrainObstacle": 0.129595,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-23-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5527281.83,
+            "gradeProbabilities": {
+              "low": 0.5256898737939395,
+              "medium": 0.42198223367556276,
+              "high": 0.052327892530497716
+            },
+            "extractionDifficulty": 28.602,
+            "processingDifficulty": 56.911,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-23-2",
+            "groupId": "g2-sol-triton-446fa496-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 5693763.305,
+            "gradeProbabilities": {
+              "low": 0.28507614612837084,
+              "medium": 0.32969603441930684,
+              "high": 0.3852278194523223
+            },
+            "extractionDifficulty": 54.296,
+            "processingDifficulty": 56.911,
+            "discoveryTier": 1,
+            "accessDepth": 12.473,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.652,
+          "radiationLevel": null,
+          "terrainObstacle": 0.150002,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-24-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 13100884.452,
+            "gradeProbabilities": {
+              "low": 0.4952527628006091,
+              "medium": 0.46904476798479416,
+              "high": 0.0357024692145967
+            },
+            "extractionDifficulty": 18.043,
+            "processingDifficulty": 28.746,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-24-2",
+            "groupId": "g2-sol-triton-446fa496-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 14870934.997,
+            "gradeProbabilities": {
+              "low": 0.31677730320494446,
+              "medium": 0.31232221524153503,
+              "high": 0.3709004815535205
+            },
+            "extractionDifficulty": 38.129,
+            "processingDifficulty": 28.746,
+            "discoveryTier": 2,
+            "accessDepth": 17.28,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-24-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 7190883.833,
+            "gradeProbabilities": {
+              "low": 0.11939525984316242,
+              "medium": 0.231555352731585,
+              "high": 0.6490493874252525
+            },
+            "extractionDifficulty": 82.852,
+            "processingDifficulty": 28.746,
+            "discoveryTier": 5,
+            "accessDepth": 70.466,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.459,
+          "radiationLevel": null,
+          "terrainObstacle": 0.138935,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-25-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2560716.262,
+            "gradeProbabilities": {
+              "low": 0.4983291854331173,
+              "medium": 0.4509798575401097,
+              "high": 0.050690957026772954
+            },
+            "extractionDifficulty": 22.711,
+            "processingDifficulty": 46.112,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 101.769,
+          "radiationLevel": null,
+          "terrainObstacle": 0.171694,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-26-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9952128.417,
+            "gradeProbabilities": {
+              "low": 0.48470016179115694,
+              "medium": 0.47593462946340925,
+              "high": 0.03936520874543378
+            },
+            "extractionDifficulty": 29.106,
+            "processingDifficulty": 44.32,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-26-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 16123482.854,
+            "gradeProbabilities": {
+              "low": 0.0932684888697249,
+              "medium": 0.1994849827400491,
+              "high": 0.707246528390226
+            },
+            "extractionDifficulty": 72.837,
+            "processingDifficulty": 44.32,
+            "discoveryTier": 5,
+            "accessDepth": 75.432,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.269,
+          "radiationLevel": null,
+          "terrainObstacle": 0.175247,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-27-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 11829163.451,
+            "gradeProbabilities": {
+              "low": 0.5700968508726179,
+              "medium": 0.3909176049698818,
+              "high": 0.03898554415750033
+            },
+            "extractionDifficulty": 20.789,
+            "processingDifficulty": 56.946,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-27-1",
+            "groupId": "g2-sol-triton-446fa496-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 59946767.023,
+            "gradeProbabilities": {
+              "low": 0.32467864605639674,
+              "medium": 0.33579352750155467,
+              "high": 0.3395278264420486
+            },
+            "extractionDifficulty": 47.517,
+            "processingDifficulty": 56.946,
+            "discoveryTier": 2,
+            "accessDepth": 8.951,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-27-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 46641296.478,
+            "gradeProbabilities": {
+              "low": 0.14833022683592006,
+              "medium": 0.14015459418977783,
+              "high": 0.711515178974302
+            },
+            "extractionDifficulty": 65.286,
+            "processingDifficulty": 56.946,
+            "discoveryTier": 5,
+            "accessDepth": 56.586,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.009,
+          "radiationLevel": null,
+          "terrainObstacle": 0.188728,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-28-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 15539625.281,
+            "gradeProbabilities": {
+              "low": 0.5415550390383664,
+              "medium": 0.4134960021355318,
+              "high": 0.04494895882610177
+            },
+            "extractionDifficulty": 18.658,
+            "processingDifficulty": 66.681,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.442,
+          "radiationLevel": null,
+          "terrainObstacle": 0.385358,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-29-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5128736.09,
+            "gradeProbabilities": {
+              "low": 0.5421450720055735,
+              "medium": 0.43882319284514554,
+              "high": 0.019031735149280964
+            },
+            "extractionDifficulty": 13.451,
+            "processingDifficulty": 46.407,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.051,
+          "radiationLevel": null,
+          "terrainObstacle": 0.372866,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-30-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 20859119.557,
+            "gradeProbabilities": {
+              "low": 0.5050363238808607,
+              "medium": 0.48647321123325843,
+              "high": 0.008490464885880844
+            },
+            "extractionDifficulty": 10.985,
+            "processingDifficulty": 40.949,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 94.924,
+          "radiationLevel": null,
+          "terrainObstacle": 0.315292,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-31-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 44897315.429,
+            "gradeProbabilities": {
+              "low": 0.527148915393872,
+              "medium": 0.45502746379075276,
+              "high": 0.017823620815375266
+            },
+            "extractionDifficulty": 24.855,
+            "processingDifficulty": 29.878,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-31-0",
+            "groupId": "g2-sol-triton-446fa496-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 73519911.523,
+            "gradeProbabilities": {
+              "low": 0.28174175838508975,
+              "medium": 0.30067031089177587,
+              "high": 0.4175879307231344
+            },
+            "extractionDifficulty": 33.809,
+            "processingDifficulty": 29.878,
+            "discoveryTier": 2,
+            "accessDepth": 26.879,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.532,
+          "radiationLevel": null,
+          "terrainObstacle": 0.245137,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-32-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 16329643.949,
+            "gradeProbabilities": {
+              "low": 0.48259644375423394,
+              "medium": 0.49643198622435136,
+              "high": 0.02097157002141467
+            },
+            "extractionDifficulty": 12.282,
+            "processingDifficulty": 42.718,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.914,
+          "radiationLevel": null,
+          "terrainObstacle": 0.381057,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-33-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5011281.316,
+            "gradeProbabilities": {
+              "low": 0.5087301765425387,
+              "medium": 0.4388081115813047,
+              "high": 0.052461711876156565
+            },
+            "extractionDifficulty": 21.7,
+            "processingDifficulty": 15.262,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-33-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 5737606.031,
+            "gradeProbabilities": {
+              "low": 0.08511589339277154,
+              "medium": 0.2615997954131657,
+              "high": 0.6532843111940627
+            },
+            "extractionDifficulty": 66.083,
+            "processingDifficulty": 15.262,
+            "discoveryTier": 3,
+            "accessDepth": 98.041,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.23,
+          "radiationLevel": null,
+          "terrainObstacle": 0.360343,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-34-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7111190.878,
+            "gradeProbabilities": {
+              "low": 0.5041188893368393,
+              "medium": 0.46496949499163437,
+              "high": 0.030911615671526272
+            },
+            "extractionDifficulty": 28.105,
+            "processingDifficulty": 36.873,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-34-0",
+            "groupId": "g2-sol-triton-446fa496-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 9233220.268,
+            "gradeProbabilities": {
+              "low": 0.2453348003327847,
+              "medium": 0.3418699009003473,
+              "high": 0.41279529876686805
+            },
+            "extractionDifficulty": 40.998,
+            "processingDifficulty": 36.873,
+            "discoveryTier": 2,
+            "accessDepth": 22.23,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-34-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 10560192.396,
+            "gradeProbabilities": {
+              "low": 0.1401560295598111,
+              "medium": 0.19853776750475993,
+              "high": 0.661306202935429
+            },
+            "extractionDifficulty": 76.721,
+            "processingDifficulty": 36.873,
+            "discoveryTier": 5,
+            "accessDepth": 78.717,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.199,
+          "radiationLevel": null,
+          "terrainObstacle": 0.332255,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-35-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3260292.577,
+            "gradeProbabilities": {
+              "low": 0.5697765263568907,
+              "medium": 0.3789348120819793,
+              "high": 0.05128866156112998
+            },
+            "extractionDifficulty": 26.748,
+            "processingDifficulty": 39.302,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.167,
+          "radiationLevel": null,
+          "terrainObstacle": 0.332036,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-36-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 33986129.097,
+            "gradeProbabilities": {
+              "low": 0.5600009601417907,
+              "medium": 0.4146644053368628,
+              "high": 0.025334634521346527
+            },
+            "extractionDifficulty": 30.565,
+            "processingDifficulty": 28.286,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.217,
+          "radiationLevel": null,
+          "terrainObstacle": 0.388776,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-37-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27739698.88,
+            "gradeProbabilities": {
+              "low": 0.49578434597322885,
+              "medium": 0.45431798800528633,
+              "high": 0.04989766602148483
+            },
+            "extractionDifficulty": 10.943,
+            "processingDifficulty": 51.728,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.75,
+          "radiationLevel": null,
+          "terrainObstacle": 0.209871,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-38-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 33786835.817,
+            "gradeProbabilities": {
+              "low": 0.558610340408394,
+              "medium": 0.3912189747482585,
+              "high": 0.05017068484334753
+            },
+            "extractionDifficulty": 24.284,
+            "processingDifficulty": 69.002,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-vein-38-2",
+            "groupId": "g2-sol-triton-446fa496-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 28435020.607,
+            "gradeProbabilities": {
+              "low": 0.26963294623933176,
+              "medium": 0.3537174931873189,
+              "high": 0.37664956057334936
+            },
+            "extractionDifficulty": 33.988,
+            "processingDifficulty": 69.002,
+            "discoveryTier": 2,
+            "accessDepth": 24.947,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.297,
+          "radiationLevel": null,
+          "terrainObstacle": 0.132514,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-39-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 36989386.21,
+            "gradeProbabilities": {
+              "low": 0.527430597637462,
+              "medium": 0.44697452864535864,
+              "high": 0.025594873717179327
+            },
+            "extractionDifficulty": 22.48,
+            "processingDifficulty": 51.264,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.194,
+          "radiationLevel": null,
+          "terrainObstacle": 0.264942,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-40-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 22895196.592,
+            "gradeProbabilities": {
+              "low": 0.5009589774941087,
+              "medium": 0.45440879041427273,
+              "high": 0.04463223209161858
+            },
+            "extractionDifficulty": 21.73,
+            "processingDifficulty": 33.812,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-40-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 7416330.112,
+            "gradeProbabilities": {
+              "low": 0.0834876567950635,
+              "medium": 0.20958756300618608,
+              "high": 0.7069247801987504
+            },
+            "extractionDifficulty": 73.265,
+            "processingDifficulty": 33.812,
+            "discoveryTier": 5,
+            "accessDepth": 91.931,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:triton:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.752,
+          "radiationLevel": null,
+          "terrainObstacle": 0.122565,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-triton-446fa496-surface-41-0",
+            "groupId": "g2-sol-triton-446fa496-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 14769194.505,
+            "gradeProbabilities": {
+              "low": 0.5256297284331394,
+              "medium": 0.45183440857664187,
+              "high": 0.02253586299021876
+            },
+            "extractionDifficulty": 23.629,
+            "processingDifficulty": 69.832,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-triton-446fa496-deep-41-0",
+            "groupId": "g2-sol-triton-446fa496-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 15211086.291,
+            "gradeProbabilities": {
+              "low": 0.08882113279410384,
+              "medium": 0.2921217656125433,
+              "high": 0.6190571015933528
+            },
+            "extractionDifficulty": 64.202,
+            "processingDifficulty": 69.832,
+            "discoveryTier": 4,
+            "accessDepth": 65.483,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:triton:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:triton:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 1184172269.525,
+    "typeShares": {
+      "surface": 0.5489036297453037,
+      "vein": 0.23759413969376658,
+      "deep": 0.21350223056092987
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.5228962805937045,
+        "medium": 0.446939955218695,
+        "high": 0.030163764187600466
+      },
+      "vein": {
+        "low": 0.2953348003327847,
+        "medium": 0.32178346398286517,
+        "high": 0.38288173568435013
+      },
+      "deep": {
+        "low": 0.13103054830105976,
+        "medium": 0.1999123501055874,
+        "high": 0.6690571015933529
+      }
+    },
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:triton:resources:v1",
+    "generatorVersion": 2,
+    "budgetPolicy": "procedural",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 42,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.022622823140700347
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.48259644375423394,
+            "max": 0.5728962805937046,
+            "actualMaxDeviation": 0.050000000000000044
+          },
+          "medium": {
+            "min": 0.3789348120819793,
+            "max": 0.5022531177520336,
+            "actualMaxDeviation": 0.06800514313671568
+          },
+          "high": {
+            "min": 0.008490464885880844,
+            "max": 0.05278658732830081,
+            "actualMaxDeviation": 0.022622823140700347
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 12,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.2453348003327847,
+            "max": 0.3431852472743872,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.28929969649307247,
+            "max": 0.3537174931873189,
+            "actualMaxDeviation": 0.0324837674897927
+          },
+          "high": {
+            "min": 0.33683333371706153,
+            "max": 0.4328817356843501,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 16,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.08103054830105975,
+            "max": 0.16444330184694148,
+            "actualMaxDeviation": 0.05
+          },
+          "medium": {
+            "min": 0.14015459418977783,
+            "max": 0.2921217656125433,
+            "actualMaxDeviation": 0.09220941550695594
+          },
+          "high": {
+            "min": 0.6190571015933528,
+            "max": 0.711515178974302,
+            "actualMaxDeviation": 0.050000000000000044
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 42,
+      "requiredCoverage": 11,
+      "veinCells": 12,
+      "groupCount": 3,
+      "minimumGroupCells": 3,
+      "exceptions": [],
+      "nominalCellCapQuanta": 118417226952,
+      "maxCellFraction": 0.09999999999957776,
+      "maxGroupFraction": 0.43508793911475896
+    }
+  },
+  "hydrogenSources": [
+    {
+      "sourceId": "h1-sol-triton-f507d7f9-0",
+      "tileId": "sol:triton:surface:00028",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 25403674.901,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 66.155,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    },
+    {
+      "sourceId": "h1-sol-triton-f507d7f9-1",
+      "tileId": "sol:triton:surface:00013",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 21687090.197,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 31.184,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    }
+  ],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
+  }
+}

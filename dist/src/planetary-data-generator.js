@@ -2,10 +2,8 @@ import { createSurfaceTemplate, defaultGeology, defaultStartingCell, validateSur
 import { RESOURCE_DEFINITIONS, MAX_RESOURCE_U, MAX_POPULATION_PERSONS } from './resource-definitions.js';
 import { GENERATION_PROFILES, DATA_GENERATOR_VERSION, recommendGenerationProfile, defaultGenerationSeed } from './planetary-generation-profiles.js';
 export const RESOURCE_QUANTA_PER_U=1000;
-export function resourceQuanta(value){
- if(typeof value!=='number'||!Number.isFinite(value)||value<0||value>MAX_RESOURCE_U)throw Error('자원 예산은 0–1e12 U의 유한 수여야 합니다.');
- const q=Math.round(value*RESOURCE_QUANTA_PER_U);if(Math.abs(value*RESOURCE_QUANTA_PER_U-q)>.00001)throw Error('자원 예산/고정 매장량은 0.001 U 단위로 맞추세요.');return q;
-}
+import { resourceQuanta } from './resource-quantities.js';
+export { resourceQuanta };
 export function populationTarget(value){if(value!==null&&(!Number.isSafeInteger(value)||value<0||value>MAX_POPULATION_PERSONS))throw Error('총 인구는 0–1e12의 정수 명수 또는 null이어야 합니다.');return value;}
 // Keyed PRNG streams never depend on iteration/call order or the world clock.
 export function keyedRandom(...keys){let h=2166136261;for(const c of JSON.stringify(keys)){h^=c.charCodeAt(0);h=Math.imul(h,16777619);}h+=0x6D2B79F5;let t=Math.imul(h^h>>>15,1|h);t^=t+Math.imul(t^t>>>7,61|t);return ((t^t>>>14)>>>0)/4294967296;}

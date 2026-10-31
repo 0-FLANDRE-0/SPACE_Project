@@ -1,0 +1,2697 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "callisto",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "8a1149de"
+  },
+  "geology": {
+    "cells": {
+      "sol:callisto:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 80.346,
+          "radiationLevel": null,
+          "terrainObstacle": 0.156407,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-0-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 144362727.733,
+            "gradeProbabilities": {
+              "low": 0.7856361282967917,
+              "medium": 0.17366795834368542,
+              "high": 0.040695913359522815
+            },
+            "extractionDifficulty": 17.187,
+            "processingDifficulty": 32.711,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-0-3",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 32270883.488,
+            "gradeProbabilities": {
+              "low": 0.43389363685220855,
+              "medium": 0.1400091157880219,
+              "high": 0.4260972473597695
+            },
+            "extractionDifficulty": 30.256,
+            "processingDifficulty": 32.711,
+            "discoveryTier": 1,
+            "accessDepth": 23.825,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.637,
+          "radiationLevel": null,
+          "terrainObstacle": 0.118767,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-1-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1156278957.578,
+            "gradeProbabilities": {
+              "low": 0.7477771556907818,
+              "medium": 0.1697468574314311,
+              "high": 0.08247598687778707
+            },
+            "extractionDifficulty": 34.945,
+            "processingDifficulty": 51.473,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-1-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 329341715.274,
+            "gradeProbabilities": {
+              "low": 0.41119387658825685,
+              "medium": 0.172972502147967,
+              "high": 0.4158336212637762
+            },
+            "extractionDifficulty": 52.31,
+            "processingDifficulty": 51.473,
+            "discoveryTier": 1,
+            "accessDepth": 17.339,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.916,
+          "radiationLevel": null,
+          "terrainObstacle": 0.24246,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-2-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 184706873.957,
+            "gradeProbabilities": {
+              "low": 0.7642751974281391,
+              "medium": 0.14421324770609562,
+              "high": 0.09151155486576527
+            },
+            "extractionDifficulty": 18.126,
+            "processingDifficulty": 60.944,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-2-3",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 87262700.928,
+            "gradeProbabilities": {
+              "low": 0.4474131275313926,
+              "medium": 0.13011190683842588,
+              "high": 0.4224749656301815
+            },
+            "extractionDifficulty": 31.444,
+            "processingDifficulty": 60.944,
+            "discoveryTier": 1,
+            "accessDepth": 21.501,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.725,
+          "radiationLevel": null,
+          "terrainObstacle": 0.195704,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-3-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 120248822.477,
+            "gradeProbabilities": {
+              "low": 0.7712129667639884,
+              "medium": 0.14424684709590926,
+              "high": 0.08454018614010231
+            },
+            "extractionDifficulty": 23.912,
+            "processingDifficulty": 58.462,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.585,
+          "radiationLevel": null,
+          "terrainObstacle": 0.132082,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-4-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 260070690.62,
+            "gradeProbabilities": {
+              "low": 0.7171923455147853,
+              "medium": 0.21450258519475773,
+              "high": 0.06830506929045697
+            },
+            "extractionDifficulty": 34.89,
+            "processingDifficulty": 34.67,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-4-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 322776514.526,
+            "gradeProbabilities": {
+              "low": 0.04326333158981833,
+              "medium": 0.3834139201918071,
+              "high": 0.5733227482183746
+            },
+            "extractionDifficulty": 72.852,
+            "processingDifficulty": 34.67,
+            "discoveryTier": 3,
+            "accessDepth": 86.444,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.07,
+          "radiationLevel": null,
+          "terrainObstacle": 0.129141,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-5-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 294134407.195,
+            "gradeProbabilities": {
+              "low": 0.7464375905087167,
+              "medium": 0.18483687766986417,
+              "high": 0.06872553182141912
+            },
+            "extractionDifficulty": 21.972,
+            "processingDifficulty": 23.885,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.276,
+          "radiationLevel": null,
+          "terrainObstacle": 0.23722,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-6-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 199979108.945,
+            "gradeProbabilities": {
+              "low": 0.7477688780734408,
+              "medium": 0.18993569122427412,
+              "high": 0.062295430702285055
+            },
+            "extractionDifficulty": 27.349,
+            "processingDifficulty": 57.263,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-6-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 93640082.489,
+            "gradeProbabilities": {
+              "low": 0.40604650954131477,
+              "medium": 0.19351453974053962,
+              "high": 0.40043895071814556
+            },
+            "extractionDifficulty": 51.776,
+            "processingDifficulty": 57.263,
+            "discoveryTier": 2,
+            "accessDepth": 5.043,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 88.361,
+          "radiationLevel": null,
+          "terrainObstacle": 0.366084,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-7-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 100589216.307,
+            "gradeProbabilities": {
+              "low": 0.7232389830452125,
+              "medium": 0.16059922156768028,
+              "high": 0.11616179538710722
+            },
+            "extractionDifficulty": 15.027,
+            "processingDifficulty": 47.418,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-7-3",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 48953679.183,
+            "gradeProbabilities": {
+              "low": 0.436692637682072,
+              "medium": 0.1587542354908263,
+              "high": 0.4045531268271017
+            },
+            "extractionDifficulty": 40.499,
+            "processingDifficulty": 47.418,
+            "discoveryTier": 1,
+            "accessDepth": 23.739,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.361,
+          "radiationLevel": null,
+          "terrainObstacle": 0.388708,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-8-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 196383347.685,
+            "gradeProbabilities": {
+              "low": 0.7869761892291747,
+              "medium": 0.10150254186461587,
+              "high": 0.11152126890620946
+            },
+            "extractionDifficulty": 25.117,
+            "processingDifficulty": 36.505,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-8-4",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 93460873.043,
+            "gradeProbabilities": {
+              "low": 0.48064537594980405,
+              "medium": 0.13807908653087209,
+              "high": 0.38127553751932386
+            },
+            "extractionDifficulty": 36.059,
+            "processingDifficulty": 36.505,
+            "discoveryTier": 2,
+            "accessDepth": 24.266,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-8-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 78576824.719,
+            "gradeProbabilities": {
+              "low": 0.06321095762253719,
+              "medium": 0.375223700469166,
+              "high": 0.5615653419082969
+            },
+            "extractionDifficulty": 78.504,
+            "processingDifficulty": 36.505,
+            "discoveryTier": 5,
+            "accessDepth": 82.11,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.097,
+          "radiationLevel": null,
+          "terrainObstacle": 0.370526,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-9-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 346212602.843,
+            "gradeProbabilities": {
+              "low": 0.7559593485993625,
+              "medium": 0.17996576264697262,
+              "high": 0.06407488875366485
+            },
+            "extractionDifficulty": 31.689,
+            "processingDifficulty": 68.824,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.093,
+          "radiationLevel": null,
+          "terrainObstacle": 0.345917,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-10-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 86079747.869,
+            "gradeProbabilities": {
+              "low": 0.7864921891219804,
+              "medium": 0.14309404593794126,
+              "high": 0.07041376494007837
+            },
+            "extractionDifficulty": 28.838,
+            "processingDifficulty": 35.289,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-10-4",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 53820755.312,
+            "gradeProbabilities": {
+              "low": 0.47639995283080344,
+              "medium": 0.12280175114935798,
+              "high": 0.40079829601983863
+            },
+            "extractionDifficulty": 47.344,
+            "processingDifficulty": 35.289,
+            "discoveryTier": 1,
+            "accessDepth": 34.992,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 79.359,
+          "radiationLevel": null,
+          "terrainObstacle": 0.208725,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-11-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 258715111.015,
+            "gradeProbabilities": {
+              "low": 0.7856612041329384,
+              "medium": 0.100648764608354,
+              "high": 0.11369003125870762
+            },
+            "extractionDifficulty": 13.379,
+            "processingDifficulty": 16.891,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.738,
+          "radiationLevel": null,
+          "terrainObstacle": 0.283708,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-12-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 263047397.806,
+            "gradeProbabilities": {
+              "low": 0.7655121303385622,
+              "medium": 0.1871475468145409,
+              "high": 0.04734032284689684
+            },
+            "extractionDifficulty": 30.439,
+            "processingDifficulty": 57.126,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-12-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 203646974.672,
+            "gradeProbabilities": {
+              "low": 0.03506231606733388,
+              "medium": 0.4270886166321384,
+              "high": 0.5378490673005277
+            },
+            "extractionDifficulty": 75.153,
+            "processingDifficulty": 57.126,
+            "discoveryTier": 5,
+            "accessDepth": 78.701,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 91.941,
+          "radiationLevel": null,
+          "terrainObstacle": 0.335261,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-13-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1225924461.157,
+            "gradeProbabilities": {
+              "low": 0.7534815919181612,
+              "medium": 0.14066438910456622,
+              "high": 0.10585401897727256
+            },
+            "extractionDifficulty": 31.584,
+            "processingDifficulty": 47.696,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.101,
+          "radiationLevel": null,
+          "terrainObstacle": 0.296755,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-14-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 443127554.158,
+            "gradeProbabilities": {
+              "low": 0.7646624346523195,
+              "medium": 0.17077582978297756,
+              "high": 0.06456173556470292
+            },
+            "extractionDifficulty": 17.195,
+            "processingDifficulty": 23.442,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-14-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 165469206.604,
+            "gradeProbabilities": {
+              "low": 0.014585676889515797,
+              "medium": 0.40998857451594506,
+              "high": 0.5754257485945391
+            },
+            "extractionDifficulty": 78.666,
+            "processingDifficulty": 23.442,
+            "discoveryTier": 3,
+            "accessDepth": 65.656,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.229,
+          "radiationLevel": null,
+          "terrainObstacle": 0.328163,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-15-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 116254448.699,
+            "gradeProbabilities": {
+              "low": 0.7270381102573023,
+              "medium": 0.16929778386026592,
+              "high": 0.10366410588243183
+            },
+            "extractionDifficulty": 27.033,
+            "processingDifficulty": 18.652,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 91.172,
+          "radiationLevel": null,
+          "terrainObstacle": 0.272968,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-16-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 243042189.58,
+            "gradeProbabilities": {
+              "low": 0.7295144447341388,
+              "medium": 0.17333425157300936,
+              "high": 0.09715130369285178
+            },
+            "extractionDifficulty": 24.799,
+            "processingDifficulty": 22.275,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.176,
+          "radiationLevel": null,
+          "terrainObstacle": 0.255613,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-17-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 116101493.854,
+            "gradeProbabilities": {
+              "low": 0.7309067557183537,
+              "medium": 0.14205200528261655,
+              "high": 0.12704123899902972
+            },
+            "extractionDifficulty": 25.19,
+            "processingDifficulty": 20.058,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-17-2",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 28054518.341,
+            "gradeProbabilities": {
+              "low": 0.4653456268127801,
+              "medium": 0.18448620225044443,
+              "high": 0.35016817093677555
+            },
+            "extractionDifficulty": 52.361,
+            "processingDifficulty": 20.058,
+            "discoveryTier": 2,
+            "accessDepth": 17.082,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.301,
+          "radiationLevel": null,
+          "terrainObstacle": 0.235859,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-18-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 204312298.616,
+            "gradeProbabilities": {
+              "low": 0.7603185721919994,
+              "medium": 0.1264687645269338,
+              "high": 0.1132126632810668
+            },
+            "extractionDifficulty": 23.129,
+            "processingDifficulty": 46.247,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-18-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 75030293.445,
+            "gradeProbabilities": {
+              "low": 0.05250069874378682,
+              "medium": 0.4297444878314268,
+              "high": 0.5177548134247864
+            },
+            "extractionDifficulty": 63.857,
+            "processingDifficulty": 46.247,
+            "discoveryTier": 3,
+            "accessDepth": 61.644,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.831,
+          "radiationLevel": null,
+          "terrainObstacle": 0.245207,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-19-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 259460211.28,
+            "gradeProbabilities": {
+              "low": 0.7286021084096862,
+              "medium": 0.22300921709897517,
+              "high": 0.04838867449133862
+            },
+            "extractionDifficulty": 23.641,
+            "processingDifficulty": 17.082,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-19-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 151539370.634,
+            "gradeProbabilities": {
+              "low": 0.05021737938793948,
+              "medium": 0.37249306574466323,
+              "high": 0.5772895548673973
+            },
+            "extractionDifficulty": 65.98,
+            "processingDifficulty": 17.082,
+            "discoveryTier": 5,
+            "accessDepth": 76.161,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.214,
+          "radiationLevel": null,
+          "terrainObstacle": 0.329022,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-20-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 202202537.877,
+            "gradeProbabilities": {
+              "low": 0.7246333911757564,
+              "medium": 0.22540129540611184,
+              "high": 0.049965313418131735
+            },
+            "extractionDifficulty": 20.745,
+            "processingDifficulty": 52.991,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-20-2",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 84593943.367,
+            "gradeProbabilities": {
+              "low": 0.4646280843413916,
+              "medium": 0.18908358177882462,
+              "high": 0.3462883338797838
+            },
+            "extractionDifficulty": 45.822,
+            "processingDifficulty": 52.991,
+            "discoveryTier": 2,
+            "accessDepth": 12.805,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 89.578,
+          "radiationLevel": null,
+          "terrainObstacle": 0.239258,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-21-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 44632994.056,
+            "gradeProbabilities": {
+              "low": 0.7935126374584919,
+              "medium": 0.08153885557282838,
+              "high": 0.12494850696867975
+            },
+            "extractionDifficulty": 33.464,
+            "processingDifficulty": 32.662,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-21-2",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 64530245.055,
+            "gradeProbabilities": {
+              "low": 0.4824484509790498,
+              "medium": 0.16016054607450014,
+              "high": 0.35739100294645
+            },
+            "extractionDifficulty": 38.562,
+            "processingDifficulty": 32.662,
+            "discoveryTier": 1,
+            "accessDepth": 29.195,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.554,
+          "radiationLevel": null,
+          "terrainObstacle": 0.266517,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-22-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 354773246.939,
+            "gradeProbabilities": {
+              "low": 0.7199936530409946,
+              "medium": 0.17300644012762284,
+              "high": 0.10699990683138255
+            },
+            "extractionDifficulty": 30.282,
+            "processingDifficulty": 62.428,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-22-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 73735155.529,
+            "gradeProbabilities": {
+              "low": 0.038205043114145895,
+              "medium": 0.4651689847415589,
+              "high": 0.49662597214429527
+            },
+            "extractionDifficulty": 74.925,
+            "processingDifficulty": 62.428,
+            "discoveryTier": 3,
+            "accessDepth": 66.904,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 94.395,
+          "radiationLevel": null,
+          "terrainObstacle": 0.332158,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-23-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 48268542.084,
+            "gradeProbabilities": {
+              "low": 0.7964702720865486,
+              "medium": 0.09430750455467554,
+              "high": 0.10922222335877582
+            },
+            "extractionDifficulty": 11.757,
+            "processingDifficulty": 57.457,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.972,
+          "radiationLevel": null,
+          "terrainObstacle": 0.337643,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-24-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 275067683.015,
+            "gradeProbabilities": {
+              "low": 0.7560336855422491,
+              "medium": 0.13562542880918166,
+              "high": 0.1083408856485692
+            },
+            "extractionDifficulty": 19.131,
+            "processingDifficulty": 59.631,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-24-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 255893251.119,
+            "gradeProbabilities": {
+              "low": 0.05985812832037267,
+              "medium": 0.3939816713169939,
+              "high": 0.5461602003626335
+            },
+            "extractionDifficulty": 78.961,
+            "processingDifficulty": 59.631,
+            "discoveryTier": 5,
+            "accessDepth": 83.93,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.783,
+          "radiationLevel": null,
+          "terrainObstacle": 0.311653,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-25-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 103750319.545,
+            "gradeProbabilities": {
+              "low": 0.7419057046343336,
+              "medium": 0.15413579782005082,
+              "high": 0.10395849754561559
+            },
+            "extractionDifficulty": 22.949,
+            "processingDifficulty": 27.305,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-25-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 113276094.96,
+            "gradeProbabilities": {
+              "low": 0.030231423576150197,
+              "medium": 0.4163635817815545,
+              "high": 0.5534049946422953
+            },
+            "extractionDifficulty": 80.005,
+            "processingDifficulty": 27.305,
+            "discoveryTier": 3,
+            "accessDepth": 89.762,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.961,
+          "radiationLevel": null,
+          "terrainObstacle": 0.319828,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-26-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 155742170.481,
+            "gradeProbabilities": {
+              "low": 0.7353758176661155,
+              "medium": 0.13547430694959925,
+              "high": 0.12914987538428527
+            },
+            "extractionDifficulty": 12.086,
+            "processingDifficulty": 26.588,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-26-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 200989338.498,
+            "gradeProbabilities": {
+              "low": 0.4179201117731526,
+              "medium": 0.17363310667134801,
+              "high": 0.4084467815554994
+            },
+            "extractionDifficulty": 35.379,
+            "processingDifficulty": 26.588,
+            "discoveryTier": 2,
+            "accessDepth": 32.86,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-26-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 80995669.241,
+            "gradeProbabilities": {
+              "low": 0.07170806241401452,
+              "medium": 0.3906724495424575,
+              "high": 0.537619488043528
+            },
+            "extractionDifficulty": 82.642,
+            "processingDifficulty": 26.588,
+            "discoveryTier": 5,
+            "accessDepth": 96.433,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.919,
+          "radiationLevel": null,
+          "terrainObstacle": 0.181445,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-27-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1372158693.358,
+            "gradeProbabilities": {
+              "low": 0.7437102177109002,
+              "medium": 0.19580772798722296,
+              "high": 0.060482054301876864
+            },
+            "extractionDifficulty": 20.389,
+            "processingDifficulty": 65.056,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-27-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 800768920.359,
+            "gradeProbabilities": {
+              "low": 0.05618565026944166,
+              "medium": 0.45365718923200093,
+              "high": 0.4901571604985574
+            },
+            "extractionDifficulty": 75.307,
+            "processingDifficulty": 65.056,
+            "discoveryTier": 3,
+            "accessDepth": 50.832,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.149,
+          "radiationLevel": null,
+          "terrainObstacle": 0.174009,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-28-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1322530672.368,
+            "gradeProbabilities": {
+              "low": 0.7257230298694858,
+              "medium": 0.14703259646930147,
+              "high": 0.12724437366121275
+            },
+            "extractionDifficulty": 34.314,
+            "processingDifficulty": 57.056,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.917,
+          "radiationLevel": null,
+          "terrainObstacle": 0.381111,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-29-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 361009320.357,
+            "gradeProbabilities": {
+              "low": 0.7185793724042584,
+              "medium": 0.21798167707287902,
+              "high": 0.06343895052286258
+            },
+            "extractionDifficulty": 13.66,
+            "processingDifficulty": 19.525,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-29-1",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 94210652.291,
+            "gradeProbabilities": {
+              "low": 0.40157391292578226,
+              "medium": 0.18143312028405134,
+              "high": 0.4169929667901664
+            },
+            "extractionDifficulty": 34.273,
+            "processingDifficulty": 19.525,
+            "discoveryTier": 1,
+            "accessDepth": 34.101,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.159,
+          "radiationLevel": null,
+          "terrainObstacle": 0.319794,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-30-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 251764536.46,
+            "gradeProbabilities": {
+              "low": 0.7350000643419092,
+              "medium": 0.20965350239140157,
+              "high": 0.0553464332666892
+            },
+            "extractionDifficulty": 18.911,
+            "processingDifficulty": 35.519,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 97.646,
+          "radiationLevel": null,
+          "terrainObstacle": 0.373209,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-31-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1095459407.306,
+            "gradeProbabilities": {
+              "low": 0.7254775312520947,
+              "medium": 0.190044036581036,
+              "high": 0.08447843216686932
+            },
+            "extractionDifficulty": 18.485,
+            "processingDifficulty": 53.385,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.896,
+          "radiationLevel": null,
+          "terrainObstacle": 0.35116,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-32-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 782805184.027,
+            "gradeProbabilities": {
+              "low": 0.7561940529736533,
+              "medium": 0.14663520294142995,
+              "high": 0.09717074408491677
+            },
+            "extractionDifficulty": 22.188,
+            "processingDifficulty": 44.338,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-32-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 278275276.477,
+            "gradeProbabilities": {
+              "low": 0.027010541799844107,
+              "medium": 0.4560511408510106,
+              "high": 0.5169383173491453
+            },
+            "extractionDifficulty": 64.366,
+            "processingDifficulty": 44.338,
+            "discoveryTier": 3,
+            "accessDepth": 85.553,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.476,
+          "radiationLevel": null,
+          "terrainObstacle": 0.388867,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-33-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 124999141.856,
+            "gradeProbabilities": {
+              "low": 0.7284194009866035,
+              "medium": 0.16218530669566752,
+              "high": 0.10939529231772896
+            },
+            "extractionDifficulty": 22.461,
+            "processingDifficulty": 55.786,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-33-1",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 68867770.813,
+            "gradeProbabilities": {
+              "low": 0.39669264950757555,
+              "medium": 0.18152809330561498,
+              "high": 0.4217792571868095
+            },
+            "extractionDifficulty": 49.115,
+            "processingDifficulty": 55.786,
+            "discoveryTier": 1,
+            "accessDepth": 5.424,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-33-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 66274213.489,
+            "gradeProbabilities": {
+              "low": 0.04413509315180028,
+              "medium": 0.4631623345955484,
+              "high": 0.4927025722526513
+            },
+            "extractionDifficulty": 79.202,
+            "processingDifficulty": 55.786,
+            "discoveryTier": 3,
+            "accessDepth": 50.707,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.401,
+          "radiationLevel": null,
+          "terrainObstacle": 0.357977,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-34-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 225003681.44,
+            "gradeProbabilities": {
+              "low": 0.7288357157707516,
+              "medium": 0.22161418067539118,
+              "high": 0.049550103553857264
+            },
+            "extractionDifficulty": 32.668,
+            "processingDifficulty": 35.664,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-34-1",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 231554945.979,
+            "gradeProbabilities": {
+              "low": 0.388878841418773,
+              "medium": 0.1953025632623298,
+              "high": 0.41581859531889726
+            },
+            "extractionDifficulty": 32.909,
+            "processingDifficulty": 35.664,
+            "discoveryTier": 2,
+            "accessDepth": 21.496,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-34-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 116138643.596,
+            "gradeProbabilities": {
+              "low": 0.04819947545945549,
+              "medium": 0.4018079157037052,
+              "high": 0.5499926088368393
+            },
+            "extractionDifficulty": 72.358,
+            "processingDifficulty": 35.664,
+            "discoveryTier": 5,
+            "accessDepth": 77.493,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.964,
+          "radiationLevel": null,
+          "terrainObstacle": 0.38009,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-35-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 235543689.585,
+            "gradeProbabilities": {
+              "low": 0.7144003369544087,
+              "medium": 0.15539120491243613,
+              "high": 0.13020845813315512
+            },
+            "extractionDifficulty": 24.528,
+            "processingDifficulty": 48.816,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-35-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 62003513.236,
+            "gradeProbabilities": {
+              "low": 0.07538687074324116,
+              "medium": 0.426925855493903,
+              "high": 0.4976872737628559
+            },
+            "extractionDifficulty": 73.803,
+            "processingDifficulty": 48.816,
+            "discoveryTier": 5,
+            "accessDepth": 58.252,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.209,
+          "radiationLevel": null,
+          "terrainObstacle": 0.353267,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-36-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1233244386.498,
+            "gradeProbabilities": {
+              "low": 0.7915652039421622,
+              "medium": 0.08618736628578871,
+              "high": 0.12224742977204905
+            },
+            "extractionDifficulty": 24.945,
+            "processingDifficulty": 33.533,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-vein-36-4",
+            "groupId": "g2-sol-callisto-9cda5fd2-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 847328807.006,
+            "gradeProbabilities": {
+              "low": 0.46516164688588657,
+              "medium": 0.15265971054118638,
+              "high": 0.38217864257292705
+            },
+            "extractionDifficulty": 52.374,
+            "processingDifficulty": 33.533,
+            "discoveryTier": 2,
+            "accessDepth": 5.572,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.281,
+          "radiationLevel": null,
+          "terrainObstacle": 0.358996,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-37-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 319073153.109,
+            "gradeProbabilities": {
+              "low": 0.7805410762483748,
+              "medium": 0.1220825207667573,
+              "high": 0.09737640298486794
+            },
+            "extractionDifficulty": 14.74,
+            "processingDifficulty": 69.055,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-37-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 148589793.919,
+            "gradeProbabilities": {
+              "low": 0.03364890115712846,
+              "medium": 0.4676641564399421,
+              "high": 0.49868694240292943
+            },
+            "extractionDifficulty": 61.935,
+            "processingDifficulty": 69.055,
+            "discoveryTier": 5,
+            "accessDepth": 62.122,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.033,
+          "radiationLevel": null,
+          "terrainObstacle": 0.363257,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-38-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 234812614.385,
+            "gradeProbabilities": {
+              "low": 0.7989881435758435,
+              "medium": 0.07739403483774712,
+              "high": 0.12361782158640941
+            },
+            "extractionDifficulty": 29.202,
+            "processingDifficulty": 66.987,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-38-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 318288123.379,
+            "gradeProbabilities": {
+              "low": 0.03522451622974068,
+              "medium": 0.473510452987598,
+              "high": 0.49126503078266137
+            },
+            "extractionDifficulty": 61.793,
+            "processingDifficulty": 66.987,
+            "discoveryTier": 4,
+            "accessDepth": 95.764,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.35,
+          "radiationLevel": null,
+          "terrainObstacle": 0.212626,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-39-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 275739252.474,
+            "gradeProbabilities": {
+              "low": 0.721445821977883,
+              "medium": 0.19279191460340517,
+              "high": 0.08576226341871185
+            },
+            "extractionDifficulty": 15.869,
+            "processingDifficulty": 51.605,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-39-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 234524998.97,
+            "gradeProbabilities": {
+              "low": 0.022153592636850034,
+              "medium": 0.4001150453313772,
+              "high": 0.5777313620317728
+            },
+            "extractionDifficulty": 64.06,
+            "processingDifficulty": 51.605,
+            "discoveryTier": 4,
+            "accessDepth": 73.888,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.037,
+          "radiationLevel": null,
+          "terrainObstacle": 0.294793,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-40-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 281322033.554,
+            "gradeProbabilities": {
+              "low": 0.786731318190133,
+              "medium": 0.15485117704328838,
+              "high": 0.058417504766578636
+            },
+            "extractionDifficulty": 12.159,
+            "processingDifficulty": 45.261,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-deep-40-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 177030824.745,
+            "gradeProbabilities": {
+              "low": 0.03310033909874635,
+              "medium": 0.44669649232117103,
+              "high": 0.5202031685800826
+            },
+            "extractionDifficulty": 75.71,
+            "processingDifficulty": 45.261,
+            "discoveryTier": 3,
+            "accessDepth": 55.582,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:callisto:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.985,
+          "radiationLevel": null,
+          "terrainObstacle": 0.265137,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-callisto-9cda5fd2-surface-41-0",
+            "groupId": "g2-sol-callisto-9cda5fd2-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 128626632.336,
+            "gradeProbabilities": {
+              "low": 0.7320423429293293,
+              "medium": 0.19422356947153852,
+              "high": 0.07373408759913212
+            },
+            "extractionDifficulty": 21.16,
+            "processingDifficulty": 37.115,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:callisto:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:callisto:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 21729276137.17,
+    "typeShares": {
+      "surface": 0.7201142580040685,
+      "vein": 0.10855773087774671,
+      "deep": 0.17132801111818483
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.7489881435758434,
+        "medium": 0.16031594306463376,
+        "high": 0.09069591335952282
+      },
+      "vein": {
+        "low": 0.438878841418773,
+        "medium": 0.16483282470144323,
+        "high": 0.3962883338797838
+      },
+      "deep": {
+        "low": 0.04307821185328066,
+        "medium": 0.4291904261149466,
+        "high": 0.5277313620317727
+      }
+    },
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:callisto:resources:v1",
+    "generatorVersion": 2,
+    "budgetPolicy": "procedural",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 42,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.7144003369544087,
+            "max": 0.7989881435758435,
+            "actualMaxDeviation": 0.050000000000000044
+          },
+          "medium": {
+            "min": 0.07739403483774712,
+            "max": 0.22540129540611184,
+            "actualMaxDeviation": 0.08292190822688664
+          },
+          "high": {
+            "min": 0.040695913359522815,
+            "max": 0.13020845813315512,
+            "actualMaxDeviation": 0.05
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 15,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.388878841418773,
+            "max": 0.4824484509790498,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.12280175114935798,
+            "max": 0.1953025632623298,
+            "actualMaxDeviation": 0.04203107355208524
+          },
+          "high": {
+            "min": 0.3462883338797838,
+            "max": 0.4260972473597695,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 19,
+        "amplitudes": {
+          "low": 0.0323086588899605,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.014585676889515797,
+            "max": 0.07538687074324116,
+            "actualMaxDeviation": 0.0323086588899605
+          },
+          "medium": {
+            "min": 0.37249306574466323,
+            "max": 0.473510452987598,
+            "actualMaxDeviation": 0.05669736037028339
+          },
+          "high": {
+            "min": 0.4901571604985574,
+            "max": 0.5777313620317728,
+            "actualMaxDeviation": 0.050000000000000044
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 42,
+      "requiredCoverage": 11,
+      "veinCells": 15,
+      "groupCount": 5,
+      "minimumGroupCells": 3,
+      "exceptions": [],
+      "nominalCellCapQuanta": 2172927613717,
+      "maxCellFraction": 0.1,
+      "maxGroupFraction": 0.4216450396858334
+    }
+  },
+  "hydrogenSources": [
+    {
+      "sourceId": "h1-sol-callisto-c514f6b0-0",
+      "tileId": "sol:callisto:surface:00010",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 5953770.85,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 66.659,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    },
+    {
+      "sourceId": "h1-sol-callisto-c514f6b0-1",
+      "tileId": "sol:callisto:surface:00030",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 24417004.206,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 66.505,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    }
+  ],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
+  }
+}

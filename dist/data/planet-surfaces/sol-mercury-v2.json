@@ -1,0 +1,2800 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "mercury",
+  "bodyKind": "planet",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "2a2ce2be"
+  },
+  "geology": {
+    "cells": {
+      "sol:mercury:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.332343,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-0-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9575197.658,
+            "gradeProbabilities": {
+              "low": 0.41465435639915516,
+              "medium": 0.49981803708121614,
+              "high": 0.0855276065196287
+            },
+            "extractionDifficulty": 32.661,
+            "processingDifficulty": 63.065,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-0-3",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 21548822.537,
+            "gradeProbabilities": {
+              "low": 0.3669057938997402,
+              "medium": 0.30627685133761595,
+              "high": 0.32681735476264384
+            },
+            "extractionDifficulty": 30.821,
+            "processingDifficulty": 63.065,
+            "discoveryTier": 2,
+            "accessDepth": 31.202,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-0-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 8410540.999,
+            "gradeProbabilities": {
+              "low": 0.1822490696774804,
+              "medium": 0.4692862427965317,
+              "high": 0.34846468752598797
+            },
+            "extractionDifficulty": 63.103,
+            "processingDifficulty": 63.065,
+            "discoveryTier": 4,
+            "accessDepth": 93.669,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.276189,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-1-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 21301493.011,
+            "gradeProbabilities": {
+              "low": 0.44958798324700017,
+              "medium": 0.5025009145709943,
+              "high": 0.04791110218200548
+            },
+            "extractionDifficulty": 17.012,
+            "processingDifficulty": 44.456,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-1-1",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 191996979.263,
+            "gradeProbabilities": {
+              "low": 0.43063311301709123,
+              "medium": 0.23948639020125106,
+              "high": 0.32988049678165765
+            },
+            "extractionDifficulty": 30.125,
+            "processingDifficulty": 44.456,
+            "discoveryTier": 1,
+            "accessDepth": 6.872,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.252768,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-2-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 11921434.073,
+            "gradeProbabilities": {
+              "low": 0.4111880832174741,
+              "medium": 0.5295480659836236,
+              "high": 0.05926385079890228
+            },
+            "extractionDifficulty": 27.469,
+            "processingDifficulty": 60.112,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-2-4",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 70241262.148,
+            "gradeProbabilities": {
+              "low": 0.394791049570061,
+              "medium": 0.2818459781665913,
+              "high": 0.32336297226334765
+            },
+            "extractionDifficulty": 38.911,
+            "processingDifficulty": 60.112,
+            "discoveryTier": 2,
+            "accessDepth": 10.364,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-2-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 13502334.59,
+            "gradeProbabilities": {
+              "low": 0.22390216858591883,
+              "medium": 0.38665119051325686,
+              "high": 0.3894466409008243
+            },
+            "extractionDifficulty": 72.086,
+            "processingDifficulty": 60.112,
+            "discoveryTier": 4,
+            "accessDepth": 58.94,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.150528,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-3-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 25981052.515,
+            "gradeProbabilities": {
+              "low": 0.4855731567000897,
+              "medium": 0.45260739030541247,
+              "high": 0.061819452994497814
+            },
+            "extractionDifficulty": 11.049,
+            "processingDifficulty": 62.658,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-3-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 69340220.613,
+            "gradeProbabilities": {
+              "low": 0.2116749785162133,
+              "medium": 0.37725345886001826,
+              "high": 0.4110715626237684
+            },
+            "extractionDifficulty": 81.242,
+            "processingDifficulty": 62.658,
+            "discoveryTier": 3,
+            "accessDepth": 70.487,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.209252,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-4-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 131951101.04,
+            "gradeProbabilities": {
+              "low": 0.4657991218011643,
+              "medium": 0.4348005830786965,
+              "high": 0.09940029512013918
+            },
+            "extractionDifficulty": 22.123,
+            "processingDifficulty": 66.515,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-4-3",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 34018631.641,
+            "gradeProbabilities": {
+              "low": 0.35928248697891835,
+              "medium": 0.3206598992950329,
+              "high": 0.3200576137260487
+            },
+            "extractionDifficulty": 45.2,
+            "processingDifficulty": 66.515,
+            "discoveryTier": 1,
+            "accessDepth": 14.242,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.222401,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-5-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 22421481.271,
+            "gradeProbabilities": {
+              "low": 0.41930573629386525,
+              "medium": 0.475334705794681,
+              "high": 0.10535955791145372
+            },
+            "extractionDifficulty": 28.422,
+            "processingDifficulty": 66.221,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-5-3",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 31332853.573,
+            "gradeProbabilities": {
+              "low": 0.37641632724997803,
+              "medium": 0.2990229578451154,
+              "high": 0.3245607149049065
+            },
+            "extractionDifficulty": 35.12,
+            "processingDifficulty": 66.221,
+            "discoveryTier": 2,
+            "accessDepth": 17.966,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-5-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 30669400.885,
+            "gradeProbabilities": {
+              "low": 0.14957007708145548,
+              "medium": 0.481444760449544,
+              "high": 0.3689851624690006
+            },
+            "extractionDifficulty": 61.087,
+            "processingDifficulty": 66.221,
+            "discoveryTier": 5,
+            "accessDepth": 71.61,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.297363,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-6-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 21814773.748,
+            "gradeProbabilities": {
+              "low": 0.39822599053296537,
+              "medium": 0.5332393362834523,
+              "high": 0.06853467318358233
+            },
+            "extractionDifficulty": 28.444,
+            "processingDifficulty": 19.471,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-6-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 21013599.243,
+            "gradeProbabilities": {
+              "low": 0.21803781950088236,
+              "medium": 0.3963515305739911,
+              "high": 0.3856106499251266
+            },
+            "extractionDifficulty": 69.951,
+            "processingDifficulty": 19.471,
+            "discoveryTier": 4,
+            "accessDepth": 93.606,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.35727,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-7-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 15527451.231,
+            "gradeProbabilities": {
+              "low": 0.4193641523210873,
+              "medium": 0.4660427088552406,
+              "high": 0.11459313882367209
+            },
+            "extractionDifficulty": 16.415,
+            "processingDifficulty": 15.276,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-7-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 11905860.119,
+            "gradeProbabilities": {
+              "low": 0.2032883748790944,
+              "medium": 0.4243432836303343,
+              "high": 0.37236834149057135
+            },
+            "extractionDifficulty": 73.184,
+            "processingDifficulty": 15.276,
+            "discoveryTier": 5,
+            "accessDepth": 99.97,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.364034,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-8-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 23029194.897,
+            "gradeProbabilities": {
+              "low": 0.47655807638701414,
+              "medium": 0.4766015956376848,
+              "high": 0.04684032797530116
+            },
+            "extractionDifficulty": 26.124,
+            "processingDifficulty": 61.943,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-8-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 14653253.659,
+            "gradeProbabilities": {
+              "low": 0.40189893698908,
+              "medium": 0.2658381398793232,
+              "high": 0.33226292313159683
+            },
+            "extractionDifficulty": 34.369,
+            "processingDifficulty": 61.943,
+            "discoveryTier": 2,
+            "accessDepth": 30.169,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-8-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 78028247.099,
+            "gradeProbabilities": {
+              "low": 0.15255906948675504,
+              "medium": 0.44010008062283634,
+              "high": 0.40734084989040864
+            },
+            "extractionDifficulty": 84.468,
+            "processingDifficulty": 61.943,
+            "discoveryTier": 4,
+            "accessDepth": 91.948,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.321094,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-9-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 109506971.711,
+            "gradeProbabilities": {
+              "low": 0.3991552349946099,
+              "medium": 0.4896404500805275,
+              "high": 0.11120431492486262
+            },
+            "extractionDifficulty": 14.47,
+            "processingDifficulty": 24.843,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-9-1",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 50540829.158,
+            "gradeProbabilities": {
+              "low": 0.44138483116202315,
+              "medium": 0.2233162986931051,
+              "high": 0.3352988701448717
+            },
+            "extractionDifficulty": 33.967,
+            "processingDifficulty": 24.843,
+            "discoveryTier": 2,
+            "accessDepth": 22.458,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.344884,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-10-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 30549272.431,
+            "gradeProbabilities": {
+              "low": 0.4861708992742933,
+              "medium": 0.4568462967462354,
+              "high": 0.05698280397947137
+            },
+            "extractionDifficulty": 12.754,
+            "processingDifficulty": 23.686,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-10-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 14784216.035,
+            "gradeProbabilities": {
+              "low": 0.17217228587583291,
+              "medium": 0.47863783186718317,
+              "high": 0.34918988225698394
+            },
+            "extractionDifficulty": 84.377,
+            "processingDifficulty": 23.686,
+            "discoveryTier": 5,
+            "accessDepth": 72.195,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.155699,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-11-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9327216.33,
+            "gradeProbabilities": {
+              "low": 0.427133624728813,
+              "medium": 0.4452379353978686,
+              "high": 0.12762843987331843
+            },
+            "extractionDifficulty": 15.954,
+            "processingDifficulty": 34.311,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-11-2",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 24120264.004,
+            "gradeProbabilities": {
+              "low": 0.37790393378580095,
+              "medium": 0.34247095301288266,
+              "high": 0.27962511320131633
+            },
+            "extractionDifficulty": 45.496,
+            "processingDifficulty": 34.311,
+            "discoveryTier": 2,
+            "accessDepth": 6.308,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.221393,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-12-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 11096439.843,
+            "gradeProbabilities": {
+              "low": 0.42387634279713765,
+              "medium": 0.514832483410665,
+              "high": 0.06129117379219725
+            },
+            "extractionDifficulty": 28.343,
+            "processingDifficulty": 60.505,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-12-2",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 73564801.245,
+            "gradeProbabilities": {
+              "low": 0.3856456140701585,
+              "medium": 0.342530282266166,
+              "high": 0.2718241036636755
+            },
+            "extractionDifficulty": 43.788,
+            "processingDifficulty": 60.505,
+            "discoveryTier": 2,
+            "accessDepth": 11.816,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.142769,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-13-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 24968125.785,
+            "gradeProbabilities": {
+              "low": 0.42973900280715577,
+              "medium": 0.46173762315852235,
+              "high": 0.10852337403432194
+            },
+            "extractionDifficulty": 17.006,
+            "processingDifficulty": 66.719,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.220428,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-14-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 64415545.483,
+            "gradeProbabilities": {
+              "low": 0.44586649655967886,
+              "medium": 0.4992771089185055,
+              "high": 0.0548563945218157
+            },
+            "extractionDifficulty": 17.146,
+            "processingDifficulty": 31.981,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.216256,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-15-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 43945273.668,
+            "gradeProbabilities": {
+              "low": 0.47431923155931477,
+              "medium": 0.43073694590268424,
+              "high": 0.094943822538001
+            },
+            "extractionDifficulty": 34.462,
+            "processingDifficulty": 38.995,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219181,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-16-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 24263400.586,
+            "gradeProbabilities": {
+              "low": 0.4508876459737785,
+              "medium": 0.450795973354257,
+              "high": 0.0983163806719645
+            },
+            "extractionDifficulty": 16.129,
+            "processingDifficulty": 53.226,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-16-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 22125308.581,
+            "gradeProbabilities": {
+              "low": 0.14059752132461717,
+              "medium": 0.4684093225266898,
+              "high": 0.39099315614869307
+            },
+            "extractionDifficulty": 76.301,
+            "processingDifficulty": 53.226,
+            "discoveryTier": 4,
+            "accessDepth": 85.368,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.226262,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-17-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 11522991.416,
+            "gradeProbabilities": {
+              "low": 0.4017212067177411,
+              "medium": 0.5491888472749478,
+              "high": 0.04908994600731113
+            },
+            "extractionDifficulty": 29.5,
+            "processingDifficulty": 46.104,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-17-2",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 24877631.623,
+            "gradeProbabilities": {
+              "low": 0.3732453492654813,
+              "medium": 0.3547463225827739,
+              "high": 0.27200832815174486
+            },
+            "extractionDifficulty": 54.699,
+            "processingDifficulty": 46.104,
+            "discoveryTier": 2,
+            "accessDepth": 13.539,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-17-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 15149021.391,
+            "gradeProbabilities": {
+              "low": 0.16753343501513665,
+              "medium": 0.47197625019934203,
+              "high": 0.36049031478552135
+            },
+            "extractionDifficulty": 61.555,
+            "processingDifficulty": 46.104,
+            "discoveryTier": 4,
+            "accessDepth": 64.231,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.122729,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-18-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 18335691.887,
+            "gradeProbabilities": {
+              "low": 0.4110368272322745,
+              "medium": 0.5425479308155526,
+              "high": 0.04641524195217279
+            },
+            "extractionDifficulty": 29.341,
+            "processingDifficulty": 45.344,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-18-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 40004644.592,
+            "gradeProbabilities": {
+              "low": 0.17130423072940992,
+              "medium": 0.42328869710775335,
+              "high": 0.4054070721628367
+            },
+            "extractionDifficulty": 73.192,
+            "processingDifficulty": 45.344,
+            "discoveryTier": 5,
+            "accessDepth": 55.084,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.348467,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-19-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 104118875.301,
+            "gradeProbabilities": {
+              "low": 0.4155101076341976,
+              "medium": 0.5411146943994227,
+              "high": 0.04337519796637967
+            },
+            "extractionDifficulty": 31.366,
+            "processingDifficulty": 36.655,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-19-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 28505490.153,
+            "gradeProbabilities": {
+              "low": 0.3954199625028565,
+              "medium": 0.27490485778928303,
+              "high": 0.3296751797078605
+            },
+            "extractionDifficulty": 50.73,
+            "processingDifficulty": 36.655,
+            "discoveryTier": 1,
+            "accessDepth": 13.306,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.330683,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-20-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 60034297.009,
+            "gradeProbabilities": {
+              "low": 0.4229330441957487,
+              "medium": 0.46763004847331835,
+              "high": 0.10943690733093306
+            },
+            "extractionDifficulty": 20.393,
+            "processingDifficulty": 24.573,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.145659,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-21-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 13185266.901,
+            "gradeProbabilities": {
+              "low": 0.4027840211506631,
+              "medium": 0.5258840469773214,
+              "high": 0.07133193187201559
+            },
+            "extractionDifficulty": 29.607,
+            "processingDifficulty": 19.445,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-21-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 21877962.953,
+            "gradeProbabilities": {
+              "low": 0.2109533742951328,
+              "medium": 0.4412605788852386,
+              "high": 0.34778604681962855
+            },
+            "extractionDifficulty": 77.045,
+            "processingDifficulty": 19.445,
+            "discoveryTier": 5,
+            "accessDepth": 67.859,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.297005,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-22-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 9020045.643,
+            "gradeProbabilities": {
+              "low": 0.41325419336292596,
+              "medium": 0.46430558678611966,
+              "high": 0.12244021985095443
+            },
+            "extractionDifficulty": 16.979,
+            "processingDifficulty": 35.562,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-22-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 8375487.47,
+            "gradeProbabilities": {
+              "low": 0.2143537006431891,
+              "medium": 0.4257222407067059,
+              "high": 0.35992405865010507
+            },
+            "extractionDifficulty": 72.238,
+            "processingDifficulty": 35.562,
+            "discoveryTier": 5,
+            "accessDepth": 79.537,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.336684,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-23-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 27323953.332,
+            "gradeProbabilities": {
+              "low": 0.43436166542537585,
+              "medium": 0.44152502393446424,
+              "high": 0.12411331064015982
+            },
+            "extractionDifficulty": 22.847,
+            "processingDifficulty": 54.106,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.254991,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-24-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 19870603.579,
+            "gradeProbabilities": {
+              "low": 0.42372293047096665,
+              "medium": 0.473606940601262,
+              "high": 0.10267012892777133
+            },
+            "extractionDifficulty": 17.259,
+            "processingDifficulty": 15.456,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.304265,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-25-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6544202.898,
+            "gradeProbabilities": {
+              "low": 0.3915711393421457,
+              "medium": 0.47886228266860437,
+              "high": 0.12956657798924992
+            },
+            "extractionDifficulty": 28.597,
+            "processingDifficulty": 21.568,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-25-2",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 47064380.006,
+            "gradeProbabilities": {
+              "low": 0.3889884107532082,
+              "medium": 0.327238421611241,
+              "high": 0.28377316763555077
+            },
+            "extractionDifficulty": 34.971,
+            "processingDifficulty": 21.568,
+            "discoveryTier": 1,
+            "accessDepth": 30.88,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.260342,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-26-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 56352570.012,
+            "gradeProbabilities": {
+              "low": 0.3958451591133596,
+              "medium": 0.4815866585947866,
+              "high": 0.12256818229185378
+            },
+            "extractionDifficulty": 12.506,
+            "processingDifficulty": 29.269,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-26-1",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 65273104.692,
+            "gradeProbabilities": {
+              "low": 0.4403351116608555,
+              "medium": 0.23394861879407086,
+              "high": 0.32571626954507366
+            },
+            "extractionDifficulty": 48.445,
+            "processingDifficulty": 29.269,
+            "discoveryTier": 2,
+            "accessDepth": 12.214,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.246441,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-27-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 71221300.274,
+            "gradeProbabilities": {
+              "low": 0.4219465932432225,
+              "medium": 0.4922963191714651,
+              "high": 0.0857570875853124
+            },
+            "extractionDifficulty": 31.091,
+            "processingDifficulty": 24.578,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-27-1",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 209437061.832,
+            "gradeProbabilities": {
+              "low": 0.43837480337700385,
+              "medium": 0.2376580030389232,
+              "high": 0.32396719358407294
+            },
+            "extractionDifficulty": 54.392,
+            "processingDifficulty": 24.578,
+            "discoveryTier": 1,
+            "accessDepth": 32.58,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.261174,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-28-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 19373248.56,
+            "gradeProbabilities": {
+              "low": 0.47024947169056586,
+              "medium": 0.44951948816272214,
+              "high": 0.08023104014671198
+            },
+            "extractionDifficulty": 34.017,
+            "processingDifficulty": 32.117,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-28-1",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 286923870.943,
+            "gradeProbabilities": {
+              "low": 0.4284990558769684,
+              "medium": 0.231344573130229,
+              "high": 0.34015637099280266
+            },
+            "extractionDifficulty": 41.63,
+            "processingDifficulty": 32.117,
+            "discoveryTier": 1,
+            "accessDepth": 23.687,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-28-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 44170834.676,
+            "gradeProbabilities": {
+              "low": 0.18542359920205606,
+              "medium": 0.4556657837757274,
+              "high": 0.3589106170222165
+            },
+            "extractionDifficulty": 67.857,
+            "processingDifficulty": 32.117,
+            "discoveryTier": 4,
+            "accessDepth": 81.145,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.314295,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-29-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 8784272.746,
+            "gradeProbabilities": {
+              "low": 0.410109660226332,
+              "medium": 0.5003332919950813,
+              "high": 0.08955704777858675
+            },
+            "extractionDifficulty": 31.66,
+            "processingDifficulty": 45.004,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-29-4",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 41932016.921,
+            "gradeProbabilities": {
+              "low": 0.383764395303466,
+              "medium": 0.31435243378049516,
+              "high": 0.3018831709160389
+            },
+            "extractionDifficulty": 37.044,
+            "processingDifficulty": 45.004,
+            "discoveryTier": 2,
+            "accessDepth": 14.675,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-29-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 15985365.039,
+            "gradeProbabilities": {
+              "low": 0.17877059204225734,
+              "medium": 0.48675114346946285,
+              "high": 0.33447826448827983
+            },
+            "extractionDifficulty": 83.325,
+            "processingDifficulty": 45.004,
+            "discoveryTier": 5,
+            "accessDepth": 66.124,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.35701,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-30-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 76131534.87,
+            "gradeProbabilities": {
+              "low": 0.4247744015467968,
+              "medium": 0.43954213213141446,
+              "high": 0.13568346632178874
+            },
+            "extractionDifficulty": 16.394,
+            "processingDifficulty": 61.133,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.145448,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-31-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 61498897.628,
+            "gradeProbabilities": {
+              "low": 0.44415713678039814,
+              "medium": 0.5006205405778951,
+              "high": 0.05522232264170676
+            },
+            "extractionDifficulty": 24.941,
+            "processingDifficulty": 67.803,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-31-4",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 181481168.051,
+            "gradeProbabilities": {
+              "low": 0.3914765304597085,
+              "medium": 0.28482422719287376,
+              "high": 0.3236992423474177
+            },
+            "extractionDifficulty": 46.063,
+            "processingDifficulty": 67.803,
+            "discoveryTier": 1,
+            "accessDepth": 24.02,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.141259,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-32-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 30401982.716,
+            "gradeProbabilities": {
+              "low": 0.4471939437939534,
+              "medium": 0.42849427517221883,
+              "high": 0.1243117810338278
+            },
+            "extractionDifficulty": 15.476,
+            "processingDifficulty": 68.181,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.381295,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-33-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 18409560.064,
+            "gradeProbabilities": {
+              "low": 0.39423439964000334,
+              "medium": 0.5319113689580963,
+              "high": 0.07385423140190045
+            },
+            "extractionDifficulty": 31.07,
+            "processingDifficulty": 47.068,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.172208,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-34-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 20544860.828,
+            "gradeProbabilities": {
+              "low": 0.45408609756617563,
+              "medium": 0.4335938049139412,
+              "high": 0.1123200975198832
+            },
+            "extractionDifficulty": 17.341,
+            "processingDifficulty": 21.905,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-34-4",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 44533284,
+            "gradeProbabilities": {
+              "low": 0.39620837701036166,
+              "medium": 0.30089373655167123,
+              "high": 0.30289788643796706
+            },
+            "extractionDifficulty": 50.43,
+            "processingDifficulty": 21.905,
+            "discoveryTier": 1,
+            "accessDepth": 17.034,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-34-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 19715153.983,
+            "gradeProbabilities": {
+              "low": 0.21499874358839371,
+              "medium": 0.421747994879618,
+              "high": 0.3632532615319882
+            },
+            "extractionDifficulty": 80.861,
+            "processingDifficulty": 21.905,
+            "discoveryTier": 4,
+            "accessDepth": 70.056,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.331468,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-35-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4372835.734,
+            "gradeProbabilities": {
+              "low": 0.4577428764741385,
+              "medium": 0.4943137830935765,
+              "high": 0.047943340432285035
+            },
+            "extractionDifficulty": 23.763,
+            "processingDifficulty": 49.22,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.384324,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-36-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 164553752.678,
+            "gradeProbabilities": {
+              "low": 0.44490887621177627,
+              "medium": 0.4740073270521827,
+              "high": 0.08108379673604099
+            },
+            "extractionDifficulty": 24.464,
+            "processingDifficulty": 23.151,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-36-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 150406736.667,
+            "gradeProbabilities": {
+              "low": 0.39077687197947936,
+              "medium": 0.2917238400772045,
+              "high": 0.3174992879433162
+            },
+            "extractionDifficulty": 34.097,
+            "processingDifficulty": 23.151,
+            "discoveryTier": 1,
+            "accessDepth": 13.521,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.391581,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-37-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 87344299.656,
+            "gradeProbabilities": {
+              "low": 0.460001303759359,
+              "medium": 0.42461993735689507,
+              "high": 0.11537875888374596
+            },
+            "extractionDifficulty": 25.607,
+            "processingDifficulty": 39.591,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-37-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 34747139.418,
+            "gradeProbabilities": {
+              "low": 0.3913847096714121,
+              "medium": 0.2818158267446814,
+              "high": 0.32679946358390655
+            },
+            "extractionDifficulty": 37.654,
+            "processingDifficulty": 39.591,
+            "discoveryTier": 2,
+            "accessDepth": 5.624,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-37-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 171669814.417,
+            "gradeProbabilities": {
+              "low": 0.14662633277189208,
+              "medium": 0.4840317702008602,
+              "high": 0.36934189702724773
+            },
+            "extractionDifficulty": 82.246,
+            "processingDifficulty": 39.591,
+            "discoveryTier": 4,
+            "accessDepth": 51.04,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.337862,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-38-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 110628025.718,
+            "gradeProbabilities": {
+              "low": 0.454998034477259,
+              "medium": 0.4324358879747999,
+              "high": 0.112566077547941
+            },
+            "extractionDifficulty": 32.327,
+            "processingDifficulty": 63.598,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-vein-38-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 69593970.059,
+            "gradeProbabilities": {
+              "low": 0.386954654897031,
+              "medium": 0.2806779722463084,
+              "high": 0.3323673728566605
+            },
+            "extractionDifficulty": 32.223,
+            "processingDifficulty": 63.598,
+            "discoveryTier": 1,
+            "accessDepth": 19.817,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-38-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 112872195.709,
+            "gradeProbabilities": {
+              "low": 0.1620316224274211,
+              "medium": 0.44036419605096394,
+              "high": 0.397604181521615
+            },
+            "extractionDifficulty": 75.999,
+            "processingDifficulty": 63.598,
+            "discoveryTier": 4,
+            "accessDepth": 74.695,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.219968,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-39-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 141315071.992,
+            "gradeProbabilities": {
+              "low": 0.44873031570532446,
+              "medium": 0.4716055958130879,
+              "high": 0.07966408848158767
+            },
+            "extractionDifficulty": 30.804,
+            "processingDifficulty": 20.27,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.17499,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-40-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 136824003.918,
+            "gradeProbabilities": {
+              "low": 0.40458517887223927,
+              "medium": 0.5401873512036228,
+              "high": 0.055227469924137906
+            },
+            "extractionDifficulty": 28.785,
+            "processingDifficulty": 28.036,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-40-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 179893697.193,
+            "gradeProbabilities": {
+              "low": 0.1947791192043755,
+              "medium": 0.3944764312867803,
+              "high": 0.4107444495088442
+            },
+            "extractionDifficulty": 82.077,
+            "processingDifficulty": 28.036,
+            "discoveryTier": 3,
+            "accessDepth": 97.577,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:mercury:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "vacuum-rock",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": null,
+          "radiationLevel": null,
+          "terrainObstacle": 0.224006,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: vacuum-rock (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-surface-41-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 116835593.27,
+            "gradeProbabilities": {
+              "low": 0.44473305248758765,
+              "medium": 0.502111686859357,
+              "high": 0.05315526065305527
+            },
+            "extractionDifficulty": 28.807,
+            "processingDifficulty": 41.93,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-mercury-eff5e1bc-deep-41-0",
+            "groupId": "g2-sol-mercury-eff5e1bc-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 66607908.653,
+            "gradeProbabilities": {
+              "low": 0.15067608437365348,
+              "medium": 0.5120710943834852,
+              "high": 0.3372528212428614
+            },
+            "extractionDifficulty": 66.368,
+            "processingDifficulty": 41.93,
+            "discoveryTier": 5,
+            "accessDepth": 55.574,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:mercury:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:mercury:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 4659038529.744,
+    "typeShares": {
+      "surface": 0.4284453007133452,
+      "vein": 0.36419392987629295,
+      "deep": 0.2073607694103618
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.4361708992742933,
+        "medium": 0.478145634403918,
+        "high": 0.08568346632178872
+      },
+      "vein": {
+        "low": 0.40928248697891834,
+        "medium": 0.2688934093574062,
+        "high": 0.3218241036636755
+      },
+      "deep": {
+        "low": 0.17390216858591884,
+        "medium": 0.4416195669258014,
+        "high": 0.3844782644882798
+      }
+    },
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:mercury:resources:v1",
+    "generatorVersion": 2,
+    "budgetPolicy": "procedural",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 42,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.3915711393421457,
+            "max": 0.4861708992742933,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.42461993735689507,
+            "max": 0.5491888472749478,
+            "actualMaxDeviation": 0.07104321287102977
+          },
+          "high": {
+            "min": 0.04337519796637967,
+            "max": 0.13568346632178874,
+            "actualMaxDeviation": 0.05000000000000002
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 21,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.35928248697891835,
+            "max": 0.44138483116202315,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.2233162986931051,
+            "max": 0.3547463225827739,
+            "actualMaxDeviation": 0.0858529132253677
+          },
+          "high": {
+            "min": 0.2718241036636755,
+            "max": 0.34015637099280266,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 20,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.14059752132461717,
+            "max": 0.22390216858591883,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.37725345886001826,
+            "max": 0.5120710943834852,
+            "actualMaxDeviation": 0.0704515274576838
+          },
+          "high": {
+            "min": 0.33447826448827983,
+            "max": 0.4110715626237684,
+            "actualMaxDeviation": 0.04999999999999999
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 42,
+      "requiredCoverage": 11,
+      "veinCells": 21,
+      "groupCount": 5,
+      "minimumGroupCells": 3,
+      "exceptions": [],
+      "nominalCellCapQuanta": 465903852974,
+      "maxCellFraction": 0.07522323585468549,
+      "maxGroupFraction": 0.4739361751658118
+    }
+  },
+  "hydrogenSources": [],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
+  }
+}
