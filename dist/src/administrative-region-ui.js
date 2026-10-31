@@ -3,8 +3,7 @@ const $=s=>document.querySelector(s);
 export class AdministrativeRegionUI {
   constructor({viewer,panel,onError}){
     this.viewer=viewer;this.panel=panel;this.onError=onError;this.mode='exploration';this.editing=false;this.preview=new Set();this.abort=new AbortController();
-    let storage=null;try{storage=localStorage;}catch{onError('로컬 저장에 접근할 수 없어 현재 탭에서만 편집됩니다.');}
-    this.model=new AdministrativeRegions(viewer.sectors.grid,{storage,onError,onChange:()=>this.changed()});
+    this.model=new AdministrativeRegions(viewer.sectors.grid,{transient:true,onError,onChange:()=>this.changed()});
     viewer.onEditSector=sector=>this.toggleCell(sector.id);
     $('#map-mode').addEventListener('change',e=>this.setMode(e.target.value),{signal:this.abort.signal});
     $('#admin-toggle').addEventListener('click',()=>{const drawer=$('#admin-drawer');if(!drawer.hidden){this.close();return;}drawer.hidden=false;$('#admin-toggle').setAttribute('aria-expanded',String(!drawer.hidden));},{signal:this.abort.signal});
@@ -45,7 +44,7 @@ export class AdministrativeRegionUI {
       if(action==='undo')this.model.undo();
       if(action==='recover')this.model.resetInvalidStorage();
       if(created)this.selectedId=created;
-      this.preview.clear();this.viewer.sectors.administration.setSelected(this.selectedId);this.render();$('#admin-error').textContent=this.model.saveError?'편집됨 · 로컬 저장 실패':'적용했습니다.';
+      this.preview.clear();this.viewer.sectors.administration.setSelected(this.selectedId);this.render();$('#admin-error').textContent=this.model.saveError?'편집됨 · 로컬 저장 실패':'현재 탭에 적용했습니다. 새로고침하면 초기화됩니다.';
     }catch(error){$('#admin-error').textContent=error.message;}
   }
   observeSelection(selection){if(!this.editing&&(!selection||selection.kind!=='sector')){this.selectedId=null;this.viewer.sectors.administration.setSelected(null);this.render();}if(selection?.kind==='sector'&&this.mode==='administration'){const r=this.model.forSector(selection.sector.id);this.selectedId=r?.id??null;this.viewer.sectors.administration.setSelected(this.selectedId);this.render();}}

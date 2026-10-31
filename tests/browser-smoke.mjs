@@ -83,6 +83,9 @@ try {
   assert.ok(await page.evaluate(original=>spacePrototype.viewer.renderer.info.memory.geometries<=original+1,performance.geometries));
   console.log('PASS: paused/speed/overlays, 3 injected systems, tilted sector ray pick, context reset and GPU/DOM cleanup');
 
+  // Release the completed PC scene before mobile software-GPU checks.
+  await page.evaluate(()=>{spacePrototype.panel.dispose();spacePrototype.viewer.dispose();});assert.equal(await page.locator('canvas').count(),0);assert.equal(await page.locator('#labels button').count(),0);await page.close();
+
   for(const viewport of [{width:844,height:390},{width:667,height:375}]){
     const mobile=await browser.newPage({viewport,isMobile:true,hasTouch:true,deviceScaleFactor:1});watch(mobile);await open(mobile);assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
     await shot(mobile,'mobile-'+viewport.width+'-overview');await choose(mobile,'earth');await panelBounds(mobile);assert.equal(await mobile.evaluate(()=>!!spacePrototype.viewer.transition),false);await focus(mobile);await panelBounds(mobile);await shot(mobile,'mobile-'+viewport.width+'-context');
@@ -93,6 +96,5 @@ try {
     await choose(mobile,'earth');await focus(mobile,'orbit');await view(mobile,'top');await mobile.locator('[data-close]').click();await assistedMoon(mobile,true);await panelBounds(mobile);await shot(mobile,'mobile-'+viewport.width+'-moon');
     await mobile.close();console.log('PASS: '+viewport.width+'×'+viewport.height+' touch body/sector, popup bounds, drag/pinch, Moon assistance');
   }
-  await page.evaluate(()=>{spacePrototype.panel.dispose();spacePrototype.viewer.dispose();});assert.equal(await page.locator('canvas').count(),0);assert.equal(await page.locator('#labels button').count(),0);
   assert.deepEqual(errors,[]);console.log('PASS: complete v0.4 browser flow, no page/console errors; performance '+JSON.stringify(performance));
-}finally{await browser.close();}
+}catch(error){console.error('Browser diagnostics:',JSON.stringify(errors));throw error;}finally{await browser.close();}

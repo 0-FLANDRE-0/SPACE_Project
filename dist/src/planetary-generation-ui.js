@@ -11,7 +11,7 @@ export class PlanetaryGenerationUI {
   $('#surface-generation-toggle').addEventListener('click',()=>this.open(),options);$('#generation-close').addEventListener('click',()=>this.close(),options);
   $('#generation-preview').addEventListener('click',()=>this.makePreview(),options);$('#generation-apply').addEventListener('click',()=>this.apply(),options);
   $('#generation-cancel').addEventListener('click',()=>{this.invalidate();this.status('미리보기를 취소했습니다. 저장 원본은 유지됩니다.');this.refreshMap();},options);
-  $('#generation-undo').addEventListener('click',()=>{try{this.invalidate();const saved=surface.drafts.undo(surface.entry);this.refreshMap();this.status(saved?'마지막 적용을 되돌리고 저장했습니다.':'되돌림은 메모리에만 유지됩니다. JSON으로 백업하세요.');}catch(e){this.status(e.message);}},options);
+  $('#generation-undo').addEventListener('click',()=>{try{this.invalidate();const saved=surface.drafts.undo(surface.entry);this.refreshMap();this.status(saved?'마지막 적용을 되돌렸습니다. 현재 탭에만 유지됩니다.':'되돌림은 메모리에만 유지됩니다. JSON으로 백업하세요.');}catch(e){this.status(e.message);}},options);
   $('#generation-export').addEventListener('click',()=>surface.exportCurrent(),options);
   $('#generation-sidecar').addEventListener('click',()=>{if(this.lastMetadata&&surface.isDeveloper())download(`SPACE_generation_${surface.entry.grid.systemId}_${surface.entry.body.id}.json`,this.lastMetadata);},options);
   $('#generation-new-seed').addEventListener('click',()=>{const input=$('#generation-seed');input.value=input.value+':next';this.invalidate();this.status('새 시드가 설정되었습니다. 다시 미리보기 하세요.');},options);
@@ -48,8 +48,8 @@ export class PlanetaryGenerationUI {
  compareCell(){const s=this.surface,id=s.selectedId;if(!id||!s.entry||$('#generation-panel').hidden){$('#generation-comparison').textContent='지도에서 구역을 선택하면 이전값 / 예정값을 비교합니다.';return;}const before=resolvedSurfaceCell(s.entry.template,s.entry.grid,s.entry.body,id),after=this.preview?resolvedSurfaceCell(this.preview.nextTemplate,s.entry.grid,s.entry.body,id):before;const brief=c=>({terrain:c.geology.terrain,environment:c.geology.environment,deposits:c.geology.deposits,populationPersons:c.scenario.populationPersons,urbanizationRate:c.scenario.urbanizationRate,infrastructureLevel:c.scenario.infrastructureLevel});$('#generation-comparison').textContent=id+'\n이전(현재 원본):\n'+JSON.stringify(brief(before),null,2)+'\n예정:\n'+JSON.stringify(brief(after),null,2);}
  apply(){const s=this.surface,p=this.preview;if(!p||!s.entry||!s.isDeveloper()||!$('#generation-confirm').checked)return;try{if(s.entry!==this.openEntry||JSON.stringify(s.entry.template)!==p.baseJSON)throw Error('원본이 변경되었습니다. 다시 미리보기 하세요.');
    const metadata={kind:'planetary-generation',metadataVersion:1,systemId:s.entry.grid.systemId,bodyId:s.entry.body.id,gridFingerprint:s.entry.grid.gridFingerprint,...p.settings,source:p.source};
-   if(p.policy==='overwrite')download(`SPACE_surface_before_generation_${s.entry.grid.systemId}_${s.entry.body.id}.json`,s.entry.template);
-   const saved=s.drafts.commit(s.entry,p.nextTemplate,{replace:p.policy==='overwrite'});this.lastMetadata=metadata;this.invalidate();this.refreshMap();this.status(saved?'원자적으로 적용하고 로컬 초안을 저장했습니다. 되돌리기/JSON 내보내기가 가능합니다.':'메모리에 적용했습니다. 저장 실패: JSON으로 백업하세요.');
+   if(p.policy==='overwrite'&&!s.drafts.transient)download(`SPACE_surface_before_generation_${s.entry.grid.systemId}_${s.entry.body.id}.json`,s.entry.template);
+   const saved=s.drafts.commit(s.entry,p.nextTemplate,{replace:p.policy==='overwrite'});this.lastMetadata=metadata;this.invalidate();this.refreshMap();this.status(saved?'적용하고 현재 탭에 유지합니다. 되돌리기·수동 JSON 내보내기가 가능합니다.':'메모리에 적용했습니다. 저장 실패: JSON으로 백업하세요.');
   }catch(error){this.status('적용 거부: '+error.message);}
  }
  status(message){$('#generation-status').textContent=message;$('#generation-status').title=message;}
