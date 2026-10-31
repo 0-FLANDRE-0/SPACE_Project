@@ -25,6 +25,7 @@ export class IndustryUI {
   $('#industry-import').addEventListener('change',async e=>{this.pendingImport=null;$('#industry-import-apply').disabled=true;$('#industry-import-confirm').checked=false;try{const file=e.target.files[0];if(!file)return;if(file.size>5*1024*1024)throw Error('최대 5 MiB');this.pendingImport=this.store.preview(await file.text());$('#industry-file-status').textContent=`검증 완료 · ${fmt(this.pendingImport.days)} 게임일 · 시설 ${Object.keys(this.pendingImport.facilityInstances).length}개. 기존 저장을 백업한 뒤 시계와 함께 복원합니다.`;}catch(error){$('#industry-file-status').textContent='가져오기 거부: '+error.message;}},options);
   $('#industry-import-confirm').addEventListener('change',()=>{$('#industry-import-apply').disabled=!this.pendingImport||!$('#industry-import-confirm').checked;},options);
   $('#industry-import-apply').addEventListener('click',()=>this.run(()=>{if(!this.pendingImport||!$('#industry-import-confirm').checked)return;this.store.replace(this.pendingImport);this.simulation.days=this.store.state.days;this.pendingImport=null;$('#industry-import-apply').disabled=true;$('#industry-import-confirm').checked=false;$('#industry-file-status').textContent='기존 원본 백업 후 시계·산업을 함께 복원했습니다.';},{allowBlocked:true}),options);
+  $('#industry-files-close').addEventListener('click',()=>{$('#industry-files').hidden=true;},options);
   $('#industry-files-toggle').addEventListener('click',()=>{$('#industry-files').hidden=!$('#industry-files').hidden;},options);
   surface.industry=this;
  }

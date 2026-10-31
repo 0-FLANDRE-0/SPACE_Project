@@ -1,6 +1,6 @@
 // v0.5E tuning proposals. None of these curves, slot thresholds or upgrade
 // prices establish a final economy. Agreed costs/yields are labelled separately.
-export const INDUSTRY_POLICY=Object.freeze({version:1,provisional:true,monthDays:30,ticksPerDay:24,minimumConfirmedOreU:1000,maximumLevel:5,maximumDepth:25,maximumDiscoveryTier:1,historyMonths:12,eventLimit:80,lotLimit:20000,maxTicksPerAdvance:24000});
+export const INDUSTRY_POLICY=Object.freeze({version:1,provisional:true,monthDays:30,ticksPerDay:24,minimumConfirmedOreU:1000,maximumLevel:5,maximumDepth:25,maximumDiscoveryTier:1,historyMonths:12,eventLimit:80,lotLimit:20000,maxInventoryQ:1000000000000000,maxTicksPerAdvance:24000});
 export const MINING='government_mining_complex',SMELTING='government_smelting_complex';
 export const FACILITY_TYPES=Object.freeze({
  [MINING]:{name:'국영 광업단지',icon:'⛏',creditC:14500,alloyU:1200,hydrogenU:0,months:6,capacityU:5000},
