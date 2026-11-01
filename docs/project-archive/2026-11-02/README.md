@@ -22,6 +22,7 @@
 | [02_WORLD_RESEARCH_INDUSTRY.md](02_WORLD_RESEARCH_INDUSTRY.md) | 게임 철학, 3D/섹터/표면, 시간, 인구, 지질·시설·산업, 연구 및 200년 캠페인 |
 | [03_RESOURCE_SCU_PACKAGING.md](03_RESOURCE_SCU_PACKAGING.md) | U/SCU/C/Q, 표준 컨테이너 7종, 소재 회수, 수소, 광석 로트, SCU 보완 패치, 물류 경계 |
 | [04_ECONOMY_POWER.md](04_ECONOMY_POWER.md) | ECON-SIM 1~3의 결과, 발전 모듈, 광업·제련 전력, 초기 식민지 소형 전원, ECON-SIM-4 범위 |
+| [04A_REACTOR_TECH_AND_UPGRADES.md](04A_REACTOR_TECH_AND_UPGRADES.md) | **반응로 보강:** 초기 핵융합·함선용 소형화, 출력/효율/시동/정비 개량, 반물질·아스트로지늄 구상, 수정 테크트리 JSON 원문 대기 |
 | [05_SHIPS_AND_COMBAT.md](05_SHIPS_AND_COMBAT.md) | 9함급, 고정 선체 형식과 장갑면 한계, HAC/타이탄, 직접 조종, 형상·LOS, 확률·국소손상 전투 |
 | [05A_HULL_FORMS_ARMOR_LOS_DETAIL.md](05A_HULL_FORMS_ARMOR_LOS_DETAIL.md) | **최신 함선 보강:** 함급/선체 형식/개별 설계 3계층, 형식별 면 최대 장갑 두께, 시선 LOS와 장갑 LOS 구별, 기하 기반 관통/도탄과 미정 항목 |
 | [06_DECISIONS_AND_SUPERSEDED.md](06_DECISIONS_AND_SUPERSEDED.md) | 사용자 확정 / 잠정 / 제안 / 폐기 및 구자료 상충 해결 |
@@ -30,7 +31,9 @@
 | [09_SOURCE_MAP.md](09_SOURCE_MAP.md) | 1차 첨부 원본, 기획 백업17종, 온라인 보고서/근거 지도 |
 | [NEW_CHAT_HANDOFF_KO.md](NEW_CHAT_HANDOFF_KO.md) | 새 채팅에 붙여넣을 짧은 인계 메시지 |
 
-**보강 갱신(2026-11-02):** 기존 [docs/DECISIONS.md](../../DECISIONS.md)에 최신 함선 결정의 요약과 본 상세 문서 링크를 추가했다. 사용자 원문이 없는 최신 정정의 구체 수치·공식은 새로 만들지 않았으며 연구 테크트리 초안은 제공된 JSON 파일로 구조를 재확인했다. 아카이브는 이제 **12개 Markdown**이며 PR #14 자체는 문서 변경만 포함한다.
+**보강 갱신(2026-11-02):** 기존 [docs/DECISIONS.md](../../DECISIONS.md)에 최신 함선 결정의 요약과 본 상세 문서 링크를 추가했다. 사용자 원문이 없는 최신 정정의 구체 수치·공식은 새로 만들지 않았으며 연구 테크트리 초안은 제공된 JSON 파일로 구조를 재확인했다. 아카이브는 이제 **13개 Markdown**이며 PR #14 자체는 문서 변경만 포함한다.
+
+**추가 보강(2026-11-02):** [04A 반응로·에너지 기술](04A_REACTOR_TECH_AND_UPGRADES.md)을 추가해 기존 R3 발전 운전값과 미래 연구 개량·반물질 계보 구상을 구별했다. 사용자가 **10월31일 테크트리 구초안 대신 이후 보강 JSON을 우선**하겠다고 정정했으나 해당 파일은 현재 GitHub/이 대화에서 찾지 못했으므로, **구초안의 노드·선행·기술 비용을 최신 확정값으로 취급하지 않는다**. 보강본 확인 전에는 문서상 '입수 대기'로 둔다. 아카이브 현재 **13개 Markdown**.
 
 ## 상태 표기의 뜻
 
