@@ -1,0 +1,49 @@
+Completed 0/257 parameter sets
+Completed 64/257 parameter sets
+Completed 128/257 parameter sets
+Completed 192/257 parameter sets
+Completed 256/257 parameter sets
+Saved 21 standalone Matplotlib SVG charts
+{
+  "runs": 4626,
+  "extras": 1422,
+  "passing": 0,
+  "elapsedMs": 21077.635932999998,
+  "benchmarkMs": {
+    "p50": 3.3416289999986475,
+    "p95": 6.486851000001479,
+    "max": 7.323383999999351,
+    "note": "40 in-process 240-month runs; includes all ledger assertions"
+  },
+  "candidates": [
+    {
+      "id": "LHS-194",
+      "passed": false,
+      "penalty": 0.16590102016724784,
+      "failures": {
+        "governmentMinor": 3,
+        "colonyBurden": 3
+      }
+    },
+    {
+      "id": "LHS-236",
+      "passed": false,
+      "penalty": 0.26848116504131386,
+      "failures": {
+        "peacePrice": 9,
+        "governmentMinor": 3
+      }
+    },
+    {
+      "id": "LHS-048",
+      "passed": false,
+      "penalty": 0.29203371226014757,
+      "failures": {
+        "inflation": 9,
+        "budget17": 9,
+        "governmentMinor": 3,
+        "warRecovery": 2
+      }
+    }
+  ]
+}
