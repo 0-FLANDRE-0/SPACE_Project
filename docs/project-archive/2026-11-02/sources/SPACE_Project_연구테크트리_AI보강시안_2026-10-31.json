@@ -1,0 +1,3141 @@
+{
+  "schema": "space-tech-tree",
+  "schemaVersion": 1,
+  "editorVersion": "1.1.0",
+  "project": {
+    "id": "project_de62ddf0-b655-4646-89c5-798e9d0dbaf3",
+    "name": "SPACE_Project 초기 우주 시대 연구안 · AI 보강 시안",
+    "createdAt": "2026-10-31T09:25:35.669Z",
+    "updatedAt": "2026-10-31T10:09:23.943Z",
+    "notes": "초기 함선은 개량형 원자로를 사용한다. 핵융합로는 존재하지만 함선 탑재용 안정화 기술이 부족하다. 개량형 원자로의 구체적 방식은 미정.\n양자역학은 초반에 가장 먼저 추가 개방되고, 역장 조작이 비교적 짧은 간격으로 뒤따른다. 거대구조공학은 중반에 개방한다. 정확한 선행 조건과 시점은 미정.\n중기 우주 시대는 웜홀 관련 이벤트와 성간 개척을 포함하는 긴 구간이다. III++는 선택 단계로 건너뛰고 IV에 진입할 수 있다. VI는 현재 최종 단계이며 추후 확장 여지는 남긴다.\n이 문서의 개별 기술 목록은 기획 초안이다. 누적 지식은 연구 시 소비되지 않으며, 승격은 상한만 높이고 실제 지식을 자동으로 보충하지 않는다.\n\n[2026-10-31 AI 보강 시안 - 승인 전 검토]\n기존 노드 13개, 연결선 20개, 승인 표시와 원문 기술명·설명·효과·크레딧·자원·시설은 그대로 보존했다. 기존 노드의 지식 요구량만 AI가 난이도에 맞춰 새로 제안했고, 변경 전 숫자는 각 노드 notes에서 확인할 수 있다. 승인 표시(approved)는 원본 메타데이터를 유지한 것이지 수정 지식 수치의 확정을 의미하지 않는다.\nAI가 새로 추가한 기술·선행선·실현 후보 조건은 모두 초안(draft)이다. 초기 분야 16개, 단계 I 1,000K / I+ 1,500K, 양자역학→역장 조작 순서 및 거대구조공학 중반 개방, 함선 개량형 원자로와 함선용 핵융합로 불안정 설정 등은 그대로 유지했다.\n지식 요구량은 누적 지식의 조건이며 소비되지 않는다. 하드(required) / 권장(recommended) / 발견(discovery)은 구별한다. 권장 기반 부족만으로 연구 시작을 금지하지 않는다. 승격 연구는 승격 이전의 상한 안에서 완료 가능하게 한다. 과제별 연구량, 초기 지식, 연구 속도, 실현 확률, 비용 규모가 미정이므로 모든 수치는 임시 밸런스 제안이다.\n신규 연구의 비용·시설·현장 조건에 적힌 후보 설명은 구체적인 경제/시설 체계가 정해질 때 재검토할 것. 연구 완료는 장비 자동개조가 아니라 해당 장비의 제작·개조 가능 상태로 해석할 것.\n원안에서 명칭 검토가 필요한 항목: 「레이저 분광기 개량」은 설명이 레이저 무기 개선으로 되어 있어 관측장비/무기광학계 중 어느 쪽인지 결정 필요. 「중력 역학」은 컴퓨터공학 주 분야 유지(원안 보존)로 두었으며 천체행성학/우주역학 이동 검토 가능.\n"
+  },
+  "catalog": {
+    "knowledgeUnit": "K",
+    "categories": [
+      {
+        "id": "physics",
+        "name": "물리학",
+        "color": "#7ab2ff"
+      },
+      {
+        "id": "society",
+        "name": "사회학",
+        "color": "#d8a4eb"
+      },
+      {
+        "id": "engineering",
+        "name": "공학",
+        "color": "#78d2b5"
+      }
+    ],
+    "fields": [
+      {
+        "id": "computing",
+        "name": "컴퓨터공학",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "particle",
+        "name": "입자물리학",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "fields",
+        "name": "역장 조작",
+        "categoryId": "physics",
+        "initiallyAvailable": false,
+        "unlockNote": "초반: 양자역학 다음, 비교적 짧은 간격. 정확한 조건 미정."
+      },
+      {
+        "id": "energy",
+        "name": "에너지",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "navigation",
+        "name": "항행",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "quantum",
+        "name": "양자역학",
+        "categoryId": "physics",
+        "initiallyAvailable": false,
+        "unlockNote": "추가 개방 분야 중 가장 먼저. 초반 개방, 정확한 조건 미정."
+      },
+      {
+        "id": "astroplanetary",
+        "name": "천체행성학",
+        "categoryId": "physics",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "biology",
+        "name": "생물학",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "militaryTheory",
+        "name": "군사이론",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "governance",
+        "name": "국가운영",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "colonization",
+        "name": "식민지학",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "economics",
+        "name": "경제학",
+        "categoryId": "society",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "materials",
+        "name": "재료공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "propulsion",
+        "name": "추진공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "astrodynamics",
+        "name": "우주역학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "industry",
+        "name": "산업공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "logistics",
+        "name": "물류공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "shipbuilding",
+        "name": "조선공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": true,
+        "unlockNote": "게임 시작부터 분야 개방"
+      },
+      {
+        "id": "megastructure",
+        "name": "거대구조공학",
+        "categoryId": "engineering",
+        "initiallyAvailable": false,
+        "unlockNote": "중반 개방. 정확한 조건 미정."
+      }
+    ],
+    "eras": [
+      {
+        "id": "I",
+        "name": "초기 우주 시대",
+        "knowledgeCapK": 1000,
+        "optional": false,
+        "initial": true
+      },
+      {
+        "id": "I+",
+        "name": "초기 우주 시대",
+        "knowledgeCapK": 1500,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "II",
+        "name": "확장 우주 시대",
+        "knowledgeCapK": 3000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "II+",
+        "name": "확장 우주 시대",
+        "knowledgeCapK": 5000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "III",
+        "name": "중기 우주 시대",
+        "knowledgeCapK": 8000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "III+",
+        "name": "중기 우주 시대",
+        "knowledgeCapK": 10000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "III++",
+        "name": "중기 우주 시대",
+        "knowledgeCapK": 12500,
+        "optional": true,
+        "initial": false
+      },
+      {
+        "id": "IV",
+        "name": "후기 우주 시대",
+        "knowledgeCapK": 25000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "IV+",
+        "name": "후기 우주 시대",
+        "knowledgeCapK": 35000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "V",
+        "name": "차세대 우주 시대",
+        "knowledgeCapK": 60000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "V+",
+        "name": "차세대 우주 시대",
+        "knowledgeCapK": 100000,
+        "optional": false,
+        "initial": false
+      },
+      {
+        "id": "VI",
+        "name": "특이점",
+        "knowledgeCapK": 300000,
+        "optional": false,
+        "initial": false
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "node_3f960323-1434-43f8-a06d-320cb3ee8621",
+      "type": "technology",
+      "title": "극초고온 플라스마 안정화",
+      "fieldId": "particle",
+      "relatedFieldIds": [
+        "computing",
+        "energy",
+        "materials",
+        "particle"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "approved",
+      "initialState": "discovered",
+      "prerequisiteMode": "all",
+      "description": "우주적 환경 및 우주선 내의 환경에서 핵융합로의 안정화",
+      "effects": "함선 탑재 핵융합로 해제.\n에너지 발전 효율 개선.",
+      "discovery": "초기 우주 시대 I 연구",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 250,
+      "resources": "합금 50U",
+      "facilities": "없음",
+      "fieldwork": "없음",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: computing 25K(required), particle 50K(required), energy 25K(required), materials 25K(required)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 125,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 230,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 185,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 145,
+          "kind": "required"
+        }
+      ],
+      "x": 480,
+      "y": 192
+    },
+    {
+      "id": "node_d4244577-76c4-4896-b80a-78d841c0c101",
+      "type": "technology",
+      "title": "펄스 안정화",
+      "fieldId": "navigation",
+      "relatedFieldIds": [
+        "particle",
+        "navigation",
+        "propulsion"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "approved",
+      "initialState": "discovered",
+      "prerequisiteMode": "all",
+      "description": "펄스 드라이브의 효율성과 최대속도, 가동시간 개선",
+      "effects": "펄스 드라이브의 최대속도 증가, 가동 지연 시간 감소.\n\n하이퍼펄스 드라이브의 가동 지연 시간 감소.",
+      "discovery": "초기 우주 시대 I 연구",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 100,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: navigation 15K(required), particle 25K(required), propulsion 10K(required)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "navigation",
+          "amountK": 115,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 105,
+          "kind": "required"
+        },
+        {
+          "fieldId": "propulsion",
+          "amountK": 95,
+          "kind": "required"
+        }
+      ],
+      "x": 480,
+      "y": 528
+    },
+    {
+      "id": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "type": "technology",
+      "title": "슈퍼컴퓨터 능동성 개량",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "approved",
+      "initialState": "discovered",
+      "prerequisiteMode": "all",
+      "description": "연구용 슈퍼컴퓨터의 개량",
+      "effects": "영구적인 연구속도 보너스",
+      "discovery": "초기 우주 시대 I 연구",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 500,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: computing 35K(required)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 165,
+          "kind": "required"
+        }
+      ],
+      "x": 480,
+      "y": 24
+    },
+    {
+      "id": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "type": "technology",
+      "title": "에너지 효율성 개선",
+      "fieldId": "energy",
+      "relatedFieldIds": [
+        "energy",
+        "particle"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "발전소 등의 에너지 생산량 증대",
+      "effects": "발전소 전력 생산량 증가",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 500,
+      "resources": "합금 200U",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: energy 25K(required), particle 15K(required)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "energy",
+          "amountK": 275,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 175,
+          "kind": "required"
+        }
+      ],
+      "x": 792,
+      "y": 264
+    },
+    {
+      "id": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "type": "technology",
+      "title": "레이저 분광기 개량",
+      "fieldId": "particle",
+      "relatedFieldIds": [
+        "particle",
+        "materials"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "approved",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "레이저형 무기의 개선",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 150,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: particle 20K(required), materials 15K(required)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "particle",
+          "amountK": 145,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 110,
+          "kind": "required"
+        }
+      ],
+      "x": 480,
+      "y": 360
+    },
+    {
+      "id": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "type": "technology",
+      "title": "계산 알고리즘 최적화",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing",
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "슈퍼컴퓨터의 연산력 개선 및 컴퓨터 개량",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: computing 50K(recommended), energy 25K(recommended)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 195,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 295,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 155,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": -48
+    },
+    {
+      "id": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "technology",
+      "title": "하이퍼펄스 항법 안정화",
+      "fieldId": "navigation",
+      "relatedFieldIds": [
+        "particle",
+        "navigation",
+        "propulsion"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "하이퍼펄스 드라이브의 개량",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 2500,
+      "resources": "합금 1500U, 아스트로지늄 1.5U",
+      "facilities": "연구소",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: navigation 75K(required), navigation 150K(recommended), particle 60K(required), propulsion 50K(required), particle 100K(recommended), propulsion 70K(recommended), computing 65K(required)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "navigation",
+          "amountK": 475,
+          "kind": "required"
+        },
+        {
+          "fieldId": "navigation",
+          "amountK": 670,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 310,
+          "kind": "required"
+        },
+        {
+          "fieldId": "propulsion",
+          "amountK": 340,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 460,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "propulsion",
+          "amountK": 500,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 295,
+          "kind": "required"
+        }
+      ],
+      "x": 1104,
+      "y": 528
+    },
+    {
+      "id": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "type": "technology",
+      "title": "연구 알고리즘 최적화",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing",
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "연구 알고리즘의 최적화",
+      "effects": "연구 효율성 증가",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 500,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: computing 65K(required), energy 70K(recommended)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 355,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 255,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": -216
+    },
+    {
+      "id": "node_3be45b42-ad3b-4fd9-9ca7-3c5ec13a2187",
+      "type": "technology",
+      "title": "정밀 천체 관측",
+      "fieldId": "astroplanetary",
+      "relatedFieldIds": [
+        "particle",
+        "astroplanetary"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "천체 관측 및 탐사 효율 증가",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 550,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: astroplanetary 60K(required), particle 40K(required)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "astroplanetary",
+          "amountK": 340,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 205,
+          "kind": "required"
+        }
+      ],
+      "x": 1104,
+      "y": 24
+    },
+    {
+      "id": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "type": "technology",
+      "title": "데이터 자동 분석 알고리즘",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "자율발견 효율 개선",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 100,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: computing 105K(recommended)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 425,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 600,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1104,
+      "y": -144
+    },
+    {
+      "id": "node_57209f39-711b-4da4-8f7b-2e24417ec0f7",
+      "type": "technology",
+      "title": "핵융합 출력 안정화",
+      "fieldId": "energy",
+      "relatedFieldIds": [
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "핵융합로 출력 향상",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 100,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: energy 70K(recommended)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "energy",
+          "amountK": 330,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 515,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1104,
+      "y": 192
+    },
+    {
+      "id": "node_18ef226b-e936-4324-a690-cb8ab34625d3",
+      "type": "technology",
+      "title": "우주 항법 최적화",
+      "fieldId": "navigation",
+      "relatedFieldIds": [
+        "computing",
+        "energy",
+        "navigation"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "드라이브의 가동 지연 시간 감소",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: navigation 70K(required), energy 85K(recommended), computing 60K(recommended)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "navigation",
+          "amountK": 320,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 290,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 230,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1104,
+      "y": 360
+    },
+    {
+      "id": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "technology",
+      "title": "중력 역학",
+      "fieldId": "computing",
+      "relatedFieldIds": [
+        "computing",
+        "particle",
+        "astrodynamics"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "중력 감지기 및 중력 이상 연구",
+      "effects": "",
+      "discovery": "",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "",
+      "deepening": "",
+      "realization": "",
+      "credits": 700,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "",
+      "notes": "[AI 임시 지식 밸런스안] 원본 요구량: computing 170K(required), astrodynamics 100K(recommended), particle 80K(recommended)\n변경한 지식 수치만 제안이며 기존 제목·효과·비용·승인 상태는 보존. 초기 지식과 연구 속도가 정해지면 재검토.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 565,
+          "kind": "required"
+        },
+        {
+          "fieldId": "astrodynamics",
+          "amountK": 360,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 285,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1416,
+      "y": 792
+    },
+    {
+      "id": "node_ai_d8a74a8a-2cbd-5ac9-990a-98edd4e94cb2",
+      "type": "technology",
+      "title": "양자 간섭 정밀계측",
+      "fieldId": "particle",
+      "relatedFieldIds": [
+        "particle",
+        "computing",
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "미세한 양자 간섭 신호를 반복 측정하는 정밀 계측법의 확립.",
+      "effects": "양자역학 독립 연구 분야를 발견하기 위한 관측 기반 확보.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "정밀 계측 연구시설(종류 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 분야 개방 선행 기반. 기존 핵융합/펄스의 재발명 아님. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "particle",
+          "amountK": 345,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 245,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 300,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": -700
+    },
+    {
+      "id": "node_ai_459f9437-4a88-5ded-8f16-bef89bc8eb45",
+      "type": "fieldUnlock",
+      "title": "양자역학 전문 연구 개방",
+      "fieldId": "particle",
+      "relatedFieldIds": [
+        "particle",
+        "quantum",
+        "computing"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "quantum",
+      "designStatus": "draft",
+      "initialState": "undiscovered",
+      "prerequisiteMode": "all",
+      "description": "기존 양자역학 이론을 독립적인 전문 연구 분야로 체계화.",
+      "effects": "양자역학 분야 개방. 지식 자동 지급 없음.",
+      "discovery": "양자 간섭 정밀계측의 성과 확보. 정확한 발견 빈도와 힌트는 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "종합 선행 기술과 관련 관측자료의 통합 이론 정립.",
+      "deepening": "분야 간 기술적 기반과 학문·실험 체계의 종합 검증.",
+      "realization": "연구체계 전환의 실증. 최종 실험 비용·시설은 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 테크트리 노드 제안 · 아직 미확정] 초반 신규 분야 중 가장 먼저 개방. 초기 양자역학 연구가 전혀 존재하지 않았다는 뜻은 아님.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "particle",
+          "amountK": 420,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 345,
+          "kind": "required"
+        }
+      ],
+      "x": 792,
+      "y": -700
+    },
+    {
+      "id": "node_ai_34d79a3b-b80d-558b-8ea2-4bcadf307515",
+      "type": "technology",
+      "title": "양자 상태 제어 실험",
+      "fieldId": "quantum",
+      "relatedFieldIds": [
+        "quantum",
+        "computing",
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "작은 규모에서 양자 상태를 안정적으로 측정하고 제어.",
+      "effects": "후속 양자 응용 및 역장 현상 연구의 기반 실험기술 확보.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "정밀 물리 실험실(종류 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 양자역학 개방 후 낮은 분야 지식에서 출발할 수 있도록 조건을 설정. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "quantum",
+          "amountK": 105,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 255,
+          "kind": "required"
+        },
+        {
+          "fieldId": "quantum",
+          "amountK": 200,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 235,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1104,
+      "y": -700
+    },
+    {
+      "id": "node_ai_d4aec013-9f8e-5115-9735-f2939ab97511",
+      "type": "technology",
+      "title": "역장 현상 기초 분석",
+      "fieldId": "particle",
+      "relatedFieldIds": [
+        "particle",
+        "quantum",
+        "energy"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "반복 재현되는 국소 역장 유사 현상의 특성을 관측.",
+      "effects": "역장 조작 분야의 연구 단서 확보. 보호막 장비는 아직 해금되지 않음.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "고정밀 물리 실험시설(종류 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 기초 현상 해석과 실제 역장 발생장치는 다른 연구. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "particle",
+          "amountK": 430,
+          "kind": "required"
+        },
+        {
+          "fieldId": "quantum",
+          "amountK": 155,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 310,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1416,
+      "y": -700
+    },
+    {
+      "id": "node_ai_7aa4cf75-7480-5ce3-bbde-e43202e28960",
+      "type": "fieldUnlock",
+      "title": "역장 조작 전문 연구 개방",
+      "fieldId": "particle",
+      "relatedFieldIds": [
+        "particle",
+        "quantum",
+        "energy",
+        "fields"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "fields",
+      "designStatus": "draft",
+      "initialState": "undiscovered",
+      "prerequisiteMode": "all",
+      "description": "역장 현상의 일부 재현 가능한 규칙을 독립 연구 분야로 정립.",
+      "effects": "역장 조작 분야 개방. 실전 보호막 즉시 해금 아님.",
+      "discovery": "양자역학 분야 연구와 역장 현상 기초 분석을 통해 점진적으로 발견.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "종합 선행 기술과 관련 관측자료의 통합 이론 정립.",
+      "deepening": "분야 간 기술적 기반과 학문·실험 체계의 종합 검증.",
+      "realization": "연구체계 전환의 실증. 최종 실험 비용·시설은 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 테크트리 노드 제안 · 아직 미확정] 양자역학 개방 직후 비교적 짧은 간격에 등장. 구체적인 연구 시간 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "particle",
+          "amountK": 460,
+          "kind": "required"
+        },
+        {
+          "fieldId": "quantum",
+          "amountK": 175,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 320,
+          "kind": "required"
+        }
+      ],
+      "x": 1728,
+      "y": -700
+    },
+    {
+      "id": "node_ai_a9e21c58-4e8c-54d9-98e6-23afae37d5ea",
+      "type": "technology",
+      "title": "국소 역장 발생 시험",
+      "fieldId": "fields",
+      "relatedFieldIds": [
+        "fields",
+        "energy",
+        "quantum",
+        "materials"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "제한된 시험실 환경에서 소규모 역장을 반복 형성하고 계측.",
+      "effects": "역장 실험 장비의 연구·제작 기반. 함선 보호막은 직접 해금하지 않음.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "실험용 고출력 전력·안전시설(규격 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 후속 보호막·차단장 연구의 출발점일 뿐, 성능은 미정. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "fields",
+          "amountK": 230,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 510,
+          "kind": "required"
+        },
+        {
+          "fieldId": "quantum",
+          "amountK": 275,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 400,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 300,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": -700
+    },
+    {
+      "id": "node_ai_9a3c9bf7-83f3-5603-abc1-8942b223c94b",
+      "type": "technology",
+      "title": "고밀도 축전 모듈",
+      "fieldId": "energy",
+      "relatedFieldIds": [
+        "energy",
+        "materials",
+        "particle"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "우주 설비용 축전기 에너지 밀도와 안정성을 개선.",
+      "effects": "더 높은 출력·용량을 지향하는 축전 모듈 설계 가능.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 축전기의 용량과 실제 저장량은 별도 개념으로 유지. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "energy",
+          "amountK": 270,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 215,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 250,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 1110
+    },
+    {
+      "id": "node_ai_d791e354-39e2-56c3-8369-477fc569fe61",
+      "type": "technology",
+      "title": "함선용 열관리 재설계",
+      "fieldId": "shipbuilding",
+      "relatedFieldIds": [
+        "shipbuilding",
+        "materials",
+        "energy",
+        "industry"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "함선 내부의 냉각·방열·열차폐 경로를 개선.",
+      "effects": "고발열 함선 장비의 안정적 탑재를 위한 설계·개수 기술.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "열관리 시험 시설(종류 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 함선 핵융합로 도입의 권장 기반; 선행 필수로 강제하지 않음. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "shipbuilding",
+          "amountK": 250,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 215,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 175,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 230,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 1310
+    },
+    {
+      "id": "node_ai_0860d2eb-fb50-5dc7-8316-86ba3b31718e",
+      "type": "technology",
+      "title": "고출력 배전 보호계통",
+      "fieldId": "energy",
+      "relatedFieldIds": [
+        "energy",
+        "computing",
+        "shipbuilding",
+        "materials"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "함선·정거장 전력망의 출력 변동과 과부하를 분산·차단.",
+      "effects": "신형 고출력 배전 장치 및 안전장치 설계 가능.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 전력 생산량이 아니라 공급/배전의 안정성 개선. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "energy",
+          "amountK": 350,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 250,
+          "kind": "required"
+        },
+        {
+          "fieldId": "shipbuilding",
+          "amountK": 195,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 260,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": 1110
+    },
+    {
+      "id": "node_ai_2e8844a2-b273-5c10-9c47-12bc1cdbfd41",
+      "type": "technology",
+      "title": "진공 기동추진 노즐 최적화",
+      "fieldId": "propulsion",
+      "relatedFieldIds": [
+        "propulsion",
+        "astrodynamics",
+        "materials"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "진공에서 사용하는 일반 기동추진기의 분사 제어를 개선.",
+      "effects": "함선의 전술 기동 추진기관 개량 연구를 해금.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 장거리 펄스·하이퍼펄스 드라이브 성능과 구분. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "propulsion",
+          "amountK": 175,
+          "kind": "required"
+        },
+        {
+          "fieldId": "astrodynamics",
+          "amountK": 140,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 130,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 1600
+    },
+    {
+      "id": "node_ai_4059dc00-f4fb-53f1-aa63-50bc7868c798",
+      "type": "technology",
+      "title": "저진동 드라이브 마운트",
+      "fieldId": "propulsion",
+      "relatedFieldIds": [
+        "propulsion",
+        "materials",
+        "shipbuilding"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "고출력 드라이브 구동부의 진동·피로 집중을 줄이는 마운트.",
+      "effects": "드라이브 설치·내구성·시험 효율 개선 기반.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 원래 펄스/하이퍼펄스 성능을 강제 하향하지 않음. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "propulsion",
+          "amountK": 320,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 255,
+          "kind": "required"
+        },
+        {
+          "fieldId": "shipbuilding",
+          "amountK": 185,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": 1600
+    },
+    {
+      "id": "node_ai_41fe5973-1f22-5cfe-87da-44785dbc0541",
+      "type": "technology",
+      "title": "우주 조선공정 표준화",
+      "fieldId": "shipbuilding",
+      "relatedFieldIds": [
+        "shipbuilding",
+        "industry",
+        "logistics"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "조선소 작업·모듈 결합·검사 절차를 표준화.",
+      "effects": "새 함선 건조 및 기존 함선 개수공정의 효율 개선.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 기존 함선 자동 업그레이드 금지. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "shipbuilding",
+          "amountK": 200,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 185,
+          "kind": "required"
+        },
+        {
+          "fieldId": "logistics",
+          "amountK": 150,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 1800
+    },
+    {
+      "id": "node_ai_fa108ddf-73d6-573e-aa2c-24ef56b820a4",
+      "type": "technology",
+      "title": "정밀 선광·제련 자동화",
+      "fieldId": "industry",
+      "relatedFieldIds": [
+        "industry",
+        "materials",
+        "computing"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "광석 선별과 제련 공정의 자동화·불량률 개선.",
+      "effects": "신규/개량 제련 공정 설계 가능.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 기존 광석 품질별 수율과 원천 예산을 임의로 바꾸지 않음. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "industry",
+          "amountK": 215,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 200,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 200,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 2000
+    },
+    {
+      "id": "node_ai_eacd5fb4-cab7-5a52-8ee6-27e3967851f0",
+      "type": "technology",
+      "title": "연구시설 계측 연동",
+      "fieldId": "industry",
+      "relatedFieldIds": [
+        "industry",
+        "computing",
+        "materials",
+        "governance"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "실험 설비와 계측 기록의 표준화·재현성 검증.",
+      "effects": "대형 연구 과제의 검증 절차를 체계화. 연구 지식 상한은 이 연구만으로 증가하지 않음.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "연구시설(구체 등급 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 승격 연구의 핵심 필수 선행 기술 후보. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "industry",
+          "amountK": 340,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 285,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 240,
+          "kind": "required"
+        },
+        {
+          "fieldId": "governance",
+          "amountK": 150,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": 2000
+    },
+    {
+      "id": "node_ai_a3f128a8-789d-5f78-8995-55b9f08e0bd1",
+      "type": "technology",
+      "title": "우주화물 규격화",
+      "fieldId": "logistics",
+      "relatedFieldIds": [
+        "logistics",
+        "industry",
+        "shipbuilding"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "우주항·창고·함선 간 범용 화물 취급 규격 마련.",
+      "effects": "적재·하역·수송 연결의 효율 개선 기반.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 물류 수송 시간·자동화 계산 공식은 미정. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "logistics",
+          "amountK": 190,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 145,
+          "kind": "required"
+        },
+        {
+          "fieldId": "shipbuilding",
+          "amountK": 140,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 2200
+    },
+    {
+      "id": "node_ai_21faf1e4-d7fc-54dd-8bed-3ebf5b5983fb",
+      "type": "technology",
+      "title": "정밀 궤도기동 계획",
+      "fieldId": "astrodynamics",
+      "relatedFieldIds": [
+        "astrodynamics",
+        "computing",
+        "propulsion",
+        "astroplanetary"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "궤도 변경·감속·근접 접근을 위한 궤적 예측 정밀화.",
+      "effects": "정밀 궤도 기동과 함선 일반 추진기 제어의 효율 개선.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 장거리 드라이브 항행과 별도의 응용공학 연구. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "astrodynamics",
+          "amountK": 305,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 215,
+          "kind": "required"
+        },
+        {
+          "fieldId": "propulsion",
+          "amountK": 180,
+          "kind": "required"
+        },
+        {
+          "fieldId": "astroplanetary",
+          "amountK": 210,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 2400
+    },
+    {
+      "id": "node_ai_ac1ea7d8-7136-5919-bf2a-3cfefe953106",
+      "type": "technology",
+      "title": "심층 광상 예비 조사",
+      "fieldId": "astroplanetary",
+      "relatedFieldIds": [
+        "astroplanetary",
+        "industry",
+        "computing",
+        "materials"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "표면 관측 자료에서 미확인 깊은 광맥 가능성을 추정.",
+      "effects": "심층 조사의 후보 지역 탐색 기능 개선. 광맥 자동 발견 아님.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "행성/표면 섹터의 정밀 조사 기록 활용(조건 확정 전)",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 탐사 기록은 실제 위치/문명별로 관리하는 기존 설정 유지. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "astroplanetary",
+          "amountK": 360,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 225,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 240,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 200,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": 2400
+    },
+    {
+      "id": "node_ai_3efcbc4a-199f-524d-8341-e70d47b3eb72",
+      "type": "technology",
+      "title": "폐쇄 생태계 순환 개선",
+      "fieldId": "biology",
+      "relatedFieldIds": [
+        "biology",
+        "colonization",
+        "industry"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "거주구역의 공기·물·폐기물 회수순환을 정밀 개선.",
+      "effects": "달·화성 등 초기 거주구역의 생명유지 공정 개량 가능.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 식민지 인구 성장률/효과치는 미정. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "biology",
+          "amountK": 225,
+          "kind": "required"
+        },
+        {
+          "fieldId": "colonization",
+          "amountK": 170,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 120,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 2700
+    },
+    {
+      "id": "node_ai_c09bbe4f-35de-5f0f-8dec-6936481e887f",
+      "type": "technology",
+      "title": "행성 간 정착 행정",
+      "fieldId": "colonization",
+      "relatedFieldIds": [
+        "colonization",
+        "governance",
+        "economics"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "분산된 거주기지의 인력·시설·생명유지 관리체계를 정리.",
+      "effects": "초기 다행성 거주 기반의 관리 효율 개선.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 지구/달/화성 초기 인구 숫자와 섹터 배치는 변경하지 않음. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "colonization",
+          "amountK": 230,
+          "kind": "required"
+        },
+        {
+          "fieldId": "governance",
+          "amountK": 195,
+          "kind": "required"
+        },
+        {
+          "fieldId": "economics",
+          "amountK": 160,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": 2700
+    },
+    {
+      "id": "node_ai_3cdc5c91-b620-54f8-8543-ab75f4f3db17",
+      "type": "technology",
+      "title": "민간 우주산업 투자체계",
+      "fieldId": "economics",
+      "relatedFieldIds": [
+        "economics",
+        "governance",
+        "logistics"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "민간 우주 사업 자금 조달과 위험 분담 구조를 정비.",
+      "effects": "민간 투자·사업 전개의 제도적 개선 후보.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 민간 자동 기술 완성이나 정부-민간 지식 공유 규칙은 아직 미정. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "economics",
+          "amountK": 205,
+          "kind": "required"
+        },
+        {
+          "fieldId": "governance",
+          "amountK": 155,
+          "kind": "required"
+        },
+        {
+          "fieldId": "logistics",
+          "amountK": 135,
+          "kind": "recommended"
+        }
+      ],
+      "x": 480,
+      "y": 2900
+    },
+    {
+      "id": "node_ai_f9497b6d-c987-516e-9dff-f9ac14bbf482",
+      "type": "technology",
+      "title": "연구기관 협력 표준",
+      "fieldId": "governance",
+      "relatedFieldIds": [
+        "governance",
+        "computing",
+        "economics",
+        "industry"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "국가 연구시설·대학·기업 간 실험 자료 호환과 협업절차 정의.",
+      "effects": "공동 검증과 연구 행정 지원 개선 후보. 특정 연구력 비율은 미정.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 민간이 국가 연구를 직접 완성할지 여부는 미정. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "governance",
+          "amountK": 275,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 200,
+          "kind": "required"
+        },
+        {
+          "fieldId": "economics",
+          "amountK": 170,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 225,
+          "kind": "recommended"
+        }
+      ],
+      "x": 792,
+      "y": 2900
+    },
+    {
+      "id": "node_ai_9e5e37cc-a6d8-5a01-92ad-6819a2d58bfc",
+      "type": "technology",
+      "title": "함대 장거리 통신 교리",
+      "fieldId": "militaryTheory",
+      "relatedFieldIds": [
+        "militaryTheory",
+        "computing",
+        "logistics",
+        "navigation"
+      ],
+      "era": "I",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "장거리 항행 중 함대 지휘·연락·보고 체계의 표준화.",
+      "effects": "함대의 지휘·통신 관련 전술 기술 연구 기반.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 함선 센서/통신 장비 성능과 군사이론 교리는 구분. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "militaryTheory",
+          "amountK": 215,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 190,
+          "kind": "required"
+        },
+        {
+          "fieldId": "logistics",
+          "amountK": 145,
+          "kind": "required"
+        },
+        {
+          "fieldId": "navigation",
+          "amountK": 130,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1104,
+      "y": 2900
+    },
+    {
+      "id": "node_ai_1fa6e575-4815-563f-a1a8-95cb75c3ef47",
+      "type": "promotion",
+      "title": "초기 우주 연구체계 고도화",
+      "fieldId": "",
+      "relatedFieldIds": [
+        "computing",
+        "industry",
+        "governance"
+      ],
+      "era": "I",
+      "targetEra": "I+",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "기초 연구기관과 계측·실험 기반을 통합해 연구 체계의 상한을 확대.",
+      "effects": "종합 기술 단계 I → I+. 분야별 누적 지식 상한 1,000K → 1,500K. 실제 축적 지식 자동 증가 없음.",
+      "discovery": "연구 알고리즘과 연구시설 계측 기반 축적에 따라 발견.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "종합 선행 기술과 관련 관측자료의 통합 이론 정립.",
+      "deepening": "분야 간 기술적 기반과 학문·실험 체계의 종합 검증.",
+      "realization": "연구체계 전환의 실증. 최종 실험 비용·시설은 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "다분야 연구시설(정확한 규모 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 테크트리 노드 제안 · 아직 미확정] 필수 지식/선행조건은 모두 I의 1,000K 이내. 각 분야 최대치 달성은 필요 없음.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "computing",
+          "amountK": 465,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 390,
+          "kind": "required"
+        },
+        {
+          "fieldId": "governance",
+          "amountK": 255,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 325,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 285,
+          "kind": "recommended"
+        }
+      ],
+      "x": 1728,
+      "y": 1750
+    },
+    {
+      "id": "node_ai_2f68c6a7-f6c9-59a9-a6bd-522558f6d413",
+      "type": "technology",
+      "title": "함선용 핵융합로 소형화",
+      "fieldId": "energy",
+      "relatedFieldIds": [
+        "energy",
+        "materials",
+        "shipbuilding",
+        "industry",
+        "computing"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "함선용 핵융합로의 전원·냉각·차폐·구조를 더 작은 체적에 통합.",
+      "effects": "개량형 함선 탑재 핵융합로 설계/제작 선택지 확대.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "함선용 반응로 통합 시험시설(종류 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 기본 탑재형 핵융합로는 이미 「극초고온 플라스마 안정화」에서 해금. 본 연구는 그 후속 소형화. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "energy",
+          "amountK": 790,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 645,
+          "kind": "required"
+        },
+        {
+          "fieldId": "shipbuilding",
+          "amountK": 525,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 485,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 470,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": 1100
+    },
+    {
+      "id": "node_ai_dbbd7907-0be1-5ee4-a4f6-054b7b2571fe",
+      "type": "technology",
+      "title": "하이퍼펄스 장거리 시험",
+      "fieldId": "navigation",
+      "relatedFieldIds": [
+        "navigation",
+        "propulsion",
+        "computing",
+        "particle",
+        "energy",
+        "astrodynamics"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "하이퍼펄스 드라이브의 반복 장거리 운용 조건과 이탈 절차를 검증.",
+      "effects": "검증된 장거리 항행 운용 절차·안정성 개량 후보.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "시험선 및 연구시설(규격 미정)",
+      "fieldwork": "함선의 반복 장거리 항행 시험기록(정확한 장소 미정)",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 초기 실험형 하이퍼펄스 드라이브는 세계관에 이미 존재한다. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "navigation",
+          "amountK": 960,
+          "kind": "required"
+        },
+        {
+          "fieldId": "propulsion",
+          "amountK": 675,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 570,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 525,
+          "kind": "required"
+        },
+        {
+          "fieldId": "energy",
+          "amountK": 640,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "astrodynamics",
+          "amountK": 520,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": 480
+    },
+    {
+      "id": "node_ai_b2efd295-6240-54b8-bb0d-6e5c754aa86c",
+      "type": "technology",
+      "title": "궤도 조립라인 자동화",
+      "fieldId": "industry",
+      "relatedFieldIds": [
+        "industry",
+        "shipbuilding",
+        "materials",
+        "logistics"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "궤도상 조립·수리 플랫폼을 고정밀 자동 작업으로 전환.",
+      "effects": "우주조선소 및 궤도 산업시설 고도화 후보.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "궤도 조립시설(구체 종류 미정)",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 중반 개방 예정인 독립 거대구조공학과는 구분되는 기존 조선/산업 기술. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "industry",
+          "amountK": 820,
+          "kind": "required"
+        },
+        {
+          "fieldId": "shipbuilding",
+          "amountK": 630,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 550,
+          "kind": "required"
+        },
+        {
+          "fieldId": "logistics",
+          "amountK": 520,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": 1800
+    },
+    {
+      "id": "node_ai_4132b579-887e-5ec3-b3d9-34a749f56184",
+      "type": "technology",
+      "title": "행성 간 물류 관제망",
+      "fieldId": "logistics",
+      "relatedFieldIds": [
+        "logistics",
+        "computing",
+        "economics",
+        "navigation"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "행성 간 화물 배치·일정·정산을 통합 관제.",
+      "effects": "행성 간 수송·창고 운영 효율 개선 후보.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 자동 순간이동이나 중앙 재고 무제한 공유를 의미하지 않음. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "logistics",
+          "amountK": 735,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 555,
+          "kind": "required"
+        },
+        {
+          "fieldId": "economics",
+          "amountK": 430,
+          "kind": "required"
+        },
+        {
+          "fieldId": "navigation",
+          "amountK": 480,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": 2200
+    },
+    {
+      "id": "node_ai_885a14a3-7942-5aa8-8554-01cc0f5de40f",
+      "type": "technology",
+      "title": "다행성 행정 표준체계",
+      "fieldId": "governance",
+      "relatedFieldIds": [
+        "governance",
+        "colonization",
+        "economics",
+        "logistics"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "멀리 떨어진 거주권 사이의 행정·사업·인구자료 처리를 표준화.",
+      "effects": "복수 행성 식민지의 관리체계 고도화 후보.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 시민 반응/수치 및 지방 자치 구조는 미정. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "governance",
+          "amountK": 710,
+          "kind": "required"
+        },
+        {
+          "fieldId": "colonization",
+          "amountK": 575,
+          "kind": "required"
+        },
+        {
+          "fieldId": "economics",
+          "amountK": 455,
+          "kind": "required"
+        },
+        {
+          "fieldId": "logistics",
+          "amountK": 360,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": 2700
+    },
+    {
+      "id": "node_ai_12650d24-5efa-5f7d-860b-e027ac0062ca",
+      "type": "technology",
+      "title": "중력 이상 정밀 지도화",
+      "fieldId": "astroplanetary",
+      "relatedFieldIds": [
+        "astroplanetary",
+        "astrodynamics",
+        "computing",
+        "particle"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "관측된 중력 이상 신호의 반복성과 천체별 분포를 지도화.",
+      "effects": "장거리 항로 위험지점·특수 현상 탐사 후보 조사 품질 개선.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "복수 천체/공간의 중력 관측 데이터(범위 미정)",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 자연 웜홀의 존재를 초기에 자동 발견하는 기술로 확정하지 않음. 웜홀 관련 전환 이벤트는 중기 시대의 별도 기획. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "astroplanetary",
+          "amountK": 780,
+          "kind": "required"
+        },
+        {
+          "fieldId": "astrodynamics",
+          "amountK": 610,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 560,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 510,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": 720
+    },
+    {
+      "id": "node_ai_24fe4f90-99db-5e93-b8b2-532a0ec5c8fb",
+      "type": "technology",
+      "title": "함선 외부 차폐 복합재",
+      "fieldId": "materials",
+      "relatedFieldIds": [
+        "materials",
+        "particle",
+        "shipbuilding",
+        "industry"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "우주 방사선과 외부 충격에 대한 복합 차폐 소재의 설계.",
+      "effects": "신규 선체·시설용 고급 차폐재 제조/개수 기술 후보.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 역장 보호막과는 다른 물질형 차폐재. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "materials",
+          "amountK": 810,
+          "kind": "required"
+        },
+        {
+          "fieldId": "particle",
+          "amountK": 490,
+          "kind": "required"
+        },
+        {
+          "fieldId": "shipbuilding",
+          "amountK": 585,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 510,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": 2440
+    },
+    {
+      "id": "node_ai_37ecb550-ae06-5408-8737-f99363956b69",
+      "type": "technology",
+      "title": "정밀 제련 품질관리",
+      "fieldId": "industry",
+      "relatedFieldIds": [
+        "industry",
+        "materials",
+        "computing",
+        "logistics"
+      ],
+      "era": "I+",
+      "targetEra": "",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "광석 품질 구분·공정 손실을 추적하는 고정밀 제련 제어.",
+      "effects": "품질별 제련 공정의 최적화 후보. 구체 수율은 별도 조정.",
+      "discovery": "연구 분야 지식 축적과 관련 선행 기술로 점진적 발견. 정확한 공개 기준 미정.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "원리와 선행 연구의 적용 가능성을 분석.",
+      "deepening": "설계 최적화, 세부 모형 및 시제품 검증. 상세 진도 미정.",
+      "realization": "실험·검증을 통한 실용성 확인. 실현 비용과 성공률 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "",
+      "fieldwork": "",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 기술 제안 · 아직 미확정] 기존 광석 원천 예산과 품질 확률은 그대로 유지. | 장비/공정 해금은 기존 설비 자동 개조를 의미하지 않으며 구체 효과 수치는 미정.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "industry",
+          "amountK": 850,
+          "kind": "required"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 620,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 475,
+          "kind": "required"
+        },
+        {
+          "fieldId": "logistics",
+          "amountK": 470,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2040,
+      "y": 2000
+    },
+    {
+      "id": "node_ai_c20f7559-0260-5bbe-8d3c-e0cdd5c963f5",
+      "type": "promotion",
+      "title": "확장 우주 기반기술 통합",
+      "fieldId": "",
+      "relatedFieldIds": [
+        "navigation",
+        "industry",
+        "logistics",
+        "computing",
+        "governance",
+        "materials"
+      ],
+      "era": "I+",
+      "targetEra": "II",
+      "unlocksFieldId": "",
+      "designStatus": "draft",
+      "initialState": "unspecified",
+      "prerequisiteMode": "all",
+      "description": "장거리 항행·산업생산·화물수송과 연구 검증 역량을 통합하여 새로운 확장기로 전환.",
+      "effects": "종합 기술 단계 I+ → II. 분야별 누적 지식 상한 1,500K → 3,000K. 지식 자동 보충 없음.",
+      "discovery": "장거리 항행 실증과 궤도 산업·물류 역량 축적을 통해 발견.",
+      "hardRequirements": "",
+      "softRequirements": "",
+      "theory": "종합 선행 기술과 관련 관측자료의 통합 이론 정립.",
+      "deepening": "분야 간 기술적 기반과 학문·실험 체계의 종합 검증.",
+      "realization": "연구체계 전환의 실증. 최종 실험 비용·시설은 미정.",
+      "credits": null,
+      "resources": "",
+      "facilities": "장거리 항행 검증시설·산업 시험기반(구체 종류 미정)",
+      "fieldwork": "장거리 수송 및 궤도 생산 실증자료(검증 조건 미정)",
+      "failureNotes": "실현에 실제로 실패하면 기존 합의대로 심화 단계로 복귀하며 지식이 소량 축적됨. 정확한 확률·복귀 진도는 미정.",
+      "notes": "[AI 신규 테크트리 노드 제안 · 아직 미확정] I+ 상한 1,500K 내에서 완료 가능. 웜홀 항행을 이 승격으로 바로 해금하지 않음.",
+      "knowledgeRequirements": [
+        {
+          "fieldId": "navigation",
+          "amountK": 1120,
+          "kind": "required"
+        },
+        {
+          "fieldId": "industry",
+          "amountK": 990,
+          "kind": "required"
+        },
+        {
+          "fieldId": "logistics",
+          "amountK": 840,
+          "kind": "required"
+        },
+        {
+          "fieldId": "computing",
+          "amountK": 760,
+          "kind": "required"
+        },
+        {
+          "fieldId": "governance",
+          "amountK": 700,
+          "kind": "recommended"
+        },
+        {
+          "fieldId": "materials",
+          "amountK": 760,
+          "kind": "recommended"
+        }
+      ],
+      "x": 2720,
+      "y": 1800
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_cebe17ca-daf3-417d-807f-daea6c9759d4",
+      "from": "node_3f960323-1434-43f8-a06d-320cb3ee8621",
+      "to": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_c06c28f0-b135-48d4-a42a-868326de4261",
+      "from": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "to": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_9630e2f7-e177-4c05-9b89-ed0152a5dcf3",
+      "from": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "to": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_6547a75d-baf7-4fa5-8c4c-4a946f351a89",
+      "from": "node_d4244577-76c4-4896-b80a-78d841c0c101",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_4e125658-62cc-4ef9-9b39-bf9f087157d6",
+      "from": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_fa5ce1f3-f7d3-4fa0-af07-6c9785d51c14",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_086b4113-50c2-4b11-9cc7-029d3cfb5bde",
+      "from": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "to": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_aa3d4f48-dbd6-4350-8d8b-341a46c296b0",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "type": "discovery",
+      "label": ""
+    },
+    {
+      "id": "edge_f8f54b71-b773-4fc5-90d3-3b0efdd2bacd",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_3be45b42-ad3b-4fd9-9ca7-3c5ec13a2187",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_be007d9f-dd6a-4fdb-a23d-9b97a6818584",
+      "from": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "to": "node_3be45b42-ad3b-4fd9-9ca7-3c5ec13a2187",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_65513e39-0144-46dc-9c04-5353d28945e4",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_4d66d049-df90-4222-aa5b-955259bccc98",
+      "from": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "to": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_296df0e6-0596-476a-b5f4-dfcb131b6d5f",
+      "from": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_19a5eda9-cbfa-43de-bdd8-e0ecb98f4674",
+      "from": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "to": "node_57209f39-711b-4da4-8f7b-2e24417ec0f7",
+      "type": "discovery",
+      "label": ""
+    },
+    {
+      "id": "edge_dd5b47d7-a4e2-4925-b819-db11f27b8d9d",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_57209f39-711b-4da4-8f7b-2e24417ec0f7",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_60f6e432-0252-45b8-a629-f14dac5b46f4",
+      "from": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "to": "node_18ef226b-e936-4324-a690-cb8ab34625d3",
+      "type": "discovery",
+      "label": ""
+    },
+    {
+      "id": "edge_56ee4bd4-97a7-494f-9368-2368ec272fbb",
+      "from": "node_3b66962f-3ae7-4321-916a-44174d339136",
+      "to": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_a9ce869a-86cc-44c8-a1a5-7a55705e50e1",
+      "from": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "to": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_8c2fdbc8-e27f-499c-adf8-6949396ef180",
+      "from": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "to": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_80b34934-6a9e-4d8b-96ea-39863eaa7ce4",
+      "from": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "to": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_9e4b6d01-f5d5-52bd-9e63-506244ec4ea0",
+      "from": "node_3be45b42-ad3b-4fd9-9ca7-3c5ec13a2187",
+      "to": "node_ai_d8a74a8a-2cbd-5ac9-990a-98edd4e94cb2",
+      "type": "support",
+      "label": "정밀 관측 데이터"
+    },
+    {
+      "id": "edge_ai_5acba1a6-ac22-5537-af86-718042f6f8bd",
+      "from": "node_890c9b6b-4bf8-4503-a365-8df1d4cb0fd7",
+      "to": "node_ai_d8a74a8a-2cbd-5ac9-990a-98edd4e94cb2",
+      "type": "support",
+      "label": "신호 처리 설비"
+    },
+    {
+      "id": "edge_ai_a44dc68b-7ced-52e3-a57a-37c34f493159",
+      "from": "node_ai_d8a74a8a-2cbd-5ac9-990a-98edd4e94cb2",
+      "to": "node_ai_459f9437-4a88-5ded-8f16-bef89bc8eb45",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_1f693824-b0f5-5bf2-abb8-988664d07276",
+      "from": "node_ai_459f9437-4a88-5ded-8f16-bef89bc8eb45",
+      "to": "node_ai_34d79a3b-b80d-558b-8ea2-4bcadf307515",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_772bb276-3cad-57e4-b37a-ad43cd8713da",
+      "from": "node_ai_34d79a3b-b80d-558b-8ea2-4bcadf307515",
+      "to": "node_ai_d4aec013-9f8e-5115-9735-f2939ab97511",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_34c497cb-ddae-5710-ba49-abdbcae68a03",
+      "from": "node_3f960323-1434-43f8-a06d-320cb3ee8621",
+      "to": "node_ai_d4aec013-9f8e-5115-9735-f2939ab97511",
+      "type": "support",
+      "label": "고에너지 실험 기반"
+    },
+    {
+      "id": "edge_ai_be7c1801-8bb6-54b2-8526-ccab617c25dd",
+      "from": "node_ai_d4aec013-9f8e-5115-9735-f2939ab97511",
+      "to": "node_ai_7aa4cf75-7480-5ce3-bbde-e43202e28960",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_4d101b73-2c1c-5d7c-ba50-ba2bda4d583f",
+      "from": "node_ai_7aa4cf75-7480-5ce3-bbde-e43202e28960",
+      "to": "node_ai_a9e21c58-4e8c-54d9-98e6-23afae37d5ea",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_a8699b2e-3541-5e52-b223-48517e81bb00",
+      "from": "node_ai_34d79a3b-b80d-558b-8ea2-4bcadf307515",
+      "to": "node_ai_a9e21c58-4e8c-54d9-98e6-23afae37d5ea",
+      "type": "support",
+      "label": "양자 제어 정밀도"
+    },
+    {
+      "id": "edge_ai_55d8bce8-3739-58f0-96b4-04b987a219be",
+      "from": "node_14bd67ee-fc2e-4c44-a0b8-7801e272804b",
+      "to": "node_ai_9a3c9bf7-83f3-5603-abc1-8942b223c94b",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_eae6247a-4528-554c-897d-c21355206dd7",
+      "from": "node_ai_9a3c9bf7-83f3-5603-abc1-8942b223c94b",
+      "to": "node_ai_0860d2eb-fb50-5dc7-8316-86ba3b31718e",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_06b7c4cb-1660-5699-b618-44ee2be3af7f",
+      "from": "node_ai_d791e354-39e2-56c3-8369-477fc569fe61",
+      "to": "node_3f960323-1434-43f8-a06d-320cb3ee8621",
+      "type": "support",
+      "label": "함선 시험에 유리한 열관리 기반"
+    },
+    {
+      "id": "edge_ai_5115eb4a-0d50-555c-bec2-1b5dec536439",
+      "from": "node_ai_2e8844a2-b273-5c10-9c47-12bc1cdbfd41",
+      "to": "node_ai_4059dc00-f4fb-53f1-aa63-50bc7868c798",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_72f83cc9-88d5-5387-899b-0da12432f699",
+      "from": "node_ai_4059dc00-f4fb-53f1-aa63-50bc7868c798",
+      "to": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "type": "support",
+      "label": "진동 억제와 안정성"
+    },
+    {
+      "id": "edge_ai_f62db86c-69b0-578e-8acf-4c59a0adfeb2",
+      "from": "node_ai_fa108ddf-73d6-573e-aa2c-24ef56b820a4",
+      "to": "node_ai_eacd5fb4-cab7-5a52-8ee6-27e3967851f0",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_3ae32cb1-1478-5fbe-a36d-5bbceac47a42",
+      "from": "node_ai_41fe5973-1f22-5cfe-87da-44785dbc0541",
+      "to": "node_ai_d791e354-39e2-56c3-8369-477fc569fe61",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_ee39f792-e69a-50f2-b003-384a6bff7383",
+      "from": "node_3be45b42-ad3b-4fd9-9ca7-3c5ec13a2187",
+      "to": "node_ai_ac1ea7d8-7136-5919-bf2a-3cfefe953106",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_41e7c4a3-5e50-55b1-8cc8-eacd31e6c305",
+      "from": "node_7b83b3b7-c091-4c5f-ab3e-643a7e24860f",
+      "to": "node_ai_ac1ea7d8-7136-5919-bf2a-3cfefe953106",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_9e1811f2-3378-51db-96f0-603b9fdca030",
+      "from": "node_ai_2e8844a2-b273-5c10-9c47-12bc1cdbfd41",
+      "to": "node_ai_21faf1e4-d7fc-54dd-8bed-3ebf5b5983fb",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_5924b38e-32d2-5b45-9e01-de7f1ca2c4ee",
+      "from": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "to": "node_ai_21faf1e4-d7fc-54dd-8bed-3ebf5b5983fb",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_00e55364-3d36-5463-a3f0-73cc107e8dfa",
+      "from": "node_ai_3efcbc4a-199f-524d-8341-e70d47b3eb72",
+      "to": "node_ai_c09bbe4f-35de-5f0f-8dec-6936481e887f",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_65ee99a3-e6b1-5fb3-8f1a-7f4c3ce8ff27",
+      "from": "node_ai_3cdc5c91-b620-54f8-8543-ab75f4f3db17",
+      "to": "node_ai_f9497b6d-c987-516e-9dff-f9ac14bbf482",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_12a66f3f-bf20-5915-af8b-750ee51902d2",
+      "from": "node_ai_a3f128a8-789d-5f78-8995-55b9f08e0bd1",
+      "to": "node_ai_9e5e37cc-a6d8-5a01-92ad-6819a2d58bfc",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_0a787959-8cf5-502d-b83f-c23c91c78858",
+      "from": "node_7d2d6d23-b2e9-4ff3-8932-f8e6c55c0033",
+      "to": "node_ai_1fa6e575-4815-563f-a1a8-95cb75c3ef47",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_af9d1b37-8f41-5fb6-bd97-094b32060fcd",
+      "from": "node_ai_eacd5fb4-cab7-5a52-8ee6-27e3967851f0",
+      "to": "node_ai_1fa6e575-4815-563f-a1a8-95cb75c3ef47",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_78ab6c46-d8da-59f7-8be7-47f2e9b65455",
+      "from": "node_ai_f9497b6d-c987-516e-9dff-f9ac14bbf482",
+      "to": "node_ai_1fa6e575-4815-563f-a1a8-95cb75c3ef47",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_b5c7961f-785a-53f8-8993-7af544f541e2",
+      "from": "node_3f960323-1434-43f8-a06d-320cb3ee8621",
+      "to": "node_ai_2f68c6a7-f6c9-59a9-a6bd-522558f6d413",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_1f9328bc-b93c-50dd-a61a-69bd8f81a6f4",
+      "from": "node_ai_0860d2eb-fb50-5dc7-8316-86ba3b31718e",
+      "to": "node_ai_2f68c6a7-f6c9-59a9-a6bd-522558f6d413",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_d939917d-e9f7-5209-a8aa-babc5240873e",
+      "from": "node_ai_d791e354-39e2-56c3-8369-477fc569fe61",
+      "to": "node_ai_2f68c6a7-f6c9-59a9-a6bd-522558f6d413",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_a40b344a-ec82-53e9-92cc-f070d75cfde4",
+      "from": "node_57209f39-711b-4da4-8f7b-2e24417ec0f7",
+      "to": "node_ai_2f68c6a7-f6c9-59a9-a6bd-522558f6d413",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_5a07111d-c5dd-55a9-a1d0-cad7316a392f",
+      "from": "node_ai_1fa6e575-4815-563f-a1a8-95cb75c3ef47",
+      "to": "node_ai_2f68c6a7-f6c9-59a9-a6bd-522558f6d413",
+      "type": "discovery",
+      "label": "I+ 시대 고등 연구 주제"
+    },
+    {
+      "id": "edge_ai_83ce7775-8a1a-5035-91d1-61537eaff0c6",
+      "from": "node_b5642760-b212-4f1b-b71c-38f2f64bfa32",
+      "to": "node_ai_dbbd7907-0be1-5ee4-a4f6-054b7b2571fe",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_154aa67f-28c8-5fa9-bcad-19afd8f2e077",
+      "from": "node_ai_4059dc00-f4fb-53f1-aa63-50bc7868c798",
+      "to": "node_ai_dbbd7907-0be1-5ee4-a4f6-054b7b2571fe",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_c0b7de79-692e-55d0-a21c-959f3728129c",
+      "from": "node_18ef226b-e936-4324-a690-cb8ab34625d3",
+      "to": "node_ai_dbbd7907-0be1-5ee4-a4f6-054b7b2571fe",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_7b67cfe4-0d42-5b26-b2c7-24b6cd8539e0",
+      "from": "node_ai_41fe5973-1f22-5cfe-87da-44785dbc0541",
+      "to": "node_ai_b2efd295-6240-54b8-bb0d-6e5c754aa86c",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_1b625c36-f553-54e2-a258-16c6b6964964",
+      "from": "node_ai_fa108ddf-73d6-573e-aa2c-24ef56b820a4",
+      "to": "node_ai_b2efd295-6240-54b8-bb0d-6e5c754aa86c",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_0b7fd8c0-5333-558b-9cb6-0c7c277cb5fc",
+      "from": "node_ai_eacd5fb4-cab7-5a52-8ee6-27e3967851f0",
+      "to": "node_ai_b2efd295-6240-54b8-bb0d-6e5c754aa86c",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_5ddd38fe-dccc-5feb-8e92-8cf93c4f4047",
+      "from": "node_ai_a3f128a8-789d-5f78-8995-55b9f08e0bd1",
+      "to": "node_ai_4132b579-887e-5ec3-b3d9-34a749f56184",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_b51ff5c7-8478-5a4e-b0b0-cb43ca0ae872",
+      "from": "node_ai_3cdc5c91-b620-54f8-8543-ab75f4f3db17",
+      "to": "node_ai_4132b579-887e-5ec3-b3d9-34a749f56184",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_6fae9e2e-e961-5286-83cf-2fbd9e4a13e9",
+      "from": "node_ai_c09bbe4f-35de-5f0f-8dec-6936481e887f",
+      "to": "node_ai_885a14a3-7942-5aa8-8554-01cc0f5de40f",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_abe9524b-54f3-56e3-b4cf-e16fa9c620e3",
+      "from": "node_ai_f9497b6d-c987-516e-9dff-f9ac14bbf482",
+      "to": "node_ai_885a14a3-7942-5aa8-8554-01cc0f5de40f",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_076bd7d4-948e-5f5d-8d13-23f99d560a27",
+      "from": "node_9832d8b9-15fe-4fa5-bdb8-c4cb2c9d3868",
+      "to": "node_ai_12650d24-5efa-5f7d-860b-e027ac0062ca",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_3970cdca-e06a-5b0a-9dee-1d114effc295",
+      "from": "node_ai_ac1ea7d8-7136-5919-bf2a-3cfefe953106",
+      "to": "node_ai_12650d24-5efa-5f7d-860b-e027ac0062ca",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_b5bf2b94-c3a4-581e-9f7a-d31d6ef9ae79",
+      "from": "node_ai_fa108ddf-73d6-573e-aa2c-24ef56b820a4",
+      "to": "node_ai_37ecb550-ae06-5408-8737-f99363956b69",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_e92de1ca-139b-5c87-ade6-b20d7936eeed",
+      "from": "node_ai_eacd5fb4-cab7-5a52-8ee6-27e3967851f0",
+      "to": "node_ai_37ecb550-ae06-5408-8737-f99363956b69",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_1a6c0fc4-c948-5ccf-bd7d-dadddfbfb784",
+      "from": "node_ai_fa108ddf-73d6-573e-aa2c-24ef56b820a4",
+      "to": "node_ai_24fe4f90-99db-5e93-b8b2-532a0ec5c8fb",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_80d403e6-2999-52e5-a1f2-7dd79f18f33c",
+      "from": "node_5ca5283c-bfc6-41ac-aa2a-da34b602d3ef",
+      "to": "node_ai_24fe4f90-99db-5e93-b8b2-532a0ec5c8fb",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_7b484175-d138-5c0f-81e7-3f8f384a3b84",
+      "from": "node_ai_dbbd7907-0be1-5ee4-a4f6-054b7b2571fe",
+      "to": "node_ai_c20f7559-0260-5bbe-8d3c-e0cdd5c963f5",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_1c124b99-5d2d-56ae-a105-bbcba5474ec3",
+      "from": "node_ai_b2efd295-6240-54b8-bb0d-6e5c754aa86c",
+      "to": "node_ai_c20f7559-0260-5bbe-8d3c-e0cdd5c963f5",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_facdab05-0fab-5f1f-9da1-189a9e965bc9",
+      "from": "node_ai_4132b579-887e-5ec3-b3d9-34a749f56184",
+      "to": "node_ai_c20f7559-0260-5bbe-8d3c-e0cdd5c963f5",
+      "type": "required",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_c7bdcac2-c588-5391-aec0-14a64425a567",
+      "from": "node_ai_885a14a3-7942-5aa8-8554-01cc0f5de40f",
+      "to": "node_ai_c20f7559-0260-5bbe-8d3c-e0cdd5c963f5",
+      "type": "support",
+      "label": ""
+    },
+    {
+      "id": "edge_ai_1fbb7b86-c005-5a98-b438-cfa9f4d4775c",
+      "from": "node_ai_37ecb550-ae06-5408-8737-f99363956b69",
+      "to": "node_ai_c20f7559-0260-5bbe-8d3c-e0cdd5c963f5",
+      "type": "support",
+      "label": ""
+    }
+  ],
+  "view": {
+    "x": -40.645910945109335,
+    "y": 205.436381406813,
+    "zoom": 0.5488116360940262,
+    "snap": true
+  },
+  "exportedAt": "2026-10-31T19:30:00+09:00"
+}
