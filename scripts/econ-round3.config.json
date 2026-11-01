@@ -1,0 +1,263 @@
+{
+  "status": "ECON-SIM-3 탐색용, 사용자 미결정; 게임 미적용",
+  "baselineCommit": "aff438089e1551e71309403f1f144ac7def99e0f",
+  "months": 240,
+  "samples": 512,
+  "narrowSamples": 128,
+  "seeds": [
+    "econ-1",
+    "econ-2",
+    "econ-3",
+    "econ-4",
+    "econ-5"
+  ],
+  "samplingSeed": "econ-round3-lhs-1",
+  "broadScenarios": [
+    "E0",
+    "E2",
+    "E3"
+  ],
+  "narrowScenarios": [
+    "E0",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8"
+  ],
+  "energy": {
+    "fusionNormalHydrogenU": 2.5,
+    "costs": {
+      "foundationMonths": 2,
+      "fusion": {
+        "base": {
+          "creditC": 15000,
+          "alloyU": 1200
+        },
+        "module": {
+          "creditC": 6000,
+          "alloyU": 450
+        }
+      },
+      "fission": {
+        "base": {
+          "creditC": 8000,
+          "alloyU": 650
+        },
+        "module": {
+          "creditC": 3000,
+          "alloyU": 250
+        }
+      },
+      "solar": {
+        "base": {
+          "creditC": 5000,
+          "alloyU": 400
+        },
+        "module": {
+          "creditC": 2000,
+          "alloyU": 100
+        }
+      }
+    },
+    "earthBaseGW": 8120,
+    "peakGW": 10750,
+    "gridReserve": 0.15,
+    "electricityGDPShare": 0.05,
+    "electricDemandGDPExponent": 0.6,
+    "powerScarcityElasticity": 1.5,
+    "industryMix": "mixed",
+    "mineRatio": 1.2,
+    "mineMWhPerT": 0.07,
+    "feedMWhPerT": 0.03,
+    "industryFixedMW": 0.15,
+    "privateScale": 0.95,
+    "directAnnual": 0.06,
+    "upkeepAnnual": 0.05,
+    "pausedCashFraction": 0.15,
+    "pausedAlloyFraction": 0.9,
+    "damagePerMonth": 0.06,
+    "repairRate": 0.8,
+    "repairCPerU": 0.5,
+    "legacyGridCashGDPShare": 0.005,
+    "legacyGridUpkeepAnnualU": 18000,
+    "fusionMinimumFraction": 0.15,
+    "fissionAvailability": 0.9,
+    "fissionFuelCPerGWh": 0.001,
+    "solarEarthCF": 0.25,
+    "solarMoonMultiplier": 0.85,
+    "solarMarsMultiplier": 0.43,
+    "hydrogenModuleU": 100,
+    "hydrogenModuleC": 1000,
+    "hydrogenModuleAlloyU": 40,
+    "hydrogenLagMonths": 6,
+    "electrolysisGWhPerU": 0.55,
+    "hydrogenVariableCPerU": 0.04,
+    "waterIntakeU": 900000,
+    "waterTankU": 90000,
+    "hydrogenInventoryMonths": 3,
+    "hydrogenPriceAdjustment": 0.07,
+    "hydrogenPriceReversion": 0.05,
+    "storageGWh": 12,
+    "storageGW": 0.25,
+    "storageC": 1500,
+    "storageAlloyU": 100,
+    "storageEfficiency": 0.92,
+    "parallelSurcharge": 0.08,
+    "learning": 0.1,
+    "colonyKWPerPerson": 4,
+    "freightCPerU": 0.05,
+    "essentialShare": 0.8,
+    "dispatchPolicy": "proportional",
+    "industryGDPWeight": 0.15,
+    "privatePowerHorizonYears": 60,
+    "privatePowerLagMonths": 8
+  },
+  "ranges": {
+    "mineMWhPerT": [
+      0.02,
+      0.15
+    ],
+    "feedMWhPerT": [
+      0.01,
+      0.06
+    ],
+    "industryFixedMW": [
+      0.05,
+      0.5
+    ],
+    "mineRatio": [
+      1.05,
+      1.35
+    ],
+    "directAnnual": [
+      0.03,
+      0.1
+    ],
+    "upkeepAnnual": [
+      0.02,
+      0.1
+    ],
+    "pausedCashFraction": [
+      0.05,
+      0.3
+    ],
+    "pausedAlloyFraction": [
+      0.8,
+      1.0
+    ],
+    "damagePerMonth": [
+      0.02,
+      0.12
+    ],
+    "repairRate": [
+      0.25,
+      1.5
+    ],
+    "fusionMinimumFraction": [
+      0.05,
+      0.3
+    ],
+    "fissionAvailability": [
+      0.8,
+      0.95
+    ],
+    "solarEarthCF": [
+      0.18,
+      0.34
+    ],
+    "gridReserve": [
+      0.08,
+      0.25
+    ],
+    "electricityGDPShare": [
+      0.02,
+      0.1
+    ],
+    "hydrogenModuleC": [
+      300,
+      3000
+    ],
+    "hydrogenModuleAlloyU": [
+      10,
+      100
+    ],
+    "hydrogenInventoryMonths": [
+      1,
+      6
+    ],
+    "hydrogenPriceAdjustment": [
+      0.02,
+      0.12
+    ],
+    "electrolysisGWhPerU": [
+      0.5,
+      0.55
+    ],
+    "hydrogenVariableCPerU": [
+      0.01,
+      0.1
+    ],
+    "parallelSurcharge": [
+      0.02,
+      0.2
+    ],
+    "learning": [
+      0,
+      0.3
+    ],
+    "colonyKWPerPerson": [
+      2,
+      8
+    ],
+    "legacyGridUpkeepAnnualU": [
+      6000,
+      30000
+    ],
+    "storageEfficiency": [
+      0.85,
+      0.96
+    ],
+    "industryGDPWeight": [
+      0.05,
+      0.25
+    ],
+    "privatePowerHorizonYears": [
+      30,
+      150
+    ],
+    "privatePowerLagMonths": [
+      5,
+      18
+    ]
+  },
+  "criteria": {
+    "peacePriceDeviation": 0.15,
+    "meanPriceDeviation": 0.08,
+    "inflationMin": 0.01,
+    "inflationMax": 0.03,
+    "budget17Min": 1.1,
+    "budget17Max": 1.6,
+    "industryPaybackMin": 1.5,
+    "industryPaybackMax": 3,
+    "peaceUnservedFractionMax": 0.005,
+    "peaceUpkeepFractionMin": 0.99,
+    "warPeakMin": 0.2,
+    "warPeakMax": 0.6,
+    "warRecoveryYearsMax": 4
+  },
+  "provenance": {
+    "fixed": "사용자 원문 §3.1–3.2 및 보강문4/5: 정격·개수·기간·핵융합 수소 2.5 유지",
+    "costs": "원문 잠정 C/U 건설비; 확정 아님. 별도 0.75/1/1.25배 민감도",
+    "powerBaseline": "원문 2100 지구 검증용 8.12TW / 71144TWh; 기존 산업 포함",
+    "mineMWhPerT": "DOE Mining bandwidth: 분쇄·채굴 편차 참고, 전기만 추정한 탐색 가정",
+    "industryMix": "철강1/기타비철3.5/Al14 MWh/t 시나리오 가정. DOE EAF와 IAI Al 자료를 부분 참고; 보편 금속 원단위 아님",
+    "electrolysisGWhPerU": "DOE PEM 시스템50–55kWh/kg ×10t/U =0.50–0.55GWh/U",
+    "solarEarthCF": "NREL ATB utility PV 참고; 2100 및 천체 계수는 시나리오 가정",
+    "electricityGDPShare": "직접 C 환율 없음. GDP의2–10%를 기존 전력비로 분해; USD/C 환산을 발명하지 않음",
+    "otherRanges": "C/U 보존·시장·건전도 모형의 미확정 탐색 가정. SOURCES.md/IMPLEMENTATION.md 참조"
+  }
+}

@@ -1,0 +1,24 @@
+✖ government self generation never books power sales to itself (15.601197ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 85.558174
+
+✖ failing tests:
+
+test at tests/economy-energy-model.test.js:73:1
+✖ government self generation never books power sales to itself (15.601197ms)
+  Error: Government self-sale
+      at assertEnergyEconomy (file:///workspace/SPACE_Project/artifacts/econ3-mutants/government-self-sale/dist/src/economy-energy-model.js:484:44)
+      at tickEnergyEconomy (file:///workspace/SPACE_Project/artifacts/econ3-mutants/government-self-sale/dist/src/economy-energy-model.js:529:2)
+      at simulateEnergyEconomy (file:///workspace/SPACE_Project/artifacts/econ3-mutants/government-self-sale/dist/src/economy-energy-model.js:533:125)
+      at run (file:///workspace/SPACE_Project/artifacts/econ3-mutants/government-self-sale/tests/economy-energy-model.test.js:13:47)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ3-mutants/government-self-sale/tests/economy-energy-model.test.js:73:82)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)

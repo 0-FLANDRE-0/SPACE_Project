@@ -1,0 +1,55 @@
+{
+  "csvRows": 14990,
+  "phases": {
+    "broad": 7680,
+    "oat": 870,
+    "narrow": 5760,
+    "extended": 360,
+    "final": 320
+  },
+  "independentlyCheckedMacroFlags": 14990,
+  "finalIntegrityRuns": 320,
+  "finalAllCandidateScenarios": 16,
+  "finalSeeds": 5,
+  "preservedTrackedFiles": 547,
+  "baseCommit": "aff438089e1551e71309403f1f144ac7def99e0f",
+  "replayedRepresentativeScenarios": 16,
+  "replayHashes": {
+    "S0": "c0c88a7437f6ec235326db575f540700ac5734c00de707f24ea251a790f0ee98",
+    "S1": "eba3541def9add1848328de85015c51766e96edc495bea5612e504b3482e05b7",
+    "S2": "8634e961e956f70c42e1fc52dfaa21321bf7f3505eebd2f1b00f87b1b1adc16b",
+    "S3-debt": "bb6f77d0045a229a823164653f17d239e646db947c53d9fad6b77df65a811879",
+    "S3-money": "3102d944bf6ea17cce4a543bf4cd0abb9c87ee6612ceba5ede4dcbbbac681ff1",
+    "S4": "137526083cfd62ea713b72fcf2d17581a5e53909b46144aa03ffcbf3abaefd1e",
+    "S1-sell": "4ed77dd60d72439857b860cdaafa458898f878b2a33e103b25012d517d6c7288",
+    "E0": "cfb9778ad437d54cde9461aff5ae4047a6cdf05224eacd075fe8d7be0be45069",
+    "E1": "ccb3ce25cf05f9f3dd6b51a960ae5ec39e5b5d9431fcfe2abe875aa38a6c776f",
+    "E2": "0c0feb76f2ffc3a16944d971a43a0bc46895b565fa336a5f5dbc6be8824b4b7e",
+    "E3": "e0bda3fbbeccb0946026382e7337aa9cc48c728d42b50e572b2e42cc61eae544",
+    "E4": "870f661a5948d32f4fa3441c42631146259fe92c29b1110a49c33c7585a66308",
+    "E5": "066c7b115c3c3a00d96342f6886c52a038cbf89690e33300149c557544b79e4d",
+    "E6": "52ddc9f83089ccddc2c122d36d2d289cc2127f963d7775fa60427a0ea6ab1856",
+    "E7": "e8fe65687ead6fb009fc2cbd35bdfde82074e4b7f20ea6c3e322b15dbd223c05",
+    "E8": "0d08d0694412afb73af87be89a718ba4376ff88c92c460e4fe3e1a45a77678ab"
+  },
+  "reproduction": {
+    "identicalFiles": [
+      "runs.csv",
+      "series.json",
+      "reference-series.json",
+      "candidates.json",
+      "broad-candidates.json",
+      "narrow-candidates.json",
+      "final-runs.json",
+      "financial.json",
+      "paired-experiments.csv",
+      "paired-experiments.json",
+      "sensitivity.csv",
+      "sensitivity.json",
+      "infrastructure-counterfactual.json",
+      "input-manifest.json"
+    ],
+    "legacyComparison": "identical excluding pairMs",
+    "results": "identical excluding performance/timings"
+  }
+}
