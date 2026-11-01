@@ -8,7 +8,8 @@
 - 재확인 HEAD: `f2aa8a824020042d201c552d55f8f4a82ab2a6a6` ([조회 원문](logs/pr12-baseline.json)).
 - 새 PR base: `feat/resource-cargo-scu-packaging`.
 - 새 PR head: `feat/resource-cargo-scu-followup-1`.
-- 새 PR URL 및 최종 commit SHA는 PR 생성 후 제출 응답/PR 메타데이터에 기재한다. 이 문서를 포함한 최종 트리의 SHA는 `git rev-parse HEAD`로 확인할 수 있다.
+- 새 PR: https://github.com/0-FLANDRE-0/SPACE_Project/pull/13 (OPEN, 미병합).
+- 구현·검증 commit: `694ef9e9d01d347557f3b6965a0aedfbaa696db1`. PR 링크를 추가한 최종 문서 commit SHA는 제출 응답/PR HEAD에 기재하며 `git rev-parse HEAD`로 확인할 수 있다.
 - **main과 PR12에는 병합하지 않는다.** ECON-SIM-4, 실제 배송 엔진/함선, 발전모듈 추가 및 포장 C·전력비 재보정을 수행하지 않았다.
 
 ## 실제 변경 파일

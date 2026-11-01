@@ -83,4 +83,6 @@ ECON 재보정 없이 물리 연산 시간만 측정했다. 아래 두 값은 �
 
 `node scripts/verify-resource-unit-preservation.mjs`: [원시 로그](logs/preservation.log). 원본 manifest는 수정하지 않았다. 새 PR12 manifest의 정확한21개 기존 수정 경로 외 **712개** 파일 SHA256 일치, 이전 원본238개 공식/ECON 파일 일치, 원본 코드로 v1 6종/v2 5종/v3 5종 fixture 재구성 일치. 19천체/92셀/8,893,000,000명 및750.125일 산업 궤적 회귀를 유지한다.
 
-GitHub Actions workflow가 저장소에 없어 별도 CI PASS는 확보하지 않았다. 위 결과는 실제 로컬 Node/Chromium 제출 로그이며 독립 CI 또는 실물 모바일 테스트로 표현하지 않는다.
+GitHub Actions workflow가 저장소에 없어 별도 CI PASS는 확보하지 않았다. 위 결과는 실제 로컬 Node/Chromium 제출 로그이며 독립 CI 또는 실물 모바일 테스트로 표현하지 않는다. [환경/서버/CI 조회 증거](logs/environment-evidence.json)에는 Chromium154, HTTP응답3,896건/4xx·5xx0건, GitHub Actions 실행0건을 기록했다.
+
+원시 Node assertion 로그의 들여쓰기/빈 줄 공백은 그대로 보존했다. 코드·문서 공백 검사는 `git diff --cached --check -- . ":(exclude)docs/resource-cargo-scu/followup-1/logs/*.log"`로 로그를 제외해 통과했다.
