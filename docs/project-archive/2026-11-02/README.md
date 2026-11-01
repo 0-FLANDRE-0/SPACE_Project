@@ -26,6 +26,7 @@
 | [06_DECISIONS_AND_SUPERSEDED.md](06_DECISIONS_AND_SUPERSEDED.md) | 사용자 확정 / 잠정 / 제안 / 폐기 및 구자료 상충 해결 |
 | [07_NEXT_STEPS_AND_OPEN_QUESTIONS.md](07_NEXT_STEPS_AND_OPEN_QUESTIONS.md) | 향후 작업 순서·의존성·완료 판정·남은 결정사항 |
 | [08_CONVERSATION_CHRONICLE.md](08_CONVERSATION_CHRONICLE.md) | 이번 채팅에서 실제 이어진 논의 흐름과 새로 정리된 핵심 사항 |
+| [09_SOURCE_MAP.md](09_SOURCE_MAP.md) | 1차 첨부 원본, 기획 백업17종, 온라인 보고서/근거 지도 |
 | [NEW_CHAT_HANDOFF_KO.md](NEW_CHAT_HANDOFF_KO.md) | 새 채팅에 붙여넣을 짧은 인계 메시지 |
 
 ## 상태 표기의 뜻
