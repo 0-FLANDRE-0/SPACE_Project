@@ -1,5 +1,6 @@
-// U is capacity; Q is integer material quantity. Cash and electricity are
+// U is resource quantity; SCU is cargo space. Cash and electricity are
 // separate meters. No DOM, clock, storage, prices, or resource-specific rules.
+import {createContainerAccount,validateContainerAccount,containerQuantityQ,containerGroups} from './container-state.js';
 import {materialResource,resourceContentMassKg} from './resource-definitions.js';
 import {DEFAULT_PACKAGE_REGISTRY,RECOVERY_SCALE,deepFreeze,safeId,integer,scaledDecimal} from './packaging-specs.js';
 export const MAX_PACKAGE_Q=1000000000000000;
@@ -10,18 +11,18 @@ const floorRatio=(a,b,d)=>Number(BigInt(a)*BigInt(b)/BigInt(d));
 const sum=a=>a.reduce((s,x)=>{const v=s+x;integer(v,'합계');return v;},0);
 const positive=n=>{integer(n,'수량',MAX_PACKAGE_Q);if(n===0)throw Error('양수 포장 수량 필요');return n;};
 export function packagingAccountKey({bodyId,ownerId}){if(!safeId(bodyId)||!safeId(ownerId)||bodyId.includes('|')||ownerId.includes('|'))throw Error('명시적인 천체/소유자 키 필요');return bodyId+'|'+ownerId;}
-export function createPackagingState(){return {schemaVersion:1,revision:0,accounts:{}};}
+export function createPackagingState(){return {schemaVersion:2,revision:0,accounts:{}};}
 function newAccount(ctx,{freeQ={},creditsMicroC=0,energyWh=0}={}){
- return {...ctx,freeQ:copy(freeQ),creditsMicroC,energyWh,groups:{},counters:{},ledger:{initialQ:copy(freeQ),suppliedQ:{},consumedQ:{},lostQ:{},inQ:{},outQ:{},packageDeltaQ:{},freeTransferDeltaQ:{},contentTransferDeltaQ:{},otherContentConsumedQ:{},externalFreeDeltaQ:{},initialCreditsMicroC:creditsMicroC,creditFundedMicroC:0,creditSpentMicroC:0,initialEnergyWh:energyWh,energyFundedWh:0,energySpentWh:0},automation:{enabled:true,lastMs:0,capacityQPerHour:null,batchQ:null,carry:0,protectedFreeQ:{},forecastConsumptionQ:null,benefitMicroCPerU:null,pendingReason:'승인 규격·전력·C·처리능력 미연결',nextJob:1,jobs:[]}};
+ return {...ctx,scu:createContainerAccount(),freeQ:copy(freeQ),creditsMicroC,energyWh,groups:{},counters:{},ledger:{initialQ:copy(freeQ),suppliedQ:{},consumedQ:{},lostQ:{},inQ:{},outQ:{},packageDeltaQ:{},freeTransferDeltaQ:{},contentTransferDeltaQ:{},otherContentConsumedQ:{},externalFreeDeltaQ:{},initialCreditsMicroC:creditsMicroC,creditFundedMicroC:0,creditSpentMicroC:0,initialEnergyWh:energyWh,energyFundedWh:0,energySpentWh:0},automation:{enabled:true,lastMs:0,capacityQPerHour:null,batchQ:null,carry:0,protectedFreeQ:{},forecastConsumptionQ:null,benefitMicroCPerU:null,pendingReason:'승인 규격·전력·C·처리능력 미연결',nextJob:1,jobs:[]}};
 }
 export function packagingAccount(s,ctx){const a=s.accounts[packagingAccountKey(ctx)];if(!a)throw Error('등록되지 않은 포장 재고 계정');return a;}
 export function openPackagingAccount(s,ctx,initial={},registry=DEFAULT_PACKAGE_REGISTRY){
  const key=packagingAccountKey(ctx);if(s.accounts[key])throw Error('중복 포장 계정');const w=copy(s);w.accounts[key]=newAccount(ctx,initial);validatePackagingState(w,registry);w.revision++;Object.assign(s,w);return packagingAccount(s,ctx);
 }
 function counter(a,specId){return a.counters[specId]??={packedQ:0,chargedQ:{},chargedCreditsMicroC:0,chargedEnergyWh:0,recovery:{}};}
-function reserved(a,kind,key=null,except=null){return sum(a.automation.jobs.filter(j=>j.status==='reserved'&&j.id!==except).map(j=>kind==='material'?(j.reservation.materialQ[key]??0):j.reservation[kind]));}
+function reserved(a,kind,key=null,except=null){return sum([...a.automation.jobs,...(a.scu?.automation.jobs??[])].filter(j=>j.status==='reserved'&&j.id!==except).map(j=>kind==='material'?(j.reservation.materialQ[key]??0):j.reservation[kind]));}
 export const availableFreeQ=(a,id,except=null)=>(a.freeQ[id]??0)-reserved(a,'material',id,except);
-export function packagedQuantityQ(a,resourceId,{includeReserved=true}={}){return sum([...Object.values(a.groups),...(includeReserved?a.automation.jobs.filter(j=>j.status==='reserved').flatMap(j=>j.escrow):[])].filter(g=>g.resourceId===resourceId).map(g=>g.amountQ));}
+export function packagedQuantityQ(a,resourceId,{includeReserved=true}={}){return (a.scu?containerQuantityQ(a,resourceId,{includeReserved}):0)+sum([...Object.values(a.groups),...(includeReserved?a.automation.jobs.filter(j=>j.status==='reserved').flatMap(j=>j.escrow):[])].filter(g=>g.resourceId===resourceId).map(g=>g.amountQ));}
 function allGroups(a){return [...Object.values(a.groups),...a.automation.jobs.filter(j=>j.status==='reserved').flatMap(j=>j.escrow)];}
 export function repackageReservation(escrow,spec,amountQ,registry){
  const minimumBack={},materialQ={};
@@ -71,7 +72,7 @@ function packing(a,request,registry,{compatibility=false,reservationId=null}={})
  insertGroup(a,{resourceId,packageSpecId:spec.id,amountQ,bondedMaterialsQ:materialQ});return {amountQ,materialQ,creditsMicroC:credit,energyWh:energy};
 }
 function consuming(a,request,registry){
- const {resourceId,amountQ,reason='consumption',unpack=false}=request;materialResource(resourceId,registry.resources,{configured:true});const groups=takeGroups(a,resourceId,amountQ,registry),returnedQ={};
+ const {resourceId,amountQ,reason='consumption',unpack=false}=request;const resource=materialResource(resourceId,registry.resources,{configured:true});if(unpack&&resource.requiresPackage)throw Error('특수 보관 자원의 자유 언패키징 금지: 합법적 수취 경로를 지정하세요.');const groups=takeGroups(a,resourceId,amountQ,registry),returnedQ={};
  for(const g of groups)for(const [id,n]of Object.entries(recover(a,g,registry)))add(returnedQ,id,n);
  if(unpack)add(a.freeQ,resourceId,amountQ);else{add(a.ledger.consumedQ,resourceId,amountQ);if(!['construction','smelting'].includes(reason))add(a.ledger.otherContentConsumedQ,resourceId,amountQ);}
  return {amountQ,returnedQ,groups:groups.map(g=>({packageSpecId:g.packageSpecId,amountQ:g.amountQ}))};
@@ -109,13 +110,13 @@ export const transferPackagedResource=(s,r,request)=>commit(s,quote(s,r,'transfe
 export function atomicPackagingChange(s,registry,change,{revisionStep=1}={}){const work=copy(s),result=change(work);work.revision+=typeof revisionStep==='function'?revisionStep(result):revisionStep;validatePackagingState(work,registry);Object.assign(s,work);return result;}
 export function fundPackagingAccount(s,registry,request){return atomicPackagingChange(s,registry,w=>funding(packagingAccount(w,request),request,registry));}
 export function consumeFreeResource(s,registry,{bodyId,ownerId,resourceId,amountQ,reason='consumption'}){positive(amountQ);materialResource(resourceId,registry.resources);return atomicPackagingChange(s,registry,w=>{const a=packagingAccount(w,{bodyId,ownerId});if(availableFreeQ(a,resourceId)<amountQ)throw Error('자유/예약 재료 부족');add(a.freeQ,resourceId,-amountQ);add(a.ledger.consumedQ,resourceId,amountQ);if(!['construction','smelting'].includes(reason))add(a.ledger.externalFreeDeltaQ,resourceId,-amountQ);return amountQ;});}
-export function packageContentAndMaterialMassKg(a,registry=DEFAULT_PACKAGE_REGISTRY){let mass=0;for(const [id,n]of Object.entries(a.freeQ))if(n)mass+=resourceContentMassKg(id,n/1000,registry.resources);for(const g of allGroups(a)){mass+=resourceContentMassKg(g.resourceId,g.amountQ/1000,registry.resources);for(const [id,n]of Object.entries(g.bondedMaterialsQ))if(n)mass+=resourceContentMassKg(id,n/1000,registry.resources);}return mass;}
-export function validatePackagingState(s,registry=DEFAULT_PACKAGE_REGISTRY){
+export function packageContentAndMaterialMassKg(a,registry=DEFAULT_PACKAGE_REGISTRY){let mass=0;for(const [id,n]of Object.entries(a.freeQ))if(n)mass+=resourceContentMassKg(id,n/1000,registry.resources);for(const g of allGroups(a)){mass+=resourceContentMassKg(g.resourceId,g.amountQ/1000,registry.resources);for(const [id,n]of Object.entries(g.bondedMaterialsQ))if(n)mass+=resourceContentMassKg(id,n/1000,registry.resources);}if(a.scu){for(const [id,q]of Object.entries(a.scu.openedQ))if(q)mass+=resourceContentMassKg(id,q/1000,registry.resources);for(const g of containerGroups(a)){mass+=resourceContentMassKg(g.resourceId,g.fillQ*g.count/1000,registry.resources);for(const [id,q]of Object.entries(g.bondedMaterialsQ))if(q)mass+=resourceContentMassKg(id,q/1000,registry.resources);}}return mass;}
+export function validatePackagingState(s,registry=DEFAULT_PACKAGE_REGISTRY,{legacy=false}={}){
  const fields=(o,keys)=>{if(!object(o)||Object.keys(o).some(k=>!keys.includes(k))||keys.some(k=>!Object.hasOwn(o,k)))throw Error('포장 저장 필드 불일치');};
  const quantities=(d,{signed=false}={})=>{if(!object(d))throw Error('자원 Q 사전 필요');for(const [id,n]of Object.entries(d)){materialResource(id,registry.resources);if(signed){if(!Number.isSafeInteger(n))throw Error('잘못된 부호 Q');}else integer(n,id);}};
- fields(s,['schemaVersion','revision','accounts']);if(s.schemaVersion!==1||!object(s.accounts))throw Error('포장 저장 버전');integer(s.revision,'revision');
+ fields(s,['schemaVersion','revision','accounts']);if(s.schemaVersion!==(legacy?1:2)||!object(s.accounts))throw Error('포장 저장 버전');integer(s.revision,'revision');
  for(const [key,a]of Object.entries(s.accounts)){
-  fields(a,['bodyId','ownerId','freeQ','creditsMicroC','energyWh','groups','counters','ledger','automation']);if(key!==packagingAccountKey(a))throw Error('포장 소유/천체 불일치');quantities(a.freeQ);for(const n of Object.values(a.freeQ))integer(n,'자유 재고',MAX_PACKAGE_Q);integer(a.creditsMicroC,'C');integer(a.energyWh,'전력');
+  fields(a,['bodyId','ownerId','freeQ','creditsMicroC','energyWh','groups','counters','ledger','automation',...(!legacy?['scu']:[])]);if(key!==packagingAccountKey(a))throw Error('포장 소유/천체 불일치');quantities(a.freeQ);for(const n of Object.values(a.freeQ))integer(n,'자유 재고',MAX_PACKAGE_Q);integer(a.creditsMicroC,'C');integer(a.energyWh,'전력');
   const l=a.ledger;fields(l,['initialQ','suppliedQ','consumedQ','lostQ','inQ','outQ','packageDeltaQ','freeTransferDeltaQ','contentTransferDeltaQ','otherContentConsumedQ','externalFreeDeltaQ','initialCreditsMicroC','creditFundedMicroC','creditSpentMicroC','initialEnergyWh','energyFundedWh','energySpentWh']);
   for(const k of ['initialQ','suppliedQ','consumedQ','lostQ','inQ','outQ','otherContentConsumedQ'])quantities(l[k]);for(const k of ['packageDeltaQ','freeTransferDeltaQ','contentTransferDeltaQ','externalFreeDeltaQ'])quantities(l[k],{signed:true});
   for(const k of ['initialCreditsMicroC','creditFundedMicroC','creditSpentMicroC','initialEnergyWh','energyFundedWh','energySpentWh'])integer(l[k],k);
@@ -129,9 +130,10 @@ export function validatePackagingState(s,registry=DEFAULT_PACKAGE_REGISTRY){
    const expected=repackageReservation(j.escrow,target,j.amountQ,registry),actual=j.reservation;
    if(actual.creditsMicroC!==expected.creditsMicroC||actual.energyWh!==expected.energyWh||Object.keys(actual.materialQ).length!==Object.keys(expected.materialQ).length||Object.entries(expected.materialQ).some(([id,n])=>actual.materialQ[id]!==n))throw Error('작업 예약 입력 불일치');
   }}
-  const holdings={...a.freeQ},groupKeys=new Set();for(const g of allGroups(a)){fields(g,['resourceId','packageSpecId','amountQ','bondedMaterialsQ']);const spec=registry.get(g.packageSpecId);if(spec.resourceId!==g.resourceId)throw Error('묶음 규격/내용물');if(!materialResource(g.resourceId,registry.resources,{configured:true}).requiresPackage)throw Error('벌크 자원을 패키지 내용물로 저장할 수 없습니다.');positive(g.amountQ);quantities(g.bondedMaterialsQ);if(Object.keys(g.bondedMaterialsQ).some(id=>!spec.materialInputs.some(m=>m.resourceId===id)))throw Error('발명된 포장 소재');add(holdings,g.resourceId,g.amountQ);for(const [id,n]of Object.entries(g.bondedMaterialsQ))add(holdings,id,n);}
+  const scu=legacy?{holdingsQ:{},boundQ:{},returnedQ:{},lostQ:{},paidC:0,paidE:0}:validateContainerAccount(a,registry);
+  const holdings={...a.freeQ},groupKeys=new Set();for(const [id,q]of Object.entries(scu.holdingsQ))add(holdings,id,q);for(const g of allGroups(a)){fields(g,['resourceId','packageSpecId','amountQ','bondedMaterialsQ']);const spec=registry.get(g.packageSpecId);if(spec.resourceId!==g.resourceId)throw Error('묶음 규격/내용물');if(!materialResource(g.resourceId,registry.resources,{configured:true}).requiresPackage)throw Error('벌크 자원을 패키지 내용물로 저장할 수 없습니다.');positive(g.amountQ);quantities(g.bondedMaterialsQ);if(Object.keys(g.bondedMaterialsQ).some(id=>!spec.materialInputs.some(m=>m.resourceId===id)))throw Error('발명된 포장 소재');add(holdings,g.resourceId,g.amountQ);for(const [id,n]of Object.entries(g.bondedMaterialsQ))add(holdings,id,n);}
   for(const [id,g]of Object.entries(a.groups)){if(id!==g.packageSpecId||groupKeys.has(id))throw Error('묶음 키 중복');groupKeys.add(id);}
-  const bound={},returned={},lost={};let paidC=0,paidE=0;
+  const bound={...scu.boundQ},returned={...scu.returnedQ},lost={...scu.lostQ};let paidC=scu.paidC,paidE=scu.paidE;
   for(const [id,c]of Object.entries(a.counters)){fields(c,['packedQ','chargedQ','chargedCreditsMicroC','chargedEnergyWh','recovery']);const spec=registry.get(id);integer(c.packedQ,'포장 누계');quantities(c.chargedQ);integer(c.chargedCreditsMicroC,'누계 C');integer(c.chargedEnergyWh,'누계 전력');if(!object(c.recovery))throw Error('회수 잔여 사전');
    for(const m of spec.materialInputs){if((c.chargedQ[m.resourceId]??0)!==ceilRatio(c.packedQ,m.amountQPer1000Q))throw Error('소재 차감 누계 불일치');add(bound,m.resourceId,c.chargedQ[m.resourceId]??0);}
    if(Object.keys(c.chargedQ).some(id=>!spec.materialInputs.some(m=>m.resourceId===id)))throw Error('다른 규격 소재 차감');
@@ -145,10 +147,13 @@ export function validatePackagingState(s,registry=DEFAULT_PACKAGE_REGISTRY){
   for(const id of ids){if((holdings[id]??0)+(l.lostQ[id]??0)+(l.consumedQ[id]??0)!==(l.initialQ[id]??0)+(l.suppliedQ[id]??0)+(l.inQ[id]??0)-(l.outQ[id]??0))throw Error('물질 보존 불일치: '+id);if((l.packageDeltaQ[id]??0)!==(returned[id]??0)-(bound[id]??0))throw Error('포장 자유 소재 출입 불일치');if((l.lostQ[id]??0)!==(lost[id]??0))throw Error('포장 손실 합계 불일치');if(availableFreeQ(a,id)<0)throw Error('소재 이중 예약');}
   if(a.creditsMicroC<reserved(a,'creditsMicroC')||a.energyWh<reserved(a,'energyWh'))throw Error('C/전력 이중 예약');
  }
+ if(!legacy){const references=Object.values(s.accounts).flatMap(a=>a.scu.appliedTransfers);if(new Set(references).size!==references.length)throw Error('인도 정산 참조 중복');}
  const transferredIn={},transferredOut={};for(const a of Object.values(s.accounts)){for(const [id,n]of Object.entries(a.ledger.inQ))add(transferredIn,id,n);for(const [id,n]of Object.entries(a.ledger.outQ))add(transferredOut,id,n);}for(const id of new Set([...Object.keys(transferredIn),...Object.keys(transferredOut)]))if((transferredIn[id]??0)!==(transferredOut[id]??0))throw Error('행성/소유자 이전 짝 불일치');
  return true;
 }
 
 // Queue internals share the same conservation validator. Escrow is at most one
 // group per spec/job, never one object per tank; it remains part of UI totals.
-export const PACKAGING_INTERNALS={copy,add,ceilRatio,packing,recover,insertGroup,takeGroups,allGroups};
+export const PACKAGING_INTERNALS={copy,add,ceilRatio,packing,recover,insertGroup,takeGroups,allGroups,reserved};
+// Explicit SCU transport API; quotePack above remains industrial-storage compatibility.
+export {quoteContainerPack,commitContainerPack,quoteContainerRepackage,commitContainerRepackage,quoteContainerUnpack,unpackContainerResource,quoteContainerConsumption,consumeContainerResource,configureContainerReceiver,transferContainerGroups} from './container-inventory.js';

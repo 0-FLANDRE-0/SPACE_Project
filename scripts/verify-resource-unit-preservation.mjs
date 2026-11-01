@@ -16,8 +16,8 @@ for(const [file,hash]of Object.entries(manifest.files)){
 console.log(`PASS: ${Object.keys(manifest.files).length} official data / ECON1–3 source, configuration, artifacts and untouched tests match ${base}`);
 const provenance=JSON.parse(fs.readFileSync('tests/fixtures/resource-packaging-provenance.json'));
 for(const [file,hash]of Object.entries(provenance.fixtures))assert.equal(digest(fs.readFileSync(file)),hash,file);
-function originalModule(file,overrides={}){
- const source=execFileSync('git',['show',`${base}:${file}`],{encoding:'utf8'}).replace(/from\s*(['"])(\.\.?\/[^'"]+)\1/g,(_,q,spec)=>`from ${q}${overrides[spec]??new URL(spec,pathToFileURL(path.resolve(file))).href}${q}`);
+function originalModule(file,overrides={},revision=base){
+ const source=execFileSync('git',['show',`${revision}:${file}`],{encoding:'utf8'}).replace(/from\s*(['"])(\.\.?\/[^'"]+)\1/g,(_,q,spec)=>`from ${q}${overrides[spec]??new URL(spec,pathToFileURL(path.resolve(file))).href}${q}`);
  return 'data:text/javascript;base64,'+Buffer.from(source).toString('base64');
 }
 const runtimeURL=originalModule('dist/src/industry-runtime.js'),old=await import(runtimeURL),fixture=await import(originalModule('dist/src/industry-fixture.js',{'./industry-runtime.js':runtimeURL}));
@@ -32,3 +32,19 @@ old.advanceIndustry(s,c,700.125);assert.deepEqual(s,read('production'));
 old.advanceIndustry(s,c,750.125);assert.deepEqual(s,read('after750'));
 assert.deepEqual(initial(catalog(true)),read('sol-full'));
 console.log('PASS: all6 v1 fixtures exactly reproduce using the original baseline runtime and original fixture initializer, including full19 Sol and750.125-day industrial trajectory; no fixtures rewritten');
+
+// RESOURCE-CARGO-2 additionally protects the complete PR #11 tree except the
+// exact authorized refactor/test paths. Past reports and hashes remain records.
+const scuManifest=JSON.parse(fs.readFileSync('docs/resource-cargo-scu/preservation-manifest.json'));
+const baselineFiles=execFileSync('git',['ls-tree','-r','--name-only',scuManifest.baselineCommit],{encoding:'utf8'}).trim().split('\n');
+assert.deepEqual(baselineFiles.filter(f=>!scuManifest.allowedChanges.includes(f)).sort(),Object.keys(scuManifest.files).sort());
+for(const [file,hash]of Object.entries(scuManifest.files))assert.equal(digest(fs.readFileSync(file)),hash,file);
+const changed=execFileSync('git',['diff','--name-only',scuManifest.baselineCommit],{encoding:'utf8'}).trim().split('\n').filter(Boolean);
+for(const file of changed)if(baselineFiles.includes(file))assert.ok(scuManifest.allowedChanges.includes(file),'Unapproved baseline change: '+file);
+for(const [file,hash]of Object.entries(scuManifest.v2Fixtures))assert.equal(digest(fs.readFileSync(file)),hash,file);
+const prior=scuManifest.baselineCommit,urls={};
+for(const file of ['resource-definitions.js','packaging-specs.js','packaging-inventory.js','packaging-automation.js','industry-packaging.js','industry-runtime.js','industry-storage.js'])urls['./'+file]=originalModule('dist/src/'+file,urls,prior);
+const oldV2=await import(urls['./industry-storage.js']),runtimeV2=await import(urls['./industry-runtime.js']);
+function priorCatalog(full){const c=new runtimeV2.IndustryCatalog('sol');for(const body of sol.allBodies.filter(b=>full?['planet','moon'].includes(b.kind):['earth','moon','mars','venus','jupiter'].includes(b.id)))c.register({body,grid:createPlanetarySurfaceGrid('sol',body),template:JSON.parse(fs.readFileSync(`dist/data/planet-surfaces/sol-${body.id}-v2.json`))});return c;}
+for(const name of ['initial','construction','production','normal','sol-full'])assert.deepEqual(oldV2.migrateIndustryV1ToV2(read(name),priorCatalog(name==='sol-full')),JSON.parse(fs.readFileSync(`tests/fixtures/industry-v2-${name}.json`)));
+console.log(`PASS: ${Object.keys(scuManifest.files).length} PR #11 files protected; only ${scuManifest.allowedChanges.length} exact refactor paths allowed; five actual v2 fixtures reproduce using the original PR #11 modules; no economic recalibration`);

@@ -1,15 +1,13 @@
 import {RESOURCE_DEFINITIONS,materialResource} from './resource-definitions.js';
-export const PACKAGE_SCHEMA_VERSION=1,RECOVERY_SCALE=1000000;
-export const deepFreeze=v=>{if(v&&typeof v==='object'){for(const x of Object.values(v))deepFreeze(x);Object.freeze(v);}return v;};
-export const safeId=id=>typeof id==='string'&&/^[a-zA-Z0-9][a-zA-Z0-9_:.\/-]{0,127}$/.test(id)&&!Object.hasOwn(Object.prototype,id)&&id!=='prototype';
-export function integer(v,label,max=Number.MAX_SAFE_INTEGER){if(!Number.isSafeInteger(v)||v<0||v>max)throw Error('포장 정수 범위 오류: '+label);return v;}
-export function scaledDecimal(value,scale,label){
- if(typeof value!=='number'||!Number.isFinite(value)||value<0)throw Error('포장 수치 오류: '+label);
- const n=value*scale,rounded=Math.round(n);if(Math.abs(n-rounded)>1e-7||!Number.isSafeInteger(rounded))throw Error('포장 수치 정밀도 초과: '+label);return rounded;
-}
+import {RECOVERY_SCALE,deepFreeze,safeId,integer,scaledDecimal} from './packaging-common.js';
+import {ContainerRegistry} from './container-specs.js';
+export {RECOVERY_SCALE,deepFreeze,safeId,integer,scaledDecimal} from './packaging-common.js';
+export {ContainerRegistry,SCU_VOLUME_M3,STANDARD_CONTAINERS} from './container-specs.js';
+export const PACKAGE_SCHEMA_VERSION=2;
+// Historical industrial storage recipes are separate from SCU transport recipes.
 export class PackageRegistry {
  #specs=new Map();
- constructor(resources=RESOURCE_DEFINITIONS){this.resources=resources;this.active=new Set();}
+ constructor(resources=RESOURCE_DEFINITIONS){this.resources=resources;this.active=new Set();this.containers=new ContainerRegistry(resources);}
  get specs(){return new Map(this.#specs);}
  register(input){
   const s=structuredClone(input);if(!safeId(s.id)||this.specs.has(s.id)||!safeId(s.resourceId))throw Error('포장 규격 ID/중복 오류');
