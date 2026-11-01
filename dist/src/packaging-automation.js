@@ -36,3 +36,5 @@ export function planAutomaticPackaging(s,registry,ctx,{availablePackageSpecs=nul
  if(choice)try{return {queued:true,jobId:reserveRepackageJob(s,registry,choice)};}catch(e){reason=e.message;}
  if(line.pendingReason!==reason)atomicPackagingChange(s,registry,w=>{packagingAccount(w,ctx).automation.pendingReason=reason;});return {queued:false,reason};
 }
+// SCU container sizing is a quote; technology modernization is this separate queue.
+export {configureContainerAutomation,reserveContainerRepackageJob,cancelContainerRepackageJob,advanceContainerQueue,planContainerModernization} from './container-automation.js';

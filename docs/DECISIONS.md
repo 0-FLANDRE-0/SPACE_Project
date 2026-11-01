@@ -173,3 +173,11 @@
 - 엄격한 v1→v2 구조 이관과 원문 별도 백업을 제공하되 라이브 실행은 여전히 자동 불러오기/저장이 없는 개발 transient 상태다. 명시적으로 적용한 v1 원문 백업만 별도 namespace에서 보존한다. 공식 프리셋/인구/광석 품질 lot/원천/산업 U 계약과 ECON1/2/3 기록은 보존한다.
 - 기존 ECON 전체 본체 동결 검사는 이번에 승인된6개 본체 모듈만 예외로 갱신했다. 경제 계산 검사는 그대로 유지하고 독립 해시/구버전 실제 산업 궤적 검사로 보강한다.
 - [구현 계약](resource-unit-packaging/IMPLEMENTATION.md), [저장 이관](resource-unit-packaging/SAVE_MIGRATION.md), [미결정/후속](resource-unit-packaging/FOLLOW_UP.md). ECON-SIM-4는 실행하지 않았다. 특히 종전3차 물9U→수소1U+산소8U는 새 질량 보존식이 아니며 물4,500kg→수소500kg+산소4,000kg와 별도 포장 비용으로 후속 검토한다.
+
+## RESOURCE-CARGO-2 / SCU PACKAGING-2 — 이전 공간 계약 대체
+
+- PR #11의58b6b0c를 기준으로 별도 `feat/resource-cargo-scu-packaging`에서 구현한다. **U는 자원량, SCU는 공간**이다. 과거1U=화물1U 계약은 폐기하며 광석/합금4SCU/U, 수소8SCU/U를 적용한다. kg/U와 산업 U 계약은 유지한다.
+- 1SCU=1.953125m³ 외부 부피,1/2/4/8/16/24/32SCU 규격과 합금25/45/85/160/270/370/450Q·90% 회수를 데이터로 적용한다. 합금 내용물과 합금 구조재는 별도 차감하고 실제 개봉한 컨테이너 수에 따라 회수한다. 빈 컨테이너 자산은 없다.
+- 자동 조합은 정확한 소재 목적함수/잔여 DP, 기술 현대화는 별도 실제 예약/시간 큐다. 기본 C/전력·특수 냉각 비용은 null이며 무료로 실행하지 않는다. 기존 수소 보관은 미가격화 산업 호환으로 유지하고 SCU 유료 컨테이너로 간주하지 않는다.
+- 산업 schema3/book2, 엄격한v2→v3와 기존v1 연결, 실패 시quarantinedState만 보존한다. 개발 transient/초기화/기존 품질 lot·공식 데이터·경제 산출물을 유지한다. 실제 함선/sector 배송·ECON-SIM-4는 미구현이다.
+- [새 계약/API](resource-cargo-scu/IMPLEMENTATION.md), [저장](resource-cargo-scu/SAVE_SCHEMA.md), [보고](resource-cargo-scu/REPORT_KO.md), [검증](resource-cargo-scu/VERIFICATION.md), [후속/미정](resource-cargo-scu/FOLLOW_UP.md). 이전 RESOURCE-UNIT-1 문서는 역사적 기록으로 보존하되 공간 계약은 이번 문서가 우선한다.

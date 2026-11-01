@@ -1,0 +1,82 @@
+{
+  "node": "v24.19.0",
+  "platform": "linux",
+  "objective": "material only; C/energy pending; exact anchor + residual DP",
+  "repetitions": 20,
+  "rows": [
+    {
+      "quantityU": 0.001,
+      "requiredSCU": 0.004,
+      "containerCount": 1,
+      "groupCount": 1,
+      "dpStates": 33,
+      "meanMs": 0.3015603999999996,
+      "maxMs": 2.9711880000000015,
+      "materialAlloyU": 0.025
+    },
+    {
+      "quantityU": 1,
+      "requiredSCU": 4,
+      "containerCount": 1,
+      "groupCount": 1,
+      "dpStates": 36,
+      "meanMs": 0.14911329999999978,
+      "maxMs": 0.713557999999999,
+      "materialAlloyU": 0.085
+    },
+    {
+      "quantityU": 8,
+      "requiredSCU": 32,
+      "containerCount": 1,
+      "groupCount": 1,
+      "dpStates": 64,
+      "meanMs": 0.12251704999999938,
+      "maxMs": 0.2363369999999989,
+      "materialAlloyU": 0.45
+    },
+    {
+      "quantityU": 12,
+      "requiredSCU": 48,
+      "containerCount": 2,
+      "groupCount": 2,
+      "dpStates": 80,
+      "meanMs": 0.136945750000001,
+      "maxMs": 0.27490500000000395,
+      "materialAlloyU": 0.72
+    },
+    {
+      "quantityU": 1000,
+      "requiredSCU": 4000,
+      "containerCount": 125,
+      "groupCount": 1,
+      "dpStates": 288,
+      "meanMs": 0.25247204999999867,
+      "maxMs": 0.5021679999999975,
+      "materialAlloyU": 56.25
+    },
+    {
+      "quantityU": 1000000000,
+      "requiredSCU": 4000000000,
+      "containerCount": 125000000,
+      "groupCount": 1,
+      "dpStates": 288,
+      "meanMs": 0.3902569499999995,
+      "maxMs": 0.6222700000000003,
+      "materialAlloyU": 56250000
+    },
+    {
+      "quantityU": 1000000000000,
+      "requiredSCU": 4000000000000,
+      "containerCount": 125000000000,
+      "groupCount": 1,
+      "dpStates": 288,
+      "meanMs": 0.4518934999999999,
+      "maxMs": 0.6995760000000004,
+      "materialAlloyU": 56250000000
+    }
+  ],
+  "all127AllowedSetsAt1e12U": {
+    "elapsedMs": 10.787361999999995,
+    "maxDpStates": 288
+  }
+}
