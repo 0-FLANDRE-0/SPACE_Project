@@ -1,0 +1,12 @@
+{
+  "baselineCommit": "f4bc5e46ad8952b8f6eb981692b32ef94ee1fc08",
+  "capture": "Original git runtime and fixture initializer; fixed official presets; five-body node catalog and full19 Sol browser catalog. verify-resource-unit-preservation.mjs reconstructs all snapshots read-only.",
+  "fixtures": {
+    "tests/fixtures/industry-v1-after750.json": "2644c1715f735dfcd42105e00c32d11c07a74a09b9bfe38fb32b74e71261bcb0",
+    "tests/fixtures/industry-v1-construction.json": "9195fd45037f77e18acd462c4feb683c169ebb2ae21cbb88876831803f7eea49",
+    "tests/fixtures/industry-v1-initial.json": "25dceaf35c0889459f925470b9201033dc728c818b18b30ef49dd3e83f0ef792",
+    "tests/fixtures/industry-v1-normal.json": "000992fb6802f27fcee86c5900afe6c6498beb970200b1054e30689ea57f57d6",
+    "tests/fixtures/industry-v1-production.json": "c29a68d779966ed4543fac80a28cae42a3f680e6566e59594b1af783de1ac7f7",
+    "tests/fixtures/industry-v1-sol-full.json": "266fe4c74fa6c85efe6518965eccc46c6c91405bd8a122f98e5114ef5195430b"
+  }
+}
