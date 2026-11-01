@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 3,
+  "kind": "campaign-industry-runtime",
+  "systemId": "sol",
+  "scenarioId": "development-fixture-v1",
+  "seed": "industry-v1",
+  "days": 180.125,
+  "originDays": 0,
+  "settledTick": 4323,
+  "nextFacilitySerial": 3,
+  "sourceSignatures": {
+    "earth": "52cbc980",
+    "moon": "b671412b",
+    "mars": "1dcd3358",
+    "venus": "f9b20f97",
+    "jupiter": "ea223880"
+  },
+  "governmentTreasuries": {
+    "human": 56372
+  },
+  "planetInventory": {
+    "earth": {
+      "human": {
+        "ore": {
+          "low": 0,
+          "medium": 0,
+          "high": 0
+        },
+        "alloy": 5133192,
+        "hydrogen": 365684,
+        "residue": 0,
+        "resourcesQ": {}
+      }
+    }
+  },
+  "oreRemaining": {},
+  "oreExtracted": {},
+  "hydrogenRemaining": {},
+  "hydrogenRecovered": {},
+  "governmentSlots": {
+    "earth": {
+      "sol:earth:surface:00077": {
+        "maxSlots": 4,
+        "unlockedSlots": 1,
+        "slotFacilityIds": [
+          "facility-1",
+          null,
+          null,
+          null
+        ],
+        "areaKm2": 5594324.069444704,
+        "policyVersion": 1
+      },
+      "sol:earth:surface:00000": {
+        "maxSlots": 4,
+        "unlockedSlots": 1,
+        "slotFacilityIds": [
+          "facility-2",
+          null,
+          null,
+          null
+        ],
+        "areaKm2": 6022309.866677902,
+        "policyVersion": 1
+      }
+    }
+  },
+  "facilityInstances": {
+    "facility-1": {
+      "id": "facility-1",
+      "type": "government_mining_complex",
+      "ownerId": "human",
+      "civilizationId": "human",
+      "systemId": "sol",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "slot": 0,
+      "level": 1,
+      "equipmentGenerationId": "gen1",
+      "installedModules": [],
+      "status": "construction",
+      "construction": {
+        "kind": "build",
+        "startedTick": 0,
+        "endTick": 4828,
+        "cost": {
+          "creditC": 16205,
+          "alloyQ": 1341031,
+          "hydrogenQ": 0,
+          "durationTicks": 4828
+        }
+      },
+      "pendingInvestment": null,
+      "segments": [],
+      "activeDepositIds": [
+        "sol/earth/r2-sol-earth-988ed46b-surface-77-0"
+      ],
+      "activeSourceIds": [],
+      "batchSerials": {},
+      "fractional": {},
+      "yieldRemainder": 0,
+      "experiencedProductionQ": 0,
+      "currentUtilization": 0,
+      "rampupProgress": 0,
+      "hydrogenMode": "auto",
+      "monthlyOperatingCostC": null,
+      "powerDemandMW": null,
+      "laborDemandPersons": null,
+      "lastRates": {
+        "oreQ": 0,
+        "hydrogenQ": 0,
+        "processedQ": 0,
+        "alloyQ": 0,
+        "residueQ": 0,
+        "hydrogenConsumedQ": 0
+      },
+      "stopReason": "건설 중"
+    },
+    "facility-2": {
+      "id": "facility-2",
+      "type": "government_smelting_complex",
+      "ownerId": "human",
+      "civilizationId": "human",
+      "systemId": "sol",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "slot": 0,
+      "level": 1,
+      "equipmentGenerationId": "gen1",
+      "installedModules": [],
+      "status": "construction",
+      "construction": {
+        "kind": "build",
+        "startedTick": 0,
+        "endTick": 6448,
+        "cost": {
+          "creditC": 27423,
+          "alloyQ": 3525777,
+          "hydrogenQ": 134316,
+          "durationTicks": 6448
+        }
+      },
+      "pendingInvestment": null,
+      "segments": [],
+      "activeDepositIds": [],
+      "activeSourceIds": [],
+      "batchSerials": {},
+      "fractional": {},
+      "yieldRemainder": 0,
+      "experiencedProductionQ": 0,
+      "currentUtilization": 0,
+      "rampupProgress": 0,
+      "hydrogenMode": "auto",
+      "monthlyOperatingCostC": null,
+      "powerDemandMW": null,
+      "laborDemandPersons": null,
+      "lastRates": {
+        "oreQ": 0,
+        "hydrogenQ": 0,
+        "processedQ": 0,
+        "alloyQ": 0,
+        "residueQ": 0,
+        "hydrogenConsumedQ": 0
+      },
+      "stopReason": "건설 중"
+    }
+  },
+  "inventoryLots": [],
+  "hydrogenKnowledge": {
+    "human": [
+      "sol/earth/h1-sol-earth-d71207a1-1"
+    ]
+  },
+  "depositKnowledge": {
+    "human": {
+      "sol/earth/r2-sol-earth-988ed46b-surface-77-0": 413603607617
+    }
+  },
+  "productionExperience": {},
+  "productionHistory": [],
+  "eventLog": [
+    {
+      "tick": 0,
+      "message": "건설 자원을 차감하고 공사를 시작했습니다.",
+      "facilityId": "facility-1"
+    },
+    {
+      "tick": 0,
+      "message": "건설 자원을 차감하고 공사를 시작했습니다.",
+      "facilityId": "facility-2"
+    }
+  ],
+  "materialLedger": {
+    "earth": {
+      "constructionCreditC": 43628,
+      "constructionAlloyQ": 4866808,
+      "constructionHydrogenQ": 134316,
+      "smeltingOreQ": 0,
+      "smeltingHydrogenQ": 0,
+      "alloyProducedQ": 0,
+      "residueProducedQ": 0
+    }
+  },
+  "fixture": true,
+  "packaging": {
+    "schemaVersion": 2,
+    "revision": 2,
+    "accounts": {
+      "earth|human": {
+        "bodyId": "earth",
+        "ownerId": "human",
+        "freeQ": {
+          "alloy": 5133192,
+          "residue": 0,
+          "hydrogen": 0
+        },
+        "creditsMicroC": 0,
+        "energyWh": 0,
+        "groups": {
+          "hydrogen-legacy-unpriced-v1": {
+            "resourceId": "hydrogen",
+            "packageSpecId": "hydrogen-legacy-unpriced-v1",
+            "amountQ": 365684,
+            "bondedMaterialsQ": {}
+          }
+        },
+        "counters": {
+          "hydrogen-legacy-unpriced-v1": {
+            "packedQ": 365684,
+            "chargedQ": {},
+            "chargedCreditsMicroC": 0,
+            "chargedEnergyWh": 0,
+            "recovery": {}
+          }
+        },
+        "ledger": {
+          "initialQ": {
+            "alloy": 5133192,
+            "residue": 0
+          },
+          "suppliedQ": {
+            "hydrogen": 365684
+          },
+          "consumedQ": {},
+          "lostQ": {},
+          "inQ": {},
+          "outQ": {},
+          "packageDeltaQ": {},
+          "freeTransferDeltaQ": {},
+          "contentTransferDeltaQ": {},
+          "otherContentConsumedQ": {},
+          "externalFreeDeltaQ": {},
+          "initialCreditsMicroC": 0,
+          "creditFundedMicroC": 0,
+          "creditSpentMicroC": 0,
+          "initialEnergyWh": 0,
+          "energyFundedWh": 0,
+          "energySpentWh": 0
+        },
+        "automation": {
+          "enabled": true,
+          "lastMs": 0,
+          "capacityQPerHour": null,
+          "batchQ": null,
+          "carry": 0,
+          "protectedFreeQ": {},
+          "forecastConsumptionQ": null,
+          "benefitMicroCPerU": null,
+          "pendingReason": "승인 규격·전력·C·처리능력 미연결",
+          "nextJob": 1,
+          "jobs": []
+        },
+        "scu": {
+          "groups": {},
+          "openedQ": {},
+          "receivers": {},
+          "appliedTransfers": [],
+          "counters": {},
+          "automation": {
+            "enabled": true,
+            "lastMs": 0,
+            "capacitySCUPerHour": null,
+            "batchSCU": null,
+            "forecastConsumptionQ": null,
+            "netBenefitMicroCPerU": null,
+            "protectedFreeQ": {},
+            "carry": 0,
+            "nextJob": 1,
+            "jobs": [],
+            "pendingReason": "컨테이너 비용·처리능력·예측 미연결"
+          }
+        }
+      }
+    }
+  }
+}

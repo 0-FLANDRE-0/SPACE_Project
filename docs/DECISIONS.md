@@ -181,3 +181,10 @@
 - 자동 조합은 정확한 소재 목적함수/잔여 DP, 기술 현대화는 별도 실제 예약/시간 큐다. 기본 C/전력·특수 냉각 비용은 null이며 무료로 실행하지 않는다. 기존 수소 보관은 미가격화 산업 호환으로 유지하고 SCU 유료 컨테이너로 간주하지 않는다.
 - 산업 schema3/book2, 엄격한v2→v3와 기존v1 연결, 실패 시quarantinedState만 보존한다. 개발 transient/초기화/기존 품질 lot·공식 데이터·경제 산출물을 유지한다. 실제 함선/sector 배송·ECON-SIM-4는 미구현이다.
 - [새 계약/API](resource-cargo-scu/IMPLEMENTATION.md), [저장](resource-cargo-scu/SAVE_SCHEMA.md), [보고](resource-cargo-scu/REPORT_KO.md), [검증](resource-cargo-scu/VERIFICATION.md), [후속/미정](resource-cargo-scu/FOLLOW_UP.md). 이전 RESOURCE-UNIT-1 문서는 역사적 기록으로 보존하되 공간 계약은 이번 문서가 우선한다.
+
+## SCU-2 FOLLOW-UP-1 — 2026-11-02
+
+- PR12 HEAD `f2aa8a8`을 기준으로 산업 정산 tick을 SCU 권위 시계로 연결하고 예약 시작 시각을 명시한다. 처리능력/ON 변경 전 구간 정산, 유휴 시간 이월 금지, 과거/미래 예약 거부를 적용한다.
+- 산업 v4/book v3에 최소 시계/원광 보관 필드를 추가한다. 실제 v1/v2/v3를 기존 validator로 검증하고 원문 백업 후 이관한다. 개발 transient/리프레시 초기화는 유지한다.
+- 정부 현지 단일 품질·광맥·난도 로트를 컨테이너 manifest로 봉인/개봉한다. 자유 원광은 제련 가용량이며 봉인량과 분리하고, 원광 전체 보존 및 기존 SCU 소재/C/Wh 원장을 함께 검증한다.
+- 혼합 로트·내용물 부분 개봉·원광 자동 현대화·원격 인도는 명시 거부한다. 새 시뮬레이션/배송 엔진/발전모듈을 추가하지 않고 기본 포장 비용 null을 유지한다. 상세: `resource-cargo-scu/followup-1/`.

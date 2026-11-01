@@ -1,0 +1,781 @@
+{
+  "rows": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "geometry": {
+        "x": 24,
+        "y": 152,
+        "width": 590,
+        "height": 450,
+        "bottom": 602,
+        "summaryBottom": 539.34375,
+        "textBottom": 539.34375
+      },
+      "ore": {
+        "before": {
+          "lot": {
+            "bodyId": "earth",
+            "ownerId": "human",
+            "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+            "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+            "grade": "low",
+            "processingDifficulty": 41.072,
+            "amountQ": 7522504
+          },
+          "inventory": {
+            "freeQ": {
+              "low": 7522504,
+              "medium": 5910482,
+              "high": 190764
+            },
+            "sealedQ": {
+              "low": 0,
+              "medium": 0,
+              "high": 0
+            },
+            "totalQ": {
+              "low": 7522504,
+              "medium": 5910482,
+              "high": 190764
+            }
+          },
+          "alloy": 8658969
+        },
+        "sealed": {
+          "freeQ": {
+            "low": 7514504,
+            "medium": 5910482,
+            "high": 190764
+          },
+          "sealedQ": {
+            "low": 8000,
+            "medium": 0,
+            "high": 0
+          },
+          "totalQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          }
+        },
+        "group": {
+          "resourceId": "ore",
+          "containerSpecId": "browser-paid-32",
+          "fillQ": 8000,
+          "count": 1,
+          "lotManifest": [
+            {
+              "bodyId": "earth",
+              "ownerId": "human",
+              "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+              "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+              "grade": "low",
+              "processingDifficulty": 41.072,
+              "amountQ": 8000
+            }
+          ],
+          "bondedMaterialsQ": {
+            "alloy": 450
+          }
+        },
+        "material": {
+          "alloy": 450
+        },
+        "alloy": 8658519,
+        "creditsMicroC": 99000000,
+        "energyWh": 99000
+      },
+      "opened": {
+        "q": {
+          "allowed": true,
+          "status": "ready",
+          "kind": "ore-unpack",
+          "amountQ": 8000,
+          "count": 1,
+          "lot": {
+            "bodyId": "earth",
+            "ownerId": "human",
+            "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+            "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+            "grade": "low",
+            "processingDifficulty": 41.072,
+            "amountQ": 8000
+          },
+          "recoveredMaterialsQ": {
+            "alloy": 405
+          },
+          "lostMaterialsQ": {
+            "alloy": 45
+          },
+          "openedSCU": 32
+        },
+        "inventory": {
+          "freeQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          },
+          "sealedQ": {
+            "low": 0,
+            "medium": 0,
+            "high": 0
+          },
+          "totalQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          }
+        },
+        "alloy": 8658924
+      },
+      "clock": {
+        "one": {
+          "startedMs": 43200000000,
+          "id": "container-job-1",
+          "resourceId": "alloy",
+          "amountQ": 8000,
+          "status": "reserved",
+          "escrow": [
+            {
+              "resourceId": "alloy",
+              "containerSpecId": "browser-paid-32",
+              "fillQ": 8000,
+              "count": 1,
+              "bondedMaterialsQ": {
+                "alloy": 450
+              }
+            }
+          ],
+          "planOptions": {
+            "allowedContainerSizes": null,
+            "minGeneration": 1,
+            "availableSpecIds": [
+              "browser-gen3-32"
+            ],
+            "materialWeights": {}
+          },
+          "reservation": {
+            "materialQ": {
+              "alloy": 45
+            },
+            "creditsMicroC": 1000000,
+            "energyWh": 1000
+          },
+          "workSCU": 32,
+          "processedSCU": 8
+        },
+        "four": {
+          "startedMs": 43200000000,
+          "id": "container-job-1",
+          "resourceId": "alloy",
+          "amountQ": 8000,
+          "status": "completed",
+          "escrow": [],
+          "planOptions": {
+            "allowedContainerSizes": null,
+            "minGeneration": 1,
+            "availableSpecIds": [
+              "browser-gen3-32"
+            ],
+            "materialWeights": {}
+          },
+          "reservation": {
+            "materialQ": {
+              "alloy": 45
+            },
+            "creditsMicroC": 1000000,
+            "energyWh": 1000
+          },
+          "workSCU": 32,
+          "processedSCU": 32
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "geometry": {
+        "x": 14,
+        "y": 108,
+        "width": 375.578125,
+        "height": 220,
+        "bottom": 328,
+        "summaryBottom": 304.75,
+        "textBottom": 305.40625
+      },
+      "ore": {
+        "before": {
+          "lot": {
+            "bodyId": "earth",
+            "ownerId": "human",
+            "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+            "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+            "grade": "low",
+            "processingDifficulty": 41.072,
+            "amountQ": 7522504
+          },
+          "inventory": {
+            "freeQ": {
+              "low": 7522504,
+              "medium": 5910482,
+              "high": 190764
+            },
+            "sealedQ": {
+              "low": 0,
+              "medium": 0,
+              "high": 0
+            },
+            "totalQ": {
+              "low": 7522504,
+              "medium": 5910482,
+              "high": 190764
+            }
+          },
+          "alloy": 8658969
+        },
+        "sealed": {
+          "freeQ": {
+            "low": 7514504,
+            "medium": 5910482,
+            "high": 190764
+          },
+          "sealedQ": {
+            "low": 8000,
+            "medium": 0,
+            "high": 0
+          },
+          "totalQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          }
+        },
+        "group": {
+          "resourceId": "ore",
+          "containerSpecId": "browser-paid-32",
+          "fillQ": 8000,
+          "count": 1,
+          "lotManifest": [
+            {
+              "bodyId": "earth",
+              "ownerId": "human",
+              "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+              "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+              "grade": "low",
+              "processingDifficulty": 41.072,
+              "amountQ": 8000
+            }
+          ],
+          "bondedMaterialsQ": {
+            "alloy": 450
+          }
+        },
+        "material": {
+          "alloy": 450
+        },
+        "alloy": 8658519,
+        "creditsMicroC": 99000000,
+        "energyWh": 99000
+      },
+      "opened": {
+        "q": {
+          "allowed": true,
+          "status": "ready",
+          "kind": "ore-unpack",
+          "amountQ": 8000,
+          "count": 1,
+          "lot": {
+            "bodyId": "earth",
+            "ownerId": "human",
+            "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+            "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+            "grade": "low",
+            "processingDifficulty": 41.072,
+            "amountQ": 8000
+          },
+          "recoveredMaterialsQ": {
+            "alloy": 405
+          },
+          "lostMaterialsQ": {
+            "alloy": 45
+          },
+          "openedSCU": 32
+        },
+        "inventory": {
+          "freeQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          },
+          "sealedQ": {
+            "low": 0,
+            "medium": 0,
+            "high": 0
+          },
+          "totalQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          }
+        },
+        "alloy": 8658924
+      },
+      "clock": {
+        "one": {
+          "startedMs": 43200000000,
+          "id": "container-job-1",
+          "resourceId": "alloy",
+          "amountQ": 8000,
+          "status": "reserved",
+          "escrow": [
+            {
+              "resourceId": "alloy",
+              "containerSpecId": "browser-paid-32",
+              "fillQ": 8000,
+              "count": 1,
+              "bondedMaterialsQ": {
+                "alloy": 450
+              }
+            }
+          ],
+          "planOptions": {
+            "allowedContainerSizes": null,
+            "minGeneration": 1,
+            "availableSpecIds": [
+              "browser-gen3-32"
+            ],
+            "materialWeights": {}
+          },
+          "reservation": {
+            "materialQ": {
+              "alloy": 45
+            },
+            "creditsMicroC": 1000000,
+            "energyWh": 1000
+          },
+          "workSCU": 32,
+          "processedSCU": 8
+        },
+        "four": {
+          "startedMs": 43200000000,
+          "id": "container-job-1",
+          "resourceId": "alloy",
+          "amountQ": 8000,
+          "status": "completed",
+          "escrow": [],
+          "planOptions": {
+            "allowedContainerSizes": null,
+            "minGeneration": 1,
+            "availableSpecIds": [
+              "browser-gen3-32"
+            ],
+            "materialWeights": {}
+          },
+          "reservation": {
+            "materialQ": {
+              "alloy": 45
+            },
+            "creditsMicroC": 1000000,
+            "energyWh": 1000
+          },
+          "workSCU": 32,
+          "processedSCU": 32
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "geometry": {
+        "x": 14,
+        "y": 108,
+        "width": 296.8125,
+        "height": 205,
+        "bottom": 313,
+        "summaryBottom": 312.09375,
+        "textBottom": 312.75
+      },
+      "ore": {
+        "before": {
+          "lot": {
+            "bodyId": "earth",
+            "ownerId": "human",
+            "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+            "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+            "grade": "low",
+            "processingDifficulty": 41.072,
+            "amountQ": 7522504
+          },
+          "inventory": {
+            "freeQ": {
+              "low": 7522504,
+              "medium": 5910482,
+              "high": 190764
+            },
+            "sealedQ": {
+              "low": 0,
+              "medium": 0,
+              "high": 0
+            },
+            "totalQ": {
+              "low": 7522504,
+              "medium": 5910482,
+              "high": 190764
+            }
+          },
+          "alloy": 8658969
+        },
+        "sealed": {
+          "freeQ": {
+            "low": 7514504,
+            "medium": 5910482,
+            "high": 190764
+          },
+          "sealedQ": {
+            "low": 8000,
+            "medium": 0,
+            "high": 0
+          },
+          "totalQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          }
+        },
+        "group": {
+          "resourceId": "ore",
+          "containerSpecId": "browser-paid-32",
+          "fillQ": 8000,
+          "count": 1,
+          "lotManifest": [
+            {
+              "bodyId": "earth",
+              "ownerId": "human",
+              "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+              "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+              "grade": "low",
+              "processingDifficulty": 41.072,
+              "amountQ": 8000
+            }
+          ],
+          "bondedMaterialsQ": {
+            "alloy": 450
+          }
+        },
+        "material": {
+          "alloy": 450
+        },
+        "alloy": 8658519,
+        "creditsMicroC": 99000000,
+        "energyWh": 99000
+      },
+      "opened": {
+        "q": {
+          "allowed": true,
+          "status": "ready",
+          "kind": "ore-unpack",
+          "amountQ": 8000,
+          "count": 1,
+          "lot": {
+            "bodyId": "earth",
+            "ownerId": "human",
+            "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+            "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+            "grade": "low",
+            "processingDifficulty": 41.072,
+            "amountQ": 8000
+          },
+          "recoveredMaterialsQ": {
+            "alloy": 405
+          },
+          "lostMaterialsQ": {
+            "alloy": 45
+          },
+          "openedSCU": 32
+        },
+        "inventory": {
+          "freeQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          },
+          "sealedQ": {
+            "low": 0,
+            "medium": 0,
+            "high": 0
+          },
+          "totalQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          }
+        },
+        "alloy": 8658924
+      },
+      "clock": {
+        "one": {
+          "startedMs": 43200000000,
+          "id": "container-job-1",
+          "resourceId": "alloy",
+          "amountQ": 8000,
+          "status": "reserved",
+          "escrow": [
+            {
+              "resourceId": "alloy",
+              "containerSpecId": "browser-paid-32",
+              "fillQ": 8000,
+              "count": 1,
+              "bondedMaterialsQ": {
+                "alloy": 450
+              }
+            }
+          ],
+          "planOptions": {
+            "allowedContainerSizes": null,
+            "minGeneration": 1,
+            "availableSpecIds": [
+              "browser-gen3-32"
+            ],
+            "materialWeights": {}
+          },
+          "reservation": {
+            "materialQ": {
+              "alloy": 45
+            },
+            "creditsMicroC": 1000000,
+            "energyWh": 1000
+          },
+          "workSCU": 32,
+          "processedSCU": 8
+        },
+        "four": {
+          "startedMs": 43200000000,
+          "id": "container-job-1",
+          "resourceId": "alloy",
+          "amountQ": 8000,
+          "status": "completed",
+          "escrow": [],
+          "planOptions": {
+            "allowedContainerSizes": null,
+            "minGeneration": 1,
+            "availableSpecIds": [
+              "browser-gen3-32"
+            ],
+            "materialWeights": {}
+          },
+          "reservation": {
+            "materialQ": {
+              "alloy": 45
+            },
+            "creditsMicroC": 1000000,
+            "energyWh": 1000
+          },
+          "workSCU": 32,
+          "processedSCU": 32
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "geometry": {
+        "x": 14,
+        "y": 387.09375,
+        "width": 362,
+        "height": 362.90625,
+        "bottom": 750,
+        "summaryBottom": 746.1875,
+        "textBottom": 746.1875
+      },
+      "ore": {
+        "before": {
+          "lot": {
+            "bodyId": "earth",
+            "ownerId": "human",
+            "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+            "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+            "grade": "low",
+            "processingDifficulty": 41.072,
+            "amountQ": 7522504
+          },
+          "inventory": {
+            "freeQ": {
+              "low": 7522504,
+              "medium": 5910482,
+              "high": 190764
+            },
+            "sealedQ": {
+              "low": 0,
+              "medium": 0,
+              "high": 0
+            },
+            "totalQ": {
+              "low": 7522504,
+              "medium": 5910482,
+              "high": 190764
+            }
+          },
+          "alloy": 8658969
+        },
+        "sealed": {
+          "freeQ": {
+            "low": 7514504,
+            "medium": 5910482,
+            "high": 190764
+          },
+          "sealedQ": {
+            "low": 8000,
+            "medium": 0,
+            "high": 0
+          },
+          "totalQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          }
+        },
+        "group": {
+          "resourceId": "ore",
+          "containerSpecId": "browser-paid-32",
+          "fillQ": 8000,
+          "count": 1,
+          "lotManifest": [
+            {
+              "bodyId": "earth",
+              "ownerId": "human",
+              "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+              "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+              "grade": "low",
+              "processingDifficulty": 41.072,
+              "amountQ": 8000
+            }
+          ],
+          "bondedMaterialsQ": {
+            "alloy": 450
+          }
+        },
+        "material": {
+          "alloy": 450
+        },
+        "alloy": 8658519,
+        "creditsMicroC": 99000000,
+        "energyWh": 99000
+      },
+      "opened": {
+        "q": {
+          "allowed": true,
+          "status": "ready",
+          "kind": "ore-unpack",
+          "amountQ": 8000,
+          "count": 1,
+          "lot": {
+            "bodyId": "earth",
+            "ownerId": "human",
+            "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+            "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+            "grade": "low",
+            "processingDifficulty": 41.072,
+            "amountQ": 8000
+          },
+          "recoveredMaterialsQ": {
+            "alloy": 405
+          },
+          "lostMaterialsQ": {
+            "alloy": 45
+          },
+          "openedSCU": 32
+        },
+        "inventory": {
+          "freeQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          },
+          "sealedQ": {
+            "low": 0,
+            "medium": 0,
+            "high": 0
+          },
+          "totalQ": {
+            "low": 7522504,
+            "medium": 5910482,
+            "high": 190764
+          }
+        },
+        "alloy": 8658924
+      },
+      "clock": {
+        "one": {
+          "startedMs": 43200000000,
+          "id": "container-job-1",
+          "resourceId": "alloy",
+          "amountQ": 8000,
+          "status": "reserved",
+          "escrow": [
+            {
+              "resourceId": "alloy",
+              "containerSpecId": "browser-paid-32",
+              "fillQ": 8000,
+              "count": 1,
+              "bondedMaterialsQ": {
+                "alloy": 450
+              }
+            }
+          ],
+          "planOptions": {
+            "allowedContainerSizes": null,
+            "minGeneration": 1,
+            "availableSpecIds": [
+              "browser-gen3-32"
+            ],
+            "materialWeights": {}
+          },
+          "reservation": {
+            "materialQ": {
+              "alloy": 45
+            },
+            "creditsMicroC": 1000000,
+            "energyWh": 1000
+          },
+          "workSCU": 32,
+          "processedSCU": 8
+        },
+        "four": {
+          "startedMs": 43200000000,
+          "id": "container-job-1",
+          "resourceId": "alloy",
+          "amountQ": 8000,
+          "status": "completed",
+          "escrow": [],
+          "planOptions": {
+            "allowedContainerSizes": null,
+            "minGeneration": 1,
+            "availableSpecIds": [
+              "browser-gen3-32"
+            ],
+            "materialWeights": {}
+          },
+          "reservation": {
+            "materialQ": {
+              "alloy": 45
+            },
+            "creditsMicroC": 1000000,
+            "energyWh": 1000
+          },
+          "workSCU": 32,
+          "processedSCU": 32
+        }
+      }
+    }
+  ],
+  "errors": []
+}

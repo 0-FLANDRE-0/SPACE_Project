@@ -11,7 +11,7 @@ const floorRatio=(a,b,d)=>Number(BigInt(a)*BigInt(b)/BigInt(d));
 const sum=a=>a.reduce((s,x)=>{const v=s+x;integer(v,'합계');return v;},0);
 const positive=n=>{integer(n,'수량',MAX_PACKAGE_Q);if(n===0)throw Error('양수 포장 수량 필요');return n;};
 export function packagingAccountKey({bodyId,ownerId}){if(!safeId(bodyId)||!safeId(ownerId)||bodyId.includes('|')||ownerId.includes('|'))throw Error('명시적인 천체/소유자 키 필요');return bodyId+'|'+ownerId;}
-export function createPackagingState(){return {schemaVersion:2,revision:0,accounts:{}};}
+export function createPackagingState({clockMs=0}={}){integer(clockMs,'초기 포장 시각');return {schemaVersion:3,clockMs,revision:0,accounts:{}};}
 function newAccount(ctx,{freeQ={},creditsMicroC=0,energyWh=0}={}){
  return {...ctx,scu:createContainerAccount(),freeQ:copy(freeQ),creditsMicroC,energyWh,groups:{},counters:{},ledger:{initialQ:copy(freeQ),suppliedQ:{},consumedQ:{},lostQ:{},inQ:{},outQ:{},packageDeltaQ:{},freeTransferDeltaQ:{},contentTransferDeltaQ:{},otherContentConsumedQ:{},externalFreeDeltaQ:{},initialCreditsMicroC:creditsMicroC,creditFundedMicroC:0,creditSpentMicroC:0,initialEnergyWh:energyWh,energyFundedWh:0,energySpentWh:0},automation:{enabled:true,lastMs:0,capacityQPerHour:null,batchQ:null,carry:0,protectedFreeQ:{},forecastConsumptionQ:null,benefitMicroCPerU:null,pendingReason:'승인 규격·전력·C·처리능력 미연결',nextJob:1,jobs:[]}};
 }
@@ -111,10 +111,11 @@ export function atomicPackagingChange(s,registry,change,{revisionStep=1}={}){con
 export function fundPackagingAccount(s,registry,request){return atomicPackagingChange(s,registry,w=>funding(packagingAccount(w,request),request,registry));}
 export function consumeFreeResource(s,registry,{bodyId,ownerId,resourceId,amountQ,reason='consumption'}){positive(amountQ);materialResource(resourceId,registry.resources);return atomicPackagingChange(s,registry,w=>{const a=packagingAccount(w,{bodyId,ownerId});if(availableFreeQ(a,resourceId)<amountQ)throw Error('자유/예약 재료 부족');add(a.freeQ,resourceId,-amountQ);add(a.ledger.consumedQ,resourceId,amountQ);if(!['construction','smelting'].includes(reason))add(a.ledger.externalFreeDeltaQ,resourceId,-amountQ);return amountQ;});}
 export function packageContentAndMaterialMassKg(a,registry=DEFAULT_PACKAGE_REGISTRY){let mass=0;for(const [id,n]of Object.entries(a.freeQ))if(n)mass+=resourceContentMassKg(id,n/1000,registry.resources);for(const g of allGroups(a)){mass+=resourceContentMassKg(g.resourceId,g.amountQ/1000,registry.resources);for(const [id,n]of Object.entries(g.bondedMaterialsQ))if(n)mass+=resourceContentMassKg(id,n/1000,registry.resources);}if(a.scu){for(const [id,q]of Object.entries(a.scu.openedQ))if(q)mass+=resourceContentMassKg(id,q/1000,registry.resources);for(const g of containerGroups(a)){mass+=resourceContentMassKg(g.resourceId,g.fillQ*g.count/1000,registry.resources);for(const [id,q]of Object.entries(g.bondedMaterialsQ))if(q)mass+=resourceContentMassKg(id,q/1000,registry.resources);}}return mass;}
-export function validatePackagingState(s,registry=DEFAULT_PACKAGE_REGISTRY,{legacy=false}={}){
+export function validatePackagingState(s,registry=DEFAULT_PACKAGE_REGISTRY,{legacy=false,version=legacy?1:3}={}){
+ legacy=version===1;
  const fields=(o,keys)=>{if(!object(o)||Object.keys(o).some(k=>!keys.includes(k))||keys.some(k=>!Object.hasOwn(o,k)))throw Error('포장 저장 필드 불일치');};
  const quantities=(d,{signed=false}={})=>{if(!object(d))throw Error('자원 Q 사전 필요');for(const [id,n]of Object.entries(d)){materialResource(id,registry.resources);if(signed){if(!Number.isSafeInteger(n))throw Error('잘못된 부호 Q');}else integer(n,id);}};
- fields(s,['schemaVersion','revision','accounts']);if(s.schemaVersion!==(legacy?1:2)||!object(s.accounts))throw Error('포장 저장 버전');integer(s.revision,'revision');
+ fields(s,['schemaVersion','revision','accounts',...(version>=3?['clockMs']:[])]);if(version>=3)integer(s.clockMs,'포장 시각');if(s.schemaVersion!==version||!object(s.accounts))throw Error('포장 저장 버전');integer(s.revision,'revision');
  for(const [key,a]of Object.entries(s.accounts)){
   fields(a,['bodyId','ownerId','freeQ','creditsMicroC','energyWh','groups','counters','ledger','automation',...(!legacy?['scu']:[])]);if(key!==packagingAccountKey(a))throw Error('포장 소유/천체 불일치');quantities(a.freeQ);for(const n of Object.values(a.freeQ))integer(n,'자유 재고',MAX_PACKAGE_Q);integer(a.creditsMicroC,'C');integer(a.energyWh,'전력');
   const l=a.ledger;fields(l,['initialQ','suppliedQ','consumedQ','lostQ','inQ','outQ','packageDeltaQ','freeTransferDeltaQ','contentTransferDeltaQ','otherContentConsumedQ','externalFreeDeltaQ','initialCreditsMicroC','creditFundedMicroC','creditSpentMicroC','initialEnergyWh','energyFundedWh','energySpentWh']);
@@ -130,7 +131,7 @@ export function validatePackagingState(s,registry=DEFAULT_PACKAGE_REGISTRY,{lega
    const expected=repackageReservation(j.escrow,target,j.amountQ,registry),actual=j.reservation;
    if(actual.creditsMicroC!==expected.creditsMicroC||actual.energyWh!==expected.energyWh||Object.keys(actual.materialQ).length!==Object.keys(expected.materialQ).length||Object.entries(expected.materialQ).some(([id,n])=>actual.materialQ[id]!==n))throw Error('작업 예약 입력 불일치');
   }}
-  const scu=legacy?{holdingsQ:{},boundQ:{},returnedQ:{},lostQ:{},paidC:0,paidE:0}:validateContainerAccount(a,registry);
+  const scu=legacy?{holdingsQ:{},boundQ:{},returnedQ:{},lostQ:{},paidC:0,paidE:0,custodyDeltaQ:{}}:validateContainerAccount(a,registry,{version,nowMs:s.clockMs});
   const holdings={...a.freeQ},groupKeys=new Set();for(const [id,q]of Object.entries(scu.holdingsQ))add(holdings,id,q);for(const g of allGroups(a)){fields(g,['resourceId','packageSpecId','amountQ','bondedMaterialsQ']);const spec=registry.get(g.packageSpecId);if(spec.resourceId!==g.resourceId)throw Error('묶음 규격/내용물');if(!materialResource(g.resourceId,registry.resources,{configured:true}).requiresPackage)throw Error('벌크 자원을 패키지 내용물로 저장할 수 없습니다.');positive(g.amountQ);quantities(g.bondedMaterialsQ);if(Object.keys(g.bondedMaterialsQ).some(id=>!spec.materialInputs.some(m=>m.resourceId===id)))throw Error('발명된 포장 소재');add(holdings,g.resourceId,g.amountQ);for(const [id,n]of Object.entries(g.bondedMaterialsQ))add(holdings,id,n);}
   for(const [id,g]of Object.entries(a.groups)){if(id!==g.packageSpecId||groupKeys.has(id))throw Error('묶음 키 중복');groupKeys.add(id);}
   const bound={...scu.boundQ},returned={...scu.returnedQ},lost={...scu.lostQ};let paidC=scu.paidC,paidE=scu.paidE;
@@ -143,8 +144,8 @@ export function validatePackagingState(s,registry=DEFAULT_PACKAGE_REGISTRY,{lega
    if(cost===null||energy===null||c.chargedCreditsMicroC!==cost||c.chargedEnergyWh!==energy)throw Error('미가격화/누계 비용 불일치');paidC+=cost;paidE+=energy;
   }
   if(paidC!==l.creditSpentMicroC||paidE!==l.energySpentWh)throw Error('포장 비용 합계');
-  const ids=new Set([...Object.keys(holdings),...Object.keys(l.initialQ),...Object.keys(l.suppliedQ),...Object.keys(l.consumedQ),...Object.keys(l.lostQ),...Object.keys(l.inQ),...Object.keys(l.outQ),...Object.keys(l.packageDeltaQ),...Object.keys(bound),...Object.keys(returned)]);
-  for(const id of ids){if((holdings[id]??0)+(l.lostQ[id]??0)+(l.consumedQ[id]??0)!==(l.initialQ[id]??0)+(l.suppliedQ[id]??0)+(l.inQ[id]??0)-(l.outQ[id]??0))throw Error('물질 보존 불일치: '+id);if((l.packageDeltaQ[id]??0)!==(returned[id]??0)-(bound[id]??0))throw Error('포장 자유 소재 출입 불일치');if((l.lostQ[id]??0)!==(lost[id]??0))throw Error('포장 손실 합계 불일치');if(availableFreeQ(a,id)<0)throw Error('소재 이중 예약');}
+  const ids=new Set([...Object.keys(holdings),...Object.keys(l.initialQ),...Object.keys(l.suppliedQ),...Object.keys(l.consumedQ),...Object.keys(l.lostQ),...Object.keys(l.inQ),...Object.keys(l.outQ),...Object.keys(l.packageDeltaQ),...Object.keys(bound),...Object.keys(returned),...Object.keys(scu.custodyDeltaQ)]);
+  for(const id of ids){if((holdings[id]??0)+(l.lostQ[id]??0)+(l.consumedQ[id]??0)!==(l.initialQ[id]??0)+(l.suppliedQ[id]??0)+(l.inQ[id]??0)-(l.outQ[id]??0)+(scu.custodyDeltaQ[id]??0))throw Error('물질 보존 불일치: '+id);if((l.packageDeltaQ[id]??0)!==(returned[id]??0)-(bound[id]??0))throw Error('포장 자유 소재 출입 불일치');if((l.lostQ[id]??0)!==(lost[id]??0))throw Error('포장 손실 합계 불일치');if(availableFreeQ(a,id)<0)throw Error('소재 이중 예약');}
   if(a.creditsMicroC<reserved(a,'creditsMicroC')||a.energyWh<reserved(a,'energyWh'))throw Error('C/전력 이중 예약');
  }
  if(!legacy){const references=Object.values(s.accounts).flatMap(a=>a.scu.appliedTransfers);if(new Set(references).size!==references.length)throw Error('인도 정산 참조 중복');}

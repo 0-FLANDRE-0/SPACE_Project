@@ -3,10 +3,11 @@ import { sampleGradeBatch, ORE_GRADES } from './ore-quality.js';
 import { resourceQuanta } from './resource-quantities.js';
 import { depositKnowledgeFor } from './resource-knowledge.js';
 import { resolvedSurfaceCell } from './planetary-surface-model.js';
+import {bindIndustryPackagingClock} from './packaging-clock.js';
 import {packagingAccount,availableFreeQ} from './packaging-inventory.js';
 import {createPackagingState} from './packaging-inventory.js';
 import {attachIndustryPackageAccount,industryPackageRegistry,produceIndustryPackaged,consumeIndustryPackaged,availableIndustryPackagedQ,produceIndustryBulk,consumeIndustryBulk,advanceIndustryPackaging} from './industry-packaging.js';
-export const INDUSTRY_SCHEMA_VERSION=3;
+export const INDUSTRY_SCHEMA_VERSION=4;
 export const OWNER='human';
 export function templateSignature(template){let h=2166136261;for(const c of JSON.stringify(template))h=Math.imul(h^c.charCodeAt(0),16777619);return (h>>>0).toString(16);}
 export class IndustryCatalog {
@@ -21,7 +22,7 @@ export class IndustryCatalog {
 }
 const inventory=()=>({ore:{low:0,medium:0,high:0},alloy:0,hydrogen:0,residue:0,resourcesQ:{}});
 export function createIndustryState(catalog,days=0,{fixture=false}={}){
- return {schemaVersion:3,packaging:createPackagingState(),kind:'campaign-industry-runtime',systemId:catalog.systemId,scenarioId:fixture?'development-fixture-v1':'unconfigured',seed:'industry-v1',days,originDays:days,settledTick:0,nextFacilitySerial:1,sourceSignatures:Object.fromEntries([...catalog.bodies].map(([id,b])=>[id,b.signature])),governmentTreasuries:{human:fixture?100000:null},planetInventory:{},oreRemaining:{},oreExtracted:{},hydrogenRemaining:{},hydrogenRecovered:{},governmentSlots:{},facilityInstances:{},inventoryLots:[],hydrogenKnowledge:{},depositKnowledge:{},productionExperience:{},productionHistory:[],eventLog:[],materialLedger:{},fixture};
+ const state={schemaVersion:4,packaging:createPackagingState(),kind:'campaign-industry-runtime',systemId:catalog.systemId,scenarioId:fixture?'development-fixture-v1':'unconfigured',seed:'industry-v1',days,originDays:days,settledTick:0,nextFacilitySerial:1,sourceSignatures:Object.fromEntries([...catalog.bodies].map(([id,b])=>[id,b.signature])),governmentTreasuries:{human:fixture?100000:null},planetInventory:{},oreRemaining:{},oreExtracted:{},hydrogenRemaining:{},hydrogenRecovered:{},governmentSlots:{},facilityInstances:{},inventoryLots:[],hydrogenKnowledge:{},depositKnowledge:{},productionExperience:{},productionHistory:[],eventLog:[],materialLedger:{},fixture};return bindIndustryPackagingClock(state);
 }
 export function ownerInventory(s,bodyId,ownerId=OWNER){s.planetInventory[bodyId]??={};const inv=s.planetInventory[bodyId][ownerId]??=inventory();attachIndustryPackageAccount(s,bodyId,ownerId);return inv;}
 export function slotsFor(s,catalog,bodyId,tileId){s.governmentSlots[bodyId]??={};const cell=catalog.cell(bodyId,tileId);return s.governmentSlots[bodyId][tileId]??=constructionSlots(cell.geography,cell.record.body,cell.geology,cell.scenario);}

@@ -3,7 +3,7 @@ import {RECOVERY_SCALE,deepFreeze,safeId,integer,scaledDecimal} from './packagin
 import {ContainerRegistry} from './container-specs.js';
 export {RECOVERY_SCALE,deepFreeze,safeId,integer,scaledDecimal} from './packaging-common.js';
 export {ContainerRegistry,SCU_VOLUME_M3,STANDARD_CONTAINERS} from './container-specs.js';
-export const PACKAGE_SCHEMA_VERSION=2;
+export const PACKAGE_SCHEMA_VERSION=3;
 // Historical industrial storage recipes are separate from SCU transport recipes.
 export class PackageRegistry {
  #specs=new Map();
