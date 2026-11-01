@@ -1,3 +1,4 @@
+import {RESOURCE_FOUNDATION_UPDATES} from './helpers/resource-foundation-preservation.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -76,9 +77,9 @@ test('ECON criteria report failures rather than coercing prices or silently pass
 test('ECON model is independent of browser, real clock, filesystem and unseeded randomness',()=>{
  const source=fs.readFileSync('dist/src/economy-model.js','utf8');assert.doesNotMatch(source,/\b(?:document|window|localStorage|sessionStorage|performance|Date)\b|Math\.random|node:fs|advanceIndustry/);
 });
-test('ECON every existing shipped game file is byte-identical to latest PR9 baseline',()=>{
+test('ECON shipped files outside the authorized resource foundation update remain byte-identical',()=>{
  const baseline='7d31e16b1ecc9faa42d9ea21aee7068e8dc09722',files=execFileSync('git',['ls-tree','-r','--name-only',baseline,'--','dist'],{encoding:'utf8'}).trim().split('\n');
- for(const file of files)assert.deepEqual(fs.readFileSync(file),execFileSync('git',['show',baseline+':'+file],{maxBuffer:10*1024*1024}),file);
+ for(const file of files.filter(f=>!RESOURCE_FOUNDATION_UPDATES.has(f)))assert.deepEqual(fs.readFileSync(file),execFileSync('git',['show',baseline+':'+file],{maxBuffer:10*1024*1024}),file);
 });
 
 test('ECON collection efficiency has its own body-level policy slot and changes collected tax without minting',()=>{

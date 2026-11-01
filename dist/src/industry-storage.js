@@ -3,42 +3,86 @@ import { createIndustryState, OWNER } from './industry-runtime.js';
 import { resourceQuanta } from './resource-quantities.js';
 import { FACILITY_TYPES, INDUSTRY_POLICY as P } from './industry-policy.js';
 import { canonicalPopulationMigration, writePreservedBackup } from './earth-population-update.js';
+import {validateIndustryStateV1,STATE_FIELDS as V1_FIELDS} from './industry-storage-v1.js';
+import {validatePackagingState,packagingAccount,packagingAccountKey,packagedQuantityQ} from './packaging-inventory.js';
+import {initializePackagingFromV1,industryPackageRegistry} from './industry-packaging.js';
 const ensure=(ok,message)=>{if(!ok)throw Error('산업 저장 검증: '+message);};
 const object=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
-const number=(v,max=Number.MAX_SAFE_INTEGER)=>typeof v==='number'&&Number.isFinite(v)&&v>=0&&v<=max;
-const q=v=>number(v,P.maxInventoryQ)&&Number.isSafeInteger(v);
-const fields=(v,names)=>{ensure(object(v),'객체 필요');ensure(Object.keys(v).every(k=>names.includes(k)),'알 수 없는 필드');ensure(names.every(k=>Object.hasOwn(v,k)),'필수 필드 누락');};
-const STATE_FIELDS=['schemaVersion','kind','systemId','scenarioId','seed','days','originDays','settledTick','nextFacilitySerial','sourceSignatures','governmentTreasuries','planetInventory','oreRemaining','oreExtracted','hydrogenRemaining','hydrogenRecovered','governmentSlots','facilityInstances','inventoryLots','hydrogenKnowledge','depositKnowledge','productionExperience','productionHistory','eventLog','materialLedger','fixture'];
-export function validateIndustryState(s,catalog){
- fields(s,STATE_FIELDS);ensure(s.schemaVersion===1&&s.kind==='campaign-industry-runtime'&&s.systemId===catalog.systemId,'버전/항성계 불일치');ensure(typeof s.fixture==='boolean'&&s.scenarioId===(s.fixture?'development-fixture-v1':'unconfigured')&&s.seed==='industry-v1','시나리오/시드 불일치');
- ensure(number(s.days)&&number(s.originDays)&&s.days>=s.originDays&&q(s.settledTick)&&s.settledTick===Math.floor((s.days-s.originDays)*24+1e-7),'정산 시계 불일치');ensure(q(s.nextFacilitySerial)&&s.nextFacilitySerial>=1,'시설 일련번호');
- for(const k of ['sourceSignatures','governmentTreasuries','planetInventory','oreRemaining','oreExtracted','hydrogenRemaining','hydrogenRecovered','governmentSlots','facilityInstances','hydrogenKnowledge','depositKnowledge','productionExperience','materialLedger'])ensure(object(s[k]),k+' 객체');
- ensure(Object.keys(s.sourceSignatures).length===catalog.bodies.size,'천체 원본 목록');for(const [id,b]of catalog.bodies)ensure(s.sourceSignatures[id]===b.signature,'표면 원본이 저장 이후 바뀌었습니다: '+id);
- fields(s.governmentTreasuries,[OWNER]);ensure(s.governmentTreasuries.human===null||q(s.governmentTreasuries.human),'크레딧');ensure(s.fixture||s.governmentTreasuries.human===null,'미정 시작 재정');
- for(const [bodyId,owners]of Object.entries(s.planetInventory)){ensure(catalog.bodies.has(bodyId)&&object(owners),'재고 천체');for(const [owner,inv]of Object.entries(owners)){ensure(owner===OWNER,'재고 소유권');fields(inv,['ore','alloy','hydrogen','residue']);fields(inv.ore,['low','medium','high']);ensure([...Object.values(inv.ore),inv.alloy,inv.hydrogen,inv.residue].every(q),'재고 quanta');}}
- for(const [remaining,used,registry]of [[s.oreRemaining,s.oreExtracted,catalog.deposits],[s.hydrogenRemaining,s.hydrogenRecovered,catalog.hydrogen]]){ensure(Object.keys(remaining).length===Object.keys(used).length,'원천 잔량/생산 기록');for(const [key,value]of Object.entries(remaining)){const source=registry.get(key);ensure(source&&source.initialReserveU!==null&&q(value)&&q(used[key]),'원천 참조/수량');ensure(value+used[key]===resourceQuanta(source.initialReserveU),'원천 질량 보존');if(registry===catalog.hydrogen)ensure(source.sourceType==='finite-source','대기 채집 금지');}for(const key of Object.keys(used))ensure(Object.hasOwn(remaining,key),'잔량 누락');}
- for(const [owner,keys]of Object.entries(s.hydrogenKnowledge)){ensure(owner===OWNER&&Array.isArray(keys)&&new Set(keys).size===keys.length,'수소 인지');for(const key of keys)ensure(catalog.hydrogen.get(key)?.sourceType==='finite-source','유한 수소 원천');ensure(s.fixture||keys.length===0,'정식 수소 탐사 정책 미정');}
- for(const [owner,records]of Object.entries(s.depositKnowledge)){ensure(owner===OWNER&&object(records),'확인 광석 인지');for(const [key,value]of Object.entries(records))ensure(s.fixture&&catalog.deposits.has(key)&&q(value)&&value<=resourceQuanta(catalog.deposits.get(key).initialReserveU),'개발용 조사 확인값');}
- const referenced=new Set();for(const [bodyId,tiles]of Object.entries(s.governmentSlots)){ensure(catalog.bodies.has(bodyId)&&object(tiles),'슬롯 천체');for(const [tileId,slots]of Object.entries(tiles)){const c=catalog.cell(bodyId,tileId);fields(slots,['maxSlots','unlockedSlots','slotFacilityIds','areaKm2','policyVersion']);ensure(q(slots.maxSlots)&&slots.maxSlots>=1&&slots.maxSlots<=4&&q(slots.unlockedSlots)&&slots.unlockedSlots>=1&&slots.unlockedSlots<=slots.maxSlots&&slots.policyVersion===1&&number(slots.areaKm2),'슬롯 범위');const radius=c.record.body.realRadiusKm??6371;ensure(Math.abs(slots.areaKm2-4*Math.PI*radius*radius*c.geography.areaWeight)<1e-6,'슬롯 면적');ensure(Array.isArray(slots.slotFacilityIds)&&slots.slotFacilityIds.length===slots.maxSlots,'슬롯 참조 배열');for(let i=0;i<slots.maxSlots;i++){const id=slots.slotFacilityIds[i];if(id===null)continue;const f=s.facilityInstances[id];ensure(f&&!referenced.has(id)&&i<slots.unlockedSlots&&f.bodyId===bodyId&&f.tileId===tileId&&f.slot===i,'시설/슬롯 일대일 참조');referenced.add(id);}}}
- const investment=p=>{fields(p,['kind','startedTick','endTick','cost',...(p.kind==='build'?[]:['targetSegmentIds'])]);ensure(['build','expand','upgrade'].includes(p.kind)&&q(p.startedTick)&&q(p.endTick)&&p.endTick>p.startedTick&&p.startedTick<=s.settledTick&&p.endTick>s.settledTick,'공사 시각');fields(p.cost,['creditC','alloyQ','hydrogenQ','durationTicks']);ensure(Object.values(p.cost).every(q)&&p.cost.durationTicks===p.endTick-p.startedTick,'공사 비용');};
- for(const [id,f]of Object.entries(s.facilityInstances)){fields(f,['id','type','ownerId','civilizationId','systemId','bodyId','tileId','slot','level','equipmentGenerationId','installedModules','status','construction','pendingInvestment','segments','activeDepositIds','activeSourceIds','batchSerials','fractional','yieldRemainder','experiencedProductionQ','currentUtilization','rampupProgress','hydrogenMode','monthlyOperatingCostC','powerDemandMW','laborDemandPersons','lastRates','stopReason']);ensure(id===f.id&&/^facility-[1-9]\d*$/.test(id)&&Number(id.slice(9))<s.nextFacilitySerial&&referenced.has(id),'시설 ID');ensure(Object.hasOwn(FACILITY_TYPES,f.type)&&f.ownerId===OWNER&&f.civilizationId===OWNER&&f.systemId===s.systemId,'시설 종류/소유권');ensure(q(f.level)&&f.level>=1&&f.level<=P.maximumLevel&&['gen1','gen2','mixed'].includes(f.equipmentGenerationId)&&['construction','rampup','active','stopped'].includes(f.status),'시설 규모/상태');ensure(['auto','off'].includes(f.hydrogenMode)&&[f.monthlyOperatingCostC,f.powerDemandMW,f.laborDemandPersons].every(v=>v===null),'미정 운영 수요');ensure(Array.isArray(f.installedModules)&&f.installedModules.length===0,'미구현 모듈');ensure(Array.isArray(f.segments)&&f.segments.length===(f.construction?0:f.level),'설비 단위');const segmentIds=new Set();for(const seg of f.segments){fields(seg,['id','completedTick','equipmentGenerationId','upgradedTick']);ensure(typeof seg.id==='string'&&!segmentIds.has(seg.id)&&q(seg.completedTick)&&seg.completedTick<=s.settledTick&&['gen1','gen2'].includes(seg.equipmentGenerationId)&&(seg.equipmentGenerationId==='gen1'?seg.upgradedTick===null:q(seg.upgradedTick)&&seg.upgradedTick<=s.settledTick),'설비 이력');segmentIds.add(seg.id);}
-  if(f.construction){investment(f.construction);ensure(f.status==='construction'&&f.construction.kind==='build'&&!f.pendingInvestment,'건설 상태');}else ensure(f.status!=='construction','완공 상태');if(f.pendingInvestment){investment(f.pendingInvestment);ensure(['expand','upgrade'].includes(f.pendingInvestment.kind)&&Array.isArray(f.pendingInvestment.targetSegmentIds)&&f.pendingInvestment.targetSegmentIds.every(k=>segmentIds.has(k)),'추가 투자 대상');}
-  for(const [list,registry]of [[f.activeDepositIds,catalog.deposits],[f.activeSourceIds,catalog.hydrogen]]){ensure(Array.isArray(list)&&new Set(list).size===list.length,'생산 원천 ID');for(const key of list){const d=registry.get(key);ensure(d?.bodyId===f.bodyId&&d.tileId===f.tileId,'다른 구역 원천');}}
-  ensure(object(f.batchSerials)&&Object.entries(f.batchSerials).every(([k,v])=>f.activeDepositIds.includes(k)&&q(v))&&object(f.fractional)&&Object.values(f.fractional).every(v=>number(v,1.000001)),'생산 일련번호/분수');ensure(q(f.yieldRemainder)&&f.yieldRemainder<100&&q(f.experiencedProductionQ)&&number(f.currentUtilization,1)&&number(f.rampupProgress,1)&&typeof f.stopReason==='string'&&f.stopReason.length<=500,'시설 생산 상태');fields(f.lastRates,['oreQ','hydrogenQ','processedQ','alloyQ','residueQ','hydrogenConsumedQ']);ensure(Object.values(f.lastRates).every(q),'생산 속도');
+const fields=(o,keys)=>{ensure(object(o),'객체 필요');ensure(Object.keys(o).every(k=>keys.includes(k))&&keys.every(k=>Object.hasOwn(o,k)),'알 수 없는 필드/필수 필드 누락');};
+export function industryLegacyProjection(s){
+ const next=structuredClone(s);delete next.packaging;next.schemaVersion=1;
+ let creditFunded=0;
+ for(const a of Object.values(s.packaging.accounts))if(a.ownerId===OWNER)creditFunded+=a.ledger.creditFundedMicroC;
+ if(next.governmentTreasuries.human!==null)next.governmentTreasuries.human=Math.round((next.governmentTreasuries.human+creditFunded/1000000)*1000000)/1000000;
+ for(const [bodyId,owners]of Object.entries(next.planetInventory)){
+  for(const ownerId of Object.keys(owners))if(ownerId!==OWNER)delete owners[ownerId];
+  if(!owners.human){delete next.planetInventory[bodyId];continue;}
+  const inv=owners.human,a=packagingAccount(s.packaging,{bodyId,ownerId:OWNER}),l=a.ledger;delete inv.resourcesQ;
+  for(const id of ['alloy','residue'])inv[id]-=(l.packageDeltaQ[id]??0)+(l.freeTransferDeltaQ[id]??0)+(l.externalFreeDeltaQ[id]??0);
+  inv.hydrogen-=(l.contentTransferDeltaQ.hydrogen??0);inv.hydrogen+=(l.otherContentConsumedQ.hydrogen??0);
  }
- ensure(Array.isArray(s.inventoryLots)&&s.inventoryLots.length<=P.lotLimit,'원광 lot');const totals={},lotIds=new Set();for(const lot of s.inventoryLots){fields(lot,['bodyId','ownerId','depositKey','depositId','grade','processingDifficulty','amountQ']);const d=catalog.deposits.get(lot.depositKey),id=`${lot.ownerId}/${lot.depositKey}/${lot.grade}`;ensure(d&&lot.bodyId===d.bodyId&&lot.depositId===d.depositId&&lot.ownerId===OWNER&&['low','medium','high'].includes(lot.grade)&&lot.processingDifficulty===d.processingDifficulty&&q(lot.amountQ)&&!lotIds.has(id),'원광 출처/품질/난도');lotIds.add(id);totals[lot.bodyId]??={low:0,medium:0,high:0};totals[lot.bodyId][lot.grade]+=lot.amountQ;}
- for(const [id,owners]of Object.entries(s.planetInventory))for(const grade of ['low','medium','high'])ensure(owners.human.ore[grade]===(totals[id]?.[grade]??0),'lot/품질 재고 불일치');
- for(const [id,l]of Object.entries(s.materialLedger)){ensure(catalog.bodies.has(id)&&s.planetInventory[id]?.human,'장부 천체/재고');fields(l,['constructionCreditC','constructionAlloyQ','constructionHydrogenQ','smeltingOreQ','smeltingHydrogenQ','alloyProducedQ','residueProducedQ']);ensure(Object.values(l).every(q)&&l.smeltingOreQ===l.alloyProducedQ+l.residueProducedQ,'제련 질량');}
- for(const [id,owners]of Object.entries(s.planetInventory)){const inv=owners.human,l=s.materialLedger[id]??{},initial=s.fixture&&id==='earth',recovered=[...catalog.hydrogen.values()].filter(d=>d.bodyId===id).reduce((n,d)=>n+(s.hydrogenRecovered[d.key]??0),0),extracted=[...catalog.deposits.values()].filter(d=>d.bodyId===id).reduce((n,d)=>n+(s.oreExtracted[d.key]??0),0);ensure(inv.alloy===(initial?10000000:0)+(l.alloyProducedQ??0)-(l.constructionAlloyQ??0)&&inv.residue===(l.residueProducedQ??0),'합금/잔여물 장부');ensure(inv.hydrogen===(initial?500000:0)+recovered-(l.constructionHydrogenQ??0)-(l.smeltingHydrogenQ??0),'수소 장부');ensure(Object.values(inv.ore).reduce((a,b)=>a+b,0)===extracted-(l.smeltingOreQ??0),'채굴/원광 장부');}
- if(s.fixture)ensure(s.governmentTreasuries.human===100000-Object.values(s.materialLedger).reduce((n,l)=>n+l.constructionCreditC,0),'크레딧 건설 장부');
- ensure(Array.isArray(s.productionHistory)&&s.productionHistory.length<=Object.keys(s.facilityInstances).length*P.historyMonths,'월간 기록 한도');for(const h of s.productionHistory){fields(h,['month','facilityId','bodyId','tileId','ownerId','oreQ','hydrogenQ','processedQ','alloyQ','residueQ','hydrogenConsumedQ']);const f=s.facilityInstances[h.facilityId];ensure(f&&f.bodyId===h.bodyId&&f.tileId===h.tileId&&h.ownerId===f.ownerId&&q(h.month)&&['oreQ','hydrogenQ','processedQ','alloyQ','residueQ','hydrogenConsumedQ'].every(k=>q(h[k])),'월간 기록');}
- ensure(Array.isArray(s.eventLog)&&s.eventLog.length<=P.eventLimit,'이벤트 한도');for(const e of s.eventLog){fields(e,['tick','message','facilityId']);ensure(q(e.tick)&&e.tick<=s.settledTick&&typeof e.message==='string'&&e.message.length<=500&&(e.facilityId===null||Object.hasOwn(s.facilityInstances,e.facilityId)),'이벤트 기록');}ensure(Object.values(s.productionExperience).every(q),'경험');return s;
+ return next;
+}
+export function validateIndustryState(s,catalog){
+ fields(s,[...V1_FIELDS,'packaging']);ensure(s.schemaVersion===2,'버전 불일치');const registry=industryPackageRegistry(catalog);validatePackagingState(s.packaging,registry);
+ ensure(object(s.governmentTreasuries)&&Object.values(s.governmentTreasuries).every(n=>n===null||typeof n==='number'&&Number.isFinite(n)&&n>=0),'현재 국고 음수/비정상 수치');
+ ensure(object(s.planetInventory),'행성 재고 객체');const accounts=new Set();
+ for(const [bodyId,owners]of Object.entries(s.planetInventory)){
+  ensure(catalog.bodies.has(bodyId)&&object(owners),'재고 천체');
+  for(const [ownerId,inv]of Object.entries(owners)){
+   fields(inv,['ore','alloy','hydrogen','residue','resourcesQ']);ensure(object(inv.resourcesQ),'추가 자원 재고');const ctx={bodyId,ownerId},a=packagingAccount(s.packaging,ctx);accounts.add(packagingAccountKey(ctx));
+   fields(inv.ore,['low','medium','high']);ensure(Object.values(inv.ore).every(n=>Number.isSafeInteger(n)&&n>=0&&n<=P.maxInventoryQ),'원광 품질 재고 수량');if(ownerId!==OWNER)ensure(Object.values(inv.ore).every(n=>n===0),'민간 원광 품질 lot 공급자 미연결');ensure((a.freeQ.ore??0)===0,'원광 품질 lot 포장 소재 어댑터 미연결');
+   ensure((a.freeQ.hydrogen??0)===0,'미포장 수소는 저장/자동 활성화 불가');ensure(inv.alloy===(a.freeQ.alloy??0)&&inv.residue===(a.freeQ.residue??0)&&inv.hydrogen===packagedQuantityQ(a,'hydrogen'),'파생 재고/포장 묶음 불일치');
+   const extra={};for(const [id,n]of Object.entries(a.freeQ))if(!['alloy','residue','hydrogen'].includes(id))extra[id]=n;for(const g of [...Object.values(a.groups),...a.automation.jobs.filter(j=>j.status==='reserved').flatMap(j=>j.escrow)])if(g.resourceId!=='hydrogen')extra[g.resourceId]=(extra[g.resourceId]??0)+g.amountQ;
+   ensure(JSON.stringify(Object.entries(extra).sort())===JSON.stringify(Object.entries(inv.resourcesQ).sort()),'추가 자원 합계');ensure(a.ledger.initialCreditsMicroC===0,'초기 포장 자금 생성 금지');if(ownerId!==OWNER)ensure(a.ledger.creditFundedMicroC===0,'민간 금융 공급자 미연결');
+  }
+ }
+ ensure(Object.keys(s.packaging.accounts).length===accounts.size,'분리된 포장 재고 계정');validateIndustryStateV1(industryLegacyProjection(s),catalog);return s;
+}
+export function migrateIndustryV1ToV2(old,catalog){
+ validateIndustryStateV1(old,catalog);const next=structuredClone(old);next.schemaVersion=2;initializePackagingFromV1(next,catalog);return validateIndustryState(next,catalog);
+}
+const fingerprint=text=>{let h=2166136261;for(const c of text)h=Math.imul(h^c.charCodeAt(0),16777619);return (h>>>0).toString(16);};
+// This new backup namespace survives the development trial-save reset. Only
+// explicit v1 import/opt-in persistent migration writes it; boot stays transient.
+export function preserveIndustryV1Raw(storage,key,raw){
+ if(!storage)throw Error('v1 원본 백업 저장소가 없어 이관을 활성화하지 않았습니다.');
+ const base='space-project:resource-unit-packaging:backup:v1:'+encodeURIComponent(key)+':'+fingerprint(raw);
+ for(let i=0;i<1000;i++){const target=base+(i?':'+i:'');const previous=storage.getItem(target);if(previous!==null&&previous!==raw)continue;if(previous===null)storage.setItem(target,raw);if(storage.getItem(target)!==raw)throw Error('v1 원본 백업 확인 실패');return target;}
+ throw Error('v1 원본 백업 충돌 한도');
 }
 export const industryStorageKey=(systemId,fixture=false)=>`space-project:industry:v1:${encodeURIComponent(systemId)}${fixture?':fixture':''}`;
 export class IndustryStore {
- constructor(catalog,{storage=null,notify=()=>{},fixture=false,days=0,populationUpdate=null,transient=false}={}){this.transient=transient;this.catalog=catalog;this.storage=transient?null:storage;this.notify=notify;this.populationUpdate=populationUpdate;this.key=industryStorageKey(catalog.systemId,fixture);this.blocked=false;this.error=null;this.raw=null;this.state=createIndustryState(catalog,days,{fixture});if(transient)return;try{this.raw=storage?.getItem(this.key)??null;if(this.raw){const parsed=parseSurfaceJSON(this.raw),migrated=canonicalPopulationMigration(parsed,catalog,populationUpdate);this.state=validateIndustryState(migrated??parsed,catalog);if(migrated){writePreservedBackup(storage,this.key+':population-e1:backup',this.raw);const text=JSON.stringify(migrated);storage.setItem(this.key,text);this.raw=text;this.populationMigration='ghsl-e2025-earth92-v1';notify('공식 지구 인구 변경의 저장 서명을 1회 이관했습니다. 기존 시설·재고·잔량·시계와 원본 백업을 보존했습니다.');}}}catch(e){this.blocked=true;this.error=e.message;notify('산업 저장 원본을 보존·격리했습니다. '+e.message);}}
+ constructor(catalog,{storage=null,notify=()=>{},fixture=false,days=0,populationUpdate=null,transient=false,importBackupStorage=null}={}){
+  Object.assign(this,{transient,catalog,notify,populationUpdate,importBackupStorage});this.storage=transient?null:storage;this.key=industryStorageKey(catalog.systemId,fixture);this.blocked=false;this.error=null;this.raw=null;this.previewOrigins=new WeakMap();this.state=createIndustryState(catalog,days,{fixture});
+  if(transient)return;
+  let validatedNext=null;
+  try{
+   this.raw=storage?.getItem(this.key)??null;if(!this.raw)return;
+   const parsed=parseSurfaceJSON(this.raw),population=canonicalPopulationMigration(parsed,catalog,populationUpdate),candidate=population??parsed,wasV1=candidate.schemaVersion===1;
+   const next=wasV1?migrateIndustryV1ToV2(candidate,catalog):validateIndustryState(candidate,catalog);if(next.fixture!==fixture)throw Error('일반/개발 저장 키와 캠페인 종류가 다릅니다.');validatedNext=next;
+   if(population)writePreservedBackup(storage,this.key+':population-e1:backup',this.raw);
+   if(wasV1)this.migrationBackupKey=preserveIndustryV1Raw(storage,this.key,this.raw);
+   if(population||wasV1){const text=JSON.stringify(next);storage.setItem(this.key,text);this.raw=text;}
+   this.state=next;
+   if(population){this.populationMigration='ghsl-e2025-earth92-v1';notify('공식 지구 인구 변경의 저장 서명만 이관했습니다. 원본 백업을 보존했습니다.');}
+   if(wasV1)notify('산업 v1→v2: U 수량·시설·원천·시계를 보존하고 소재 회수0인 미가격화 호환 포장으로 이관했습니다.');
+  }catch(e){if(validatedNext){this.state=validatedNext;this.quarantinedState=validatedNext;}this.blocked=true;this.error=e.message;notify('산업 저장 원본을 보존·격리했습니다. '+e.message);}
+ }
  persist(){if(this.transient)return true;try{if(this.blocked)throw Error('손상/다른 버전 저장 원본 보존 중');validateIndustryState(this.state,this.catalog);if(!this.storage)throw Error('저장소 접근 불가');const text=JSON.stringify(this.state);this.storage.setItem(this.key,text);this.raw=text;this.error=null;return true;}catch(e){this.error=e.message;this.notify('산업 저장 실패: '+e.message+' · 캠페인 JSON을 내보내세요.');return false;}}
- preview(text){const parsed=parseSurfaceJSON(text);return structuredClone(validateIndustryState(this.transient?parsed:canonicalPopulationMigration(parsed,this.catalog,this.populationUpdate)??parsed,this.catalog));}
- replace(next){validateIndustryState(next,this.catalog);if(next.fixture!==this.state.fixture)throw Error('일반/개발 캠페인 종류가 다릅니다.');if(this.transient){this.state=structuredClone(next);this.blocked=false;this.error=null;return;}if(!this.storage)throw Error('교체 전 백업 저장소가 필요합니다.');const old=this.storage.getItem(this.key);if(old)this.storage.setItem(this.key+':backup',old);this.storage.setItem(this.key,JSON.stringify(next));this.state=structuredClone(next);this.blocked=false;this.error=null;this.raw=JSON.stringify(next);}
+ preview(text){
+  const parsed=parseSurfaceJSON(text),population=this.transient?null:canonicalPopulationMigration(parsed,this.catalog,this.populationUpdate),candidate=population??parsed,wasV1=candidate.schemaVersion===1;
+  const next=structuredClone(wasV1?migrateIndustryV1ToV2(candidate,this.catalog):validateIndustryState(candidate,this.catalog));
+  this.previewOrigins.set(next,{raw:text,wasV1,signature:JSON.stringify(next)});return next;
+ }
+ replace(next){
+  validateIndustryState(next,this.catalog);if(next.fixture!==this.state.fixture)throw Error('일반/개발 캠페인 종류가 다릅니다.');
+  const origin=this.previewOrigins.get(next);if(origin&&origin.signature!==JSON.stringify(next))throw Error('가져오기 미리보기가 변경되었습니다. 원본 JSON을 다시 검증하세요.');
+  if(origin?.wasV1){const backup=typeof this.importBackupStorage==='function'?this.importBackupStorage():this.importBackupStorage??this.storage;this.migrationBackupKey=preserveIndustryV1Raw(backup,this.key,origin.raw);}
+  if(this.transient){this.state=structuredClone(next);this.fixtureInitialized=next.fixture||this.fixtureInitialized;this.blocked=false;this.error=null;this.previewOrigins.delete(next);return;}
+  if(!this.storage)throw Error('교체 전 백업 저장소가 필요합니다.');const old=this.storage.getItem(this.key);if(old)this.storage.setItem(this.key+':backup',old);
+  const text=JSON.stringify(next);this.storage.setItem(this.key,text);this.state=structuredClone(next);this.fixtureInitialized=next.fixture||this.fixtureInitialized;this.blocked=false;this.error=null;this.raw=text;this.previewOrigins.delete(next);
+ }
+ importJSON(text){const next=this.preview(text);this.replace(next);return this.state;}
  export(){validateIndustryState(this.state,this.catalog);return JSON.stringify(this.state,null,2);}
 }

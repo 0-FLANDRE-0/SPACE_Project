@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "kind": "campaign-industry-runtime",
+  "systemId": "sol",
+  "scenarioId": "development-fixture-v1",
+  "seed": "industry-v1",
+  "days": 700.125,
+  "originDays": 0,
+  "settledTick": 16803,
+  "nextFacilitySerial": 3,
+  "sourceSignatures": {
+    "earth": "52cbc980",
+    "moon": "b671412b",
+    "mars": "1dcd3358",
+    "venus": "f9b20f97",
+    "jupiter": "ea223880"
+  },
+  "governmentTreasuries": {
+    "human": 56372
+  },
+  "planetInventory": {
+    "earth": {
+      "human": {
+        "ore": {
+          "low": 0,
+          "medium": 0,
+          "high": 0
+        },
+        "alloy": 11274675,
+        "hydrogen": 446580,
+        "residue": 20823933
+      }
+    }
+  },
+  "oreRemaining": {
+    "sol/earth/r2-sol-earth-988ed46b-surface-77-0": 413576642201
+  },
+  "oreExtracted": {
+    "sol/earth/r2-sol-earth-988ed46b-surface-77-0": 26965416
+  },
+  "hydrogenRemaining": {
+    "sol/earth/h1-sol-earth-d71207a1-1": 27818946345
+  },
+  "hydrogenRecovered": {
+    "sol/earth/h1-sol-earth-d71207a1-1": 539308
+  },
+  "governmentSlots": {
+    "earth": {
+      "sol:earth:surface:00077": {
+        "maxSlots": 4,
+        "unlockedSlots": 1,
+        "slotFacilityIds": [
+          "facility-1",
+          null,
+          null,
+          null
+        ],
+        "areaKm2": 5594324.069444704,
+        "policyVersion": 1
+      },
+      "sol:earth:surface:00000": {
+        "maxSlots": 4,
+        "unlockedSlots": 1,
+        "slotFacilityIds": [
+          "facility-2",
+          null,
+          null,
+          null
+        ],
+        "areaKm2": 6022309.866677902,
+        "policyVersion": 1
+      }
+    }
+  },
+  "facilityInstances": {
+    "facility-1": {
+      "id": "facility-1",
+      "type": "government_mining_complex",
+      "ownerId": "human",
+      "civilizationId": "human",
+      "systemId": "sol",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "slot": 0,
+      "level": 1,
+      "equipmentGenerationId": "gen1",
+      "installedModules": [],
+      "status": "active",
+      "construction": null,
+      "pendingInvestment": null,
+      "segments": [
+        {
+          "id": "facility-1-level-1",
+          "completedTick": 4828,
+          "equipmentGenerationId": "gen1",
+          "upgradedTick": null
+        }
+      ],
+      "activeDepositIds": [
+        "sol/earth/r2-sol-earth-988ed46b-surface-77-0"
+      ],
+      "activeSourceIds": [
+        "sol/earth/h1-sol-earth-d71207a1-1"
+      ],
+      "batchSerials": {
+        "sol/earth/r2-sol-earth-988ed46b-surface-77-0": 11976
+      },
+      "fractional": {
+        "ore:sol/earth/r2-sol-earth-988ed46b-surface-77-0": 0.6666666674277621,
+        "hydrogen": 0.31999999999997897
+      },
+      "yieldRemainder": 0,
+      "experiencedProductionQ": 26965416,
+      "currentUtilization": 0.400032,
+      "rampupProgress": 1,
+      "hydrogenMode": "auto",
+      "monthlyOperatingCostC": null,
+      "powerDemandMW": null,
+      "laborDemandPersons": null,
+      "lastRates": {
+        "oreQ": 2778,
+        "hydrogenQ": 56,
+        "processedQ": 0,
+        "alloyQ": 0,
+        "residueQ": 0,
+        "hydrogenConsumedQ": 0
+      },
+      "stopReason": ""
+    },
+    "facility-2": {
+      "id": "facility-2",
+      "type": "government_smelting_complex",
+      "ownerId": "human",
+      "civilizationId": "human",
+      "systemId": "sol",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "slot": 0,
+      "level": 1,
+      "equipmentGenerationId": "gen1",
+      "installedModules": [],
+      "status": "active",
+      "construction": null,
+      "pendingInvestment": null,
+      "segments": [
+        {
+          "id": "facility-2-level-1",
+          "completedTick": 6448,
+          "equipmentGenerationId": "gen1",
+          "upgradedTick": null
+        }
+      ],
+      "activeDepositIds": [],
+      "activeSourceIds": [],
+      "batchSerials": {},
+      "fractional": {
+        "smelt:sol/earth/r2-sol-earth-988ed46b-surface-77-0:low": 0.7500000056988938,
+        "smelt:sol/earth/r2-sol-earth-988ed46b-surface-77-0:medium": 0.9546296360599626,
+        "smelt:sol/earth/r2-sol-earth-988ed46b-surface-77-0:high": 0.6129629689226022,
+        "smeltingHydrogen": 0.07199999995049922
+      },
+      "yieldRemainder": 3,
+      "experiencedProductionQ": 26965416,
+      "currentUtilization": 0.400032,
+      "rampupProgress": 1,
+      "hydrogenMode": "auto",
+      "monthlyOperatingCostC": null,
+      "powerDemandMW": null,
+      "laborDemandPersons": null,
+      "lastRates": {
+        "oreQ": 0,
+        "hydrogenQ": 0,
+        "processedQ": 2778,
+        "alloyQ": 634,
+        "residueQ": 2144,
+        "hydrogenConsumedQ": 48
+      },
+      "stopReason": ""
+    }
+  },
+  "inventoryLots": [
+    {
+      "bodyId": "earth",
+      "ownerId": "human",
+      "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+      "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+      "grade": "low",
+      "processingDifficulty": 41.072,
+      "amountQ": 0
+    },
+    {
+      "bodyId": "earth",
+      "ownerId": "human",
+      "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+      "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+      "grade": "medium",
+      "processingDifficulty": 41.072,
+      "amountQ": 0
+    },
+    {
+      "bodyId": "earth",
+      "ownerId": "human",
+      "depositKey": "sol/earth/r2-sol-earth-988ed46b-surface-77-0",
+      "depositId": "r2-sol-earth-988ed46b-surface-77-0",
+      "grade": "high",
+      "processingDifficulty": 41.072,
+      "amountQ": 0
+    }
+  ],
+  "hydrogenKnowledge": {
+    "human": [
+      "sol/earth/h1-sol-earth-d71207a1-1"
+    ]
+  },
+  "depositKnowledge": {
+    "human": {
+      "sol/earth/r2-sol-earth-988ed46b-surface-77-0": 413603607617
+    }
+  },
+  "productionExperience": {
+    "actor:human:government_mining_complex:constructionTicks": 4828,
+    "society:government_mining_complex:constructionTicks": 482,
+    "human:government_mining_complex": 26965416,
+    "actor:human:government_smelting_complex:constructionTicks": 6448,
+    "society:government_smelting_complex:constructionTicks": 644,
+    "human:government_smelting_complex": 26965416
+  },
+  "productionHistory": [
+    {
+      "month": 12,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 1690178,
+      "hydrogenQ": 33803,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 12,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 1690178,
+      "alloyQ": 384735,
+      "residueQ": 1305443,
+      "hydrogenConsumedQ": 28733
+    },
+    {
+      "month": 13,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 1936122,
+      "hydrogenQ": 38723,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 13,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 1936122,
+      "alloyQ": 440903,
+      "residueQ": 1495219,
+      "hydrogenConsumedQ": 32915
+    },
+    {
+      "month": 14,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 14,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455568,
+      "residueQ": 1544432,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 15,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 15,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455700,
+      "residueQ": 1544300,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 16,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 16,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455371,
+      "residueQ": 1544629,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 17,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 17,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455572,
+      "residueQ": 1544428,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 18,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 18,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455380,
+      "residueQ": 1544620,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 19,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 19,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455485,
+      "residueQ": 1544515,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 20,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 20,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455296,
+      "residueQ": 1544704,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 21,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 21,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455805,
+      "residueQ": 1544195,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 22,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 2000000,
+      "hydrogenQ": 40000,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 22,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 2000000,
+      "alloyQ": 455548,
+      "residueQ": 1544452,
+      "hydrogenConsumedQ": 34000
+    },
+    {
+      "month": 23,
+      "facilityId": "facility-1",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00077",
+      "ownerId": "human",
+      "oreQ": 675000,
+      "hydrogenQ": 13500,
+      "processedQ": 0,
+      "alloyQ": 0,
+      "residueQ": 0,
+      "hydrogenConsumedQ": 0
+    },
+    {
+      "month": 23,
+      "facilityId": "facility-2",
+      "bodyId": "earth",
+      "tileId": "sol:earth:surface:00000",
+      "ownerId": "human",
+      "oreQ": 0,
+      "hydrogenQ": 0,
+      "processedQ": 675000,
+      "alloyQ": 153681,
+      "residueQ": 521319,
+      "hydrogenConsumedQ": 11475
+    }
+  ],
+  "eventLog": [
+    {
+      "tick": 0,
+      "message": "건설 자원을 차감하고 공사를 시작했습니다.",
+      "facilityId": "facility-1"
+    },
+    {
+      "tick": 0,
+      "message": "건설 자원을 차감하고 공사를 시작했습니다.",
+      "facilityId": "facility-2"
+    },
+    {
+      "tick": 4828,
+      "message": "완공 · 가동 준비 시작",
+      "facilityId": "facility-1"
+    },
+    {
+      "tick": 6448,
+      "message": "완공 · 가동 준비 시작",
+      "facilityId": "facility-2"
+    }
+  ],
+  "materialLedger": {
+    "earth": {
+      "constructionCreditC": 43628,
+      "constructionAlloyQ": 4866808,
+      "constructionHydrogenQ": 134316,
+      "smeltingOreQ": 26965416,
+      "smeltingHydrogenQ": 458412,
+      "alloyProducedQ": 6141483,
+      "residueProducedQ": 20823933
+    }
+  },
+  "fixture": true
+}

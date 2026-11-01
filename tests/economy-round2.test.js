@@ -1,3 +1,4 @@
+import {RESOURCE_FOUNDATION_UPDATES} from './helpers/resource-foundation-preservation.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -97,8 +98,8 @@ test('R2 preserves original six-scenario interface and exact round1 reference tr
  assert.equal(hash(simulateEconomy(p).rows),'1c983b4fd1080ea0afedd0afecaf35e20dff4426bc78755edf41e1ab5e266de5');
  assert.equal(ECON_ROUND2_SCENARIOS.length,7);
 });
-test('R2 all round1 artifacts/scripts and existing shipped game files remain byte-identical',()=>{
+test('R2 round1 artifacts and shipped files outside the resource foundation update remain byte-identical',()=>{
  const baseline='f04a99abc5c1b6f9c7c98bb9402814b7884f2236',paths=['dist','docs/econ-sim','scripts/econ-calibrate.mjs','scripts/econ-calibrate.config.json','scripts/econ-report-plots.py','scripts/econ-write-report.mjs','tests/economy-model.test.js','tests/browser-economy-report.mjs'];
  const files=execFileSync('git',['ls-tree','-r','--name-only',baseline,'--',...paths],{encoding:'utf8'}).trim().split('\n').filter(f=>f!=='dist/src/economy-model.js');
- for(const file of files)assert.deepEqual(fs.readFileSync(file),execFileSync('git',['show',baseline+':'+file],{maxBuffer:20*1024*1024}),file);
+ for(const file of files.filter(f=>!RESOURCE_FOUNDATION_UPDATES.has(f)))assert.deepEqual(fs.readFileSync(file),execFileSync('git',['show',baseline+':'+file],{maxBuffer:20*1024*1024}),file);
 });
