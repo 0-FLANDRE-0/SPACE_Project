@@ -23,11 +23,14 @@
 | [03_RESOURCE_SCU_PACKAGING.md](03_RESOURCE_SCU_PACKAGING.md) | U/SCU/C/Q, 표준 컨테이너 7종, 소재 회수, 수소, 광석 로트, SCU 보완 패치, 물류 경계 |
 | [04_ECONOMY_POWER.md](04_ECONOMY_POWER.md) | ECON-SIM 1~3의 결과, 발전 모듈, 광업·제련 전력, 초기 식민지 소형 전원, ECON-SIM-4 범위 |
 | [05_SHIPS_AND_COMBAT.md](05_SHIPS_AND_COMBAT.md) | 9함급, 고정 선체 형식과 장갑면 한계, HAC/타이탄, 직접 조종, 형상·LOS, 확률·국소손상 전투 |
+| [05A_HULL_FORMS_ARMOR_LOS_DETAIL.md](05A_HULL_FORMS_ARMOR_LOS_DETAIL.md) | **최신 함선 보강:** 함급/선체 형식/개별 설계 3계층, 형식별 면 최대 장갑 두께, 시선 LOS와 장갑 LOS 구별, 기하 기반 관통/도탄과 미정 항목 |
 | [06_DECISIONS_AND_SUPERSEDED.md](06_DECISIONS_AND_SUPERSEDED.md) | 사용자 확정 / 잠정 / 제안 / 폐기 및 구자료 상충 해결 |
 | [07_NEXT_STEPS_AND_OPEN_QUESTIONS.md](07_NEXT_STEPS_AND_OPEN_QUESTIONS.md) | 향후 작업 순서·의존성·완료 판정·남은 결정사항 |
 | [08_CONVERSATION_CHRONICLE.md](08_CONVERSATION_CHRONICLE.md) | 이번 채팅에서 실제 이어진 논의 흐름과 새로 정리된 핵심 사항 |
 | [09_SOURCE_MAP.md](09_SOURCE_MAP.md) | 1차 첨부 원본, 기획 백업17종, 온라인 보고서/근거 지도 |
 | [NEW_CHAT_HANDOFF_KO.md](NEW_CHAT_HANDOFF_KO.md) | 새 채팅에 붙여넣을 짧은 인계 메시지 |
+
+**보강 갱신(2026-11-02):** 기존 [docs/DECISIONS.md](../../DECISIONS.md)에 최신 함선 결정의 요약과 본 상세 문서 링크를 추가했다. 사용자 원문이 없는 최신 정정의 구체 수치·공식은 새로 만들지 않았으며 연구 테크트리 초안은 제공된 JSON 파일로 구조를 재확인했다. 아카이브는 이제 **12개 Markdown**이며 PR #14 자체는 문서 변경만 포함한다.
 
 ## 상태 표기의 뜻
 
