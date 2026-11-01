@@ -1,0 +1,22 @@
+✔ actual mined low lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (48.507802ms)
+✔ actual mined medium lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (34.457358ms)
+✔ actual mined high lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (39.913639ms)
+✔ 0.001U uses one whole1SCU shell and fractional recovery accumulates on the actual second opening (32.211617ms)
+✔ partial group opening restores an entire container manifest, never a generic ore buffer (32.690879ms)
+✔ same grade and fill from different actual veins never merge away their source identity (37.617111ms)
+✔ mixed lot requests, fractional content opening, generic consumption/modernization and remote delivery fail closed (39.659476ms)
+✔ default null costs remain pending for real mined ore and never mutate its lot or free alloy (21.666667ms)
+✔ insufficient ore, actual alloy, wallet C and Wh reject the joint transaction without a single field changing (88.527542ms)
+✔ invalid source/body/owner/difficulty/grade and repeated references are rejected before any custody update (26.560119ms)
+✔ quotes are state-bound, immutable, stale after real clock/stock changes and non-replayable (38.709641ms)
+✔ strict validators reject corrupted manifests, counts, custody totals and extra free stock even if legacy projection could balance (27.210441ms)
+✔ generation unlock leaves old ore provenance, actual bonded material and recovery rules unchanged (30.881577ms)
+✔ current save export/import preserves lot manifests, partial groups, recovery carry and local clock without storage (38.732196ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6094.614821

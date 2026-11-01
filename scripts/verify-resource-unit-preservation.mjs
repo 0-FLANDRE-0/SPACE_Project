@@ -36,15 +36,27 @@ console.log('PASS: all6 v1 fixtures exactly reproduce using the original baselin
 // RESOURCE-CARGO-2 additionally protects the complete PR #11 tree except the
 // exact authorized refactor/test paths. Past reports and hashes remain records.
 const scuManifest=JSON.parse(fs.readFileSync('docs/resource-cargo-scu/preservation-manifest.json'));
+const followup=JSON.parse(fs.readFileSync('docs/resource-cargo-scu/followup-1/preservation-manifest.json'));
 const baselineFiles=execFileSync('git',['ls-tree','-r','--name-only',scuManifest.baselineCommit],{encoding:'utf8'}).trim().split('\n');
 assert.deepEqual(baselineFiles.filter(f=>!scuManifest.allowedChanges.includes(f)).sort(),Object.keys(scuManifest.files).sort());
-for(const [file,hash]of Object.entries(scuManifest.files))assert.equal(digest(fs.readFileSync(file)),hash,file);
+for(const [file,hash]of Object.entries(scuManifest.files))if(!followup.allowedChanges.includes(file))assert.equal(digest(fs.readFileSync(file)),hash,file);
 const changed=execFileSync('git',['diff','--name-only',scuManifest.baselineCommit],{encoding:'utf8'}).trim().split('\n').filter(Boolean);
-for(const file of changed)if(baselineFiles.includes(file))assert.ok(scuManifest.allowedChanges.includes(file),'Unapproved baseline change: '+file);
+for(const file of changed)if(baselineFiles.includes(file))assert.ok(scuManifest.allowedChanges.includes(file)||followup.allowedChanges.includes(file),'Unapproved baseline change: '+file);
 for(const [file,hash]of Object.entries(scuManifest.v2Fixtures))assert.equal(digest(fs.readFileSync(file)),hash,file);
 const prior=scuManifest.baselineCommit,urls={};
 for(const file of ['resource-definitions.js','packaging-specs.js','packaging-inventory.js','packaging-automation.js','industry-packaging.js','industry-runtime.js','industry-storage.js'])urls['./'+file]=originalModule('dist/src/'+file,urls,prior);
 const oldV2=await import(urls['./industry-storage.js']),runtimeV2=await import(urls['./industry-runtime.js']);
 function priorCatalog(full){const c=new runtimeV2.IndustryCatalog('sol');for(const body of sol.allBodies.filter(b=>full?['planet','moon'].includes(b.kind):['earth','moon','mars','venus','jupiter'].includes(b.id)))c.register({body,grid:createPlanetarySurfaceGrid('sol',body),template:JSON.parse(fs.readFileSync(`dist/data/planet-surfaces/sol-${body.id}-v2.json`))});return c;}
 for(const name of ['initial','construction','production','normal','sol-full'])assert.deepEqual(oldV2.migrateIndustryV1ToV2(read(name),priorCatalog(name==='sol-full')),JSON.parse(fs.readFileSync(`tests/fixtures/industry-v2-${name}.json`)));
-console.log(`PASS: ${Object.keys(scuManifest.files).length} PR #11 files protected; only ${scuManifest.allowedChanges.length} exact refactor paths allowed; five actual v2 fixtures reproduce using the original PR #11 modules; no economic recalibration`);
+console.log(`PASS: ${Object.keys(scuManifest.files).length} PR #11 manifest paths / ${scuManifest.allowedChanges.length} historical exceptions retained; FOLLOW-UP-1 exceptions independently enforced below; five actual v2 fixtures reproduce using the original PR #11 modules; no economic recalibration`);
+// FOLLOW-UP-1 adds its own exact PR12 allow list; historical manifests are never
+// rewritten. Every remaining PR12 path, including both old manifests, is hashed.
+const f3=execFileSync('git',['ls-tree','-r','--name-only',followup.baselineCommit],{encoding:'utf8'}).trim().split('\n');
+assert.deepEqual(f3.filter(f=>!followup.allowedChanges.includes(f)).sort(),Object.keys(followup.files).sort());
+for(const [file,hash]of Object.entries(followup.files)){assert.equal(digest(fs.readFileSync(file)),hash,file);assert.equal(digest(execFileSync('git',['show',followup.baselineCommit+':'+file],{maxBuffer:128*1024*1024})),hash,file+' PR12');}
+for(const file of execFileSync('git',['diff','--name-only',followup.baselineCommit],{encoding:'utf8'}).trim().split('\n').filter(Boolean))if(f3.includes(file))assert.ok(followup.allowedChanges.includes(file),'Unapproved PR12 change: '+file);
+for(const [file,hash]of Object.entries(followup.v3Fixtures))assert.equal(digest(fs.readFileSync(file)),hash,file);
+const u3={};for(const file of ['resource-definitions.js','packaging-common.js','container-specs.js','cargo-scu.js','container-state.js','packaging-specs.js','packaging-inventory.js','packaging-automation.js','industry-packaging.js','industry-runtime.js','industry-storage.js'])u3['./'+file]=originalModule('dist/src/'+file,u3,followup.baselineCommit);
+const originalV3=await import(u3['./industry-storage.js']);
+for(const name of ['initial','construction','production','normal','sol-full'])assert.deepEqual(originalV3.migrateIndustryV2ToV3(JSON.parse(fs.readFileSync(`tests/fixtures/industry-v2-${name}.json`)),priorCatalog(name==='sol-full')),JSON.parse(fs.readFileSync(`tests/fixtures/industry-v3-${name}.json`)));
+console.log(`PASS: ${Object.keys(followup.files).length} PR12 files match SHA256; ${followup.allowedChanges.length} exact existing paths authorized; five genuine v3 fixtures reproduce with original PR12 code; previous manifests/reports unchanged`);

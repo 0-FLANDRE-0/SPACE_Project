@@ -18,7 +18,7 @@ function reusable(a,r,registry){
 }
 export function takeContainersForQuantity(a,resourceId,amountQ,registry,{protectedCounts={},exact=false}={}){
  let left=amountQ,totalQ=0;const selected=[];
- for(const [key,g]of orderedContainerGroups(a,resourceId,registry)){const available=g.count-(protectedCounts[key]??0),n=Math.min(available,Math.ceil(left/g.fillQ));if(n>0){const part=takeContainerCount(a,key,n);selected.push(part);const q=checkedProduct(n,g.fillQ,'개봉 내용물');totalQ=integer(totalQ+q,'개봉 합계');left-=q;}if(left<=0)break;}
+ for(const [key,g]of orderedContainerGroups(a,resourceId,registry)){const available=g.count-(protectedCounts[key]??0),n=Math.min(available,Math.ceil(left/g.fillQ));if(n>0){if(g.lotManifest)throw Error('광석 로트는 현지 산업 개봉 어댑터를 사용하세요.');const part=takeContainerCount(a,key,n);selected.push(part);const q=checkedProduct(n,g.fillQ,'개봉 내용물');totalQ=integer(totalQ+q,'개봉 합계');left-=q;}if(left<=0)break;}
  if(left>0||exact&&totalQ!==amountQ)throw Error('사용 가능한 정수 컨테이너 내용물 부족/예약/부분 수량');return {groups:selected,totalQ};
 }
 function requireReceiver(a,registry,resourceId,extraQ,{consumer=false}={}){
@@ -85,7 +85,7 @@ function rawTransfer(w,r,registry){
  if(!safeId(r.deliveryReferenceId)||typeof r.deliveryProvider!=='function')throw Error('실제 도착을 확인한 외부 인도 공급자 미연결: 원장 이전만으로 배송하지 않습니다.');
  if(Object.values(w.accounts).some(account=>account.scu.appliedTransfers.includes(r.deliveryReferenceId)))throw Error('이미 반영한 인도 정산 참조');
  const receipt=r.deliveryProvider(r.deliveryReferenceId);if(!receipt||receipt.phase!=='delivered'||packagingAccountKey(receipt.from)!==packagingAccountKey(r.from)||packagingAccountKey(receipt.to)!==packagingAccountKey(r.to)||JSON.stringify(receipt.groups)!==JSON.stringify(r.groups))throw Error('미도착/일치하지 않는 인도 확인');
- for(const selected of r.groups){const g=takeContainerCount(a,selected.key,selected.count),q=checkedProduct(g.count,g.fillQ,'이전 내용물');containerCounter(a,g.resourceId,g.containerSpecId).sentCount+=g.count;containerCounter(b,g.resourceId,g.containerSpecId).receivedCount+=g.count;insertContainerGroup(b,g);
+ for(const selected of r.groups){if(a.scu.groups[selected.key]?.lotManifest)throw Error('광석 품질 로트의 타 천체/소유자 인도 미지원');const g=takeContainerCount(a,selected.key,selected.count),q=checkedProduct(g.count,g.fillQ,'이전 내용물');containerCounter(a,g.resourceId,g.containerSpecId).sentCount+=g.count;containerCounter(b,g.resourceId,g.containerSpecId).receivedCount+=g.count;insertContainerGroup(b,g);
   for(const [id,n]of [[g.resourceId,q],...Object.entries(g.bondedMaterialsQ)]){addQ(a.ledger.outQ,id,n);addQ(b.ledger.inQ,id,n);}addQ(a.ledger.contentTransferDeltaQ,g.resourceId,-q);addQ(b.ledger.contentTransferDeltaQ,g.resourceId,q);
  }
  a.scu.appliedTransfers.push(r.deliveryReferenceId);return {accountingOnly:true,deliveredByLogistics:false,externalDeliveryReference:r.deliveryReferenceId};

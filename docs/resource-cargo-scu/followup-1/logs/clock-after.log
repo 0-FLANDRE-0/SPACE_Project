@@ -1,0 +1,10 @@
+{"atDay":500,"afterHours":1,"capacitySCUPerHour":8,"workSCU":32,"processedSCU":8,"status":"reserved"}
+✔ REPRO: day500 manual32SCU job at8SCU/hour processes only8 after one hour (85.700493ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 178.246095

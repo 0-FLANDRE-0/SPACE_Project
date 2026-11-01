@@ -1,3 +1,4 @@
+import {advancePackagingClock} from '../dist/src/packaging-clock.js';
 import test from 'node:test';import assert from 'node:assert/strict';
 import {ResourceRegistry,RESOURCE_DEFINITIONS,resourceCargoSCU,quoteCargoSCU,resourceContentMassKg} from '../dist/src/resource-definitions.js';
 import {PackageRegistry,DEFAULT_PACKAGE_REGISTRY,ContainerRegistry,STANDARD_CONTAINERS,SCU_VOLUME_M3} from '../dist/src/packaging-specs.js';
@@ -5,7 +6,8 @@ import {quoteContainerPlan} from '../dist/src/cargo-scu.js';
 import {createPackagingState,openPackagingAccount,packagingAccount,quoteIncomingPackage,commitPack,validatePackagingState,packageContentAndMaterialMassKg,fundPackagingAccount} from '../dist/src/packaging-inventory.js';
 import {quoteContainerPack,commitContainerPack,quoteContainerRepackage,commitContainerRepackage,quoteContainerUnpack,unpackContainerResource,consumeContainerResource,configureContainerReceiver,transferContainerGroups} from '../dist/src/container-inventory.js';
 import {containerQuantityQ,containerGroupKey} from '../dist/src/container-state.js';
-import {configureContainerAutomation,reserveContainerRepackageJob,cancelContainerRepackageJob,advanceContainerQueue,planContainerModernization} from '../dist/src/container-automation.js';
+import {configureContainerAutomation,reserveContainerRepackageJob,cancelContainerRepackageJob,advanceContainerQueue as rawAdvanceContainerQueue,planContainerModernization} from '../dist/src/container-automation.js';
+const advanceContainerQueue=(s,r,ctx,ms)=>{advancePackagingClock(s,ms);return rawAdvanceContainerQueue(s,r,ctx,ms);};
 const ctx={bodyId:'earth',ownerId:'human'},account=s=>packagingAccount(s,ctx);
 function registry({cost=1,energy=2,specialCost=0,specialEnergy=0}={}){
  const resources=new ResourceRegistry(RESOURCE_DEFINITIONS),r=new PackageRegistry(resources);r.register(DEFAULT_PACKAGE_REGISTRY.get('hydrogen-legacy-unpriced-v1'));r.containers=new ContainerRegistry(resources,{standards:false});
