@@ -5,6 +5,7 @@ import {INITIAL_ALLOY_YIELDS,validateGradeProbabilities,resourceRandom} from './
 import {PERSONS_PER_POP,TONNES_PER_RESOURCE_U} from './resource-definitions.js';
 export const ECON_SHIPS=Object.freeze({support:Object.freeze({creditC:25000,alloyU:750,months:5.5}),explorer:Object.freeze({creditC:32500,alloyU:215,months:5.5})});
 export const ECON_SCENARIOS=Object.freeze(['S0','S1','S2','S3-debt','S3-money','S4']);
+export const ECON_ROUND2_SCENARIOS=Object.freeze([...ECON_SCENARIOS,'S1-sell']);
 export const ECON_Q=1000;
 const q=x=>Math.round(x*ECON_Q),clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 const assert=(ok,message)=>{if(!ok)throw Error('ECON-SIM-1: '+message);};
@@ -19,6 +20,16 @@ export function industryExpectation(p){
  const creditC=mine.creditC+smelt.creditC,alloyInputU=mine.alloyU+smelt.alloyU,hydrogenInputU=mine.hydrogenU+smelt.hydrogenU;
  const totalInvestmentC=creditC+alloyInputU*p.baseAlloyPrice+hydrogenInputU*p.hydrogenPrice;
  return {creditC,alloyInputU,hydrogenInputU,totalInvestmentC,oreU,processingU,alloyU,yieldFraction,rampMonths:rampDurationMonths(p.difficulty),tonnesPerU:TONNES_PER_RESOURCE_U};
+}
+// This is the analytical investment threshold; it is not a market-clearing
+// theorem for the inventory/lag model.
+export function privateUnitProductionCost(p,tech=industryExpectation(p)){
+ return tech.totalInvestmentC*(1/(p.privateAmortizationYears*12)+p.privateOperatingRate/12)/tech.alloyU*p.privateScale;
+}
+export function privateEquilibriumPrice(p){return privateUnitProductionCost(p)*(1+p.requiredMargin);}
+export function governmentSaleQuote(s,nominalPrice){
+ const amountQ=s.scenario==='S1-sell'?Math.floor(Math.max(0,s.governmentAlloyQ-s.initialGovernmentAlloyQ)*.5):Math.floor((s.lastProductionQ??0)*s.p.governmentSaleFraction);
+ return {amountQ,revenueQ:q(amountQ/ECON_Q*nominalPrice)};
 }
 // Integral of the campaign's 10% -> 100% linear readiness curve, with exact
 // fractional-month commissioning. Production decisions still occur monthly.
@@ -59,8 +70,8 @@ export function migratePopulation(state,from,to,persons){
 }
 const creditCategories=['budgetQ','salesQ','borrowingQ','monetizationQ','maintenanceQ','operatingQ','supportQ','interestQ','constructionQ','shipCostQ','alloyPurchasesQ','hydrogenPurchasesQ'];
 const incomeKeys=['budgetQ','salesQ','borrowingQ','monetizationQ'],expenseKeys=creditCategories.filter(k=>!incomeKeys.includes(k));
-export function createEconomy(p,{seed='econ-1',scenario='S0',moneyRule='growth',indexed=true}={}){
- assert(ECON_SCENARIOS.includes(scenario),'unknown scenario');assert(['growth','fixed'].includes(moneyRule),'money rule');
+export function createEconomy(p,{seed='econ-1',scenario='S0',moneyRule='growth',indexed=true,diagnostics=false}={}){
+ assert(ECON_ROUND2_SCENARIOS.includes(scenario),'unknown scenario');assert(['growth','fixed'].includes(moneyRule),'money rule');
  validateParameters(p);
  const tech=industryExpectation(p),bodies={};
  for(const [id,b]of Object.entries(p.bodies))bodies[id]={population:b.populationPersons,productivity:b.annualGDP/b.populationPersons*PERSONS_PER_POP,taxRate:id==='earth'?p.earthTaxRate:b.taxRate,collectionEfficiency:b.collectionEfficiency??1,populationRemainder:0,growthRate:id==='earth'?p.earthPopulationGrowth:p.colonyPopulationGrowth};
@@ -69,7 +80,7 @@ export function createEconomy(p,{seed='econ-1',scenario='S0',moneyRule='growth',
  const ledger=Object.fromEntries(creditCategories.map(k=>[k,0]));
  Object.assign(ledger,{taxQ:0,fixedSpendingQ:0,govProducedQ:0,govPurchasedQ:0,govUsedQ:0,govSoldQ:0,privateProducedQ:0,privateUsedQ:0,governmentOreMinedQ:0,governmentOreProcessedQ:0,governmentResidueQ:0,privateOreMinedQ:0,hydrogenPurchasedQ:0,hydrogenUsedQ:0,normalIssuanceQ:0});
  const ships=[{kind:'support',completed:0},{kind:'explorer',completed:0},{kind:'explorer',completed:0}];
- return {p,seed,scenario,moneyRule,indexed,tech,month:0,bodies,realGDP,earthGDP:p.bodies.earth.annualGDP,initialGDP:realGDP,priceIndex:1,realAlloyPrice:p.baseAlloyPrice,moneyQ,initialMoneyQ:moneyQ,treasuryQ:q(p.initialTreasuryC),initialTreasuryQ:q(p.initialTreasuryC),debtQ:0,marketQ,initialMarketQ:marketQ,governmentAlloyQ:q(p.initialAlloyU),initialGovernmentAlloyQ:q(p.initialAlloyU),governmentHydrogenQ:q(p.initialHydrogenU),initialGovernmentHydrogenQ:q(p.initialHydrogenU),privateCapacityU:monthlyDemand,capacityQueue:[],demandHistory:[],plants:[],colonialFacilities:0,ships,nextShip:'support',ledger,remainders:{},warPurchasedQ:0,skippedOrders:0,lastFlow:null};
+ return {p,seed,scenario,moneyRule,indexed,diagnostics,privateExpansionOrderedU:0,privateExpansionDeliveredU:0,tech,month:0,bodies,realGDP,earthGDP:p.bodies.earth.annualGDP,initialGDP:realGDP,priceIndex:1,realAlloyPrice:p.baseAlloyPrice,moneyQ,initialMoneyQ:moneyQ,treasuryQ:q(p.initialTreasuryC),initialTreasuryQ:q(p.initialTreasuryC),debtQ:0,marketQ,initialMarketQ:marketQ,governmentAlloyQ:q(p.initialAlloyU),initialGovernmentAlloyQ:q(p.initialAlloyU),governmentHydrogenQ:q(p.initialHydrogenU),initialGovernmentHydrogenQ:q(p.initialHydrogenU),privateCapacityU:monthlyDemand,capacityQueue:[],demandHistory:[],plants:[],colonialFacilities:0,ships,nextShip:'support',ledger,remainders:{},warPurchasedQ:0,skippedOrders:0,lastFlow:null};
 }
 export function validateParameters(p){
  const finite=['baseAlloyPrice','hydrogenPrice','velocity','productivityGrowth','earthPopulationGrowth','colonyPopulationGrowth','targetInflation','earthTaxRate','strategyShare','alloyMarketShare','demandElasticity','inventoryDays','priceAdjustment','priceReversion','priceFloor','priceCeiling','expansionDelayMonths','expansionBeta','privateDepreciation','privateAmortizationYears','privateOperatingRate','privateScale','requiredMargin','shipMaintenanceRate','governmentOperatingRate','colonySupportC','productivityShock','difficulty','processingDifficulty','initialTreasuryC','initialAlloyU','initialHydrogenU','debtInterestRate','warStartMonth','warDurationMonths','warPurchaseMonths','warAlloyU','warStrategyShare','warMonetizationFraction','colonySupportMultiplier','colonyBuildEveryMonths','supplyConstraintStrength','governmentSaleFraction','privateForecastMonths','shipyardSlots'];
@@ -85,7 +96,7 @@ export function validateParameters(p){
 }
 function snapshot(s){
  const p=s.p,flow=s.lastFlow;
- return {month:s.month,realGDP:s.realGDP,earthGDP:s.earthGDP,nominalGDP:s.realGDP*s.priceIndex,priceIndex:s.priceIndex,realAlloyPrice:s.realAlloyPrice,nominalAlloyPrice:s.realAlloyPrice*s.priceIndex,moneyC:s.moneyQ/ECON_Q,treasuryC:s.treasuryQ/ECON_Q,debtC:s.debtQ/ECON_Q,marketInventoryU:s.marketQ/ECON_Q,governmentInventoryU:s.governmentAlloyQ/ECON_Q,privateCapacityU:s.privateCapacityU,privateSupplyU:(flow?.privateProducedQ??0)/ECON_Q,governmentSupplyU:(flow?.govProducedQ??0)/ECON_Q,annualBudgetC:flow?flow.budgetQ/ECON_Q*12:Object.values(s.bodies).reduce((n,b)=>n+b.population/PERSONS_PER_POP*b.productivity*b.taxRate*b.collectionEfficiency*p.strategyShare,0),annualSupportC:flow?flow.supportQ/ECON_Q*12:p.colonySupportC*(s.scenario==='S4'?p.colonySupportMultiplier:1),population:Object.fromEntries(Object.entries(s.bodies).map(([id,b])=>[id,b.population])),activeShips:s.ships.filter(x=>x.completed<=s.month).length,orderedShips:s.ships.length-3,governmentSets:s.plants.length,colonialFacilities:s.colonialFacilities,warPurchasedU:s.warPurchasedQ/ECON_Q,flow};
+ return {month:s.month,realGDP:s.realGDP,earthGDP:s.earthGDP,nominalGDP:s.realGDP*s.priceIndex,priceIndex:s.priceIndex,realAlloyPrice:s.realAlloyPrice,nominalAlloyPrice:s.realAlloyPrice*s.priceIndex,moneyC:s.moneyQ/ECON_Q,treasuryC:s.treasuryQ/ECON_Q,debtC:s.debtQ/ECON_Q,marketInventoryU:s.marketQ/ECON_Q,governmentInventoryU:s.governmentAlloyQ/ECON_Q,privateCapacityU:s.privateCapacityU,privateSupplyU:(flow?.privateProducedQ??0)/ECON_Q,governmentSupplyU:(flow?.govProducedQ??0)/ECON_Q,annualBudgetC:flow?flow.budgetQ/ECON_Q*12:Object.values(s.bodies).reduce((n,b)=>n+b.population/PERSONS_PER_POP*b.productivity*b.taxRate*b.collectionEfficiency*p.strategyShare,0),annualSupportC:flow?flow.supportQ/ECON_Q*12:p.colonySupportC*(s.scenario==='S4'?p.colonySupportMultiplier:1),population:Object.fromEntries(Object.entries(s.bodies).map(([id,b])=>[id,b.population])),activeShips:s.ships.filter(x=>x.completed<=s.month).length,orderedShips:s.ships.length-3,governmentSets:s.plants.length,colonialFacilities:s.colonialFacilities,warPurchasedU:s.warPurchasedQ/ECON_Q,...(s.diagnostics?{governmentSoldU:s.ledger.govSoldQ/ECON_Q,governmentSalesC:s.ledger.salesQ/ECON_Q,privateExpansionOrderedU:s.privateExpansionOrderedU,privateExpansionDeliveredU:s.privateExpansionDeliveredU}:{}),flow};
 }
 export function tickEconomy(s){
  const p=s.p,t=s.month,war=s.scenario.startsWith('S3')&&t>=p.warStartMonth&&t<p.warStartMonth+p.warDurationMonths,flow=Object.fromEntries(creditCategories.map(k=>[k,0]));
@@ -120,13 +131,15 @@ export function tickEconomy(s){
   pay(q(s.tech.totalInvestmentC*p.governmentOperatingRate/12*s.priceIndex*active),'operatingQ',{mandatory:true});
  }
  s.governmentAlloyQ+=flow.govProducedQ;
- for(const item of s.capacityQueue)if(item.due===t)s.privateCapacityU+=item.amount;
+ for(const item of s.capacityQueue)if(item.due===t){s.privateCapacityU+=item.amount;s.privateExpansionDeliveredU+=item.amount;}
  s.capacityQueue=s.capacityQueue.filter(item=>item.due>t);
  s.privateCapacityU*=annualToMonthly(-p.privateDepreciation);
  flow.privateProducedQ=quantize(s.remainders,'privateProduction',s.privateCapacityU*ECON_Q);s.marketQ+=flow.privateProducedQ;
  s.ledger.privateOreMinedQ+=Math.ceil(flow.privateProducedQ/s.tech.yieldFraction);
- const sold=Math.floor(flow.govProducedQ*p.governmentSaleFraction);s.governmentAlloyQ-=sold;s.marketQ+=sold;s.ledger.govSoldQ+=sold;
- flow.salesQ=q(sold/ECON_Q*nominalPrice);s.treasuryQ+=flow.salesQ;
+ s.lastProductionQ=flow.govProducedQ;const sale=governmentSaleQuote(s,nominalPrice),sold=sale.amountQ;
+ if(s.diagnostics)Object.assign(flow,{governmentBeforeSaleQ:s.governmentAlloyQ,governmentSoldQ:sold,salesPriceCPerU:nominalPrice,privateOrderedU:0});
+ s.governmentAlloyQ-=sold;s.marketQ+=sold;s.ledger.govSoldQ+=sold;
+ flow.salesQ=sale.revenueQ;s.treasuryQ+=flow.salesQ;
  const buyAlloy=(amount,{mandatory=false,monetized=false}={})=>{
   if(amount>s.marketQ)return false;const cost=q(amount/ECON_Q*nominalPrice);if(!pay(cost,'alloyPurchasesQ',{mandatory,monetized}))return false;
   s.marketQ-=amount;s.governmentAlloyQ+=amount;s.ledger.govPurchasedQ+=amount;return true;
@@ -143,7 +156,7 @@ export function tickEconomy(s){
   if(printed){s.moneyQ+=printed;s.treasuryQ+=printed;flow.monetizationQ+=printed;}
   if(buyAlloy(available,{mandatory:true}))s.warPurchasedQ+=available;
  }
- if(s.scenario==='S1'&&t%12===0&&construct(s.tech.alloyInputU,s.tech.hydrogenInputU,s.tech.creditC,'constructionQ'))s.plants.push({started:t,oreQ:0,remainders:{}});
+ if((s.scenario==='S1'||s.scenario==='S1-sell')&&t%12===0&&construct(s.tech.alloyInputU,s.tech.hydrogenInputU,s.tech.creditC,'constructionQ'))s.plants.push({started:t,oreQ:0,remainders:{}});
  if(s.scenario==='S2')while(s.ships.filter(x=>x.completed>t).length<p.shipyardSlots){
   const ship=ECON_SHIPS[s.nextShip];if(!construct(ship.alloyU,0,ship.creditC,'shipCostQ'))break;
   s.ships.push({kind:s.nextShip,completed:t+ship.months});s.nextShip=s.nextShip==='support'?'explorer':'support';
@@ -154,12 +167,12 @@ export function tickEconomy(s){
  const updatedTarget=earthGDP*p.alloyMarketShare/p.baseAlloyPrice/12*p.inventoryDays/30,stockRatio=updatedTarget/Math.max(1,s.marketQ/ECON_Q);
  const logPrice=(1-p.priceReversion)*Math.log(s.realAlloyPrice/p.baseAlloyPrice)+p.priceAdjustment*clamp(Math.log(stockRatio),-2,2);
  s.realAlloyPrice=p.baseAlloyPrice*Math.exp(clamp(logPrice,Math.log(p.priceFloor),Math.log(p.priceCeiling)));
- const productionCost=s.tech.totalInvestmentC*(1/(p.privateAmortizationYears*12)+p.privateOperatingRate/12)/s.tech.alloyU*p.privateScale;
+ const productionCost=privateUnitProductionCost(p,s.tech);
  const totalDemand=(requested+q(t>=p.warStartMonth&&t<p.warStartMonth+p.warPurchaseMonths&&war?p.warAlloyU/p.warPurchaseMonths:0))/ECON_Q;
  s.demandHistory.push(totalDemand);if(s.demandHistory.length>p.privateForecastMonths)s.demandHistory.shift();
  const forecast=s.demandHistory.reduce((a,b)=>a+b,0)/s.demandHistory.length,queued=s.capacityQueue.reduce((a,b)=>a+b.amount,0),replacement=s.privateCapacityU*(1-annualToMonthly(-p.privateDepreciation))*(p.expansionDelayMonths+1);
  const need=Math.max(0,forecast+(updatedTarget-s.marketQ/ECON_Q)/p.expansionDelayMonths+replacement-s.privateCapacityU-queued);
- if(s.realAlloyPrice>productionCost*(1+p.requiredMargin)&&need>0)s.capacityQueue.push({due:t+Math.round(p.expansionDelayMonths),amount:Math.min(s.privateCapacityU*p.expansionBeta,need)});
+ if(s.realAlloyPrice>productionCost*(1+p.requiredMargin)&&need>0){const amount=Math.min(s.privateCapacityU*p.expansionBeta,need);s.capacityQueue.push({due:t+Math.round(p.expansionDelayMonths),amount});s.privateExpansionOrderedU+=amount;if(s.diagnostics)flow.privateOrderedU=amount;}
  s.priceIndex=(s.moneyQ/ECON_Q)*p.velocity/realGDP;
  for(const k of creditCategories)s.ledger[k]+=flow[k];
  for(const k of ['taxQ','fixedSpendingQ','govProducedQ','privateProducedQ','privateUsedQ','governmentOreMinedQ','governmentOreProcessedQ','governmentResidueQ'])s.ledger[k]+=flow[k];

@@ -1,0 +1,62 @@
+Round2 0/512 profiles
+Round2 64/512 profiles
+Round2 128/512 profiles
+Round2 192/512 profiles
+Round2 256/512 profiles
+Round2 320/512 profiles
+Round2 384/512 profiles
+Round2 448/512 profiles
+Saved 34 ECON-SIM-2 SVG figures
+{
+  "sampling": {
+    "method": "seeded Latin hypercube proposal batches + analytical equilibrium rejection; accepted marginals are conditional",
+    "proposals": 10602,
+    "rejected": 10090,
+    "batches": 21,
+    "combinations": 512,
+    "scenarios": 7,
+    "seeds": 5,
+    "runs": 17920,
+    "passing": 6,
+    "passingFraction": 0.01171875,
+    "roundingRuns": 315,
+    "comparisonRuns": 105,
+    "seriesRuns": 28,
+    "benchmarkRuns": 42
+  },
+  "recommended": {
+    "id": "rounded-4",
+    "accepted": true,
+    "failures": {},
+    "robustness": 0.0030554285387372764
+  },
+  "candidates": [
+    {
+      "id": "R2-361",
+      "passed": true,
+      "robustness": 0.008040415221427288,
+      "failures": {}
+    },
+    {
+      "id": "R2-394",
+      "passed": true,
+      "robustness": 0.007005960217969213,
+      "failures": {}
+    },
+    {
+      "id": "R2-337",
+      "passed": true,
+      "robustness": 0.005600423884184913,
+      "failures": {}
+    }
+  ],
+  "benchmarkMs": {
+    "p50": 2.773418999997375,
+    "p95": 4.208676000002015,
+    "max": 4.5365920000040205,
+    "runs": 40,
+    "warmup": 2
+  },
+  "elapsedMs": 61976.096909,
+  "referenceHash": "8d1ff9cf827461200f4831313449df1b44f334f2d42f4daa89835f14c045e71b"
+}
