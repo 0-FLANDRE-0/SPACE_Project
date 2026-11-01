@@ -32,5 +32,7 @@ for candidate in series:
   ax.axvspan(4,6,color="#fee2e2",alpha=.35,zorder=-1); ax.set_title(title,loc="left"); ax.set_xlabel("Years"); ax.set_xlim(0,20); ax.set_xticks([0,5,10,15,20]); ax.grid(alpha=.18)
   ax.yaxis.set_major_formatter(FuncFormatter(lambda x,pos:format(x,",.2f").rstrip("0").rstrip(".")))
   ax.legend(loc="upper left",bbox_to_anchor=(0,-.27),ncol=3,fontsize=6.3,frameon=False,handlelength=1.8,columnspacing=.8)
-  fig.savefig(dest/(candidate["id"]+"-"+name+".svg"),metadata={"Date":None,"Creator":"ECON-SIM-1 / Matplotlib"}); plt.close(fig)
+  target=dest/(candidate["id"]+"-"+name+".svg")
+  fig.savefig(target,metadata={"Date":None,"Creator":"ECON-SIM-1 / Matplotlib"}); plt.close(fig)
+  target.write_text("\n".join(line.rstrip() for line in target.read_text().splitlines())+"\n")
 print("Saved",len(series)*len(charts),"standalone Matplotlib SVG charts")
