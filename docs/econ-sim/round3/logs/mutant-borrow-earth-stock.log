@@ -1,0 +1,40 @@
+✖ an empty colony cannot borrow Earth alloy to order a government base (5.52323ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 78.673568
+
+✖ failing tests:
+
+test at tests/economy-energy-model.test.js:93:1
+✖ an empty colony cannot borrow Earth alloy to order a government base (5.52323ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+
+  + {
+  +   foundationEnd: 2,
+  +   foundationPaid: true,
+  +   id: 'moon-complex-0',
+  +   modules: [],
+  +   owner: 'government',
+  +   type: 'fusion',
+  +   wanted: 1
+  + }
+  - null
+
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ3-mutants/borrow-earth-stock/tests/economy-energy-model.test.js:93:403)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { id: 'moon-complex-0', owner: 'government', type: 'fusion', foundationEnd: 2, modules: [], wanted: 1, foundationPaid: true },
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

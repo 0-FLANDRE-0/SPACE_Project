@@ -1,0 +1,234 @@
+[
+  {
+    "parameter": "upkeepAnnual",
+    "meanPriceDelta": 0.06439007998222923,
+    "earthUnservedDelta": -3.217001463525285e-8,
+    "colonyUnservedDelta": 0.18932111654607742,
+    "hydrogenPriceDelta": -0.013312781040738408,
+    "score": 0.21731683566488738
+  },
+  {
+    "parameter": "legacyGridUpkeepAnnualU",
+    "meanPriceDelta": -0.016795879710531203,
+    "earthUnservedDelta": 3.3129699214019814e-9,
+    "colonyUnservedDelta": 0.18216210132472604,
+    "hydrogenPriceDelta": 0.00013678786653192887,
+    "score": 0.1894646610335791
+  },
+  {
+    "parameter": "directAnnual",
+    "meanPriceDelta": 0.16028477557755894,
+    "earthUnservedDelta": 0.003473629701655404,
+    "colonyUnservedDelta": 0.06232672355350871,
+    "hydrogenPriceDelta": -0.045819687250517105,
+    "score": 0.13548938611497235
+  },
+  {
+    "parameter": "electricityGDPShare",
+    "meanPriceDelta": -0.014178700714519987,
+    "earthUnservedDelta": -0.005054911182798595,
+    "colonyUnservedDelta": -0.021305041828952903,
+    "hydrogenPriceDelta": 0.0011768669445049174,
+    "score": 0.03252460549632541
+  },
+  {
+    "parameter": "parallelSurcharge",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": 0.02796427270115298,
+    "hydrogenPriceDelta": -2.3452351172181807e-12,
+    "score": 0.02796427270115298
+  },
+  {
+    "parameter": "gridReserve",
+    "meanPriceDelta": -0.03259017932377484,
+    "earthUnservedDelta": -0.0012182952120184181,
+    "colonyUnservedDelta": -1.9165224962591765e-13,
+    "hydrogenPriceDelta": -0.00025281274790445174,
+    "score": 0.01538793839646
+  },
+  {
+    "parameter": "damagePerMonth",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": 0.013626984338673376,
+    "hydrogenPriceDelta": 1.0818013151947525e-12,
+    "score": 0.013626984338673376
+  },
+  {
+    "parameter": "colonyKWPerPerson",
+    "meanPriceDelta": 1.2631229395765331e-11,
+    "earthUnservedDelta": -6.401953620005507e-14,
+    "colonyUnservedDelta": -0.011880872092993794,
+    "hydrogenPriceDelta": 2.424043188398173e-10,
+    "score": 0.011880872098549652
+  },
+  {
+    "parameter": "fissionAvailability",
+    "meanPriceDelta": -0.014564441164476083,
+    "earthUnservedDelta": -0.004562425483611004,
+    "colonyUnservedDelta": -0.0008869142567351218,
+    "hydrogenPriceDelta": 0.0012497204577625043,
+    "score": 0.01178170546403138
+  },
+  {
+    "parameter": "privatePowerHorizonYears",
+    "meanPriceDelta": -0.01454983649424868,
+    "earthUnservedDelta": -0.0038227110129412526,
+    "colonyUnservedDelta": -1.2559397966072083e-13,
+    "hydrogenPriceDelta": 0.0011280223529617217,
+    "score": 0.01014872688013149
+  },
+  {
+    "parameter": "hydrogenModuleC",
+    "meanPriceDelta": 0.018367363446114116,
+    "earthUnservedDelta": -4.6708193240127364e-7,
+    "colonyUnservedDelta": 4.5676518123372034e-12,
+    "hydrogenPriceDelta": 0.5681283414576772,
+    "score": 0.007986277280462712
+  },
+  {
+    "parameter": "hydrogenPriceAdjustment",
+    "meanPriceDelta": -0.012532052353848133,
+    "earthUnservedDelta": -7.436744048068371e-8,
+    "colonyUnservedDelta": 4.197697744956486e-12,
+    "hydrogenPriceDelta": -0.021872564622394508,
+    "score": 0.005448792786354759
+  },
+  {
+    "parameter": "hydrogenInventoryMonths",
+    "meanPriceDelta": 0.011093811037300227,
+    "earthUnservedDelta": -2.0257292173992553e-9,
+    "colonyUnservedDelta": 1.4212797605495098e-12,
+    "hydrogenPriceDelta": 0.3392636005990277,
+    "score": 0.0048233981303245094
+  },
+  {
+    "parameter": "privatePowerLagMonths",
+    "meanPriceDelta": -0.00714518519099272,
+    "earthUnservedDelta": 0.00010496529377754596,
+    "colonyUnservedDelta": 1.2994605391725145e-12,
+    "hydrogenPriceDelta": -0.0005620047390647587,
+    "score": 0.003211567552030363
+  },
+  {
+    "parameter": "learning",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": -0.0027467922073297624,
+    "hydrogenPriceDelta": 2.6001423236721166e-13,
+    "score": 0.0027467922073297624
+  },
+  {
+    "parameter": "mineRatio",
+    "meanPriceDelta": 0.0031381307755324883,
+    "earthUnservedDelta": 5.165958596531697e-8,
+    "colonyUnservedDelta": -1.8973711490843925e-12,
+    "hydrogenPriceDelta": 0.22844397741636546,
+    "score": 0.001364456346497462
+  },
+  {
+    "parameter": "solarEarthCF",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": -0.0009303298058013221,
+    "hydrogenPriceDelta": -5.1320725447112636e-11,
+    "score": 0.0009303298058013221
+  },
+  {
+    "parameter": "hydrogenModuleAlloyU",
+    "meanPriceDelta": -0.00010694766467356231,
+    "earthUnservedDelta": 2.1645945886411555e-11,
+    "colonyUnservedDelta": -1.7233436899743992e-13,
+    "hydrogenPriceDelta": 0.0000013377535063030521,
+    "score": 0.00004649900645895952
+  },
+  {
+    "parameter": "mineMWhPerT",
+    "meanPriceDelta": 0.00007072041068134638,
+    "earthUnservedDelta": 2.300121773753626e-8,
+    "colonyUnservedDelta": 1.4227508060571381e-12,
+    "hydrogenPriceDelta": -0.00002934181447877826,
+    "score": 0.00003077100728455199
+  },
+  {
+    "parameter": "feedMWhPerT",
+    "meanPriceDelta": 0.00002720428593727675,
+    "earthUnservedDelta": 9.08157574293876e-9,
+    "colonyUnservedDelta": 8.884837310318972e-13,
+    "hydrogenPriceDelta": -0.000011277323247682602,
+    "score": 0.000011837032871738301
+  },
+  {
+    "parameter": "industryFixedMW",
+    "meanPriceDelta": 0.000004915176207376248,
+    "earthUnservedDelta": 2.1570833988373422e-9,
+    "colonyUnservedDelta": 1.723815534759865e-12,
+    "hydrogenPriceDelta": -0.000002035244199283248,
+    "score": 0.000002139191940856219
+  },
+  {
+    "parameter": "storageEfficiency",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": -0.0000018634277852980219,
+    "hydrogenPriceDelta": -3.0427882435901665e-12,
+    "score": 0.0000018634277852980219
+  },
+  {
+    "parameter": "electrolysisGWhPerU",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": -2.26731093318569e-8,
+    "colonyUnservedDelta": -2.1901924718292776e-13,
+    "hydrogenPriceDelta": 2.1408991657256848e-7,
+    "score": 2.2673328351104083e-8
+  },
+  {
+    "parameter": "industryGDPWeight",
+    "meanPriceDelta": -9.601608397247219e-11,
+    "earthUnservedDelta": 1.932947450104111e-10,
+    "colonyUnservedDelta": 8.636341641832246e-12,
+    "hydrogenPriceDelta": -0.00008774861233351583,
+    "score": 2.436772101185356e-10
+  },
+  {
+    "parameter": "pausedCashFraction",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": 0,
+    "hydrogenPriceDelta": 0,
+    "score": 0
+  },
+  {
+    "parameter": "pausedAlloyFraction",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": 0,
+    "hydrogenPriceDelta": 0,
+    "score": 0
+  },
+  {
+    "parameter": "repairRate",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": 0,
+    "hydrogenPriceDelta": 0,
+    "score": 0
+  },
+  {
+    "parameter": "fusionMinimumFraction",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": 0,
+    "hydrogenPriceDelta": 0,
+    "score": 0
+  },
+  {
+    "parameter": "hydrogenVariableCPerU",
+    "meanPriceDelta": 0,
+    "earthUnservedDelta": 0,
+    "colonyUnservedDelta": 0,
+    "hydrogenPriceDelta": 0,
+    "score": 0
+  }
+]

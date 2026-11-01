@@ -1,0 +1,62 @@
+{
+  "mutants": 8,
+  "killed": 8,
+  "results": [
+    {
+      "id": "zero-power-electrolysis",
+      "test": "no electricity gives no electrolysis",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "zero-h-full-fusion",
+      "test": "normal fusion uses output-proportional",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "free-paused-upkeep",
+      "test": "stopped facilities retain high alloy",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "free-96h-startup",
+      "test": "96 wall hours without external power",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "government-self-sale",
+      "test": "government self generation never",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "duplicate-old-proxy",
+      "test": "legacy operating proxies have zero effect",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "borrow-earth-stock",
+      "test": "an empty colony cannot borrow Earth alloy",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "free-storage-energy",
+      "test": "storage cannot create energy",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    }
+  ]
+}
