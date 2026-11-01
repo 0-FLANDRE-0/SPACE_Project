@@ -25,7 +25,7 @@
 ## 문서 전용 PR #14 — 기능 구현 PR과 구별
 
 - [PR #14](https://github.com/0-FLANDRE-0/SPACE_Project/pull/14)는 **PR #13 HEAD를 기반으로 작성한 문서 전용 아카이브**다. 최신 **기능 코드 HEAD는 여전히 PR #13**이고 PR #14가 새로운 게임 시스템을 구현한 것은 아님.
-- 초기 아카이브 11개 Markdown에 **[05A 선체 형식/장갑/LOS 상세](05A_HULL_FORMS_ARMOR_LOS_DETAIL.md)**를 더해 현재 아카이브는 **12개 Markdown**이며, 이 브랜치의 [docs/DECISIONS.md](../../DECISIONS.md)에도 최신 함선 결정을 동기화했다.
+- 초기 아카이브 11개 Markdown에 **[05A 선체 형식/장갑/LOS 상세](05A_HULL_FORMS_ARMOR_LOS_DETAIL.md)**를 더해 현재 아카이브는 **13개 Markdown**이며, 이 브랜치의 [docs/DECISIONS.md](../../DECISIONS.md)에도 최신 함선 결정을 동기화했다.
 - 변경 내용은 함급 9개 명칭, 같은 함급 안의 복수 고정 선체 형식/면별 장갑 최대치, LOS 가시성과 경사 장갑 관통 경로 구별, HAC 길이 구상·건조비 잠정 상태, 테크트리 JSON 구조 원문 재확인 등 **문서 보강만**이다. 경제 후보 채택·함선 전투 구현·기존 PR 병합은 진행하지 않음.
 - 실게임 빌드/테스트 개수 **404 PASS**는 PR #13의 이전 **제출 로그**다. PR #14 문서 보강이 별도 기능 테스트나 독립 CI를 통과했다는 뜻이 아니다.
 
