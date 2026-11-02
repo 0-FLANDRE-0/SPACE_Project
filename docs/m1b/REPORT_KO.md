@@ -11,7 +11,7 @@
 - **로컬 실행:** `npm run dev` → <http://localhost:5173>.
 - **기존 비공개 실행 주소:** <https://space-project-sol-prototype.dagoku.chatgpt.site>. 최종 배포 버전/소스는 제출 PR에 기록한다. ZIP은 새로 생성하지 않는다.
 
-제출 직전 원격 main이 `59a9694339bb49a7d4935ff23241633dda51aeeb`로 변경되고 PR #14 문서가 병합된 사실을 확인했다. 시작 기준은 지시된 `9ba37ce`로 유지한다. 실행 코드 변경은 없었으며, 문서 충돌만 피하도록 새 main의 `docs/DECISIONS.md` 내용을 그대로 보존한 뒤 M1b 절을 덧붙였다. 브랜치 병합·리베이스는 하지 않았다.
+제출 직전 원격 main이 `59a9694339bb49a7d4935ff23241633dda51aeeb`로 변경되고 PR #14 문서가 병합된 사실을 확인했다. 시작 기준은 지시된 `9ba37ce`로 유지한다. 실행 코드 변경은 없었다. 양쪽이 같은 문서 끝에 내용을 추가하여 생기는 충돌을 피하도록 M1b 결정 기록을 [별도 문서](DECISIONS_KO.md)로 분리하고 기존 `docs/DECISIONS.md` 변경을 철회했다. 따라서 새 main의 아카이브 기록을 건드리지 않는다. 브랜치 병합·리베이스 없이 충돌 없는 병합 가능 상태를 검증했다.
 
 ## 적용 수치와 조작
 
@@ -134,7 +134,7 @@
 | 기존 지도/카메라 회귀 | PC·844×390·667×375 통과 | [지도 로그](logs/browser-map-regression-final.log) |
 | 기존 산업/SCU 회귀 | PC·모바일3종 통과; 실채굴·8U 포장/개봉·품질/출처 보존·v3→v4 수동 이관·손상 거부·500일 재포장 시계 | [산업/SCU 로그](logs/browser-scu-regression.log) |
 | 개발용 저장 초기화 | PC·모바일2종 A–G 통과; 저장소 차단/삭제 실패에도 공식 자료·생산 정상, 타 프로젝트 저장 보존 | [초기화 로그](logs/browser-reset-regression.log) |
-| 기준 파일 SHA256 | **1,002개 바이트 불변**, DECISIONS 기존 접두사 불변, 변경 허용 목록 통과 | [보존 로그](logs/preservation.log), [해시 목록](preservation-manifest.json) |
+| 기준 파일 SHA256 | **1,002개 바이트 불변**, 기존 DECISIONS 전체 불변, 변경 허용 목록 통과 | [보존 로그](logs/preservation.log), [해시 목록](preservation-manifest.json) |
 
 브라우저의 pageerror·console error·HTTP 오류는 최종 M1b 전체 실행에서0건이다. 기존 회귀 스크립트의 산출물은 임시 작업 디렉터리에 생성하여 기존 공식 보고서/스크린샷을 덮어쓰지 않았다. 전체 단위 테스트에는 기존 경제 시뮬레이션 검증도 포함되며 경제 보정 실험이나 산출물 재생성은 하지 않았다.
 
@@ -172,7 +172,7 @@
 | `tests/orbit-layers.test.js` | 신규 모델 회귀; 기존 함선 테스트는 승인된 수치/내부 판정 갱신 |
 | `tests/browser-orbit-layers.mjs` | 실제 줌/터치/도착·표면 UI·고배속 달 추종·호출 수 |
 | `scripts/m1b-*.mjs`, `docs/m1b/` | 보존/기하/기준 비교·화면·원문 로그·한국어 보고 |
-| `docs/DECISIONS.md` | 새 확정·임시·후속 사항 추가; 기존 접두사 보존 |
+| `docs/m1b/DECISIONS_KO.md` | M1b 확정·임시·후속 기록; 기존 공용 결정 문서 보존 |
 
 전체 경로 목록은 [CHANGED_FILES](CHANGED_FILES.md)에 기록한다.
 

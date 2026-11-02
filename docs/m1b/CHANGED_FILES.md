@@ -14,8 +14,8 @@
 - `dist/src/ship-navigation.js`
 - `dist/src/ship-ui.js`
 - `dist/style.css`
-- `docs/DECISIONS.md`
 - `docs/m1b/CHANGED_FILES.md`
+- `docs/m1b/DECISIONS_KO.md`
 - `docs/m1b/REPORT_KO.md`
 - `docs/m1b/REQUEST_KO.md`
 - `docs/m1b/browser-results-1440.json`
