@@ -1,0 +1,22 @@
+✖ same-government cross-body shipment debits content and shell separately, pays no fake sale and deducts actual grid energy (3.380516ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 102.41994
+
+✖ failing tests:
+
+test at tests/economy-round4.test.js:20:1
+✖ same-government cross-body shipment debits content and shell separately, pays no fake sale and deducts actual grid energy (3.380516ms)
+  Error: Invalid transfer SCU-shell-recovered
+      at Ledger.move (file:///workspace/SPACE_Project/artifacts/econ4-mutants/unpackaged-transfer/dist/src/economy-energy-ledger.js:11:85)
+      at transferRound4 (file:///workspace/SPACE_Project/artifacts/econ4-mutants/unpackaged-transfer/dist/src/economy-round4-units.js:61:20)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ4-mutants/unpackaged-transfer/tests/economy-round4.test.js:20:220)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)

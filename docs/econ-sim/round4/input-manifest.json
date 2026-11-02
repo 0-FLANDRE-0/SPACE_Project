@@ -1,0 +1,175 @@
+{
+  "files": {
+    "dist/data/planet-surfaces/sol-earth-v2.json": "42c8333e20cd1fef7bbbbbc65ac3edc5d63366d2f5ae75581cfa629c55ce8475",
+    "dist/data/planet-surfaces/sol-moon-v2.json": "fe987daaa43683ed6d74e570da4bef589eef739b3a208cc3e8222fe45a6e7616",
+    "dist/data/planet-surfaces/sol-mars-v2.json": "aea9fc1e6d1ea648c5ec5135fe6a7b1779c85b9562a1fd109fde4fcf6ec826ae",
+    "dist/src/industry-runtime.js": "2de6373f0169a0eb478c422844bedee7cb6ce8d942eb5104769740b9757b3e53"
+  },
+  "contract": {
+    "smeltHydrogenU": 85,
+    "smeltBoost": 0.15,
+    "byproductMaximumU": 100,
+    "origin": "dist/src/industry-runtime.js",
+    "contractHash": "2de6373f0169a0eb478c422844bedee7cb6ce8d942eb5104769740b9757b3e53"
+  },
+  "macro": {
+    "baseAlloyPrice": 2.3,
+    "hydrogenPrice": 1,
+    "bodies": {
+      "earth": {
+        "populationPersons": 8893000000,
+        "annualGDP": 20000000,
+        "taxRate": 0.25,
+        "collectionEfficiency": 1
+      },
+      "moon": {
+        "populationPersons": 200000,
+        "annualGDP": 450,
+        "taxRate": 0,
+        "collectionEfficiency": 1
+      },
+      "mars": {
+        "populationPersons": 50000,
+        "annualGDP": 112.5,
+        "taxRate": 0,
+        "collectionEfficiency": 1
+      }
+    },
+    "initialTreasuryC": 100000,
+    "initialAlloyU": 10000,
+    "initialHydrogenU": 500,
+    "gradeProbabilities": {
+      "low": 0.45,
+      "medium": 0.5,
+      "high": 0.05
+    },
+    "difficulty": 48,
+    "processingDifficulty": 48,
+    "productivityGrowth": 0.011,
+    "earthPopulationGrowth": 0,
+    "colonyPopulationGrowth": 0.004,
+    "earthTaxRate": 0.25,
+    "strategyShare": 0.021,
+    "velocity": 1.3333,
+    "targetInflation": 0.013,
+    "alloyMarketShare": 0.036,
+    "demandElasticity": 0.7,
+    "inventoryDays": 130,
+    "priceAdjustment": 0.05,
+    "priceReversion": 0.07,
+    "priceFloor": 0.5,
+    "priceCeiling": 2.5,
+    "expansionDelayMonths": 13,
+    "expansionBeta": 0.018,
+    "privateDepreciation": 0.045,
+    "privateAmortizationYears": 3.4,
+    "privateOperatingRate": 0.1,
+    "privateScale": 0.95,
+    "requiredMargin": 0.22,
+    "shipMaintenanceRate": 0.065,
+    "governmentOperatingRate": 0.115,
+    "colonySupportC": 1400,
+    "productivityShock": 0.003,
+    "debtInterestRate": 0.03,
+    "warStartMonth": 48,
+    "warDurationMonths": 24,
+    "warPurchaseMonths": 12,
+    "warAlloyU": 50000,
+    "warStrategyShare": 0.1,
+    "warMonetizationFraction": 1,
+    "colonySupportMultiplier": 3,
+    "colonyBuildEveryMonths": 24,
+    "supplyConstraintStrength": 0.03,
+    "governmentSaleFraction": 0,
+    "privateForecastMonths": 6,
+    "shipyardSlots": 1
+  },
+  "baselineEnergy": {
+    "fusionNormalHydrogenU": 2.5,
+    "costs": {
+      "foundationMonths": 2,
+      "fusion": {
+        "base": {
+          "creditC": 15000,
+          "alloyU": 1200
+        },
+        "module": {
+          "creditC": 6000,
+          "alloyU": 450
+        }
+      },
+      "fission": {
+        "base": {
+          "creditC": 8000,
+          "alloyU": 650
+        },
+        "module": {
+          "creditC": 3000,
+          "alloyU": 250
+        }
+      },
+      "solar": {
+        "base": {
+          "creditC": 5000,
+          "alloyU": 400
+        },
+        "module": {
+          "creditC": 2000,
+          "alloyU": 100
+        }
+      }
+    },
+    "earthBaseGW": 8120,
+    "peakGW": 10750,
+    "gridReserve": 0.09,
+    "electricityGDPShare": 0.08,
+    "electricDemandGDPExponent": 0.6,
+    "powerScarcityElasticity": 1.5,
+    "industryMix": "steelHeavy",
+    "mineRatio": 1.1,
+    "mineMWhPerT": 0.11,
+    "feedMWhPerT": 0.04,
+    "industryFixedMW": 0.06,
+    "privateScale": 0.95,
+    "directAnnual": 0.09,
+    "upkeepAnnual": 0.1,
+    "pausedCashFraction": 0.12,
+    "pausedAlloyFraction": 0.96,
+    "damagePerMonth": 0.03,
+    "repairRate": 1.4000000000000001,
+    "repairCPerU": 0.5,
+    "legacyGridCashGDPShare": 0.005,
+    "legacyGridUpkeepAnnualU": 10000,
+    "fusionMinimumFraction": 0.07,
+    "fissionAvailability": 0.9400000000000001,
+    "fissionFuelCPerGWh": 0.001,
+    "solarEarthCF": 0.27,
+    "solarMoonMultiplier": 0.85,
+    "solarMarsMultiplier": 0.43,
+    "hydrogenModuleU": 100,
+    "hydrogenModuleC": 2700,
+    "hydrogenModuleAlloyU": 17,
+    "hydrogenLagMonths": 6,
+    "electrolysisGWhPerU": 0.54,
+    "hydrogenVariableCPerU": 0.04,
+    "waterIntakeU": 900000,
+    "waterTankU": 90000,
+    "hydrogenInventoryMonths": 4,
+    "hydrogenPriceAdjustment": 0.05,
+    "hydrogenPriceReversion": 0.05,
+    "storageGWh": 12,
+    "storageGW": 0.25,
+    "storageC": 1500,
+    "storageAlloyU": 100,
+    "storageEfficiency": 0.92,
+    "parallelSurcharge": 0.13,
+    "learning": 0.2,
+    "colonyKWPerPerson": 6.2,
+    "freightCPerU": 0.05,
+    "essentialShare": 0.8,
+    "dispatchPolicy": "proportional",
+    "industryGDPWeight": 0.14,
+    "privatePowerHorizonYears": 54,
+    "privatePowerLagMonths": 9
+  }
+}
