@@ -1,0 +1,118 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "bounds": {
+        "x": 1161,
+        "y": 104,
+        "width": 255,
+        "height": 322.390625
+      },
+      "clocks": {
+        "game": 12938.05103564584,
+        "industry": 12938.05103564584,
+        "fleet": 12938.051035645842,
+        "attachment": "saturn"
+      },
+      "arrivalAt": 12938.051035645842,
+      "performance": {
+        "frames": 30,
+        "medianMs": 166.59999999999854,
+        "p95Ms": 183.40000000000146,
+        "maxMs": 216.59999999999854,
+        "wallSeconds": 4.950699999988079,
+        "gameSeconds": 426548.1599969103
+      },
+      "checks": "mesh tap + outline, icon hysteresis, back, body target, charge/X, 8640× arrival auto-pause + industry clock, vertex detour, C/X cancel"
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "bounds": {
+        "x": 595,
+        "y": 63,
+        "width": 235,
+        "height": 239.796875
+      },
+      "clocks": {
+        "game": 13117.512901368003,
+        "industry": 13117.512901368003,
+        "fleet": 13117.512901368003,
+        "attachment": "saturn"
+      },
+      "arrivalAt": 13117.512901368003,
+      "performance": {
+        "frames": 30,
+        "medianMs": 150,
+        "p95Ms": 199.89999999999782,
+        "maxMs": 283.40000000000146,
+        "wallSeconds": 4.437,
+        "gameSeconds": 383201.2800020599
+      },
+      "checks": "mesh tap + outline, icon hysteresis, back, body target, charge/X, 8640× arrival auto-pause + industry clock, vertex detour, C/X cancel"
+    },
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "bounds": {
+        "x": 446.234375,
+        "y": 63,
+        "width": 206.765625,
+        "height": 239.796875
+      },
+      "clocks": {
+        "game": 13090.20446355231,
+        "industry": 13090.20446355231,
+        "fleet": 13090.20446355231,
+        "attachment": "saturn"
+      },
+      "arrivalAt": 13090.20446355231,
+      "performance": {
+        "frames": 30,
+        "medianMs": 166.60000000000218,
+        "p95Ms": 200.09999999999854,
+        "maxMs": 233.29999999999927,
+        "wallSeconds": 4.9553000000119205,
+        "gameSeconds": 427826.88000103005
+      },
+      "checks": "mesh tap + outline, icon hysteresis, back, body target, charge/X, 8640× arrival auto-pause + industry clock, vertex detour, C/X cancel"
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bounds": {
+        "x": 171,
+        "y": 93,
+        "width": 205,
+        "height": 295.390625
+      },
+      "clocks": {
+        "game": 13406.650292559647,
+        "industry": 13406.650292559647,
+        "fleet": 13406.650292559649,
+        "attachment": "saturn"
+      },
+      "arrivalAt": 13406.650292559649,
+      "performance": {
+        "frames": 30,
+        "medianMs": 166.60000000000582,
+        "p95Ms": 250,
+        "maxMs": 283.29999999999563,
+        "wallSeconds": 4.861099999964237,
+        "gameSeconds": 419610.24000103015
+      },
+      "checks": "mesh tap + outline, icon hysteresis, back, body target, charge/X, 8640× arrival auto-pause + industry clock, vertex detour, C/X cancel"
+    }
+  ],
+  "errors": [],
+  "renderer": "Chromium / SwiftShader software rendering"
+}

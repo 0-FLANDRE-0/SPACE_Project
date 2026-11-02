@@ -1,0 +1,413 @@
+{
+  "conditions": "Sequential pages, no concurrent browser tests, Chromium SwiftShader software GPU; baseline 677536c with only the four speed presets/cap enabled in a temporary fixture, 10 warm-up +60 measured frames per viewport; units ms",
+  "rows": [
+    {
+      "label": "baseline-speed-only",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 150,
+        "p95": 250,
+        "max": 316.7000000000007
+      },
+      "fleetCPUms": {
+        "count": 0,
+        "median": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.19999998807907104,
+        "p95": 0.5,
+        "max": 2.300000011920929
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 2.199999988079071,
+        "p95": 6.5,
+        "max": 20.5
+      },
+      "drawCalls": 55,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "baseline-speed-only",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 150,
+        "p95": 300.10000000000036,
+        "max": 333.3000000000002
+      },
+      "fleetCPUms": {
+        "count": 0,
+        "median": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.19999998807907104,
+        "p95": 0.30000001192092896,
+        "max": 0.9000000357627869
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 1.800000011920929,
+        "p95": 3.5,
+        "max": 3.800000011920929
+      },
+      "drawCalls": 55,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "baseline-speed-only",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 149.89999999999964,
+        "p95": 283.40000000000055,
+        "max": 316.6999999999998
+      },
+      "fleetCPUms": {
+        "count": 0,
+        "median": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.30000001192092896,
+        "max": 0.800000011920929
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 1.699999988079071,
+        "p95": 3.5,
+        "max": 15.200000047683716
+      },
+      "drawCalls": 55,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "baseline-speed-only",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 133.3000000000011,
+        "p95": 300,
+        "max": 366.7000000000007
+      },
+      "fleetCPUms": {
+        "count": 0,
+        "median": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.3999999761581421,
+        "max": 0.800000011920929
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 1.699999988079071,
+        "p95": 2.899999976158142,
+        "max": 4.699999988079071
+      },
+      "drawCalls": 55,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "M1a",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 150,
+        "p95": 233.40000000000055,
+        "max": 333.39999999999964
+      },
+      "fleetCPUms": {
+        "count": 70,
+        "median": 0,
+        "p95": 0.10000002384185791,
+        "max": 0.20000004768371582
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.19999998807907104,
+        "p95": 0.30000001192092896,
+        "max": 0.5
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 3,
+        "p95": 4.699999988079071,
+        "max": 20.30000001192093
+      },
+      "drawCalls": 56,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "M1a",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 150.10000000000036,
+        "p95": 299.90000000000055,
+        "max": 383.39999999999964
+      },
+      "fleetCPUms": {
+        "count": 70,
+        "median": 0.09999996423721313,
+        "p95": 0.19999998807907104,
+        "max": 0.20000004768371582
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.20000004768371582,
+        "max": 3.199999988079071
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 2.5,
+        "p95": 5.300000011920929,
+        "max": 18.5
+      },
+      "drawCalls": 56,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "M1a",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 150,
+        "p95": 233.30000000000018,
+        "max": 266.7000000000007
+      },
+      "fleetCPUms": {
+        "count": 70,
+        "median": 0,
+        "p95": 0.10000002384185791,
+        "max": 0.40000003576278687
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.30000001192092896,
+        "max": 1
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 2.199999988079071,
+        "p95": 7,
+        "max": 18.099999964237213
+      },
+      "drawCalls": 56,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "M1a",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 150,
+        "p95": 266.60000000000036,
+        "max": 350
+      },
+      "fleetCPUms": {
+        "count": 70,
+        "median": 0,
+        "p95": 0.10000002384185791,
+        "max": 1.2000000476837158
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.30000001192092896,
+        "max": 1.199999988079071
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 2.5,
+        "p95": 4.399999976158142,
+        "max": 5.099999964237213
+      },
+      "drawCalls": 56,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "M1a-active",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 183.29999999999927,
+        "p95": 233.29999999999927,
+        "max": 250
+      },
+      "fleetCPUms": {
+        "count": 70,
+        "median": 0,
+        "p95": 0.19999998807907104,
+        "max": 9
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.3999999761581421,
+        "max": 0.5
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 2.5,
+        "p95": 7.5,
+        "max": 207.9000000357628
+      },
+      "drawCalls": 58,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "M1a-active",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 166.60000000000036,
+        "p95": 200,
+        "max": 249.90000000000055
+      },
+      "fleetCPUms": {
+        "count": 70,
+        "median": 0.09999996423721313,
+        "p95": 0.19999998807907104,
+        "max": 7
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.30000001192092896,
+        "max": 1.300000011920929
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 2.199999988079071,
+        "p95": 4.400000035762787,
+        "max": 294.60000002384186
+      },
+      "drawCalls": 58,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "M1a-active",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 183.29999999999927,
+        "p95": 266.6999999999989,
+        "max": 316.6999999999989
+      },
+      "fleetCPUms": {
+        "count": 70,
+        "median": 0.09999996423721313,
+        "p95": 0.30000001192092896,
+        "max": 7.600000023841858
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.30000001192092896,
+        "max": 0.40000003576278687
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 2.400000035762787,
+        "p95": 7.299999952316284,
+        "max": 257.30000001192093
+      },
+      "drawCalls": 58,
+      "triangles": 172850,
+      "speed": 8640
+    },
+    {
+      "label": "M1a-active",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "framesMs": {
+        "count": 60,
+        "median": 150,
+        "p95": 200,
+        "max": 416.6999999999989
+      },
+      "fleetCPUms": {
+        "count": 70,
+        "median": 0,
+        "p95": 0.19999998807907104,
+        "max": 7.399999976158142
+      },
+      "industryCPUms": {
+        "count": 70,
+        "median": 0.10000002384185791,
+        "p95": 0.3999999761581421,
+        "max": 1.100000023841858
+      },
+      "viewerCPUms": {
+        "count": 70,
+        "median": 2,
+        "p95": 4.900000035762787,
+        "max": 279.0999999642372
+      },
+      "drawCalls": 58,
+      "triangles": 172850,
+      "speed": 8640
+    }
+  ]
+}

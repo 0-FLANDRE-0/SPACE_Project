@@ -2,6 +2,9 @@ import fs from 'node:fs';
 // Historical exceptions plus the exact, independently audited FOLLOW-UP-1 list.
 // Numerical ECON assertions, offline models, configurations and outputs stay frozen.
 export const RESOURCE_FOUNDATION_UPDATES=new Set([
+ // M1a explicitly authorizes live ship UI integration and additional speed presets.
+ // Official data, industry/SCU contracts and offline ECON sources remain frozen.
+ 'dist/index.html','dist/style.css','dist/src/main.js','dist/src/scene.js','dist/src/time-control.js',
  'dist/src/resource-definitions.js','dist/src/industry-runtime.js',
  'dist/src/industry-storage.js','dist/src/industry-fixture.js',
  'dist/src/industry-ui.js','dist/src/earth-population-update.js',
