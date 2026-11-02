@@ -276,3 +276,4 @@
 - **[사용자 확정]** 함선 외형·아이콘(방향선), 선택 외곽선 강조, 표시 축척(탐사함 1·제곱근), 모바일 하단 버튼/PC 우클릭·C, 목표 좌표 고정, 선회(2.5°/s·0.3°/s)→충전(펄스 1시간·하이퍼펄스 2시간)→순항, 허공 대기, 자동 우회, 행성권(고궤도 안) 추진·밖 드라이브, 궤도 층 모서리 점, LOS 우회, 소행성 배치. M1a→M1b 분할. [D-086~D-095](project-archive/2026-11-02/06_DECISIONS_AND_SUPERSEDED.md), [10 §18](project-archive/2026-11-02/10_CLAUDE_DISCUSSION_SUPPLEMENT.md).
 - **[사용자 확정]** M1b에 라그랑주점(행성·행성–위성, 게임식, 이동 지점 선택 시만 표시) 추가, 우회 재충전은 이후 기술 연구로 개선. [D-096~D-097](project-archive/2026-11-02/06_DECISIONS_AND_SUPERSEDED.md).
 - **[사용자 확정]** 충전 펄스 10분·하이퍼펄스 1시간, 함선 3D 표시 추가 축소. [D-098](project-archive/2026-11-02/06_DECISIONS_AND_SUPERSEDED.md).
+- **[사용자 확정]** 펄스 초기 4 gAU/시간(연구로 상향), 약탈 취약 구간은 행성 궤도·해적 드라이브 방해 구상. [D-099~D-100](project-archive/2026-11-02/06_DECISIONS_AND_SUPERSEDED.md).
