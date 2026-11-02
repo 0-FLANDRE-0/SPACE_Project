@@ -1,0 +1,500 @@
+{
+  "source": "completed pipeline only; no additional 20-year runs",
+  "margins": [
+    {
+      "id": "R4-N018",
+      "priceDeviationSlack": -0.007179968012038601,
+      "meanPriceSlack": 0.036256019223107436,
+      "inflationLowSlack": 0.002999999799478523,
+      "inflationHighSlack": 0.016999999803523264,
+      "budgetLowSlack": 0.3575047208305959,
+      "budgetHighSlack": 0.11040145920327271,
+      "colonyE0Slack": 0.01,
+      "colonyE2Slack": -0.23117334763453687,
+      "colonyE2SSlack": 0.1,
+      "industryPaybackSlackYears": 0.5388737811611151,
+      "hydrogenMarginMinC": 1.0361072989118316,
+      "crisisRecoveredSeeds": 0,
+      "crisisEndHealthMin": 0.1
+    },
+    {
+      "id": "R4-N055",
+      "priceDeviationSlack": -0.007195323589674701,
+      "meanPriceSlack": 0.0362374709727679,
+      "inflationLowSlack": 0.00299999976773436,
+      "inflationHighSlack": 0.0169999998301342,
+      "budgetLowSlack": 0.357504721369033,
+      "budgetHighSlack": 0.11040145922693023,
+      "colonyE0Slack": 0.01,
+      "colonyE2Slack": -0.2311668430682626,
+      "colonyE2SSlack": 0.1,
+      "industryPaybackSlackYears": 0.5389564722829427,
+      "hydrogenMarginMinC": 0.8741169327904141,
+      "crisisRecoveredSeeds": 0,
+      "crisisEndHealthMin": 0.1
+    },
+    {
+      "id": "R4-N066",
+      "priceDeviationSlack": -0.007188782887970563,
+      "meanPriceSlack": 0.036224349782701656,
+      "inflationLowSlack": 0.0029999998068681675,
+      "inflationHighSlack": 0.01699999981121711,
+      "budgetLowSlack": 0.3575047212107374,
+      "budgetHighSlack": 0.11040145928925682,
+      "colonyE0Slack": 0.01,
+      "colonyE2Slack": -0.2311687425087928,
+      "colonyE2SSlack": 0.1,
+      "industryPaybackSlackYears": 0.5391601221584317,
+      "hydrogenMarginMinC": 0.6545190048793529,
+      "crisisRecoveredSeeds": 0,
+      "crisisEndHealthMin": 0.1
+    },
+    {
+      "id": "R4-rounded",
+      "priceDeviationSlack": -0.007177114225577014,
+      "meanPriceSlack": 0.03626200704239883,
+      "inflationLowSlack": 0.0029999998025718264,
+      "inflationHighSlack": 0.01699999981015174,
+      "budgetLowSlack": 0.3575047208618005,
+      "budgetHighSlack": 0.11040145927299205,
+      "colonyE0Slack": 0.01,
+      "colonyE2Slack": -0.23117320112230014,
+      "colonyE2SSlack": 0.1,
+      "industryPaybackSlackYears": 0.5388294837066652,
+      "hydrogenMarginMinC": 1.0392210454442357,
+      "crisisRecoveredSeeds": 0,
+      "crisisEndHealthMin": 0.1
+    }
+  ],
+  "supply": [
+    {
+      "scenario": "E0",
+      "alloyExportMeanU": 555.9769999999996,
+      "hydrogenExportMeanU": 0,
+      "shellLossMeanU": 3.975199999999986,
+      "packagingGWhMean": 0.0037574399999999986
+    },
+    {
+      "scenario": "E2",
+      "alloyExportMeanU": 3637.4566000000013,
+      "hydrogenExportMeanU": 50,
+      "shellLossMeanU": 21.68639999999998,
+      "packagingGWhMean": 0.024073599999999813
+    },
+    {
+      "scenario": "E2-S",
+      "alloyExportMeanU": 3624.091599999999,
+      "hydrogenExportMeanU": 50,
+      "shellLossMeanU": 21.591600000000064,
+      "packagingGWhMean": 0.024009919999999817
+    },
+    {
+      "scenario": "E9",
+      "alloyExportMeanU": 3622.8139999999994,
+      "hydrogenExportMeanU": 50,
+      "shellLossMeanU": 21.56400000000003,
+      "packagingGWhMean": 0.023987519999999856
+    },
+    {
+      "scenario": "E11",
+      "alloyExportMeanU": 365.36019999999996,
+      "hydrogenExportMeanU": 0,
+      "shellLossMeanU": 2.2139999999999977,
+      "packagingGWhMean": 0.0023695999999999977
+    }
+  ],
+  "colonies": [
+    {
+      "scenario": "E0",
+      "planet": "moon",
+      "firstSeedDemandGWh": 120393.41836447454,
+      "firstSeedAvailableGenerationGWh": 136579.46102585352,
+      "firstSeedUnservedGWh": 0,
+      "worstAnnualAllSeeds": 0
+    },
+    {
+      "scenario": "E0",
+      "planet": "mars",
+      "firstSeedDemandGWh": 30098.354591118634,
+      "firstSeedAvailableGenerationGWh": 41671.65435136008,
+      "firstSeedUnservedGWh": 0,
+      "worstAnnualAllSeeds": 0
+    },
+    {
+      "scenario": "E2",
+      "planet": "moon",
+      "firstSeedDemandGWh": 120393.87117343463,
+      "firstSeedAvailableGenerationGWh": 117099.17771081039,
+      "firstSeedUnservedGWh": 4637.268265552232,
+      "worstAnnualAllSeeds": 0.3301400005163413
+    },
+    {
+      "scenario": "E2",
+      "planet": "mars",
+      "firstSeedDemandGWh": 30098.656469118643,
+      "firstSeedAvailableGenerationGWh": 166459.97402654597,
+      "firstSeedUnservedGWh": 1181.6275362838535,
+      "worstAnnualAllSeeds": 0.33117320112230014
+    },
+    {
+      "scenario": "E2-S",
+      "planet": "moon",
+      "firstSeedDemandGWh": 120393.87117343463,
+      "firstSeedAvailableGenerationGWh": 376821.5207300679,
+      "firstSeedUnservedGWh": 0,
+      "worstAnnualAllSeeds": 0
+    },
+    {
+      "scenario": "E2-S",
+      "planet": "mars",
+      "firstSeedDemandGWh": 30098.656469118643,
+      "firstSeedAvailableGenerationGWh": 256554.50452121109,
+      "firstSeedUnservedGWh": 0,
+      "worstAnnualAllSeeds": 0
+    },
+    {
+      "scenario": "E9",
+      "planet": "moon",
+      "firstSeedDemandGWh": 120406.31143479454,
+      "firstSeedAvailableGenerationGWh": 452812.54701978125,
+      "firstSeedUnservedGWh": 0,
+      "worstAnnualAllSeeds": 0
+    },
+    {
+      "scenario": "E9",
+      "planet": "mars",
+      "firstSeedDemandGWh": 30111.11227695865,
+      "firstSeedAvailableGenerationGWh": 165296.48647447675,
+      "firstSeedUnservedGWh": 0,
+      "worstAnnualAllSeeds": 0
+    }
+  ],
+  "transitions": [
+    {
+      "scenario": "E0",
+      "month": 24,
+      "realAlloyPrice": 2.479950662468999,
+      "referenceAlloyPrice": 2.4791036852124906,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E0",
+      "month": 60,
+      "realAlloyPrice": 2.2043513791407703,
+      "referenceAlloyPrice": 2.266030879659436,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E0",
+      "month": 84,
+      "realAlloyPrice": 1.9694978058031463,
+      "referenceAlloyPrice": 2.0142120101086487,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E0",
+      "month": 120,
+      "realAlloyPrice": 2.161942349464207,
+      "referenceAlloyPrice": 2.224885435676562,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E0",
+      "month": 144,
+      "realAlloyPrice": 2.1975096928002147,
+      "referenceAlloyPrice": 2.305327789513778,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E0",
+      "month": 240,
+      "realAlloyPrice": 2.1432618494349502,
+      "referenceAlloyPrice": 2.2752495992230846,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0.030573152725780782,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E2-S",
+      "month": 24,
+      "realAlloyPrice": 2.4798212547669336,
+      "referenceAlloyPrice": 2.4780398663814913,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 3.987017977164732e-16,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E2-S",
+      "month": 60,
+      "realAlloyPrice": 2.203658068616946,
+      "referenceAlloyPrice": 2.2673951898842932,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E2-S",
+      "month": 84,
+      "realAlloyPrice": 1.9695240679673378,
+      "referenceAlloyPrice": 2.011906940433208,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 3.6639615393300493e-16,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E2-S",
+      "month": 120,
+      "realAlloyPrice": 2.162263470467477,
+      "referenceAlloyPrice": 2.223142043141352,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0.7193334488366144,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E2-S",
+      "month": 144,
+      "realAlloyPrice": 2.19784972503544,
+      "referenceAlloyPrice": 2.303483910752545,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0.7199290958825424,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E2-S",
+      "month": 240,
+      "realAlloyPrice": 2.1437549943319865,
+      "referenceAlloyPrice": 2.2728791539625472,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0.9030573152725779,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E5-X",
+      "month": 24,
+      "realAlloyPrice": 2.4799509630461847,
+      "referenceAlloyPrice": 2.4791036852124906,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E5-X",
+      "month": 60,
+      "realAlloyPrice": 2.2043573447316387,
+      "referenceAlloyPrice": 2.266030879659436,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E5-X",
+      "month": 84,
+      "realAlloyPrice": 4.114813007719019,
+      "referenceAlloyPrice": 4.134756553043967,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 0.35870629326003284,
+      "paused": 22,
+      "retired": 0
+    },
+    {
+      "scenario": "E5-X",
+      "month": 120,
+      "realAlloyPrice": 4.65279834884259,
+      "referenceAlloyPrice": 4.654448711192683,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 0.1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E5-X",
+      "month": 144,
+      "realAlloyPrice": 4.6902721998664,
+      "referenceAlloyPrice": 4.69056366752495,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 0.1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E5-X",
+      "month": 240,
+      "realAlloyPrice": 4.69826471371339,
+      "referenceAlloyPrice": 4.698264988933007,
+      "colonyUnserved": 0.03057315272578081,
+      "referenceColonyUnserved": 0.030573152725780782,
+      "earthHealth": 0.1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E6-R",
+      "month": 24,
+      "realAlloyPrice": 2.4800691050590116,
+      "referenceAlloyPrice": 2.479636253577075,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E6-R",
+      "month": 60,
+      "realAlloyPrice": 2.204300638744211,
+      "referenceAlloyPrice": 2.2648763645193566,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E6-R",
+      "month": 84,
+      "realAlloyPrice": 1.9698162685012253,
+      "referenceAlloyPrice": 2.014352196039186,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E6-R",
+      "month": 120,
+      "realAlloyPrice": 2.1673124522424194,
+      "referenceAlloyPrice": 2.2339685077149354,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 4,
+      "retired": 0
+    },
+    {
+      "scenario": "E6-R",
+      "month": 144,
+      "realAlloyPrice": 2.197999158126274,
+      "referenceAlloyPrice": 2.307105206311992,
+      "colonyUnserved": 0,
+      "referenceColonyUnserved": 0,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    },
+    {
+      "scenario": "E6-R",
+      "month": 240,
+      "realAlloyPrice": 2.1355138512425924,
+      "referenceAlloyPrice": 2.2723777081572565,
+      "colonyUnserved": 0.03057315272578081,
+      "referenceColonyUnserved": 0.030573152725780782,
+      "earthHealth": 1,
+      "paused": 0,
+      "retired": 0
+    }
+  ],
+  "fusionUpgrade": {
+    "path": "medium→large",
+    "stagedC": 16915.22687866939,
+    "directC": 21000,
+    "stagedAlloyU": 1329.0535404668808
+  },
+  "powerPayback": [
+    {
+      "type": "fusion",
+      "modules": 50,
+      "ratedGW": 250,
+      "averageGW": 250,
+      "creditC": 315000,
+      "alloyU": 23700,
+      "annualSalesC": 49261.08374384237,
+      "annualDirectC": 28350,
+      "annualUpkeepU": 711,
+      "annualFuelC": 1800,
+      "annualNetC": 17475.78374384237,
+      "capitalScale": 0.97,
+      "solarCF": 0.26,
+      "scope": "all external sales finance, public value excluded",
+      "investmentC": 495110,
+      "orderPaybackYears": 28.831204325783276
+    },
+    {
+      "type": "fission",
+      "modules": 35,
+      "ratedGW": 87.5,
+      "averageGW": 82.25,
+      "creditC": 113000,
+      "alloyU": 9400,
+      "annualSalesC": 16206.896551724138,
+      "annualDirectC": 10170,
+      "annualUpkeepU": 282,
+      "annualFuelC": 720.51,
+      "annualNetC": 4667.786551724137,
+      "capitalScale": 0.97,
+      "solarCF": 0.26,
+      "scope": "all external sales finance, public value excluded",
+      "investmentC": 134620,
+      "orderPaybackYears": 29.25688858090041
+    },
+    {
+      "type": "solar",
+      "modules": 80,
+      "ratedGW": 120,
+      "averageGW": 31.200000000000003,
+      "creditC": 160050,
+      "alloyU": 8148,
+      "annualSalesC": 6147.783251231527,
+      "annualDirectC": 14404.5,
+      "annualUpkeepU": 244.44,
+      "annualFuelC": 0,
+      "annualNetC": -8818.928748768472,
+      "capitalScale": 0.97,
+      "solarCF": 0.26,
+      "scope": "all external sales finance, public value excluded",
+      "investmentC": 178790.4,
+      "orderPaybackYears": null
+    }
+  ]
+}

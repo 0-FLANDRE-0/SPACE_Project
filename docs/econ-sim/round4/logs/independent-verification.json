@@ -1,0 +1,794 @@
+{
+  "runs": 108,
+  "seconds": 20.959464802000003,
+  "offReproduced": 80,
+  "historicalOriginalSeries": 16,
+  "finalOnReproduced": 28,
+  "allEqual": true,
+  "checks": [
+    {
+      "kind": "R3-OFF",
+      "scenario": "S0",
+      "seed": "econ-1",
+      "hash": "c0c88a7437f6ec235326db575f540700ac5734c00de707f24ea251a790f0ee98",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S0",
+      "seed": "econ-2",
+      "hash": "3af1cfa6ecaae1b082e2416187af3396d58eb39615291472880fe3f9fca7c9b4",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S0",
+      "seed": "econ-3",
+      "hash": "42a7ebe70bde71a30b3d71744c39c867a477d5996329121d24522b24ba538de3",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S0",
+      "seed": "econ-4",
+      "hash": "b781cf4761cd4417992a3b85bd132ee0577cccfdd6724183cdc8ab14c22f15b5",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S0",
+      "seed": "econ-5",
+      "hash": "45f05dec2e9618b71afe7bb180f7f9c40cc68acc34af4af61d5ea05e93ae158a",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1",
+      "seed": "econ-1",
+      "hash": "eba3541def9add1848328de85015c51766e96edc495bea5612e504b3482e05b7",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1",
+      "seed": "econ-2",
+      "hash": "b7dfda363dddfca95e444965ea90aa6934b89ed10f0073de0ee86e9d91ead934",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1",
+      "seed": "econ-3",
+      "hash": "2dcd10079abae8a1618525d76de0e1b6734dc7cac43a986aefab99f361e3b914",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1",
+      "seed": "econ-4",
+      "hash": "8921ec0250967d263b24cb6acc0f19e88081117aafcec73106ac9db43d251119",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1",
+      "seed": "econ-5",
+      "hash": "3ff183e20219d2d8e44161ebb68acdc179d92be95c2cdeb1cecc30854af6a420",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S2",
+      "seed": "econ-1",
+      "hash": "8634e961e956f70c42e1fc52dfaa21321bf7f3505eebd2f1b00f87b1b1adc16b",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S2",
+      "seed": "econ-2",
+      "hash": "7ee51ba4df5706ffc2f9ebaf3b0e1a36f7ea0df3f8bdc780cdb90130b0fbe6a3",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S2",
+      "seed": "econ-3",
+      "hash": "cdca232c9ed4c1d72fa1ee957e8238b0970943bdaae13812b97cc8213020901f",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S2",
+      "seed": "econ-4",
+      "hash": "bdf552dbc978ff904196afdbfe49b07db217d1c66c0c40964ee1631a590cb348",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S2",
+      "seed": "econ-5",
+      "hash": "d39b6dedd4487aad7664424ab2ac8828dbc95c99fb80cc980ed0e7d0ebec37cb",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-debt",
+      "seed": "econ-1",
+      "hash": "bb6f77d0045a229a823164653f17d239e646db947c53d9fad6b77df65a811879",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-debt",
+      "seed": "econ-2",
+      "hash": "0c406401928fe0ef9af8f666ebccc78cdacf6e957eb2f324dd5827546f2f0b73",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-debt",
+      "seed": "econ-3",
+      "hash": "1b4564c41d1c4497c0c86249841195f91e3f7405a281d030e05a7b06c2d6db2c",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-debt",
+      "seed": "econ-4",
+      "hash": "433811b7cda10491393a5338967eb7fd68a9b8ddfb4a7e03d7912e5b527f49c1",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-debt",
+      "seed": "econ-5",
+      "hash": "7000b016d36e74f5a01e4ee4775eb2cf134598972325252c76127deba2e21c74",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-money",
+      "seed": "econ-1",
+      "hash": "3102d944bf6ea17cce4a543bf4cd0abb9c87ee6612ceba5ede4dcbbbac681ff1",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-money",
+      "seed": "econ-2",
+      "hash": "b7a9f9d26c5ac439f7a79f544071ddee005fa3aafb9ada7ffa69a49600c24251",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-money",
+      "seed": "econ-3",
+      "hash": "84f7ae0f40373b96bd3fe2e85a93cc2b842880ebfccf0c587dcdf8b96c879533",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-money",
+      "seed": "econ-4",
+      "hash": "317811e2bd3bf608f00f196b3996b15b8917159462e6fd87a27c3003a0aae177",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S3-money",
+      "seed": "econ-5",
+      "hash": "683886d1f1cd97286f5408433c2fd0cd5fec0e93fe37e15e65cb807e5671bc0c",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S4",
+      "seed": "econ-1",
+      "hash": "137526083cfd62ea713b72fcf2d17581a5e53909b46144aa03ffcbf3abaefd1e",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S4",
+      "seed": "econ-2",
+      "hash": "7fa62bf09806bd51e051b069562f4c547733ef811937e2a25bd120cc7f9df189",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S4",
+      "seed": "econ-3",
+      "hash": "c37425331f0c4035034ad1d7b261572a25a3cddbac274784d63dee227c382c14",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S4",
+      "seed": "econ-4",
+      "hash": "23d256e90ad0a49e824aeae388829cfad2c927197fa19fe91745f9562eb7c24d",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S4",
+      "seed": "econ-5",
+      "hash": "75ea66a112d1d1eb20e2773889cccaa61fa62938b030332830af5434bc7cf3b8",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1-sell",
+      "seed": "econ-1",
+      "hash": "4ed77dd60d72439857b860cdaafa458898f878b2a33e103b25012d517d6c7288",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1-sell",
+      "seed": "econ-2",
+      "hash": "1e0561e550e5b6d5945335490a2e338854a7f3e99713546d6f5389ceb5b8966e",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1-sell",
+      "seed": "econ-3",
+      "hash": "afcd2f1256243d41b3d01004c74dd7f85b141f1cb2c4f3f2819ed85fbb198ba7",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1-sell",
+      "seed": "econ-4",
+      "hash": "f60a1f39cd06c4b51cfe8e68a954c6fa0cc660c0318239a701a7f1193e0c5014",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "S1-sell",
+      "seed": "econ-5",
+      "hash": "596a29af1b2d3ef841fc05b85cedb98d4039e9241d5fa94ee01e5630d4a8f758",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E0",
+      "seed": "econ-1",
+      "hash": "cfb9778ad437d54cde9461aff5ae4047a6cdf05224eacd075fe8d7be0be45069",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E0",
+      "seed": "econ-2",
+      "hash": "fe68cc3ed3179bf624a9850040972217f99dafe8aee55ab7a9de26ae4a6b183b",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E0",
+      "seed": "econ-3",
+      "hash": "74c637fe1e553e5b79e12d60aac9883e3721cb3655c467e5336ab2a1eb804acc",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E0",
+      "seed": "econ-4",
+      "hash": "b693eac6e1e0ab53d885b3d84acda9fe1b6d0dc8a763fcb3842684eb4dadd01a",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E0",
+      "seed": "econ-5",
+      "hash": "b679e672d96bb3ef99ec06da589629f48197d035f11a5f9fab764af1cb1e26c6",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E1",
+      "seed": "econ-1",
+      "hash": "ccb3ce25cf05f9f3dd6b51a960ae5ec39e5b5d9431fcfe2abe875aa38a6c776f",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E1",
+      "seed": "econ-2",
+      "hash": "0cf0187b4bb29a33141de2ce2466d363ebf2427420cfa35cb0f839187f150ead",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E1",
+      "seed": "econ-3",
+      "hash": "5d38581e3899196791a1278a9895acbcd70bf1011c35424f3c70d15dc350421f",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E1",
+      "seed": "econ-4",
+      "hash": "2ed188a36fe0c7c0baf7a10092ee5dc33e94126a9d1d7c498308f179e4342a6a",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E1",
+      "seed": "econ-5",
+      "hash": "789f73bc655f379fed48feb12ddbb1cd8462e44dcb309f75f758a61e156e9903",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E2",
+      "seed": "econ-1",
+      "hash": "0c0feb76f2ffc3a16944d971a43a0bc46895b565fa336a5f5dbc6be8824b4b7e",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E2",
+      "seed": "econ-2",
+      "hash": "25c78a11406e3280bd791b81c3b2098b3b70763f5db8f79570405afc3ba935ed",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E2",
+      "seed": "econ-3",
+      "hash": "449e88b5f9607500d14a00e0bcc50094fd52082be68256d47de36d92778ee13a",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E2",
+      "seed": "econ-4",
+      "hash": "c56e8b2de49394f565e0a5037359da45e665175908d4571124cfc9e649d2d738",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E2",
+      "seed": "econ-5",
+      "hash": "4ffeccdf2ea69bd3e644e9f90fcb6973e277c8e221e5ff79a6be6f817ecd2ab7",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E3",
+      "seed": "econ-1",
+      "hash": "e0bda3fbbeccb0946026382e7337aa9cc48c728d42b50e572b2e42cc61eae544",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E3",
+      "seed": "econ-2",
+      "hash": "4d538cecf1385119116b489d4b685f0364349bce2478aa4d6836ea3e1bd7f395",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E3",
+      "seed": "econ-3",
+      "hash": "46186a0c1a2763227a9a6bb35d5ee9e2b806877481c2242c30fc4cadf11654f1",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E3",
+      "seed": "econ-4",
+      "hash": "7c2c2139d7f97cdfd98c24a9e0f8e3f850eca352ab71636ed78e986635f069f4",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E3",
+      "seed": "econ-5",
+      "hash": "99b35b7d3a230fc8b916694117b59c9572d41bdac969b0ca4f74e638e3428475",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E4",
+      "seed": "econ-1",
+      "hash": "870f661a5948d32f4fa3441c42631146259fe92c29b1110a49c33c7585a66308",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E4",
+      "seed": "econ-2",
+      "hash": "041651669905d54fd76cd4b3ba008353c2f63aa5d59747562cf46fd8b1634722",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E4",
+      "seed": "econ-3",
+      "hash": "25e59ac037cada896cf924b2a826ad4bec17f1e883685aa114e9cb3d29df4859",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E4",
+      "seed": "econ-4",
+      "hash": "6e3208b6afa427e6f615f62b695edcaa2a8a450e7af24e0e2d3ffc85fe10a465",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E4",
+      "seed": "econ-5",
+      "hash": "af8b999a14c244c4b7e553595699fac958f15ecb13adc858485d748e798d6b94",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E5",
+      "seed": "econ-1",
+      "hash": "066c7b115c3c3a00d96342f6886c52a038cbf89690e33300149c557544b79e4d",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E5",
+      "seed": "econ-2",
+      "hash": "7be5ea1a525c2202ea5e40bcf7fcda3974862e8e67fd8fe2028e8d5c9d8fab68",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E5",
+      "seed": "econ-3",
+      "hash": "c6f471b8b0f0c46238df72a3cc7b05ae934f389cedda6b1b26aaf12bfa4680b3",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E5",
+      "seed": "econ-4",
+      "hash": "d99d8b973b0776f2a3596f0b52c6eb45edcccb226dfdd12e8316efeff5770c0b",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E5",
+      "seed": "econ-5",
+      "hash": "ba932553424d9623e557f0056fcd249183db8ac35d6804f1b2f72e906af967ed",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E6",
+      "seed": "econ-1",
+      "hash": "52ddc9f83089ccddc2c122d36d2d289cc2127f963d7775fa60427a0ea6ab1856",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E6",
+      "seed": "econ-2",
+      "hash": "0ba4b185dbdd38bc857d7e2b328bb3e23654c39847d94736d15e4c13336bffa3",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E6",
+      "seed": "econ-3",
+      "hash": "2ac0ebc9dca6e28f088db5ee91f0ad263e93a2c0dcabcbe0b58341d67f63f352",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E6",
+      "seed": "econ-4",
+      "hash": "8483baad72295825c6eccc327b8000c1011f06b0fc441eaba3817a92f9a41423",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E6",
+      "seed": "econ-5",
+      "hash": "56057272cedfb49d0d2cc4a0f537e5e5e6992e89ed9b0c5ee4bf9c55f8269bf5",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E7",
+      "seed": "econ-1",
+      "hash": "e8fe65687ead6fb009fc2cbd35bdfde82074e4b7f20ea6c3e322b15dbd223c05",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E7",
+      "seed": "econ-2",
+      "hash": "17886e95e713d917d4bb509c50229ed859ad13be21b5bb86e631222d246e45b9",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E7",
+      "seed": "econ-3",
+      "hash": "2a0a82f67a3f88b8b4cdacc3c4f1f27c43f9d3ce0524bb18f7c092d952d8ae4d",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E7",
+      "seed": "econ-4",
+      "hash": "b4b4a24bdbcb69755eaf935e4dcbddf7eb2a5d19d40e1c2ccdf5c45dee7bfe01",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E7",
+      "seed": "econ-5",
+      "hash": "fba1b4b997d51894c2c29a2679485bb86aa52287e940a944d3dd8c56c08b87e6",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E8",
+      "seed": "econ-1",
+      "hash": "0d08d0694412afb73af87be89a718ba4376ff88c92c460e4fe3e1a45a77678ab",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E8",
+      "seed": "econ-2",
+      "hash": "7ddcf000afbd2260316021c0cd7c870b019fe63f0e7b5997b3af3267fd6eb076",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E8",
+      "seed": "econ-3",
+      "hash": "d32d4ee4636b685707bb780bcbec548362da3b030eb3597163da77ca68b029c6",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E8",
+      "seed": "econ-4",
+      "hash": "23eb1d819a0172fb5b8cc09b64132f2b58a3731517c02d9d766d9400664f678c",
+      "equal": true
+    },
+    {
+      "kind": "R3-OFF",
+      "scenario": "E8",
+      "seed": "econ-5",
+      "hash": "9a97002bbf466daa19eb98f0771c5085eb56d48fdc873dc5464eb0e5b0015c27",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N018",
+      "scenario": "S0",
+      "seed": "econ-1",
+      "hash": "56d792cc9a6e1f989a61b399e8e50d4758267c116edd9915481bbf1465103535",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N018",
+      "scenario": "E0",
+      "seed": "econ-1",
+      "hash": "e785c6033ad2f8c2e9c14cdcb5e288f9f3c07d700c1432aca664b3611aec0397",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N018",
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "hash": "7f58a593248b221a997b477b4099e5cd2f3701bbfedd8ea5764283d6f1a6e9f2",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N018",
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "hash": "1334df23d6158fb0cd1e42159aa95637df73659f67372ad8b196576ed2c7f51e",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N018",
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "hash": "fac7a466dda5694b0ab66a072364a601bdb2988ae8642c0d5b503c798a0b1434",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N018",
+      "scenario": "E9",
+      "seed": "econ-1",
+      "hash": "0ac63ec3c196365d3c2f87f2b0ec2cbd2b677a9f5e10c6dafd6ee284bf11a69f",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N018",
+      "scenario": "E10",
+      "seed": "econ-1",
+      "hash": "d580881dac930f383af895d0ac792a823f03cdc067f1bd6f20f34fc3d9adafd2",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N055",
+      "scenario": "S0",
+      "seed": "econ-1",
+      "hash": "7d937d0a4120ea734ceaea65885ba492984e8d28000d75dece64fa7bcde53803",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N055",
+      "scenario": "E0",
+      "seed": "econ-1",
+      "hash": "08bb31a5411a52da245ad972f4939f617879c0d7475d1030a87ccbe64af59aff",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N055",
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "hash": "d08479cd39f5022dfbeda3f43d90f6b06988d89fc5e92d72a5737c552a5a31fe",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N055",
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "hash": "5cef2655ce5c203f4d26df4ee8f4f2a3e48c490166a62a589ce8f407e66de6b0",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N055",
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "hash": "7b12c09eb93add0cc26e91ea9bcdde569ae0f704fc2a905fc571444a44de8da9",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N055",
+      "scenario": "E9",
+      "seed": "econ-1",
+      "hash": "71f028a5194329086d642c9e124907da2bf955887375ddbcbce18a6b9bb7847e",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N055",
+      "scenario": "E10",
+      "seed": "econ-1",
+      "hash": "8c5769b264da5e67080b176332b8e6cf746716befa6b1547329c1e6a4c671079",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N066",
+      "scenario": "S0",
+      "seed": "econ-1",
+      "hash": "a2ebb60eecc18d93c33b065769623065bb49ee200144dd61e450f6fc3b87b9a7",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N066",
+      "scenario": "E0",
+      "seed": "econ-1",
+      "hash": "b364ce7f597aeb5e4a3905429367810da90492b486975b5a76ba12f61ec7ac26",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N066",
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "hash": "3dd3a37af829d844da0f83f3953f45da6ce44f56ad70f017dfd33e0926166f3a",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N066",
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "hash": "d4c8f7b6cb0706c69e4d6428055ec93aad99d7c56eda8ad8c7ecdbeae9122cf1",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N066",
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "hash": "a8907d7bc8beb5724f2b43327b25496178389e43f80a061171575a8ec1e64b95",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N066",
+      "scenario": "E9",
+      "seed": "econ-1",
+      "hash": "5b58329a7b77a2c1693c9351e62397addc355b60f5f5aee3c2d1ff49ffc1ec1d",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-N066",
+      "scenario": "E10",
+      "seed": "econ-1",
+      "hash": "f24bfbfb6782a25c7e7d525e52c6ac493360c5cb2fa9402f43f594f2b86dee3a",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-rounded",
+      "scenario": "S0",
+      "seed": "econ-1",
+      "hash": "663810c9121725b02f9066226d8d3f85a62485eb1cfdc8ab07b36d3f4ccf2c47",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-rounded",
+      "scenario": "E0",
+      "seed": "econ-1",
+      "hash": "2cdc3312b37abdf468e4fdd2264a2e0b2caff0381766b96dba2fd246b4d995cf",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-rounded",
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "hash": "b9342154347b856b4cbaf09ad9750b24bf4fe478faac6b4c880916a64fb54760",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-rounded",
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "hash": "c27415155efbed76f8d146719523dfac2b51d38b8e4b6376ea87a1a32e70ad8c",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-rounded",
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "hash": "b049c02cd0c5012043f84a2cb2fef4d72eaa89857e8e4ecb1ea01a64b77e9044",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-rounded",
+      "scenario": "E9",
+      "seed": "econ-1",
+      "hash": "ec0e086af3ef756804be3874b9420acd3f7a4f5b95072faebc85e2ba3f6691b7",
+      "equal": true
+    },
+    {
+      "kind": "R4-final",
+      "id": "R4-rounded",
+      "scenario": "E10",
+      "seed": "econ-1",
+      "hash": "6b9e0f472f1192e48c52ea916dfbe22fe3b8f5b59b916be59232c6dbd4793587",
+      "equal": true
+    }
+  ]
+}

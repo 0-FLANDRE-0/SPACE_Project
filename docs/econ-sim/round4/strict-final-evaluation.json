@@ -1,0 +1,30 @@
+{
+  "role": "additional conservative actual-utilization guard; never promotes a failed search candidate",
+  "candidates": [
+    {
+      "id": "R4-N018",
+      "searchFinalPassed": false,
+      "observedUtilizationMarginNonnegativeAllSeeds": true,
+      "strictPassed": false
+    },
+    {
+      "id": "R4-N055",
+      "searchFinalPassed": false,
+      "observedUtilizationMarginNonnegativeAllSeeds": true,
+      "strictPassed": false
+    },
+    {
+      "id": "R4-N066",
+      "searchFinalPassed": false,
+      "observedUtilizationMarginNonnegativeAllSeeds": true,
+      "strictPassed": false
+    },
+    {
+      "id": "R4-rounded",
+      "searchFinalPassed": false,
+      "observedUtilizationMarginNonnegativeAllSeeds": true,
+      "strictPassed": false
+    }
+  ],
+  "completePassingCandidates": 0
+}

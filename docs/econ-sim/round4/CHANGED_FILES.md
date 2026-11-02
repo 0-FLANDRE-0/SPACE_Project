@@ -1,0 +1,87 @@
+# 실제 변경 파일
+
+PR13 `edc0d4257dad9cd46622fc8b00f039b68479b601` 대비다. 기존 파일은 `docs/DECISIONS.md`의 끝 추가 한 곳이며, 나머지는 신규 파일이다. 기존795개 경로는 SHA256 보존한다.
+
+- `dist/src/economy-round4-facilities.js` — 게임 미연결 순수 시뮬레이터
+- `dist/src/economy-round4-model.js` — 게임 미연결 순수 시뮬레이터
+- `dist/src/economy-round4-units.js` — 게임 미연결 순수 시뮬레이터
+- `docs/DECISIONS.md` — 확정/가정/제안/결과 상태만 끝 추가
+- `docs/econ-sim/round4/CANDIDATES_KO.md` — 한국어 지시서/구현/결과/검증 문서
+- `docs/econ-sim/round4/CHANGED_FILES.md` — 한국어 지시서/구현/결과/검증 문서
+- `docs/econ-sim/round4/DETAILS_KO.md` — 한국어 지시서/구현/결과/검증 문서
+- `docs/econ-sim/round4/IMPLEMENTATION.md` — 한국어 지시서/구현/결과/검증 문서
+- `docs/econ-sim/round4/REPORT_KO.md` — 한국어 지시서/구현/결과/검증 문서
+- `docs/econ-sim/round4/REQUEST_KO.md` — 한국어 지시서/구현/결과/검증 문서
+- `docs/econ-sim/round4/VERIFICATION.md` — 한국어 지시서/구현/결과/검증 문서
+- `docs/econ-sim/round4/broad-candidates.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/candidates.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/conditional-candidates.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/details.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/final-runs.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/financial.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/hydrogen-utilization.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/infrastructure-value.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/input-manifest.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/logs/baseline-check.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/baseline-tests.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/calibration-initial-aborted.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/calibration-smoke-final.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/calibration-smoke.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/calibration.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/check.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/details.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/game-development-reset-browser.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/independent-verification.json` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/independent-verification.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-early-small-fusion.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-free-cross-body-stock.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-free-parked-alloy.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-free-restart.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-inverted-priority.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-over-unity-salvage.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-required-instead-of-occupied.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-unpackaged-transfer.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutant-wrong-electrolysis.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutations.json` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/mutations.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/preservation.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/report-browser.json` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/report-browser.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/report.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/round4-tests.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/supplement.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/logs/tests.log` — 실제 실행 원시 증거
+- `docs/econ-sim/round4/maximum-power-finance.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/off-on.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/paired-experiments.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/preservation-manifest.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/recovery-attribution.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/reference-series.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/report.html` — 네트워크 독립 단일 HTML
+- `docs/econ-sim/round4/results.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/runs.csv` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/screenshots/report-1440-charts.png` — 실제 Chromium 화면
+- `docs/econ-sim/round4/screenshots/report-1440.png` — 실제 Chromium 화면
+- `docs/econ-sim/round4/screenshots/report-390-charts.png` — 실제 Chromium 화면
+- `docs/econ-sim/round4/screenshots/report-390.png` — 실제 Chromium 화면
+- `docs/econ-sim/round4/screenshots/report-667-charts.png` — 실제 Chromium 화면
+- `docs/econ-sim/round4/screenshots/report-667.png` — 실제 Chromium 화면
+- `docs/econ-sim/round4/screenshots/report-844-charts.png` — 실제 Chromium 화면
+- `docs/econ-sim/round4/screenshots/report-844.png` — 실제 Chromium 화면
+- `docs/econ-sim/round4/sensitivity.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/series.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/strict-final-evaluation.json` — 기계 판독 원시 데이터/설정/해시
+- `docs/econ-sim/round4/supplement.json` — 기계 판독 원시 데이터/설정/해시
+- `scripts/econ-round4-analysis.mjs` — 재현 가능한 탐색/분석/검증 도구
+- `scripts/econ-round4-calibrate.mjs` — 재현 가능한 탐색/분석/검증 도구
+- `scripts/econ-round4-details.mjs` — 재현 가능한 탐색/분석/검증 도구
+- `scripts/econ-round4-mutants.mjs` — 재현 가능한 탐색/분석/검증 도구
+- `scripts/econ-round4-preserve.mjs` — 재현 가능한 탐색/분석/검증 도구
+- `scripts/econ-round4-report.mjs` — 재현 가능한 탐색/분석/검증 도구
+- `scripts/econ-round4-supplement.mjs` — 재현 가능한 탐색/분석/검증 도구
+- `scripts/econ-round4-verify.mjs` — 재현 가능한 탐색/분석/검증 도구
+- `scripts/econ-round4.config.json` — 재현 가능한 탐색/분석/검증 도구
+- `tests/browser-economy-round4-report.mjs` — 신규 단위/브라우저 검사
+- `tests/economy-round4.test.js` — 신규 단위/브라우저 검사
+
+총 81개 경로. 원시 월 시계열 약33MB와 전체 실행 CSV 약10MB를 포함해 삭제/요약 없이 보존했다. 게임 진입점·CSS/HTML·저장·정의·공식 자료·이전 경제 결과는 수정하지 않았다. ZIP은 생성하지 않았다.

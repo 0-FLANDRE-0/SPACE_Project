@@ -1,0 +1,11 @@
+broad: 8/8 profiles; 2.7s
+OAT: 16/74 profiles; 4.0s
+OAT: 32/74 profiles; 7.4s
+OAT: 48/74 profiles; 11.1s
+OAT: 64/74 profiles; 14.4s
+OAT: 74/74 profiles; 16.3s
+conditional: 4/4 profiles; 1.4s
+broad-top-crosscheck: 8/8 profiles; 2.2s
+final-all22: 4/4 profiles; 7.8s
+paired: 14/14 profiles; 4.2s
+{"out":"/workspace/SPACE_Project/artifacts/econ4-smoke","counts":{"broadProfiles":8,"broadRuns":24,"oatRuns":222,"conditionalRuns":16,"extendedRuns":32,"finalRuns":88,"pairedRuns":41,"offComparisons":16,"directOffExecutions":32,"performanceRuns":15,"totalOnRuns":423,"integrityFailures":0},"completePassingCandidates":0,"seconds":40.477116458,"performance":{"runs":15,"p50Ms":164.49734299999545,"p95Ms":220.23384500000247,"round3ReferenceP50Ms":59.8}}

@@ -1,0 +1,69 @@
+{
+  "mutants": 9,
+  "killed": 9,
+  "results": [
+    {
+      "id": "free-cross-body-stock",
+      "test": "same-government cross-body shipment",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "unpackaged-transfer",
+      "test": "same-government cross-body shipment",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "over-unity-salvage",
+      "test": "dismantling pays C",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "free-parked-alloy",
+      "test": "normal and parked upkeep",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "free-restart",
+      "test": "an actual industrial restart",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "wrong-electrolysis",
+      "test": "simulator water/oxygen units",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "early-small-fusion",
+      "test": "small fusion is unavailable",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "inverted-priority",
+      "test": "scarce alloy pays essential",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    },
+    {
+      "id": "required-instead-of-occupied",
+      "test": "minimum .001U packing",
+      "syntaxValid": true,
+      "killed": true,
+      "exitCode": 1
+    }
+  ]
+}
