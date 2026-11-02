@@ -11,6 +11,8 @@
 - **로컬 실행:** `npm run dev` → <http://localhost:5173>.
 - **기존 비공개 실행 주소:** <https://space-project-sol-prototype.dagoku.chatgpt.site>. 최종 배포 버전/소스는 제출 PR에 기록한다. ZIP은 새로 생성하지 않는다.
 
+제출 직전 원격 main이 `59a9694339bb49a7d4935ff23241633dda51aeeb`로 변경되고 PR #14 문서가 병합된 사실을 확인했다. 시작 기준은 지시된 `9ba37ce`로 유지한다. 실행 코드 변경은 없었으며, 문서 충돌만 피하도록 새 main의 `docs/DECISIONS.md` 내용을 그대로 보존한 뒤 M1b 절을 덧붙였다. 브랜치 병합·리베이스는 하지 않았다.
+
 ## 적용 수치와 조작
 
 | 항목 | M1b |
