@@ -1,0 +1,22 @@
+✖ simulator water/oxygen units conserve1:1:1 mass and leave game definitions untouched (16.888222ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 118.247351
+
+✖ failing tests:
+
+test at tests/economy-round4.test.js:16:1
+✖ simulator water/oxygen units conserve1:1:1 mass and leave game definitions untouched (16.888222ms)
+  Error: Round4 water/H/O mass conservation
+      at assertRound4Economy (file:///workspace/SPACE_Project/artifacts/econ4-mutants/wrong-electrolysis/dist/src/economy-round4-model.js:481:220)
+      at tickRound4Economy (file:///workspace/SPACE_Project/artifacts/econ4-mutants/wrong-electrolysis/dist/src/economy-round4-model.js:541:2)
+      at simulateRound4Economy (file:///workspace/SPACE_Project/artifacts/econ4-mutants/wrong-electrolysis/dist/src/economy-round4-model.js:546:125)
+      at run (file:///workspace/SPACE_Project/artifacts/econ4-mutants/wrong-electrolysis/tests/economy-round4.test.js:10:156)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ4-mutants/wrong-electrolysis/tests/economy-round4.test.js:16:472)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)

@@ -1,0 +1,2643 @@
+{
+  "schemaVersion": 2,
+  "kind": "planet-surface-template",
+  "systemId": "sol",
+  "bodyId": "enceladus",
+  "bodyKind": "moon",
+  "grid": {
+    "type": "icosahedral-dual",
+    "generatorVersion": 1,
+    "frequency": 2,
+    "orientationId": "body-local-v1",
+    "cellCount": 42,
+    "gridFingerprint": "a50de54d"
+  },
+  "geology": {
+    "cells": {
+      "sol:enceladus:surface:00000": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 74.934,
+          "radiationLevel": null,
+          "terrainObstacle": 0.202528,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-0-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 973391.455,
+            "gradeProbabilities": {
+              "low": 0.47091210472935563,
+              "medium": 0.5175802938452434,
+              "high": 0.011507601425400936
+            },
+            "extractionDifficulty": 14.63,
+            "processingDifficulty": 35.902,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00001": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 90.714,
+          "radiationLevel": null,
+          "terrainObstacle": 0.273274,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-1-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 6840615.559,
+            "gradeProbabilities": {
+              "low": 0.43931186076631096,
+              "medium": 0.4942816942934106,
+              "high": 0.06640644494027849
+            },
+            "extractionDifficulty": 31.012,
+            "processingDifficulty": 52.05,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-1-2",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1515374.853,
+            "gradeProbabilities": {
+              "low": 0.18579798456655977,
+              "medium": 0.6968356711200092,
+              "high": 0.11736634431343101
+            },
+            "extractionDifficulty": 52.059,
+            "processingDifficulty": 52.05,
+            "discoveryTier": 2,
+            "accessDepth": 8.887,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00002": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.589,
+          "radiationLevel": null,
+          "terrainObstacle": 0.342647,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-2-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1560170.948,
+            "gradeProbabilities": {
+              "low": 0.427183077890619,
+              "medium": 0.5113043086565985,
+              "high": 0.06151261345278258
+            },
+            "extractionDifficulty": 17.987,
+            "processingDifficulty": 19.652,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00003": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.039,
+          "radiationLevel": null,
+          "terrainObstacle": 0.389802,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-3-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1304431.295,
+            "gradeProbabilities": {
+              "low": 0.4659577643227517,
+              "medium": 0.4997324144985087,
+              "high": 0.03430982117873958
+            },
+            "extractionDifficulty": 22.263,
+            "processingDifficulty": 48.193,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-3-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 331722.691,
+            "gradeProbabilities": {
+              "low": 0.14321559622430857,
+              "medium": 0.2326604322321788,
+              "high": 0.6241239715435126
+            },
+            "extractionDifficulty": 75.011,
+            "processingDifficulty": 48.193,
+            "discoveryTier": 4,
+            "accessDepth": 69.263,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00004": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.412,
+          "radiationLevel": null,
+          "terrainObstacle": 0.378657,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-4-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4487185.019,
+            "gradeProbabilities": {
+              "low": 0.4652836415840781,
+              "medium": 0.4678982185536963,
+              "high": 0.06681813986222562
+            },
+            "extractionDifficulty": 17.578,
+            "processingDifficulty": 69.385,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00005": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.847,
+          "radiationLevel": null,
+          "terrainObstacle": 0.341909,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-5-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2706214.332,
+            "gradeProbabilities": {
+              "low": 0.47927465023487176,
+              "medium": 0.4714162057035268,
+              "high": 0.04930914406160148
+            },
+            "extractionDifficulty": 29.372,
+            "processingDifficulty": 57.214,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00006": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 86.272,
+          "radiationLevel": null,
+          "terrainObstacle": 0.185003,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-6-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1338463.753,
+            "gradeProbabilities": {
+              "low": 0.4472904507878623,
+              "medium": 0.5279706166240412,
+              "high": 0.02473893258809643
+            },
+            "extractionDifficulty": 20.589,
+            "processingDifficulty": 36.581,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-6-2",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 10027007.997,
+            "gradeProbabilities": {
+              "low": 0.1745809790324864,
+              "medium": 0.7002748271888565,
+              "high": 0.12514419377865715
+            },
+            "extractionDifficulty": 39.117,
+            "processingDifficulty": 36.581,
+            "discoveryTier": 2,
+            "accessDepth": 15.273,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-6-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 2564561.009,
+            "gradeProbabilities": {
+              "low": 0.11336057629881681,
+              "medium": 0.2798225115453653,
+              "high": 0.6068169121558179
+            },
+            "extractionDifficulty": 75.975,
+            "processingDifficulty": 36.581,
+            "discoveryTier": 5,
+            "accessDepth": 67.122,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00007": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 88.603,
+          "radiationLevel": null,
+          "terrainObstacle": 0.237042,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-7-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 708961.084,
+            "gradeProbabilities": {
+              "low": 0.48715800669675435,
+              "medium": 0.44993874327413574,
+              "high": 0.06290325002910993
+            },
+            "extractionDifficulty": 23.512,
+            "processingDifficulty": 35.614,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-7-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 407894.46,
+            "gradeProbabilities": {
+              "low": 0.15468879003764302,
+              "medium": 0.26950088682812756,
+              "high": 0.5758103231342294
+            },
+            "extractionDifficulty": 75.29,
+            "processingDifficulty": 35.614,
+            "discoveryTier": 3,
+            "accessDepth": 76.66,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00008": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.755,
+          "radiationLevel": null,
+          "terrainObstacle": 0.133581,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-8-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3458937.306,
+            "gradeProbabilities": {
+              "low": 0.4272101880656466,
+              "medium": 0.5605552391496537,
+              "high": 0.01223457278469979
+            },
+            "extractionDifficulty": 34.038,
+            "processingDifficulty": 32.408,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-8-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 553739.559,
+            "gradeProbabilities": {
+              "low": 0.13855019376400904,
+              "medium": 0.32294713862179936,
+              "high": 0.5385026676141916
+            },
+            "extractionDifficulty": 69.816,
+            "processingDifficulty": 32.408,
+            "discoveryTier": 4,
+            "accessDepth": 56.391,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00009": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 95.877,
+          "radiationLevel": null,
+          "terrainObstacle": 0.127927,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-9-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4733868.677,
+            "gradeProbabilities": {
+              "low": 0.43755888058809733,
+              "medium": 0.4979410065172353,
+              "high": 0.0645001128946674
+            },
+            "extractionDifficulty": 13.757,
+            "processingDifficulty": 59.144,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-9-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1472095.871,
+            "gradeProbabilities": {
+              "low": 0.16347198170376942,
+              "medium": 0.19814887840067963,
+              "high": 0.638379139895551
+            },
+            "extractionDifficulty": 72.488,
+            "processingDifficulty": 59.144,
+            "discoveryTier": 3,
+            "accessDepth": 66.197,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00010": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 85.736,
+          "radiationLevel": null,
+          "terrainObstacle": 0.179843,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-10-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 601546.754,
+            "gradeProbabilities": {
+              "low": 0.4364732010838815,
+              "medium": 0.5076690991381028,
+              "high": 0.05585769977801584
+            },
+            "extractionDifficulty": 22.456,
+            "processingDifficulty": 32.573,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-10-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 295105.671,
+            "gradeProbabilities": {
+              "low": 0.13817403398057285,
+              "medium": 0.2656396622978532,
+              "high": 0.596186303721574
+            },
+            "extractionDifficulty": 68.164,
+            "processingDifficulty": 32.573,
+            "discoveryTier": 4,
+            "accessDepth": 56.453,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00011": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 79.685,
+          "radiationLevel": null,
+          "terrainObstacle": 0.382216,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-11-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1020896.566,
+            "gradeProbabilities": {
+              "low": 0.463204829763304,
+              "medium": 0.4752387929186097,
+              "high": 0.06155637731808629
+            },
+            "extractionDifficulty": 33.404,
+            "processingDifficulty": 51.936,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00012": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.139,
+          "radiationLevel": null,
+          "terrainObstacle": 0.303137,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-12-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1735896.766,
+            "gradeProbabilities": {
+              "low": 0.46747693797677936,
+              "medium": 0.5091426587181146,
+              "high": 0.023380403305106035
+            },
+            "extractionDifficulty": 28.327,
+            "processingDifficulty": 15.629,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-12-4",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1224969.741,
+            "gradeProbabilities": {
+              "low": 0.11345541068565901,
+              "medium": 0.7096713728397416,
+              "high": 0.1768732164745994
+            },
+            "extractionDifficulty": 48.758,
+            "processingDifficulty": 15.629,
+            "discoveryTier": 2,
+            "accessDepth": 19.75,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00013": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.449,
+          "radiationLevel": null,
+          "terrainObstacle": 0.386134,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-13-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4821569.268,
+            "gradeProbabilities": {
+              "low": 0.4500838819550376,
+              "medium": 0.4890119415803598,
+              "high": 0.060904176464602486
+            },
+            "extractionDifficulty": 27,
+            "processingDifficulty": 48.931,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-13-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1555462.062,
+            "gradeProbabilities": {
+              "low": 0.07489092434231501,
+              "medium": 0.2966867288436926,
+              "high": 0.6284223468139923
+            },
+            "extractionDifficulty": 80.365,
+            "processingDifficulty": 48.931,
+            "discoveryTier": 3,
+            "accessDepth": 98.01,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00014": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.381,
+          "radiationLevel": null,
+          "terrainObstacle": 0.346565,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-14-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 5497855.288,
+            "gradeProbabilities": {
+              "low": 0.46373861544820266,
+              "medium": 0.48885356251002,
+              "high": 0.047407822041777424
+            },
+            "extractionDifficulty": 32.257,
+            "processingDifficulty": 56.1,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-14-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 962367.674,
+            "gradeProbabilities": {
+              "low": 0.07504829431109492,
+              "medium": 0.3485525754370882,
+              "high": 0.5763991302518169
+            },
+            "extractionDifficulty": 82.826,
+            "processingDifficulty": 56.1,
+            "discoveryTier": 3,
+            "accessDepth": 92.778,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00015": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.269,
+          "radiationLevel": null,
+          "terrainObstacle": 0.241677,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-15-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2521634.256,
+            "gradeProbabilities": {
+              "low": 0.495222567816607,
+              "medium": 0.4873244425375472,
+              "high": 0.017452989645845775
+            },
+            "extractionDifficulty": 34.668,
+            "processingDifficulty": 57.736,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-15-4",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1573844.426,
+            "gradeProbabilities": {
+              "low": 0.0999210768379271,
+              "medium": 0.7416688415200586,
+              "high": 0.15841008164201428
+            },
+            "extractionDifficulty": 46.581,
+            "processingDifficulty": 57.736,
+            "discoveryTier": 1,
+            "accessDepth": 30.551,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-15-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 465451.038,
+            "gradeProbabilities": {
+              "low": 0.08250530455864295,
+              "medium": 0.3135155722911622,
+              "high": 0.6039791231501949
+            },
+            "extractionDifficulty": 75.453,
+            "processingDifficulty": 57.736,
+            "discoveryTier": 3,
+            "accessDepth": 92.586,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00016": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 91.636,
+          "radiationLevel": null,
+          "terrainObstacle": 0.363951,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-16-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3486542.815,
+            "gradeProbabilities": {
+              "low": 0.4400041526824125,
+              "medium": 0.5095500644493245,
+              "high": 0.05044578286826292
+            },
+            "extractionDifficulty": 32.754,
+            "processingDifficulty": 60.957,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-16-4",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-4",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 966409.688,
+            "gradeProbabilities": {
+              "low": 0.11051444422118725,
+              "medium": 0.7220283091630242,
+              "high": 0.16745724661578856
+            },
+            "extractionDifficulty": 50.778,
+            "processingDifficulty": 60.957,
+            "discoveryTier": 1,
+            "accessDepth": 20.686,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00017": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 93.853,
+          "radiationLevel": null,
+          "terrainObstacle": 0.238432,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-17-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 898968.435,
+            "gradeProbabilities": {
+              "low": 0.4953846724583988,
+              "medium": 0.4922091570457893,
+              "high": 0.012406170495811907
+            },
+            "extractionDifficulty": 33.347,
+            "processingDifficulty": 26.233,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-17-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 623972.415,
+            "gradeProbabilities": {
+              "low": 0.12010372476064657,
+              "medium": 0.257077578848969,
+              "high": 0.6228186963903845
+            },
+            "extractionDifficulty": 80.662,
+            "processingDifficulty": 26.233,
+            "discoveryTier": 4,
+            "accessDepth": 63.906,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00018": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 96.005,
+          "radiationLevel": null,
+          "terrainObstacle": 0.377311,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-18-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1016076.766,
+            "gradeProbabilities": {
+              "low": 0.47073951876112813,
+              "medium": 0.4961480748475266,
+              "high": 0.03311240639134535
+            },
+            "extractionDifficulty": 34.9,
+            "processingDifficulty": 31.271,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00019": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 101.122,
+          "radiationLevel": null,
+          "terrainObstacle": 0.211202,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-19-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 7995925.145,
+            "gradeProbabilities": {
+              "low": 0.4942080623511636,
+              "medium": 0.4710283721315434,
+              "high": 0.034763565517293024
+            },
+            "extractionDifficulty": 12.892,
+            "processingDifficulty": 59.402,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-19-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3420218.771,
+            "gradeProbabilities": {
+              "low": 0.12091264243707738,
+              "medium": 0.8001732773752444,
+              "high": 0.07891408018767833
+            },
+            "extractionDifficulty": 53.174,
+            "processingDifficulty": 59.402,
+            "discoveryTier": 1,
+            "accessDepth": 10.729,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00020": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.512,
+          "radiationLevel": null,
+          "terrainObstacle": 0.136655,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-20-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2483175.676,
+            "gradeProbabilities": {
+              "low": 0.46625209151851116,
+              "medium": 0.48662060531954293,
+              "high": 0.04712730316194598
+            },
+            "extractionDifficulty": 28.779,
+            "processingDifficulty": 58.512,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-20-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 928644.133,
+            "gradeProbabilities": {
+              "low": 0.13004441414776216,
+              "medium": 0.7675187341781893,
+              "high": 0.10243685167404856
+            },
+            "extractionDifficulty": 36.673,
+            "processingDifficulty": 58.512,
+            "discoveryTier": 2,
+            "accessDepth": 21.231,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00021": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 92.593,
+          "radiationLevel": null,
+          "terrainObstacle": 0.34109,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-21-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 497060.927,
+            "gradeProbabilities": {
+              "low": 0.4672690994403996,
+              "medium": 0.4955904938832019,
+              "high": 0.03714040667639844
+            },
+            "extractionDifficulty": 33.201,
+            "processingDifficulty": 62.782,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00022": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.586,
+          "radiationLevel": null,
+          "terrainObstacle": 0.134033,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-22-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1674716.662,
+            "gradeProbabilities": {
+              "low": 0.4746578675797131,
+              "medium": 0.46478284802110614,
+              "high": 0.06055928439918076
+            },
+            "extractionDifficulty": 13.561,
+            "processingDifficulty": 33.607,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00023": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.714,
+          "radiationLevel": null,
+          "terrainObstacle": 0.110585,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-23-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1138857.255,
+            "gradeProbabilities": {
+              "low": 0.45086804112561535,
+              "medium": 0.4943208496024611,
+              "high": 0.054811109271923494
+            },
+            "extractionDifficulty": 12.798,
+            "processingDifficulty": 61.611,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-23-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 593249.051,
+            "gradeProbabilities": {
+              "low": 0.08425697805965891,
+              "medium": 0.29610041143126686,
+              "high": 0.6196426105090742
+            },
+            "extractionDifficulty": 72.92,
+            "processingDifficulty": 61.611,
+            "discoveryTier": 5,
+            "accessDepth": 78.385,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00024": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 102.682,
+          "radiationLevel": null,
+          "terrainObstacle": 0.211602,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-24-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1492822.137,
+            "gradeProbabilities": {
+              "low": 0.475848087764967,
+              "medium": 0.47345846700192046,
+              "high": 0.050693445233112554
+            },
+            "extractionDifficulty": 30.039,
+            "processingDifficulty": 42.678,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00025": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 100.838,
+          "radiationLevel": null,
+          "terrainObstacle": 0.186128,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-25-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1000641.051,
+            "gradeProbabilities": {
+              "low": 0.479353657077804,
+              "medium": 0.48936652841124273,
+              "high": 0.03127981451095328
+            },
+            "extractionDifficulty": 25.518,
+            "processingDifficulty": 63.172,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00026": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 98.717,
+          "radiationLevel": null,
+          "terrainObstacle": 0.114984,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-26-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2817001.024,
+            "gradeProbabilities": {
+              "low": 0.4419587278788662,
+              "medium": 0.5002381327783778,
+              "high": 0.05780313934275609
+            },
+            "extractionDifficulty": 16.24,
+            "processingDifficulty": 27.808,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-26-2",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-2",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 9202617.12,
+            "gradeProbabilities": {
+              "low": 0.19154338449808278,
+              "medium": 0.6839520595545225,
+              "high": 0.12450455594739478
+            },
+            "extractionDifficulty": 32.765,
+            "processingDifficulty": 27.808,
+            "discoveryTier": 2,
+            "accessDepth": 7.652,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00027": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 103.249,
+          "radiationLevel": null,
+          "terrainObstacle": 0.280848,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-27-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 10339945.66,
+            "gradeProbabilities": {
+              "low": 0.4500205860710455,
+              "medium": 0.5066190202470597,
+              "high": 0.04336039368189472
+            },
+            "extractionDifficulty": 31.683,
+            "processingDifficulty": 29.086,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-27-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 2808615.622,
+            "gradeProbabilities": {
+              "low": 0.1576692467838754,
+              "medium": 0.21253656210757554,
+              "high": 0.6297941911085491
+            },
+            "extractionDifficulty": 60.584,
+            "processingDifficulty": 29.086,
+            "discoveryTier": 5,
+            "accessDepth": 50.307,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00028": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 94.747,
+          "radiationLevel": null,
+          "terrainObstacle": 0.185581,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-28-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3362396.479,
+            "gradeProbabilities": {
+              "low": 0.48626719136530766,
+              "medium": 0.4561871239669184,
+              "high": 0.05754568466777397
+            },
+            "extractionDifficulty": 19.401,
+            "processingDifficulty": 66.653,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-28-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 10274620.313,
+            "gradeProbabilities": {
+              "low": 0.15633022530132956,
+              "medium": 0.26602379739883775,
+              "high": 0.5776459772998327
+            },
+            "extractionDifficulty": 75.877,
+            "processingDifficulty": 66.653,
+            "discoveryTier": 3,
+            "accessDepth": 66.221,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00029": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 107.129,
+          "radiationLevel": null,
+          "terrainObstacle": 0.179519,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-29-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 1551752.766,
+            "gradeProbabilities": {
+              "low": 0.4803284032092276,
+              "medium": 0.46139946063231013,
+              "high": 0.05827213615846224
+            },
+            "extractionDifficulty": 26.357,
+            "processingDifficulty": 33.36,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-29-1",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 4053118.629,
+            "gradeProbabilities": {
+              "low": 0.11461738522243856,
+              "medium": 0.753648950094775,
+              "high": 0.1317336646827865
+            },
+            "extractionDifficulty": 48.324,
+            "processingDifficulty": 33.36,
+            "discoveryTier": 2,
+            "accessDepth": 32.091,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-29-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 3208464.034,
+            "gradeProbabilities": {
+              "low": 0.08866375159017412,
+              "medium": 0.341873746576814,
+              "high": 0.5694625018330118
+            },
+            "extractionDifficulty": 63.215,
+            "processingDifficulty": 33.36,
+            "discoveryTier": 5,
+            "accessDepth": 95.152,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00030": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 106.631,
+          "radiationLevel": null,
+          "terrainObstacle": 0.151706,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-30-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 2595336.121,
+            "gradeProbabilities": {
+              "low": 0.499010531778913,
+              "medium": 0.4384893179702248,
+              "high": 0.06250015025086213
+            },
+            "extractionDifficulty": 19.186,
+            "processingDifficulty": 55.495,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-30-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 1219002.578,
+            "gradeProbabilities": {
+              "low": 0.0967134612401696,
+              "medium": 0.2883170303326005,
+              "high": 0.61496950842723
+            },
+            "extractionDifficulty": 68.309,
+            "processingDifficulty": 55.495,
+            "discoveryTier": 3,
+            "accessDepth": 52.049,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00031": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 102.637,
+          "radiationLevel": null,
+          "terrainObstacle": 0.281354,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-31-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 14375789.909,
+            "gradeProbabilities": {
+              "low": 0.4243666378636222,
+              "medium": 0.5146451741634926,
+              "high": 0.060988187972885216
+            },
+            "extractionDifficulty": 23.268,
+            "processingDifficulty": 50.941,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-31-1",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 2897663.177,
+            "gradeProbabilities": {
+              "low": 0.10569793175843284,
+              "medium": 0.775066003275015,
+              "high": 0.11923606496655226
+            },
+            "extractionDifficulty": 38.088,
+            "processingDifficulty": 50.941,
+            "discoveryTier": 1,
+            "accessDepth": 11.474,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00032": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 102.912,
+          "radiationLevel": null,
+          "terrainObstacle": 0.2961,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-32-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3099780.999,
+            "gradeProbabilities": {
+              "low": 0.4716862840776939,
+              "medium": 0.487127204861409,
+              "high": 0.04118651106089715
+            },
+            "extractionDifficulty": 24.143,
+            "processingDifficulty": 58.564,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-deep-32-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-deep-0",
+            "resourceId": "ore",
+            "depositKind": "deep",
+            "initialReserveU": 11304570.613,
+            "gradeProbabilities": {
+              "low": 0.07268862368778473,
+              "medium": 0.3546886627740369,
+              "high": 0.5726227135381784
+            },
+            "extractionDifficulty": 67.844,
+            "processingDifficulty": 58.564,
+            "discoveryTier": 4,
+            "accessDepth": 53.493,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00033": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 101.11,
+          "radiationLevel": null,
+          "terrainObstacle": 0.130722,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-33-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 531454.952,
+            "gradeProbabilities": {
+              "low": 0.45956099920432203,
+              "medium": 0.5110405354723988,
+              "high": 0.029398465323279152
+            },
+            "extractionDifficulty": 25.361,
+            "processingDifficulty": 32.24,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-33-1",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-1",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 2725377.496,
+            "gradeProbabilities": {
+              "low": 0.12268408151697158,
+              "medium": 0.759989050686386,
+              "high": 0.11732686779664231
+            },
+            "extractionDifficulty": 41.847,
+            "processingDifficulty": 32.24,
+            "discoveryTier": 1,
+            "accessDepth": 17.354,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00034": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 105.015,
+          "radiationLevel": null,
+          "terrainObstacle": 0.347783,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-34-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3233352.541,
+            "gradeProbabilities": {
+              "low": 0.4267932660761511,
+              "medium": 0.5471408169782296,
+              "high": 0.026065916945619372
+            },
+            "extractionDifficulty": 19.127,
+            "processingDifficulty": 43.616,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00035": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 99.561,
+          "radiationLevel": null,
+          "terrainObstacle": 0.269855,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-35-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 795770.331,
+            "gradeProbabilities": {
+              "low": 0.45277075165282565,
+              "medium": 0.5238920835671443,
+              "high": 0.023337164780030034
+            },
+            "extractionDifficulty": 20.426,
+            "processingDifficulty": 21.219,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00036": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 101.498,
+          "radiationLevel": null,
+          "terrainObstacle": 0.112015,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-36-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 21637242.225,
+            "gradeProbabilities": {
+              "low": 0.4270325601021477,
+              "medium": 0.5363657004629481,
+              "high": 0.03660173943490434
+            },
+            "extractionDifficulty": 22.126,
+            "processingDifficulty": 52.446,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-36-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-0",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 3081174.812,
+            "gradeProbabilities": {
+              "low": 0.1386131862867526,
+              "medium": 0.7765446586014398,
+              "high": 0.08484215511180762
+            },
+            "extractionDifficulty": 49.703,
+            "processingDifficulty": 52.446,
+            "discoveryTier": 2,
+            "accessDepth": 29.837,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00037": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 102.58,
+          "radiationLevel": null,
+          "terrainObstacle": 0.112976,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-37-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 8540307.948,
+            "gradeProbabilities": {
+              "low": 0.44532464108785363,
+              "medium": 0.5040806330111227,
+              "high": 0.0505947259010237
+            },
+            "extractionDifficulty": 12.869,
+            "processingDifficulty": 54.477,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00038": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 102.263,
+          "radiationLevel": null,
+          "terrainObstacle": 0.106013,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-38-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3567845.298,
+            "gradeProbabilities": {
+              "low": 0.425199680322193,
+              "medium": 0.5619518002854053,
+              "high": 0.012848519392401683
+            },
+            "extractionDifficulty": 31.393,
+            "processingDifficulty": 38.123,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00039": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 105.838,
+          "radiationLevel": null,
+          "terrainObstacle": 0.366678,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-39-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4619906.354,
+            "gradeProbabilities": {
+              "low": 0.42028943917353645,
+              "medium": 0.522906177202364,
+              "high": 0.05680438362409962
+            },
+            "extractionDifficulty": 32.888,
+            "processingDifficulty": 52.186,
+            "discoveryTier": 0,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-39-3",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 10310752.777,
+            "gradeProbabilities": {
+              "low": 0.14853549083217227,
+              "medium": 0.6933090057594951,
+              "high": 0.15815550340833268
+            },
+            "extractionDifficulty": 34.828,
+            "processingDifficulty": 52.186,
+            "discoveryTier": 1,
+            "accessDepth": 25.854,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00040": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 105.085,
+          "radiationLevel": null,
+          "terrainObstacle": 0.361025,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-40-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 4347988.858,
+            "gradeProbabilities": {
+              "low": 0.46554902315163166,
+              "medium": 0.4825916250246116,
+              "high": 0.05185935182375667
+            },
+            "extractionDifficulty": 11.301,
+            "processingDifficulty": 36.641,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-40-3",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1365921.892,
+            "gradeProbabilities": {
+              "low": 0.14542930755388944,
+              "medium": 0.7055814451465057,
+              "high": 0.14898924729960486
+            },
+            "extractionDifficulty": 39.808,
+            "processingDifficulty": 36.641,
+            "discoveryTier": 2,
+            "accessDepth": 24.752,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      },
+      "sol:enceladus:surface:00041": {
+        "surfaceType": "solid",
+        "terrain": {
+          "terrainType": "ice",
+          "landFraction": 1,
+          "waterFraction": 0
+        },
+        "environment": {
+          "temperatureK": 106.165,
+          "radiationLevel": null,
+          "terrainObstacle": 0.290859,
+          "habitability": 0,
+          "atmosphereNotes": "게임용 생성 프로필: ice-surface (기후 관측/물리 계산 아님)"
+        },
+        "deposits": [
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-surface-41-0",
+            "groupId": "g2-sol-enceladus-ef440a5b-surface-0",
+            "resourceId": "ore",
+            "depositKind": "surface",
+            "initialReserveU": 3943873.379,
+            "gradeProbabilities": {
+              "low": 0.4261548080706384,
+              "medium": 0.5464614960436807,
+              "high": 0.027383695885681028
+            },
+            "extractionDifficulty": 12.606,
+            "processingDifficulty": 15.787,
+            "discoveryTier": 1,
+            "accessDepth": 0,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          },
+          {
+            "depositId": "r2-sol-enceladus-ef440a5b-vein-41-3",
+            "groupId": "g2-sol-enceladus-ef440a5b-vein-3",
+            "resourceId": "ore",
+            "depositKind": "vein",
+            "initialReserveU": 1577079.993,
+            "gradeProbabilities": {
+              "low": 0.14686494701461697,
+              "medium": 0.7216054351459811,
+              "high": 0.13152961783940192
+            },
+            "extractionDifficulty": 41.239,
+            "processingDifficulty": 15.787,
+            "discoveryTier": 2,
+            "accessDepth": 31.777,
+            "compositionTags": [],
+            "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님"
+          }
+        ]
+      }
+    }
+  },
+  "startingScenario": {
+    "year": 2100,
+    "civilizationId": null,
+    "role": null,
+    "cells": {
+      "sol:enceladus:surface:00000": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00001": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00002": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00003": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00004": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00005": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00006": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00007": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00008": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00009": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00010": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00011": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00012": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00013": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00014": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00015": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00016": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00017": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00018": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00019": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00020": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00021": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00022": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00023": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00024": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00025": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00026": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00027": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00028": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00029": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00030": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00031": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00032": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00033": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00034": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00035": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00036": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00037": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00038": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00039": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00040": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      },
+      "sol:enceladus:surface:00041": {
+        "populationPersons": null,
+        "urbanizationRate": null,
+        "infrastructureLevel": null,
+        "civilizationId": null,
+        "ownerFactionId": null,
+        "controllerFactionId": null,
+        "knowledge": null,
+        "facilities": null
+      }
+    }
+  },
+  "resourceConfiguration": {
+    "totalOreU": 248867240.205,
+    "typeShares": {
+      "surface": 0.6242531958427773,
+      "vein": 0.22047970419824972,
+      "deep": 0.1552670999589729
+    },
+    "gradeTargets": {
+      "surface": {
+        "low": 0.44901053177891304,
+        "medium": 0.5049590625194832,
+        "high": 0.046030405701603744
+      },
+      "vein": {
+        "low": 0.1499210768379271,
+        "medium": 0.7211648429743945,
+        "high": 0.12891408018767833
+      },
+      "deep": {
+        "low": 0.11347198170376942,
+        "medium": 0.2981488784006797,
+        "high": 0.5883791398955509
+      }
+    },
+    "certainty": "provisional",
+    "notes": "잠정 게임 밸런스 · 천문 관측 매장량 아님",
+    "worldSeed": "sol:enceladus:resources:v1",
+    "generatorVersion": 2,
+    "budgetPolicy": "procedural",
+    "jitter": 0.05,
+    "qualityJitterPolicy": "per-component-v2",
+    "maxDeviation": 0.05,
+    "concentrationPolicy": {
+      "minimumFixedGroups": 3,
+      "minimumProceduralGroups": 2,
+      "maximumGroups": 6,
+      "minimumGroupCells": 3,
+      "minimumCoverage": 0.25,
+      "maximumCellShare": 0.1,
+      "maximumGroupShare": 0.5
+    },
+    "qualityJitterDiagnostics": {
+      "surface": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 42,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.03452280427620281
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.42028943917353645,
+            "max": 0.499010531778913,
+            "actualMaxDeviation": 0.04999999999999999
+          },
+          "medium": {
+            "min": 0.4384893179702248,
+            "max": 0.5619518002854053,
+            "actualMaxDeviation": 0.06646974454925841
+          },
+          "high": {
+            "min": 0.011507601425400936,
+            "max": 0.06681813986222562,
+            "actualMaxDeviation": 0.03452280427620281
+          }
+        }
+      },
+      "vein": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 15,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.0999210768379271,
+            "max": 0.19154338449808278,
+            "actualMaxDeviation": 0.05
+          },
+          "medium": {
+            "min": 0.6839520595545225,
+            "max": 0.8001732773752444,
+            "actualMaxDeviation": 0.07900843440084981
+          },
+          "high": {
+            "min": 0.07891408018767833,
+            "max": 0.1768732164745994,
+            "actualMaxDeviation": 0.05
+          }
+        }
+      },
+      "deep": {
+        "policy": "per-component-v2",
+        "maxDeviation": 0.05,
+        "count": 16,
+        "amplitudes": {
+          "low": 0.05,
+          "high": 0.05
+        },
+        "scaleK": 1,
+        "mediumGuardRelaxed": false,
+        "ranges": {
+          "low": {
+            "min": 0.07268862368778473,
+            "max": 0.16347198170376942,
+            "actualMaxDeviation": 0.05
+          },
+          "medium": {
+            "min": 0.19814887840067963,
+            "max": 0.3546886627740369,
+            "actualMaxDeviation": 0.10000000000000009
+          },
+          "high": {
+            "min": 0.5385026676141916,
+            "max": 0.638379139895551,
+            "actualMaxDeviation": 0.050000000000000044
+          }
+        }
+      }
+    },
+    "concentrationDiagnostics": {
+      "candidateCells": 42,
+      "requiredCoverage": 11,
+      "veinCells": 15,
+      "groupCount": 5,
+      "minimumGroupCells": 3,
+      "exceptions": [],
+      "nominalCellCapQuanta": 24886724020,
+      "maxCellFraction": 0.09932370775936053,
+      "maxGroupFraction": 0.3780742412261763
+    }
+  },
+  "hydrogenSources": [
+    {
+      "sourceId": "h1-sol-enceladus-58676b42-0",
+      "tileId": "sol:enceladus:surface:00028",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 22310126.964,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 59.116,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    },
+    {
+      "sourceId": "h1-sol-enceladus-58676b42-1",
+      "tileId": "sol:enceladus:surface:00038",
+      "resourceId": "hydrogen",
+      "sourceType": "finite-source",
+      "initialReserveU": 6386677.283,
+      "potentialCollectionUPerCycle": null,
+      "operatingDifficulty": 50.159,
+      "facilityRequirement": "ice-water-extraction",
+      "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님"
+    }
+  ],
+  "initialResourceKnowledge": [],
+  "migration": {
+    "migrationVersion": 1,
+    "fromSchemaVersion": 1,
+    "notes": "템플릿 v2, 자원 생성기1→2 집중도/편차 보정. 기존 총량/형태/품질 타깃과 지형·시나리오 보존, 새 ore ID로 초기 인지 참조 재생성."
+  }
+}

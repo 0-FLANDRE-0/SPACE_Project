@@ -1,0 +1,32 @@
+✖ legacy operating proxies have zero effect when explicit costs are enabled (49.683506ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 119.157485
+
+✖ failing tests:
+
+test at tests/economy-energy-model.test.js:92:1
+✖ legacy operating proxies have zero effect when explicit costs are enabled (49.683506ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+
+  + 'baf033f3d2f293463e51c80fdfeaf12f3a2b735f717271b0764d4f323684cf5f'
+  - 'e06d2fce87db81dca72cc115aa995f61658af72738afb6787fd5c5093b8f178b'
+
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ3-mutants/duplicate-old-proxy/tests/economy-energy-model.test.js:92:233)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'baf033f3d2f293463e51c80fdfeaf12f3a2b735f717271b0764d4f323684cf5f',
+    expected: 'e06d2fce87db81dca72cc115aa995f61658af72738afb6787fd5c5093b8f178b',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,23 @@
+{
+  "renderer": "Chromium SwiftShader; software WebGL",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "sample": "one short ~2.5 second RAF observation per version; not a hardware benchmark",
+  "v03": {
+    "elapsedMs": 2554.2999999988824,
+    "frames": 15,
+    "fps": 5.872450377796877,
+    "calls": 54,
+    "triangles": 172850
+  },
+  "v04": {
+    "elapsedMs": 2582.60000000149,
+    "frames": 16,
+    "fps": 6.195307054902334,
+    "calls": 55,
+    "triangles": 172850,
+    "geometries": 35
+  }
+}

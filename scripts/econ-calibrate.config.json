@@ -1,0 +1,195 @@
+{
+  "status": "ECON-SIM-1 탐색용 / 사용자 미결정",
+  "baselineCommit": "7d31e16b1ecc9faa42d9ea21aee7068e8dc09722",
+  "months": 240,
+  "samples": 256,
+  "seeds": [
+    "econ-1",
+    "econ-2",
+    "econ-3"
+  ],
+  "samplingSeed": "econ-lhs-1",
+  "parameters": {
+    "baseAlloyPrice": 2.3,
+    "hydrogenPrice": 1,
+    "bodies": {
+      "earth": {
+        "populationPersons": 8893000000,
+        "annualGDP": 20000000,
+        "taxRate": 0.25,
+        "collectionEfficiency": 1
+      },
+      "moon": {
+        "populationPersons": 200000,
+        "annualGDP": 450,
+        "taxRate": 0,
+        "collectionEfficiency": 1
+      },
+      "mars": {
+        "populationPersons": 50000,
+        "annualGDP": 112.5,
+        "taxRate": 0,
+        "collectionEfficiency": 1
+      }
+    },
+    "initialTreasuryC": 100000,
+    "initialAlloyU": 10000,
+    "initialHydrogenU": 500,
+    "gradeProbabilities": {
+      "low": 0.45,
+      "medium": 0.5,
+      "high": 0.05
+    },
+    "difficulty": 48,
+    "processingDifficulty": 48,
+    "productivityGrowth": 0.015,
+    "earthPopulationGrowth": 0,
+    "colonyPopulationGrowth": 0.01,
+    "earthTaxRate": 0.25,
+    "strategyShare": 0.02,
+    "velocity": 1.5,
+    "targetInflation": 0.02,
+    "alloyMarketShare": 0.03,
+    "demandElasticity": 0.5,
+    "inventoryDays": 90,
+    "priceAdjustment": 0.06,
+    "priceReversion": 0.04,
+    "priceFloor": 0.5,
+    "priceCeiling": 2.5,
+    "expansionDelayMonths": 12,
+    "expansionBeta": 0.012,
+    "privateDepreciation": 0.03,
+    "privateAmortizationYears": 5,
+    "privateOperatingRate": 0.1,
+    "privateScale": 1,
+    "requiredMargin": 0.15,
+    "shipMaintenanceRate": 0.07,
+    "governmentOperatingRate": 0,
+    "colonySupportC": 2500,
+    "productivityShock": 0.01,
+    "debtInterestRate": 0.03,
+    "warStartMonth": 48,
+    "warDurationMonths": 24,
+    "warPurchaseMonths": 12,
+    "warAlloyU": 50000,
+    "warStrategyShare": 0.1,
+    "warMonetizationFraction": 1,
+    "colonySupportMultiplier": 3,
+    "colonyBuildEveryMonths": 24,
+    "supplyConstraintStrength": 0.03,
+    "governmentSaleFraction": 0,
+    "privateForecastMonths": 6,
+    "shipyardSlots": 1
+  },
+  "ranges": {
+    "productivityGrowth": [
+      0.005,
+      0.025
+    ],
+    "earthPopulationGrowth": [
+      -0.002,
+      0.003
+    ],
+    "colonyPopulationGrowth": [
+      0,
+      0.02
+    ],
+    "earthTaxRate": [
+      0.2,
+      0.3
+    ],
+    "strategyShare": [
+      0.01,
+      0.04
+    ],
+    "velocity": [
+      1,
+      2
+    ],
+    "targetInflation": [
+      0,
+      0.03
+    ],
+    "alloyMarketShare": [
+      0.015,
+      0.04
+    ],
+    "demandElasticity": [
+      0.2,
+      0.8
+    ],
+    "inventoryDays": [
+      60,
+      150
+    ],
+    "priceAdjustment": [
+      0.015,
+      0.1
+    ],
+    "priceReversion": [
+      0.015,
+      0.08
+    ],
+    "expansionDelayMonths": [
+      6,
+      24
+    ],
+    "expansionBeta": [
+      0.005,
+      0.03
+    ],
+    "privateDepreciation": [
+      0.02,
+      0.05
+    ],
+    "privateAmortizationYears": [
+      3,
+      8
+    ],
+    "privateScale": [
+      0.85,
+      1
+    ],
+    "requiredMargin": [
+      0.05,
+      0.25
+    ],
+    "shipMaintenanceRate": [
+      0.05,
+      0.1
+    ],
+    "governmentOperatingRate": [
+      0,
+      0.15
+    ],
+    "colonySupportC": [
+      0,
+      10000
+    ],
+    "productivityShock": [
+      0,
+      0.025
+    ],
+    "difficulty": [
+      44,
+      52
+    ]
+  },
+  "criteria": {
+    "peaceDeviation": 0.15,
+    "inflationMin": 0.01,
+    "inflationMax": 0.03,
+    "budget17Min": 1.1,
+    "budget17Max": 1.6,
+    "governmentShare17Max": 0.25,
+    "paybackMinYears": 1.5,
+    "paybackMaxYears": 3,
+    "warPeakMin": 0.2,
+    "warPeakMax": 0.6,
+    "recoveryMinYears": 2,
+    "recoveryMaxYears": 4,
+    "recoveryDeviation": 0.1,
+    "recoveryHoldMonths": 12,
+    "colonyBurdenMax": 0.15
+  }
+}

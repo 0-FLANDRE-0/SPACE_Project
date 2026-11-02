@@ -1,0 +1,28 @@
+✖ stopped facilities retain high alloy upkeep, low C; construction has neither (2.056585ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79.706828
+
+✖ failing tests:
+
+test at tests/economy-energy-model.test.js:47:1
+✖ stopped facilities retain high alloy upkeep, low C; construction has neither (2.056585ms)
+  AssertionError [ERR_ASSERTION]: 0 != 0.9
+      at near (file:///workspace/SPACE_Project/artifacts/econ3-mutants/free-paused-upkeep/tests/economy-energy-model.test.js:12:33)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ3-mutants/free-paused-upkeep/tests/economy-energy-model.test.js:49:2)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

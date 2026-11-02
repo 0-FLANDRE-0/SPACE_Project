@@ -1,0 +1,28 @@
+✖ no electricity gives no electrolysis output; output H never funds same-settlement startup (10.849932ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 86.212425
+
+✖ failing tests:
+
+test at tests/economy-energy-model.test.js:75:1
+✖ no electricity gives no electrolysis output; output H never funds same-settlement startup (10.849932ms)
+  AssertionError [ERR_ASSERTION]: 1545.977 != 0
+      at near (file:///workspace/SPACE_Project/artifacts/econ3-mutants/zero-power-electrolysis/tests/economy-energy-model.test.js:12:33)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ3-mutants/zero-power-electrolysis/tests/economy-energy-model.test.js:76:253)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

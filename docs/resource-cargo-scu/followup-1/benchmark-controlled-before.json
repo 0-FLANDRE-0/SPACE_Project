@@ -1,0 +1,34 @@
+{
+  "node": "v24.19.0",
+  "root": "archived PR12",
+  "rows": [
+    {
+      "accounts": 1,
+      "days": 500,
+      "repetitions": 5,
+      "meanMs": 17.7985708,
+      "maxMs": 27.673100000000005,
+      "structuredClones": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accounts": 19,
+      "days": 500,
+      "repetitions": 5,
+      "meanMs": 210.86187039999996,
+      "maxMs": 250.983089,
+      "structuredClones": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

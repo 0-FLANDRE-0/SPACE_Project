@@ -1,9 +1,9 @@
 import * as THREE from 'three';
 import { SURFACE_FILES } from './data.js';
 export function random(seed=42) {return ()=>{seed=(Math.imul(1664525,seed)+1013904223)|0;return (seed>>>0)/4294967296;};}
-export async function loadSurfaceMaps() {
+export async function loadSurfaceMaps(files=SURFACE_FILES) {
   const loader=new THREE.TextureLoader();
-  const entries=await Promise.all(Object.entries(SURFACE_FILES).map(async([id,url])=>{
+  const entries=await Promise.all(Object.entries(files).map(async([id,url])=>{
     const texture=await loader.loadAsync(url);
     texture.colorSpace=id==='clouds'?THREE.NoColorSpace:THREE.SRGBColorSpace;
     texture.anisotropy=4;

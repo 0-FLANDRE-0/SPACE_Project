@@ -1,0 +1,116 @@
+{
+  "additionalExecutedRuns": 20,
+  "meaning": "GDP는 월별 연율차/12 누계. 세수/재량예산은 물가 조정 C. GDP·예비력은 현금 매출에 더하지 않음. 예비분은 월 평균 에너지 환산 GW이며 피크 용량시장 가격이 아님.",
+  "rows": [
+    {
+      "scenario": "E1",
+      "seed": "econ-1",
+      "cumulativeRealGDPDifferenceC": 1.241763432820638e-9,
+      "realTaxReceiptDifferenceC": 5.197112581559589e-10,
+      "realDiscretionaryBudgetDifferenceC": 1.0913936421275139e-11,
+      "minimumHeadroomDifferenceGW": -2.998296496303965,
+      "meanHeadroomDifferenceGW": 6.910576560070798,
+      "externalPowerSalesC": 100336.60699999995,
+      "avoidedUnservedGWh": 0
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-2",
+      "cumulativeRealGDPDifferenceC": -9.313225746154785e-10,
+      "realTaxReceiptDifferenceC": 1.7323708605198634e-10,
+      "realDiscretionaryBudgetDifferenceC": 3.637978807091713e-12,
+      "minimumHeadroomDifferenceGW": 8.647468011785463,
+      "meanHeadroomDifferenceGW": 2.7978320994956154,
+      "externalPowerSalesC": 100248.83600000001,
+      "avoidedUnservedGWh": 0
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-3",
+      "cumulativeRealGDPDifferenceC": 1.8626451492309566e-9,
+      "realTaxReceiptDifferenceC": 8.661854302599314e-10,
+      "realDiscretionaryBudgetDifferenceC": 1.8189894035458565e-11,
+      "minimumHeadroomDifferenceGW": 11.365863809636323,
+      "meanHeadroomDifferenceGW": 6.912528834015526,
+      "externalPowerSalesC": 100214.79800000007,
+      "avoidedUnservedGWh": 0
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-4",
+      "cumulativeRealGDPDifferenceC": 3.104408582051594e-10,
+      "realTaxReceiptDifferenceC": 8.661854302599308e-11,
+      "realDiscretionaryBudgetDifferenceC": 1.8189894035458565e-12,
+      "minimumHeadroomDifferenceGW": 15.809736452163634,
+      "meanHeadroomDifferenceGW": 4.856510568035243,
+      "externalPowerSalesC": 100293.87100000001,
+      "avoidedUnservedGWh": 0
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-5",
+      "cumulativeRealGDPDifferenceC": -1.5522042910257974e-9,
+      "realTaxReceiptDifferenceC": -7.795668872339385e-10,
+      "realDiscretionaryBudgetDifferenceC": -1.6370904631912708e-11,
+      "minimumHeadroomDifferenceGW": -18.24742112906705,
+      "meanHeadroomDifferenceGW": 3.8285664370947705,
+      "externalPowerSalesC": 100335.15299999999,
+      "avoidedUnservedGWh": 0
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-1",
+      "cumulativeRealGDPDifferenceC": 66980.01063862568,
+      "realTaxReceiptDifferenceC": 16726.988871681133,
+      "realDiscretionaryBudgetDifferenceC": 351.2667663053044,
+      "minimumHeadroomDifferenceGW": 18.799742029196523,
+      "meanHeadroomDifferenceGW": 2.197288989227086,
+      "externalPowerSalesC": 68920.702,
+      "avoidedUnservedGWh": 164686.41573331878
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-2",
+      "cumulativeRealGDPDifferenceC": 55829.969966775745,
+      "realTaxReceiptDifferenceC": 13942.477381407685,
+      "realDiscretionaryBudgetDifferenceC": 292.79202500956126,
+      "minimumHeadroomDifferenceGW": 18.799743553669487,
+      "meanHeadroomDifferenceGW": 12.50199109114616,
+      "externalPowerSalesC": 68713.63300000002,
+      "avoidedUnservedGWh": 164686.39058115706
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-3",
+      "cumulativeRealGDPDifferenceC": 75069.1958353752,
+      "realTaxReceiptDifferenceC": 18747.10960551909,
+      "realDiscretionaryBudgetDifferenceC": 393.6893017159009,
+      "minimumHeadroomDifferenceGW": 18.79987799756691,
+      "meanHeadroomDifferenceGW": 6.33433212332191,
+      "externalPowerSalesC": 68771.63399999998,
+      "avoidedUnservedGWh": 164686.45596112683
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-4",
+      "cumulativeRealGDPDifferenceC": 73531.84183309259,
+      "realTaxReceiptDifferenceC": 18363.184595013572,
+      "realDiscretionaryBudgetDifferenceC": 385.6268764952847,
+      "minimumHeadroomDifferenceGW": 18.799743459854653,
+      "meanHeadroomDifferenceGW": 3.249991381181388,
+      "externalPowerSalesC": 68844.46200000003,
+      "avoidedUnservedGWh": 164686.32369672507
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-5",
+      "cumulativeRealGDPDifferenceC": 73702.28709780205,
+      "realTaxReceiptDifferenceC": 18405.750041991963,
+      "realDiscretionaryBudgetDifferenceC": 386.5207508818312,
+      "minimumHeadroomDifferenceGW": 18.799881310588717,
+      "meanHeadroomDifferenceGW": 4.278140787925567,
+      "externalPowerSalesC": 68867.857,
+      "avoidedUnservedGWh": 164686.47897976637
+    }
+  ]
+}

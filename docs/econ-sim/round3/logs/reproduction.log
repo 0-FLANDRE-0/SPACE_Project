@@ -1,0 +1,180 @@
+ECON-SIM-3 base aff438089e1551e71309403f1f144ac7def99e0f; 3 workers; 512 broad profiles ×5 seeds
+broad: 32/512 profiles (20.1s)
+broad: 64/512 profiles (38.6s)
+broad: 96/512 profiles (60.0s)
+broad: 128/512 profiles (77.8s)
+broad: 160/512 profiles (95.1s)
+broad: 192/512 profiles (114.2s)
+broad: 224/512 profiles (131.1s)
+broad: 256/512 profiles (148.6s)
+broad: 288/512 profiles (167.2s)
+broad: 320/512 profiles (186.3s)
+broad: 352/512 profiles (203.2s)
+broad: 384/512 profiles (220.9s)
+broad: 416/512 profiles (239.7s)
+broad: 448/512 profiles (256.5s)
+broad: 480/512 profiles (272.1s)
+broad: 512/512 profiles (288.9s)
+OAT: 32/58 profiles (18.8s)
+OAT: 58/58 profiles (32.9s)
+narrow: 32/128 profiles (62.2s)
+narrow: 64/128 profiles (120.2s)
+narrow: 96/128 profiles (181.7s)
+narrow: 128/128 profiles (235.4s)
+broad-finalists: 8/8 profiles (14.8s)
+all-scenario validation: 4/4 profiles (14.0s)
+{
+  "status": "ECON-SIM-3 탐색용, 사용자 미결정; 게임 미적용",
+  "baselineCommit": "aff438089e1551e71309403f1f144ac7def99e0f",
+  "workers": 3,
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "logicalCPUs": 4,
+    "memoryGB": 17.58584976196289
+  },
+  "timings": {
+    "referencesSeconds": 10.992393109999998,
+    "broadSeconds": 288.94308182099996,
+    "oatSeconds": 32.86114731899998,
+    "narrowSeconds": 235.387961375,
+    "extendSeconds": 14.775067651000107,
+    "finalSeconds": 14.040799903000007,
+    "pairedSeconds": 11.72889950900001,
+    "totalSeconds": 611.2698543029999
+  },
+  "performance": {
+    "sampleRuns": 25,
+    "p50Ms": 60.93458199989982,
+    "p95Ms": 66.72227100003511,
+    "round2ReferenceP50Ms": 2.77,
+    "round2ReferenceP95Ms": 4.21
+  },
+  "counts": {
+    "broadProfiles": 512,
+    "broadRuns": 7680,
+    "oatProfiles": 58,
+    "oatRuns": 870,
+    "narrowProfiles": 128,
+    "narrowRuns": 5760,
+    "extendedRuns": 360,
+    "finalCandidates": 4,
+    "finalRuns": 320,
+    "referenceOffRuns": 140,
+    "referenceOnRuns": 140,
+    "pairedRuns": 120,
+    "counterfactualRuns": 20,
+    "directLegacyRegressionRuns": 140,
+    "seriesRuns": 16,
+    "performanceRuns": 25,
+    "totalRecordedRuns": 15591
+  },
+  "broad": {
+    "passed": 0,
+    "macroPassed": 1
+  },
+  "narrow": {
+    "passed": 0,
+    "macroPassed": 1,
+    "variedParameters": [
+      "upkeepAnnual",
+      "legacyGridUpkeepAnnualU",
+      "directAnnual",
+      "electricityGDPShare",
+      "parallelSurcharge",
+      "gridReserve",
+      "damagePerMonth",
+      "colonyKWPerPerson"
+    ]
+  },
+  "final": [
+    {
+      "id": "R3-N089",
+      "integrity": true,
+      "macroPassed": false,
+      "reliabilityPassed": false,
+      "passed": false,
+      "failures": {
+        "warPeakLow": 10,
+        "warRecovery": 6
+      }
+    },
+    {
+      "id": "R3-N067",
+      "integrity": true,
+      "macroPassed": false,
+      "reliabilityPassed": false,
+      "passed": false,
+      "failures": {
+        "priceDeviation": 11,
+        "warPeakLow": 10,
+        "warRecovery": 8
+      }
+    },
+    {
+      "id": "R3-N002",
+      "integrity": true,
+      "macroPassed": false,
+      "reliabilityPassed": false,
+      "passed": false,
+      "failures": {
+        "priceDeviation": 24,
+        "warPeakLow": 10,
+        "warRecovery": 10
+      }
+    }
+  ],
+  "rounded": {
+    "id": "R3-rounded",
+    "integrity": true,
+    "macroPassed": false,
+    "reliabilityPassed": false,
+    "passed": false,
+    "failures": {
+      "warPeakLow": 10,
+      "warRecovery": 4
+    }
+  },
+  "scope": {
+    "broad": [
+      "E0",
+      "E2",
+      "E3"
+    ],
+    "narrow": [
+      "E0",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "final": [
+      "S0",
+      "S1",
+      "S2",
+      "S3-debt",
+      "S3-money",
+      "S4",
+      "S1-sell",
+      "E0",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "peaceThresholdsOrigin": "원문8.2; 추가0.5%미공급/99%유지보수는 제안 지표로 별도 구분; 실비포함 회수기간을1.5–3년에 강제하지 않음"
+  },
+  "determinism": {
+    "seriesSHA256": "1cc6fec83017f4929e4b3729cf9f8b2716f78cb46289943b152e8e9c693430cd",
+    "runsSHA256": "7932ee12c129e171c9d07cd7f8f9e54e24f4f989d038adc44fe9553cecd2c71b"
+  }
+}

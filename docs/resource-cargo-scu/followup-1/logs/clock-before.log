@@ -1,0 +1,31 @@
+{"atDay":500,"afterHours":1,"capacitySCUPerHour":8,"workSCU":32,"processedSCU":32,"status":"completed"}
+✖ REPRO: day500 manual32SCU job at8SCU/hour processes only8 after one hour (80.938742ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 175.048813
+
+✖ failing tests:
+
+test at tests/repro-scu-clock.mjs:10:1
+✖ REPRO: day500 manual32SCU job at8SCU/hour processes only8 after one hour (80.938742ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  32 !== 8
+  
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/tests/repro-scu-clock.mjs:21:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 32,
+    expected: 8,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

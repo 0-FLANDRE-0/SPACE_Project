@@ -1,0 +1,34 @@
+{"atDay":500,"afterHours":1,"capacitySCUPerHour":8,"workSCU":32,"processedSCU":8,"status":"reserved"}
+✔ REPRO: day500 manual32SCU job at8SCU/hour processes only8 after one hour (104.641199ms)
+✔ manual zero-capacity to8SCU/hour at day500 never banks500 idle days (321.573269ms)
+✔ OFF and ON settle old settings first and never charge paused time (77.681566ms)
+✔ cancel then reserve after a long idle interval returns the same escrow without free progress (62.537177ms)
+✔ capacity changes apply to future intervals using4 then16SCU/hour (69.53108ms)
+✔ four hours in one call equals four one-hour calls including all material and clock state (125.777501ms)
+✔ fractional work survives OFF and zero capacity without accumulating paused time (33.419148ms)
+✔ book JSON reload preserves reservation start, progress and later material result exactly (59.833521ms)
+✔ past/future reservations, future queue calls, forged clock advances and duplicate work reject atomically (75.084612ms)
+✔ multiple bodies and owners anchor their own reservations without leaking another account elapsed time (34.713103ms)
+✔ 500 idle days across19 accounts require no hourly deep cloning (352.474097ms)
+✔ actual mined low lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (39.435626ms)
+✔ actual mined medium lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (31.705534ms)
+✔ actual mined high lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (28.699592ms)
+✔ 0.001U uses one whole1SCU shell and fractional recovery accumulates on the actual second opening (31.516899ms)
+✔ partial group opening restores an entire container manifest, never a generic ore buffer (31.177136ms)
+✔ same grade and fill from different actual veins never merge away their source identity (41.730174ms)
+✔ mixed lot requests, fractional content opening, generic consumption/modernization and remote delivery fail closed (34.225292ms)
+✔ default null costs remain pending for real mined ore and never mutate its lot or free alloy (31.024025ms)
+✔ insufficient ore, actual alloy, wallet C and Wh reject the joint transaction without a single field changing (100.2099ms)
+✔ invalid source/body/owner/difficulty/grade and repeated references are rejected before any custody update (29.017152ms)
+✔ quotes are state-bound, immutable, stale after real clock/stock changes and non-replayable (40.343488ms)
+✔ strict validators reject corrupted manifests, counts, custody totals and extra free stock even if legacy projection could balance (28.935267ms)
+✔ generation unlock leaves old ore provenance, actual bonded material and recovery rules unchanged (33.770855ms)
+✔ current save export/import preserves lot manifests, partial groups, recovery carry and local clock without storage (33.115024ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4442.735738

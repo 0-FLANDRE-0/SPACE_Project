@@ -1,0 +1,23 @@
+{
+  "status": "ECON-SIM-4 탐색 결과 — 사용자 미결정; 게임 미적용",
+  "executions": 105,
+  "counts": {
+    "infrastructure20YearRuns": 20,
+    "recovery20YearRuns": 35,
+    "hydrogenUtilization20YearRuns": 20,
+    "performance20YearRuns": 30
+  },
+  "seconds": 17.349511344,
+  "performance": {
+    "samplesEach": 15,
+    "round3P50Ms": 64.75314400000025,
+    "round3P95Ms": 105.2008730000016,
+    "round4P50Ms": 200.5960529999993,
+    "round4P95Ms": 228.62969400000293,
+    "referenceRound3ReportedP50Ms": 59.8
+  },
+  "warnings": [
+    "H search finance is full-rated analytic screening. Actual fleet utilization is an extra conservative guard and is reported separately.",
+    "Public value is not C revenue. Policies, prices and costs remain exploratory."
+  ]
+}

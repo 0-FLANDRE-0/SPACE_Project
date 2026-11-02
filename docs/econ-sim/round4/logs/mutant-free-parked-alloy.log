@@ -1,0 +1,28 @@
+✖ normal and parked upkeep retain positive alloy with larger C reduction, and construction/retired bills are zero (1.833705ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 98.696114
+
+✖ failing tests:
+
+test at tests/economy-round4.test.js:25:1
+✖ normal and parked upkeep retain positive alloy with larger C reduction, and construction/retired bills are zero (1.833705ms)
+  AssertionError [ERR_ASSERTION]: 0 != 0.5
+      at near (file:///workspace/SPACE_Project/artifacts/econ4-mutants/free-parked-alloy/tests/economy-round4.test.js:9:359)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ4-mutants/free-parked-alloy/tests/economy-round4.test.js:25:369)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

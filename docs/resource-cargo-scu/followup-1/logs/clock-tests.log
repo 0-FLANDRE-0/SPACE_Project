@@ -1,0 +1,51 @@
+{"atDay":500,"afterHours":1,"capacitySCUPerHour":8,"workSCU":32,"processedSCU":8,"status":"reserved"}
+✔ REPRO: day500 manual32SCU job at8SCU/hour processes only8 after one hour (81.46397ms)
+✔ manual zero-capacity to8SCU/hour at day500 never banks500 idle days (249.448788ms)
+✔ OFF and ON settle old settings first and never charge paused time (60.572154ms)
+✔ cancel then reserve after a long idle interval returns the same escrow without free progress (56.349816ms)
+✔ capacity changes apply to future intervals using4 then16SCU/hour (66.384311ms)
+✖ four hours in one call equals four one-hour calls including all material and clock state (108.370465ms)
+✔ fractional work survives OFF and zero capacity without accumulating paused time (26.775455ms)
+✔ book JSON reload preserves reservation start, progress and later material result exactly (62.302216ms)
+✔ past/future reservations, future queue calls, forged clock advances and duplicate work reject atomically (85.367012ms)
+✔ multiple bodies and owners anchor their own reservations without leaking another account elapsed time (39.182822ms)
+✔ 500 idle days across19 accounts require no hourly deep cloning (390.354015ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 10
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1258.480948
+
+✖ failing tests:
+
+test at tests/scu-followup-clock.test.js:18:1
+✖ four hours in one call equals four one-hour calls including all material and clock state (108.370465ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   days: 500.16666666666674,
+  -   days: 500.1666666666667,
+      depositKnowledge: {
+        human: {
+          'sol/earth/r2-sol-earth-988ed46b-surface-77-0': 413603607617
+        }
+      },
+  
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/tests/scu-followup-clock.test.js:18:294)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { schemaVersion: 4, packaging: { schemaVersion: 3, clockMs: 43214400000, revision: 10, accounts: [Object] }, kind: 'campaign-industry-runtime', systemId: 'sol', scenarioId: 'development-fixture-v1', seed: 'industry-v1', days: 500.16666666666674, originDays: 0, settledTick: 12004, nextFacilitySerial: 1, sourceSignatures: { venus: 'f9b20f97', earth: '52cbc980', mars: '1dcd3358', jupiter: 'ea223880', moon: 'b671412b' }, governmentTreasuries: { human: 99900 }, planetInventory: { earth: [Object] }, oreRemaining: {}, oreExtracted: {}, hydrogenRemaining: {}, hydrogenRecovered: {}, governmentSlots: {}, facilityInstances: {}, inventoryLots: [], hydrogenKnowledge: { human: [Array] }, depositKnowledge: { human: [Object] }, productionExperience: {}, productionHistory: [], eventLog: [], materialLedger: {}, fixture: true },
+    expected: { schemaVersion: 4, packaging: { schemaVersion: 3, clockMs: 43214400000, revision: 10, accounts: [Object] }, kind: 'campaign-industry-runtime', systemId: 'sol', scenarioId: 'development-fixture-v1', seed: 'industry-v1', days: 500.1666666666667, originDays: 0, settledTick: 12004, nextFacilitySerial: 1, sourceSignatures: { venus: 'f9b20f97', earth: '52cbc980', mars: '1dcd3358', jupiter: 'ea223880', moon: 'b671412b' }, governmentTreasuries: { human: 99900 }, planetInventory: { earth: [Object] }, oreRemaining: {}, oreExtracted: {}, hydrogenRemaining: {}, hydrogenRecovered: {}, governmentSlots: {}, facilityInstances: {}, inventoryLots: [], hydrogenKnowledge: { human: [Array] }, depositKnowledge: { human: [Object] }, productionExperience: {}, productionHistory: [], eventLog: [], materialLedger: {}, fixture: true },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

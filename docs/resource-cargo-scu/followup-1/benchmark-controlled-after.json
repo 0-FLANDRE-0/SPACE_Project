@@ -1,0 +1,34 @@
+{
+  "node": "v24.19.0",
+  "root": "current FOLLOW-UP-1",
+  "rows": [
+    {
+      "accounts": 1,
+      "days": 500,
+      "repetitions": 5,
+      "meanMs": 19.049477799999988,
+      "maxMs": 33.68561199999999,
+      "structuredClones": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accounts": 19,
+      "days": 500,
+      "repetitions": 5,
+      "meanMs": 192.60125019999998,
+      "maxMs": 215.79575000000006,
+      "structuredClones": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

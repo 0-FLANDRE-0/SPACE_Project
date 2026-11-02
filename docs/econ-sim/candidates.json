@@ -1,0 +1,303 @@
+{
+  "status": "ECON-SIM-1 탐색용 / 사용자 미결정",
+  "criteria": {
+    "peaceDeviation": 0.15,
+    "inflationMin": 0.01,
+    "inflationMax": 0.03,
+    "budget17Min": 1.1,
+    "budget17Max": 1.6,
+    "governmentShare17Max": 0.25,
+    "paybackMinYears": 1.5,
+    "paybackMaxYears": 3,
+    "warPeakMin": 0.2,
+    "warPeakMax": 0.6,
+    "recoveryMinYears": 2,
+    "recoveryMaxYears": 4,
+    "recoveryDeviation": 0.1,
+    "recoveryHoldMonths": 12,
+    "colonyBurdenMax": 0.15
+  },
+  "candidates": [
+    {
+      "id": "LHS-194",
+      "parameters": {
+        "baseAlloyPrice": 2.3,
+        "hydrogenPrice": 1,
+        "bodies": {
+          "earth": {
+            "populationPersons": 8893000000,
+            "annualGDP": 20000000,
+            "taxRate": 0.25,
+            "collectionEfficiency": 1
+          },
+          "moon": {
+            "populationPersons": 200000,
+            "annualGDP": 450,
+            "taxRate": 0,
+            "collectionEfficiency": 1
+          },
+          "mars": {
+            "populationPersons": 50000,
+            "annualGDP": 112.5,
+            "taxRate": 0,
+            "collectionEfficiency": 1
+          }
+        },
+        "initialTreasuryC": 100000,
+        "initialAlloyU": 10000,
+        "initialHydrogenU": 500,
+        "gradeProbabilities": {
+          "low": 0.45,
+          "medium": 0.5,
+          "high": 0.05
+        },
+        "difficulty": 46.25486376819754,
+        "processingDifficulty": 48,
+        "productivityGrowth": 0.006096922842116328,
+        "earthPopulationGrowth": -0.0007161888880655169,
+        "colonyPopulationGrowth": 0.006884448996388529,
+        "earthTaxRate": 0.26153792257191527,
+        "strategyShare": 0.014740197422806887,
+        "velocity": 1.1007425488405715,
+        "targetInflation": 0.014591887528495134,
+        "alloyMarketShare": 0.036956593838990554,
+        "demandElasticity": 0.572580837748683,
+        "inventoryDays": 134.40497945982315,
+        "priceAdjustment": 0.09693312362513098,
+        "priceReversion": 0.07418631646907214,
+        "priceFloor": 0.5,
+        "priceCeiling": 2.5,
+        "expansionDelayMonths": 7,
+        "expansionBeta": 0.01586253625117024,
+        "privateDepreciation": 0.03043679247383807,
+        "privateAmortizationYears": 3.942707517083363,
+        "privateOperatingRate": 0.1,
+        "privateScale": 0.8639146837774205,
+        "requiredMargin": 0.2200569211754555,
+        "shipMaintenanceRate": 0.07341810309940229,
+        "governmentOperatingRate": 0.040931912886799184,
+        "colonySupportC": 4612.123676724877,
+        "productivityShock": 0.0038228744786238168,
+        "debtInterestRate": 0.03,
+        "warStartMonth": 48,
+        "warDurationMonths": 24,
+        "warPurchaseMonths": 12,
+        "warAlloyU": 50000,
+        "warStrategyShare": 0.1,
+        "warMonetizationFraction": 1,
+        "colonySupportMultiplier": 3,
+        "colonyBuildEveryMonths": 24,
+        "supplyConstraintStrength": 0.03,
+        "governmentSaleFraction": 0,
+        "privateForecastMonths": 6,
+        "shipyardSlots": 1
+      },
+      "passed": false,
+      "passingRuns": 12,
+      "runCount": 18,
+      "penalty": 0.16590102016724784,
+      "failures": {
+        "governmentMinor": 3,
+        "colonyBurden": 3
+      },
+      "metrics": {
+        "realGDP20": 22694194.75432725,
+        "priceIndex20": 1.3360653755254315,
+        "budgetRatio17": 1.425188561552661,
+        "governmentShare17": 0.45431078413147485,
+        "warPeak": 0.22101209833902966,
+        "warRecoveryYears": 2.972222222222222,
+        "colonyBurden5": 0.17672444767163809,
+        "treasury20": 18203.441666666666
+      }
+    },
+    {
+      "id": "LHS-236",
+      "parameters": {
+        "baseAlloyPrice": 2.3,
+        "hydrogenPrice": 1,
+        "bodies": {
+          "earth": {
+            "populationPersons": 8893000000,
+            "annualGDP": 20000000,
+            "taxRate": 0.25,
+            "collectionEfficiency": 1
+          },
+          "moon": {
+            "populationPersons": 200000,
+            "annualGDP": 450,
+            "taxRate": 0,
+            "collectionEfficiency": 1
+          },
+          "mars": {
+            "populationPersons": 50000,
+            "annualGDP": 112.5,
+            "taxRate": 0,
+            "collectionEfficiency": 1
+          }
+        },
+        "initialTreasuryC": 100000,
+        "initialAlloyU": 10000,
+        "initialHydrogenU": 500,
+        "gradeProbabilities": {
+          "low": 0.45,
+          "medium": 0.5,
+          "high": 0.05
+        },
+        "difficulty": 48.691163298084575,
+        "processingDifficulty": 48,
+        "productivityGrowth": 0.009774083958491248,
+        "earthPopulationGrowth": 0.002887706181903013,
+        "colonyPopulationGrowth": 0.0006052858827570163,
+        "earthTaxRate": 0.2925698519928119,
+        "strategyShare": 0.01487346920433083,
+        "velocity": 1.694696472141004,
+        "targetInflation": 0.011930214345265994,
+        "alloyMarketShare": 0.025906269885640543,
+        "demandElasticity": 0.35330431240963667,
+        "inventoryDays": 117.47949544978837,
+        "priceAdjustment": 0.0334011185451709,
+        "priceReversion": 0.06639894649680173,
+        "priceFloor": 0.5,
+        "priceCeiling": 2.5,
+        "expansionDelayMonths": 20,
+        "expansionBeta": 0.008982302964595873,
+        "privateDepreciation": 0.04558328296287982,
+        "privateAmortizationYears": 7.6756007372869135,
+        "privateOperatingRate": 0.1,
+        "privateScale": 0.9686940491444147,
+        "requiredMargin": 0.21210461266819042,
+        "shipMaintenanceRate": 0.07760864881415729,
+        "governmentOperatingRate": 0.09669229812652702,
+        "colonySupportC": 408.3474698381906,
+        "productivityShock": 0.0009143717248434769,
+        "debtInterestRate": 0.03,
+        "warStartMonth": 48,
+        "warDurationMonths": 24,
+        "warPurchaseMonths": 12,
+        "warAlloyU": 50000,
+        "warStrategyShare": 0.1,
+        "warMonetizationFraction": 1,
+        "colonySupportMultiplier": 3,
+        "colonyBuildEveryMonths": 24,
+        "supplyConstraintStrength": 0.03,
+        "governmentSaleFraction": 0,
+        "privateForecastMonths": 6,
+        "shipyardSlots": 1
+      },
+      "passed": false,
+      "passingRuns": 9,
+      "runCount": 18,
+      "penalty": 0.26848116504131386,
+      "failures": {
+        "peacePrice": 9,
+        "governmentMinor": 3
+      },
+      "metrics": {
+        "realGDP20": 25759190.81182426,
+        "priceIndex20": 1.267684751670126,
+        "budgetRatio17": 1.5163126982637898,
+        "governmentShare17": 0.5790717233805363,
+        "warPeak": 0.3848991630453926,
+        "warRecoveryYears": 2.138888888888889,
+        "colonyBurden5": 0.013700138913368973,
+        "treasury20": 16722.377
+      }
+    },
+    {
+      "id": "LHS-048",
+      "parameters": {
+        "baseAlloyPrice": 2.3,
+        "hydrogenPrice": 1,
+        "bodies": {
+          "earth": {
+            "populationPersons": 8893000000,
+            "annualGDP": 20000000,
+            "taxRate": 0.25,
+            "collectionEfficiency": 1
+          },
+          "moon": {
+            "populationPersons": 200000,
+            "annualGDP": 450,
+            "taxRate": 0,
+            "collectionEfficiency": 1
+          },
+          "mars": {
+            "populationPersons": 50000,
+            "annualGDP": 112.5,
+            "taxRate": 0,
+            "collectionEfficiency": 1
+          }
+        },
+        "initialTreasuryC": 100000,
+        "initialAlloyU": 10000,
+        "initialHydrogenU": 500,
+        "gradeProbabilities": {
+          "low": 0.45,
+          "medium": 0.5,
+          "high": 0.05
+        },
+        "difficulty": 44.56816404648998,
+        "processingDifficulty": 48,
+        "productivityGrowth": 0.020085790338998776,
+        "earthPopulationGrowth": -0.0006168224680704953,
+        "colonyPopulationGrowth": 0.0045988134757499214,
+        "earthTaxRate": 0.2869097812079417,
+        "strategyShare": 0.03267275352442084,
+        "velocity": 1.2691293484640482,
+        "targetInflation": 0.009252809583849738,
+        "alloyMarketShare": 0.03518152162811475,
+        "demandElasticity": 0.7201646219829856,
+        "inventoryDays": 144.49026878975928,
+        "priceAdjustment": 0.04947674147742873,
+        "priceReversion": 0.023985987901960472,
+        "priceFloor": 0.5,
+        "priceCeiling": 2.5,
+        "expansionDelayMonths": 10,
+        "expansionBeta": 0.016940080288513855,
+        "privateDepreciation": 0.03908538649679941,
+        "privateAmortizationYears": 6.2103249350575425,
+        "privateOperatingRate": 0.1,
+        "privateScale": 0.9629010333343103,
+        "requiredMargin": 0.1858176282410568,
+        "shipMaintenanceRate": 0.06548820666844223,
+        "governmentOperatingRate": 0.06574986832501963,
+        "colonySupportC": 5410.586885327575,
+        "productivityShock": 0.007686889376418549,
+        "debtInterestRate": 0.03,
+        "warStartMonth": 48,
+        "warDurationMonths": 24,
+        "warPurchaseMonths": 12,
+        "warAlloyU": 50000,
+        "warStrategyShare": 0.1,
+        "warMonetizationFraction": 1,
+        "colonySupportMultiplier": 3,
+        "colonyBuildEveryMonths": 24,
+        "supplyConstraintStrength": 0.03,
+        "governmentSaleFraction": 0,
+        "privateForecastMonths": 6,
+        "shipyardSlots": 1
+      },
+      "passed": false,
+      "passingRuns": 7,
+      "runCount": 18,
+      "penalty": 0.29203371226014757,
+      "failures": {
+        "inflation": 9,
+        "budget17": 9,
+        "governmentMinor": 3,
+        "warRecovery": 2
+      },
+      "metrics": {
+        "realGDP20": 30535743.98110269,
+        "priceIndex20": 1.2022626121417235,
+        "budgetRatio17": 1.6774286997448753,
+        "governmentShare17": 0.3978806878766927,
+        "warPeak": 0.2656616404484346,
+        "warRecoveryYears": 2.3055555555555554,
+        "colonyBurden5": 0.08218034208717322,
+        "treasury20": 2932463.0953333336
+      }
+    }
+  ]
+}

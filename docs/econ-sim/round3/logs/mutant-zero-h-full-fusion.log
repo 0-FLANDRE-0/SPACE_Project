@@ -1,0 +1,32 @@
+✖ normal fusion uses output-proportional H; below sustaining output cold-stops (2.107472ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 76.404778
+
+✖ failing tests:
+
+test at tests/economy-energy-model.test.js:31:1
+✖ normal fusion uses output-proportional H; below sustaining output cold-stops (2.107472ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+
+  + 'curtailed'
+  - 'coldStopped'
+
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/artifacts/econ3-mutants/zero-h-full-fusion/tests/economy-energy-model.test.js:33:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'curtailed',
+    expected: 'coldStopped',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

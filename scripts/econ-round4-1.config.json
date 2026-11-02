@@ -1,0 +1,85 @@
+{
+  "status": "ECON-SIM-4.1 탐색 결과 — 사용자 미결정; 게임 미적용",
+  "baselineCommit": "b04e3f117de303b84705ef1baa50d9521d960be2",
+  "archiveCommit": "bdfa3eb5380e29ae779ef085bf26b525c70d2e65",
+  "months": 240,
+  "seeds": [
+    "econ-1",
+    "econ-2",
+    "econ-3",
+    "econ-4",
+    "econ-5"
+  ],
+  "samples": 64,
+  "samplingSeed": "econ-round41-lhs-1",
+  "policy": {
+    "hydrogenPrice": 0.4,
+    "triageEnabled": true,
+    "marketRelief": false,
+    "importRelief": false,
+    "enterMonths": 3,
+    "exitMultiple": 1.5,
+    "graceMonths": 9,
+    "postGraceDamageScale": 1,
+    "marketPremium": 1.5,
+    "marketFraction": 0.15,
+    "donorReserveMonths": 6
+  },
+  "ranges": {
+    "enterMonths": [
+      1,
+      6
+    ],
+    "exitMultiple": [
+      1.3,
+      2
+    ],
+    "graceMonths": [
+      6,
+      12
+    ],
+    "postGraceDamageScale": [
+      0.5,
+      2
+    ],
+    "marketPremium": [
+      1.2,
+      2
+    ],
+    "marketFraction": [
+      0.05,
+      0.3
+    ],
+    "donorReserveMonths": [
+      3,
+      12
+    ]
+  },
+  "stress": {
+    "startMonth": 60,
+    "lossFraction": 0.6,
+    "stopMonths": 9,
+    "demandMultiplier": 1.75
+  },
+  "criteria": {
+    "peacePriceDeviation": 0.2,
+    "meanPriceDeviation": 0.08,
+    "inflationMin": 0.01,
+    "inflationMax": 0.03,
+    "budget17Min": 1.1,
+    "budget17Max": 1.6,
+    "colonyPeaceYearlyMax": 0.01,
+    "colonyFoundingYearlyMax": 0.1,
+    "industryPaybackYearsMax": 4,
+    "hydrogenMarginMin": 0,
+    "crisisRecoveryYearsMax": 5,
+    "crisisHealthMin": 0.8,
+    "crisisUnservedMax": 0.01
+  },
+  "provenance": {
+    "confirmed": "REQUEST §2.1, §2.3/2.4/2.5 direction only",
+    "price": "[4.1 검증 가정] .4C/U with1.2 paired control",
+    "ranges": "[Claude 제안 출발 범위]; only these7 axes searched; original37 axes fixed",
+    "grid": "E5-M18 cells: loss.5/.6/.7 × stop6/9/12 × demand1.5/2; representative.6/9/1.75 separate"
+  }
+}

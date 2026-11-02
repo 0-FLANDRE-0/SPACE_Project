@@ -1,0 +1,50 @@
+[
+  {
+    "type": "fusion",
+    "modules": 50,
+    "ratedGW": 250,
+    "averageGW": 250,
+    "creditC": 315000,
+    "alloyU": 23700,
+    "annualSalesC": 49261.08374384237,
+    "annualDirectC": 28350,
+    "annualUpkeepU": 711,
+    "annualFuelC": 1800,
+    "annualNetC": 17475.78374384237,
+    "capitalScale": 0.97,
+    "solarCF": 0.26,
+    "scope": "all external sales finance, public value excluded"
+  },
+  {
+    "type": "fission",
+    "modules": 35,
+    "ratedGW": 87.5,
+    "averageGW": 82.25,
+    "creditC": 113000,
+    "alloyU": 9400,
+    "annualSalesC": 16206.896551724138,
+    "annualDirectC": 10170,
+    "annualUpkeepU": 282,
+    "annualFuelC": 720.51,
+    "annualNetC": 4667.786551724137,
+    "capitalScale": 0.97,
+    "solarCF": 0.26,
+    "scope": "all external sales finance, public value excluded"
+  },
+  {
+    "type": "solar",
+    "modules": 80,
+    "ratedGW": 120,
+    "averageGW": 31.200000000000003,
+    "creditC": 160050,
+    "alloyU": 8148,
+    "annualSalesC": 6147.783251231527,
+    "annualDirectC": 14404.5,
+    "annualUpkeepU": 244.44,
+    "annualFuelC": 0,
+    "annualNetC": -8818.928748768472,
+    "capitalScale": 0.97,
+    "solarCF": 0.26,
+    "scope": "all external sales finance, public value excluded"
+  }
+]

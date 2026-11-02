@@ -1,0 +1,3 @@
+PASS: 795 original PR13 paths SHA256-identical, including all game/official data, prior models/scripts/tests/artifacts; DECISIONS prefix preserved
+PASS: PR14 archive read directly at 5760cbc8b079ca78060b56755eb084c872b13ddc; no merge or archive copy into code branch
+{"runs":108,"seconds":20.959464802000003,"offReproduced":80,"historicalOriginalSeries":16,"finalOnReproduced":28,"allEqual":true}

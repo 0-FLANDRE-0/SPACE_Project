@@ -1,0 +1,12 @@
+R4 exact OFF/archive replay: 4/4 jobs, 3.0s
+.4 baseline no new policies: 4/4 jobs, 2.0s
+7-axis policy LHS: 8/8 jobs, 3.3s
+one finalist per frozen R4 candidate: 4/4 jobs, 7.4s
+separate rounded full validation: 1/1 jobs, 3.4s
+triage2 × relief4 paired matrix: 8/32 jobs, 0.8s
+triage2 × relief4 paired matrix: 16/32 jobs, 1.7s
+triage2 × relief4 paired matrix: 24/32 jobs, 2.4s
+triage2 × relief4 paired matrix: 32/32 jobs, 3.4s
+unchanged extreme paired matrix: 8/8 jobs, 0.7s
+1.2 hydrogen reference control: 4/4 jobs, 1.1s
+{"out":"/workspace/SPACE_Project/artifacts/econ41-quick","counts":{"replayPairs":12,"replayExecutions":24,"baseline04":12,"search":32,"final":56,"rounded":14,"matrix":32,"extreme":8,"price12":8,"performanceExecutions":9,"totalOnRuns":162,"integrityFailures":0,"searchPolicies":8,"samplesPerBase":2,"seeds":1},"selfPassingFinalists":4,"reliefPassingFinalists":4,"seconds":26.773217758,"performance":{"round4":{"samples":3,"p50Ms":260.4330349999982,"p95Ms":310.57921500000157},"round41Peace":{"samples":3,"p50Ms":323.81213299999945,"p95Ms":330.4076189999978},"round41Stress":{"samples":3,"p50Ms":172.6738080000032,"p95Ms":223.49384099999952}}}

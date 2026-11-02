@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "campaign-industry-runtime",
+  "systemId": "sol",
+  "scenarioId": "unconfigured",
+  "seed": "industry-v1",
+  "days": 0,
+  "originDays": 0,
+  "settledTick": 0,
+  "nextFacilitySerial": 1,
+  "sourceSignatures": {
+    "earth": "52cbc980",
+    "moon": "b671412b",
+    "mars": "1dcd3358",
+    "venus": "f9b20f97",
+    "jupiter": "ea223880"
+  },
+  "governmentTreasuries": {
+    "human": null
+  },
+  "planetInventory": {},
+  "oreRemaining": {},
+  "oreExtracted": {},
+  "hydrogenRemaining": {},
+  "hydrogenRecovered": {},
+  "governmentSlots": {},
+  "facilityInstances": {},
+  "inventoryLots": [],
+  "hydrogenKnowledge": {},
+  "depositKnowledge": {},
+  "productionExperience": {},
+  "productionHistory": [],
+  "eventLog": [],
+  "materialLedger": {},
+  "fixture": false
+}

@@ -1,0 +1,19 @@
+✔ sealed low ore is unavailable to smelting; whole-container reopening restores the original 1120/8000 yield (765.396813ms)
+✔ sealed medium ore is unavailable to smelting; whole-container reopening restores the original 2640/8000 yield (420.378526ms)
+✔ sealed high ore is unavailable to smelting; whole-container reopening restores the original 4160/8000 yield (381.021743ms)
+✔ genuine PR12 v3 initial validates before migration, preserves all physical state, and backs up exact raw (242.305048ms)
+✔ genuine PR12 v3 construction validates before migration, preserves all physical state, and backs up exact raw (34.138841ms)
+✔ genuine PR12 v3 production validates before migration, preserves all physical state, and backs up exact raw (38.412327ms)
+✔ genuine PR12 v3 normal validates before migration, preserves all physical state, and backs up exact raw (35.273135ms)
+✔ genuine PR12 v3 sol-full validates before migration, preserves all physical state, and backs up exact raw (107.984946ms)
+✔ v3 corrupt and unknown fields never activate; backup or primary-write denial quarantines validated data and keeps original (36.756365ms)
+✔ legacy v3 active reservation is anchored at migration time with progress/escrow/carry retained and no idle catch-up (68.075968ms)
+✔ current clock mismatch/future timestamps reject at full-state import without modifying active state (68.889236ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1675.137

@@ -1,0 +1,944 @@
+{
+  "earthSourceSha256": "5c9cbdffc357183cfce5414090710f65bbdb14214c146f2bafae0f848c9de6f4",
+  "bodies": [
+    {
+      "bodyId": "mercury",
+      "seed": "sol:mercury:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 0,
+      "totalQuanta": 4659038529744,
+      "totalU": 4659038529.744,
+      "gradeMean": {
+        "low": 0.37199405694449705,
+        "medium": 0.3943631707730541,
+        "high": 0.2336427722824487
+      },
+      "types": {
+        "surface": {
+          "quanta": 1996143163911,
+          "totalU": 1996143163.911,
+          "gradeMean": {
+            "low": 0.4361708992742933,
+            "medium": 0.4781456344039181,
+            "high": 0.08568346632178875
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 1696793551593,
+          "totalU": 1696793551.593,
+          "gradeMean": {
+            "low": 0.4092824869789184,
+            "medium": 0.2688934093574062,
+            "high": 0.32182410366367553
+          },
+          "deposits": 21,
+          "groups": 5
+        },
+        "deep": {
+          "quanta": 966101814240,
+          "totalU": 966101814.24,
+          "gradeMean": {
+            "low": 0.1739021685859189,
+            "medium": 0.44161956692580134,
+            "high": 0.3844782644882798
+          },
+          "deposits": 20,
+          "groups": 1
+        }
+      },
+      "depositCount": 83
+    },
+    {
+      "bodyId": "venus",
+      "seed": "sol:venus:resources:v1",
+      "certainty": "confirmed",
+      "cells": 92,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 0,
+      "totalQuanta": 114200000000000,
+      "totalU": 114200000000,
+      "gradeMean": {
+        "low": 0.14,
+        "medium": 0.271,
+        "high": 0.589
+      },
+      "types": {
+        "surface": {
+          "quanta": 43396000000000,
+          "totalU": 43396000000,
+          "gradeMean": {
+            "low": 0.3299999999999999,
+            "medium": 0.4199999999999996,
+            "high": 0.24999999999999992
+          },
+          "deposits": 92,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 13704000000000,
+          "totalU": 13704000000,
+          "gradeMean": {
+            "low": 0.08000000000000003,
+            "medium": 0.22,
+            "high": 0.7
+          },
+          "deposits": 41,
+          "groups": 4
+        },
+        "deep": {
+          "quanta": 57100000000000,
+          "totalU": 57100000000,
+          "gradeMean": {
+            "low": 0.009999999999999998,
+            "medium": 0.1700000000000001,
+            "high": 0.82
+          },
+          "deposits": 37,
+          "groups": 1
+        }
+      },
+      "depositCount": 170
+    },
+    {
+      "bodyId": "earth",
+      "seed": "sol:earth:resources:v1",
+      "certainty": "confirmed",
+      "cells": 92,
+      "populationConfiguredCells": 92,
+      "colonyTileIds": [],
+      "populationPersons": 8893000000,
+      "hydrogenSources": 2,
+      "totalQuanta": 78600000000000,
+      "totalU": 78600000000,
+      "gradeMean": {
+        "low": 0.4655000000000002,
+        "medium": 0.4640000000000003,
+        "high": 0.07050000000000001
+      },
+      "types": {
+        "surface": {
+          "quanta": 19650000000000,
+          "totalU": 19650000000,
+          "gradeMean": {
+            "low": 0.5999999999999999,
+            "medium": 0.37999999999999984,
+            "high": 0.02
+          },
+          "deposits": 91,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 51090000000000,
+          "totalU": 51090000000,
+          "gradeMean": {
+            "low": 0.45000000000000007,
+            "medium": 0.49999999999999994,
+            "high": 0.05
+          },
+          "deposits": 13,
+          "groups": 3
+        },
+        "deep": {
+          "quanta": 7860000000000,
+          "totalU": 7860000000,
+          "gradeMean": {
+            "low": 0.23,
+            "medium": 0.4399999999999999,
+            "high": 0.32999999999999996
+          },
+          "deposits": 41,
+          "groups": 1
+        }
+      },
+      "depositCount": 145
+    },
+    {
+      "bodyId": "mars",
+      "seed": "sol:mars:resources:v1",
+      "certainty": "mixed",
+      "cells": 42,
+      "populationConfiguredCells": 42,
+      "colonyTileIds": [
+        "sol:mars:surface:00029"
+      ],
+      "populationPersons": 50000,
+      "hydrogenSources": 0,
+      "totalQuanta": 48900000000000,
+      "totalU": 48900000000,
+      "gradeMean": {
+        "low": 0.4559999999999999,
+        "medium": 0.39899999999999997,
+        "high": 0.14500000000000005
+      },
+      "types": {
+        "surface": {
+          "quanta": 34230000000000,
+          "totalU": 34230000000,
+          "gradeMean": {
+            "low": 0.55,
+            "medium": 0.3999999999999999,
+            "high": 0.05000000000000002
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 9780000000000,
+          "totalU": 9780000000,
+          "gradeMean": {
+            "low": 0.28,
+            "medium": 0.41999999999999993,
+            "high": 0.3
+          },
+          "deposits": 12,
+          "groups": 3
+        },
+        "deep": {
+          "quanta": 4890000000000,
+          "totalU": 4890000000,
+          "gradeMean": {
+            "low": 0.14999999999999994,
+            "medium": 0.35000000000000003,
+            "high": 0.4999999999999999
+          },
+          "deposits": 19,
+          "groups": 1
+        }
+      },
+      "depositCount": 73
+    },
+    {
+      "bodyId": "jupiter",
+      "seed": "sol:jupiter:resources:v1",
+      "certainty": "provisional",
+      "cells": 642,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 3,
+      "totalQuanta": 0,
+      "totalU": 0,
+      "gradeMean": null,
+      "types": {
+        "surface": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "vein": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "deep": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        }
+      },
+      "depositCount": 0
+    },
+    {
+      "bodyId": "saturn",
+      "seed": "sol:saturn:resources:v1",
+      "certainty": "provisional",
+      "cells": 492,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 3,
+      "totalQuanta": 0,
+      "totalU": 0,
+      "gradeMean": null,
+      "types": {
+        "surface": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "vein": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "deep": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        }
+      },
+      "depositCount": 0
+    },
+    {
+      "bodyId": "uranus",
+      "seed": "sol:uranus:resources:v1",
+      "certainty": "provisional",
+      "cells": 252,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 3,
+      "totalQuanta": 0,
+      "totalU": 0,
+      "gradeMean": null,
+      "types": {
+        "surface": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "vein": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "deep": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        }
+      },
+      "depositCount": 0
+    },
+    {
+      "bodyId": "neptune",
+      "seed": "sol:neptune:resources:v1",
+      "certainty": "provisional",
+      "cells": 252,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 3,
+      "totalQuanta": 0,
+      "totalU": 0,
+      "gradeMean": null,
+      "types": {
+        "surface": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "vein": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "deep": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        }
+      },
+      "depositCount": 0
+    },
+    {
+      "bodyId": "moon",
+      "seed": "sol:moon:resources:v1",
+      "certainty": "mixed",
+      "cells": 42,
+      "populationConfiguredCells": 42,
+      "colonyTileIds": [
+        "sol:moon:surface:00029"
+      ],
+      "populationPersons": 200000,
+      "hydrogenSources": 0,
+      "totalQuanta": 100000000000000,
+      "totalU": 100000000000,
+      "gradeMean": {
+        "low": 0.8,
+        "medium": 0.16999999999999993,
+        "high": 0.03000000000000001
+      },
+      "types": {
+        "surface": {
+          "quanta": 100000000000000,
+          "totalU": 100000000000,
+          "gradeMean": {
+            "low": 0.8,
+            "medium": 0.16999999999999993,
+            "high": 0.03000000000000001
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        },
+        "deep": {
+          "quanta": 0,
+          "totalU": 0,
+          "gradeMean": null,
+          "deposits": 0,
+          "groups": 0
+        }
+      },
+      "depositCount": 42
+    },
+    {
+      "bodyId": "phobos",
+      "seed": "sol:phobos:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 0,
+      "totalQuanta": 4706625349,
+      "totalU": 4706625.349,
+      "gradeMean": {
+        "low": 0.26188739789044196,
+        "medium": 0.45562085521573914,
+        "high": 0.28249174689381873
+      },
+      "types": {
+        "surface": {
+          "quanta": 1613919793,
+          "totalU": 1613919.793,
+          "gradeMean": {
+            "low": 0.3345314502133987,
+            "medium": 0.5220838526589797,
+            "high": 0.14338469712762164
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 1120730072,
+          "totalU": 1120730.072,
+          "gradeMean": {
+            "low": 0.30232896357774736,
+            "medium": 0.5652847031131387,
+            "high": 0.13238633330911395
+          },
+          "deposits": 12,
+          "groups": 2
+        },
+        "deep": {
+          "quanta": 1971975484,
+          "totalU": 1971975.484,
+          "gradeMean": {
+            "low": 0.17944937874097375,
+            "medium": 0.338900581006892,
+            "high": 0.4816500402521341
+          },
+          "deposits": 23,
+          "groups": 1
+        }
+      },
+      "depositCount": 77
+    },
+    {
+      "bodyId": "deimos",
+      "seed": "sol:deimos:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 0,
+      "totalQuanta": 669282227,
+      "totalU": 669282.227,
+      "gradeMean": {
+        "low": 0.2675346988938239,
+        "medium": 0.4933047974861115,
+        "high": 0.23916050362006508
+      },
+      "types": {
+        "surface": {
+          "quanta": 426793033,
+          "totalU": 426793.033,
+          "gradeMean": {
+            "low": 0.28057098112767553,
+            "medium": 0.635692059257999,
+            "high": 0.08373695961432533
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 82795755,
+          "totalU": 82795.755,
+          "gradeMean": {
+            "low": 0.4441081383265555,
+            "medium": 0.3357384178321809,
+            "high": 0.22015344384126362
+          },
+          "deposits": 20,
+          "groups": 6
+        },
+        "deep": {
+          "quanta": 159693439,
+          "totalU": 159693.439,
+          "gradeMean": {
+            "low": 0.14114675339777027,
+            "medium": 0.19445680319797248,
+            "high": 0.6643964434042574
+          },
+          "deposits": 15,
+          "groups": 1
+        }
+      },
+      "depositCount": 77
+    },
+    {
+      "bodyId": "io",
+      "seed": "sol:io:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 0,
+      "totalQuanta": 4240876180538,
+      "totalU": 4240876180.538,
+      "gradeMean": {
+        "low": 0.47233246270170703,
+        "medium": 0.33995055273710145,
+        "high": 0.18771698456119146
+      },
+      "types": {
+        "surface": {
+          "quanta": 2218989756064,
+          "totalU": 2218989756.064,
+          "gradeMean": {
+            "low": 0.6363211644580589,
+            "medium": 0.2701064327359198,
+            "high": 0.09357240280602128
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 1293224576041,
+          "totalU": 1293224576.041,
+          "gradeMean": {
+            "low": 0.36249976260587574,
+            "medium": 0.4766606014221906,
+            "high": 0.16083963597193357
+          },
+          "deposits": 22,
+          "groups": 6
+        },
+        "deep": {
+          "quanta": 728661848433,
+          "totalU": 728661848.433,
+          "gradeMean": {
+            "low": 0.16786900991108264,
+            "medium": 0.3100142963044345,
+            "high": 0.5221166937844829
+          },
+          "deposits": 12,
+          "groups": 1
+        }
+      },
+      "depositCount": 76
+    },
+    {
+      "bodyId": "europa",
+      "seed": "sol:europa:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 2,
+      "totalQuanta": 13052104412295,
+      "totalU": 13052104412.295,
+      "gradeMean": {
+        "low": 0.26281176612690643,
+        "medium": 0.6415179952560358,
+        "high": 0.09567023861705752
+      },
+      "types": {
+        "surface": {
+          "quanta": 7380538822479,
+          "totalU": 7380538822.479,
+          "gradeMean": {
+            "low": 0.30511488792253666,
+            "medium": 0.6760433712718077,
+            "high": 0.018841740805655725
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 3977646380462,
+          "totalU": 3977646380.462,
+          "gradeMean": {
+            "low": 0.2773687852546572,
+            "medium": 0.5506504780380056,
+            "high": 0.1719807367073372
+          },
+          "deposits": 27,
+          "groups": 6
+        },
+        "deep": {
+          "quanta": 1693919209354,
+          "totalU": 1693919209.354,
+          "gradeMean": {
+            "low": 0.04431108136894183,
+            "medium": 0.7044625396770428,
+            "high": 0.25122637895401567
+          },
+          "deposits": 19,
+          "groups": 1
+        }
+      },
+      "depositCount": 88
+    },
+    {
+      "bodyId": "ganymede",
+      "seed": "sol:ganymede:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 2,
+      "totalQuanta": 5812532050114,
+      "totalU": 5812532050.114,
+      "gradeMean": {
+        "low": 0.3647285770928444,
+        "medium": 0.48870302968519996,
+        "high": 0.14656839322195578
+      },
+      "types": {
+        "surface": {
+          "quanta": 3051035390235,
+          "totalU": 3051035390.235,
+          "gradeMean": {
+            "low": 0.5125194693915546,
+            "medium": 0.46168484372086827,
+            "high": 0.02579568688757718
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 1568125769197,
+          "totalU": 1568125769.197,
+          "gradeMean": {
+            "low": 0.3065306202508509,
+            "medium": 0.48853286160156134,
+            "high": 0.20493651814758782
+          },
+          "deposits": 19,
+          "groups": 6
+        },
+        "deep": {
+          "quanta": 1193370890682,
+          "totalU": 1193370890.682,
+          "gradeMean": {
+            "low": 0.06335242511238905,
+            "medium": 0.558002764713019,
+            "high": 0.37864481017459173
+          },
+          "deposits": 21,
+          "groups": 1
+        }
+      },
+      "depositCount": 82
+    },
+    {
+      "bodyId": "callisto",
+      "seed": "sol:callisto:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 2,
+      "totalQuanta": 21729276137170,
+      "totalU": 21729276137.17,
+      "gradeMean": {
+        "low": 0.594381236778998,
+        "medium": 0.2068720159072073,
+        "high": 0.19874674731379524
+      },
+      "types": {
+        "surface": {
+          "quanta": 15647561562484,
+          "totalU": 15647561562.484,
+          "gradeMean": {
+            "low": 0.7489881435758438,
+            "medium": 0.16031594306463381,
+            "high": 0.09069591335952285
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 2358880911067,
+          "totalU": 2358880911.067,
+          "gradeMean": {
+            "low": 0.4388788414187731,
+            "medium": 0.16483282470144325,
+            "high": 0.39628833387978385
+          },
+          "deposits": 15,
+          "groups": 5
+        },
+        "deep": {
+          "quanta": 3722833663619,
+          "totalU": 3722833663.619,
+          "gradeMean": {
+            "low": 0.04307821185328067,
+            "medium": 0.4291904261149466,
+            "high": 0.5277313620317727
+          },
+          "deposits": 19,
+          "groups": 1
+        }
+      },
+      "depositCount": 76
+    },
+    {
+      "bodyId": "titan",
+      "seed": "sol:titan:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 2,
+      "totalQuanta": 24672141974658,
+      "totalU": 24672141974.658,
+      "gradeMean": {
+        "low": 0.41555016018848867,
+        "medium": 0.3251875875038908,
+        "high": 0.2592622523076202
+      },
+      "types": {
+        "surface": {
+          "quanta": 9022552314149,
+          "totalU": 9022552314.149,
+          "gradeMean": {
+            "low": 0.6822350146481767,
+            "medium": 0.26422408525599167,
+            "high": 0.05354090009583159
+          },
+          "deposits": 40,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 8025346354373,
+          "totalU": 8025346354.373,
+          "gradeMean": {
+            "low": 0.3908802546560765,
+            "medium": 0.352913458738476,
+            "high": 0.2562062866054476
+          },
+          "deposits": 11,
+          "groups": 3
+        },
+        "deep": {
+          "quanta": 7624243306136,
+          "totalU": 7624243306.136,
+          "gradeMean": {
+            "low": 0.12592226851964372,
+            "medium": 0.36814747945638376,
+            "high": 0.5059302520239727
+          },
+          "deposits": 15,
+          "groups": 1
+        }
+      },
+      "depositCount": 66
+    },
+    {
+      "bodyId": "enceladus",
+      "seed": "sol:enceladus:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 2,
+      "totalQuanta": 248867240205,
+      "totalU": 248867240.205,
+      "gradeMean": {
+        "low": 0.33096927963071326,
+        "medium": 0.520517231510349,
+        "high": 0.1485134888589376
+      },
+      "types": {
+        "surface": {
+          "quanta": 155356170039,
+          "totalU": 155356170.039,
+          "gradeMean": {
+            "low": 0.4490105317789127,
+            "medium": 0.5049590625194831,
+            "high": 0.046030405701603744
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 54870175505,
+          "totalU": 54870175.505,
+          "gradeMean": {
+            "low": 0.1499210768379271,
+            "medium": 0.7211648429743944,
+            "high": 0.12891408018767836
+          },
+          "deposits": 15,
+          "groups": 5
+        },
+        "deep": {
+          "quanta": 38640894661,
+          "totalU": 38640894.661,
+          "gradeMean": {
+            "low": 0.11347198170376939,
+            "medium": 0.2981488784006797,
+            "high": 0.5883791398955509
+          },
+          "deposits": 16,
+          "groups": 1
+        }
+      },
+      "depositCount": 73
+    },
+    {
+      "bodyId": "titania",
+      "seed": "sol:titania:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 2,
+      "totalQuanta": 988631636431,
+      "totalU": 988631636.431,
+      "gradeMean": {
+        "low": 0.3562583407745975,
+        "medium": 0.42304001306494615,
+        "high": 0.22070164616045632
+      },
+      "types": {
+        "surface": {
+          "quanta": 414320506300,
+          "totalU": 414320506.3,
+          "gradeMean": {
+            "low": 0.401757072180044,
+            "medium": 0.5705645924177952,
+            "high": 0.027678335402160872
+          },
+          "deposits": 41,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 341623854883,
+          "totalU": 341623854.883,
+          "gradeMean": {
+            "low": 0.4407160291448236,
+            "medium": 0.3575743095483631,
+            "high": 0.2017096613068134
+          },
+          "deposits": 19,
+          "groups": 4
+        },
+        "deep": {
+          "quanta": 232687275248,
+          "totalU": 232687275.248,
+          "gradeMean": {
+            "low": 0.15124576130881912,
+            "medium": 0.25647391111589973,
+            "high": 0.5922803275752814
+          },
+          "deposits": 17,
+          "groups": 1
+        }
+      },
+      "depositCount": 77
+    },
+    {
+      "bodyId": "triton",
+      "seed": "sol:triton:resources:v1",
+      "certainty": "provisional",
+      "cells": 42,
+      "populationConfiguredCells": 0,
+      "colonyTileIds": [],
+      "populationPersons": 0,
+      "hydrogenSources": 2,
+      "totalQuanta": 1184172269525,
+      "totalU": 1184172269.525,
+      "gradeMean": {
+        "low": 0.3851647985387961,
+        "medium": 0.3644625616546523,
+        "high": 0.2503726398065512
+      },
+      "types": {
+        "surface": {
+          "quanta": 649996456986,
+          "totalU": 649996456.986,
+          "gradeMean": {
+            "low": 0.5228962805937044,
+            "medium": 0.4469399552186949,
+            "high": 0.03016376418760046
+          },
+          "deposits": 42,
+          "groups": 1
+        },
+        "vein": {
+          "quanta": 281352391627,
+          "totalU": 281352391.627,
+          "gradeMean": {
+            "low": 0.2953348003327847,
+            "medium": 0.32178346398286517,
+            "high": 0.3828817356843502
+          },
+          "deposits": 12,
+          "groups": 3
+        },
+        "deep": {
+          "quanta": 252823420912,
+          "totalU": 252823420.912,
+          "gradeMean": {
+            "low": 0.13103054830105976,
+            "medium": 0.19991235010558742,
+            "high": 0.6690571015933529
+          },
+          "deposits": 16,
+          "groups": 1
+        }
+      },
+      "depositCount": 70
+    }
+  ]
+}

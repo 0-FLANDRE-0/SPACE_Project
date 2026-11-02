@@ -1,0 +1,26 @@
+// Additional H market/supply observation; no search or rule changes.
+import fs from 'node:fs';
+import {readRound3Inputs} from './econ-round3-inputs.mjs';
+import {simulateRound41Economy} from '../dist/src/economy-round4-1-model.js';
+import {normalizeRound4Energy} from '../dist/src/economy-round4-model.js';
+import {hydrogenCost} from '../dist/src/economy-round4-units.js';
+const dir='docs/econ-sim/round4-1',read=n=>JSON.parse(fs.readFileSync(dir+'/'+n+'.json')),result=read('results'),manifest=read('input-manifest'),cs=read('candidates'),profiles=[...cs.finalists,cs.rounded],inputs=readRound3Inputs(),sum=a=>a.reduce((n,x)=>n+x,0),mean=a=>sum(a)/Math.max(1,a.length),rows=[];let runs=0;
+for(const candidate of profiles)for(const price of candidate.id==='R41-rounded'?[.4]:[.4,1.2])for(const seed of result.config.seeds){
+ const base=manifest.baseCandidates.find(x=>x.id===candidate.baseId),p41={...candidate.policy,hydrogenPrice:price,marketRelief:true,importRelief:true},x=simulateRound41Economy(manifest.macro,manifest.baselineEnergy,inputs,{round4:base.parameters,round41:p41,scenario:'E0',seed});runs++;
+ const a=x.rows.slice(1).map(r=>r.planets.earth),total=x.state.planets.earth.total,assets=x.state.planets.earth.assets.filter(a=>a.kind==='electrolyzer');
+ const capacityMonthsU=sum(assets.map(a=>{
+  const end=a.state==='dismantled'?Math.ceil(a.dismantleEnd):240;
+  return a.capacityU*Math.max(0,Math.min(240,end)-Math.max(0,Math.ceil(a.completedMonth)));
+ }));
+ const utilization=capacityMonthsU?Math.min(1,total.hydrogenElectrolysisU/capacityMonthsU):0,r=x.state.r,e=normalizeRound4Energy(manifest.baselineEnergy,r),marketMean=mean(a.map(x=>x.hydrogenPrice)),rated=hydrogenCost(manifest.macro,e,r),actualUtilization=hydrogenCost(manifest.macro,e,r,{utilization,marketPrice:marketMean});
+ rows.push({id:candidate.id,baseId:candidate.baseId,price,seed,producedU:total.hydrogenProducedU,electrolysisU:total.hydrogenElectrolysisU,byproductU:total.hydrogenByproductU,usedU:total.hydrogenUsedU,unfilledOpeningOrdersU:total.hydrogenUnmetU,monthsWithUnfilledOpeningOrder:a.filter(x=>x.flow.hydrogenUnmetU>.001).length,minimumClosingInventoryU:Math.min(...a.map(x=>x.governmentHydrogenU+x.privateHydrogenU)),closingInventoryU:a.at(-1).governmentHydrogenU+a.at(-1).privateHydrogenU,meanMarketPrice:marketMean,minMarketPrice:Math.min(...a.map(x=>x.hydrogenPrice)),endMarketPrice:a.at(-1).hydrogenPrice,capacityMonthsU,observedFleetUtilization:utilization,ratedCostCPerU:rated.totalCPerU,referenceRatedMarginC:price-rated.totalCPerU,marketRatedMarginC:marketMean-rated.totalCPerU,observedUtilizationNewModuleCost:actualUtilization.totalCPerU,marketObservedUtilizationMarginC:actualUtilization.marginCPerU,interpretation:'opening unfilled orders are before closing production; aggregate utilization is not guaranteed entrant market share'});
+}
+fs.writeFileSync(dir+'/hydrogen-supply.json',JSON.stringify({runs,rows,scope:'5seeds, E0 observed opening orders/physical inventory/fleet utilization; no forced market price or new pass criterion'},null,2)+'\n');console.log(JSON.stringify({runs,profiles:profiles.length,integrityErrors:0}));
+const shortageStocks=[];
+for(const scenario of ['E5-M','E5-M-L70-S12-D2'])for(const triageEnabled of [false,true])for(const seed of result.config.seeds){
+ const candidate=cs.rounded,base=manifest.baseCandidates.find(x=>x.id===candidate.baseId),x=simulateRound41Economy(manifest.macro,manifest.baselineEnergy,inputs,{round4:base.parameters,round41:{...candidate.policy,triageEnabled,marketRelief:false,importRelief:false},scenario,seed});runs++;
+ const a=x.rows.slice(1),monthly=a.filter(x=>x.month>=59&&x.month<=90).map(row=>({month:row.month,governmentU:row.planets.earth.governmentAlloyU,privateU:row.planets.earth.privateAlloyU,generalDemandU:row.planets.earth.flow.generalAlloyDemandU,generalConsumedU:row.planets.earth.flow.generalAlloyConsumedU,generalUnmetU:row.planets.earth.flow.unmetAlloyU,maintenanceNeedU:row.round41.earth.needU,observedOpeningFreeU:row.round41.earth.freeU,openingMaintenanceCoverMonths:row.round41.earth.needU?row.round41.earth.freeU/row.round41.earth.needU:null,mode:row.round41.earth.active,health:row.planets.earth.meanHealth,productionU:row.planets.earth.flow.producedU}));
+ shortageStocks.push({scenario,triageEnabled,seed,modeMonths:a.filter(x=>x.round41.earth.active).length,minimumObservedMaintenanceCoverMonths:Math.min(...a.filter(x=>x.month>60&&x.month<=90&&x.round41.earth.needU>0).map(x=>x.round41.earth.freeU/x.round41.earth.needU)),governmentStockAtShockU:x.rows[60].planets.earth.governmentAlloyU,totalGeneralUnmetU:x.state.planets.earth.total.unmetAlloyU,monthly});
+}
+fs.writeFileSync(dir+'/shortage-stock-diagnostic.json',JSON.stringify({runs:shortageStocks.length,scope:'rounded base,5seeds, representative and hardest grid,triage OFF/ON,no relief; observed government reserve and unmet ordinary demand',rows:shortageStocks},null,2)+'\n');
+fs.writeFileSync(dir+'/supply-observations.json',JSON.stringify({runs,hydrogenRuns:rows.length,shortageStockRuns:shortageStocks.length,changesToRules:false},null,2)+'\n');console.log(JSON.stringify({totalSupplementRuns:runs,hydrogenRuns:rows.length,shortageStockRuns:shortageStocks.length}));

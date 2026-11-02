@@ -1,0 +1,11 @@
+PASS byte-reproduced runs.csv 3064dfd5360c2f92956feba84137a9f4c1f4ad2c8174b5cd85cdcaca985f015d
+PASS byte-reproduced candidates.json c82135a4d34adc6ef8ed4e4aea7e94efcf59a267fa0295f8af3241032d92f50e
+PASS byte-reproduced combinations.json 3d2a7a225ea013c5eafdd80585c90be35a7714b9c5cef90138946f8e11ece6ef
+PASS byte-reproduced series.json 741966cea24759d856802156a956d6024038bdc508c1b73c5855ec8ac24e8cd0
+PASS byte-reproduced rounding-runs.csv 6459d10c71b956fa19de20730cf727d8c241891fa8e017a645761b3e96a8b08a
+PASS byte-reproduced round1-rechecks.csv 6c7421213a3cb809b72b63b92fe64089b23c7b45885c5adf4425c6f49ab77df0
+PASS all deterministic results.json fields reproduced (time measurements excluded)
+PASS byte-reproduced all34 SVG figures
+PASS independent Python recomputation of revised criteria for all17920 rows; exactly6 full-profile passes
+PASS rounded baseline independently passes all35 rows and equilibrium band
+PASS recorded model hash matches current source

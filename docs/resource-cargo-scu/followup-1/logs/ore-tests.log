@@ -1,0 +1,83 @@
+✔ actual mined low lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (50.792118ms)
+✔ actual mined medium lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (38.929127ms)
+✔ actual mined high lot seals8U and reopens the exact source/difficulty with450/405/45Q material flow (33.031786ms)
+✔ 0.001U uses one whole1SCU shell and fractional recovery accumulates on the actual second opening (45.74742ms)
+✔ partial group opening restores an entire container manifest, never a generic ore buffer (43.181765ms)
+✔ same grade and fill from different actual veins never merge away their source identity (43.240689ms)
+✔ mixed lot requests, fractional content opening, generic consumption/modernization and remote delivery fail closed (35.310422ms)
+✔ default null costs remain pending for real mined ore and never mutate its lot or free alloy (28.654284ms)
+✖ insufficient ore, actual alloy, wallet C and Wh reject the joint transaction without a single field changing (58.232174ms)
+✔ invalid source/body/owner/difficulty/grade and repeated references are rejected before any custody update (34.704457ms)
+✔ quotes are state-bound, immutable, stale after real clock/stock changes and non-replayable (32.72346ms)
+✖ strict validators reject corrupted manifests, counts, custody totals and extra free stock even if legacy projection could balance (33.611352ms)
+✖ generation unlock leaves old ore provenance, actual bonded material and recovery rules unchanged (29.45211ms)
+✖ current save export/import preserves lot manifests, partial groups, recovery carry and local clock without storage (31.852735ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 10
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4591.632009
+
+✖ failing tests:
+
+test at tests/scu-followup-ore.test.js:32:1
+✖ insufficient ore, actual alloy, wallet C and Wh reject the joint transaction without a single field changing (58.232174ms)
+  AssertionError [ERR_ASSERTION]: alloy
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/tests/scu-followup-ore.test.js:33:509)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/scu-followup-ore.test.js:37:1
+✖ strict validators reject corrupted manifests, counts, custody totals and extra free stock even if legacy projection could balance (33.611352ms)
+  TypeError: Cannot read properties of undefined (reading 'count')
+      at s.packaging.accounts.earth|human.scu.groups.<computed>.lotManifest.<computed>.grade (file:///workspace/SPACE_Project/tests/scu-followup-ore.test.js:37:267)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/tests/scu-followup-ore.test.js:37:806)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at tests/scu-followup-ore.test.js:41:1
+✖ generation unlock leaves old ore provenance, actual bonded material and recovery rules unchanged (29.45211ms)
+  Error: 선택한 현지 봉인 광석 그룹 없음
+      at commitIndustryOreOperation (file:///workspace/SPACE_Project/dist/src/industry-ore-packaging.js:54:56)
+      at unpackIndustryContainer (file:///workspace/SPACE_Project/dist/src/industry-packaging.js:55:97)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/tests/scu-followup-ore.test.js:41:521)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at tests/scu-followup-ore.test.js:42:1
+✖ current save export/import preserves lot manifests, partial groups, recovery carry and local clock without storage (31.852735ms)
+  Error: 선택한 현지 봉인 광석 그룹 없음
+      at commitIndustryOreOperation (file:///workspace/SPACE_Project/dist/src/industry-ore-packaging.js:54:56)
+      at unpackIndustryContainer (file:///workspace/SPACE_Project/dist/src/industry-packaging.js:55:97)
+      at TestContext.<anonymous> (file:///workspace/SPACE_Project/tests/scu-followup-ore.test.js:42:222)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)

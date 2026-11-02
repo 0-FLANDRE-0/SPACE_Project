@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "campaign-industry-runtime",
+  "systemId": "sol",
+  "scenarioId": "development-fixture-v1",
+  "seed": "industry-v1",
+  "days": 0,
+  "originDays": 0,
+  "settledTick": 0,
+  "nextFacilitySerial": 1,
+  "sourceSignatures": {
+    "earth": "52cbc980",
+    "moon": "b671412b",
+    "mars": "1dcd3358",
+    "venus": "f9b20f97",
+    "jupiter": "ea223880"
+  },
+  "governmentTreasuries": {
+    "human": 100000
+  },
+  "planetInventory": {
+    "earth": {
+      "human": {
+        "ore": {
+          "low": 0,
+          "medium": 0,
+          "high": 0
+        },
+        "alloy": 10000000,
+        "hydrogen": 500000,
+        "residue": 0
+      }
+    }
+  },
+  "oreRemaining": {},
+  "oreExtracted": {},
+  "hydrogenRemaining": {},
+  "hydrogenRecovered": {},
+  "governmentSlots": {},
+  "facilityInstances": {},
+  "inventoryLots": [],
+  "hydrogenKnowledge": {
+    "human": [
+      "sol/earth/h1-sol-earth-d71207a1-1"
+    ]
+  },
+  "depositKnowledge": {
+    "human": {
+      "sol/earth/r2-sol-earth-988ed46b-surface-77-0": 413603607617
+    }
+  },
+  "productionExperience": {},
+  "productionHistory": [],
+  "eventLog": [],
+  "materialLedger": {},
+  "fixture": true
+}

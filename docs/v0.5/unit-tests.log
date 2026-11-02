@@ -1,0 +1,68 @@
+
+> space-project@0.5.0-alpha.1 test
+> node --test tests/*.test.js
+
+✔ three grids retain fixed base cells; four-cell region changes only shared internal edges (12.00059ms)
+✔ unassigned pairs and different administrative regions always preserve their shared edge (1.028795ms)
+✔ six-cell ring is connected, leaves a hole and emits both its six inner and outer borders (1.175907ms)
+✔ disconnected, duplicate, foreign and unknown base sector assignments reject atomically (1.280384ms)
+✔ adjacent merge preserves target identity/name/color and removes absorbed ID; nonadjacent merge rejects (1.542661ms)
+✔ bridge removal rejects without mutation; connected removal, add, metadata and deletion preserve unrelated regions (1.28398ms)
+✔ undo keeps serials monotonic and is isolated across systems (1.370541ms)
+✔ grid growth preserves saved assignments, base IDs and centers; new sectors are unassigned (3.078791ms)
+✔ versioned JSON round-trip and system switching preserve each system independently without time state (1.516541ms)
+✔ malformed/unsupported JSON is preserved and blocks overwrite until explicit backup recovery (1.556952ms)
+✔ invalid sector references quarantine only their own system and remain intact when another system is saved (1.231701ms)
+✔ localStorage write failure leaves validated edits in memory and reports their persistence limit (0.70842ms)
+✔ astronomy-only metric radii and orbit distances retain physical km conversions (1.46913ms)
+✔ reference Earth matches the independent JPL Horizons vector within 0.0003 real AU (0.909524ms)
+✔ JPL reference semimajor axis evolves independently; only game axis stays fixed (3.102127ms)
+✔ real satellite closure and moving-parent reference coordinates remain available (1.908323ms)
+✔ axial uniqueness, ring distance and 1 + 3R(R+1) counts hold through eight rings (3.650094ms)
+✔ all neighboring regular hexagons share exactly one full edge with no gap (2.178341ms)
+✔ fixed 210 AU cells give Sol three rings and exact coverage including edge notches (3.972912ms)
+✔ three system sizes share exactly the same radius and choose different minimal ring counts (4.415331ms)
+✔ every generated sector center round-trips in all context frames (2.50817ms)
+✔ boundary ties are deterministic and favor the inner ring then axial order (0.714499ms)
+✔ required circular management bounds are covered at 1440 angular samples and several radii (18.02982ms)
+✔ growth appends rings without changing any prior sector ID, center or radius (3.251462ms)
+✔ tilted/off-origin projection and game AU <-> world mapping preserve height and membership (0.515299ms)
+✔ all sector and upper-scoped body IDs remain unique across systems with reused local IDs (0.751956ms)
+✔ moving celestial membership is queried from its current position rather than cached once (0.413105ms)
+✔ Sol adapter preserves prior orbital math and IAU frame without modifying source data (22.739361ms)
+✔ empty optional arrays and independent multiple-star positions are accepted (0.858157ms)
+✔ simulation context switch preserves the single world clock and clears the previous body namespace (0.458193ms)
+✔ context popup flips and clamps near every edge in desktop and mobile landscape (0.620808ms)
+✔ Kepler ellipses close geometrically and remain in their actual 3D orbital planes (4.889347ms)
+✔ argument of periapsis is honored and coordinates preserve right-handed orientation (0.31112ms)
+✔ moon tracks its moving parent without leaving its measured ellipse (1.063587ms)
+✔ IAU axes match known Earth, Mars, Venus and Uranus obliquities (1.174585ms)
+✔ rotation advances around a fixed local pole and Venus/Uranus rotate retrograde (0.700618ms)
+✔ scale bar uses game AU at every zoom level without converting to km/m (0.330219ms)
+✔ pause, speed, and frame subdivisions preserve elapsed simulation time (1.642112ms)
+✔ selection differentiates the chosen orbit from parent/satellite context (0.143727ms)
+✔ body IDs and parent links remain valid; secular elements vary with epoch (0.25834ms)
+✔ planet size formula and the complete requested orbit/size table are authoritative (0.613948ms)
+✔ Sun classification, Star Size and converted diameter remain separate (1.45635ms)
+✔ game ellipses keep the reference orientation, eccentricity and phase (1.419615ms)
+✔ entire orbital envelopes clear the star, neighboring systems, satellites and rings (1.957587ms)
+✔ validation catches invalid star size, crossing planet paths, satellite interiors and ring overlap (1.20463ms)
+✔ all satellites use a distinct diameter rule and game-relative orbit (0.568168ms)
+✔ selection assistance ignores occluded/offscreen targets and resolves distance then depth (0.506305ms)
+✔ 53 AU stays 53 while its rendered length matches the previous 140-unit Jupiter–Saturn gap (0.30444ms)
+✔ default UI 1× advances exactly 600 game seconds in 60 foreground seconds (0.825848ms)
+✔ every tactical and strategy preset uses the common 10:1 baseline (0.220203ms)
+✔ invalid speeds/caps reject without changing the requested or effective speed (0.460876ms)
+✔ frame partitions, pause and resume preserve the single deterministic clock (0.185841ms)
+✔ speed cap preserves requested strategy speed and restores it after explicit release (0.12581ms)
+✔ UTC date/time formatting crosses day, month and year boundaries consistently (0.388167ms)
+✔ normal foreground frame stalls are counted fully instead of being clipped to 0.1 seconds (0.194563ms)
+✔ hidden intervals and first-frame catch-up are excluded; suspension >=60 seconds is signaled (0.123015ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 56
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 257.379935

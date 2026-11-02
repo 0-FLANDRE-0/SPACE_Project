@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "kind": "campaign-industry-runtime",
+  "systemId": "sol",
+  "scenarioId": "development-fixture-v1",
+  "seed": "industry-v1",
+  "days": 0,
+  "originDays": 0,
+  "settledTick": 0,
+  "nextFacilitySerial": 1,
+  "sourceSignatures": {
+    "earth": "52cbc980",
+    "moon": "b671412b",
+    "mars": "1dcd3358",
+    "venus": "f9b20f97",
+    "jupiter": "ea223880"
+  },
+  "governmentTreasuries": {
+    "human": 100000
+  },
+  "planetInventory": {
+    "earth": {
+      "human": {
+        "ore": {
+          "low": 0,
+          "medium": 0,
+          "high": 0
+        },
+        "alloy": 10000000,
+        "hydrogen": 500000,
+        "residue": 0,
+        "resourcesQ": {}
+      }
+    }
+  },
+  "oreRemaining": {},
+  "oreExtracted": {},
+  "hydrogenRemaining": {},
+  "hydrogenRecovered": {},
+  "governmentSlots": {},
+  "facilityInstances": {},
+  "inventoryLots": [],
+  "hydrogenKnowledge": {
+    "human": [
+      "sol/earth/h1-sol-earth-d71207a1-1"
+    ]
+  },
+  "depositKnowledge": {
+    "human": {
+      "sol/earth/r2-sol-earth-988ed46b-surface-77-0": 413603607617
+    }
+  },
+  "productionExperience": {},
+  "productionHistory": [],
+  "eventLog": [],
+  "materialLedger": {},
+  "fixture": true,
+  "packaging": {
+    "schemaVersion": 1,
+    "revision": 2,
+    "accounts": {
+      "earth|human": {
+        "bodyId": "earth",
+        "ownerId": "human",
+        "freeQ": {
+          "alloy": 10000000,
+          "residue": 0,
+          "hydrogen": 0
+        },
+        "creditsMicroC": 0,
+        "energyWh": 0,
+        "groups": {
+          "hydrogen-legacy-unpriced-v1": {
+            "resourceId": "hydrogen",
+            "packageSpecId": "hydrogen-legacy-unpriced-v1",
+            "amountQ": 500000,
+            "bondedMaterialsQ": {}
+          }
+        },
+        "counters": {
+          "hydrogen-legacy-unpriced-v1": {
+            "packedQ": 500000,
+            "chargedQ": {},
+            "chargedCreditsMicroC": 0,
+            "chargedEnergyWh": 0,
+            "recovery": {}
+          }
+        },
+        "ledger": {
+          "initialQ": {
+            "alloy": 10000000,
+            "residue": 0
+          },
+          "suppliedQ": {
+            "hydrogen": 500000
+          },
+          "consumedQ": {},
+          "lostQ": {},
+          "inQ": {},
+          "outQ": {},
+          "packageDeltaQ": {},
+          "freeTransferDeltaQ": {},
+          "contentTransferDeltaQ": {},
+          "otherContentConsumedQ": {},
+          "externalFreeDeltaQ": {},
+          "initialCreditsMicroC": 0,
+          "creditFundedMicroC": 0,
+          "creditSpentMicroC": 0,
+          "initialEnergyWh": 0,
+          "energyFundedWh": 0,
+          "energySpentWh": 0
+        },
+        "automation": {
+          "enabled": true,
+          "lastMs": 0,
+          "capacityQPerHour": null,
+          "batchQ": null,
+          "carry": 0,
+          "protectedFreeQ": {},
+          "forecastConsumptionQ": null,
+          "benefitMicroCPerU": null,
+          "pendingReason": "승인 규격·전력·C·처리능력 미연결",
+          "nextJob": 1,
+          "jobs": []
+        }
+      }
+    }
+  }
+}

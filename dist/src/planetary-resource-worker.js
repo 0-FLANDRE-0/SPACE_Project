@@ -1,0 +1,2 @@
+import { planBodyResourceGeneration, migrateSurfaceV1 } from './planetary-resource-model.js';
+self.onmessage=({data})=>{try{if(data.operation==='migrate'){const nextTemplate=migrateSurfaceV1(data.template,data.grid,data.body);self.postMessage({ok:true,preview:{nextTemplate,baseJSON:JSON.stringify(data.template),migration:true}});}else self.postMessage({ok:true,preview:planBodyResourceGeneration(data)});}catch(error){self.postMessage({ok:false,error:error.message});}};
