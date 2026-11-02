@@ -1,0 +1,243 @@
+{
+  "status": "ECON-SIM-4 탐색 결과 — 사용자 미결정; 게임 미적용",
+  "baselineCommit": "edc0d4257dad9cd46622fc8b00f039b68479b601",
+  "archiveCommit": "5760cbc8b079ca78060b56755eb084c872b13ddc",
+  "months": 240,
+  "samples": 512,
+  "narrowSamples": 128,
+  "seeds": [
+    "econ-1",
+    "econ-2",
+    "econ-3",
+    "econ-4",
+    "econ-5"
+  ],
+  "samplingSeed": "econ-round4-lhs-1",
+  "broadScenarios": [
+    "E0",
+    "E2-S",
+    "E5-X"
+  ],
+  "round4": {
+    "hydrogenPrice": 1.2,
+    "electrolysisKWhKg": 52.5,
+    "hydrogenLiquefactionKWhKg": 10.5,
+    "oxygenLiquefactionKWhKg": 0.35,
+    "hydrogenStorageKWhKgMonth": 0.1,
+    "boiloffMonthly": 0.0025,
+    "hydrogenCapacityScale": 1,
+    "hydrogenCScale": 1,
+    "hydrogenAlloyScale": 1,
+    "packCPerSCU": 0.02,
+    "packKWhPerSCU": 2,
+    "freightCPerSCU": 0.0125,
+    "mediumRatio": 0.2,
+    "smallRatio": 0.03333333333333333,
+    "nuclearCostExponent": 0.675,
+    "solarCostExponent": 0.9,
+    "timeExponent": 0.35,
+    "reuseDiscount": 0.25,
+    "upgradeDerate": 0.25,
+    "fusionUnlockMonth": 114,
+    "solarCapexScale": 0.8,
+    "solarEarthCF": 0.25,
+    "pausedCashFraction": 0.12,
+    "pausedAlloyFraction": 0.5,
+    "mineRestartFraction": 0.015,
+    "mineFirstDayFraction": 0.05,
+    "smeltRestartFraction": 0.05,
+    "smeltHeatMultiplier": 4,
+    "smeltRecoveryMonths": 2.5,
+    "privateLossMonths": 4,
+    "privateDismantleMonths": 24,
+    "privateRestartMonths": 6,
+    "dismantleMonths": 2,
+    "dismantleCashFraction": 0.06,
+    "salvageFraction": 0.55,
+    "upkeep_earth": 0.025,
+    "upkeep_moon": 0.0375,
+    "upkeep_mars": 0.0325,
+    "colonyKWPerPerson": 5,
+    "priorityEnabled": true,
+    "lifecycleEnabled": true,
+    "governmentDismantle": false,
+    "legacyUpkeepReference": 0.1,
+    "oxygenStored": false,
+    "publicColonyResponse": true
+  },
+  "ranges": {
+    "electrolysisKWhKg": [
+      50,
+      55
+    ],
+    "hydrogenLiquefactionKWhKg": [
+      8,
+      13
+    ],
+    "oxygenLiquefactionKWhKg": [
+      0.2,
+      0.5
+    ],
+    "hydrogenStorageKWhKgMonth": [
+      0.05,
+      0.2
+    ],
+    "boiloffMonthly": [
+      0,
+      0.005
+    ],
+    "hydrogenCapacityScale": [
+      0.5,
+      1.5
+    ],
+    "hydrogenCScale": [
+      0.5,
+      1.5
+    ],
+    "hydrogenAlloyScale": [
+      0.5,
+      1.5
+    ],
+    "packCPerSCU": [
+      0.003,
+      0.06
+    ],
+    "packKWhPerSCU": [
+      0.5,
+      5
+    ],
+    "mediumRatio": [
+      0.16666666666666666,
+      0.25
+    ],
+    "smallRatio": [
+      0.025,
+      0.05
+    ],
+    "nuclearCostExponent": [
+      0.6,
+      0.75
+    ],
+    "solarCostExponent": [
+      0.85,
+      0.95
+    ],
+    "timeExponent": [
+      0.3,
+      0.4
+    ],
+    "reuseDiscount": [
+      0.2,
+      0.3
+    ],
+    "upgradeDerate": [
+      0,
+      0.5
+    ],
+    "fusionUnlockMonth": [
+      84,
+      144
+    ],
+    "solarCapexScale": [
+      0.6,
+      1
+    ],
+    "solarEarthCF": [
+      0.2,
+      0.3
+    ],
+    "pausedCashFraction": [
+      0.05,
+      0.2
+    ],
+    "pausedAlloyFraction": [
+      0.4,
+      0.6
+    ],
+    "mineRestartFraction": [
+      0.005,
+      0.03
+    ],
+    "mineFirstDayFraction": [
+      0,
+      0.1
+    ],
+    "smeltRestartFraction": [
+      0.02,
+      0.08
+    ],
+    "smeltHeatMultiplier": [
+      2,
+      6
+    ],
+    "smeltRecoveryMonths": [
+      1.5,
+      4
+    ],
+    "privateLossMonths": [
+      2,
+      6
+    ],
+    "privateDismantleMonths": [
+      12,
+      36
+    ],
+    "privateRestartMonths": [
+      3,
+      12
+    ],
+    "dismantleMonths": [
+      1,
+      3
+    ],
+    "dismantleCashFraction": [
+      0.03,
+      0.1
+    ],
+    "salvageFraction": [
+      0.4,
+      0.7
+    ],
+    "upkeep_earth": [
+      0.02,
+      0.03
+    ],
+    "upkeep_moon": [
+      0.03,
+      0.045
+    ],
+    "upkeep_mars": [
+      0.025,
+      0.04
+    ],
+    "colonyKWPerPerson": [
+      2,
+      8
+    ]
+  },
+  "criteria": {
+    "peacePriceDeviation": 0.15,
+    "meanPriceDeviation": 0.08,
+    "inflationMin": 0.01,
+    "inflationMax": 0.03,
+    "budget17Min": 1.1,
+    "budget17Max": 1.6,
+    "colonyPeaceYearlyMax": 0.01,
+    "colonyFoundingYearlyMax": 0.1,
+    "industryPaybackYearsMax": 4,
+    "hydrogenMarginMin": 0,
+    "crisisRecoveryYearsMax": 5,
+    "crisisHealthMin": 0.8,
+    "crisisUnservedMax": 0.01,
+    "warRecoveryYearsMax": 4
+  },
+  "provenance": {
+    "fixed": "REQUEST_KO.md §2 [사용자 확정], §6 식민지 합격선",
+    "hydrogenPrice": "[4차 검증 가정] 1.2C/U; .4 paired control",
+    "ranges": "[Claude 제안 출발 범위]; full endpoints retained. Conditional narrowed search does not replace the broad ranges.",
+    "hydrogenStorageKWhKgMonth": "추가 탐색 가정: 월 보존 전력 .05–.2 kWh/kg; 실제 측정값 아님, 재액화와 별도. 미정 전력을0으로 두지 않기 위한 명시적 민감도.",
+    "freight": "0/.0125/.05 C per occupied SCU;0 is diagnostic only",
+    "legacyUpkeepReference": "R3-rounded capital maintenance basis uses its historical .1 annual rate; active Round4 bill instead uses 2–5% environment rate.",
+    "publicColonyResponse": "4차 명시적 운전 가정: 평시 기존 식민지의 여유가 R3 gridReserve 이하이면 실제 예산/SCU 보급으로 소형 핵분열1기를 발주. 무상 전력 없음; paired OFF 비교. E3–E11 스트레스에는 적용하지 않음."
+  }
+}

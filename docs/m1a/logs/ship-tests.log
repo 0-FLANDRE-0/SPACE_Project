@@ -1,0 +1,35 @@
+✔ M1a starts exactly three confirmed designs with independent gAU positions (5.73216ms)
+✔ hyperpulse validates maximum hull class and rejects larger or unknown hulls (0.885899ms)
+✔ fixed displayed length is 1 and sqrt(170/60), distinct from gAU scaling (0.181094ms)
+✔ icon hysteresis has explicit 3.6/4.4 percent boundaries and no chatter (0.214243ms)
+✔ 3D turning includes pitch and exact angular velocity then charge then cruise (8.933005ms)
+✔ 320gAU Earth–Saturn fixed-distance fixture: support cruise 320h (charge separate) (0.744415ms)
+✔ 320gAU Earth–Saturn fixed-distance fixture: explorer cruise 0.5h (charge separate) (1.678466ms)
+✔ cancel during turning leaves current position; reissue begins a new alignment (0.901772ms)
+✔ cancel during charging leaves current position; reissue begins a new alignment (0.798416ms)
+✔ cancel during cruising leaves current position; reissue begins a new alignment (1.049936ms)
+✔ mid-cruise replacement originates at current position without snapping to old departure (1.300645ms)
+✔ friendly ship is frozen at order time and never tracks later movement (0.685466ms)
+✔ bounded arrival fixed point converges; oscillating residual uses bracket fallback (0.30477ms)
+✔ real moving Saturn is intercepted at high boundary on approach side then followed (5.106685ms)
+✔ all eleven representative moon targets have finite convergent explorer routes (598.946279ms)
+✔ star is rejected without replacing an active valid command (24.307381ms)
+✔ inside current high sphere uses propulsion with no drive charge and follows when stopped (0.99314ms)
+✔ LOS departure navigates high-boundary candidates by propulsion before drive charge (6.358055ms)
+✔ static star crossing creates explicit waypoints with repeat turn and charge; independently sampled path clears (4.391194ms)
+✔ moving obstruction is checked at passage time instead of current snapshot (3.280265ms)
+✔ asteroids are deterministic, stratified over system, belt 190–230 and inclined orbital targets (1.705707ms)
+✔ every lattice vertex is deduplicated and available as a real movement target (1.254725ms)
+✔ all fourteen presets keep 10:1 base; new caps release requested 8640× (0.382678ms)
+✔ same game time in one huge frame and 137 partitions produces same fleet and event timestamps (110.535128ms)
+✔ arrival auto-pause off by default; on clamps all ships and single clock to first arrival (27.316457ms)
+✔ zero-distance local re-order clears the previous active drive command (1.563613ms)
+✔ 1day/sec big tick vs small ticks preserves industry/SCU progress and all ship events together (313.983347ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1244.884853

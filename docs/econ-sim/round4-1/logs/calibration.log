@@ -1,0 +1,43 @@
+R4 exact OFF/archive replay: 4/4 jobs, 90.9s
+.4 baseline no new policies: 4/4 jobs, 56.0s
+7-axis policy LHS: 8/256 jobs, 14.1s
+7-axis policy LHS: 16/256 jobs, 26.7s
+7-axis policy LHS: 24/256 jobs, 37.1s
+7-axis policy LHS: 32/256 jobs, 50.6s
+7-axis policy LHS: 40/256 jobs, 64.2s
+7-axis policy LHS: 48/256 jobs, 74.0s
+7-axis policy LHS: 56/256 jobs, 86.6s
+7-axis policy LHS: 64/256 jobs, 98.5s
+7-axis policy LHS: 72/256 jobs, 109.2s
+7-axis policy LHS: 80/256 jobs, 124.0s
+7-axis policy LHS: 88/256 jobs, 146.8s
+7-axis policy LHS: 96/256 jobs, 170.8s
+7-axis policy LHS: 104/256 jobs, 190.7s
+7-axis policy LHS: 112/256 jobs, 206.3s
+7-axis policy LHS: 120/256 jobs, 224.0s
+7-axis policy LHS: 128/256 jobs, 237.7s
+7-axis policy LHS: 136/256 jobs, 254.9s
+7-axis policy LHS: 144/256 jobs, 270.1s
+7-axis policy LHS: 152/256 jobs, 285.9s
+7-axis policy LHS: 160/256 jobs, 303.5s
+7-axis policy LHS: 168/256 jobs, 317.9s
+7-axis policy LHS: 176/256 jobs, 329.2s
+7-axis policy LHS: 184/256 jobs, 341.6s
+7-axis policy LHS: 192/256 jobs, 354.2s
+7-axis policy LHS: 200/256 jobs, 365.5s
+7-axis policy LHS: 208/256 jobs, 377.6s
+7-axis policy LHS: 216/256 jobs, 389.9s
+7-axis policy LHS: 224/256 jobs, 401.0s
+7-axis policy LHS: 232/256 jobs, 413.9s
+7-axis policy LHS: 240/256 jobs, 426.5s
+7-axis policy LHS: 248/256 jobs, 437.4s
+7-axis policy LHS: 256/256 jobs, 449.6s
+one finalist per frozen R4 candidate: 4/4 jobs, 208.8s
+separate rounded full validation: 1/1 jobs, 94.6s
+triage2 × relief4 paired matrix: 8/32 jobs, 3.7s
+triage2 × relief4 paired matrix: 16/32 jobs, 6.7s
+triage2 × relief4 paired matrix: 24/32 jobs, 9.2s
+triage2 × relief4 paired matrix: 32/32 jobs, 12.4s
+unchanged extreme paired matrix: 8/8 jobs, 2.4s
+1.2 hydrogen reference control: 4/4 jobs, 5.1s
+{"out":"/workspace/SPACE_Project/docs/econ-sim/round4-1","counts":{"replayPairs":440,"replayExecutions":880,"baseline04":440,"search":5120,"final":1680,"rounded":420,"matrix":160,"extreme":40,"price12":40,"performanceExecutions":45,"totalOnRuns":7900,"integrityFailures":0,"searchPolicies":256,"samplesPerBase":64,"seeds":5},"selfPassingFinalists":4,"reliefPassingFinalists":4,"seconds":928.782382214,"performance":{"round4":{"samples":15,"p50Ms":188.2362809999613,"p95Ms":301.0122390000615},"round41Peace":{"samples":15,"p50Ms":236.59483700001147,"p95Ms":317.3453720000107},"round41Stress":{"samples":15,"p50Ms":134.03250099997967,"p95Ms":232.70265599992126}}}

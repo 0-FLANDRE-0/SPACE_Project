@@ -1,0 +1,659 @@
+{
+  "off": [
+    {
+      "scenario": "S0",
+      "seed": "econ-1",
+      "expectedHash": "c0c88a7437f6ec235326db575f540700ac5734c00de707f24ea251a790f0ee98",
+      "actualHash": "c0c88a7437f6ec235326db575f540700ac5734c00de707f24ea251a790f0ee98",
+      "equal": true
+    },
+    {
+      "scenario": "S0",
+      "seed": "econ-2",
+      "expectedHash": "3af1cfa6ecaae1b082e2416187af3396d58eb39615291472880fe3f9fca7c9b4",
+      "actualHash": "3af1cfa6ecaae1b082e2416187af3396d58eb39615291472880fe3f9fca7c9b4",
+      "equal": true
+    },
+    {
+      "scenario": "S0",
+      "seed": "econ-3",
+      "expectedHash": "42a7ebe70bde71a30b3d71744c39c867a477d5996329121d24522b24ba538de3",
+      "actualHash": "42a7ebe70bde71a30b3d71744c39c867a477d5996329121d24522b24ba538de3",
+      "equal": true
+    },
+    {
+      "scenario": "S0",
+      "seed": "econ-4",
+      "expectedHash": "b781cf4761cd4417992a3b85bd132ee0577cccfdd6724183cdc8ab14c22f15b5",
+      "actualHash": "b781cf4761cd4417992a3b85bd132ee0577cccfdd6724183cdc8ab14c22f15b5",
+      "equal": true
+    },
+    {
+      "scenario": "S0",
+      "seed": "econ-5",
+      "expectedHash": "45f05dec2e9618b71afe7bb180f7f9c40cc68acc34af4af61d5ea05e93ae158a",
+      "actualHash": "45f05dec2e9618b71afe7bb180f7f9c40cc68acc34af4af61d5ea05e93ae158a",
+      "equal": true
+    },
+    {
+      "scenario": "S1",
+      "seed": "econ-1",
+      "expectedHash": "eba3541def9add1848328de85015c51766e96edc495bea5612e504b3482e05b7",
+      "actualHash": "eba3541def9add1848328de85015c51766e96edc495bea5612e504b3482e05b7",
+      "equal": true
+    },
+    {
+      "scenario": "S1",
+      "seed": "econ-2",
+      "expectedHash": "b7dfda363dddfca95e444965ea90aa6934b89ed10f0073de0ee86e9d91ead934",
+      "actualHash": "b7dfda363dddfca95e444965ea90aa6934b89ed10f0073de0ee86e9d91ead934",
+      "equal": true
+    },
+    {
+      "scenario": "S1",
+      "seed": "econ-3",
+      "expectedHash": "2dcd10079abae8a1618525d76de0e1b6734dc7cac43a986aefab99f361e3b914",
+      "actualHash": "2dcd10079abae8a1618525d76de0e1b6734dc7cac43a986aefab99f361e3b914",
+      "equal": true
+    },
+    {
+      "scenario": "S1",
+      "seed": "econ-4",
+      "expectedHash": "8921ec0250967d263b24cb6acc0f19e88081117aafcec73106ac9db43d251119",
+      "actualHash": "8921ec0250967d263b24cb6acc0f19e88081117aafcec73106ac9db43d251119",
+      "equal": true
+    },
+    {
+      "scenario": "S1",
+      "seed": "econ-5",
+      "expectedHash": "3ff183e20219d2d8e44161ebb68acdc179d92be95c2cdeb1cecc30854af6a420",
+      "actualHash": "3ff183e20219d2d8e44161ebb68acdc179d92be95c2cdeb1cecc30854af6a420",
+      "equal": true
+    },
+    {
+      "scenario": "S2",
+      "seed": "econ-1",
+      "expectedHash": "8634e961e956f70c42e1fc52dfaa21321bf7f3505eebd2f1b00f87b1b1adc16b",
+      "actualHash": "8634e961e956f70c42e1fc52dfaa21321bf7f3505eebd2f1b00f87b1b1adc16b",
+      "equal": true
+    },
+    {
+      "scenario": "S2",
+      "seed": "econ-2",
+      "expectedHash": "7ee51ba4df5706ffc2f9ebaf3b0e1a36f7ea0df3f8bdc780cdb90130b0fbe6a3",
+      "actualHash": "7ee51ba4df5706ffc2f9ebaf3b0e1a36f7ea0df3f8bdc780cdb90130b0fbe6a3",
+      "equal": true
+    },
+    {
+      "scenario": "S2",
+      "seed": "econ-3",
+      "expectedHash": "cdca232c9ed4c1d72fa1ee957e8238b0970943bdaae13812b97cc8213020901f",
+      "actualHash": "cdca232c9ed4c1d72fa1ee957e8238b0970943bdaae13812b97cc8213020901f",
+      "equal": true
+    },
+    {
+      "scenario": "S2",
+      "seed": "econ-4",
+      "expectedHash": "bdf552dbc978ff904196afdbfe49b07db217d1c66c0c40964ee1631a590cb348",
+      "actualHash": "bdf552dbc978ff904196afdbfe49b07db217d1c66c0c40964ee1631a590cb348",
+      "equal": true
+    },
+    {
+      "scenario": "S2",
+      "seed": "econ-5",
+      "expectedHash": "d39b6dedd4487aad7664424ab2ac8828dbc95c99fb80cc980ed0e7d0ebec37cb",
+      "actualHash": "d39b6dedd4487aad7664424ab2ac8828dbc95c99fb80cc980ed0e7d0ebec37cb",
+      "equal": true
+    },
+    {
+      "scenario": "S3-debt",
+      "seed": "econ-1",
+      "expectedHash": "bb6f77d0045a229a823164653f17d239e646db947c53d9fad6b77df65a811879",
+      "actualHash": "bb6f77d0045a229a823164653f17d239e646db947c53d9fad6b77df65a811879",
+      "equal": true
+    },
+    {
+      "scenario": "S3-debt",
+      "seed": "econ-2",
+      "expectedHash": "0c406401928fe0ef9af8f666ebccc78cdacf6e957eb2f324dd5827546f2f0b73",
+      "actualHash": "0c406401928fe0ef9af8f666ebccc78cdacf6e957eb2f324dd5827546f2f0b73",
+      "equal": true
+    },
+    {
+      "scenario": "S3-debt",
+      "seed": "econ-3",
+      "expectedHash": "1b4564c41d1c4497c0c86249841195f91e3f7405a281d030e05a7b06c2d6db2c",
+      "actualHash": "1b4564c41d1c4497c0c86249841195f91e3f7405a281d030e05a7b06c2d6db2c",
+      "equal": true
+    },
+    {
+      "scenario": "S3-debt",
+      "seed": "econ-4",
+      "expectedHash": "433811b7cda10491393a5338967eb7fd68a9b8ddfb4a7e03d7912e5b527f49c1",
+      "actualHash": "433811b7cda10491393a5338967eb7fd68a9b8ddfb4a7e03d7912e5b527f49c1",
+      "equal": true
+    },
+    {
+      "scenario": "S3-debt",
+      "seed": "econ-5",
+      "expectedHash": "7000b016d36e74f5a01e4ee4775eb2cf134598972325252c76127deba2e21c74",
+      "actualHash": "7000b016d36e74f5a01e4ee4775eb2cf134598972325252c76127deba2e21c74",
+      "equal": true
+    },
+    {
+      "scenario": "S3-money",
+      "seed": "econ-1",
+      "expectedHash": "3102d944bf6ea17cce4a543bf4cd0abb9c87ee6612ceba5ede4dcbbbac681ff1",
+      "actualHash": "3102d944bf6ea17cce4a543bf4cd0abb9c87ee6612ceba5ede4dcbbbac681ff1",
+      "equal": true
+    },
+    {
+      "scenario": "S3-money",
+      "seed": "econ-2",
+      "expectedHash": "b7a9f9d26c5ac439f7a79f544071ddee005fa3aafb9ada7ffa69a49600c24251",
+      "actualHash": "b7a9f9d26c5ac439f7a79f544071ddee005fa3aafb9ada7ffa69a49600c24251",
+      "equal": true
+    },
+    {
+      "scenario": "S3-money",
+      "seed": "econ-3",
+      "expectedHash": "84f7ae0f40373b96bd3fe2e85a93cc2b842880ebfccf0c587dcdf8b96c879533",
+      "actualHash": "84f7ae0f40373b96bd3fe2e85a93cc2b842880ebfccf0c587dcdf8b96c879533",
+      "equal": true
+    },
+    {
+      "scenario": "S3-money",
+      "seed": "econ-4",
+      "expectedHash": "317811e2bd3bf608f00f196b3996b15b8917159462e6fd87a27c3003a0aae177",
+      "actualHash": "317811e2bd3bf608f00f196b3996b15b8917159462e6fd87a27c3003a0aae177",
+      "equal": true
+    },
+    {
+      "scenario": "S3-money",
+      "seed": "econ-5",
+      "expectedHash": "683886d1f1cd97286f5408433c2fd0cd5fec0e93fe37e15e65cb807e5671bc0c",
+      "actualHash": "683886d1f1cd97286f5408433c2fd0cd5fec0e93fe37e15e65cb807e5671bc0c",
+      "equal": true
+    },
+    {
+      "scenario": "S4",
+      "seed": "econ-1",
+      "expectedHash": "137526083cfd62ea713b72fcf2d17581a5e53909b46144aa03ffcbf3abaefd1e",
+      "actualHash": "137526083cfd62ea713b72fcf2d17581a5e53909b46144aa03ffcbf3abaefd1e",
+      "equal": true
+    },
+    {
+      "scenario": "S4",
+      "seed": "econ-2",
+      "expectedHash": "7fa62bf09806bd51e051b069562f4c547733ef811937e2a25bd120cc7f9df189",
+      "actualHash": "7fa62bf09806bd51e051b069562f4c547733ef811937e2a25bd120cc7f9df189",
+      "equal": true
+    },
+    {
+      "scenario": "S4",
+      "seed": "econ-3",
+      "expectedHash": "c37425331f0c4035034ad1d7b261572a25a3cddbac274784d63dee227c382c14",
+      "actualHash": "c37425331f0c4035034ad1d7b261572a25a3cddbac274784d63dee227c382c14",
+      "equal": true
+    },
+    {
+      "scenario": "S4",
+      "seed": "econ-4",
+      "expectedHash": "23d256e90ad0a49e824aeae388829cfad2c927197fa19fe91745f9562eb7c24d",
+      "actualHash": "23d256e90ad0a49e824aeae388829cfad2c927197fa19fe91745f9562eb7c24d",
+      "equal": true
+    },
+    {
+      "scenario": "S4",
+      "seed": "econ-5",
+      "expectedHash": "75ea66a112d1d1eb20e2773889cccaa61fa62938b030332830af5434bc7cf3b8",
+      "actualHash": "75ea66a112d1d1eb20e2773889cccaa61fa62938b030332830af5434bc7cf3b8",
+      "equal": true
+    },
+    {
+      "scenario": "S1-sell",
+      "seed": "econ-1",
+      "expectedHash": "4ed77dd60d72439857b860cdaafa458898f878b2a33e103b25012d517d6c7288",
+      "actualHash": "4ed77dd60d72439857b860cdaafa458898f878b2a33e103b25012d517d6c7288",
+      "equal": true
+    },
+    {
+      "scenario": "S1-sell",
+      "seed": "econ-2",
+      "expectedHash": "1e0561e550e5b6d5945335490a2e338854a7f3e99713546d6f5389ceb5b8966e",
+      "actualHash": "1e0561e550e5b6d5945335490a2e338854a7f3e99713546d6f5389ceb5b8966e",
+      "equal": true
+    },
+    {
+      "scenario": "S1-sell",
+      "seed": "econ-3",
+      "expectedHash": "afcd2f1256243d41b3d01004c74dd7f85b141f1cb2c4f3f2819ed85fbb198ba7",
+      "actualHash": "afcd2f1256243d41b3d01004c74dd7f85b141f1cb2c4f3f2819ed85fbb198ba7",
+      "equal": true
+    },
+    {
+      "scenario": "S1-sell",
+      "seed": "econ-4",
+      "expectedHash": "f60a1f39cd06c4b51cfe8e68a954c6fa0cc660c0318239a701a7f1193e0c5014",
+      "actualHash": "f60a1f39cd06c4b51cfe8e68a954c6fa0cc660c0318239a701a7f1193e0c5014",
+      "equal": true
+    },
+    {
+      "scenario": "S1-sell",
+      "seed": "econ-5",
+      "expectedHash": "596a29af1b2d3ef841fc05b85cedb98d4039e9241d5fa94ee01e5630d4a8f758",
+      "actualHash": "596a29af1b2d3ef841fc05b85cedb98d4039e9241d5fa94ee01e5630d4a8f758",
+      "equal": true
+    },
+    {
+      "scenario": "E0",
+      "seed": "econ-1",
+      "expectedHash": "cfb9778ad437d54cde9461aff5ae4047a6cdf05224eacd075fe8d7be0be45069",
+      "actualHash": "cfb9778ad437d54cde9461aff5ae4047a6cdf05224eacd075fe8d7be0be45069",
+      "equal": true
+    },
+    {
+      "scenario": "E0",
+      "seed": "econ-2",
+      "expectedHash": "fe68cc3ed3179bf624a9850040972217f99dafe8aee55ab7a9de26ae4a6b183b",
+      "actualHash": "fe68cc3ed3179bf624a9850040972217f99dafe8aee55ab7a9de26ae4a6b183b",
+      "equal": true
+    },
+    {
+      "scenario": "E0",
+      "seed": "econ-3",
+      "expectedHash": "74c637fe1e553e5b79e12d60aac9883e3721cb3655c467e5336ab2a1eb804acc",
+      "actualHash": "74c637fe1e553e5b79e12d60aac9883e3721cb3655c467e5336ab2a1eb804acc",
+      "equal": true
+    },
+    {
+      "scenario": "E0",
+      "seed": "econ-4",
+      "expectedHash": "b693eac6e1e0ab53d885b3d84acda9fe1b6d0dc8a763fcb3842684eb4dadd01a",
+      "actualHash": "b693eac6e1e0ab53d885b3d84acda9fe1b6d0dc8a763fcb3842684eb4dadd01a",
+      "equal": true
+    },
+    {
+      "scenario": "E0",
+      "seed": "econ-5",
+      "expectedHash": "b679e672d96bb3ef99ec06da589629f48197d035f11a5f9fab764af1cb1e26c6",
+      "actualHash": "b679e672d96bb3ef99ec06da589629f48197d035f11a5f9fab764af1cb1e26c6",
+      "equal": true
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-1",
+      "expectedHash": "ccb3ce25cf05f9f3dd6b51a960ae5ec39e5b5d9431fcfe2abe875aa38a6c776f",
+      "actualHash": "ccb3ce25cf05f9f3dd6b51a960ae5ec39e5b5d9431fcfe2abe875aa38a6c776f",
+      "equal": true
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-2",
+      "expectedHash": "0cf0187b4bb29a33141de2ce2466d363ebf2427420cfa35cb0f839187f150ead",
+      "actualHash": "0cf0187b4bb29a33141de2ce2466d363ebf2427420cfa35cb0f839187f150ead",
+      "equal": true
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-3",
+      "expectedHash": "5d38581e3899196791a1278a9895acbcd70bf1011c35424f3c70d15dc350421f",
+      "actualHash": "5d38581e3899196791a1278a9895acbcd70bf1011c35424f3c70d15dc350421f",
+      "equal": true
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-4",
+      "expectedHash": "2ed188a36fe0c7c0baf7a10092ee5dc33e94126a9d1d7c498308f179e4342a6a",
+      "actualHash": "2ed188a36fe0c7c0baf7a10092ee5dc33e94126a9d1d7c498308f179e4342a6a",
+      "equal": true
+    },
+    {
+      "scenario": "E1",
+      "seed": "econ-5",
+      "expectedHash": "789f73bc655f379fed48feb12ddbb1cd8462e44dcb309f75f758a61e156e9903",
+      "actualHash": "789f73bc655f379fed48feb12ddbb1cd8462e44dcb309f75f758a61e156e9903",
+      "equal": true
+    },
+    {
+      "scenario": "E2",
+      "seed": "econ-1",
+      "expectedHash": "0c0feb76f2ffc3a16944d971a43a0bc46895b565fa336a5f5dbc6be8824b4b7e",
+      "actualHash": "0c0feb76f2ffc3a16944d971a43a0bc46895b565fa336a5f5dbc6be8824b4b7e",
+      "equal": true
+    },
+    {
+      "scenario": "E2",
+      "seed": "econ-2",
+      "expectedHash": "25c78a11406e3280bd791b81c3b2098b3b70763f5db8f79570405afc3ba935ed",
+      "actualHash": "25c78a11406e3280bd791b81c3b2098b3b70763f5db8f79570405afc3ba935ed",
+      "equal": true
+    },
+    {
+      "scenario": "E2",
+      "seed": "econ-3",
+      "expectedHash": "449e88b5f9607500d14a00e0bcc50094fd52082be68256d47de36d92778ee13a",
+      "actualHash": "449e88b5f9607500d14a00e0bcc50094fd52082be68256d47de36d92778ee13a",
+      "equal": true
+    },
+    {
+      "scenario": "E2",
+      "seed": "econ-4",
+      "expectedHash": "c56e8b2de49394f565e0a5037359da45e665175908d4571124cfc9e649d2d738",
+      "actualHash": "c56e8b2de49394f565e0a5037359da45e665175908d4571124cfc9e649d2d738",
+      "equal": true
+    },
+    {
+      "scenario": "E2",
+      "seed": "econ-5",
+      "expectedHash": "4ffeccdf2ea69bd3e644e9f90fcb6973e277c8e221e5ff79a6be6f817ecd2ab7",
+      "actualHash": "4ffeccdf2ea69bd3e644e9f90fcb6973e277c8e221e5ff79a6be6f817ecd2ab7",
+      "equal": true
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-1",
+      "expectedHash": "e0bda3fbbeccb0946026382e7337aa9cc48c728d42b50e572b2e42cc61eae544",
+      "actualHash": "e0bda3fbbeccb0946026382e7337aa9cc48c728d42b50e572b2e42cc61eae544",
+      "equal": true
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-2",
+      "expectedHash": "4d538cecf1385119116b489d4b685f0364349bce2478aa4d6836ea3e1bd7f395",
+      "actualHash": "4d538cecf1385119116b489d4b685f0364349bce2478aa4d6836ea3e1bd7f395",
+      "equal": true
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-3",
+      "expectedHash": "46186a0c1a2763227a9a6bb35d5ee9e2b806877481c2242c30fc4cadf11654f1",
+      "actualHash": "46186a0c1a2763227a9a6bb35d5ee9e2b806877481c2242c30fc4cadf11654f1",
+      "equal": true
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-4",
+      "expectedHash": "7c2c2139d7f97cdfd98c24a9e0f8e3f850eca352ab71636ed78e986635f069f4",
+      "actualHash": "7c2c2139d7f97cdfd98c24a9e0f8e3f850eca352ab71636ed78e986635f069f4",
+      "equal": true
+    },
+    {
+      "scenario": "E3",
+      "seed": "econ-5",
+      "expectedHash": "99b35b7d3a230fc8b916694117b59c9572d41bdac969b0ca4f74e638e3428475",
+      "actualHash": "99b35b7d3a230fc8b916694117b59c9572d41bdac969b0ca4f74e638e3428475",
+      "equal": true
+    },
+    {
+      "scenario": "E4",
+      "seed": "econ-1",
+      "expectedHash": "870f661a5948d32f4fa3441c42631146259fe92c29b1110a49c33c7585a66308",
+      "actualHash": "870f661a5948d32f4fa3441c42631146259fe92c29b1110a49c33c7585a66308",
+      "equal": true
+    },
+    {
+      "scenario": "E4",
+      "seed": "econ-2",
+      "expectedHash": "041651669905d54fd76cd4b3ba008353c2f63aa5d59747562cf46fd8b1634722",
+      "actualHash": "041651669905d54fd76cd4b3ba008353c2f63aa5d59747562cf46fd8b1634722",
+      "equal": true
+    },
+    {
+      "scenario": "E4",
+      "seed": "econ-3",
+      "expectedHash": "25e59ac037cada896cf924b2a826ad4bec17f1e883685aa114e9cb3d29df4859",
+      "actualHash": "25e59ac037cada896cf924b2a826ad4bec17f1e883685aa114e9cb3d29df4859",
+      "equal": true
+    },
+    {
+      "scenario": "E4",
+      "seed": "econ-4",
+      "expectedHash": "6e3208b6afa427e6f615f62b695edcaa2a8a450e7af24e0e2d3ffc85fe10a465",
+      "actualHash": "6e3208b6afa427e6f615f62b695edcaa2a8a450e7af24e0e2d3ffc85fe10a465",
+      "equal": true
+    },
+    {
+      "scenario": "E4",
+      "seed": "econ-5",
+      "expectedHash": "af8b999a14c244c4b7e553595699fac958f15ecb13adc858485d748e798d6b94",
+      "actualHash": "af8b999a14c244c4b7e553595699fac958f15ecb13adc858485d748e798d6b94",
+      "equal": true
+    },
+    {
+      "scenario": "E5",
+      "seed": "econ-1",
+      "expectedHash": "066c7b115c3c3a00d96342f6886c52a038cbf89690e33300149c557544b79e4d",
+      "actualHash": "066c7b115c3c3a00d96342f6886c52a038cbf89690e33300149c557544b79e4d",
+      "equal": true
+    },
+    {
+      "scenario": "E5",
+      "seed": "econ-2",
+      "expectedHash": "7be5ea1a525c2202ea5e40bcf7fcda3974862e8e67fd8fe2028e8d5c9d8fab68",
+      "actualHash": "7be5ea1a525c2202ea5e40bcf7fcda3974862e8e67fd8fe2028e8d5c9d8fab68",
+      "equal": true
+    },
+    {
+      "scenario": "E5",
+      "seed": "econ-3",
+      "expectedHash": "c6f471b8b0f0c46238df72a3cc7b05ae934f389cedda6b1b26aaf12bfa4680b3",
+      "actualHash": "c6f471b8b0f0c46238df72a3cc7b05ae934f389cedda6b1b26aaf12bfa4680b3",
+      "equal": true
+    },
+    {
+      "scenario": "E5",
+      "seed": "econ-4",
+      "expectedHash": "d99d8b973b0776f2a3596f0b52c6eb45edcccb226dfdd12e8316efeff5770c0b",
+      "actualHash": "d99d8b973b0776f2a3596f0b52c6eb45edcccb226dfdd12e8316efeff5770c0b",
+      "equal": true
+    },
+    {
+      "scenario": "E5",
+      "seed": "econ-5",
+      "expectedHash": "ba932553424d9623e557f0056fcd249183db8ac35d6804f1b2f72e906af967ed",
+      "actualHash": "ba932553424d9623e557f0056fcd249183db8ac35d6804f1b2f72e906af967ed",
+      "equal": true
+    },
+    {
+      "scenario": "E6",
+      "seed": "econ-1",
+      "expectedHash": "52ddc9f83089ccddc2c122d36d2d289cc2127f963d7775fa60427a0ea6ab1856",
+      "actualHash": "52ddc9f83089ccddc2c122d36d2d289cc2127f963d7775fa60427a0ea6ab1856",
+      "equal": true
+    },
+    {
+      "scenario": "E6",
+      "seed": "econ-2",
+      "expectedHash": "0ba4b185dbdd38bc857d7e2b328bb3e23654c39847d94736d15e4c13336bffa3",
+      "actualHash": "0ba4b185dbdd38bc857d7e2b328bb3e23654c39847d94736d15e4c13336bffa3",
+      "equal": true
+    },
+    {
+      "scenario": "E6",
+      "seed": "econ-3",
+      "expectedHash": "2ac0ebc9dca6e28f088db5ee91f0ad263e93a2c0dcabcbe0b58341d67f63f352",
+      "actualHash": "2ac0ebc9dca6e28f088db5ee91f0ad263e93a2c0dcabcbe0b58341d67f63f352",
+      "equal": true
+    },
+    {
+      "scenario": "E6",
+      "seed": "econ-4",
+      "expectedHash": "8483baad72295825c6eccc327b8000c1011f06b0fc441eaba3817a92f9a41423",
+      "actualHash": "8483baad72295825c6eccc327b8000c1011f06b0fc441eaba3817a92f9a41423",
+      "equal": true
+    },
+    {
+      "scenario": "E6",
+      "seed": "econ-5",
+      "expectedHash": "56057272cedfb49d0d2cc4a0f537e5e5e6992e89ed9b0c5ee4bf9c55f8269bf5",
+      "actualHash": "56057272cedfb49d0d2cc4a0f537e5e5e6992e89ed9b0c5ee4bf9c55f8269bf5",
+      "equal": true
+    },
+    {
+      "scenario": "E7",
+      "seed": "econ-1",
+      "expectedHash": "e8fe65687ead6fb009fc2cbd35bdfde82074e4b7f20ea6c3e322b15dbd223c05",
+      "actualHash": "e8fe65687ead6fb009fc2cbd35bdfde82074e4b7f20ea6c3e322b15dbd223c05",
+      "equal": true
+    },
+    {
+      "scenario": "E7",
+      "seed": "econ-2",
+      "expectedHash": "17886e95e713d917d4bb509c50229ed859ad13be21b5bb86e631222d246e45b9",
+      "actualHash": "17886e95e713d917d4bb509c50229ed859ad13be21b5bb86e631222d246e45b9",
+      "equal": true
+    },
+    {
+      "scenario": "E7",
+      "seed": "econ-3",
+      "expectedHash": "2a0a82f67a3f88b8b4cdacc3c4f1f27c43f9d3ce0524bb18f7c092d952d8ae4d",
+      "actualHash": "2a0a82f67a3f88b8b4cdacc3c4f1f27c43f9d3ce0524bb18f7c092d952d8ae4d",
+      "equal": true
+    },
+    {
+      "scenario": "E7",
+      "seed": "econ-4",
+      "expectedHash": "b4b4a24bdbcb69755eaf935e4dcbddf7eb2a5d19d40e1c2ccdf5c45dee7bfe01",
+      "actualHash": "b4b4a24bdbcb69755eaf935e4dcbddf7eb2a5d19d40e1c2ccdf5c45dee7bfe01",
+      "equal": true
+    },
+    {
+      "scenario": "E7",
+      "seed": "econ-5",
+      "expectedHash": "fba1b4b997d51894c2c29a2679485bb86aa52287e940a944d3dd8c56c08b87e6",
+      "actualHash": "fba1b4b997d51894c2c29a2679485bb86aa52287e940a944d3dd8c56c08b87e6",
+      "equal": true
+    },
+    {
+      "scenario": "E8",
+      "seed": "econ-1",
+      "expectedHash": "0d08d0694412afb73af87be89a718ba4376ff88c92c460e4fe3e1a45a77678ab",
+      "actualHash": "0d08d0694412afb73af87be89a718ba4376ff88c92c460e4fe3e1a45a77678ab",
+      "equal": true
+    },
+    {
+      "scenario": "E8",
+      "seed": "econ-2",
+      "expectedHash": "7ddcf000afbd2260316021c0cd7c870b019fe63f0e7b5997b3af3267fd6eb076",
+      "actualHash": "7ddcf000afbd2260316021c0cd7c870b019fe63f0e7b5997b3af3267fd6eb076",
+      "equal": true
+    },
+    {
+      "scenario": "E8",
+      "seed": "econ-3",
+      "expectedHash": "d32d4ee4636b685707bb780bcbec548362da3b030eb3597163da77ca68b029c6",
+      "actualHash": "d32d4ee4636b685707bb780bcbec548362da3b030eb3597163da77ca68b029c6",
+      "equal": true
+    },
+    {
+      "scenario": "E8",
+      "seed": "econ-4",
+      "expectedHash": "23eb1d819a0172fb5b8cc09b64132f2b58a3731517c02d9d766d9400664f678c",
+      "actualHash": "23eb1d819a0172fb5b8cc09b64132f2b58a3731517c02d9d766d9400664f678c",
+      "equal": true
+    },
+    {
+      "scenario": "E8",
+      "seed": "econ-5",
+      "expectedHash": "9a97002bbf466daa19eb98f0771c5085eb56d48fdc873dc5464eb0e5b0015c27",
+      "actualHash": "9a97002bbf466daa19eb98f0771c5085eb56d48fdc873dc5464eb0e5b0015c27",
+      "equal": true
+    }
+  ],
+  "referenceEnergy": {
+    "fusionNormalHydrogenU": 2.5,
+    "costs": {
+      "foundationMonths": 2,
+      "fusion": {
+        "base": {
+          "creditC": 15000,
+          "alloyU": 1200
+        },
+        "module": {
+          "creditC": 6000,
+          "alloyU": 450
+        }
+      },
+      "fission": {
+        "base": {
+          "creditC": 8000,
+          "alloyU": 650
+        },
+        "module": {
+          "creditC": 3000,
+          "alloyU": 250
+        }
+      },
+      "solar": {
+        "base": {
+          "creditC": 5000,
+          "alloyU": 400
+        },
+        "module": {
+          "creditC": 2000,
+          "alloyU": 100
+        }
+      }
+    },
+    "earthBaseGW": 8120,
+    "peakGW": 10750,
+    "gridReserve": 0.09,
+    "electricityGDPShare": 0.08,
+    "electricDemandGDPExponent": 0.6,
+    "powerScarcityElasticity": 1.5,
+    "industryMix": "steelHeavy",
+    "mineRatio": 1.1,
+    "mineMWhPerT": 0.11,
+    "feedMWhPerT": 0.04,
+    "industryFixedMW": 0.06,
+    "privateScale": 0.95,
+    "directAnnual": 0.09,
+    "upkeepAnnual": 0.1,
+    "pausedCashFraction": 0.12,
+    "pausedAlloyFraction": 0.96,
+    "damagePerMonth": 0.03,
+    "repairRate": 1.4000000000000001,
+    "repairCPerU": 0.5,
+    "legacyGridCashGDPShare": 0.005,
+    "legacyGridUpkeepAnnualU": 10000,
+    "fusionMinimumFraction": 0.07,
+    "fissionAvailability": 0.9400000000000001,
+    "fissionFuelCPerGWh": 0.001,
+    "solarEarthCF": 0.27,
+    "solarMoonMultiplier": 0.85,
+    "solarMarsMultiplier": 0.43,
+    "hydrogenModuleU": 100,
+    "hydrogenModuleC": 2700,
+    "hydrogenModuleAlloyU": 17,
+    "hydrogenLagMonths": 6,
+    "electrolysisGWhPerU": 0.54,
+    "hydrogenVariableCPerU": 0.04,
+    "waterIntakeU": 900000,
+    "waterTankU": 90000,
+    "hydrogenInventoryMonths": 4,
+    "hydrogenPriceAdjustment": 0.05,
+    "hydrogenPriceReversion": 0.05,
+    "storageGWh": 12,
+    "storageGW": 0.25,
+    "storageC": 1500,
+    "storageAlloyU": 100,
+    "storageEfficiency": 0.92,
+    "parallelSurcharge": 0.13,
+    "learning": 0.2,
+    "colonyKWPerPerson": 6.2,
+    "freightCPerU": 0.05,
+    "essentialShare": 0.8,
+    "dispatchPolicy": "proportional",
+    "industryGDPWeight": 0.14,
+    "privatePowerHorizonYears": 54,
+    "privatePowerLagMonths": 9
+  },
+  "onProfiles": [
+    "R4-N018",
+    "R4-N055",
+    "R4-N066",
+    "R4-rounded"
+  ],
+  "offMeaning": "all R4 rules including units OFF; exact direct R3 rounded comparison"
+}

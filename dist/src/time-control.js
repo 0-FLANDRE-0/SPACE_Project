@@ -1,10 +1,11 @@
 export const BASE_GAME_SECONDS_PER_REAL_SECOND=10;
-export const TIME_SPEEDS=Object.freeze([.1,.25,.5,.75,1,2,5,10,50,100]);
+export const TIME_SPEEDS=Object.freeze([.1,.25,.5,.75,1,2,5,10,50,100,360,2160,4320,8640]);
+export const MAX_TIME_SPEED=8640;
 export class TimeControl {
   requestedSpeed=1;speedCap=null;paused=false;
-  get effectiveSpeed(){return Math.min(this.requestedSpeed,this.speedCap??100);}
-  setRequestedSpeed(value){if(!TIME_SPEEDS.includes(value))throw new Error('허용 배속은 0.1×–100× 프리셋입니다.');this.requestedSpeed=value;}
-  setSpeedCap(value){if(value!==null&&(!Number.isFinite(value)||value<.1||value>100))throw new Error('배속 상한은 0.1–100 또는 null이어야 합니다.');this.speedCap=value;}
+  get effectiveSpeed(){return Math.min(this.requestedSpeed,this.speedCap??MAX_TIME_SPEED);}
+  setRequestedSpeed(value){if(!TIME_SPEEDS.includes(value))throw new Error('허용 배속은 0.1×–8,640× 프리셋입니다.');this.requestedSpeed=value;}
+  setSpeedCap(value){if(value!==null&&(!Number.isFinite(value)||value<.1||value>MAX_TIME_SPEED))throw new Error('배속 상한은 0.1–8,640 또는 null이어야 합니다.');this.speedCap=value;}
   gameSecondsFor(realSeconds){return !this.paused&&Number.isFinite(realSeconds)&&realSeconds>=0?realSeconds*BASE_GAME_SECONDS_PER_REAL_SECOND*this.effectiveSpeed:0;}
 }
 // A monotonic foreground clock: normal render stalls are counted in full. A

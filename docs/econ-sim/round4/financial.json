@@ -1,0 +1,566 @@
+{
+  "conversion": {
+    "hydrogenMassRatio": 20,
+    "hydrogenModuleU": 2000,
+    "electrolysisGWhPerU": 0.0275,
+    "waterIntakeU": 2000000,
+    "waterTankU": 200000,
+    "oldHydrogenKgMonth": 1000000
+  },
+  "actualRoundedConversion": {
+    "hydrogenMassRatio": 20,
+    "hydrogenModuleU": 2000,
+    "electrolysisGWhPerU": 0.027,
+    "waterIntakeU": 2000000,
+    "waterTankU": 200000,
+    "oldHydrogenKgMonth": 1000000
+  },
+  "industry": {
+    "investmentC": 49149,
+    "actualOperatingOrderYears": 3.461170516293335,
+    "zeroOperatingOrderYears": 2.9908773057579663,
+    "mature": {
+      "alloyU": 812.8000000000002,
+      "energyGWh": 21.303000000000004,
+      "directC": 292.5,
+      "upkeepU": 10.875,
+      "grossC": 1869.4399999999998,
+      "profitC": 1551.4483178689518
+    },
+    "assumptions": "real2.3C/U; imported government1:1 pair, no H assistance, power100%; capex H included, no financing/site fees"
+  },
+  "hydrogen": {
+    "electrolysisCPerU": 0.0005735879614009043,
+    "liquefactionCPerU": 0.0001079694986166408,
+    "oxygenLiquefactionCPerU": 0,
+    "storageElectricityCPerU": 0.0000017994916436106802,
+    "equipmentRecoveryCPerU": 0.06993941916389197,
+    "directCPerU": 0.023014150943396226,
+    "upkeepCPerU": 0.00012910377358490562,
+    "packDirectCPerU": 0.0408,
+    "packElectricityCPerU": 2.879186629777088e-7,
+    "packMaterialLossCPerU": 0.025875,
+    "storageLossCPerU": 0.0003376358045671169,
+    "totalCPerU": 0.16077895455576435,
+    "marginCPerU": 1.0392210454442357,
+    "capacityU": 1060,
+    "powerPriceCPerGWh": 0.0224936455451335,
+    "electrolysisMWhPerU": 25.5,
+    "liquefactionMWhPerU": 4.8,
+    "oxygenLiquefactionMWhPerU": 1.28,
+    "packagingBoundary": "SCU batch opened at recipient; net material loss included",
+    "oxygenRevenueC": 0
+  },
+  "hydrogenControl04": {
+    "electrolysisCPerU": 0.0005735879614009043,
+    "liquefactionCPerU": 0.0001079694986166408,
+    "oxygenLiquefactionCPerU": 0,
+    "storageElectricityCPerU": 0.0000017994916436106802,
+    "equipmentRecoveryCPerU": 0.06993941916389197,
+    "directCPerU": 0.023014150943396226,
+    "upkeepCPerU": 0.00012910377358490562,
+    "packDirectCPerU": 0.0408,
+    "packElectricityCPerU": 2.879186629777088e-7,
+    "packMaterialLossCPerU": 0.025875,
+    "storageLossCPerU": 0.0003376358045671169,
+    "totalCPerU": 0.16077895455576435,
+    "marginCPerU": 0.23922104544423567,
+    "capacityU": 1060,
+    "powerPriceCPerGWh": 0.0224936455451335,
+    "electrolysisMWhPerU": 25.5,
+    "liquefactionMWhPerU": 4.8,
+    "oxygenLiquefactionMWhPerU": 1.28,
+    "packagingBoundary": "SCU batch opened at recipient; net material loss included",
+    "oxygenRevenueC": 0
+  },
+  "hydrogenLocalPipeline": {
+    "electrolysisCPerU": 0.0005735879614009043,
+    "liquefactionCPerU": 0.0001079694986166408,
+    "oxygenLiquefactionCPerU": 0,
+    "storageElectricityCPerU": 0.0000017994916436106802,
+    "equipmentRecoveryCPerU": 0.06993941916389197,
+    "directCPerU": 0.023014150943396226,
+    "upkeepCPerU": 0.00012910377358490562,
+    "packDirectCPerU": 0,
+    "packElectricityCPerU": 0,
+    "packMaterialLossCPerU": 0,
+    "storageLossCPerU": 0.00019732304313892056,
+    "totalCPerU": 0.09396335387567319,
+    "marginCPerU": 1.1060366461243267,
+    "capacityU": 1060,
+    "powerPriceCPerGWh": 0.0224936455451335,
+    "electrolysisMWhPerU": 25.5,
+    "liquefactionMWhPerU": 4.8,
+    "oxygenLiquefactionMWhPerU": 1.28,
+    "packagingBoundary": "local connected tank/pipeline; no SCU shell",
+    "oxygenRevenueC": 0
+  },
+  "hydrogenByPlanet": [
+    {
+      "planet": "earth",
+      "electrolysisCPerU": 0.0005735879614009043,
+      "liquefactionCPerU": 0.0001079694986166408,
+      "oxygenLiquefactionCPerU": 0,
+      "storageElectricityCPerU": 0.0000017994916436106802,
+      "equipmentRecoveryCPerU": 0.06993941916389197,
+      "directCPerU": 0.023014150943396226,
+      "upkeepCPerU": 0.00012910377358490562,
+      "packDirectCPerU": 0.0408,
+      "packElectricityCPerU": 2.879186629777088e-7,
+      "packMaterialLossCPerU": 0.025875,
+      "storageLossCPerU": 0.0003376358045671169,
+      "totalCPerU": 0.16077895455576435,
+      "marginCPerU": 1.0392210454442357,
+      "capacityU": 1060,
+      "powerPriceCPerGWh": 0.0224936455451335,
+      "electrolysisMWhPerU": 25.5,
+      "liquefactionMWhPerU": 4.8,
+      "oxygenLiquefactionMWhPerU": 1.28,
+      "packagingBoundary": "SCU batch opened at recipient; net material loss included",
+      "oxygenRevenueC": 0
+    },
+    {
+      "planet": "moon",
+      "electrolysisCPerU": 0.0005735879614009043,
+      "liquefactionCPerU": 0.0001079694986166408,
+      "oxygenLiquefactionCPerU": 0,
+      "storageElectricityCPerU": 0.0000017994916436106802,
+      "equipmentRecoveryCPerU": 0.06993941916389197,
+      "directCPerU": 0.023014150943396226,
+      "upkeepCPerU": 0.00017644182389937106,
+      "packDirectCPerU": 0.0408,
+      "packElectricityCPerU": 2.879186629777088e-7,
+      "packMaterialLossCPerU": 0.025875,
+      "storageLossCPerU": 0.0003377354236728994,
+      "totalCPerU": 0.1608263922251846,
+      "marginCPerU": 1.0391736077748153,
+      "capacityU": 1060,
+      "powerPriceCPerGWh": 0.0224936455451335,
+      "electrolysisMWhPerU": 25.5,
+      "liquefactionMWhPerU": 4.8,
+      "oxygenLiquefactionMWhPerU": 1.28,
+      "packagingBoundary": "SCU batch opened at recipient; net material loss included",
+      "oxygenRevenueC": 0
+    },
+    {
+      "planet": "mars",
+      "electrolysisCPerU": 0.0005735879614009043,
+      "liquefactionCPerU": 0.0001079694986166408,
+      "oxygenLiquefactionCPerU": 0,
+      "storageElectricityCPerU": 0.0000017994916436106802,
+      "equipmentRecoveryCPerU": 0.06993941916389197,
+      "directCPerU": 0.023014150943396226,
+      "upkeepCPerU": 0.00013771069182389934,
+      "packDirectCPerU": 0.0408,
+      "packElectricityCPerU": 2.879186629777088e-7,
+      "packMaterialLossCPerU": 0.025875,
+      "storageLossCPerU": 0.0003376539171318047,
+      "totalCPerU": 0.16078757958656806,
+      "marginCPerU": 1.0392124204134319,
+      "capacityU": 1060,
+      "powerPriceCPerGWh": 0.0224936455451335,
+      "electrolysisMWhPerU": 25.5,
+      "liquefactionMWhPerU": 4.8,
+      "oxygenLiquefactionMWhPerU": 1.28,
+      "packagingBoundary": "SCU batch opened at recipient; net material loss included",
+      "oxygenRevenueC": 0
+    }
+  ],
+  "power": [
+    {
+      "type": "fusion",
+      "size": "medium",
+      "ratio": 0.16666666666666666,
+      "ratedGW": 0.8333333333333333,
+      "months": 2.1751467675173703,
+      "foundationMonths": 1.0875733837586852,
+      "base": {
+        "creditC": 4938.982459776825,
+        "alloyU": 395.118596782146
+      },
+      "module": {
+        "creditC": 1975.59298391073,
+        "alloyU": 148.16947379330475
+      },
+      "buildHydrogenU": 0.8333333333333333,
+      "startHydrogenU": 0.8333333333333333,
+      "startC": 823.1637432961375,
+      "averageGW": 0.8333333333333333,
+      "creditC": 6914.575443687555,
+      "alloyU": 543.2880705754508,
+      "creditCPerMW": 8.297490532425067,
+      "annualUpkeepU": 16.298642117263523,
+      "annualDirectC": 622.31178993188,
+      "annualFuelC": 6,
+      "annualSalesC": 164.20361247947454,
+      "annualNetC": -501.59505432211154,
+      "cashPaybackYears": null,
+      "criterion": "cash payback is informational; government public-infrastructure value is separate"
+    },
+    {
+      "type": "fusion",
+      "size": "large",
+      "ratio": 1,
+      "ratedGW": 5,
+      "months": 4,
+      "foundationMonths": 2,
+      "base": {
+        "creditC": 15000,
+        "alloyU": 1200
+      },
+      "module": {
+        "creditC": 6000,
+        "alloyU": 450
+      },
+      "buildHydrogenU": 5,
+      "startHydrogenU": 5,
+      "startC": 2500,
+      "averageGW": 5,
+      "creditC": 21000,
+      "alloyU": 1650,
+      "creditCPerMW": 4.2,
+      "annualUpkeepU": 49.5,
+      "annualDirectC": 1890,
+      "annualFuelC": 36,
+      "annualSalesC": 985.2216748768474,
+      "annualNetC": -1054.6283251231525,
+      "cashPaybackYears": null,
+      "criterion": "cash payback is informational; government public-infrastructure value is separate"
+    },
+    {
+      "type": "fission",
+      "size": "small",
+      "ratio": 0.04,
+      "ratedGW": 0.1,
+      "months": 1.0042033174750298,
+      "foundationMonths": 0.6694688783166866,
+      "base": {
+        "creditC": 1087.3445489418418,
+        "alloyU": 88.34674460152465
+      },
+      "module": {
+        "creditC": 407.7542058531907,
+        "alloyU": 33.97951715443256
+      },
+      "buildHydrogenU": 0,
+      "startHydrogenU": 0,
+      "startC": 0,
+      "averageGW": 0.09400000000000001,
+      "creditC": 1495.0987547950326,
+      "alloyU": 122.3262617559572,
+      "creditCPerMW": 14.950987547950326,
+      "annualUpkeepU": 3.669787852678716,
+      "annualDirectC": 134.55888793155293,
+      "annualFuelC": 0.8234400000000002,
+      "annualSalesC": 18.522167487684733,
+      "annualNetC": -125.30067250502925,
+      "cashPaybackYears": null,
+      "criterion": "cash payback is informational; government public-infrastructure value is separate"
+    },
+    {
+      "type": "fission",
+      "size": "medium",
+      "ratio": 0.16666666666666666,
+      "ratedGW": 0.41666666666666663,
+      "months": 1.6313600756380278,
+      "foundationMonths": 1.0875733837586852,
+      "base": {
+        "creditC": 2634.12397854764,
+        "alloyU": 214.02257325699574
+      },
+      "module": {
+        "creditC": 987.796491955365,
+        "alloyU": 82.31637432961375
+      },
+      "buildHydrogenU": 0,
+      "startHydrogenU": 0,
+      "startC": 0,
+      "averageGW": 0.39166666666666666,
+      "creditC": 3621.920470503005,
+      "alloyU": 296.3389475866095,
+      "creditCPerMW": 8.692609129207213,
+      "annualUpkeepU": 8.890168427598285,
+      "annualDirectC": 325.97284234527046,
+      "annualFuelC": 3.431,
+      "annualSalesC": 77.17569786535304,
+      "annualNetC": -272.6755318633935,
+      "cashPaybackYears": null,
+      "criterion": "cash payback is informational; government public-infrastructure value is separate"
+    },
+    {
+      "type": "fission",
+      "size": "large",
+      "ratio": 1,
+      "ratedGW": 2.5,
+      "months": 3,
+      "foundationMonths": 2,
+      "base": {
+        "creditC": 8000,
+        "alloyU": 650
+      },
+      "module": {
+        "creditC": 3000,
+        "alloyU": 250
+      },
+      "buildHydrogenU": 0,
+      "startHydrogenU": 0,
+      "startC": 0,
+      "averageGW": 2.35,
+      "creditC": 11000,
+      "alloyU": 900,
+      "creditCPerMW": 4.4,
+      "annualUpkeepU": 27,
+      "annualDirectC": 990,
+      "annualFuelC": 20.586000000000002,
+      "annualSalesC": 463.05418719211826,
+      "annualNetC": -609.6318128078818,
+      "cashPaybackYears": null,
+      "criterion": "cash payback is informational; government public-infrastructure value is separate"
+    },
+    {
+      "type": "solar",
+      "size": "small",
+      "ratio": 0.04,
+      "ratedGW": 0.06,
+      "months": 0.3347344391583433,
+      "foundationMonths": 0.6694688783166866,
+      "base": {
+        "creditC": 267.66755432347566,
+        "alloyU": 21.413404345878053
+      },
+      "module": {
+        "creditC": 107.06702172939026,
+        "alloyU": 5.353351086469513
+      },
+      "buildHydrogenU": 0,
+      "startHydrogenU": 0,
+      "startC": 0,
+      "averageGW": 0.0156,
+      "creditC": 374.7345760528659,
+      "alloyU": 26.766755432347566,
+      "creditCPerMW": 6.245576267547765,
+      "annualUpkeepU": 0.8030026629704269,
+      "annualDirectC": 33.72611184475793,
+      "annualFuelC": 0,
+      "annualSalesC": 3.073891625615764,
+      "annualNetC": -32.49912634397415,
+      "cashPaybackYears": null,
+      "criterion": "cash payback is informational; government public-infrastructure value is separate"
+    },
+    {
+      "type": "solar",
+      "size": "medium",
+      "ratio": 0.16666666666666666,
+      "ratedGW": 0.25,
+      "months": 0.5437866918793426,
+      "foundationMonths": 1.0875733837586852,
+      "base": {
+        "creditC": 966.9535524048133,
+        "alloyU": 77.35628419238506
+      },
+      "module": {
+        "creditC": 386.7814209619253,
+        "alloyU": 19.339071048096265
+      },
+      "buildHydrogenU": 0,
+      "startHydrogenU": 0,
+      "startC": 0,
+      "averageGW": 0.065,
+      "creditC": 1353.7349733667386,
+      "alloyU": 96.69535524048132,
+      "creditCPerMW": 5.414939893466954,
+      "annualUpkeepU": 2.9008606572144395,
+      "annualDirectC": 121.83614760300647,
+      "annualFuelC": 0,
+      "annualSalesC": 12.807881773399014,
+      "annualNetC": -115.70024534120066,
+      "cashPaybackYears": null,
+      "criterion": "cash payback is informational; government public-infrastructure value is separate"
+    },
+    {
+      "type": "solar",
+      "size": "large",
+      "ratio": 1,
+      "ratedGW": 1.5,
+      "months": 1,
+      "foundationMonths": 2,
+      "base": {
+        "creditC": 4850,
+        "alloyU": 388
+      },
+      "module": {
+        "creditC": 1940,
+        "alloyU": 97
+      },
+      "buildHydrogenU": 0,
+      "startHydrogenU": 0,
+      "startC": 0,
+      "averageGW": 0.39,
+      "creditC": 6790,
+      "alloyU": 485,
+      "creditCPerMW": 4.526666666666666,
+      "annualUpkeepU": 14.549999999999999,
+      "annualDirectC": 611.1,
+      "annualFuelC": 0,
+      "annualSalesC": 76.84729064039409,
+      "annualNetC": -567.7177093596059,
+      "cashPaybackYears": null,
+      "criterion": "cash payback is informational; government public-infrastructure value is separate"
+    }
+  ],
+  "upgrades": [
+    {
+      "type": "fission",
+      "stagedC": 8243.578638890558,
+      "directLargeC": 11000,
+      "stagedAlloyU": 674.4746159092275,
+      "replacementC": 5482.895246750398,
+      "stages": [
+        {
+          "type": "fission",
+          "size": "small",
+          "ratio": 0.04,
+          "ratedGW": 0.1,
+          "months": 1.0042033174750298,
+          "foundationMonths": 0.6694688783166866,
+          "base": {
+            "creditC": 1087.3445489418418,
+            "alloyU": 88.34674460152465
+          },
+          "module": {
+            "creditC": 407.7542058531907,
+            "alloyU": 33.97951715443256
+          },
+          "buildHydrogenU": 0,
+          "startHydrogenU": 0,
+          "startC": 0
+        },
+        {
+          "type": "fission",
+          "fromSize": "small",
+          "toSize": "medium",
+          "existingGW": 0.1,
+          "addedGW": 0.31666666666666665,
+          "ratio": 0.12666666666666665,
+          "months": 1.4860261468404878,
+          "derateFraction": 0.0099,
+          "base": {
+            "creditC": 1098.2133950201166,
+            "alloyU": 89.22983834538447
+          },
+          "module": {
+            "creditC": 411.8300231325438,
+            "alloyU": 34.319168594378645
+          },
+          "buildHydrogenU": 0,
+          "startC": 0,
+          "reusedDiscount": 0.29
+        },
+        {
+          "type": "fission",
+          "fromSize": "medium",
+          "toSize": "large",
+          "existingGW": 0.41666666666666663,
+          "addedGW": 2.0833333333333335,
+          "ratio": 0.8333333333333334,
+          "months": 2.8196787481307153,
+          "derateFraction": 0.0099,
+          "base": {
+            "creditC": 3809.7719752311755,
+            "alloyU": 309.543972987533
+          },
+          "module": {
+            "creditC": 1428.6644907116906,
+            "alloyU": 119.05537422597423
+          },
+          "buildHydrogenU": 0,
+          "startC": 0,
+          "reusedDiscount": 0.29
+        }
+      ],
+      "fusionSmallUnavailable": false
+    },
+    {
+      "type": "solar",
+      "stagedC": 4929.57302705533,
+      "directLargeC": 6790,
+      "stagedAlloyU": 352.11235907538077,
+      "replacementC": 2701.515997014791,
+      "stages": [
+        {
+          "type": "solar",
+          "size": "small",
+          "ratio": 0.04,
+          "ratedGW": 0.06,
+          "months": 0.3347344391583433,
+          "foundationMonths": 0.6694688783166866,
+          "base": {
+            "creditC": 267.66755432347566,
+            "alloyU": 21.413404345878053
+          },
+          "module": {
+            "creditC": 107.06702172939026,
+            "alloyU": 5.353351086469513
+          },
+          "buildHydrogenU": 0,
+          "startHydrogenU": 0,
+          "startC": 0
+        },
+        {
+          "type": "solar",
+          "fromSize": "small",
+          "toSize": "medium",
+          "existingGW": 0.06,
+          "addedGW": 0.19,
+          "ratio": 0.12666666666666665,
+          "months": 0.49534204894682926,
+          "derateFraction": 0.0099,
+          "base": {
+            "creditC": 496.4930586377497,
+            "alloyU": 39.71944469101997
+          },
+          "module": {
+            "creditC": 198.59722345509985,
+            "alloyU": 9.929861172754993
+          },
+          "buildHydrogenU": 0,
+          "startC": 0,
+          "reusedDiscount": 0.29
+        },
+        {
+          "type": "solar",
+          "fromSize": "medium",
+          "toSize": "large",
+          "existingGW": 0.25,
+          "addedGW": 1.25,
+          "ratio": 0.8333333333333334,
+          "months": 0.9398929160435717,
+          "derateFraction": 0.0099,
+          "base": {
+            "creditC": 2756.9629777925825,
+            "alloyU": 220.5570382234066
+          },
+          "module": {
+            "creditC": 1102.785191117033,
+            "alloyU": 55.13925955585165
+          },
+          "buildHydrogenU": 0,
+          "startC": 0,
+          "reusedDiscount": 0.29
+        }
+      ],
+      "fusionSmallUnavailable": false
+    }
+  ],
+  "restart": {
+    "restartC": 870,
+    "heatGWh": 0.014976,
+    "monthOneSmeltFactor": 0.20389281808710957,
+    "makeupC": 232.86135070952045,
+    "oneDayParkSavingC": 8.4825,
+    "equalObligationExtraC": 1094.3788507095203,
+    "freeToggleCounterfactualSavingC": 8.4825,
+    "passed": true,
+    "scope": "matched one-month output, one-day pause diagnostic; make-up capacity priced at normal operating service. Repeated macro scenario reported separately."
+  }
+}

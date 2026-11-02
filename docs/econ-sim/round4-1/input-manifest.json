@@ -1,0 +1,531 @@
+{
+  "files": {
+    "dist/data/planet-surfaces/sol-earth-v2.json": "42c8333e20cd1fef7bbbbbc65ac3edc5d63366d2f5ae75581cfa629c55ce8475",
+    "dist/data/planet-surfaces/sol-moon-v2.json": "fe987daaa43683ed6d74e570da4bef589eef739b3a208cc3e8222fe45a6e7616",
+    "dist/data/planet-surfaces/sol-mars-v2.json": "aea9fc1e6d1ea648c5ec5135fe6a7b1779c85b9562a1fd109fde4fcf6ec826ae",
+    "dist/src/industry-runtime.js": "2de6373f0169a0eb478c422844bedee7cb6ce8d942eb5104769740b9757b3e53"
+  },
+  "contract": {
+    "smeltHydrogenU": 85,
+    "smeltBoost": 0.15,
+    "byproductMaximumU": 100,
+    "origin": "dist/src/industry-runtime.js",
+    "contractHash": "2de6373f0169a0eb478c422844bedee7cb6ce8d942eb5104769740b9757b3e53"
+  },
+  "macro": {
+    "baseAlloyPrice": 2.3,
+    "hydrogenPrice": 1,
+    "bodies": {
+      "earth": {
+        "populationPersons": 8893000000,
+        "annualGDP": 20000000,
+        "taxRate": 0.25,
+        "collectionEfficiency": 1
+      },
+      "moon": {
+        "populationPersons": 200000,
+        "annualGDP": 450,
+        "taxRate": 0,
+        "collectionEfficiency": 1
+      },
+      "mars": {
+        "populationPersons": 50000,
+        "annualGDP": 112.5,
+        "taxRate": 0,
+        "collectionEfficiency": 1
+      }
+    },
+    "initialTreasuryC": 100000,
+    "initialAlloyU": 10000,
+    "initialHydrogenU": 500,
+    "gradeProbabilities": {
+      "low": 0.45,
+      "medium": 0.5,
+      "high": 0.05
+    },
+    "difficulty": 48,
+    "processingDifficulty": 48,
+    "productivityGrowth": 0.011,
+    "earthPopulationGrowth": 0,
+    "colonyPopulationGrowth": 0.004,
+    "earthTaxRate": 0.25,
+    "strategyShare": 0.021,
+    "velocity": 1.3333,
+    "targetInflation": 0.013,
+    "alloyMarketShare": 0.036,
+    "demandElasticity": 0.7,
+    "inventoryDays": 130,
+    "priceAdjustment": 0.05,
+    "priceReversion": 0.07,
+    "priceFloor": 0.5,
+    "priceCeiling": 2.5,
+    "expansionDelayMonths": 13,
+    "expansionBeta": 0.018,
+    "privateDepreciation": 0.045,
+    "privateAmortizationYears": 3.4,
+    "privateOperatingRate": 0.1,
+    "privateScale": 0.95,
+    "requiredMargin": 0.22,
+    "shipMaintenanceRate": 0.065,
+    "governmentOperatingRate": 0.115,
+    "colonySupportC": 1400,
+    "productivityShock": 0.003,
+    "debtInterestRate": 0.03,
+    "warStartMonth": 48,
+    "warDurationMonths": 24,
+    "warPurchaseMonths": 12,
+    "warAlloyU": 50000,
+    "warStrategyShare": 0.1,
+    "warMonetizationFraction": 1,
+    "colonySupportMultiplier": 3,
+    "colonyBuildEveryMonths": 24,
+    "supplyConstraintStrength": 0.03,
+    "governmentSaleFraction": 0,
+    "privateForecastMonths": 6,
+    "shipyardSlots": 1
+  },
+  "baselineEnergy": {
+    "fusionNormalHydrogenU": 2.5,
+    "costs": {
+      "foundationMonths": 2,
+      "fusion": {
+        "base": {
+          "creditC": 15000,
+          "alloyU": 1200
+        },
+        "module": {
+          "creditC": 6000,
+          "alloyU": 450
+        }
+      },
+      "fission": {
+        "base": {
+          "creditC": 8000,
+          "alloyU": 650
+        },
+        "module": {
+          "creditC": 3000,
+          "alloyU": 250
+        }
+      },
+      "solar": {
+        "base": {
+          "creditC": 5000,
+          "alloyU": 400
+        },
+        "module": {
+          "creditC": 2000,
+          "alloyU": 100
+        }
+      }
+    },
+    "earthBaseGW": 8120,
+    "peakGW": 10750,
+    "gridReserve": 0.09,
+    "electricityGDPShare": 0.08,
+    "electricDemandGDPExponent": 0.6,
+    "powerScarcityElasticity": 1.5,
+    "industryMix": "steelHeavy",
+    "mineRatio": 1.1,
+    "mineMWhPerT": 0.11,
+    "feedMWhPerT": 0.04,
+    "industryFixedMW": 0.06,
+    "privateScale": 0.95,
+    "directAnnual": 0.09,
+    "upkeepAnnual": 0.1,
+    "pausedCashFraction": 0.12,
+    "pausedAlloyFraction": 0.96,
+    "damagePerMonth": 0.03,
+    "repairRate": 1.4000000000000001,
+    "repairCPerU": 0.5,
+    "legacyGridCashGDPShare": 0.005,
+    "legacyGridUpkeepAnnualU": 10000,
+    "fusionMinimumFraction": 0.07,
+    "fissionAvailability": 0.9400000000000001,
+    "fissionFuelCPerGWh": 0.001,
+    "solarEarthCF": 0.27,
+    "solarMoonMultiplier": 0.85,
+    "solarMarsMultiplier": 0.43,
+    "hydrogenModuleU": 100,
+    "hydrogenModuleC": 2700,
+    "hydrogenModuleAlloyU": 17,
+    "hydrogenLagMonths": 6,
+    "electrolysisGWhPerU": 0.54,
+    "hydrogenVariableCPerU": 0.04,
+    "waterIntakeU": 900000,
+    "waterTankU": 90000,
+    "hydrogenInventoryMonths": 4,
+    "hydrogenPriceAdjustment": 0.05,
+    "hydrogenPriceReversion": 0.05,
+    "storageGWh": 12,
+    "storageGW": 0.25,
+    "storageC": 1500,
+    "storageAlloyU": 100,
+    "storageEfficiency": 0.92,
+    "parallelSurcharge": 0.13,
+    "learning": 0.2,
+    "colonyKWPerPerson": 6.2,
+    "freightCPerU": 0.05,
+    "essentialShare": 0.8,
+    "dispatchPolicy": "proportional",
+    "industryGDPWeight": 0.14,
+    "privatePowerHorizonYears": 54,
+    "privatePowerLagMonths": 9
+  },
+  "baseCandidates": [
+    {
+      "id": "R4-N018",
+      "parameters": {
+        "hydrogenPrice": 1.2,
+        "electrolysisKWhKg": 51.30480024296958,
+        "hydrogenLiquefactionKWhKg": 9.584459497662465,
+        "oxygenLiquefactionKWhKg": 0.3243415034019563,
+        "hydrogenStorageKWhKgMonth": 0.16258722973479964,
+        "boiloffMonthly": 0.002118949062777574,
+        "hydrogenCapacityScale": 0.5278594329414883,
+        "hydrogenCScale": 1.1321987479605014,
+        "hydrogenAlloyScale": 1.3983267145522273,
+        "packCPerSCU": 0.005109942409540963,
+        "packKWhPerSCU": 1.5944267692648282,
+        "freightCPerSCU": 0.0125,
+        "mediumRatio": 0.1770356132019515,
+        "smallRatio": 0.04020924370106741,
+        "nuclearCostExponent": 0.6153466695736618,
+        "solarCostExponent": 0.8951464748319267,
+        "timeExponent": 0.33980672807047085,
+        "reuseDiscount": 0.28867540952833226,
+        "upgradeDerate": 0.009937995223481266,
+        "fusionUnlockMonth": 108,
+        "solarCapexScale": 0.9680283643989241,
+        "solarEarthCF": 0.25696084723294915,
+        "pausedCashFraction": 0.12632554196125056,
+        "pausedAlloyFraction": 0.4642042284162017,
+        "mineRestartFraction": 0.011213138819521191,
+        "mineFirstDayFraction": 0.048352470696227105,
+        "smeltRestartFraction": 0.02852516820792516,
+        "smeltHeatMultiplier": 2.6412823209393537,
+        "smeltRecoveryMonths": 2.853116352147481,
+        "privateLossMonths": 3,
+        "privateDismantleMonths": 30,
+        "privateRestartMonths": 12,
+        "dismantleMonths": 1.382346473121288,
+        "dismantleCashFraction": 0.058593051216503225,
+        "salvageFraction": 0.49422634801012466,
+        "upkeep_earth": 0.02996984013771802,
+        "upkeep_moon": 0.04054147957348505,
+        "upkeep_mars": 0.0324537367386165,
+        "colonyKWPerPerson": 3.288342819403624,
+        "priorityEnabled": true,
+        "lifecycleEnabled": true,
+        "governmentDismantle": false,
+        "legacyUpkeepReference": 0.1,
+        "oxygenStored": false,
+        "publicColonyResponse": true
+      },
+      "sha256": "0880be61af020d84292ca185d1c5077193fd265e73ae74da40b9c900e427c649"
+    },
+    {
+      "id": "R4-N055",
+      "parameters": {
+        "hydrogenPrice": 1.2,
+        "electrolysisKWhKg": 53.73015612784002,
+        "hydrogenLiquefactionKWhKg": 11.422288683350416,
+        "oxygenLiquefactionKWhKg": 0.25403168922075564,
+        "hydrogenStorageKWhKgMonth": 0.06268037311574517,
+        "boiloffMonthly": 0.00243285793373525,
+        "hydrogenCapacityScale": 0.5337622483873209,
+        "hydrogenCScale": 0.9321026035722753,
+        "hydrogenAlloyScale": 1.28927729479391,
+        "packCPerSCU": 0.027454293028349636,
+        "packKWhPerSCU": 1.1305261658162635,
+        "freightCPerSCU": 0.0125,
+        "mediumRatio": 0.1803848291988288,
+        "smallRatio": 0.04726484972127082,
+        "nuclearCostExponent": 0.6266355446011638,
+        "solarCostExponent": 0.853486051249638,
+        "timeExponent": 0.3224168885473773,
+        "reuseDiscount": 0.2724010830015686,
+        "upgradeDerate": 0.22648124121769797,
+        "fusionUnlockMonth": 132,
+        "solarCapexScale": 0.9170623928621353,
+        "solarEarthCF": 0.24905156904515025,
+        "pausedCashFraction": 0.09708627442732906,
+        "pausedAlloyFraction": 0.41896638769831046,
+        "mineRestartFraction": 0.0072857141472286455,
+        "mineFirstDayFraction": 0.03635522424374358,
+        "smeltRestartFraction": 0.07288546822077478,
+        "smeltHeatMultiplier": 5.934709001441661,
+        "smeltRecoveryMonths": 1.6886382175052859,
+        "privateLossMonths": 3,
+        "privateDismantleMonths": 32,
+        "privateRestartMonths": 8,
+        "dismantleMonths": 2.7251349635589577,
+        "dismantleCashFraction": 0.04368937256234858,
+        "salvageFraction": 0.42766070368452347,
+        "upkeep_earth": 0.029913537481534823,
+        "upkeep_moon": 0.03513823172354023,
+        "upkeep_mars": 0.03634829565305154,
+        "colonyKWPerPerson": 6.8835284204324125,
+        "priorityEnabled": true,
+        "lifecycleEnabled": true,
+        "governmentDismantle": false,
+        "legacyUpkeepReference": 0.1,
+        "oxygenStored": false,
+        "publicColonyResponse": true
+      },
+      "sha256": "f62297b895d312ef25c3b2646aaa995f8c1c25cea399c7d1db45d6b927214a21"
+    },
+    {
+      "id": "R4-N066",
+      "parameters": {
+        "hydrogenPrice": 1.2,
+        "electrolysisKWhKg": 53.45153852849762,
+        "hydrogenLiquefactionKWhKg": 11.009695074506453,
+        "oxygenLiquefactionKWhKg": 0.21981455211098366,
+        "hydrogenStorageKWhKgMonth": 0.07947050490811308,
+        "boiloffMonthly": 0.0017158262214297794,
+        "hydrogenCapacityScale": 0.5026337828423231,
+        "hydrogenCScale": 1.4800461017584894,
+        "hydrogenAlloyScale": 1.498870227111263,
+        "packCPerSCU": 0.04838302168910377,
+        "packKWhPerSCU": 1.0947116710203773,
+        "freightCPerSCU": 0.0125,
+        "mediumRatio": 0.22171201216345554,
+        "smallRatio": 0.045631420142256046,
+        "nuclearCostExponent": 0.6204304343653304,
+        "solarCostExponent": 0.8598817140227766,
+        "timeExponent": 0.3630232282957877,
+        "reuseDiscount": 0.22656980449683034,
+        "upgradeDerate": 0.31937757844116277,
+        "fusionUnlockMonth": 138,
+        "solarCapexScale": 0.8689039594908536,
+        "solarEarthCF": 0.23817304721269467,
+        "pausedCashFraction": 0.10040073117606882,
+        "pausedAlloyFraction": 0.534836898400681,
+        "mineRestartFraction": 0.011267388889000357,
+        "mineFirstDayFraction": 0.04233807543514559,
+        "smeltRestartFraction": 0.043753844168059004,
+        "smeltHeatMultiplier": 4.813856131244393,
+        "smeltRecoveryMonths": 3.931885901446549,
+        "privateLossMonths": 4,
+        "privateDismantleMonths": 30,
+        "privateRestartMonths": 3,
+        "dismantleMonths": 1.406423871678271,
+        "dismantleCashFraction": 0.03255900005744479,
+        "salvageFraction": 0.5131962136609218,
+        "upkeep_earth": 0.029774862558992962,
+        "upkeep_moon": 0.03991964071782604,
+        "upkeep_mars": 0.02638420817345832,
+        "colonyKWPerPerson": 3.9084771833804552,
+        "priorityEnabled": true,
+        "lifecycleEnabled": true,
+        "governmentDismantle": false,
+        "legacyUpkeepReference": 0.1,
+        "oxygenStored": false,
+        "publicColonyResponse": true
+      },
+      "sha256": "e82941297115faed7a1b0fb868db13b3b4d069f3a87e30057496aa26d113e813"
+    },
+    {
+      "id": "R4-rounded",
+      "parameters": {
+        "hydrogenPrice": 1.2,
+        "electrolysisKWhKg": 51,
+        "hydrogenLiquefactionKWhKg": 9.6,
+        "oxygenLiquefactionKWhKg": 0.32,
+        "hydrogenStorageKWhKgMonth": 0.16,
+        "boiloffMonthly": 0.0021,
+        "hydrogenCapacityScale": 0.53,
+        "hydrogenCScale": 1.1,
+        "hydrogenAlloyScale": 1.4,
+        "packCPerSCU": 0.0051,
+        "packKWhPerSCU": 1.6,
+        "freightCPerSCU": 0.0125,
+        "mediumRatio": 0.16666666666666666,
+        "smallRatio": 0.04,
+        "nuclearCostExponent": 0.62,
+        "solarCostExponent": 0.9,
+        "timeExponent": 0.34,
+        "reuseDiscount": 0.29,
+        "upgradeDerate": 0.0099,
+        "fusionUnlockMonth": 110,
+        "solarCapexScale": 0.97,
+        "solarEarthCF": 0.26,
+        "pausedCashFraction": 0.13,
+        "pausedAlloyFraction": 0.46,
+        "mineRestartFraction": 0.011,
+        "mineFirstDayFraction": 0.048,
+        "smeltRestartFraction": 0.029,
+        "smeltHeatMultiplier": 2.6,
+        "smeltRecoveryMonths": 2.9,
+        "privateLossMonths": 3,
+        "privateDismantleMonths": 30,
+        "privateRestartMonths": 12,
+        "dismantleMonths": 1.4,
+        "dismantleCashFraction": 0.059,
+        "salvageFraction": 0.49,
+        "upkeep_earth": 0.03,
+        "upkeep_moon": 0.041,
+        "upkeep_mars": 0.032,
+        "colonyKWPerPerson": 3.3,
+        "priorityEnabled": true,
+        "lifecycleEnabled": true,
+        "governmentDismantle": false,
+        "legacyUpkeepReference": 0.1,
+        "oxygenStored": false,
+        "publicColonyResponse": true
+      },
+      "sha256": "9cb93a0b75fb5b5ed0cb260db80792e914e6c7cd76dda52a9f7ca87979e24081"
+    }
+  ],
+  "baselineRules37": {
+    "electrolysisKWhKg": [
+      50,
+      55
+    ],
+    "hydrogenLiquefactionKWhKg": [
+      8,
+      13
+    ],
+    "oxygenLiquefactionKWhKg": [
+      0.2,
+      0.5
+    ],
+    "hydrogenStorageKWhKgMonth": [
+      0.05,
+      0.2
+    ],
+    "boiloffMonthly": [
+      0,
+      0.005
+    ],
+    "hydrogenCapacityScale": [
+      0.5,
+      1.5
+    ],
+    "hydrogenCScale": [
+      0.5,
+      1.5
+    ],
+    "hydrogenAlloyScale": [
+      0.5,
+      1.5
+    ],
+    "packCPerSCU": [
+      0.003,
+      0.06
+    ],
+    "packKWhPerSCU": [
+      0.5,
+      5
+    ],
+    "mediumRatio": [
+      0.16666666666666666,
+      0.25
+    ],
+    "smallRatio": [
+      0.025,
+      0.05
+    ],
+    "nuclearCostExponent": [
+      0.6,
+      0.75
+    ],
+    "solarCostExponent": [
+      0.85,
+      0.95
+    ],
+    "timeExponent": [
+      0.3,
+      0.4
+    ],
+    "reuseDiscount": [
+      0.2,
+      0.3
+    ],
+    "upgradeDerate": [
+      0,
+      0.5
+    ],
+    "fusionUnlockMonth": [
+      84,
+      144
+    ],
+    "solarCapexScale": [
+      0.6,
+      1
+    ],
+    "solarEarthCF": [
+      0.2,
+      0.3
+    ],
+    "pausedCashFraction": [
+      0.05,
+      0.2
+    ],
+    "pausedAlloyFraction": [
+      0.4,
+      0.6
+    ],
+    "mineRestartFraction": [
+      0.005,
+      0.03
+    ],
+    "mineFirstDayFraction": [
+      0,
+      0.1
+    ],
+    "smeltRestartFraction": [
+      0.02,
+      0.08
+    ],
+    "smeltHeatMultiplier": [
+      2,
+      6
+    ],
+    "smeltRecoveryMonths": [
+      1.5,
+      4
+    ],
+    "privateLossMonths": [
+      2,
+      6
+    ],
+    "privateDismantleMonths": [
+      12,
+      36
+    ],
+    "privateRestartMonths": [
+      3,
+      12
+    ],
+    "dismantleMonths": [
+      1,
+      3
+    ],
+    "dismantleCashFraction": [
+      0.03,
+      0.1
+    ],
+    "salvageFraction": [
+      0.4,
+      0.7
+    ],
+    "upkeep_earth": [
+      0.02,
+      0.03
+    ],
+    "upkeep_moon": [
+      0.03,
+      0.045
+    ],
+    "upkeep_mars": [
+      0.025,
+      0.04
+    ],
+    "colonyKWPerPerson": [
+      2,
+      8
+    ]
+  }
+}
