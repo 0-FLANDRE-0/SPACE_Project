@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>시작 함선 3D 초안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* 레이아웃: 전체 화면 3D 뷰 + 좌상단 함선 정보 + 하단 조작 바. 우주 화면 한 가지 테마로 고정. */
+:root{
+  --bg:#05080d;
+  --panel:rgba(12,18,27,.86);
+  --line:#26384a;
+  --text:#d7e3ee;
+  --muted:#7f93a6;
+  --accent:#62c7e8;
+  --font-body:"IBM Plex Sans KR",system-ui,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --font-num:"IBM Plex Mono",ui-monospace,monospace;
+  color-scheme:dark;
+}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--text);font-family:var(--font-body);overflow:hidden}
+#view{position:fixed;inset:0;touch-action:none}
+#icons{position:fixed;inset:0;pointer-events:none}
+.ship-icon{position:absolute;width:58px;height:58px;margin:-29px 0 0 -29px;display:none;pointer-events:auto;cursor:pointer}
+.ship-icon.sel svg{color:var(--accent)!important;filter:drop-shadow(0 0 6px var(--accent))}
+.ship-icon.sel .label{color:var(--accent)}
+.ship-icon svg{width:100%;height:100%;overflow:visible}
+.ship-icon .label{position:absolute;top:62px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:12px;color:var(--muted)}
+.info{position:fixed;top:12px;left:12px;max-width:min(340px,calc(100% - 24px));background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:8px;backdrop-filter:blur(4px)}
+.info h1{font-size:15px;margin:0;font-weight:600;text-wrap:balance}
+.info p{margin:0;font-size:12px;color:var(--muted);line-height:1.5}
+.spec{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;font-size:12px}
+.spec dt{color:var(--muted)}
+.spec dd{margin:0;font-family:var(--font-num);font-variant-numeric:tabular-nums}
+.mode{font-family:var(--font-num);font-size:12px;color:var(--accent)}
+.bar{position:fixed;left:12px;right:12px;bottom:12px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.bar button,.bar label{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:8px 12px;font:inherit;font-size:13px;cursor:pointer;display:flex;align-items:center;gap:6px}
+.bar button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+.bar button:focus-visible,.bar input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.hint{position:fixed;right:12px;top:12px;font-size:11px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 10px;max-width:220px;line-height:1.5}
+@media (max-width:520px){.hint{display:none}.info{padding:10px 12px}}
+@media (max-height:480px){.hint{display:none}.info{max-width:260px;gap:4px;padding:8px 10px}.info p{display:none}.spec{font-size:11px}}
+</style>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}
+</script>
+</head>
+<body>
+<canvas id="view" aria-label="함선 3D 미리보기"></canvas>
+<div id="icons"></div>
+
+<section class="info" aria-live="polite">
+  <h1 id="title">시작 함선 비교</h1>
+  <p id="desc">손그림 초안을 바탕으로 만든 형상 시안입니다. 크기와 세부 형태는 임시값입니다.</p>
+  <dl class="spec" id="spec"></dl>
+  <div class="mode" id="mode">표시: 3D</div>
+  <div class="mode" id="sel">선택 없음</div>
+  <div class="mode" id="px"></div>
+</section>
+
+<div class="hint">드래그로 회전, 휠·핀치로 확대/축소. 함선(3D)이나 아이콘을 누르면 선택되어 외곽선이 강조됩니다. 아이콘의 짧은 선은 함수 방향입니다.</div>
+
+<div class="bar" role="toolbar" aria-label="보기 전환">
+  <button id="b-both" aria-pressed="true">지구 3/4 화면</button>
+  <button id="b-exp" aria-pressed="false">탐사함</button>
+  <button id="b-con" aria-pressed="false">건설지원함</button>
+  <button id="b-far" aria-pressed="false">멀리서 보기(아이콘)</button>
+  <label for="turn"><input type="checkbox" id="turn"> 선회 시연</label>
+</div>
+
+<script type="module">
+import * as THREE from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {EffectComposer} from 'three/addons/postprocessing/EffectComposer.js';
+import {RenderPass} from 'three/addons/postprocessing/RenderPass.js';
+import {OutlinePass} from 'three/addons/postprocessing/OutlinePass.js';
+import {OutputPass} from 'three/addons/postprocessing/OutputPass.js';
+
+// 표시 축척: 지구 표시 지름 15(게임 Planet Size), 탐사함(소형 60m) 표시 길이 1.
+// 모바일 가로(높이 390px)에서 지구가 화면 높이의 3/4이면 탐사함은 약 20px. 큰 함선은 실제 길이의 제곱근 비율로 커짐.
+const EARTH_D=15, REF_LEN=60, REF_DISP=1;
+const dispLen=len=>REF_DISP*Math.sqrt(len/REF_LEN);
+const SHIPS={
+  explorer:{name:'탐사함',hull:'소형',length:60,drive:'실험형 하이퍼펄스',speed:'640 gAU/시간',charge:'4시간',reactor:'개량 핵분열',count:'2척'},
+  constructor:{name:'건설지원함',hull:'중소형',length:170,drive:'펄스',speed:'1 gAU/시간',charge:'2시간',reactor:'개량 핵분열',count:'1척'}
+};
+
+const canvas=document.getElementById('view');
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+const scene=new THREE.Scene();
+scene.background=new THREE.Color('#05080d');
+const camera=new THREE.PerspectiveCamera(40,1,0.01,100000);
+camera.position.set(20,12,30);
+const controls=new OrbitControls(camera,canvas);
+controls.enableDamping=true;controls.minDistance=.4;controls.maxDistance=4000;
+
+scene.add(new THREE.HemisphereLight('#b9d3ea','#1a1410',0.55));
+const sun=new THREE.DirectionalLight('#fff4e0',2.4);sun.position.set(300,200,400);scene.add(sun);
+const rim=new THREE.DirectionalLight('#6fb7ff',0.6);rim.position.set(-300,-100,-300);scene.add(rim);
+
+// 배경 별
+{const g=new THREE.BufferGeometry(),n=1800,p=new Float32Array(n*3);
+ for(let i=0;i<n;i++){const v=new THREE.Vector3().randomDirection().multiplyScalar(80000);p.set([v.x,v.y,v.z],i*3);}
+ g.setAttribute('position',new THREE.BufferAttribute(p,3));
+ scene.add(new THREE.Points(g,new THREE.PointsMaterial({color:'#9fb4c8',size:1.6,sizeAttenuation:false})));}
+
+const hullMat=new THREE.MeshStandardMaterial({color:'#9aa6b2',metalness:.55,roughness:.45,flatShading:true});
+const darkMat=new THREE.MeshStandardMaterial({color:'#4a5560',metalness:.6,roughness:.5,flatShading:true});
+const trimMat=new THREE.MeshStandardMaterial({color:'#d9e2ea',metalness:.3,roughness:.35});
+const glowMat=new THREE.MeshBasicMaterial({color:'#7fd6ff'});
+const edgeMat=new THREE.LineBasicMaterial({color:'#1c2834'});
+
+// 단면(폭 w, 위 top, 아래 bot)을 z축(앞 = +z)을 따라 이어 붙인 선체
+function loft(stations,mat){
+  const pos=[];const q=(a,b,c,d)=>pos.push(...a,...b,...c,...a,...c,...d);
+  const ring=s=>[[-s.w/2,s.bot,s.z],[s.w/2,s.bot,s.z],[s.w/2,s.top,s.z],[-s.w/2,s.top,s.z]];
+  for(let i=0;i<stations.length-1;i++){
+    const A=ring(stations[i]),B=ring(stations[i+1]);
+    for(let k=0;k<4;k++){const k2=(k+1)%4;q(A[k],A[k2],B[k2],B[k]);}
+  }
+  const f=ring(stations[0]),l=ring(stations[stations.length-1]);
+  q(f[0],f[3],f[2],f[1]);q(l[0],l[1],l[2],l[3]);
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));g.computeVertexNormals();
+  const m=new THREE.Mesh(g,mat);m.add(new THREE.LineSegments(new THREE.EdgesGeometry(g,20),edgeMat));return m;
+}
+function beam(a,b,t,mat){
+  const A=new THREE.Vector3(...a),B=new THREE.Vector3(...b),len=A.distanceTo(B);
+  const m=new THREE.Mesh(new THREE.BoxGeometry(t,t,len),mat);m.position.copy(A).add(B).multiplyScalar(.5);m.lookAt(B);return m;
+}
+
+// 탐사함: 위에서 보면 앞이 좁고 뒤가 넓은 몸체, 옆에서 보면 앞 윗부분이 비스듬히 깎인 상자. 윗면의 A자 능선.
+function buildExplorer(){
+  const g=new THREE.Group();
+  g.add(loft([
+    {z:-30,w:14,top:4.5,bot:-4.5},
+    {z:12,w:14,top:4.5,bot:-4.5},
+    {z:18,w:11,top:4.5,bot:-4.5},
+    {z:30,w:5,top:0,bot:-4.5}],hullMat));
+  for(const s of [-1,1]){
+    const pts=[[0,.25,30],[1.4*s,4.75,18],[7*s,4.75,-30]].map(p=>new THREE.Vector3(...p));
+    const tube=new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts,false,'centripetal',0),24,.35,6),trimMat);g.add(tube);
+  }
+  const eng=new THREE.Mesh(new THREE.BoxGeometry(10,6,.4),glowMat);eng.position.set(0,0,-30.3);g.add(eng);
+  const nozzleRing=loft([{z:-31.5,w:11,top:3.5,bot:-3.5},{z:-30,w:12,top:4,bot:-4}],darkMat);g.add(nozzleRing);
+  return g;
+}
+
+// 건설지원함: 앞 작업 모듈 + 긴 골조 척추 + 뒤 기관 모듈(아령형). 위에서 보면 앞 모듈은 앞이 좁고, 뒤 모듈은 척추 쪽 모서리가 깎임.
+function buildConstructor(){
+  const g=new THREE.Group();
+  g.add(loft([{z:70,w:26,top:8,bot:-8},{z:86,w:24,top:7.5,bot:-7.5},{z:90,w:16,top:6,bot:-6}],hullMat));
+  g.add(loft([{z:-80,w:34,top:13,bot:-13},{z:-48,w:34,top:13,bot:-13},{z:-40,w:22,top:9,bot:-9}],hullMat));
+  // 척추 골조: 네 개의 종재 + 10m 간격 X자 보강
+  const h=2.2,t=.7,z0=-40,z1=70;
+  for(const x of [-h,h])for(const y of [-h,h])g.add(beam([x,y,z0],[x,y,z1],t,darkMat));
+  for(let z=z0;z<z1;z+=10){
+    const z2=Math.min(z+10,z1);
+    for(const x of [-h,h]){g.add(beam([x,-h,z],[x,h,z2],t*.6,darkMat));g.add(beam([x,h,z],[x,-h,z2],t*.6,darkMat));}
+    for(const y of [-h,h]){g.add(beam([-h,y,z],[h,y,z2],t*.6,darkMat));}
+  }
+  const eng=new THREE.Mesh(new THREE.BoxGeometry(26,18,.4),glowMat);eng.position.set(0,0,-80.3);g.add(eng);
+  // 앞 모듈 정면의 작업용 개구부(어두운 판)
+  const bay=new THREE.Mesh(new THREE.BoxGeometry(9,6,.3),darkMat);bay.position.set(0,0,90.2);g.add(bay);
+  return g;
+}
+
+const ships={explorer:buildExplorer(),constructor:buildConstructor()};
+for(const [k,g] of Object.entries(ships)){SHIPS[k].disp=dispLen(SHIPS[k].length);g.scale.setScalar(SHIPS[k].disp/SHIPS[k].length);}
+const HOME={explorer:new THREE.Vector3(9.4,.8,2.5),constructor:new THREE.Vector3(10.2,-.6,-2.5)};
+const FAR={explorer:new THREE.Vector3(-150,0,40),constructor:new THREE.Vector3(150,0,0)};
+ships.explorer.position.copy(HOME.explorer);ships.constructor.position.copy(HOME.constructor);
+ships.explorer.rotation.y=-.6;ships.constructor.rotation.y=-.9;
+scene.add(ships.explorer,ships.constructor);
+
+// 지구(표시 지름 15) — 간단한 절차 텍스처
+const earthTex=(()=>{const c=document.createElement('canvas');c.width=512;c.height=256;const x=c.getContext('2d');
+  x.fillStyle='#1d4f86';x.fillRect(0,0,512,256);let seed=7;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+  x.fillStyle='#3f7a4a';for(let i=0;i<90;i++){x.beginPath();x.ellipse(rnd()*512,40+rnd()*176,10+rnd()*40,6+rnd()*22,rnd()*3,0,7);x.fill();}
+  x.fillStyle='rgba(235,242,248,.55)';for(let i=0;i<60;i++){x.beginPath();x.ellipse(rnd()*512,rnd()*256,8+rnd()*40,2+rnd()*6,0,0,7);x.fill();}
+  x.fillStyle='#e9f1f6';x.fillRect(0,0,512,14);x.fillRect(0,242,512,14);
+  const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;})();
+const earth=new THREE.Mesh(new THREE.SphereGeometry(EARTH_D/2,64,32),new THREE.MeshStandardMaterial({map:earthTex,roughness:.8}));
+earth.rotation.z=.41;scene.add(earth);
+
+// 아이콘: 원 + 기호 + 방향선(함수 방향)
+const ICON_PATHS={
+  explorer:'<path d="M24 14h10M26 14v9l-9 15h24l-9-15v-9" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>',
+  constructor:'<g transform="translate(29 32) rotate(-45) scale(1.12)" fill="currentColor"><rect x="-1.6" y="-8" width="3.2" height="20" rx="1.2"/><path d="M-8 -14h12l3 2.5v3h-15z"/></g>'
+   +'<g transform="translate(29 32) rotate(45) scale(1.12)" fill="currentColor"><rect x="-1.7" y="-6" width="3.4" height="18" rx="1.3"/><path d="M-4.6 -6h9.2v-4h-3.2v-6.5h-2.6v6.5h-0.8v-8.5h-2.6z"/></g>'
+};
+const iconLayer=document.getElementById('icons');
+const iconEls={};
+for(const k of Object.keys(ships)){
+  const d=document.createElement('div');d.className='ship-icon';
+  d.innerHTML=`<svg viewBox="0 0 58 58" style="color:#cfe3f2"><circle cx="29" cy="29" r="26" fill="rgba(5,8,13,.75)" stroke="currentColor" stroke-width="2"/>${ICON_PATHS[k]}<line class="head" x1="29" y1="3" x2="29" y2="-9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span class="label">${SHIPS[k].name}</span>`;
+  d.addEventListener('click',e=>{e.stopPropagation();select(k);});
+  iconLayer.appendChild(d);iconEls[k]=d;
+}
+
+// 아이콘 전환: 화면 높이 대비 비율(모바일 가로 390px 기준 약 14px 미만에서 아이콘, 17px 이상에서 3D로 복귀)
+const TO_ICON=.036, TO_3D=.044;const iconState={explorer:false,constructor:false};
+const tmp=new THREE.Vector3(),tmp2=new THREE.Vector3();
+let focus='both';
+function pixelLength(obj,len){
+  const dist=camera.position.distanceTo(obj.getWorldPosition(tmp));
+  return len*(renderer.domElement.clientHeight/2)/(dist*Math.tan(THREE.MathUtils.degToRad(camera.fov/2)));
+}
+function updateIcons(){
+  let anyIcon=false;
+  const w=renderer.domElement.clientWidth,h=renderer.domElement.clientHeight;
+  for(const [k,obj] of Object.entries(ships)){
+    const el=iconEls[k];
+    if(!obj.visible){el.style.display='none';continue;}
+    const px=pixelLength(obj,SHIPS[k].disp),hh=renderer.domElement.clientHeight;
+    if(iconState[k]&&px>TO_3D*hh)iconState[k]=false;else if(!iconState[k]&&px<TO_ICON*hh)iconState[k]=true;
+    const iconMode=iconState[k];if(k==='explorer')document.getElementById('px').textContent=`탐사함 화면 길이 ${px.toFixed(0)}px`;
+    obj.children.forEach(c=>c.visible=!iconMode);
+    if(!iconMode){el.style.display='none';continue;}
+    anyIcon=true;
+    obj.getWorldPosition(tmp);
+    const fwd=new THREE.Vector3(0,0,1).applyQuaternion(obj.getWorldQuaternion(new THREE.Quaternion()));
+    tmp2.copy(tmp).addScaledVector(fwd,SHIPS[k].disp);
+    const a=tmp.clone().project(camera),b=tmp2.project(camera);
+    if(a.z>1){el.style.display='none';continue;}
+    el.style.display='block';
+    el.style.left=((a.x+1)/2*w)+'px';el.style.top=((1-a.y)/2*h)+'px';
+    const ang=Math.atan2(-(b.y-a.y)*h,(b.x-a.x)*w)*180/Math.PI+90;
+    el.querySelector('.head').setAttribute('transform',`rotate(${ang} 29 29)`);
+  }
+  document.getElementById('mode').textContent=anyIcon?'표시: 아이콘 (축소 상태)':'표시: 3D';
+}
+
+function setInfo(k){
+  const spec=document.getElementById('spec');
+  if(k==='both'){
+    document.getElementById('title').textContent='지구 기준 표시 축척';
+    document.getElementById('desc').textContent='지구 표시 지름 15에 탐사함 표시 길이 1. 지구가 화면 높이의 3/4일 때 탐사함은 모바일 가로 기준 약 20px이고, 더 축소하면 아이콘으로 바뀝니다.';
+    spec.innerHTML=`<dt>지구</dt><dd>표시 지름 15</dd><dt>탐사함</dt><dd>소형 · 약 60m · 표시 ${SHIPS.explorer.disp.toFixed(2)}</dd><dt>건설지원함</dt><dd>중소형 · 약 170m · 표시 ${SHIPS.constructor.disp.toFixed(2)}</dd><dt>크기 비율</dt><dd>실제 길이의 제곱근(제안)</dd>`;
+    return;
+  }
+  const s=SHIPS[k];
+  document.getElementById('title').textContent=s.name;
+  document.getElementById('desc').textContent=k==='explorer'
+    ?'앞이 좁아지는 몸체와 윗면 A자 능선, 앞 윗부분이 깎인 옆모습. 뒷면이 기관부.'
+    :'앞 작업 모듈과 뒤 기관 모듈을 골조 척추로 잇는 아령형 산업선. 장갑 없는 경량 골조.';
+  spec.innerHTML=`<dt>함급</dt><dd>${s.hull}</dd><dt>길이(임시)</dt><dd>약 ${s.length}m</dd><dt>드라이브</dt><dd>${s.drive}</dd><dt>순항</dt><dd>${s.speed}</dd><dt>출발 충전</dt><dd>${s.charge}</dd><dt>반응로</dt><dd>${s.reactor}</dd><dt>시작 수량</dt><dd>${s.count}</dd>`;
+}
+function frame(k,far=false){
+  focus=k;
+  for(const id of ['both','exp','con','far'])document.getElementById('b-'+id).setAttribute('aria-pressed','false');
+  document.getElementById(far?'b-far':k==='both'?'b-both':k==='explorer'?'b-exp':'b-con').setAttribute('aria-pressed','true');
+  ships.explorer.visible=far||k!=='constructor';ships.constructor.visible=far||k!=='explorer';
+  // 멀리서 볼 때는 아이콘이 겹치지 않도록 두 함선 간격을 벌림
+  for(const id of Object.keys(ships))ships[id].position.copy(far?FAR[id]:HOME[id]);
+  earth.visible=!far;
+  let target,r,dir=new THREE.Vector3(.25,.3,1).normalize();
+  if(far){target=new THREE.Vector3(0,0,20);r=2600;}
+  else if(k==='both'){
+    // 지구 지름 = 화면 높이의 3/4 (세로 화면이면 폭 기준)
+    const fit=Math.min(1,camera.aspect);
+    target=new THREE.Vector3(3,0,0);r=EARTH_D/(2*.75*fit*Math.tan(THREE.MathUtils.degToRad(camera.fov/2)));dir=new THREE.Vector3(0,.12,1).normalize();
+  }else{target=ships[k].position.clone();r=SHIPS[k].disp*2.4*Math.max(1,1.25/camera.aspect);dir=new THREE.Vector3(.62,.42,.66).normalize();}
+  controls.target.copy(target);
+  camera.position.copy(target).addScaledVector(dir,r);
+  setInfo(k);
+}
+document.getElementById('b-both').onclick=()=>frame('both');
+document.getElementById('b-exp').onclick=()=>frame('explorer');
+document.getElementById('b-con').onclick=()=>frame('constructor');
+document.getElementById('b-far').onclick=()=>frame('both',true);
+const turn=document.getElementById('turn');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// 선택 강조: 3D는 외곽선, 아이콘은 강조색
+const composer=new EffectComposer(renderer);
+composer.addPass(new RenderPass(scene,camera));
+const outline=new OutlinePass(new THREE.Vector2(innerWidth,innerHeight),scene,camera);
+outline.visibleEdgeColor.set('#62c7e8');outline.hiddenEdgeColor.set('#1f5468');outline.edgeStrength=4;outline.edgeThickness=1.5;
+composer.addPass(outline);composer.addPass(new OutputPass());
+let selected=null;
+function select(k){
+  selected=k;
+  outline.selectedObjects=k?[ships[k]]:[];
+  for(const [id,el] of Object.entries(iconEls))el.classList.toggle('sel',id===k);
+  document.getElementById('sel').textContent=k?`선택: ${SHIPS[k].name}`:'선택 없음';
+}
+const ray=new THREE.Raycaster(),ndc=new THREE.Vector2();let down=null;
+canvas.addEventListener('pointerdown',e=>{down=[e.clientX,e.clientY];});
+canvas.addEventListener('pointerup',e=>{
+  if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>6)return;
+  ndc.set(e.clientX/innerWidth*2-1,-(e.clientY/innerHeight)*2+1);ray.setFromCamera(ndc,camera);
+  for(const [k,obj] of Object.entries(ships)){if(obj.visible&&ray.intersectObject(obj,true).length){select(k);return;}}
+  select(null);
+});
+function resize(){
+  const w=innerWidth,h=innerHeight;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();
+  composer.setSize(w,h);outline.setSize(w,h);
+}
+addEventListener('resize',resize);resize();frame('both');
+
+let last=performance.now();
+renderer.setAnimationLoop(now=>{
+  const dt=Math.min(.05,(now-last)/1000);last=now;
+  if(turn.checked&&!reduce){ships.explorer.rotation.y+=dt*.5;ships.constructor.rotation.y+=dt*.3;}
+  controls.update();updateIcons();composer.render();
+});
+</script>
+</body>
+</html>
