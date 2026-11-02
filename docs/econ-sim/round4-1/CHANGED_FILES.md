@@ -1,0 +1,86 @@
+# 실제 변경 파일
+
+PR15 `b04e3f117de303b84705ef1baa50d9521d960be2` 대비. 기존 파일은 `docs/DECISIONS.md` 끝 추가 한 곳이다. 기존875개 보호 경로는 SHA256 동일하며 새 게임 진입점/저장/공식 데이터 연결은 없다.
+
+- `dist/src/economy-round4-1-model.js` — 게임 미연결 순수 모델/정책
+- `dist/src/economy-round4-1-policy.js` — 게임 미연결 순수 모델/정책
+- `docs/DECISIONS.md` — 확정/가정/제안/결과 상태만 끝 추가
+- `docs/econ-sim/round4-1/CHANGED_FILES.md` — 한국어 요구/구현/결과/검증 문서
+- `docs/econ-sim/round4-1/IMPLEMENTATION.md` — 한국어 요구/구현/결과/검증 문서
+- `docs/econ-sim/round4-1/PRIVATE_SALVAGE_KO.md` — 한국어 요구/구현/결과/검증 문서
+- `docs/econ-sim/round4-1/REPORT_KO.md` — 한국어 요구/구현/결과/검증 문서
+- `docs/econ-sim/round4-1/REQUEST_KO.md` — 한국어 요구/구현/결과/검증 문서
+- `docs/econ-sim/round4-1/VERIFICATION.md` — 한국어 요구/구현/결과/검증 문서
+- `docs/econ-sim/round4-1/baseline04.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/candidates.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/e11-m-before-fix.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/e11-m-correction.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/e11-m-revalidation-runs.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/extreme-matrix.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/final-runs.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/grid-boundary.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/hydrogen-supply.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/input-manifest.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/logs/baseline-check.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/baseline-tests.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/calibration-before-donor-fix.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/calibration-initial-aborted.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/calibration-smoke.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/calibration.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/check.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/donor-reserve-before-fix.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/e11-m-after-fix.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/e11-m-before-fix.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/e11-m-revalidation.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/game-development-reset-browser.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/independent-verification.json` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/independent-verification.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/preservation.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/private-diagnostic.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/report-browser.json` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/report-browser.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/report-file-integrity.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/report.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/round41-tests.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/series-format.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/supply-observations.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/logs/tests.log` — 실제 실행 및 수정 전후 증거
+- `docs/econ-sim/round4-1/off-replay.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/policy-search.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/preservation-manifest.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/price-control.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/private-salvage-diagnostic.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/relief-ledger-evidence.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/relief-matrix.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/report.html` — 외부 파일 없는 단일 HTML
+- `docs/econ-sim/round4-1/results.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/retrospective-regrade.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/runs.csv` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/screenshots/report-1440-curves.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-1440-extreme.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-1440.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-390-curves.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-390-extreme.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-390.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-667-curves.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-667-extreme.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-667.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-844-curves.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-844-extreme.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/screenshots/report-844.png` — 실제 Chromium 렌더링
+- `docs/econ-sim/round4-1/series.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/shortage-stock-diagnostic.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `docs/econ-sim/round4-1/supply-observations.json` — 기계 판독 결과·해시·전체 정밀도 원시 자료
+- `scripts/econ-round4-1-analysis.mjs` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `scripts/econ-round4-1-calibrate.mjs` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `scripts/econ-round4-1-correct-e11.mjs` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `scripts/econ-round4-1-diagnose.mjs` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `scripts/econ-round4-1-preserve.mjs` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `scripts/econ-round4-1-report.mjs` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `scripts/econ-round4-1-supply.mjs` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `scripts/econ-round4-1-verify.mjs` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `scripts/econ-round4-1.config.json` — 탐색/진단/원시 결과 보정/검증/보고 재현 도구
+- `tests/browser-economy-round4-1-report.mjs` — 신규 단위/브라우저 회귀
+- `tests/economy-round4-1.test.js` — 신규 단위/브라우저 회귀
+
+총 80개 경로. 월 시계열은 전체 수치/정밀도를 유지한 compact JSON이며 브라우저용 표시만8자리로 줄였다. [형식 변경 데이터 동일성](logs/series-format.log), [검증한 HTML 바이트 동일성](logs/report-file-integrity.log). 수정 전 실패 로그는 최종 실패가 아니라 회귀 반례의 증거다. ZIP은 생성하지 않았다.

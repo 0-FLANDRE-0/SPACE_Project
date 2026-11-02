@@ -1,0 +1,355 @@
+{
+  "status": "ECON-SIM-4.1 탐색 결과 — 사용자 미결정; 게임 미적용",
+  "config": {
+    "status": "ECON-SIM-4.1 탐색 결과 — 사용자 미결정; 게임 미적용",
+    "baselineCommit": "b04e3f117de303b84705ef1baa50d9521d960be2",
+    "archiveCommit": "bdfa3eb5380e29ae779ef085bf26b525c70d2e65",
+    "months": 240,
+    "seeds": [
+      "econ-1",
+      "econ-2",
+      "econ-3",
+      "econ-4",
+      "econ-5"
+    ],
+    "samples": 64,
+    "samplingSeed": "econ-round41-lhs-1",
+    "policy": {
+      "hydrogenPrice": 0.4,
+      "triageEnabled": true,
+      "marketRelief": false,
+      "importRelief": false,
+      "enterMonths": 3,
+      "exitMultiple": 1.5,
+      "graceMonths": 9,
+      "postGraceDamageScale": 1,
+      "marketPremium": 1.5,
+      "marketFraction": 0.15,
+      "donorReserveMonths": 6
+    },
+    "ranges": {
+      "enterMonths": [
+        1,
+        6
+      ],
+      "exitMultiple": [
+        1.3,
+        2
+      ],
+      "graceMonths": [
+        6,
+        12
+      ],
+      "postGraceDamageScale": [
+        0.5,
+        2
+      ],
+      "marketPremium": [
+        1.2,
+        2
+      ],
+      "marketFraction": [
+        0.05,
+        0.3
+      ],
+      "donorReserveMonths": [
+        3,
+        12
+      ]
+    },
+    "stress": {
+      "startMonth": 60,
+      "lossFraction": 0.6,
+      "stopMonths": 9,
+      "demandMultiplier": 1.75
+    },
+    "criteria": {
+      "peacePriceDeviation": 0.2,
+      "meanPriceDeviation": 0.08,
+      "inflationMin": 0.01,
+      "inflationMax": 0.03,
+      "budget17Min": 1.1,
+      "budget17Max": 1.6,
+      "colonyPeaceYearlyMax": 0.01,
+      "colonyFoundingYearlyMax": 0.1,
+      "industryPaybackYearsMax": 4,
+      "hydrogenMarginMin": 0,
+      "crisisRecoveryYearsMax": 5,
+      "crisisHealthMin": 0.8,
+      "crisisUnservedMax": 0.01
+    },
+    "provenance": {
+      "confirmed": "REQUEST §2.1, §2.3/2.4/2.5 direction only",
+      "price": "[4.1 검증 가정] .4C/U with1.2 paired control",
+      "ranges": "[Claude 제안 출발 범위]; only these7 axes searched; original37 axes fixed",
+      "grid": "E5-M18 cells: loss.5/.6/.7 × stop6/9/12 × demand1.5/2; representative.6/9/1.75 separate"
+    }
+  },
+  "codeBaseline": "b04e3f117de303b84705ef1baa50d9521d960be2",
+  "archiveBaseline": "bdfa3eb5380e29ae779ef085bf26b525c70d2e65",
+  "workers": 3,
+  "environment": {
+    "node": "v24.19.0",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "parallelism": 4
+  },
+  "counts": {
+    "replayPairs": 440,
+    "replayExecutions": 880,
+    "baseline04": 440,
+    "search": 5120,
+    "final": 1680,
+    "rounded": 420,
+    "matrix": 160,
+    "extreme": 40,
+    "price12": 40,
+    "performanceExecutions": 45,
+    "totalOnRuns": 7950,
+    "integrityFailures": 0,
+    "searchPolicies": 256,
+    "samplesPerBase": 64,
+    "seeds": 5,
+    "finalDatasetRuns": 7900,
+    "e11CorrectionRuns": 50
+  },
+  "timings": {
+    "replay": 90.87022092800001,
+    "baseline04": 55.999504625,
+    "search": 449.60164083899997,
+    "final": 208.77014247399998,
+    "rounded": 94.60923099099996,
+    "matrix": 12.399039022999933,
+    "extreme": 2.3525130039999493,
+    "price12": 5.099177072999999,
+    "e11Correction": 11.357339546999999
+  },
+  "totalSeconds": 940.139721761,
+  "performance": {
+    "round4": {
+      "samples": 15,
+      "p50Ms": 188.2362809999613,
+      "p95Ms": 301.0122390000615
+    },
+    "round41Peace": {
+      "samples": 15,
+      "p50Ms": 236.59483700001147,
+      "p95Ms": 317.3453720000107
+    },
+    "round41Stress": {
+      "samples": 15,
+      "p50Ms": 134.03250099997967,
+      "p95Ms": 232.70265599992126
+    }
+  },
+  "selfPassingFinalists": 4,
+  "reliefPassingFinalists": 4,
+  "finalists": [
+    {
+      "id": "R41-R4-N018-P000",
+      "baseId": "R4-N018",
+      "policy": {
+        "hydrogenPrice": 0.4,
+        "triageEnabled": true,
+        "marketRelief": false,
+        "importRelief": false,
+        "enterMonths": 5.991029493940005,
+        "exitMultiple": 1.4272993779777607,
+        "graceMonths": 9,
+        "postGraceDamageScale": 1.2146345553610445,
+        "marketPremium": 1.624847331273486,
+        "marketFraction": 0.1994791991481179,
+        "donorReserveMonths": 9.852265976307535
+      },
+      "runs": 420,
+      "integrity": true,
+      "self": {
+        "runs": 210,
+        "integrity": true,
+        "passed": true,
+        "peacePassed": true,
+        "mediumRecoveryPassed": true,
+        "failures": {}
+      },
+      "relief": {
+        "runs": 210,
+        "integrity": true,
+        "passed": true,
+        "peacePassed": true,
+        "mediumRecoveryPassed": true,
+        "failures": {}
+      },
+      "failures": {},
+      "score": 0.0833333333333333,
+      "representativeRecoveries": 10,
+      "representativeRuns": 10
+    },
+    {
+      "id": "R41-R4-N055-P000",
+      "baseId": "R4-N055",
+      "policy": {
+        "hydrogenPrice": 0.4,
+        "triageEnabled": true,
+        "marketRelief": false,
+        "importRelief": false,
+        "enterMonths": 5.991029493940005,
+        "exitMultiple": 1.4272993779777607,
+        "graceMonths": 9,
+        "postGraceDamageScale": 1.2146345553610445,
+        "marketPremium": 1.624847331273486,
+        "marketFraction": 0.1994791991481179,
+        "donorReserveMonths": 9.852265976307535
+      },
+      "runs": 420,
+      "integrity": true,
+      "self": {
+        "runs": 210,
+        "integrity": true,
+        "passed": true,
+        "peacePassed": true,
+        "mediumRecoveryPassed": true,
+        "failures": {}
+      },
+      "relief": {
+        "runs": 210,
+        "integrity": true,
+        "passed": true,
+        "peacePassed": true,
+        "mediumRecoveryPassed": true,
+        "failures": {}
+      },
+      "failures": {},
+      "score": 0.0833333333333333,
+      "representativeRecoveries": 10,
+      "representativeRuns": 10
+    },
+    {
+      "id": "R41-R4-N066-P000",
+      "baseId": "R4-N066",
+      "policy": {
+        "hydrogenPrice": 0.4,
+        "triageEnabled": true,
+        "marketRelief": false,
+        "importRelief": false,
+        "enterMonths": 5.991029493940005,
+        "exitMultiple": 1.4272993779777607,
+        "graceMonths": 9,
+        "postGraceDamageScale": 1.2146345553610445,
+        "marketPremium": 1.624847331273486,
+        "marketFraction": 0.1994791991481179,
+        "donorReserveMonths": 9.852265976307535
+      },
+      "runs": 420,
+      "integrity": true,
+      "self": {
+        "runs": 210,
+        "integrity": true,
+        "passed": false,
+        "peacePassed": false,
+        "mediumRecoveryPassed": true,
+        "failures": {
+          "hydrogenMargin": 5
+        }
+      },
+      "relief": {
+        "runs": 210,
+        "integrity": true,
+        "passed": false,
+        "peacePassed": false,
+        "mediumRecoveryPassed": true,
+        "failures": {
+          "hydrogenMargin": 5
+        }
+      },
+      "failures": {
+        "hydrogenMargin": 10
+      },
+      "score": 0.0833333333333333,
+      "representativeRecoveries": 10,
+      "representativeRuns": 10
+    },
+    {
+      "id": "R41-R4-rounded-P000",
+      "baseId": "R4-rounded",
+      "policy": {
+        "hydrogenPrice": 0.4,
+        "triageEnabled": true,
+        "marketRelief": false,
+        "importRelief": false,
+        "enterMonths": 5.991029493940005,
+        "exitMultiple": 1.4272993779777607,
+        "graceMonths": 9,
+        "postGraceDamageScale": 1.2146345553610445,
+        "marketPremium": 1.624847331273486,
+        "marketFraction": 0.1994791991481179,
+        "donorReserveMonths": 9.852265976307535
+      },
+      "runs": 420,
+      "integrity": true,
+      "self": {
+        "runs": 210,
+        "integrity": true,
+        "passed": true,
+        "peacePassed": true,
+        "mediumRecoveryPassed": true,
+        "failures": {}
+      },
+      "relief": {
+        "runs": 210,
+        "integrity": true,
+        "passed": true,
+        "peacePassed": true,
+        "mediumRecoveryPassed": true,
+        "failures": {}
+      },
+      "failures": {},
+      "score": 0.0833333333333333,
+      "representativeRecoveries": 10,
+      "representativeRuns": 10
+    },
+    {
+      "id": "R41-rounded",
+      "baseId": "R4-rounded",
+      "policy": {
+        "hydrogenPrice": 0.4,
+        "triageEnabled": true,
+        "marketRelief": false,
+        "importRelief": false,
+        "enterMonths": 6,
+        "exitMultiple": 1.4,
+        "graceMonths": 9,
+        "postGraceDamageScale": 1.2,
+        "marketPremium": 1.6,
+        "marketFraction": 0.2,
+        "donorReserveMonths": 10
+      },
+      "runs": 420,
+      "integrity": true,
+      "self": {
+        "runs": 210,
+        "integrity": true,
+        "passed": true,
+        "peacePassed": true,
+        "mediumRecoveryPassed": true,
+        "failures": {}
+      },
+      "relief": {
+        "runs": 210,
+        "integrity": true,
+        "passed": true,
+        "peacePassed": true,
+        "mediumRecoveryPassed": true,
+        "failures": {}
+      },
+      "failures": {},
+      "score": 0.0833333333333333,
+      "representativeRecoveries": 10,
+      "representativeRuns": 10
+    }
+  ],
+  "correction": {
+    "scenario": "E11-M",
+    "reason": "medium comparison must use E5 baseline construction before applying its separate government-demolition event",
+    "runs": 50,
+    "unaffected": "all37 axes, all7 policy samples and all other41 scenario formulas unchanged"
+  }
+}

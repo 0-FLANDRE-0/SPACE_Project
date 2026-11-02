@@ -1,0 +1,6870 @@
+[
+  {
+    "arm": "matrix-R4-rounded-T0-off",
+    "scenario": "E5-M",
+    "seed": "econ-1",
+    "hash": "f1b141333ad8b8bd5f113aba26cab2f35a87b03d06cb0ba89e52f40e2790380f",
+    "market": [],
+    "imports": [],
+    "mode": [],
+    "grace": [],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 262503,
+        "privateAlloyQ": 501
+      },
+      "mars": {
+        "governmentAlloyQ": 84015,
+        "privateAlloyQ": 497
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T0-market",
+    "scenario": "E5-M",
+    "seed": "econ-1",
+    "hash": "f1b141333ad8b8bd5f113aba26cab2f35a87b03d06cb0ba89e52f40e2790380f",
+    "market": [],
+    "imports": [],
+    "mode": [],
+    "grace": [],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 262503,
+        "privateAlloyQ": 501
+      },
+      "mars": {
+        "governmentAlloyQ": 84015,
+        "privateAlloyQ": 497
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T0-import",
+    "scenario": "E5-M",
+    "seed": "econ-1",
+    "hash": "f1b141333ad8b8bd5f113aba26cab2f35a87b03d06cb0ba89e52f40e2790380f",
+    "market": [],
+    "imports": [],
+    "mode": [],
+    "grace": [],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 262503,
+        "privateAlloyQ": 501
+      },
+      "mars": {
+        "governmentAlloyQ": 84015,
+        "privateAlloyQ": 497
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T0-both",
+    "scenario": "E5-M",
+    "seed": "econ-1",
+    "hash": "f1b141333ad8b8bd5f113aba26cab2f35a87b03d06cb0ba89e52f40e2790380f",
+    "market": [],
+    "imports": [],
+    "mode": [],
+    "grace": [],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 262503,
+        "privateAlloyQ": 501
+      },
+      "mars": {
+        "governmentAlloyQ": 84015,
+        "privateAlloyQ": 497
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T1-off",
+    "scenario": "E5-M",
+    "seed": "econ-1",
+    "hash": "f1b141333ad8b8bd5f113aba26cab2f35a87b03d06cb0ba89e52f40e2790380f",
+    "market": [],
+    "imports": [],
+    "mode": [],
+    "grace": [],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 262503,
+        "privateAlloyQ": 501
+      },
+      "mars": {
+        "governmentAlloyQ": 84015,
+        "privateAlloyQ": 497
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T1-market",
+    "scenario": "E5-M",
+    "seed": "econ-1",
+    "hash": "f1b141333ad8b8bd5f113aba26cab2f35a87b03d06cb0ba89e52f40e2790380f",
+    "market": [],
+    "imports": [],
+    "mode": [],
+    "grace": [],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 262503,
+        "privateAlloyQ": 501
+      },
+      "mars": {
+        "governmentAlloyQ": 84015,
+        "privateAlloyQ": 497
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T1-import",
+    "scenario": "E5-M",
+    "seed": "econ-1",
+    "hash": "f1b141333ad8b8bd5f113aba26cab2f35a87b03d06cb0ba89e52f40e2790380f",
+    "market": [],
+    "imports": [],
+    "mode": [],
+    "grace": [],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 262503,
+        "privateAlloyQ": 501
+      },
+      "mars": {
+        "governmentAlloyQ": 84015,
+        "privateAlloyQ": 497
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T1-both",
+    "scenario": "E5-M",
+    "seed": "econ-1",
+    "hash": "f1b141333ad8b8bd5f113aba26cab2f35a87b03d06cb0ba89e52f40e2790380f",
+    "market": [],
+    "imports": [],
+    "mode": [],
+    "grace": [],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 262503,
+        "privateAlloyQ": 501
+      },
+      "mars": {
+        "governmentAlloyQ": 84015,
+        "privateAlloyQ": 497
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T0-off-extreme",
+    "scenario": "E5-X",
+    "seed": "econ-1",
+    "hash": "0de86fb302f9c4e859aa25d2d7954f34b0155da1bfc07380cf429912ea3542a6",
+    "market": [],
+    "imports": [],
+    "mode": [
+      {
+        "planet": "earth",
+        "month": 60,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 2011.538,
+        "needU": 464.713,
+        "enterU": 2784.1092892173415,
+        "exitU": 3973.757456722017,
+        "observedMonth": 60,
+        "changed": true,
+        "enteredMonth": 60
+      }
+    ],
+    "grace": [
+      {
+        "month": 62,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 63,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 64,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 65,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 66,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 67,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 68,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 69,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 70,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 71,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 72,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 73,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 74,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 75,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 76,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 77,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 78,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 79,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 80,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 81,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 82,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 83,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 84,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 85,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 86,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 87,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 88,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 89,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 90,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 91,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.02999999999999936,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      }
+    ],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 257715,
+        "privateAlloyQ": 0
+      },
+      "mars": {
+        "governmentAlloyQ": 83160,
+        "privateAlloyQ": 0
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T0-market-extreme",
+    "scenario": "E5-X",
+    "seed": "econ-1",
+    "hash": "78f35431ad78c27a9e84dfc90a6b6ea520dfa6a8c023077a2e94b07a2aeada33",
+    "market": [
+      {
+        "amountU": 308.202,
+        "cashC": 1148.417,
+        "month": 60,
+        "planet": "earth",
+        "privateBeforeQ": 1545034,
+        "capQ": 308202,
+        "referencePriceC": 2.14983040559626,
+        "priceIndex": 1.066712113572652,
+        "premium": 1.624847331273486,
+        "paidPriceC": 3.726181363058742
+      },
+      {
+        "amountU": 6.023,
+        "cashC": 49.446,
+        "month": 102,
+        "planet": "earth",
+        "privateBeforeQ": 30198,
+        "capQ": 6023,
+        "referencePriceC": 4.527156690051031,
+        "priceIndex": 1.1160413504092455,
+        "premium": 1.624847331273486,
+        "paidPriceC": 8.209531499218297
+      }
+    ],
+    "imports": [],
+    "mode": [
+      {
+        "planet": "earth",
+        "month": 60,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 2011.538,
+        "needU": 464.713,
+        "enterU": 2784.1092892173415,
+        "exitU": 3973.757456722017,
+        "observedMonth": 60,
+        "changed": true,
+        "enteredMonth": 60
+      }
+    ],
+    "grace": [
+      {
+        "month": 62,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.0007960799999999768,
+        "deferredQ": 0,
+        "shortU": 6.633999999999986,
+        "priority": 0
+      },
+      {
+        "month": 63,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 64,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 65,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 66,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 67,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 68,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 69,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 70,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 71,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 72,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 73,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 74,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 75,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 76,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 77,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 78,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 79,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 80,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 81,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 82,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 83,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 84,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 85,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 86,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 87,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 88,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 89,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 90,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 91,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 92,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.029203919999999384,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      }
+    ],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 257715,
+        "privateAlloyQ": 0
+      },
+      "mars": {
+        "governmentAlloyQ": 83160,
+        "privateAlloyQ": 0
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T0-import-extreme",
+    "scenario": "E5-X",
+    "seed": "econ-1",
+    "hash": "3e7fb0fa0c4a754f394a848b3d605bbc68f474f293c7e10535af42b4f213705f",
+    "market": [],
+    "imports": [
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "government"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 248679,
+        "marketPriceC": 3.2031636168638893,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 0,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "human-government",
+        "toEntity": "human-government",
+        "changedOwner": false,
+        "occupiedSCU": 995,
+        "requiredSCU": 994.716,
+        "containerCount": 33,
+        "alloyBondedQ": 14020,
+        "returnedQ": 12617,
+        "lostQ": 1403,
+        "servicesC": 18.68,
+        "packDirectC": 5.413030620324423,
+        "freightC": 13.26723191255986,
+        "goodsPaymentC": 0,
+        "energyGWh": 0.001592,
+        "sourceAfterQ": 0,
+        "sourcePlanetAfterQ": 645
+      },
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 324,
+        "marketPriceC": 3.2031636168638893,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 276,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "moon/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 2,
+        "requiredSCU": 1.296,
+        "containerCount": 1,
+        "alloyBondedQ": 45,
+        "returnedQ": 41,
+        "lostQ": 4,
+        "servicesC": 0.038,
+        "packDirectC": 0.010880463558441052,
+        "freightC": 0.0266678028393163,
+        "goodsPaymentC": 1.107,
+        "energyGWh": 0.0000032000000000000003,
+        "sourceAfterQ": 276,
+        "sourcePlanetAfterQ": 276
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "government"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 79550,
+        "marketPriceC": 2.85904961399786,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 0,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "human-government",
+        "toEntity": "human-government",
+        "changedOwner": false,
+        "occupiedSCU": 320,
+        "requiredSCU": 318.2,
+        "containerCount": 10,
+        "alloyBondedQ": 4500,
+        "returnedQ": 4050,
+        "lostQ": 450,
+        "servicesC": 6.008,
+        "packDirectC": 1.7408741693505683,
+        "freightC": 4.266848454290608,
+        "goodsPaymentC": 0,
+        "energyGWh": 0.000512,
+        "sourceAfterQ": 0,
+        "sourcePlanetAfterQ": 135
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 60,
+        "marketPriceC": 2.85904961399786,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 50,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "mars/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 1,
+        "requiredSCU": 0.24,
+        "containerCount": 1,
+        "alloyBondedQ": 25,
+        "returnedQ": 23,
+        "lostQ": 2,
+        "servicesC": 0.019,
+        "packDirectC": 0.005440231779220526,
+        "freightC": 0.01333390141965815,
+        "goodsPaymentC": 0.183,
+        "energyGWh": 0.0000016000000000000001,
+        "sourceAfterQ": 50,
+        "sourcePlanetAfterQ": 50
+      },
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 1125,
+        "marketPriceC": 3.2902148404334772,
+        "month": 61,
+        "emergency41": true,
+        "sourceReserveQ": 276,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "moon/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 5,
+        "requiredSCU": 4.5,
+        "containerCount": 2,
+        "alloyBondedQ": 110,
+        "returnedQ": 98,
+        "lostQ": 12,
+        "servicesC": 0.094,
+        "packDirectC": 0.0272304526835285,
+        "freightC": 0.06674130559688357,
+        "goodsPaymentC": 3.953,
+        "energyGWh": 0.000008,
+        "sourceAfterQ": 276,
+        "sourcePlanetAfterQ": 276
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 306,
+        "marketPriceC": 2.960205396795498,
+        "month": 61,
+        "emergency41": true,
+        "sourceReserveQ": 50,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "mars/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 2,
+        "requiredSCU": 1.224,
+        "containerCount": 1,
+        "alloyBondedQ": 45,
+        "returnedQ": 40,
+        "lostQ": 5,
+        "servicesC": 0.038,
+        "packDirectC": 0.0108921810734114,
+        "freightC": 0.02669652223875343,
+        "goodsPaymentC": 0.967,
+        "energyGWh": 0.0000032000000000000003,
+        "sourceAfterQ": 50,
+        "sourcePlanetAfterQ": 50
+      }
+    ],
+    "mode": [
+      {
+        "planet": "earth",
+        "month": 60,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 2011.538,
+        "needU": 464.713,
+        "enterU": 2784.1092892173415,
+        "exitU": 3973.757456722017,
+        "observedMonth": 60,
+        "changed": true,
+        "enteredMonth": 60
+      },
+      {
+        "planet": "moon",
+        "month": 62,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 0,
+        "needU": 0.028,
+        "enterU": 0.16774882583032014,
+        "exitU": 0.23942779476411566,
+        "observedMonth": 62,
+        "changed": true,
+        "enteredMonth": 62
+      },
+      {
+        "planet": "mars",
+        "month": 62,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 0,
+        "needU": 0.005,
+        "enterU": 0.029955147469700023,
+        "exitU": 0.042754963350734934,
+        "observedMonth": 62,
+        "changed": true,
+        "enteredMonth": 62
+      }
+    ],
+    "grace": [
+      {
+        "month": 62,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 62,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 63,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 63,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 63,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 64,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 64,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 64,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 65,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 65,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 65,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 66,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 66,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 66,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 67,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 67,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 67,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 68,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 68,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 68,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 69,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 69,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 69,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 70,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 70,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 70,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 71,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 71,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 71,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 72,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 72,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 72,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 73,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 73,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 73,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 74,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 74,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 74,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 75,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 75,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 75,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 76,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 76,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 76,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 77,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 77,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 77,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 78,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 78,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 78,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 79,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 79,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 79,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 80,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 80,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 80,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 81,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 81,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 81,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 82,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 82,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 82,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 83,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 83,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 83,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 84,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 84,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 84,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 85,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 85,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 85,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 86,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 86,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 86,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 87,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 87,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 87,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 88,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 88,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 88,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 89,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 89,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 89,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 90,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 90,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 90,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 91,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 91,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.02999999999999936,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 91,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.02999999999999936,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 92,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.02999999999999936,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      }
+    ],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 0,
+        "privateAlloyQ": 0
+      },
+      "mars": {
+        "governmentAlloyQ": 0,
+        "privateAlloyQ": 0
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T0-both-extreme",
+    "scenario": "E5-X",
+    "seed": "econ-1",
+    "hash": "4f7adc9414aab73c7deba325aafe21d4f3e4984dcc027202d5eac733c3578cda",
+    "market": [
+      {
+        "amountU": 308.202,
+        "cashC": 1148.417,
+        "month": 60,
+        "planet": "earth",
+        "privateBeforeQ": 1545034,
+        "capQ": 308202,
+        "referencePriceC": 2.14983040559626,
+        "priceIndex": 1.066712113572652,
+        "premium": 1.624847331273486,
+        "paidPriceC": 3.726181363058742
+      },
+      {
+        "amountU": 6.023,
+        "cashC": 49.446,
+        "month": 102,
+        "planet": "earth",
+        "privateBeforeQ": 30198,
+        "capQ": 6023,
+        "referencePriceC": 4.527156690051031,
+        "priceIndex": 1.1160413496742214,
+        "premium": 1.624847331273486,
+        "paidPriceC": 8.209531493811506
+      }
+    ],
+    "imports": [
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "government"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 248679,
+        "marketPriceC": 3.2031636168638893,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 0,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "human-government",
+        "toEntity": "human-government",
+        "changedOwner": false,
+        "occupiedSCU": 995,
+        "requiredSCU": 994.716,
+        "containerCount": 33,
+        "alloyBondedQ": 14020,
+        "returnedQ": 12617,
+        "lostQ": 1403,
+        "servicesC": 18.68,
+        "packDirectC": 5.413030620324423,
+        "freightC": 13.26723191255986,
+        "goodsPaymentC": 0,
+        "energyGWh": 0.001592,
+        "sourceAfterQ": 0,
+        "sourcePlanetAfterQ": 645
+      },
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 324,
+        "marketPriceC": 3.2031636168638893,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 276,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "moon/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 2,
+        "requiredSCU": 1.296,
+        "containerCount": 1,
+        "alloyBondedQ": 45,
+        "returnedQ": 41,
+        "lostQ": 4,
+        "servicesC": 0.038,
+        "packDirectC": 0.010880463558441052,
+        "freightC": 0.0266678028393163,
+        "goodsPaymentC": 1.107,
+        "energyGWh": 0.0000032000000000000003,
+        "sourceAfterQ": 276,
+        "sourcePlanetAfterQ": 276
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "government"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 79550,
+        "marketPriceC": 2.85904961399786,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 0,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "human-government",
+        "toEntity": "human-government",
+        "changedOwner": false,
+        "occupiedSCU": 320,
+        "requiredSCU": 318.2,
+        "containerCount": 10,
+        "alloyBondedQ": 4500,
+        "returnedQ": 4050,
+        "lostQ": 450,
+        "servicesC": 6.008,
+        "packDirectC": 1.7408741693505683,
+        "freightC": 4.266848454290608,
+        "goodsPaymentC": 0,
+        "energyGWh": 0.000512,
+        "sourceAfterQ": 0,
+        "sourcePlanetAfterQ": 135
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 60,
+        "marketPriceC": 2.85904961399786,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 50,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "mars/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 1,
+        "requiredSCU": 0.24,
+        "containerCount": 1,
+        "alloyBondedQ": 25,
+        "returnedQ": 23,
+        "lostQ": 2,
+        "servicesC": 0.019,
+        "packDirectC": 0.005440231779220526,
+        "freightC": 0.01333390141965815,
+        "goodsPaymentC": 0.183,
+        "energyGWh": 0.0000016000000000000001,
+        "sourceAfterQ": 50,
+        "sourcePlanetAfterQ": 50
+      },
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 1125,
+        "marketPriceC": 3.2902148404334772,
+        "month": 61,
+        "emergency41": true,
+        "sourceReserveQ": 276,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "moon/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 5,
+        "requiredSCU": 4.5,
+        "containerCount": 2,
+        "alloyBondedQ": 110,
+        "returnedQ": 98,
+        "lostQ": 12,
+        "servicesC": 0.094,
+        "packDirectC": 0.0272304526835285,
+        "freightC": 0.06674130559688357,
+        "goodsPaymentC": 3.953,
+        "energyGWh": 0.000008,
+        "sourceAfterQ": 276,
+        "sourcePlanetAfterQ": 276
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 306,
+        "marketPriceC": 2.960205396795498,
+        "month": 61,
+        "emergency41": true,
+        "sourceReserveQ": 50,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "mars/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 2,
+        "requiredSCU": 1.224,
+        "containerCount": 1,
+        "alloyBondedQ": 45,
+        "returnedQ": 40,
+        "lostQ": 5,
+        "servicesC": 0.038,
+        "packDirectC": 0.0108921810734114,
+        "freightC": 0.02669652223875343,
+        "goodsPaymentC": 0.967,
+        "energyGWh": 0.0000032000000000000003,
+        "sourceAfterQ": 50,
+        "sourcePlanetAfterQ": 50
+      }
+    ],
+    "mode": [
+      {
+        "planet": "earth",
+        "month": 60,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 2011.538,
+        "needU": 464.713,
+        "enterU": 2784.1092892173415,
+        "exitU": 3973.757456722017,
+        "observedMonth": 60,
+        "changed": true,
+        "enteredMonth": 60
+      },
+      {
+        "planet": "moon",
+        "month": 62,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 0,
+        "needU": 0.028,
+        "enterU": 0.16774882583032014,
+        "exitU": 0.23942779476411566,
+        "observedMonth": 62,
+        "changed": true,
+        "enteredMonth": 62
+      },
+      {
+        "planet": "mars",
+        "month": 62,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 0,
+        "needU": 0.005,
+        "enterU": 0.029955147469700023,
+        "exitU": 0.042754963350734934,
+        "observedMonth": 62,
+        "changed": true,
+        "enteredMonth": 62
+      }
+    ],
+    "grace": [
+      {
+        "month": 62,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 62,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 63,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.015241680000000035,
+        "deferredQ": 0,
+        "shortU": 127.014,
+        "priority": 0
+      },
+      {
+        "month": 63,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 63,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 64,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 64,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 64,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 65,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 65,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 65,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 66,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 66,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 66,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 67,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 67,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 67,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 68,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 68,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 68,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 69,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 69,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 69,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 70,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 70,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 70,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 71,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 71,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 71,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 72,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 72,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 72,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 73,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 73,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 73,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 74,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 74,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 74,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 75,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 75,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 75,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 76,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 76,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 76,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 77,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 77,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 77,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 78,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 78,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 78,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 79,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 79,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 79,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 80,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 80,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 80,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 81,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 81,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 81,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 82,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 82,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 82,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 83,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 83,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 83,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 84,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 84,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 84,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 85,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 85,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 85,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 86,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 86,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 86,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 87,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.030000000000000027,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 87,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 87,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 88,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 88,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 88,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 89,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 89,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 89,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 90,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 90,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 90,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 91,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 91,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.02999999999999936,
+        "deferredQ": 0,
+        "shortU": 0.028,
+        "priority": 0
+      },
+      {
+        "month": 91,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.02999999999999936,
+        "deferredQ": 0,
+        "shortU": 0.005,
+        "priority": 0
+      },
+      {
+        "month": 92,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      },
+      {
+        "month": 93,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.014758319999999325,
+        "deferredQ": 0,
+        "shortU": 250,
+        "priority": 0
+      }
+    ],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 0,
+        "privateAlloyQ": 0
+      },
+      "mars": {
+        "governmentAlloyQ": 0,
+        "privateAlloyQ": 0
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T1-off-extreme",
+    "scenario": "E5-X",
+    "seed": "econ-1",
+    "hash": "6874cf33d99b1bb32c7ce52283b659d4f1c4b68a88c3e29c2bfade912947d87b",
+    "market": [],
+    "imports": [],
+    "mode": [
+      {
+        "planet": "earth",
+        "month": 60,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 2011.538,
+        "needU": 464.713,
+        "enterU": 2784.1092892173415,
+        "exitU": 3973.757456722017,
+        "observedMonth": 60,
+        "changed": true,
+        "enteredMonth": 60
+      }
+    ],
+    "grace": [
+      {
+        "month": 61,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 64705,
+        "age": 1,
+        "shortU": 64.70500000000001,
+        "priority": 2
+      },
+      {
+        "month": 62,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 314705,
+        "age": 2,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 63,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 564705,
+        "age": 3,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 64,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 814705,
+        "age": 4,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 65,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1064705,
+        "age": 5,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 66,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1314705,
+        "age": 6,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 67,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1564705,
+        "age": 7,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 68,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1814705,
+        "age": 8,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 69,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 2064705,
+        "age": 9,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 70,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 10,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 71,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 11,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 72,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 12,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 73,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 13,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 74,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 14,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 75,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 15,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 76,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 16,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 77,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 17,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 78,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 18,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 79,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 19,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 80,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 20,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 81,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 21,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 82,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2064705,
+        "age": 22,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 83,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2064705,
+        "age": 23,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 84,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2064705,
+        "age": 24,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 85,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2064705,
+        "age": 25,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 86,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2064705,
+        "age": 26,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 87,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2064705,
+        "age": 27,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 88,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2064705,
+        "age": 28,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 89,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2064705,
+        "age": 29,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 90,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2064705,
+        "age": 30,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 91,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2064705,
+        "age": 31,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 92,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2064705,
+        "age": 32,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 93,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2064705,
+        "age": 33,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 94,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.025463120140047618,
+        "deferredQ": 2064705,
+        "age": 34,
+        "shortU": 250,
+        "priority": -1
+      }
+    ],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 257715,
+        "privateAlloyQ": 0
+      },
+      "mars": {
+        "governmentAlloyQ": 83160,
+        "privateAlloyQ": 0
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T1-market-extreme",
+    "scenario": "E5-X",
+    "seed": "econ-1",
+    "hash": "915b4a4c0bc092ffa9c9780e1c52e30e3d77261c1744c5f060bdfa5807d12ef6",
+    "market": [
+      {
+        "amountU": 308.202,
+        "cashC": 1148.417,
+        "month": 60,
+        "planet": "earth",
+        "privateBeforeQ": 1545034,
+        "capQ": 308202,
+        "referencePriceC": 2.14983040559626,
+        "priceIndex": 1.066712113572652,
+        "premium": 1.624847331273486,
+        "paidPriceC": 3.726181363058742
+      },
+      {
+        "amountU": 6.023,
+        "cashC": 49.446,
+        "month": 102,
+        "planet": "earth",
+        "privateBeforeQ": 30198,
+        "capQ": 6023,
+        "referencePriceC": 4.527156690051031,
+        "priceIndex": 1.1160413504092455,
+        "premium": 1.624847331273486,
+        "paidPriceC": 8.209531499218297
+      }
+    ],
+    "imports": [],
+    "mode": [
+      {
+        "planet": "earth",
+        "month": 60,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 2011.538,
+        "needU": 464.713,
+        "enterU": 2784.1092892173415,
+        "exitU": 3973.757456722017,
+        "observedMonth": 60,
+        "changed": true,
+        "enteredMonth": 60
+      }
+    ],
+    "grace": [
+      {
+        "month": 62,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 223796,
+        "age": 1,
+        "shortU": 223.796,
+        "priority": 2
+      },
+      {
+        "month": 63,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 473796,
+        "age": 2,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 64,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 723796,
+        "age": 3,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 65,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 973796,
+        "age": 4,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 66,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1223796,
+        "age": 5,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 67,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1473796,
+        "age": 6,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 68,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1723796,
+        "age": 7,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 69,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1973796,
+        "age": 8,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 70,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 2223796,
+        "age": 9,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 71,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 10,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 72,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 11,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 73,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 12,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 74,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 13,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 75,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 14,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 76,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 15,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 77,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 16,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 78,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 17,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 79,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 18,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 80,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 19,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 81,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 20,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 82,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 21,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 83,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2223796,
+        "age": 22,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 84,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2223796,
+        "age": 23,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 85,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2223796,
+        "age": 24,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 86,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2223796,
+        "age": 25,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 87,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2223796,
+        "age": 26,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 88,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2223796,
+        "age": 27,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 89,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2223796,
+        "age": 28,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 90,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2223796,
+        "age": 29,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 91,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2223796,
+        "age": 30,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 92,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2223796,
+        "age": 31,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 93,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2223796,
+        "age": 32,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 94,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2223796,
+        "age": 33,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 95,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.025463120140047618,
+        "deferredQ": 2223796,
+        "age": 34,
+        "shortU": 250,
+        "priority": -1
+      }
+    ],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 257715,
+        "privateAlloyQ": 0
+      },
+      "mars": {
+        "governmentAlloyQ": 83160,
+        "privateAlloyQ": 0
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T1-import-extreme",
+    "scenario": "E5-X",
+    "seed": "econ-1",
+    "hash": "397e5618c931bd1a04ea4deacdd9c88b49b5442d009714b509150ad789754e0d",
+    "market": [],
+    "imports": [
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "government"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 248679,
+        "marketPriceC": 3.2031636168638893,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 0,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "human-government",
+        "toEntity": "human-government",
+        "changedOwner": false,
+        "occupiedSCU": 995,
+        "requiredSCU": 994.716,
+        "containerCount": 33,
+        "alloyBondedQ": 14020,
+        "returnedQ": 12617,
+        "lostQ": 1403,
+        "servicesC": 18.68,
+        "packDirectC": 5.413030620324423,
+        "freightC": 13.26723191255986,
+        "goodsPaymentC": 0,
+        "energyGWh": 0.001592,
+        "sourceAfterQ": 0,
+        "sourcePlanetAfterQ": 645
+      },
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 324,
+        "marketPriceC": 3.2031636168638893,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 276,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "moon/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 2,
+        "requiredSCU": 1.296,
+        "containerCount": 1,
+        "alloyBondedQ": 45,
+        "returnedQ": 41,
+        "lostQ": 4,
+        "servicesC": 0.038,
+        "packDirectC": 0.010880463558441052,
+        "freightC": 0.0266678028393163,
+        "goodsPaymentC": 1.107,
+        "energyGWh": 0.0000032000000000000003,
+        "sourceAfterQ": 276,
+        "sourcePlanetAfterQ": 276
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "government"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 79550,
+        "marketPriceC": 2.85904961399786,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 0,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "human-government",
+        "toEntity": "human-government",
+        "changedOwner": false,
+        "occupiedSCU": 320,
+        "requiredSCU": 318.2,
+        "containerCount": 10,
+        "alloyBondedQ": 4500,
+        "returnedQ": 4050,
+        "lostQ": 450,
+        "servicesC": 6.008,
+        "packDirectC": 1.7408741693505683,
+        "freightC": 4.266848454290608,
+        "goodsPaymentC": 0,
+        "energyGWh": 0.000512,
+        "sourceAfterQ": 0,
+        "sourcePlanetAfterQ": 135
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 60,
+        "marketPriceC": 2.85904961399786,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 50,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "mars/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 1,
+        "requiredSCU": 0.24,
+        "containerCount": 1,
+        "alloyBondedQ": 25,
+        "returnedQ": 23,
+        "lostQ": 2,
+        "servicesC": 0.019,
+        "packDirectC": 0.005440231779220526,
+        "freightC": 0.01333390141965815,
+        "goodsPaymentC": 0.183,
+        "energyGWh": 0.0000016000000000000001,
+        "sourceAfterQ": 50,
+        "sourcePlanetAfterQ": 50
+      },
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 1125,
+        "marketPriceC": 3.2902148404334772,
+        "month": 61,
+        "emergency41": true,
+        "sourceReserveQ": 276,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "moon/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 5,
+        "requiredSCU": 4.5,
+        "containerCount": 2,
+        "alloyBondedQ": 110,
+        "returnedQ": 98,
+        "lostQ": 12,
+        "servicesC": 0.094,
+        "packDirectC": 0.0272304526835285,
+        "freightC": 0.06674130559688357,
+        "goodsPaymentC": 3.953,
+        "energyGWh": 0.000008,
+        "sourceAfterQ": 276,
+        "sourcePlanetAfterQ": 276
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 306,
+        "marketPriceC": 2.960205396795498,
+        "month": 61,
+        "emergency41": true,
+        "sourceReserveQ": 50,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "mars/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 2,
+        "requiredSCU": 1.224,
+        "containerCount": 1,
+        "alloyBondedQ": 45,
+        "returnedQ": 40,
+        "lostQ": 5,
+        "servicesC": 0.038,
+        "packDirectC": 0.0108921810734114,
+        "freightC": 0.02669652223875343,
+        "goodsPaymentC": 0.967,
+        "energyGWh": 0.0000032000000000000003,
+        "sourceAfterQ": 50,
+        "sourcePlanetAfterQ": 50
+      }
+    ],
+    "mode": [
+      {
+        "planet": "earth",
+        "month": 60,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 2011.538,
+        "needU": 464.713,
+        "enterU": 2784.1092892173415,
+        "exitU": 3973.757456722017,
+        "observedMonth": 60,
+        "changed": true,
+        "enteredMonth": 60
+      },
+      {
+        "planet": "moon",
+        "month": 62,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 0,
+        "needU": 0.028,
+        "enterU": 0.16774882583032014,
+        "exitU": 0.23942779476411566,
+        "observedMonth": 62,
+        "changed": true,
+        "enteredMonth": 62
+      },
+      {
+        "planet": "mars",
+        "month": 62,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 0,
+        "needU": 0.005,
+        "enterU": 0.029955147469700023,
+        "exitU": 0.042754963350734934,
+        "observedMonth": 62,
+        "changed": true,
+        "enteredMonth": 62
+      }
+    ],
+    "grace": [
+      {
+        "month": 62,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 185085,
+        "age": 1,
+        "shortU": 185.08499999999998,
+        "priority": 2
+      },
+      {
+        "month": 62,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 28,
+        "age": 1,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 62,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 5,
+        "age": 1,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 63,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 435085,
+        "age": 2,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 63,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 56,
+        "age": 2,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 63,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 10,
+        "age": 2,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 64,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 685085,
+        "age": 3,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 64,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 84,
+        "age": 3,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 64,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 15,
+        "age": 3,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 65,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 935085,
+        "age": 4,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 65,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 112,
+        "age": 4,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 65,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 20,
+        "age": 4,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 66,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1185085,
+        "age": 5,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 66,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 140,
+        "age": 5,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 66,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 25,
+        "age": 5,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 67,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1435085,
+        "age": 6,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 67,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 168,
+        "age": 6,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 67,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 30,
+        "age": 6,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 68,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1685085,
+        "age": 7,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 68,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 196,
+        "age": 7,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 68,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 35,
+        "age": 7,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 69,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1935085,
+        "age": 8,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 69,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 224,
+        "age": 8,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 69,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 40,
+        "age": 8,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 70,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 2185085,
+        "age": 9,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 70,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 252,
+        "age": 9,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 70,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 45,
+        "age": 9,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 71,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 10,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 71,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 10,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 71,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 10,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 72,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 11,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 72,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 11,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 72,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 11,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 73,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 12,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 73,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 12,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 73,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 12,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 74,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 13,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 74,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 13,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 74,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 13,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 75,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 14,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 75,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 14,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 75,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 14,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 76,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 15,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 76,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 15,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 76,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 15,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 77,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 16,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 77,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 16,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 77,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 16,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 78,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 17,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 78,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 17,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 78,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 17,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 79,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 18,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 79,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 18,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 79,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 18,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 80,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 19,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 80,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 19,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 80,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 19,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 81,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 20,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 81,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 20,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 81,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 20,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 82,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 21,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 82,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 21,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 82,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 21,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 83,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2185085,
+        "age": 22,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 83,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 22,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 83,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 22,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 84,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2185085,
+        "age": 23,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 84,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 23,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 84,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 23,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 85,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2185085,
+        "age": 24,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 85,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 24,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 85,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 24,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 86,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2185085,
+        "age": 25,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 86,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 25,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 86,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 25,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 87,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2185085,
+        "age": 26,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 87,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 26,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 87,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 26,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 88,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2185085,
+        "age": 27,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 88,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 27,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 88,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 27,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 89,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2185085,
+        "age": 28,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 89,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 28,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 89,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 28,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 90,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2185085,
+        "age": 29,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 90,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 29,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 90,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 29,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 91,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2185085,
+        "age": 30,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 91,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 252,
+        "age": 30,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 91,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 45,
+        "age": 30,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 92,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2185085,
+        "age": 31,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 92,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 252,
+        "age": 31,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 92,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 45,
+        "age": 31,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 93,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2185085,
+        "age": 32,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 93,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 252,
+        "age": 32,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 93,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 45,
+        "age": 32,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 94,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2185085,
+        "age": 33,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 94,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 252,
+        "age": 33,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 94,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 45,
+        "age": 33,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 95,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.025463120140047618,
+        "deferredQ": 2185085,
+        "age": 34,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 95,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.025463120140047618,
+        "deferredQ": 252,
+        "age": 34,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 95,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.025463120140047618,
+        "deferredQ": 45,
+        "age": 34,
+        "shortU": 0.005,
+        "priority": -1
+      }
+    ],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 0,
+        "privateAlloyQ": 0
+      },
+      "mars": {
+        "governmentAlloyQ": 0,
+        "privateAlloyQ": 0
+      }
+    }
+  },
+  {
+    "arm": "matrix-R4-rounded-T1-both-extreme",
+    "scenario": "E5-X",
+    "seed": "econ-1",
+    "hash": "e96a00ad69fd3f5e94384c493306681506073c86349e55bfc1a5f9e47d173487",
+    "market": [
+      {
+        "amountU": 308.202,
+        "cashC": 1148.417,
+        "month": 60,
+        "planet": "earth",
+        "privateBeforeQ": 1545034,
+        "capQ": 308202,
+        "referencePriceC": 2.14983040559626,
+        "priceIndex": 1.066712113572652,
+        "premium": 1.624847331273486,
+        "paidPriceC": 3.726181363058742
+      },
+      {
+        "amountU": 6.023,
+        "cashC": 49.446,
+        "month": 102,
+        "planet": "earth",
+        "privateBeforeQ": 30198,
+        "capQ": 6023,
+        "referencePriceC": 4.527156690051031,
+        "priceIndex": 1.1160413496742214,
+        "premium": 1.624847331273486,
+        "paidPriceC": 8.209531493811506
+      }
+    ],
+    "imports": [
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "government"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 248679,
+        "marketPriceC": 3.2031636168638893,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 0,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "human-government",
+        "toEntity": "human-government",
+        "changedOwner": false,
+        "occupiedSCU": 995,
+        "requiredSCU": 994.716,
+        "containerCount": 33,
+        "alloyBondedQ": 14020,
+        "returnedQ": 12617,
+        "lostQ": 1403,
+        "servicesC": 18.68,
+        "packDirectC": 5.413030620324423,
+        "freightC": 13.26723191255986,
+        "goodsPaymentC": 0,
+        "energyGWh": 0.001592,
+        "sourceAfterQ": 0,
+        "sourcePlanetAfterQ": 645
+      },
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 324,
+        "marketPriceC": 3.2031636168638893,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 276,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "moon/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 2,
+        "requiredSCU": 1.296,
+        "containerCount": 1,
+        "alloyBondedQ": 45,
+        "returnedQ": 41,
+        "lostQ": 4,
+        "servicesC": 0.038,
+        "packDirectC": 0.010880463558441052,
+        "freightC": 0.0266678028393163,
+        "goodsPaymentC": 1.107,
+        "energyGWh": 0.0000032000000000000003,
+        "sourceAfterQ": 276,
+        "sourcePlanetAfterQ": 276
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "government"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 79550,
+        "marketPriceC": 2.85904961399786,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 0,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "human-government",
+        "toEntity": "human-government",
+        "changedOwner": false,
+        "occupiedSCU": 320,
+        "requiredSCU": 318.2,
+        "containerCount": 10,
+        "alloyBondedQ": 4500,
+        "returnedQ": 4050,
+        "lostQ": 450,
+        "servicesC": 6.008,
+        "packDirectC": 1.7408741693505683,
+        "freightC": 4.266848454290608,
+        "goodsPaymentC": 0,
+        "energyGWh": 0.000512,
+        "sourceAfterQ": 0,
+        "sourcePlanetAfterQ": 135
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 60,
+        "marketPriceC": 2.85904961399786,
+        "month": 60,
+        "emergency41": true,
+        "sourceReserveQ": 50,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "mars/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 1,
+        "requiredSCU": 0.24,
+        "containerCount": 1,
+        "alloyBondedQ": 25,
+        "returnedQ": 23,
+        "lostQ": 2,
+        "servicesC": 0.019,
+        "packDirectC": 0.005440231779220526,
+        "freightC": 0.01333390141965815,
+        "goodsPaymentC": 0.183,
+        "energyGWh": 0.0000016000000000000001,
+        "sourceAfterQ": 50,
+        "sourcePlanetAfterQ": 50
+      },
+      {
+        "from": {
+          "planet": "moon",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 1125,
+        "marketPriceC": 3.2902148404334772,
+        "month": 61,
+        "emergency41": true,
+        "sourceReserveQ": 276,
+        "sourcePlanetReserveQ": 276,
+        "fromEntity": "moon/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 5,
+        "requiredSCU": 4.5,
+        "containerCount": 2,
+        "alloyBondedQ": 110,
+        "returnedQ": 98,
+        "lostQ": 12,
+        "servicesC": 0.094,
+        "packDirectC": 0.0272304526835285,
+        "freightC": 0.06674130559688357,
+        "goodsPaymentC": 3.953,
+        "energyGWh": 0.000008,
+        "sourceAfterQ": 276,
+        "sourcePlanetAfterQ": 276
+      },
+      {
+        "from": {
+          "planet": "mars",
+          "owner": "private"
+        },
+        "to": {
+          "planet": "earth",
+          "owner": "government"
+        },
+        "resourceId": "alloy",
+        "amountQ": 306,
+        "marketPriceC": 2.960205396795498,
+        "month": 61,
+        "emergency41": true,
+        "sourceReserveQ": 50,
+        "sourcePlanetReserveQ": 50,
+        "fromEntity": "mars/private-sector",
+        "toEntity": "human-government",
+        "changedOwner": true,
+        "occupiedSCU": 2,
+        "requiredSCU": 1.224,
+        "containerCount": 1,
+        "alloyBondedQ": 45,
+        "returnedQ": 40,
+        "lostQ": 5,
+        "servicesC": 0.038,
+        "packDirectC": 0.0108921810734114,
+        "freightC": 0.02669652223875343,
+        "goodsPaymentC": 0.967,
+        "energyGWh": 0.0000032000000000000003,
+        "sourceAfterQ": 50,
+        "sourcePlanetAfterQ": 50
+      }
+    ],
+    "mode": [
+      {
+        "planet": "earth",
+        "month": 60,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 2011.538,
+        "needU": 464.713,
+        "enterU": 2784.1092892173415,
+        "exitU": 3973.757456722017,
+        "observedMonth": 60,
+        "changed": true,
+        "enteredMonth": 60
+      },
+      {
+        "planet": "moon",
+        "month": 62,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 0,
+        "needU": 0.028,
+        "enterU": 0.16774882583032014,
+        "exitU": 0.23942779476411566,
+        "observedMonth": 62,
+        "changed": true,
+        "enteredMonth": 62
+      },
+      {
+        "planet": "mars",
+        "month": 62,
+        "active": true,
+        "entries": 1,
+        "exits": 0,
+        "freeU": 0,
+        "needU": 0.005,
+        "enterU": 0.029955147469700023,
+        "exitU": 0.042754963350734934,
+        "observedMonth": 62,
+        "changed": true,
+        "enteredMonth": 62
+      }
+    ],
+    "grace": [
+      {
+        "month": 62,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 28,
+        "age": 1,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 62,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 5,
+        "age": 1,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 63,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 250000,
+        "age": 1,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 63,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 56,
+        "age": 2,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 63,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 10,
+        "age": 2,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 64,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 500000,
+        "age": 2,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 64,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 84,
+        "age": 3,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 64,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 15,
+        "age": 3,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 65,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 750000,
+        "age": 3,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 65,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 112,
+        "age": 4,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 65,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 20,
+        "age": 4,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 66,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1000000,
+        "age": 4,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 66,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 140,
+        "age": 5,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 66,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 25,
+        "age": 5,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 67,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1250000,
+        "age": 5,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 67,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 168,
+        "age": 6,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 67,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 30,
+        "age": 6,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 68,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1500000,
+        "age": 6,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 68,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 196,
+        "age": 7,
+        "shortU": 0.028,
+        "priority": 2
+      },
+      {
+        "month": 68,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 35,
+        "age": 7,
+        "shortU": 0.005,
+        "priority": 2
+      },
+      {
+        "month": 69,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 1750000,
+        "age": 7,
+        "shortU": 250,
+        "priority": 2
+      },
+      {
+        "month": 69,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 224,
+        "age": 8,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 69,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 40,
+        "age": 8,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 70,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 2000000,
+        "age": 8,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 70,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 252,
+        "age": 9,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 70,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 45,
+        "age": 9,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 71,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": true,
+        "healthLost": 0,
+        "deferredQ": 2250000,
+        "age": 9,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 71,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 10,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 71,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 10,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 72,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 10,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 72,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 11,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 72,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 11,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 73,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 11,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 73,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 12,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 73,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 12,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 74,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 12,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 74,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 13,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 74,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 13,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 75,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 13,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 75,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 14,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 75,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 14,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 76,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 14,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 76,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 15,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 76,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 15,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 77,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 15,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 77,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 16,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 77,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 16,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 78,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 16,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 78,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 17,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 78,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 17,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 79,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 17,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 79,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 18,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 79,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 18,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 80,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 18,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 80,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 19,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 80,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 19,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 81,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 19,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 81,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 20,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 81,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 20,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 82,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 20,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 82,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 21,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 82,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 21,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 83,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 21,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 83,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 252,
+        "age": 22,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 83,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 45,
+        "age": 22,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 84,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083137,
+        "deferredQ": 2250000,
+        "age": 22,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 84,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 23,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 84,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 23,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 85,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2250000,
+        "age": 23,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 85,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 24,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 85,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 24,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 86,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2250000,
+        "age": 24,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 86,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 25,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 86,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 25,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 87,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2250000,
+        "age": 25,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 87,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 26,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 87,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 26,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 88,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2250000,
+        "age": 26,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 88,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 27,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 88,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 27,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 89,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2250000,
+        "age": 27,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 89,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 28,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 89,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 28,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 90,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2250000,
+        "age": 28,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 90,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 252,
+        "age": 29,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 90,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 45,
+        "age": 29,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 91,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.036439036660831314,
+        "deferredQ": 2250000,
+        "age": 29,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 91,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 252,
+        "age": 30,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 91,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 45,
+        "age": 30,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 92,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2250000,
+        "age": 30,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 92,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 252,
+        "age": 31,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 92,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 45,
+        "age": 31,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 93,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2250000,
+        "age": 31,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 93,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 252,
+        "age": 32,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 93,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 45,
+        "age": 32,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 94,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2250000,
+        "age": 32,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 94,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 252,
+        "age": 33,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 94,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 45,
+        "age": 33,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 95,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.03643903666083134,
+        "deferredQ": 2250000,
+        "age": 33,
+        "shortU": 250,
+        "priority": -1
+      },
+      {
+        "month": 95,
+        "planet": "moon",
+        "asset": "moon-0",
+        "usedGrace": false,
+        "healthLost": 0.025463120140047618,
+        "deferredQ": 252,
+        "age": 34,
+        "shortU": 0.028,
+        "priority": -1
+      },
+      {
+        "month": 95,
+        "planet": "mars",
+        "asset": "mars-0",
+        "usedGrace": false,
+        "healthLost": 0.025463120140047618,
+        "deferredQ": 45,
+        "age": 34,
+        "shortU": 0.005,
+        "priority": -1
+      },
+      {
+        "month": 96,
+        "planet": "earth",
+        "asset": "earth-2",
+        "usedGrace": false,
+        "healthLost": 0.025463120140047618,
+        "deferredQ": 2250000,
+        "age": 34,
+        "shortU": 250,
+        "priority": -1
+      }
+    ],
+    "sourceStocks20": {
+      "moon": {
+        "governmentAlloyQ": 0,
+        "privateAlloyQ": 0
+      },
+      "mars": {
+        "governmentAlloyQ": 0,
+        "privateAlloyQ": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,39 @@
+✔ 4.1 OFF reproduces all four frozen R4 candidates (1529.196397ms)
+✔ separate ON adapter without policy/price changes reproduces R4 settlement (2623.726366ms)
+✔ same inputs produce deterministic 4.1 rows and frozen37 axes (617.811339ms)
+✔ new controls and hypothesis ranges reject NaN, invalid enums and missing fields (0.631675ms)
+✔ strict entry and inclusive higher exit boundaries preserve hysteresis (0.223788ms)
+✔ inventory bouncing around entry does not toggle an active mode (0.210679ms)
+✔ normal/shortage priority changes only with mode and explicit control (0.793298ms)
+✔ life support is first before the last grace month and remains first overdue (0.167073ms)
+✔ life grace 6 months preserves health with exact payable debt then degrades (0.244179ms)
+✔ life grace 9 months preserves health with exact payable debt then degrades (0.173151ms)
+✔ life grace 12 months preserves health with exact payable debt then degrades (0.161714ms)
+✔ grace re-entry cannot reset an unpaid clock or erase the debt (0.240173ms)
+✔ current maintenance payment alone does not forgive grace arrears (0.161153ms)
+✔ post-grace damage scale changes actual damage and ordinary mode has no grace (0.141684ms)
+✔ emergency purchase pays premium once, debits actual stock and obeys per-month cap (0.422909ms)
+✔ no seller stock, no cash or no shortage means no free emergency supply (0.254875ms)
+✔ procurement target includes private industrial upkeep rather than only government assets (0.176016ms)
+✔ donor reserve covers own months and actual package material in addition to contents (7.796291ms)
+✔ donor planet reserve protects private essential facilities when government exports (4.270864ms)
+✔ export fails atomically without real packaging power and records paired owner payment (1.397261ms)
+✔ all18 E5-M grid cells are distinct and representative is a separate19th cell (0.262226ms)
+✔ E5-M actual physical loss uses declared50/60/70 percent and stops6/9/12 months (160.930903ms)
+✔ new classification applies20/8 percent and keeps inflation/budget checks (0.47655ms)
+✔ war recovery and E2/E5-X info do not re-enter pass criteria; E2-S still required (0.280374ms)
+✔ first post-shock recovery does not count the last forced production month (0.417401ms)
+✔ reference and actual market H margins are reported separately at.4 (480.788342ms)
+✔ baseline private salvage0 trace is reproduced without changing privateAction (72.027421ms)
+✔ debt tampering and invalid import reserve proof are detected (0.62919ms)
+✔ repaying life grace debt in settlement consumes real alloy and repair labour C (0.601649ms)
+✔ unfunded emergency offers are cancelled once imports are disabled (1.204ms)
+✔ all42 scenarios preserve R4 invariants and new debt/relief invariants (13081.779592ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18770.29304
