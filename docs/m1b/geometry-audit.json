@@ -1,0 +1,225 @@
+{
+  "grids": [
+    {
+      "bodyId": "mercury",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "2a2ce2be"
+    },
+    {
+      "bodyId": "venus",
+      "frequency": 3,
+      "verticesPerLayer": 180,
+      "totalVertices": 540,
+      "gridFingerprint": "0b932045"
+    },
+    {
+      "bodyId": "earth",
+      "frequency": 3,
+      "verticesPerLayer": 180,
+      "totalVertices": 540,
+      "gridFingerprint": "7d4c00a6"
+    },
+    {
+      "bodyId": "mars",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "3bbb92d2"
+    },
+    {
+      "bodyId": "jupiter",
+      "frequency": 8,
+      "verticesPerLayer": 1280,
+      "totalVertices": 3840,
+      "gridFingerprint": "1e6e4428"
+    },
+    {
+      "bodyId": "saturn",
+      "frequency": 7,
+      "verticesPerLayer": 980,
+      "totalVertices": 2940,
+      "gridFingerprint": "1e5bb3e4"
+    },
+    {
+      "bodyId": "uranus",
+      "frequency": 5,
+      "verticesPerLayer": 500,
+      "totalVertices": 1500,
+      "gridFingerprint": "5e8e78cf"
+    },
+    {
+      "bodyId": "neptune",
+      "frequency": 5,
+      "verticesPerLayer": 500,
+      "totalVertices": 1500,
+      "gridFingerprint": "95c3dacc"
+    },
+    {
+      "bodyId": "moon",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "ed718a1e"
+    },
+    {
+      "bodyId": "phobos",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "d0969f84"
+    },
+    {
+      "bodyId": "deimos",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "2c26c450"
+    },
+    {
+      "bodyId": "io",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "6c730ead"
+    },
+    {
+      "bodyId": "europa",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "5286b61f"
+    },
+    {
+      "bodyId": "ganymede",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "90f5ac09"
+    },
+    {
+      "bodyId": "callisto",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "8a1149de"
+    },
+    {
+      "bodyId": "titan",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "f91617cb"
+    },
+    {
+      "bodyId": "enceladus",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "a50de54d"
+    },
+    {
+      "bodyId": "titania",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "c27cfbbd"
+    },
+    {
+      "bodyId": "triton",
+      "frequency": 2,
+      "verticesPerLayer": 80,
+      "totalVertices": 240,
+      "gridFingerprint": "86458cd7"
+    }
+  ],
+  "lagrangePoints": 95,
+  "offsets": [
+    {
+      "bodyId": "mercury",
+      "distanceGameAU": 5.451428571428572
+    },
+    {
+      "bodyId": "venus",
+      "distanceGameAU": 9.085714285714287
+    },
+    {
+      "bodyId": "earth",
+      "distanceGameAU": 12.22
+    },
+    {
+      "bodyId": "mars",
+      "distanceGameAU": 12.35
+    },
+    {
+      "bodyId": "jupiter",
+      "distanceGameAU": 50.7
+    },
+    {
+      "bodyId": "saturn",
+      "distanceGameAU": 76.7
+    },
+    {
+      "bodyId": "uranus",
+      "distanceGameAU": 27.3
+    },
+    {
+      "bodyId": "neptune",
+      "distanceGameAU": 27.3
+    },
+    {
+      "bodyId": "moon",
+      "distanceGameAU": 0.9400000000000001
+    },
+    {
+      "bodyId": "phobos",
+      "distanceGameAU": 0.7000000000000001
+    },
+    {
+      "bodyId": "deimos",
+      "distanceGameAU": 0.9500000000000001
+    },
+    {
+      "bodyId": "io",
+      "distanceGameAU": 1.35
+    },
+    {
+      "bodyId": "europa",
+      "distanceGameAU": 1.35
+    },
+    {
+      "bodyId": "ganymede",
+      "distanceGameAU": 1.35
+    },
+    {
+      "bodyId": "callisto",
+      "distanceGameAU": 1.35
+    },
+    {
+      "bodyId": "titan",
+      "distanceGameAU": 2.025
+    },
+    {
+      "bodyId": "enceladus",
+      "distanceGameAU": 2.025
+    },
+    {
+      "bodyId": "titania",
+      "distanceGameAU": 2.1
+    },
+    {
+      "bodyId": "triton",
+      "distanceGameAU": 2.1
+    }
+  ],
+  "epochs": [
+    0,
+    30,
+    100,
+    365,
+    1000
+  ],
+  "checkedPositions": 475,
+  "adjustments": []
+}

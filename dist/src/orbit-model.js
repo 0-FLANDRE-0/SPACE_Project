@@ -1,0 +1,46 @@
+import {createPlanetarySurfaceGrid} from './planetary-surface-grid.js';
+import {bodyRadiusGameAU} from './game-space.js';
+import {M1A_TUNING as T,validateDrive,chargeMassFactor} from './ship-data.js';
+import {M1B_TUNING as B} from './orbit-data.js';
+import {add,sub,mul,dot,unit,angle,distance,segmentDistance,lerp} from './ship-math.js';
+const graphs=new WeakMap();
+export function bodyVectorToGame(context,bodyId,p,seconds){const f=context.frameAt(context.bodyById.get(bodyId),seconds/86400),c=Math.cos(B.pointRotation==='surface-spin'?f.spin:0),s=Math.sin(B.pointRotation==='surface-spin'?f.spin:0),x=p.x*c+p.z*s,z=-p.x*s+p.z*c;return add(add(mul(f.x,x),mul(f.pole,p.y)),mul(f.z,z));}
+export function gameVectorToBody(context,bodyId,p,seconds){const f=context.frameAt(context.bodyById.get(bodyId),seconds/86400),x=dot(p,f.x),y=dot(p,f.pole),z=dot(p,f.z),c=Math.cos(B.pointRotation==='surface-spin'?f.spin:0),s=Math.sin(B.pointRotation==='surface-spin'?f.spin:0);return{x:x*c-z*s,y,z:x*s+z*c};}
+export function orbitPosition(context,node,seconds){return add(context.gamePosition(node.bodyId,seconds/86400),bodyVectorToGame(context,node.bodyId,node.offset,seconds));}
+export const localObstructionRadius=body=>bodyRadiusGameAU(body)*B.localObstacleMultiplier;
+export function orbitGraph(context,bodyId){
+  if(!graphs.has(context))graphs.set(context,new Map());const cache=graphs.get(context);if(cache.has(bodyId))return cache.get(bodyId);
+  const body=context.bodyById.get(bodyId),grid=createPlanetarySurfaceGrid(context.systemId,body),count=grid.vertices.length,nodes=[],byId=new Map(),adjacency=[];
+  for(const [layer,factor]of Object.entries(T.orbitRadiusMultipliers))for(let v=0;v<count;v++){const offset=mul(grid.vertices[v],bodyRadiusGameAU(body)*factor),node={kind:'orbit',id:`${bodyId}:${layer}:v${v}`,bodyId,layer,vertexIndex:v,offset,name:`${body.name} ${ {low:'저',middle:'중',high:'고'}[layer]}궤도 ${v+1}`};byId.set(node.id,nodes.length);nodes.push(node);adjacency.push(new Set());}
+  const connect=(a,b)=>{if(segmentDistance(nodes[a].offset,nodes[b].offset,{x:0,y:0,z:0})<=localObstructionRadius(body))return;adjacency[a].add(b);adjacency[b].add(a);};
+  for(let layer=0;layer<3;layer++){for(const tile of grid.tiles)for(let j=0;j<tile.vertexIndices.length;j++)connect(layer*count+tile.vertexIndices[j],layer*count+tile.vertexIndices[(j+1)%tile.vertexIndices.length]);if(layer<2)for(let v=0;v<count;v++)connect(layer*count+v,(layer+1)*count+v);}
+  const result={body,grid,count,nodes,byId,adjacency:adjacency.map(s=>[...s].sort((a,b)=>a-b))};cache.set(bodyId,result);return result;
+}
+// Subdivide displayed shell arcs like the existing surface renderer; navigation
+// still uses validated straight graph edges and the original vertex set.
+export function orbitLinePositions(graph,factor){const positions=[];for(const tile of graph.grid.tiles)for(let i=0;i<tile.vertexIndices.length;i++){const a=tile.vertexIndices[i],b=tile.vertexIndices[(i+1)%tile.vertexIndices.length];if(a>b)continue;for(let step=0;step<B.lineEdgeSubdivisions;step++)for(const fraction of [step/B.lineEdgeSubdivisions,(step+1)/B.lineEdgeSubdivisions]){const p=mul(unit(lerp(graph.grid.vertices[a],graph.grid.vertices[b],fraction)),factor);positions.push(p.x,p.y,p.z);}}return positions;}
+export function chooseLocalMethod(lengthGameAU,turnSeconds,design){const drive=validateDrive(design),propulsion=turnSeconds+lengthGameAU/(T.propulsionGameAUPerMinute/60),driving=turnSeconds+drive.chargeSeconds*chargeMassFactor(design)+lengthGameAU/(drive.speedGameAUPerHour/3600);return driving<propulsion-B.graphCostToleranceSeconds?{method:'drive',duration:driving,chargeSeconds:drive.chargeSeconds*chargeMassFactor(design)}:{method:'propulsion',duration:propulsion,chargeSeconds:0};}
+function edge(design,from,to,heading){const nextHeading=distance(from,to)<1e-9?heading:unit(sub(to,from)),turn=distance(from,to)<1e-9?0:angle(heading,nextHeading)/(design.turnDegreesPerSecond*Math.PI/180),choice=chooseLocalMethod(distance(from,to),turn,design);return{...choice,turn,heading:nextHeading};}
+function edgeStages(bodyId,from,to,heading,time,design){const e=edge(design,from,to,heading),base={frameId:bodyId,bodyFixed:true,localHeading:true},stages=[{...base,kind:'turning',start:time,end:time+e.turn,from,to:from,fromHeading:heading,heading:e.heading}];if(e.chargeSeconds)stages.push({...base,kind:'charging',start:time+e.turn,end:time+e.turn+e.chargeSeconds,from,to:from,heading:e.heading});stages.push({...base,kind:e.method==='drive'?'cruising':'propulsion',start:time+e.turn+e.chargeSeconds,end:time+e.duration,from,to,heading:e.heading});return{stages,heading:e.heading,end:time+e.duration,method:e.method};}
+class Heap{items=[];push(x){let i=this.items.push(x)-1;while(i){const p=(i-1)>>1;if(this.items[p].time<=x.time)break;this.items[i]=this.items[p];i=p;}this.items[i]=x;}pop(){const top=this.items[0],last=this.items.pop();if(this.items.length){let i=0;while(i*2+1<this.items.length){let j=i*2+1;if(j+1<this.items.length&&this.items[j+1].time<this.items[j].time)j++;if(this.items[j].time>=last.time)break;this.items[i]=this.items[j];i=j;}this.items[i]=last;}return top;}}
+// Heading is part of the label: arriving via a different edge changes next-turn cost.
+export function searchOrbit(context,pose,body,design,{goal=null,departure=null}={}){
+  const graph=orbitGraph(context,body.id),startOffset=gameVectorToBody(context,body.id,sub(pose.position,context.gamePosition(body.id,pose.time/86400)),pose.time),startHeading=gameVectorToBody(context,body.id,pose.heading,pose.time),nodes=[...graph.nodes],adjacency=graph.adjacency.map(a=>[...a]);
+  const safe=(a,b)=>segmentDistance(a,b,{x:0,y:0,z:0})>localObstructionRadius(body)+1e-9;
+  const nearest=p=>[0,1,2].flatMap(layer=>graph.nodes.map((n,i)=>({i,d:distance(n.offset,p)})).filter(x=>Math.floor(x.i/graph.count)===layer).sort((a,b)=>a.d-b.d||a.i-b.i).slice(0,B.entryNeighbors).map(x=>x.i));
+  let goalIndex=goal?.id?graph.byId.get(goal.id):undefined;
+  if(goal&&goalIndex===undefined){goalIndex=nodes.length;nodes.push({offset:goal.offset,id:'goal',bodyId:body.id});adjacency.push([]);for(const i of nearest(goal.offset))if(safe(nodes[i].offset,goal.offset)){adjacency[i].push(goalIndex);adjacency[goalIndex].push(i);}}
+  const startIndex=nodes.length;nodes.push({offset:startOffset,id:'start'});const exact=graph.nodes.findIndex(n=>distance(n.offset,startOffset)<1e-7);adjacency.push(exact>=0?[exact]:nearest(startOffset).filter(i=>safe(startOffset,nodes[i].offset)));
+  if(goalIndex!==undefined&&safe(startOffset,nodes[goalIndex].offset)&&(!goal.id||distance(startOffset,nodes[goalIndex].offset)<1e-7))adjacency[startIndex].push(goalIndex);
+  const initial={prev:-1,index:startIndex,time:pose.time,heading:startHeading,parent:null},queue=new Heap(),best=new Map(),key=s=>s.prev+':'+s.index;queue.push(initial);best.set(key(initial),initial.time);let visited=0,winner=null;
+  while(queue.items.length){const state=queue.pop();if(state.time>best.get(key(state))+B.graphCostToleranceSeconds)continue;if(winner&&state.time>winner.arrivalAt)continue;if(++visited>B.maxSearchStates)throw Error('행성권 경로 탐색 한도를 초과했습니다.');
+    if(departure&&state.index!==startIndex){const node=nodes[state.index],position=orbitPosition(context,{bodyId:body.id,offset:node.offset},state.time),heading=bodyVectorToGame(context,body.id,state.heading,state.time),candidate={position,heading,time:state.time,attachment:{bodyId:body.id,offset:sub(position,context.gamePosition(body.id,state.time/86400)),rotating:true,localOffset:node.offset}};const leg=departure(candidate);if(leg){if(!winner||leg.end<winner.arrivalAt){winner={state,arrivalAt:leg.end,departure:leg};}continue;}}
+    if(!departure&&state.index===goalIndex){winner={state,arrivalAt:state.time};break;}
+    for(const next of adjacency[state.index]){if(next===state.prev)continue;const e=edge(design,nodes[state.index].offset,nodes[next].offset,state.heading),candidate={prev:state.index,index:next,time:state.time+e.duration,heading:e.heading,parent:state},k=key(candidate);if(candidate.time<(best.get(k)??Infinity)-B.graphCostToleranceSeconds){best.set(k,candidate.time);queue.push(candidate);}}
+  }
+  if(!winner)throw Error('안전한 행성권 경로 또는 LOS 출구가 없습니다.');
+  const chain=[];for(let s=winner.state;s.parent;s=s.parent)chain.push(s);chain.reverse();let time=pose.time,heading=startHeading,from=startOffset;const stages=[],points=[];
+  for(const state of chain){const to=nodes[state.index].offset;if(distance(from,to)<1e-8){from=to;continue;}const leg=edgeStages(body.id,from,to,heading,time,design);stages.push(...leg.stages);points.push({...nodes[state.index],time:leg.end});time=leg.end;heading=leg.heading;from=to;}
+  const position=orbitPosition(context,{bodyId:body.id,offset:from},time),finalPose={position,heading:bodyVectorToGame(context,body.id,heading,time),time,attachment:{bodyId:body.id,offset:sub(position,context.gamePosition(body.id,time/86400)),rotating:true,localOffset:from}};
+  return{stages,pose:finalPose,orbitPoints:points,visited,departure:winner.departure,mode:'orbit-auto',methods:[...new Set(stages.filter(s=>['propulsion','cruising'].includes(s.kind)).map(s=>s.kind==='cruising'?'drive':'propulsion'))]};
+}

@@ -73,3 +73,10 @@ dialog{width:440px;max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);o
 
 .ship-leaders{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;stroke:#8cb9c24d;stroke-width:1;fill:none}
 .fleet-roster{z-index:2}.fleet-roster>div{position:absolute;left:calc(100% + 7px);top:0;min-width:130px;margin-top:0}
+
+/* M1b orbit preview; target dots stay in the GPU layer. */
+.orbit-caption{position:absolute;left:50%;top:90px;transform:translateX(-50%);font-size:9px;letter-spacing:1px;padding:5px 10px;border:1px solid #8cb8c72e;border-radius:4px;color:#adc8d0;background:#0b1a27c9;pointer-events:none;z-index:4}.lagrange-target::after{border-radius:0;transform:rotate(45deg);background:#c4a774;border-color:#f1d8a1}.lagrange-target:focus-visible::before,.lagrange-target:hover::before{content:attr(title);position:absolute;top:32px;left:20px;font-size:9px;white-space:nowrap;color:#f1d8a1}
+@media(orientation:landscape) and (max-height:600px){.orbit-caption{top:55px;font-size:8px}}
+@media(orientation:portrait) and (max-width:600px){.orbit-caption{top:75px;font-size:8px}}
+
+.lagrange-target>span{display:none;position:absolute;left:25px;top:28px;white-space:nowrap;font-size:8px;color:#eed3a0;text-shadow:0 1px 4px #000;pointer-events:none}.lagrange-target[data-near=true]>span,.lagrange-target:focus-visible>span{display:block}

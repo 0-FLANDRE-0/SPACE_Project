@@ -1,0 +1,5 @@
+PASS M1b 1440×900 [{"body":"earth","off":24,"calls":25,"vertices":180,"domOrbitMarkers":0},{"body":"jupiter","off":20,"calls":21,"vertices":1280,"domOrbitMarkers":0}]
+PASS M1b 844×390 [{"body":"earth","off":25,"calls":26,"vertices":180,"domOrbitMarkers":0},{"body":"jupiter","off":20,"calls":21,"vertices":1280,"domOrbitMarkers":0}]
+PASS M1b 667×375 [{"body":"earth","off":24,"calls":25,"vertices":180,"domOrbitMarkers":0},{"body":"jupiter","off":20,"calls":21,"vertices":1280,"domOrbitMarkers":0}]
+PASS M1b 390×844 [{"body":"earth","off":20,"calls":21,"vertices":180,"domOrbitMarkers":0},{"body":"jupiter","off":19,"calls":20,"vertices":1280,"domOrbitMarkers":0}]
+PASS all M1b stories; no runtime/console/HTTP errors

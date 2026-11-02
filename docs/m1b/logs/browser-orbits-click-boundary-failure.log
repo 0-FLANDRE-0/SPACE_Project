@@ -1,0 +1,20 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: {"tile":{"id":"sol:earth:surface:00007","x":444.2451960056766,"y":270.07898253318905,"visible":true,"pixelRadius":0},"surfaceState":{"selected":null,"ray":"sol:earth:surface:00007","paused":true,"transition":false,"active":"earth","entry":true,"element":"CANVAS"}}
++ actual - expected
+
++ null
+- 'sol:earth:surface:00007'
+
+    at file:///workspace/SPACE_Project/tests/browser-orbit-layers.mjs:30:924 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: null,
+  expected: 'sol:earth:surface:00007',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
