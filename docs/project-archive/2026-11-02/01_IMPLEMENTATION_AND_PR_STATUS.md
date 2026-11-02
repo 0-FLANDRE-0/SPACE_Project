@@ -25,6 +25,7 @@
 ## 문서 전용 PR #14 — 기능 구현 PR과 구별
 
 - **추가(2026-11-02):** [PR #15](https://github.com/0-FLANDRE-0/SPACE_Project/pull/15) `feat/econ-calibration-sim-round4` HEAD `b04e3f1`은 PR #13 기반 **오프라인 ECON-SIM-4 시뮬레이터·결과** 브랜치. 테스트 455/455, 81모듈 검사 통과(Claude 재실행). 게임 본체 변경 없음, 결과는 사용자 미결정.
+- **추가(2026-11-02):** [PR #16](https://github.com/0-FLANDRE-0/SPACE_Project/pull/16) `feat/econ-calibration-sim-round4-1` HEAD `677536c`은 PR #15 기반 **오프라인 ECON-SIM-4.1** 브랜치. 테스트 487/487, 83모듈 검사 통과(Claude 재실행). 게임 본체 변경 없음.
 
 - [PR #14](https://github.com/0-FLANDRE-0/SPACE_Project/pull/14)는 **PR #13 HEAD를 기반으로 작성한 문서 전용 아카이브**다. 최신 **기능 코드 HEAD는 여전히 PR #13**이고 PR #14가 새로운 게임 시스템을 구현한 것은 아님.
 - 초기 아카이브 11개 Markdown에 **[05A 선체/장갑/LOS](05A_HULL_FORMS_ARMOR_LOS_DETAIL.md)**·**[04A 반응로](04A_REACTOR_TECH_AND_UPGRADES.md)**·**[02A 테크트리 감사](02A_TECH_TREE_AI_ENHANCED_SOURCE.md)**·**[10 Claude 보충](10_CLAUDE_DISCUSSION_SUPPLEMENT.md)**을 추가해 현재 **15개 Markdown**, 별도로 [AI 보강 JSON 원문](sources/SPACE_Project_연구테크트리_AI보강시안_2026-10-31.json)을 보존했다. 이 브랜치의 [docs/DECISIONS.md](../../DECISIONS.md)도 동기화했다.
