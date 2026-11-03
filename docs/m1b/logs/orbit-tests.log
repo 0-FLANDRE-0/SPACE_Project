@@ -1,0 +1,38 @@
+✔ M1b confirmed pulse/hyperpulse data and shared display reference (1.325783ms)
+✔ 3.0/3.7 percent hysteresis keeps both strict/inclusive boundaries (0.359313ms)
+✔ local break-even and tie use propulsion for pulse (1.218902ms)
+✔ local break-even and tie use propulsion for hyperpulse (0.540467ms)
+✔ every planet/moon keeps its exact surface frequency and all three vertex sets (249.043869ms)
+✔ low vertices are outside separate local obstruction, while global margin stays unchanged (0.300755ms)
+✔ rotating frame matches axial frame and spin, with exact inverse at all epochs (1.633779ms)
+✔ local graph uses only adjacent same-layer or vertical edges after entry and has no body penetration (44.277067ms)
+✔ orbit arrival and subsequent rotation/orbit holding preserve the chosen point (13.138783ms)
+✔ ordering a low orbit point from another planet first arrives at boundary then uses local graph (22.175669ms)
+✔ rotating graph stage turn/charge follows body even in one large step (4.826223ms)
+✔ LOS opens at low orbit and departure does not climb to high orbit (6.549727ms)
+✔ LOS local prefix stops at first open point; no earlier point permits departure (24.714426ms)
+✔ external detours still prioritize clear final LOS and recharge at each waypoint (2.50811ms)
+✔ charge multiplier is an effective future hook, with no research runtime (0.362197ms)
+✔ 95 deterministic Lagrange IDs and all L1/L2 offset reference values (0.338522ms)
+✔ L4/L5/L3 use orbital phase in current parent frame, avoiding future-parent translation (3.156229ms)
+✔ L1/L2 remain on parent-to-body line at configured distance (1.327315ms)
+✔ all Lagrange positions clear every planetary sphere/obstacle over sampled epochs (24.364437ms)
+✔ push-out correction is explicit and finite for an obstructed fixture (0.546156ms)
+✔ Lagrange target predicts intercept then holds, while free-space cancellation becomes fixed (137.981092ms)
+✔ Lagrange scope is wide-view planet points or zoomed parent/moon points (0.212731ms)
+✔ camera automatic follow enters/exits using independent hysteresis (0.338511ms)
+✔ zoom displays high→middle→low→surface, with layer threshold hysteresis (0.23154ms)
+✔ orbit and Lagrange destinations preserve one-frame/many-frame events and final poses (19.255266ms)
+✔ recorded M1a shared-start LOS reference is reproduced and M1b departs earlier (16.777022ms)
+✔ vertical graph edges choose drive when faster and charge in a rotating body frame (8.377219ms)
+✔ an external point uses the drive even below the local distance break-even (0.990317ms)
+✔ cancel alignment at a named rotating point preserves its ID and current world offset (5.620453ms)
+✔ surface preview line subdivision prevents low-frequency moon edges sinking into the body (7.261974ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 709.124002

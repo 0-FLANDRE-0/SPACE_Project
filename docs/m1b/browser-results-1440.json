@@ -1,0 +1,82 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "layers": [
+        {
+          "layer": "high",
+          "frequency": 3,
+          "vertices": 180,
+          "targetPoints": 180,
+          "calls": 25,
+          "triangles": 90624
+        },
+        {
+          "layer": "middle",
+          "frequency": 3,
+          "vertices": 180,
+          "targetPoints": 180,
+          "calls": 26,
+          "triangles": 90624
+        },
+        {
+          "layer": "low",
+          "frequency": 3,
+          "vertices": 180,
+          "targetPoints": 180,
+          "calls": 143,
+          "triangles": 91992
+        },
+        {
+          "layer": "surface",
+          "frequency": 3,
+          "vertices": 180,
+          "targetPoints": 0,
+          "calls": 25,
+          "triangles": 90624
+        }
+      ],
+      "lagrangeDrawing": {
+        "calls": 56,
+        "visibleMarkers": 40,
+        "definedPoints": 95
+      },
+      "wideOffCalls": 56,
+      "moonHighSpeedFollow": true,
+      "nodeId": "earth:low:v138",
+      "lagrangeId": "sun-mercury:L1",
+      "orbitClocks": {
+        "fleet": 2789.69755192836,
+        "game": 2789.69755192836,
+        "industry": 2789.69755192836
+      },
+      "lagClocks": {
+        "fleet": 87900.16372997045,
+        "game": 87900.16372997045,
+        "industry": 87900.16372997045
+      },
+      "calls": [
+        {
+          "body": "earth",
+          "off": 24,
+          "calls": 25,
+          "vertices": 180,
+          "domOrbitMarkers": 0
+        },
+        {
+          "body": "jupiter",
+          "off": 20,
+          "calls": 21,
+          "vertices": 1280,
+          "domOrbitMarkers": 0
+        }
+      ],
+      "surfaceTile": "sol:earth:surface:00063"
+    }
+  ],
+  "errors": [],
+  "renderer": "Chromium SwiftShader; counts only, no hardware FPS claim"
+}
