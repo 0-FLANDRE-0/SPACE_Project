@@ -1,0 +1,44 @@
+✔ ECON initial money derives from GDP/velocity; CPI1 and alloy2.3 in every velocity (2.241744ms)
+✔ ECON same config/seed produces exactly equal twenty-year hash; shock seeds differ (37.465154ms)
+✔ ECON declining/stagnant/growing populations stay integer; explicit migration conserves persons (21.645898ms)
+✔ ECON all six actions/three seeds preserve monthly taxes, treasury, currency and material ledgers (117.976606ms)
+✔ ECON fixed-money growth deflates; growth-linked money follows specified CPI without arbitrary grants (10.092201ms)
+✔ ECON monetary financing creates explicit issuance and more inflation than matched debt branch (9.152375ms)
+✔ ECON policy imports establish set cost, extraction/processing limits and weighted yield (0.538436ms)
+✔ ECON construction requires elapsed commissioning/ramp and ore mass cannot appear as alloy early (0.84195ms)
+✔ ECON ships keep fixed five-and-a-half-month jobs and alternate orders without instant fleet creation (0.496543ms)
+✔ ECON price-index control retains alloy U costs while fixed C ship prices become cheaper in real terms (15.196709ms)
+✔ ECON prices remain bounded and finite under extreme adjustment and zero private investment (8.08692ms)
+✔ ECON colony tax exemptions and mandatory debt are explicit, not negative treasury (1.353886ms)
+✔ ECON invalid stock, grade, velocity and migration inputs fail validation (0.885335ms)
+✔ ECON seeded LHS is reproducible, bounded and stratified for continuous parameters (3.193088ms)
+✔ ECON criteria report failures rather than coercing prices or silently passing impossible payback (7.233664ms)
+✔ ECON model is independent of browser, real clock, filesystem and unseeded randomness (0.396313ms)
+✔ ECON shipped files outside the authorized resource foundation update remain byte-identical (283.592691ms)
+✔ ECON collection efficiency has its own body-level policy slot and changes collected tax without minting (0.829306ms)
+✔ R2 analytical equilibrium uses imported set investment/throughput and amortization units (1.394787ms)
+✔ R2 longer amortization lowers threshold; margin/scale increase it without modifying inputs (0.300699ms)
+✔ R2 conditional seeded LHS fills accepted sample count, fixed V and all original range bounds (31.989975ms)
+✔ R2 sampler rejects velocity exploration, wrong seed count and impossible band without infinite retry (0.909882ms)
+✔ R2 S1-sell quote sells half of total surplus, including old stock, with nominal C/U revenue (0.334811ms)
+✔ R2 sell buffer and sub-quantum rounding never manufacture material or negative stock (0.171516ms)
+✔ R2 monthly S1-sell inventory reduction/revenue and all monetary ledgers reconcile for five seeds (45.669264ms)
+✔ R2 S1-sell remains annual construction policy and reveals crowding out in the base fixture (14.32192ms)
+✔ R2 government share is informational; budget17 applies to S0 only (0.69504ms)
+✔ R2 mean-price eight-percent condition is independent of fifteen-percent maximum deviation (0.259137ms)
+✔ R2 faster war recovery passes, but missing/late recovery or incomplete purchase does not (0.285527ms)
+✔ R2 basic support ten-percent applies to ordinary/war scenarios; S4 is informational (0.221963ms)
+✔ R2 extra selling scenario is comparison-only except common integrity/payback (0.136674ms)
+✔ R2 profile robustness uses worst margin, never a favourable average or four-of-five pass (0.511445ms)
+✔ R2 rounding preserves fixed inputs, configured ranges and original parameter object (5.101763ms)
+✔ R2 output guard protects every round1 output path (0.603293ms)
+✔ R2 preserves original six-scenario interface and exact round1 reference trajectory hash (7.514193ms)
+✔ R2 round1 artifacts and shipped files outside the resource foundation update remain byte-identical (435.063485ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 637.512939

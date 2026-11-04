@@ -7,7 +7,7 @@ export const DRIVES=Object.freeze({
 });
 export const SHIP_DESIGNS=Object.freeze({
   support:Object.freeze({hullClass:'중소형',lengthMeters:170,driveId:'pulse',turnDegreesPerSecond:.3,reactor:'개량 핵분열'}),
-  explorer:Object.freeze({hullClass:'소형',lengthMeters:60,driveId:'hyperpulse',turnDegreesPerSecond:2.5,reactor:'개량 핵분열'})
+  explorer:Object.freeze({surveyCapable:true,hullClass:'소형',lengthMeters:60,driveId:'hyperpulse',turnDegreesPerSecond:2.5,reactor:'개량 핵분열'})
 });
 export const M1A_TUNING=Object.freeze({
   propulsionGameAUPerMinute:.04,acceleration:'constant-speed',massFactor:1,

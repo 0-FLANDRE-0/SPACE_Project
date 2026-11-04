@@ -1,0 +1,218 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "geometry": {
+        "x": 24,
+        "y": 152,
+        "width": 590,
+        "height": 450
+      },
+      "tileId": "sol:moon:surface:00033",
+      "ranges": {
+        "zero": [
+          0,
+          725651305.8368832
+        ],
+        "half": [
+          221252577.4825048,
+          677150739.3737549
+        ],
+        "full": [
+          607864215.855,
+          607864215.855
+        ]
+      },
+      "confirmed": {
+        "zero": 91179632.37825,
+        "half": 303932107.9275,
+        "full": 607864215.855
+      },
+      "assignments": [
+        {
+          "id": "explorer-1",
+          "tileId": "sol:moon:surface:00036",
+          "target": "moon:low:v79"
+        },
+        {
+          "id": "explorer-2",
+          "tileId": "sol:moon:surface:00026",
+          "target": "moon:low:v61"
+        }
+      ],
+      "clocks": {
+        "game": 1111873.035994897,
+        "fleet": 1111873.035994897,
+        "survey": 1111873.035994897,
+        "industry": 1111873.035994897
+      },
+      "manualImportAndReloadReset": true,
+      "commandReplacesMovement": true,
+      "lowOrbitSelectionKeepsCamera": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "geometry": {
+        "x": 14,
+        "y": 108,
+        "width": 375.578125,
+        "height": 220
+      },
+      "tileId": "sol:moon:surface:00033",
+      "ranges": {
+        "zero": [
+          0,
+          725651305.8368832
+        ],
+        "half": [
+          221252577.4825048,
+          677150739.3737549
+        ],
+        "full": [
+          607864215.855,
+          607864215.855
+        ]
+      },
+      "confirmed": {
+        "zero": 91179632.37825,
+        "half": 303932107.9275,
+        "full": 607864215.855
+      },
+      "assignments": [
+        {
+          "id": "explorer-1",
+          "tileId": "sol:moon:surface:00036",
+          "target": "moon:low:v79"
+        },
+        {
+          "id": "explorer-2",
+          "tileId": "sol:moon:surface:00026",
+          "target": "moon:low:v61"
+        }
+      ],
+      "clocks": {
+        "game": 1111874.1773711413,
+        "fleet": 1111874.1773711413,
+        "survey": 1111874.1773711413,
+        "industry": 1111874.1773711413
+      },
+      "manualImportAndReloadReset": true,
+      "commandReplacesMovement": true,
+      "lowOrbitSelectionKeepsCamera": true
+    },
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "geometry": {
+        "x": 14,
+        "y": 108,
+        "width": 296.8125,
+        "height": 205
+      },
+      "tileId": "sol:moon:surface:00033",
+      "ranges": {
+        "zero": [
+          0,
+          725651305.8368832
+        ],
+        "half": [
+          221252577.4825048,
+          677150739.3737549
+        ],
+        "full": [
+          607864215.855,
+          607864215.855
+        ]
+      },
+      "confirmed": {
+        "zero": 91179632.37825,
+        "half": 303932107.9275,
+        "full": 607864215.855
+      },
+      "assignments": [
+        {
+          "id": "explorer-1",
+          "tileId": "sol:moon:surface:00036",
+          "target": "moon:low:v79"
+        },
+        {
+          "id": "explorer-2",
+          "tileId": "sol:moon:surface:00026",
+          "target": "moon:low:v61"
+        }
+      ],
+      "clocks": {
+        "game": 1111874.1051666439,
+        "fleet": 1111874.1051666439,
+        "survey": 1111874.1051666439,
+        "industry": 1111874.1051666439
+      },
+      "manualImportAndReloadReset": true,
+      "commandReplacesMovement": true,
+      "lowOrbitSelectionKeepsCamera": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "geometry": {
+        "x": 14,
+        "y": 387.09375,
+        "width": 362,
+        "height": 362.90625
+      },
+      "tileId": "sol:moon:surface:00033",
+      "ranges": {
+        "zero": [
+          0,
+          725651305.8368832
+        ],
+        "half": [
+          221252577.4825048,
+          677150739.3737549
+        ],
+        "full": [
+          607864215.855,
+          607864215.855
+        ]
+      },
+      "confirmed": {
+        "zero": 91179632.37825,
+        "half": 303932107.9275,
+        "full": 607864215.855
+      },
+      "assignments": [
+        {
+          "id": "explorer-1",
+          "tileId": "sol:moon:surface:00036",
+          "target": "moon:low:v79"
+        },
+        {
+          "id": "explorer-2",
+          "tileId": "sol:moon:surface:00026",
+          "target": "moon:low:v61"
+        }
+      ],
+      "clocks": {
+        "game": 1111872.9832311736,
+        "fleet": 1111872.9832311736,
+        "survey": 1111872.9832311736,
+        "industry": 1111872.9832311736
+      },
+      "manualImportAndReloadReset": true,
+      "commandReplacesMovement": true,
+      "lowOrbitSelectionKeepsCamera": true
+    }
+  ],
+  "errors": [],
+  "renderer": "Chromium SwiftShader; no hardware FPS claim"
+}

@@ -1,7 +1,7 @@
 import { INDUSTRY_POLICY as P, FACILITY_TYPES, MINING, SMELTING, constructionSlots, constructionEnvironment, investmentCost, extractionEfficiency, rampDurationMonths, processingEfficiency } from './industry-policy.js';
 import { sampleGradeBatch, ORE_GRADES } from './ore-quality.js';
 import { resourceQuanta } from './resource-quantities.js';
-import { depositKnowledgeFor } from './resource-knowledge.js';
+import { depositKnowledgeFor, effectiveDepositKnowledge, hydrogenSourceKnown } from './resource-knowledge.js';
 import { resolvedSurfaceCell } from './planetary-surface-model.js';
 import {bindIndustryPackagingClock} from './packaging-clock.js';
 import {packagingAccount,availableFreeQ} from './packaging-inventory.js';
@@ -28,7 +28,7 @@ export function ownerInventory(s,bodyId,ownerId=OWNER){s.planetInventory[bodyId]
 export function slotsFor(s,catalog,bodyId,tileId){s.governmentSlots[bodyId]??={};const cell=catalog.cell(bodyId,tileId);return s.governmentSlots[bodyId][tileId]??=constructionSlots(cell.geography,cell.record.body,cell.geology,cell.scenario);}
 export function accessibleDeposits(s,catalog,bodyId,tileId,ownerId=OWNER){
  const cell=catalog.cell(bodyId,tileId);
- return (cell.geology.deposits??[]).filter(d=>{const k=depositKnowledgeFor(cell.record.template,d.depositId,ownerId),override=s.depositKnowledge[ownerId]?.[catalog.key(bodyId,d.depositId)];return d.resourceId==='ore'&&d.gradeProbabilities&&(override>0||k?.confirmedFraction>0)&&(d.discoveryTier??5)<=(s.fixture?5:P.maximumDiscoveryTier)&&(d.accessDepth??100)<=(s.fixture?100:P.maximumDepth)&&d.extractionDifficulty!==null&&d.processingDifficulty!==null;}).map(d=>{const key=catalog.key(bodyId,d.depositId),confirmedQ=s.depositKnowledge[ownerId]?.[key]??Math.floor(resourceQuanta(d.initialReserveU)*depositKnowledgeFor(cell.record.template,d.depositId,ownerId).confirmedFraction),remainingQ=s.oreRemaining[key]??resourceQuanta(d.initialReserveU);return {...d,key,confirmedQ,accessibleQ:Math.max(0,Math.min(remainingQ,confirmedQ-(s.oreExtracted[key]??0)))};});
+ return (cell.geology.deposits??[]).filter(d=>{const k=effectiveDepositKnowledge(cell.record.template,d,{runtime:s,civilizationId:ownerId}),override=s.depositKnowledge[ownerId]?.[catalog.key(bodyId,d.depositId)];return d.resourceId==='ore'&&d.gradeProbabilities&&(override>0||k?.confirmedFraction>0)&&(d.discoveryTier??5)<=(s.fixture?5:P.maximumDiscoveryTier)&&(d.accessDepth??100)<=(s.fixture?100:P.maximumDepth)&&d.extractionDifficulty!==null&&d.processingDifficulty!==null;}).map(d=>{const key=catalog.key(bodyId,d.depositId),confirmedQ=s.depositKnowledge[ownerId]?.[key]??Math.floor(resourceQuanta(d.initialReserveU)*effectiveDepositKnowledge(cell.record.template,d,{runtime:s,civilizationId:ownerId}).confirmedFraction),remainingQ=s.oreRemaining[key]??resourceQuanta(d.initialReserveU);return {...d,key,confirmedQ,accessibleQ:Math.max(0,Math.min(remainingQ,confirmedQ-(s.oreExtracted[key]??0)))};});
 }
 // Confirmed estimates can have >3 decimal places. Truncate the accessible budget,
 // never the immutable geological reserve, to avoid claiming extra surveyed ore.
@@ -64,7 +64,7 @@ export function facilityCapacity(f,catalog,tick){const deps=f.activeDepositIds.m
 }
 function quantize(f,key,raw){const n=raw+(f.fractional[key]??0),q=Math.floor(n+1e-9);f.fractional[key]=Math.max(0,n-q);return q;}
 function sourceHydrogen(s,catalog,f,oreQ,capacityOreQ){if(!oreQ)return 0;let q=Math.min(P.maxInventoryQ-ownerInventory(s,f.bodyId,f.ownerId).hydrogen,quantize(f,'hydrogen',100000/720*Math.min(1,oreQ/Math.max(1,capacityOreQ)))),recovered=0;f.activeSourceIds=[];const takes=[];
- for(const source of catalog.hydrogen.values()){if(source.bodyId!==f.bodyId||source.tileId!==f.tileId||source.sourceType!=='finite-source'||!s.hydrogenKnowledge[f.ownerId]?.includes(source.key))continue;f.activeSourceIds.push(source.key);const remaining=s.hydrogenRemaining[source.key]??resourceQuanta(source.initialReserveU),take=Math.min(q,remaining);takes.push({source,remaining,take});q-=take;recovered+=take;if(!q)break;}
+ for(const source of catalog.hydrogen.values()){if(source.bodyId!==f.bodyId||source.tileId!==f.tileId||source.sourceType!=='finite-source'||!hydrogenSourceKnown(s,source.key,f.ownerId))continue;f.activeSourceIds.push(source.key);const remaining=s.hydrogenRemaining[source.key]??resourceQuanta(source.initialReserveU),take=Math.min(q,remaining);takes.push({source,remaining,take});q-=take;recovered+=take;if(!q)break;}
  if(!recovered)return 0;const packaged=produceIndustryPackaged(s,catalog,{bodyId:f.bodyId,ownerId:f.ownerId},'hydrogen',recovered);if(!packaged.allowed)return 0;
  for(const {source,remaining,take}of takes){s.hydrogenRemaining[source.key]=remaining-take;s.hydrogenRecovered[source.key]=(s.hydrogenRecovered[source.key]??0)+take;}return recovered;}
 

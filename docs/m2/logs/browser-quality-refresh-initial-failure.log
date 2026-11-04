@@ -1,0 +1,14 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.scrollIntoViewIfNeeded: Element is not attached to the DOM
+Call log:
+[2m  - attempting scroll into view action[22m
+[2m    - waiting for element to be stable[22m
+
+    at /workspace/SPACE_Project/tests/browser-survey.mjs:25:252 {
+  name: 'Error'
+}
+
+Node.js v24.19.0

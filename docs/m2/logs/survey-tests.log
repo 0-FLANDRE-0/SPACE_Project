@@ -1,0 +1,41 @@
+✔ M2 timing data keeps explicit capability and unscaled absolute work (194.024818ms)
+✔ rough completion at sqrt(sectors) days, independent of requested overshoot (21.913945ms)
+✔ two rough surveyors add rates and halve completion time (10.786918ms)
+✔ support ship and invalid body survey commands are rejected without progress (16.910231ms)
+✔ rough survey outside planetary sphere freezes rather than consumes elapsed time (14.106182ms)
+✔ precise work requires its own adjacent LOW vertex, no middle/high/other vertex progress (34.098586ms)
+✔ precise base four days times obstacle and 1.25 without rough; low stationary only (21.367359ms)
+✔ rough survey completion removes the penalty for remaining work only (18.641502ms)
+✔ two precise surveyors cooperate at last remaining sector (16.731844ms)
+✔ manual movement cancels survey membership but preserves accumulated work (23.077893ms)
+✔ failed movement command does not destroy a valid survey command (12.418467ms)
+✔ cancel/restart and capability speed change leave old absolute work untouched (13.204177ms)
+✔ auto travel to low orbit cannot survey during any turn/charge/cruise (14.912822ms)
+✔ fixed deposit seed is open interval and reproducible across worlds (0.199129ms)
+✔ all predicted intervals include truth and shrink monotonically at 1001 samples (1.30503ms)
+✔ surface 100% is certain; vein 100% leaves interval and 60% confirmation (0.694052ms)
+✔ initial Earth 90/70 and confidence floors never decrease even above vein cap (17.29829ms)
+✔ tier above capability and deep deposits return NO existence, range or count (17.148705ms)
+✔ hidden-only sector becomes scoped confirmed-zero without leaking hidden count (9.952915ms)
+✔ undiscovered hidden geology cannot change public estimates or empty-sector scale (32.005468ms)
+✔ grade estimates are normalized and approach real probabilities only to permitted confidence (8.757129ms)
+✔ rough scan produces public possibility/detected growth but not hydrogen location or confirmation (13.078528ms)
+✔ hydrogen is detected at half precision and industry knows it only at completion (13.443306ms)
+✔ precise confirmation increases industrial accessible ore while policy tier/depth stay unchanged (19.528343ms)
+✔ runtime knowledge never becomes a v4 save field and export/import validation still passes (11.660449ms)
+✔ development fixture accessible quantities remain exactly unchanged by binding M2 (26.100071ms)
+✔ single worker queue ranks possibility before distance and completed sectors are skipped (85.377384ms)
+✔ two workers split distinct unassigned sectors; remaining one gets cooperative workers (23.252355ms)
+✔ one large advance and many small advances give the same work, completion and automatic moves (73.490109ms)
+✔ fresh runtime, unbind and new fleet discard every survey job and knowledge (9.100996ms)
+✔ public read queries do not create or change survey progress records (19.301452ms)
+✔ a new survey command inside the sphere replaces a prior move without teleporting (13.889876ms)
+✔ unknown but revealable deposits contribute an uncertain total interval without leaking IDs (9.155928ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 952.43545
