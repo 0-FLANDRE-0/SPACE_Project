@@ -1,3 +1,5 @@
+import {SurveyRuntime} from './survey-runtime.js';
+import {SurveyUI} from './survey-ui.js';
 import {resetDevelopmentStorage} from './development-session.js';
 import { IndustryUI } from './industry-ui.js';
 import { PlanetarySurfaceUI } from './planetary-surface-ui.js';
@@ -15,7 +17,7 @@ import { ShipUI } from './ship-ui.js';
 const $=s=>document.querySelector(s);
 const developmentReset=resetDevelopmentStorage(()=>window.localStorage);
 let context=createSolContext(),selection=null,viewer=null,administration=null,surfaceUI=null,developer=null,fullscreen=null,industry=null,toastTimer;
-let fleet=null,shipUI=null,industryIdentity=null;
+let fleet=null,shipUI=null,survey=null,surveyUI=null,industryIdentity=null;
 const foregroundClock=new ForegroundClock(performance.now(),!document.hidden);
 const simulation=new Simulation(context.bodyById);
 const worldEpochISO=context.epochISO;
@@ -23,7 +25,7 @@ const panel=new ContextPanel($('#context-panel'),{onClose:()=>viewer?.select(nul
 function closeSettings(){$('#settings').hidden=true;$('#settings-toggle').setAttribute('aria-expanded','false');}
 function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),2000);}
 function onSelection(value){selection=value;simulation.select(value?.kind==='body'?value.bodyId:null);panel.setSelection(value?.kind==='ship'?null:value,context);$('#body-picker').value=value?.kind==='body'?value.bodyId:'';administration?.observeSelection(value);surfaceUI?.observeSelection(value);shipUI?.observeSelection(value);}
-function installFleet(){shipUI?.dispose();fleet=new ShipFleet(context,{now:simulation.days*86400});shipUI=new ShipUI(viewer,fleet,simulation,{notify:toast,sync:()=>advanceClock(performance.now())});industryIdentity=industry?.store?.state;if(selection?.kind==='ship')viewer.select(null);}
+function installFleet(){surveyUI?.dispose();survey?.dispose();shipUI?.dispose();fleet=new ShipFleet(context,{now:simulation.days*86400});shipUI=new ShipUI(viewer,fleet,simulation,{notify:toast,sync:()=>advanceClock(performance.now())});industryIdentity=industry?.store?.state;survey=new SurveyRuntime(fleet,industry.catalog,{runtime:industry.store.state,onAdvance:t=>{if(t/86400>=industry.store.state.days)industry.advance(t/86400);},onEvent:e=>toast(({ 'rough-complete':'대략 탐사 완료','sector-complete':'섹터 정밀 탐사 완료','queue-complete':'전체 탐사 대기열 완료','route-blocked':'탐사 이동 경로 중단'})[e.kind]+' · '+context.bodyById.get(e.bodyId).name)});surveyUI=new SurveyUI({runtime:survey,shipUI,surface:surfaceUI,simulation,sync:()=>advanceClock(performance.now()),notify:toast});industry.onTimeAdvance=days=>{const result=survey.advanceTo(days*86400,{pauseOnArrival:false,pauseOnCompletion:false});simulation.days=result.time/86400;};if(selection?.kind==='ship')viewer.select(null);}
 function renderContextHeader(){
   $('#system-name').textContent=context.displayName;$('#system-code').textContent=context.systemId.toUpperCase();document.title='SPACE · '+context.displayName;
   $('#body-picker').replaceChildren(new Option('천체 선택',''),...context.allBodies.map(body=>new Option(body.name,body.id)));
@@ -35,11 +37,11 @@ async function setSystem(value){
   if(typeof value==='string'){
     const {SYSTEM_FACTORIES}=await import('./fixtures/systems.js');if(!SYSTEM_FACTORIES[value])throw new Error('Unknown fixture');next=SYSTEM_FACTORIES[value]();
   }
-  advanceClock(performance.now());shipUI?.dispose();shipUI=null;fleet=null;context=next;selection=null;simulation.setSystem(context);panel.setSelection(null,context);viewer.setSystemContext(context);administration?.setSystem();foregroundClock.setVisible(!document.hidden,performance.now());closeSettings();$('#developer-drawer').hidden=true;$('#developer-tools').setAttribute('aria-expanded','false');$('#hover-sector').hidden=true;await industry?.load(context);installFleet();renderContextHeader();if(typeof value==='string')$('#system-picker').value=value;
+  advanceClock(performance.now());surveyUI?.dispose();surveyUI=null;survey?.dispose();survey=null;shipUI?.dispose();shipUI=null;fleet=null;context=next;selection=null;simulation.setSystem(context);panel.setSelection(null,context);viewer.setSystemContext(context);administration?.setSystem();foregroundClock.setVisible(!document.hidden,performance.now());closeSettings();$('#developer-drawer').hidden=true;$('#developer-tools').setAttribute('aria-expanded','false');$('#hover-sector').hidden=true;await industry?.load(context);installFleet();renderContextHeader();if(typeof value==='string')$('#system-picker').value=value;
 }
 function home(inner=false){surfaceUI?.exit(false);if(shipUI)shipUI.layer.followId=null;viewer.select(null);viewer.home(inner);closeSettings();}
 function renderPause(){ $('#pause').innerHTML=`<svg><use href="#i-${simulation.paused?'play':'pause'}"/></svg>`;$('#pause').setAttribute('aria-label',simulation.paused?'시간 재개':'일시정지');$('#pause').setAttribute('aria-pressed',String(simulation.paused));$('#time-status').classList.toggle('paused',simulation.paused);$('#time-status span').textContent=simulation.paused?'일시정지':'진행 중';}
-function advanceClock(now){const seconds=foregroundClock.sample(now);if(fleet){if(industryIdentity!==industry?.store?.state||simulation.days*86400<fleet.now-1e-6)installFleet();if(simulation.days*86400>fleet.now+1e-6)fleet.advanceTo(simulation.days*86400,{pauseOnArrival:false});const result=fleet.advanceTo(fleet.now+simulation.gameSecondsFor(seconds));simulation.days=result.time/86400;if(result.paused){simulation.paused=true;renderPause();}}else simulation.advance(seconds);industry?.advance(simulation.days);if(foregroundClock.suspended)toast('긴 대기에서 복귀했습니다. 대기 시간은 정산하지 않습니다.');return seconds;}
+function advanceClock(now){const seconds=foregroundClock.sample(now);if(fleet){if(industryIdentity!==industry?.store?.state||simulation.days*86400<fleet.now-1e-6)installFleet();if(simulation.days*86400>fleet.now+1e-6)survey.advanceTo(simulation.days*86400,{pauseOnArrival:false,pauseOnCompletion:false});const result=survey.advanceTo(fleet.now+simulation.gameSecondsFor(seconds));simulation.days=result.time/86400;if(result.paused){simulation.paused=true;renderPause();}}else simulation.advance(seconds);industry?.advance(simulation.days);if(foregroundClock.suspended)toast('긴 대기에서 복귀했습니다. 대기 시간은 정산하지 않습니다.');return seconds;}
 function renderSpeed(){const speed=simulation.effectiveSpeed;$('#speed-menu-toggle').textContent=speed+'× ▴';$('#speed-description').textContent=`${speed}× = 현실 1초당 게임 ${speed*BASE_GAME_SECONDS_PER_REAL_SECOND}초 · UTC`;for(const b of document.querySelectorAll('[data-speed]')){const active=Number(b.dataset.speed)===speed;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}}
 function togglePause(){advanceClock(performance.now());simulation.paused=!simulation.paused;renderPause();}
 $('#pause').addEventListener('click',togglePause);
@@ -79,15 +81,15 @@ try {
   developer.setEnabled(params.has('dev'));
   if(params.has('dev')){await ensureDeveloperSystems();if(params.has('system')){await setSystem(params.get('system'));$('#system-picker').value=params.get('system');}}
   $('#loading').hidden=true;
-  window.spacePrototype={developmentReset,simulation,industry,viewer,panel,administration,surfaceUI,developer,fullscreen,foregroundClock,get fleet(){return fleet;},get shipUI(){return shipUI;},get context(){return context;},get selection(){return selection;},setSystem,select:id=>viewer.select(id),focus:(id,mode)=>viewer.focus(id,mode),home};
+  window.spacePrototype={developmentReset,simulation,industry,viewer,panel,administration,surfaceUI,developer,fullscreen,foregroundClock,get fleet(){return fleet;},get shipUI(){return shipUI;},get survey(){return survey;},get surveyUI(){return surveyUI;},get context(){return context;},get selection(){return selection;},setSystem,select:id=>viewer.select(id),focus:(id,mode)=>viewer.focus(id,mode),home};
   let uiElapsed=0;
   function frame(now){
     if(viewer.disposed)return;const elapsed=advanceClock(now),seconds=Math.min(elapsed,.1);
-    industry.update(now);viewer.update(simulation.days,seconds);shipUI?.update();if(surfaceUI.active)panel.element.hidden=true;else panel.update(viewer,simulation.days,seconds);uiElapsed+=seconds;
+    industry.update(now);viewer.update(simulation.days,seconds);shipUI?.update();surveyUI?.update(now);if(surfaceUI.active)panel.element.hidden=true;else panel.update(viewer,simulation.days,seconds);uiElapsed+=seconds;
     if(uiElapsed>.15){uiElapsed=0;$('#sim-date').textContent=formatGameDate(worldEpochISO,simulation.days);renderSpeed();$('#scale-label').textContent=viewer.scale.value.toLocaleString('ko-KR',{maximumFractionDigits:3})+' AU';$('#scale-bar').style.width=viewer.scale.pixels+'px';}
     requestAnimationFrame(frame);
   }
   document.addEventListener('visibilitychange',()=>{foregroundClock.setVisible(!document.hidden,performance.now());});
-  window.addEventListener('pagehide',()=>{advanceClock(performance.now());shipUI?.dispose();industry.dispose();surfaceUI.dispose();developer.dispose();fullscreen.dispose();administration.dispose();panel.dispose();viewer.dispose();for(const texture of Object.values(surfaces))texture.dispose();});
+  window.addEventListener('pagehide',()=>{advanceClock(performance.now());surveyUI?.dispose();surveyUI=null;survey?.dispose();survey=null;shipUI?.dispose();industry.dispose();surfaceUI.dispose();developer.dispose();fullscreen.dispose();administration.dispose();panel.dispose();viewer.dispose();for(const texture of Object.values(surfaces))texture.dispose();});
   requestAnimationFrame(frame);
 }catch(error){console.error(error);$('#loading').innerHTML='<p>지도를 시작할 수 없습니다.<br>페이지를 새로고침하고 WebGL·하드웨어 가속 설정을 확인해주세요.</p>';}

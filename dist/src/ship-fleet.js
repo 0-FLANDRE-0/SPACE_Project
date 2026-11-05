@@ -26,9 +26,10 @@ export class ShipFleet {
     // Friendly ships are snapshots. Orbiting asteroid waypoints predict arrival.
     return destination.kind==='asteroid'?{kind:'asteroid',id:destination.id,name:destination.name,at:t=>asteroidPosition(this.context,destination,t)}:{kind:'point',id:destination.id??'manual-point',name:destination.name??'좌표점',position:{...point},at:()=>({...point})};
   }
-  order(id,input){
+  order(id,input,{source=null}={}){
     const ship=this.ships.get(id);if(!ship)throw Error('함선을 먼저 선택하세요.');
     const target=this.resolveTarget(input,id),pose={position:{...ship.position},heading:{...ship.heading},attachment:ship.attachment?structuredClone(ship.attachment):null,holdingAt:ship.holdingAt??null,time:this.now},plan=planMovement(this.context,pose,target,ship.design);
+    this.onOrder?.(id,source);
     if(!plan.stages.length){ship.plan=null;ship.state='idle';this.attachAt(ship,this.now,plan.targetBodyId,plan.targetOrbitId);ship.locationName=target.name;return ship;}
     plan.startedAt=this.now;plan.arrivalAt=plan.pose.time;plan.target=target;plan.startPosition={...pose.position};plan.beforeAttachment=pose.attachment;ship.plan=plan;ship.eventIndex=0;ship.state=plan.stages[0].kind;ship.locationName=target.name;this.sampleShip(ship,this.now);return ship;
   }

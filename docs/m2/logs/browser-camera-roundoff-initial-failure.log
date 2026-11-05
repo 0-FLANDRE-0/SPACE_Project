@@ -1,0 +1,34 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  {
+    position: [
+      224.18263783716947,
++     11.379842108274643,
+-     11.37984210827464,
+      -136.85308122446548
+    ],
+    target: [
+      214.42059263169912,
+      -0.009210631440741272,
+
+    at file:///workspace/SPACE_Project/tests/browser-survey.mjs:30:1590 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: {
+    position: [ 224.18263783716947, 11.379842108274643, -136.85308122446548 ],
+    target: [ 214.42059263169912, -0.009210631440741272, -151.29277309089034 ]
+  },
+  expected: {
+    position: [ 224.18263783716947, 11.37984210827464, -136.85308122446548 ],
+    target: [ 214.42059263169912, -0.009210631440741272, -151.29277309089034 ]
+  },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

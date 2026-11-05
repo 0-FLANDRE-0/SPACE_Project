@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "geometry": {
+        "x": 24,
+        "y": 152,
+        "width": 590,
+        "height": 450
+      },
+      "tileId": "sol:moon:surface:00033",
+      "ranges": {
+        "zero": [
+          0,
+          725651305.8368832
+        ],
+        "half": [
+          221252577.4825048,
+          677150739.3737549
+        ],
+        "full": [
+          607864215.855,
+          607864215.855
+        ]
+      },
+      "confirmed": {
+        "zero": 91179632.37825,
+        "half": 303932107.9275,
+        "full": 607864215.855
+      },
+      "assignments": [
+        {
+          "id": "explorer-1",
+          "tileId": "sol:moon:surface:00036",
+          "target": "moon:low:v79"
+        },
+        {
+          "id": "explorer-2",
+          "tileId": "sol:moon:surface:00026",
+          "target": "moon:low:v61"
+        }
+      ],
+      "clocks": {
+        "game": 1111888.3284480274,
+        "fleet": 1111888.3284480274,
+        "survey": 1111888.3284480274,
+        "industry": 1111888.3284480274
+      },
+      "manualImportAndReloadReset": true,
+      "commandReplacesMovement": true
+    }
+  ],
+  "errors": [],
+  "renderer": "Chromium SwiftShader; no hardware FPS claim"
+}

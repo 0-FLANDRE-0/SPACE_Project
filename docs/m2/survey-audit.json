@@ -1,0 +1,585 @@
+{
+  "base": "d5ee9d5d828e2c1e7c9e83699a12d439943e403c",
+  "earthRough": [
+    {
+      "ships": 1,
+      "seconds": 828719.6872284379,
+      "days": 9.591663046625438,
+      "events": [
+        {
+          "kind": "rough-complete",
+          "bodyId": "earth",
+          "tileId": null,
+          "time": 828719.6872284379
+        }
+      ]
+    },
+    {
+      "ships": 2,
+      "seconds": 414359.84361421893,
+      "days": 4.795831523312719,
+      "events": [
+        {
+          "kind": "rough-complete",
+          "bodyId": "earth",
+          "tileId": null,
+          "time": 414359.84361421893
+        }
+      ]
+    }
+  ],
+  "moonFull": [
+    {
+      "ships": 2,
+      "roughComplete": false,
+      "includesTransitFromEarth": false,
+      "earthToMoonApproachSeconds": 5770.597418342507,
+      "startedAt": 5770.597418342507,
+      "completedAt": 11159546.535409767,
+      "seconds": 11153775.937991425,
+      "days": 129.0946289119378,
+      "initialAssignments": [
+        {
+          "ship": "explorer-1",
+          "tileId": "sol:moon:surface:00036",
+          "orbitPoint": "moon:low:v79"
+        },
+        {
+          "ship": "explorer-2",
+          "tileId": "sol:moon:surface:00037",
+          "orbitPoint": "moon:low:v59"
+        }
+      ],
+      "sectorCompletions": [
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00037",
+          "time": 592155.4161520983
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00036",
+          "time": 597056.5480998631
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00008",
+          "time": 1140598.5160998632
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00019",
+          "time": 1195110.3441520983
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00009",
+          "time": 1690791.101054332
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00020",
+          "time": 1795953.501103798
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00038",
+          "time": 2281295.015789814
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00021",
+          "time": 2392834.4513853323
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00026",
+          "time": 2824159.0417504413
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00017",
+          "time": 2947416.97464586
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00006",
+          "time": 3352688.242927794
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00023",
+          "time": 3505224.2248565685
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00010",
+          "time": 3895704.7280212906
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00025",
+          "time": 4005151.8138175705
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00000",
+          "time": 4410571.673875111
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00022",
+          "time": 4491863.449801551
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00001",
+          "time": 4902115.535120236
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00024",
+          "time": 4974376.115656879
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00028",
+          "time": 5394530.929921754
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00027",
+          "time": 5453455.048592396
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00005",
+          "time": 5879899.973726979
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00041",
+          "time": 5932617.757861761
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00002",
+          "time": 6367406.851344828
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00004",
+          "time": 6415050.077395345
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00039",
+          "time": 6900330.037772251
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00007",
+          "time": 6905466.068621447
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00003",
+          "time": 7381523.559284819
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00035",
+          "time": 7420908.766747946
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00040",
+          "time": 7876198.144915813
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00033",
+          "time": 7984025.362997049
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00014",
+          "time": 8389997.152401634
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00029",
+          "time": 8523499.511565294
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00015",
+          "time": 8881841.466067098
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00030",
+          "time": 9119563.161682755
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00016",
+          "time": 9387909.677889772
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00032",
+          "time": 9710539.37010782
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00013",
+          "time": 9947488.378179075
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00031",
+          "time": 10246738.213675555
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00011",
+          "time": 10482370.176799424
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00034",
+          "time": 10731111.292434392
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00018",
+          "time": 11082559.990212176
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00012",
+          "time": 11159546.535409767
+        }
+      ]
+    },
+    {
+      "ships": 2,
+      "roughComplete": true,
+      "includesTransitFromEarth": false,
+      "earthToMoonApproachSeconds": 5770.597418342507,
+      "startedAt": 5770.597418342507,
+      "completedAt": 8929101.086236933,
+      "seconds": 8923330.488818591,
+      "days": 103.27928806502999,
+      "initialAssignments": [
+        {
+          "ship": "explorer-1",
+          "tileId": "sol:moon:surface:00036",
+          "orbitPoint": "moon:low:v79"
+        },
+        {
+          "ship": "explorer-2",
+          "tileId": "sol:moon:surface:00037",
+          "orbitPoint": "moon:low:v59"
+        }
+      ],
+      "sectorCompletions": [
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00037",
+          "time": 474905.08655209834
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00036",
+          "time": 478827.82489986316
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00008",
+          "time": 913661.3992998633
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00019",
+          "time": 957269.0289520983
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00009",
+          "time": 1353847.267181354
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00020",
+          "time": 1437978.2515244659
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00038",
+          "time": 1826268.7882440914
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00021",
+          "time": 1915500.8848775125
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00026",
+          "time": 2260579.769431669
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00017",
+          "time": 2359191.1148514566
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00006",
+          "time": 2683420.161655072
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00023",
+          "time": 2805455.8756238283
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00010",
+          "time": 3117852.145529921
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00025",
+          "time": 3205413.260063703
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00000",
+          "time": 3529770.3257758
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00012",
+          "time": 3609141.83268494
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00001",
+          "time": 3923025.172887453
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00011",
+          "time": 4037046.0576520623
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00005",
+          "time": 4311220.052870743
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00016",
+          "time": 4441934.749931339
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00004",
+          "time": 4697207.275289373
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00015",
+          "time": 4835469.006116542
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00027",
+          "time": 5080500.050783499
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00024",
+          "time": 5221502.304578325
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00028",
+          "time": 5474451.273788148
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00041",
+          "time": 5604837.931408411
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00022",
+          "time": 5863832.826400489
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00039",
+          "time": 5993065.519932501
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00003",
+          "time": 6249173.622425652
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00014",
+          "time": 6404108.274159135
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00002",
+          "time": 6639207.33513308
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00040",
+          "time": 6799867.591311805
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00034",
+          "time": 7026732.635947163
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00031",
+          "time": 7228838.036644443
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00035",
+          "time": 7439073.5336582875
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00013",
+          "time": 7676486.956288902
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00007",
+          "time": 7869561.056243969
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00032",
+          "time": 8149307.765507484
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00033",
+          "time": 8320117.625938644
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00018",
+          "time": 8629465.303119654
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00029",
+          "time": 8751723.067732275
+        },
+        {
+          "kind": "sector-complete",
+          "bodyId": "moon",
+          "tileId": "sol:moon:surface:00030",
+          "time": 8929101.086236933
+        }
+      ]
+    }
+  ]
+}

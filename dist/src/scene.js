@@ -43,6 +43,7 @@ export class SystemViewer {
     canvas.addEventListener('pointerdown',e=>{moved=false;down=e.isPrimary?{x:e.clientX,y:e.clientY,button:e.button,pointerType:e.pointerType}:null;},options);
     canvas.addEventListener('click',e=>{
       if(!down||moved||down.button!==0||Math.hypot(e.clientX-down.x,e.clientY-down.y)>=5)return;
+      if(this.surveySelection?.handleOrbitClick(e.clientX,e.clientY))return;
       if(this.surface){this.setRay(e.clientX,e.clientY);this.onSurfaceTile?.(this.surface.pick(this.raycaster.ray));return;}
       if(this.administrationEditing){const sector=this.pickSectorAt(e.clientX,e.clientY);if(sector)this.onEditSector?.(sector);return;}
       if(this.navigation?.handleClick(e.clientX,e.clientY,down.pointerType))return;
