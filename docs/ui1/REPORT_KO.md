@@ -2,6 +2,12 @@
 
 2026-11-05 (Asia/Seoul)
 
+실행: https://space-project-sol-prototype.dagoku.chatgpt.site — **Sites 버전 15**, 기존 소유자 전용 접근 유지.
+
+제출: https://github.com/0-FLANDRE-0/SPACE_Project/pull/20 — main 대상, 미병합.
+
+[배포 출처](deployment.json): 테스트한 GitHub 커밋 `47551c4d9fdee27289ac081376fd170a313b729a`와 Sites 소스 `6f5ea8ccf80ce122c1e16e205e67532e721b899d`의 dist·호스팅 설정·package.json 트리/블롭 일치를 확인했다. 네이티브 배포 결과는 succeeded다.
+
 ## 기준과 범위
 
 - 작업 브랜치: `feat/ui1-continuous-zoom`, PR 대상: `main`. 병합하지 않는다.
