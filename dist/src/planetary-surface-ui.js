@@ -1,3 +1,4 @@
+import {UI1_TUNING} from './ui1-data.js';
 import { PlanetaryResourceUI } from './planetary-resource-ui.js';
 import { confirmedOreAtTile } from './resource-knowledge.js';
 import { SurfaceDistributions } from './surface-distribution-ui.js';
@@ -15,9 +16,9 @@ const valueFor=value=>value===null||value===undefined?'':String(value);
 const jsonValue=text=>text.trim()===''?null:JSON.parse(text);
 export class PlanetarySurfaceUI {
  constructor({viewer,panel,administration,notify,isDeveloper}){
-  this.viewer=viewer;this.panel=panel;this.administration=administration;this.notify=notify;this.isDeveloper=isDeveloper;this.active=null;this.entry=null;this.selectedId=null;this.pendingImport=null;this.serial=0;this.abort=new AbortController();
+  this.viewer=viewer;this.panel=panel;this.administration=administration;this.notify=notify;this.isDeveloper=isDeveloper;this.active=null;this.entry=null;this.selectedId=null;this.pendingImport=null;this.serial=0;this.waiters=[];this.abort=new AbortController();
   this.drafts=new SurfaceDrafts({transient:true,onWarning:notify,fetcher:(...args)=>fetch(...args)});const options={signal:this.abort.signal};
-  viewer.onSurfaceTile=hit=>this.selectTile(hit?.tile.id??null);viewer.onSurfaceExit=()=>this.exit(false);
+  viewer.onSurfaceStage=id=>this.syncStage(id);viewer.surfaceMultiSelect=()=>this.survey?.selecting===true;viewer.onSurfaceTile=hit=>this.selectTile(hit?.tile.id??null);viewer.onSurfaceExit=()=>this.exit(false);
   $('#surface-back').addEventListener('click',()=>this.exit(true),options);
   $('#surface-editor-toggle').addEventListener('click',()=>this.openEditor(),options);
   $('#surface-json-toggle').addEventListener('click',()=>this.openFiles(),options);
@@ -40,23 +41,32 @@ export class PlanetarySurfaceUI {
   for(const id of ['surface-resources-toggle','surface-generation-toggle','surface-editor-toggle','surface-json-toggle'])$('#'+id).addEventListener('click',()=>{$('#developer-drawer').hidden=true;$('#developer-tools').setAttribute('aria-expanded','false');},options);this.distributions=new SurfaceDistributions(this);this.draggable=new DraggableSectorPanel($('#surface-info'),$('#surface-info .surface-card-heading'),$('#surface-info-reset'));this.drafts.onChange=entry=>{if(entry===this.entry)this.distributions.invalidate();};this.generation=new PlanetaryGenerationUI(this);this.resources=new PlanetaryResourceUI(this);this.setDeveloper(false);
  }
  async open(bodyId){
-  const body=this.viewer.context.bodyById.get(bodyId);if(!body||!['planet','moon'].includes(body.kind))return;
-  this.exit(false);this.administration.close();if(this.viewer.selectedId!==bodyId)this.viewer.select(bodyId);
-  const v=this.viewer,saved={position:v.camera.position.clone(),target:v.controls.target.clone(),minimum:v.controls.minDistance,followId:v.followId,lastFollow:v.lastFollowTarget?.clone(),sectorsEnabled:v.sectors.enabled},serial=++this.serial;
-  this.active={bodyId,systemId:v.context.systemId,saved};$('#map').classList.add('surface-active');$('#surface-toolbar').hidden=false;$('#surface-name').textContent=body.name+' · 표면 준비 중';this.panel.element.hidden=true;
-  try{const grid=createPlanetarySurfaceGrid(v.context.systemId,body),entry=await this.drafts.load(grid,body);if(serial!==this.serial||this.active?.bodyId!==bodyId)return;
-   this.entry=entry;this.selectedId=null;v.surface=new PlanetarySurfaceView(v.bodies.get(bodyId),grid);v.sectors.setEnabled(false);v.focus(bodyId,'surface');if(v.transition)v.transition.endDistance=v.bodies.get(bodyId).radiusWorldUnits*3.7;
-   $('#surface-name').textContent=body.name+' · '+(surfaceTypeFor(body)==='atmosphere'?'대기 기준층':'표면 지도');$('#surface-grid-info').textContent=`f=${grid.frequency} · ${grid.cellCount}구역 · 적도 ${grid.equatorCellCount}칸 / 목표 ${grid.resolution.target??'명시값'}${grid.resolution.capped?' · 안전 상한 적용':''}`;
-   this.distributions.reset();this.setDeveloper(this.isDeveloper());this.renderInfo();
-  }catch(error){if(serial===this.serial){this.exit(false);this.notify('표면 지도를 열지 못했습니다: '+error.message);}}
+  const body=this.viewer.context.bodyById.get(bodyId);if(!body||!['planet','moon'].includes(body.kind))return null;
+  if(this.active?.bodyId===bodyId&&this.entry&&this.viewer.orbitZoom.layer==='surface')return this.entry;
+  this.waiters.splice(0).forEach(w=>w.resolve(null));this.pendingBodyId=bodyId;
+  const ready=new Promise(resolve=>this.waiters.push({bodyId,resolve}));this.viewer.focus(bodyId,'surface-stage');return ready;
  }
- exit(restore=true){this.generation?.close();this.resources?.close();if(!this.active)return;const {saved,bodyId}=this.active,v=this.viewer;this.serial++;v.surface?.dispose();v.surface=null;this.active=null;this.entry=null;this.selectedId=null;this.pendingImport=null;this.distributions?.reset();$('#industry-campaign-label').hidden=true;
-  v.sectors.setEnabled(saved.sectorsEnabled);$('#map').classList.remove('surface-active');for(const id of ['surface-toolbar','surface-info','surface-editor','surface-io'])$('#'+id).hidden=true;$('#surface-form').reset();$('#surface-deposits').replaceChildren();$('#surface-import').value='';
-  if(restore){v.select(bodyId);let delta=saved.target.clone().set(0,0,0);if(saved.followId&&saved.lastFollow){const current=v.bodies.get(saved.followId)?.root.position;if(current)delta=current.clone().sub(saved.lastFollow);}v.camera.position.copy(saved.position).add(delta);v.controls.target.copy(saved.target).add(delta);v.controls.minDistance=saved.minimum;v.followId=saved.followId;v.lastFollowTarget=saved.followId?v.bodies.get(saved.followId)?.root.position.clone():null;v.transition=null;v.controls.update();}
+ syncStage(bodyId){
+  if(!bodyId){if(this.active)this.exit(false);if(this.pendingBodyId&&!this.viewer.transition){this.waiters.splice(0).forEach(w=>w.resolve(null));this.pendingBodyId=null;}return;}
+  if(this.active?.bodyId===bodyId)return;this.activate(bodyId);
  }
- observeSelection(selection){if(this.active&&(selection?.kind!=='body'||selection.bodyId!==this.active.bodyId))this.exit(false);}
+ async activate(bodyId){
+  this.exit(false);const v=this.viewer,body=v.context.bodyById.get(bodyId);if(!body)return;this.administration.close();const serial=++this.serial;
+  this.active={bodyId,systemId:v.context.systemId,sectorsEnabled:v.sectors.enabled};$('#map').classList.add('surface-active');this.panel.element.hidden=true;
+  try{const grid=createPlanetarySurfaceGrid(v.context.systemId,body),entry=await this.drafts.load(grid,body);if(serial!==this.serial||v.orbitZoom.bodyId!==bodyId||v.orbitZoom.layer!=='surface')return;
+   this.entry=entry;this.selectedId=null;v.surface=new PlanetarySurfaceView(v.bodies.get(bodyId),grid);v.sectors.setEnabled(false);
+   $('#surface-name').textContent=body.name;$('#surface-grid-info').textContent=`${grid.cellCount}개 광역 구역`;
+   this.distributions.reset();this.setDeveloper(this.isDeveloper());this.renderInfo();this.pendingBodyId=null;this.waiters.splice(0).forEach(w=>w.resolve(w.bodyId===bodyId?entry:null));
+  }catch(error){if(serial===this.serial){this.exit(false);this.pendingBodyId=null;this.waiters.splice(0).forEach(w=>w.resolve(null));this.notify('표면 자료를 열지 못했습니다: '+error.message);}}
+ }
+ exit(zoomOut=true){
+  this.generation?.close();this.resources?.close();if(!this.active)return;const {bodyId,sectorsEnabled}=this.active,v=this.viewer;this.serial++;v.surface?.dispose();v.surface=null;this.active=null;this.entry=null;this.selectedId=null;this.pendingImport=null;this.distributions?.reset();$('#industry-campaign-label').hidden=true;
+  v.sectors.setEnabled(sectorsEnabled);$('#map').classList.remove('surface-active');for(const id of ['surface-toolbar','surface-info','surface-editor','surface-io'])$('#'+id).hidden=true;$('#surface-form').reset();$('#surface-deposits').replaceChildren();$('#surface-import').value='';
+  if(zoomOut&&v.orbitZoom.layer==='surface'){const radius=v.bodies.get(bodyId)?.radiusWorldUnits;if(radius)v.zoom(radius*UI1_TUNING.surfaceExitBodyRadii/v.camera.position.distanceTo(v.controls.target));}
+ }
+ observeSelection(selection){if(this.active&&selection?.kind==='ship')this.selectTile(null);}
  setDeveloper(enabled){if(this.entry){const g=this.entry.grid;$('#surface-grid-info').textContent=enabled?`f=${g.frequency} · ${g.cellCount}구역 · 적도 ${g.equatorCellCount}칸 / 목표 ${g.resolution.target??'명시값'}${g.resolution.capped?' · 안전 상한 적용':''}`:`${g.cellCount}개 광역 구역`;}$('#surface-resources-toggle').hidden=!enabled||!this.entry;$('#surface-generation-toggle').hidden=!enabled||!this.entry;$('#surface-editor-toggle').hidden=!enabled||!this.entry;$('#surface-json-toggle').hidden=!enabled||!this.entry;if(!enabled){this.resources?.close();this.generation?.close();$('#surface-editor').hidden=true;$('#surface-io').hidden=true;$('#surface-form').reset();$('#surface-deposits').replaceChildren();$('#surface-population-total').textContent='';$('#surface-import').value='';$('#surface-import-preview').textContent='';this.pendingImport=null;if(this.entry)this.renderInfo();}}
- selectTile(id){if(!this.entry)return;if(this.survey?.handleTile(id))return;if(this.selectedId!==id&&this.industry){this.industry.selectedSlot=null;this.industry.detailKey=null;}this.selectedId=id;this.viewer.surface.setSelected(id);if(!$('#surface-editor').hidden){if(id)this.fillForm();else this.closeEditor();}this.renderInfo();this.generation.onSelection(id);this.resources.onSelection(id);}
+ selectTile(id){if(!this.entry)return;if(this.survey?.handleTile(id))return;if(id&&this.viewer.navigation?.selectedId&&!this.viewer.navigation.targetMode)this.viewer.select(null);if(this.selectedId!==id&&this.industry){this.industry.selectedSlot=null;this.industry.detailKey=null;}this.selectedId=id;this.viewer.surface.setSelected(id);if(!$('#surface-editor').hidden){if(id)this.fillForm();else this.closeEditor();}this.renderInfo();this.generation.onSelection(id);this.resources.onSelection(id);}
  renderInfo(){const visible=!!this.entry&&!!this.selectedId&&$('#surface-editor').hidden&&$('#surface-io').hidden&&$('#generation-panel').hidden&&$('#resource-panel').hidden;$('#surface-info').hidden=!visible;if(!visible)return;const t=this.entry.grid.byId.get(this.selectedId);$('#surface-cell-title').textContent=t.kind==='pentagon'?'오각형 광역 구역':'육각형 광역 구역';$('#surface-cell-id').textContent=t.id;$('#surface-cell-location').textContent=`위도 ${t.latitudeDegrees.toFixed(3)}° · 경도 ${t.longitudeDegrees.toFixed(3)}°`;$('#surface-cell-area').textContent=`행성 면적의 ${(t.areaWeight*100).toFixed(4)}%`;$('#surface-cell-neighbors').textContent=t.neighborIds.join('\n');$('#surface-cell-public').textContent=surfaceTypeFor(this.entry.body)==='atmosphere'?'대기 기준층 관리 구역입니다. 고체 지표로 취급하지 않습니다.':'환경·문명 정보는 향후 문명별 인지 데이터와 연결합니다.';const known=confirmedOreAtTile(this.entry.template,this.selectedId,{runtime:this.industry?.store?.state});$('#surface-cell-public').textContent+='\n'+(known.value===null?'매장량 미확인':'알려진 자원: ore 확인 '+known.value.toLocaleString('ko-KR',{maximumFractionDigits:3})+' U');this.distributions.refresh();this.draggable.refresh();if(this.industry){this.industry.dirty=true;this.industry.render();}}
  openEditor(){if(!this.entry||!this.isDeveloper())return;this.resources.close();this.generation.close();if(!this.selectedId){this.notify('앞면의 표면 구역을 먼저 선택하세요.');return;}this.administration.close();$('#surface-io').hidden=true;$('#surface-editor').hidden=false;$('#surface-info').hidden=true;this.fillForm();this.setTab('terrain');}
  closeEditor(){$('#surface-editor').hidden=true;$('#surface-form').reset();$('#surface-deposits').replaceChildren();this.renderInfo();}
@@ -80,5 +90,5 @@ export class PlanetarySurfaceUI {
  exportCurrent(prefix=''){if(!this.entry||!this.isDeveloper())return;try{const text=this.drafts.export(this.entry),blob=new Blob([text],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=prefix+`SPACE_surface_${this.entry.grid.systemId}_${this.entry.grid.bodyId}_schema${this.entry.template.schemaVersion}.json`.replace(/[^a-zA-Z0-9_.-]/g,'_');document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);$('#surface-import-preview').textContent='JSON 파일 다운로드를 요청했습니다.';}catch(error){$('#surface-import-preview').textContent=error.message;}}
  async previewImport(file){this.pendingImport=null;$('#surface-import-confirm').checked=false;$('#surface-import-apply').disabled=true;if(!file||!this.entry||!this.isDeveloper())return;const entry=this.entry;try{if(file.size>5*1024*1024)throw Error('파일은 최대 5 MiB입니다.');const next=this.drafts.preview(entry,await file.text());if(entry!==this.entry||!this.isDeveloper())return;this.pendingImport=next;$('#surface-import-preview').textContent=`검증 완료 · ${next.systemId}/${next.bodyId} · f=${next.grid.frequency} · ${next.grid.cellCount}구역 · 지질 ${Object.keys(next.geology.cells).length}셀 · 초기 시나리오 ${Object.keys(next.startingScenario.cells).length}셀. 확인하면 현재 탭에만 적용합니다. 새로고침하면 공식 초기값으로 돌아갑니다.`;}catch(error){if(entry===this.entry)$('#surface-import-preview').textContent='가져오기 거부: '+error.message;}}
  applyImport(){if(!this.entry||!this.pendingImport||!this.isDeveloper()||!$('#surface-import-confirm').checked)return;try{const saved=this.drafts.commit(this.entry,this.pendingImport,{replace:true});this.pendingImport=null;$('#surface-import-apply').disabled=true;$('#surface-import-confirm').checked=false;$('#surface-import-preview').textContent=saved?'수동 가져오기를 현재 탭에 적용했습니다. 새로고침하면 초기화됩니다.':'가져오기를 메모리에 적용했습니다. 저장 실패로 JSON 백업이 필요합니다.';if(this.selectedId)this.fillForm();}catch(error){$('#surface-import-preview').textContent='가져오기 거부: '+error.message;}}
- dispose(){this.exit(false);this.generation.dispose();this.resources.dispose();this.distributions.dispose();this.draggable.dispose();this.abort.abort();this.viewer.onSurfaceTile=null;this.viewer.onSurfaceExit=null;}
+ dispose(){this.exit(false);this.generation.dispose();this.resources.dispose();this.distributions.dispose();this.draggable.dispose();this.abort.abort();this.waiters.splice(0).forEach(w=>w.resolve(null));this.viewer.onSurfaceStage=null;this.viewer.surfaceMultiSelect=null;this.viewer.onSurfaceTile=null;this.viewer.onSurfaceExit=null;}
 }

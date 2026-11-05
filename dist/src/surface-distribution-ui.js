@@ -3,12 +3,13 @@ import { confirmedOreAtTile } from './resource-knowledge.js';
 import { personsToPOP } from './resource-definitions.js';
 const $=s=>document.querySelector(s),names={ore:'매장량(알려진)',population:'인구 분포',facilities:'시설 분포'};
 export class SurfaceDistributions {
- constructor(surface){this.surface=surface;this.mode=null;this.layers=new Map();this.dirty=true;this.revision=0;this.abort=new AbortController();for(const b of document.querySelectorAll('[data-surface-distribution]'))b.addEventListener('click',()=>{this.mode=this.mode===b.dataset.surfaceDistribution?null:b.dataset.surfaceDistribution;this.dirty=true;this.refresh();surface.renderInfo();},{signal:this.abort.signal});}
+ constructor(surface){this.surface=surface;this.mode=null;this.layers=new Map();this.dirty=true;this.revision=0;this.abort=new AbortController();this.bindButtons(document.querySelectorAll('[data-surface-distribution]'));}
+ bindButtons(nodes){for(const b of nodes)b.addEventListener('click',async()=>{if(!this.surface.entry){await this.surface.open(this.surface.viewer.orbitZoom.bodyId);if(!this.surface.entry)return;}const mode=b.dataset.surfaceDistribution;this.mode=mode==='survey'?null:this.mode===mode?null:mode;if(mode==='survey')this.surface.administration.setMode('exploration');this.dirty=true;this.refresh();this.surface.renderInfo();},{signal:this.abort.signal});}
  reset(){this.mode=null;this.layers.clear();this.lastEntry=null;this.lastTemplate=null;this.dirty=true;this.refresh();}
  invalidate(){this.dirty=true;this.refresh();}
  setDeveloperLayer(owner,colors,connections=null){if(colors)this.layers.set(owner,{colors,connections});else this.layers.delete(owner);this.dirty=true;this.refresh();}
  release(owner){this.layers.delete(owner);this.dirty=true;this.refresh();}
- refresh(){const s=this.surface,view=s.viewer.surface;for(const b of document.querySelectorAll('[data-surface-distribution]'))b.setAttribute('aria-pressed',String(this.mode===b.dataset.surfaceDistribution));if(!s.entry||!view){$('#surface-distribution-legend').hidden=true;return;}
+ refresh(){const s=this.surface,view=s.viewer.surface;for(const b of document.querySelectorAll('[data-surface-distribution]'))b.setAttribute('aria-pressed',String((this.mode??'survey')===b.dataset.surfaceDistribution));if(!s.entry||!view){$('#surface-distribution-legend').hidden=true;return;}
   if(this.lastEntry!==s.entry||this.lastTemplate!==s.entry.template){this.lastEntry=s.entry;this.lastTemplate=s.entry.template;this.dirty=true;}if(!this.dirty)return;this.dirty=false;
   const privateLayer=this.layers.get('resources')??this.layers.get('generation');if(privateLayer||this.mode!=='facilities')view.setFacilityOutlines(null);if(privateLayer){view.setAuthoringColors(privateLayer.colors,{opacity:1});view.setAuthoringConnections(privateLayer.connections);$('#surface-distribution-legend').hidden=true;return;}
   if(s.survey?.distribution(view))return;

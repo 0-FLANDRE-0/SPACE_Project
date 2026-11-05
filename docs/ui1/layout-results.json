@@ -1,0 +1,461 @@
+{
+  "rows": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "target": {
+        "#resource-bar": {
+          "x": 136,
+          "y": 12,
+          "width": 1101,
+          "height": 50,
+          "top": 12,
+          "right": 1237,
+          "bottom": 62,
+          "left": 136
+        },
+        "#surface-info": {
+          "x": 14,
+          "y": 70,
+          "width": 520,
+          "height": 818,
+          "top": 70,
+          "right": 534,
+          "bottom": 888,
+          "left": 14
+        },
+        ".timeline": {
+          "x": 825,
+          "y": 842,
+          "width": 320,
+          "height": 46,
+          "top": 842,
+          "right": 1145,
+          "bottom": 888,
+          "left": 825
+        },
+        ".ship-command": null,
+        ".ship-target-prompt": {
+          "x": 856.9296875,
+          "y": 778,
+          "width": 256.140625,
+          "height": 54,
+          "top": 778,
+          "right": 1113.0703125,
+          "bottom": 832,
+          "left": 856.9296875
+        },
+        ".ship-info": null,
+        "#surface-distribution-legend": {
+          "x": 544,
+          "y": 118,
+          "width": 170,
+          "height": 123.75,
+          "top": 118,
+          "right": 714,
+          "bottom": 241.75,
+          "left": 544
+        }
+      },
+      "commands": {
+        "#resource-bar": {
+          "x": 136,
+          "y": 12,
+          "width": 1101,
+          "height": 50,
+          "top": 12,
+          "right": 1237,
+          "bottom": 62,
+          "left": 136
+        },
+        "#surface-info": {
+          "x": 14,
+          "y": 70,
+          "width": 520,
+          "height": 818,
+          "top": 70,
+          "right": 534,
+          "bottom": 888,
+          "left": 14
+        },
+        ".timeline": {
+          "x": 825,
+          "y": 842,
+          "width": 320,
+          "height": 46,
+          "top": 842,
+          "right": 1145,
+          "bottom": 888,
+          "left": 825
+        },
+        ".ship-command": {
+          "x": 909,
+          "y": 788,
+          "width": 152,
+          "height": 44,
+          "top": 788,
+          "right": 1061,
+          "bottom": 832,
+          "left": 909
+        },
+        ".ship-target-prompt": null,
+        ".ship-info": null,
+        "#surface-distribution-legend": {
+          "x": 544,
+          "y": 118,
+          "width": 170,
+          "height": 123.75,
+          "top": 118,
+          "right": 714,
+          "bottom": 241.75,
+          "left": 544
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "target": {
+        "#resource-bar": {
+          "x": 86,
+          "y": 10,
+          "width": 744,
+          "height": 47,
+          "top": 10,
+          "right": 830,
+          "bottom": 57,
+          "left": 86
+        },
+        "#surface-info": {
+          "x": 14,
+          "y": 105,
+          "width": 375.578125,
+          "height": 273,
+          "top": 105,
+          "right": 389.578125,
+          "bottom": 378,
+          "left": 14
+        },
+        ".timeline": {
+          "x": 454.78125,
+          "y": 334,
+          "width": 320,
+          "height": 44,
+          "top": 334,
+          "right": 774.78125,
+          "bottom": 378,
+          "left": 454.78125
+        },
+        ".ship-command": null,
+        ".ship-target-prompt": {
+          "x": 540.796875,
+          "y": 268,
+          "width": 147.96875,
+          "height": 54,
+          "top": 268,
+          "right": 688.765625,
+          "bottom": 322,
+          "left": 540.796875
+        },
+        ".ship-info": null,
+        "#surface-distribution-legend": {
+          "x": 399.578125,
+          "y": 153,
+          "width": 170,
+          "height": 86,
+          "top": 153,
+          "right": 569.578125,
+          "bottom": 239,
+          "left": 399.578125
+        }
+      },
+      "commands": {
+        "#resource-bar": {
+          "x": 86,
+          "y": 10,
+          "width": 744,
+          "height": 47,
+          "top": 10,
+          "right": 830,
+          "bottom": 57,
+          "left": 86
+        },
+        "#surface-info": {
+          "x": 14,
+          "y": 105,
+          "width": 375.578125,
+          "height": 273,
+          "top": 105,
+          "right": 389.578125,
+          "bottom": 378,
+          "left": 14
+        },
+        ".timeline": {
+          "x": 454.78125,
+          "y": 334,
+          "width": 320,
+          "height": 44,
+          "top": 334,
+          "right": 774.78125,
+          "bottom": 378,
+          "left": 454.78125
+        },
+        ".ship-command": {
+          "x": 541.78125,
+          "y": 278,
+          "width": 146,
+          "height": 44,
+          "top": 278,
+          "right": 687.78125,
+          "bottom": 322,
+          "left": 541.78125
+        },
+        ".ship-target-prompt": null,
+        ".ship-info": null,
+        "#surface-distribution-legend": {
+          "x": 399.578125,
+          "y": 153,
+          "width": 170,
+          "height": 86,
+          "top": 153,
+          "right": 569.578125,
+          "bottom": 239,
+          "left": 399.578125
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "target": {
+        "#resource-bar": {
+          "x": 86,
+          "y": 10,
+          "width": 567,
+          "height": 47,
+          "top": 10,
+          "right": 653,
+          "bottom": 57,
+          "left": 86
+        },
+        "#surface-info": {
+          "x": 14,
+          "y": 105,
+          "width": 296.8125,
+          "height": 258,
+          "top": 105,
+          "right": 310.8125,
+          "bottom": 363,
+          "left": 14
+        },
+        ".timeline": {
+          "x": 326.90625,
+          "y": 319,
+          "width": 320,
+          "height": 44,
+          "top": 319,
+          "right": 646.90625,
+          "bottom": 363,
+          "left": 326.90625
+        },
+        ".ship-command": null,
+        ".ship-target-prompt": {
+          "x": 412.921875,
+          "y": 253,
+          "width": 147.96875,
+          "height": 54,
+          "top": 253,
+          "right": 560.890625,
+          "bottom": 307,
+          "left": 412.921875
+        },
+        ".ship-info": null,
+        "#surface-distribution-legend": {
+          "x": 320.8125,
+          "y": 153,
+          "width": 122.1875,
+          "height": 78,
+          "top": 153,
+          "right": 443,
+          "bottom": 231,
+          "left": 320.8125
+        }
+      },
+      "commands": {
+        "#resource-bar": {
+          "x": 86,
+          "y": 10,
+          "width": 567,
+          "height": 47,
+          "top": 10,
+          "right": 653,
+          "bottom": 57,
+          "left": 86
+        },
+        "#surface-info": {
+          "x": 14,
+          "y": 105,
+          "width": 296.8125,
+          "height": 258,
+          "top": 105,
+          "right": 310.8125,
+          "bottom": 363,
+          "left": 14
+        },
+        ".timeline": {
+          "x": 326.90625,
+          "y": 319,
+          "width": 320,
+          "height": 44,
+          "top": 319,
+          "right": 646.90625,
+          "bottom": 363,
+          "left": 326.90625
+        },
+        ".ship-command": {
+          "x": 413.90625,
+          "y": 263,
+          "width": 146,
+          "height": 44,
+          "top": 263,
+          "right": 559.90625,
+          "bottom": 307,
+          "left": 413.90625
+        },
+        ".ship-target-prompt": null,
+        ".ship-info": null,
+        "#surface-distribution-legend": {
+          "x": 320.8125,
+          "y": 153,
+          "width": 122.1875,
+          "height": 78,
+          "top": 153,
+          "right": 443,
+          "bottom": 231,
+          "left": 320.8125
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "target": {
+        "#resource-bar": {
+          "x": 74,
+          "y": 10,
+          "width": 302,
+          "height": 94,
+          "top": 10,
+          "right": 376,
+          "bottom": 104,
+          "left": 74
+        },
+        "#surface-info": {
+          "x": 14,
+          "y": 354,
+          "width": 362,
+          "height": 422,
+          "top": 354,
+          "right": 376,
+          "bottom": 776,
+          "left": 14
+        },
+        ".timeline": {
+          "x": 35,
+          "y": 786,
+          "width": 320,
+          "height": 46,
+          "top": 786,
+          "right": 355,
+          "bottom": 832,
+          "left": 35
+        },
+        ".ship-command": null,
+        ".ship-target-prompt": {
+          "x": 126.0546875,
+          "y": 292,
+          "width": 137.890625,
+          "height": 54,
+          "top": 292,
+          "right": 263.9453125,
+          "bottom": 346,
+          "left": 126.0546875
+        },
+        ".ship-info": null,
+        "#surface-distribution-legend": {
+          "x": 14,
+          "y": 198,
+          "width": 138,
+          "height": 88.75,
+          "top": 198,
+          "right": 152,
+          "bottom": 286.75,
+          "left": 14
+        }
+      },
+      "commands": {
+        "#resource-bar": {
+          "x": 74,
+          "y": 10,
+          "width": 302,
+          "height": 94,
+          "top": 10,
+          "right": 376,
+          "bottom": 104,
+          "left": 74
+        },
+        "#surface-info": {
+          "x": 14,
+          "y": 354,
+          "width": 362,
+          "height": 422,
+          "top": 354,
+          "right": 376,
+          "bottom": 776,
+          "left": 14
+        },
+        ".timeline": {
+          "x": 35,
+          "y": 786,
+          "width": 320,
+          "height": 46,
+          "top": 786,
+          "right": 355,
+          "bottom": 832,
+          "left": 35
+        },
+        ".ship-command": {
+          "x": 119,
+          "y": 302,
+          "width": 152,
+          "height": 44,
+          "top": 302,
+          "right": 271,
+          "bottom": 346,
+          "left": 119
+        },
+        ".ship-target-prompt": null,
+        ".ship-info": null,
+        "#surface-distribution-legend": {
+          "x": 14,
+          "y": 198,
+          "width": 138,
+          "height": 88.75,
+          "top": 198,
+          "right": 152,
+          "bottom": 286.75,
+          "left": 14
+        }
+      }
+    }
+  ],
+  "errors": []
+}
