@@ -1,0 +1,11 @@
+LHS64 E0 / five seeds: 8/10 jobs, 1.4s
+LHS64 E0 / five seeds: 10/10 jobs, 1.8s
+all4.1 scenarios paired OFF/ON: 8/12 jobs, 11.0s
+all4.1 scenarios paired OFF/ON: 12/12 jobs, 15.0s
+H-CUT geography/duration/loss pairs: 8/36 jobs, 2.0s
+H-CUT geography/duration/loss pairs: 16/36 jobs, 3.7s
+H-CUT geography/duration/loss pairs: 24/36 jobs, 5.3s
+H-CUT geography/duration/loss pairs: 32/36 jobs, 7.1s
+H-CUT geography/duration/loss pairs: 36/36 jobs, 7.8s
+rounded water-intake allocation sensitivity: 3/3 jobs, 0.4s
+{"out":"artifacts/econ42-quick","counts":{"search":10,"final":144,"cut":72,"waterSensitivity":3,"totalRuns":229,"integrityFailures":0},"seconds":25.059413014,"selfPassing":0,"reliefPassing":0}

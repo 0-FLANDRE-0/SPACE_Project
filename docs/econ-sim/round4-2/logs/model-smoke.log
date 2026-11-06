@@ -1,0 +1,82 @@
+PASS ON R41-R4-rounded-P000 E0 158 {"earth":{"alloyU":7750425.3330000015,"HR":6158852.379999999,"water":6158868.870000002},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-rounded-P000 E2-S 147 {"earth":{"alloyU":7567697.999999995,"HR":6123356.134999996,"water":6123372.665000003},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-rounded-P000 E5-M 125 {"earth":{"alloyU":7556343.260000001,"HR":6067941.146000001,"water":6067956.659999996},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-rounded-P000 E5-X 70 {"earth":{"alloyU":1699099.8460000001,"HR":392776.527,"water":392776.86},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-rounded-P000 E6-R 124 {"earth":{"alloyU":7715770.878999994,"HR":6277178.869999999,"water":6277195.160000001},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-N066-P000 E0 124 {"earth":{"alloyU":7757964.299999999,"HR":6342249.983,"water":6342267.180000002},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-N066-P000 E2-S 187 {"earth":{"alloyU":7567522.171999997,"HR":5850555.744999999,"water":5850572.509999999},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-N066-P000 E5-M 121 {"earth":{"alloyU":7563775.890999997,"HR":6144784.275999997,"water":6144799.914999997},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-N066-P000 E5-X 68 {"earth":{"alloyU":1699174.675,"HR":437213.82,"water":437214.11},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+PASS ON R41-R4-N066-P000 E6-R 122 {"earth":{"alloyU":7722201.920000002,"HR":6381204.409,"water":6381221.655000002},"moon":{"alloyU":0,"HR":0,"water":0},"mars":{"alloyU":0,"HR":0,"water":0}}
+CUT false 2 {
+  earth: {
+    assets: 82,
+    reduction: 0,
+    prod: 7758665.526999998,
+    H: 2666.445,
+    curr: [
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined, undefined, undefined, undefined,
+      undefined, undefined
+    ]
+  },
+  moon: { assets: 0, reduction: 0, prod: 0, H: 88.336, curr: [] },
+  mars: { assets: 0, reduction: 0, prod: 0, H: 88.336, curr: [] }
+}
+CUT true 98 {
+  earth: {
+    assets: 82,
+    reduction: 6763414.434999999,
+    prod: 7917475.755999997,
+    H: 2161.849,
+    curr: [
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      'hydrogenReduction', 'hydrogenReduction', 'hydrogenReduction',
+      undefined,           undefined,           undefined,
+      undefined
+    ]
+  },
+  moon: { assets: 0, reduction: 0, prod: 0, H: 88.336, curr: [] },
+  mars: { assets: 0, reduction: 0, prod: 0, H: 88.336, curr: [] }
+}
+PASS adapter exact E0
+PASS adapter exact E5-X
+PASS adapter exact E6-R
