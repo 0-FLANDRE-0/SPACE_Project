@@ -12,7 +12,7 @@ export class OrbitLayerView {
       let points=null;if(layer!=='surface'){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(graph.grid.vertices.flatMap(p=>[p.x*factor,p.y*factor,p.z*factor]),3));points=new THREE.Points(g,new THREE.PointsMaterial({color:colors[layer],size:6,sizeAttenuation:false,depthTest:true,depthWrite:false}));root.add(points);}layers.set(layer,{lines,points});}
     const value={root,layers,graph};this.entries.set(bodyId,value);return value;
   }
-  update(state,targetMode){for(const e of this.entries.values())e.root.visible=false;this.caption.hidden=!state.bodyId||!!this.viewer.surface;if(this.caption.hidden)return;
+  update(state,targetMode){for(const e of this.entries.values())e.root.visible=false;this.caption.hidden=!state.bodyId||!!this.viewer.surface;if(this.viewer.surface){if(targetMode&&state.bodyId){const e=this.entries.get(state.bodyId)??this.create(state.bodyId);e.root.visible=true;for(const [name,l]of e.layers){l.lines.visible=false;if(l.points)l.points.visible=name==='low';}}return;}if(this.caption.hidden)return;
     const e=this.entries.get(state.bodyId)??this.create(state.bodyId);e.root.visible=true;const order=['high','middle','low','surface'],index=order.indexOf(state.layer),faint=order[index-1];for(const [name,layer]of e.layers){layer.lines.visible=name===state.layer||name===faint;layer.lines.material.opacity=name===state.layer?.48:.065;if(layer.points)layer.points.visible=name===state.layer&&targetMode;}
     this.caption.textContent=`${e.graph.body.name} · ${{high:'고궤도',middle:'중궤도',low:'저궤도',surface:'표면 섹터'}[state.layer]}`;this.caption.dataset.layer=state.layer;
   }

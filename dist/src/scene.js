@@ -1,3 +1,4 @@
+import {UI1_TUNING} from './ui1-data.js';
 import {M1B_TUNING as ORBIT_TUNING} from './orbit-data.js';
 import {OrbitZoomState} from './orbit-zoom.js';
 import {OrbitLayerView} from './orbit-view.js';
@@ -44,7 +45,7 @@ export class SystemViewer {
     canvas.addEventListener('click',e=>{
       if(!down||moved||down.button!==0||Math.hypot(e.clientX-down.x,e.clientY-down.y)>=5)return;
       if(this.surveySelection?.handleOrbitClick(e.clientX,e.clientY))return;
-      if(this.surface){this.setRay(e.clientX,e.clientY);this.onSurfaceTile?.(this.surface.pick(this.raycaster.ray));return;}
+      if(this.surface){if(!this.surfaceMultiSelect?.()&&this.navigation?.handleSurfaceClick(e.clientX,e.clientY,down.pointerType))return;this.setRay(e.clientX,e.clientY);this.onSurfaceTile?.(this.surface.pick(this.raycaster.ray));return;}
       if(this.administrationEditing){const sector=this.pickSectorAt(e.clientX,e.clientY);if(sector)this.onEditSector?.(sector);return;}
       if(this.navigation?.handleClick(e.clientX,e.clientY,down.pointerType))return;
       const body=this.pickAt(e.clientX,e.clientY,down.pointerType);
@@ -143,7 +144,6 @@ export class SystemViewer {
   createMarker(){const points=Array.from({length:96},(_,i)=>new THREE.Vector3(Math.cos(i/96*Math.PI*2),Math.sin(i/96*Math.PI*2),0));this.marker=new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineBasicMaterial({color:'#e5c38b',transparent:true,opacity:.75,depthTest:false}));this.marker.visible=false;this.marker.renderOrder=5;this.worldRoot.add(this.marker);}
   makeLabel(body){const label=document.createElement('button');label.className='body-label'+(body.parent?' moon':'');label.dataset.bodyId=body.id;label.setAttribute('aria-label',body.name+' 선택');label.textContent=body.name;label.addEventListener('click',()=>{if(!this.navigation?.handleBodyClick(body.id))this.select(body.id);},{signal:this.contextAbort.signal});label.addEventListener('contextmenu',e=>{e.preventDefault();if(this.navigation?.selectedId)this.navigation.order({kind:'body',id:body.id});},{signal:this.contextAbort.signal});this.labelsElement.appendChild(label);this.labels.set(body.id,label);}
   select(id,anchorWorld=null){
-    if(this.surface&&id!==this.surface.body.id)this.onSurfaceExit?.();
     if(id!==null&&!this.context.bodyById.has(id))return;
     this.selectedId=id;this.selectedSector=null;if(!this.orbitZoom.bodyId){this.followId=null;this.lastFollowTarget=null;}this.transition=null;this.sectors.select(null);
     for(const[bodyId,line]of this.orbits){line.material.opacity=orbitEmphasis(bodyId,id,this.context.bodyById);line.material.color.set(bodyId===id?'#e9c587':'#8fa6c0');}
@@ -155,24 +155,24 @@ export class SystemViewer {
   centerMinDistance(center=gameV(this.context.sectorPlane.originGameAU)){const enclosing=[...this.bodies.values()].filter(e=>e.body.kind==='star'&&e.root.position.distanceTo(center)<e.radiusWorldUnits).map(e=>e.radiusWorldUnits*1.2);return Math.max(gameAUToWorld(.1),...enclosing);}
   homeDirection(){const p=this.context.sectorPlane;return V(p.tangentU).multiplyScalar(.48).addScaledVector(V(p.normal),.56).addScaledVector(V(p.tangentV),-.71).normalize();}
   homePosition(){const gridRadius=Math.max(...this.sectors.grid.sectors.map(s=>{const p=axialToPlane(s.q,s.r,this.sectors.grid.radiusGameAU);return Math.hypot(p.u,p.v)+this.sectors.grid.radiusGameAU;}));const radius=Math.max(gridRadius,this.extent.paddedRadiusGameAU);const distance=gameAUToWorld(radius/Math.sin(this.camera.fov*Math.PI/360)*1.04/Math.min(1,this.camera.aspect));return gameV(this.context.sectorPlane.originGameAU).addScaledVector(this.homeDirection(),distance);}
-  beginTransition(target,distance,direction,minimum=this.controls.minDistance){const startDistance=this.camera.position.distanceTo(this.controls.target);this.controls.minDistance=Math.min(startDistance,minimum);this.transition={target:target.clone(),startTarget:this.controls.target.clone(),startDistance,endDistance:distance,startDirection:this.camera.position.clone().sub(this.controls.target).normalize(),direction:direction.clone().normalize(),elapsed:0,minimum};}
+  beginTransition(target,distance,direction,minimum=this.controls.minDistance){const startDistance=this.camera.position.distanceTo(this.controls.target);this.controls.minDistance=Math.min(startDistance,minimum);this.transition={target:target.clone(),startTarget:this.controls.target.clone(),startDistance,endDistance:distance,startDirection:this.camera.position.clone().sub(this.controls.target).normalize(),direction:direction.clone().normalize(),elapsed:0,minimum,bodyId:this.followId};}
   focus(id,mode='surface'){
     this.orbitZoom.reset();
     if(this.navigation)this.navigation.layer.followId=null;
     const body=this.context.bodyById.get(id);if(!body)return;let targetBody=body;if(mode==='orbit'&&body.parent)targetBody=this.context.bodyById.get(body.parent);
     const target=gameV(this.context.gamePosition(targetBody.id,this.simDays)),radius=bodyRadiusWorldUnits(body),extent=gameAUToWorld(bodySystemExtentGameAU(this.context,targetBody,this.simDays));
-    const distance=body.kind==='belt'?gameAUToWorld(body.outerGameAU)*2.9:mode==='orbit'?Math.max(extent*3.5,bodyRadiusWorldUnits(targetBody)*9):radius*7.5;
+    const distance=body.kind==='belt'?gameAUToWorld(body.outerGameAU)*2.9:mode==='orbit'?Math.max(extent*3.5,bodyRadiusWorldUnits(targetBody)*9):radius*(mode==='surface-stage'?UI1_TUNING.surfaceShortcutBodyRadii:7.5);
     this.followId=body.kind==='belt'?null:targetBody.id;this.lastFollowTarget=this.followId?target.clone():null;
     let direction=this.camera.position.clone().sub(this.controls.target).normalize();
-    if(body.parent&&mode==='surface'){const parent=this.context.bodyById.get(body.parent),parentPos=gameV(this.context.gamePosition(parent.id,this.simDays));if(target.clone().addScaledVector(direction,distance).distanceTo(parentPos)<bodyRadiusWorldUnits(parent)*1.1)direction=target.clone().sub(parentPos).normalize();}
+    if(body.parent&&['surface','surface-stage'].includes(mode)){const parent=this.context.bodyById.get(body.parent),parentPos=gameV(this.context.gamePosition(parent.id,this.simDays));if(target.clone().addScaledVector(direction,distance).distanceTo(parentPos)<bodyRadiusWorldUnits(parent)*1.1)direction=target.clone().sub(parentPos).normalize();}
     this.beginTransition(target,distance,direction,Math.max(.1,bodyRadiusWorldUnits(targetBody)*1.2));
   }
   home(inner=false){this.orbitZoom.reset();if(this.surface)this.onSurfaceExit?.();this.followId=null;this.lastFollowTarget=null;const target=gameV(this.context.sectorPlane.originGameAU);let distance=this.homePosition().distanceTo(target);if(inner&&this.context.planets.length){const innerBodies=[...this.context.planets].sort((a,b)=>a.orbitGameAU-b.orbitGameAU).slice(0,Math.ceil(this.context.planets.length/2));const extent=Math.max(...innerBodies.map(b=>b.orbitGameAU*(1+(b.eccentricity??0))+bodySystemExtentGameAU(this.context,b)));distance=gameAUToWorld(extent)*3.15/Math.min(1,this.camera.aspect);}this.beginTransition(target,distance,this.homeDirection(),this.centerMinDistance());}
   setView(view){const p=this.context.sectorPlane,direction=view==='top'?V(p.normal).addScaledVector(V(p.tangentU),.002):view==='side'?V(p.tangentV).negate().addScaledVector(V(p.normal),.015).addScaledVector(V(p.tangentU),.1):this.homeDirection();this.beginTransition(this.controls.target,this.camera.position.distanceTo(this.controls.target),direction);}
   zoom(factor){this.transition=null;const offset=this.camera.position.clone().sub(this.controls.target);offset.setLength(THREE.MathUtils.clamp(offset.length()*factor,this.controls.minDistance,this.controls.maxDistance));this.camera.position.copy(this.controls.target).add(offset);this.controls.update();}
   updateOrbitZoom(days){
-    if(this.surface){this.orbitZoom.reset();return;}if(this.navigation?.layer.followId){this.orbitZoom.reset();return;}if(this.transition)return;
-    const previous=this.orbitZoom.bodyId,candidates=[...this.bodies.values()].filter(e=>['planet','moon'].includes(e.body.kind)).map(e=>{const r=e.radiusWorldUnits,high=r*SHIP_TUNING.orbitRadiusMultipliers.high;return{bodyId:e.body.id,distanceBodyRadii:this.camera.position.distanceTo(e.root.position)/r,distanceHighRadii:this.camera.position.distanceTo(e.root.position)/high,centerHighRadii:this.controls.target.distanceTo(e.root.position)/high};});
+    if(this.navigation?.layer.followId){this.orbitZoom.reset();return;}if(this.transition&&!this.transition.bodyId){this.orbitZoom.reset();return;}
+    const previous=this.orbitZoom.bodyId,candidates=[...this.bodies.values()].filter(e=>['planet','moon'].includes(e.body.kind)&&(!this.transition?.bodyId||e.body.id===this.transition.bodyId)).map(e=>{const r=e.radiusWorldUnits,high=r*SHIP_TUNING.orbitRadiusMultipliers.high;return{bodyId:e.body.id,distanceBodyRadii:this.camera.position.distanceTo(e.root.position)/r,distanceHighRadii:this.camera.position.distanceTo(e.root.position)/high,centerHighRadii:this.controls.target.distanceTo(e.root.position)/high};});
     this.orbitZoom.update(candidates);if(this.orbitZoom.bodyId){if(this.followId!==this.orbitZoom.bodyId){this.followId=this.orbitZoom.bodyId;this.lastFollowTarget=gameV(this.context.gamePosition(this.followId,days));}this.controls.minDistance=this.bodies.get(this.followId).radiusWorldUnits*ORBIT_TUNING.cameraMinRadiusMultiplier;}else if(previous&&this.followId===previous){this.followId=null;this.lastFollowTarget=null;}const centered=candidates.filter(c=>c.centerHighRadii<ORBIT_TUNING.centerEnterHighRadii).sort((a,b)=>a.centerHighRadii-b.centerHighRadii)[0];if(!this.orbitZoom.bodyId)this.controls.minDistance=centered?this.bodies.get(centered.bodyId).radiusWorldUnits*ORBIT_TUNING.cameraMinRadiusMultiplier:this.centerMinDistance(this.controls.target);
   }
   update(days,seconds){
@@ -181,9 +181,8 @@ export class SystemViewer {
     for(const belt of this.belts.values()){belt.mesh.rotation.y=days*(belt.body.rotationRate??.0001);belt.edges.forEach(e=>e.visible=this.showOrbits&&!this.surface);}
     this.navigation?.beforeCameraUpdate();
     if(this.followId){const target=gameV(this.context.gamePosition(this.followId,days)),delta=target.clone().sub(this.lastFollowTarget??target);this.camera.position.add(delta);this.controls.target.add(delta);if(this.transition){this.transition.target.add(delta);this.transition.startTarget.add(delta);}this.lastFollowTarget=target;}
-    this.updateOrbitZoom(days);
     if(this.transition){const t=this.transition;t.elapsed+=seconds;const fraction=Math.min(t.elapsed/1.25,1),ease=fraction*fraction*(3-2*fraction);this.controls.target.lerpVectors(t.startTarget,t.target,ease);const direction=t.startDirection.clone().lerp(t.direction,ease).normalize(),distance=Math.exp(THREE.MathUtils.lerp(Math.log(t.startDistance),Math.log(t.endDistance),ease));this.camera.position.copy(this.controls.target).addScaledVector(direction,distance);if(fraction===1){this.controls.minDistance=t.minimum;this.transition=null;}}
-    this.controls.update();this.camera.updateMatrixWorld();this.scene.updateMatrixWorld();this.projections=this.screenCandidates();
+    this.controls.update();this.updateOrbitZoom(days);this.onSurfaceStage?.(this.orbitZoom.layer==='surface'?this.orbitZoom.bodyId:null);this.onBeforeProjection?.(seconds);this.camera.updateMatrixWorld();this.scene.updateMatrixWorld();this.projections=this.screenCandidates();
     const selected=this.bodies.get(this.selectedId);this.marker.visible=!this.surface&&!!selected&&!!this.projections.find(p=>p.id===this.selectedId)?.visible;if(selected){this.marker.position.copy(selected.root.position);this.marker.quaternion.copy(this.camera.quaternion);this.marker.scale.setScalar(Math.max(selected.radiusWorldUnits*1.45,this.camera.position.distanceTo(selected.root.position)*.009));}
     const distance=worldToGameAU(this.camera.position.distanceTo(this.controls.target));this.scale=scaleForView(distance,this.camera.fov,this.height,this.width<=700?70:110);this.sectors.update(distance);this.referencePlane.visible=this.showReferencePlane&&!this.surface;this.surface?.update(this.camera,this.height);this.updateLabels();this.orbitLayers.update(this.orbitZoom,this.navigation?.targetMode??false);this.navigation?.updateLayer();this.renderer.render(this.scene,this.camera);
   }

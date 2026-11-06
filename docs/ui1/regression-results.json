@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "suite": "ui1",
+      "status": "passed",
+      "scope": "1440×900, 844×390, 667×375, 390×844",
+      "log": "logs/browser-ui1.log"
+    },
+    {
+      "suite": "ui1-layout",
+      "status": "passed",
+      "scope": "같은 4화면 + 667 중앙 패널/압축 시계 + 화면 회전",
+      "log": "logs/browser-ui1-layout.log"
+    },
+    {
+      "suite": "m1b",
+      "status": "passed",
+      "scope": "4화면, 궤도·라그랑주·이동·GPU 호출",
+      "log": "logs/browser-m1b.log"
+    },
+    {
+      "suite": "survey",
+      "status": "passed",
+      "scope": "4화면, 다중 선택·작업/완료·자동 일시정지·초기화",
+      "log": "logs/browser-survey.log"
+    },
+    {
+      "suite": "scu-followup",
+      "status": "passed",
+      "scope": "4화면, 실제 채굴/포장/개봉·v3→v4·보존",
+      "log": "logs/browser-scu-followup.log"
+    },
+    {
+      "suite": "development-reset",
+      "status": "passed",
+      "scope": "PC·가로·세로 A–G",
+      "log": "logs/browser-development-reset.log"
+    },
+    {
+      "suite": "industry",
+      "status": "passed",
+      "scope": "4화면, 건설·생산·증설·개량·JSON",
+      "log": "logs/browser-industry.log"
+    },
+    {
+      "suite": "smoke",
+      "status": "passed",
+      "scope": "PC + 가로 2화면, 지도·축소/확대·새 헤더 경계",
+      "log": "logs/browser-smoke.log"
+    },
+    {
+      "suite": "planet-surface",
+      "status": "passed",
+      "scope": "행성 8 + 위성 11, 임의 항성계, 편집·전체화면·모바일 2화면",
+      "log": "logs/browser-planet-surface.log"
+    },
+    {
+      "suite": "surface-distributions",
+      "status": "passed",
+      "scope": "4화면, 분포 3종·탐사 기본·끌기·회전·DEV",
+      "log": "logs/browser-surface-distributions.log"
+    }
+  ],
+  "automatedBrowser": "Chromium / Playwright / SwiftShader; touch emulation, no physical-device or hardware-FPS claim"
+}

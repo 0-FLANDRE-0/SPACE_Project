@@ -1,0 +1,37 @@
+{
+  "base": "663ea9f3b84770a1b67a2c82598922ed9ecfd5a1",
+  "modifiedExistingFiles": [
+    "dist/index.html",
+    "dist/src/context-panel.js",
+    "dist/src/draggable-sector-panel.js",
+    "dist/src/main.js",
+    "dist/src/orbit-view.js",
+    "dist/src/planetary-surface-ui.js",
+    "dist/src/scene.js",
+    "dist/src/ship-layer.js",
+    "dist/src/ship-ui.js",
+    "dist/src/surface-distribution-ui.js",
+    "dist/src/survey-ui.js",
+    "dist/style.css",
+    "tests/browser-development-reset.mjs",
+    "tests/browser-industry.mjs",
+    "tests/browser-orbit-layers.mjs",
+    "tests/browser-planet-surface.mjs",
+    "tests/browser-scu-followup.mjs",
+    "tests/browser-surface-distributions.mjs",
+    "tests/browser-survey.mjs",
+    "tests/helpers/resource-foundation-preservation.js"
+  ],
+  "newSourceTestAndScriptFiles": [
+    "dist/src/ui1-data.js",
+    "dist/src/ui1-model.js",
+    "dist/src/ui1-ui.js",
+    "scripts/ui1-preserve.mjs",
+    "tests/browser-ui1-layout.mjs",
+    "tests/browser-ui1.mjs",
+    "tests/helpers/continuous-surface.mjs",
+    "tests/ui1.test.js"
+  ],
+  "reportAndArtifactDirectory": "docs/ui1",
+  "screenshots": 62
+}

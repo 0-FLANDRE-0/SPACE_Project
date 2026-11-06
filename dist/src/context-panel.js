@@ -61,12 +61,12 @@ export class ContextPanel {
       this.lastContentUpdate=days;
     }
     const size={width:this.element.offsetWidth,height:this.element.offsetHeight};
-    const target=placeContextPanel(anchor,size.width,size.height,{width:viewer.width,height:viewer.height});
+    const bounds={top:68,bottom:90,margin:12,...this.getBounds?.()},target=placeContextPanel(anchor,size.width,size.height,{width:viewer.width,height:viewer.height},bounds);
     const alpha=this.position?1-Math.exp(-seconds*16):1;
     this.position=this.position?{x:this.position.x,y:this.position.y}:target;
     this.position.x+=(target.x-this.position.x)*alpha;this.position.y+=(target.y-this.position.y)*alpha;
     // Clamp immediately after rotation/resize even while smoothing.
-    this.position.x=Math.max(12,Math.min(viewer.width-size.width-12,this.position.x));this.position.y=Math.max(68,Math.min(viewer.height-size.height-90,this.position.y));
+    this.position.x=Math.max(bounds.margin,Math.min(viewer.width-size.width-bounds.margin,this.position.x));this.position.y=Math.max(bounds.top,Math.min(viewer.height-size.height-bounds.bottom,this.position.y));
     this.element.style.transform=`translate3d(${Math.round(this.position.x)}px,${Math.round(this.position.y)}px,0)`;
   }
   dispose(){this.abort.abort();this.selection=null;this.element.replaceChildren();this.element.hidden=true;}

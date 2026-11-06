@@ -1,0 +1,145 @@
+{
+  "mercury": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 10,
+    "triangles": 72834
+  },
+  "venus": {
+    "count": 92,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 77632
+  },
+  "earth": {
+    "count": 92,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 11,
+    "triangles": 82448
+  },
+  "mars": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 72832
+  },
+  "jupiter": {
+    "count": 642,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 130432,
+    "sample": {
+      "frames": 7,
+      "elapsedMs": 1215.4000000003725,
+      "fps": 5.759420766823971
+    }
+  },
+  "saturn": {
+    "count": 492,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 10,
+    "triangles": 80544,
+    "sample": {
+      "frames": 7,
+      "elapsedMs": 1354.800000000745,
+      "fps": 5.166814289929252
+    }
+  },
+  "uranus": {
+    "count": 252,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 59216
+  },
+  "neptune": {
+    "count": 252,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 58832
+  },
+  "moon": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 72832
+  },
+  "phobos": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 72832
+  },
+  "deimos": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 72832
+  },
+  "io": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 73152
+  },
+  "europa": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 72832
+  },
+  "ganymede": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 9,
+    "triangles": 72832
+  },
+  "callisto": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 8,
+    "triangles": 36832
+  },
+  "titan": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 12,
+    "triangles": 47328
+  },
+  "enceladus": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 8,
+    "triangles": 36832
+  },
+  "titania": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 8,
+    "triangles": 36832
+  },
+  "triton": {
+    "count": 42,
+    "pentagons": 12,
+    "layers": 1,
+    "calls": 8,
+    "triangles": 36832
+  }
+}
