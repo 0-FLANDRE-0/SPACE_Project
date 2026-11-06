@@ -1,0 +1,1806 @@
+{
+  "replayExecutions": 192,
+  "cutThresholdChecks": 1080,
+  "cutLossWindow": "flows in rows61..60+duration",
+  "coreMismatches": 0,
+  "replays": [
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "97ed56c559dc3dfd83658a1a95df750eb8014f576c2da4c8483d07685737208b",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "26ff1e99175d21f8f0fabf2e53b8b13489d94f0426884d25c8a2db8336d5eeda",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "3a9cbdab7e731dc45218b1b23e0f4753d2d12355361318a1e70241929ca1e7d9",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "73984ea776a64841da70aac15503e25c31a71b293ce976c821d3768ac5ca4c90",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "05dd1cbe72964241e44a5ed5777cbbabdae1e4a5bf68f99e80c14848fef49c0c",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "ea5ce4e1ba5a534a8fa5578c99de943b3e0bace848f50948d5511e4e978ba3e8",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "1bca5a55b6c1824eba47f1219a5ffa70b910391c87192861491d8fbd4c5ea370",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "45425af8b559dbce0ae10a2dc8780bb39dba8f40177c8bf0dd6509e857eecf77",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "77f50233a56856297ab6d1d64849e0bb7b1d0e193bbd76b173b90073ed2252d7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "5af8b306cdf8a93e35d4bea3a1ad2d8d46496b1c0e7c2c8b6559037bedda16d1",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "97ed56c559dc3dfd83658a1a95df750eb8014f576c2da4c8483d07685737208b",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "26ff1e99175d21f8f0fabf2e53b8b13489d94f0426884d25c8a2db8336d5eeda",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "3a9cbdab7e731dc45218b1b23e0f4753d2d12355361318a1e70241929ca1e7d9",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "73984ea776a64841da70aac15503e25c31a71b293ce976c821d3768ac5ca4c90",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "05dd1cbe72964241e44a5ed5777cbbabdae1e4a5bf68f99e80c14848fef49c0c",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "ea5ce4e1ba5a534a8fa5578c99de943b3e0bace848f50948d5511e4e978ba3e8",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "1bca5a55b6c1824eba47f1219a5ffa70b910391c87192861491d8fbd4c5ea370",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "45425af8b559dbce0ae10a2dc8780bb39dba8f40177c8bf0dd6509e857eecf77",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "77f50233a56856297ab6d1d64849e0bb7b1d0e193bbd76b173b90073ed2252d7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "5af8b306cdf8a93e35d4bea3a1ad2d8d46496b1c0e7c2c8b6559037bedda16d1",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "618a9deabd2f4d1bd8b049a8380ee6902b7f946e9c2aa00d97a3a471e44a6b5f",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "3322050cff4b4bf6b117f69cdd04945ab85f6f8a86d31dd182c76dba89b06134",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "e06a5ef7ee6368af6e881af0ad860ba90873e379cca9f98e132f24a8f2642014",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "ee60950cc95fffa395e879dbb78e7c9f16dbb137d075a17dae1522d05c65fa64",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "63db929cbebf28fefe9fb25b7e61da6db110c7ef44749147ac5b6689bb052f9a",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "78220e7644041e6be3da6e2e8ef81d1052f54fe867e0a7c0176dcf99dbc433de",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "fca933c96a0a45c259c28f039203ed63981adbdc9d04278f4f4e1c270e172a39",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "e1f022e71bb7a85941567b289ee77a94bb58c0b2c8048eb1af881b97567105f2",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "85ca5097607fae3f7f4ffb9d8ba7aae79df97ae29aeff3337cc652cd85d4a4ab",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "8a2440ac1780a1192f5fbc709233e2155ec70c1fea376c4f561fc771d3cb3119",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "2840fe11a872dcd26e433e119dd437e2bc46311c2aff9671d16771594fd22362",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "4b01c8bca899ab628d3f5f6578c3ab583a86be1f7004887afd74635de4ba094f",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "759f88edb1a7f74c0c01426ff9160f3ed4d9456bb320e5ed20e935a3bf2cd198",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "760c3a53008103175c01d225af4ca412eeaca5a68ebf366d1d67fdba7756f380",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "c45274f85aae68743ed266bf1078ca41c1da8f3c3e4380f448843925af71dbf8",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "2c4feea27d4e9caa21810340d9a5de392b44be59e7c8865408f39a7cc1b1b72f",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "7492ec97457b680aeb81af416927eef47333fe39927b44557a9fd5f2c169f533",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "9109500bdc732d0c038b70584bbf3138b98d13aa401fc4aea88ce433440a5691",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "33c67512e0d4ee458a26f33fd28b5cbb5f5b25198ecdcda28b877aaa9b93f2de",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "e32cdd7409ee30c598c98aca1b88f2c98903f0073066779b309b2349ad819125",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "9906e480d5ec9485a852902ff02c27c04a834d28f3e3c13fdb4dfb5f39106429",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "18d9cc451dccfca2aa1fe308ca2afa75725a2b9a93bf2301d333b0dd5cfeb2ac",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "f615f9873452ad8ca86827f9157f7585895711b7c4ae9232eea1365b7a2c1061",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "38ecf35b18f12dd6658e040293bed702ca5d8baa3af7dec419e14df662f3a81c",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "d9d55db057dd1a93ba96956434dd85ea07c2cdf2ab56c61b96be527eff8f478d",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "a823284eb40b06640d71c778665f02eded060f2f6d0e6c8bd21692c3f0f7f058",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "4a2780f65ca343d60434b44b3989afaced40cdf4b861cf3f692bb350373485e9",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "0f0863338c95cb353d455f2a32f0c3099daf58aa75060b8cbb4f6c2311a79f6e",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "73256afdb98b61b2d5aea542477aebbb21550ea429ad89ef540919fc3f725edc",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "5120699fee6434e7dc93b99fe0c8d802b885b357902412ad473768782f7171c7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "9906e480d5ec9485a852902ff02c27c04a834d28f3e3c13fdb4dfb5f39106429",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "18d9cc451dccfca2aa1fe308ca2afa75725a2b9a93bf2301d333b0dd5cfeb2ac",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "f615f9873452ad8ca86827f9157f7585895711b7c4ae9232eea1365b7a2c1061",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "38ecf35b18f12dd6658e040293bed702ca5d8baa3af7dec419e14df662f3a81c",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "d9d55db057dd1a93ba96956434dd85ea07c2cdf2ab56c61b96be527eff8f478d",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "a823284eb40b06640d71c778665f02eded060f2f6d0e6c8bd21692c3f0f7f058",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "4a2780f65ca343d60434b44b3989afaced40cdf4b861cf3f692bb350373485e9",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "0f0863338c95cb353d455f2a32f0c3099daf58aa75060b8cbb4f6c2311a79f6e",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "73256afdb98b61b2d5aea542477aebbb21550ea429ad89ef540919fc3f725edc",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "5120699fee6434e7dc93b99fe0c8d802b885b357902412ad473768782f7171c7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "da6644f469e947bed6789c7fcbb9dd627678b46c7ad2551b5f61a4a02743fdbf",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "2923e74bf18ba91758c7a8300513eb6ebabbce91d831b2662ab40b2be358bb3b",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "e7dca358a78ce764916fd058b26d9ad36e6417530128b6ef8688c2a215183030",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "19a676a5fcba8c0fd72377399af1aa135a70b96ba9cdfd53335b0fbb3430a2a2",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "b44807c31bdf6d84c5af97887a87f165d33f6a9b0ff39d3df1c8ed8c9521596c",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "b1897ac101af77ab85ef750fe15808feb3ed006a4e3f21c7ff4101fbca28b5e8",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "94daa3e2bfa8b08c7290bf831b6b19c9031db675786147be71f843ebe1a08cd5",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "7a1fa0ebd06dbf160513dd3b48234368d723e5304fda8ac79dbe5a3926b66b45",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "eb4ef7700d43ef07b9217777fe95ea52fafb4cac519de826f23c3d8e2ed077d3",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "f723f18b4aa74ecbe6897be05e6d5f8cac9b27c7a5299e1e4f0d8ce748057fa7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "da6644f469e947bed6789c7fcbb9dd627678b46c7ad2551b5f61a4a02743fdbf",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "2923e74bf18ba91758c7a8300513eb6ebabbce91d831b2662ab40b2be358bb3b",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "e7dca358a78ce764916fd058b26d9ad36e6417530128b6ef8688c2a215183030",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "19a676a5fcba8c0fd72377399af1aa135a70b96ba9cdfd53335b0fbb3430a2a2",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "b44807c31bdf6d84c5af97887a87f165d33f6a9b0ff39d3df1c8ed8c9521596c",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "b1897ac101af77ab85ef750fe15808feb3ed006a4e3f21c7ff4101fbca28b5e8",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "94daa3e2bfa8b08c7290bf831b6b19c9031db675786147be71f843ebe1a08cd5",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "7a1fa0ebd06dbf160513dd3b48234368d723e5304fda8ac79dbe5a3926b66b45",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "eb4ef7700d43ef07b9217777fe95ea52fafb4cac519de826f23c3d8e2ed077d3",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "f723f18b4aa74ecbe6897be05e6d5f8cac9b27c7a5299e1e4f0d8ce748057fa7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "da6644f469e947bed6789c7fcbb9dd627678b46c7ad2551b5f61a4a02743fdbf",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "2923e74bf18ba91758c7a8300513eb6ebabbce91d831b2662ab40b2be358bb3b",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "e7dca358a78ce764916fd058b26d9ad36e6417530128b6ef8688c2a215183030",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "19a676a5fcba8c0fd72377399af1aa135a70b96ba9cdfd53335b0fbb3430a2a2",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "b44807c31bdf6d84c5af97887a87f165d33f6a9b0ff39d3df1c8ed8c9521596c",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "b1897ac101af77ab85ef750fe15808feb3ed006a4e3f21c7ff4101fbca28b5e8",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "94daa3e2bfa8b08c7290bf831b6b19c9031db675786147be71f843ebe1a08cd5",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "7a1fa0ebd06dbf160513dd3b48234368d723e5304fda8ac79dbe5a3926b66b45",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "eb4ef7700d43ef07b9217777fe95ea52fafb4cac519de826f23c3d8e2ed077d3",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "f723f18b4aa74ecbe6897be05e6d5f8cac9b27c7a5299e1e4f0d8ce748057fa7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "da6644f469e947bed6789c7fcbb9dd627678b46c7ad2551b5f61a4a02743fdbf",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "2923e74bf18ba91758c7a8300513eb6ebabbce91d831b2662ab40b2be358bb3b",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "e7dca358a78ce764916fd058b26d9ad36e6417530128b6ef8688c2a215183030",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "19a676a5fcba8c0fd72377399af1aa135a70b96ba9cdfd53335b0fbb3430a2a2",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "b44807c31bdf6d84c5af97887a87f165d33f6a9b0ff39d3df1c8ed8c9521596c",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "b1897ac101af77ab85ef750fe15808feb3ed006a4e3f21c7ff4101fbca28b5e8",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "94daa3e2bfa8b08c7290bf831b6b19c9031db675786147be71f843ebe1a08cd5",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "7a1fa0ebd06dbf160513dd3b48234368d723e5304fda8ac79dbe5a3926b66b45",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "eb4ef7700d43ef07b9217777fe95ea52fafb4cac519de826f23c3d8e2ed077d3",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "f723f18b4aa74ecbe6897be05e6d5f8cac9b27c7a5299e1e4f0d8ce748057fa7",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "9c78094ce411a6c3e9c52603c7555a216de811a493fed3a3ab800ebfec5cec65",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "24dc952259ae8f84ee626ae021c8d3947bdea175df6a8a5cb6c83e976bedb73f",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "5045b5f4718d7f773967019e6e7c4fc645864827606c3b357206e11309a0cc2b",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "f9540472702618dd2bb0982d5baab1b00edfe807a8c79978e44e5a1af6264208",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "e4a61e33e63e88d31f8e2a285505a5c73a2c35aabfadbb14ba25fb4be2e4d946",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "434e06525325d350472e51e381d02519e3ab8c5c50c31a4ffba54244a5e42cf8",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "89a2d6c0e8f683814906a2c798604c3da11290d31cec4fe4a61ba9e7b4e35ea4",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "60e862f7f62f6427b7ef1dadebfe05d8ebffd163fd8412b137f33347148ea835",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "9061c10baa9924f9586aa9c0338b4ad66f3d7f603975df538d713803df0f0a7b",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "2754db9f66a0414f4fb7249de0f6c6e69294c49c41c4fd83a61800ebf92850a6",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "9c78094ce411a6c3e9c52603c7555a216de811a493fed3a3ab800ebfec5cec65",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "24dc952259ae8f84ee626ae021c8d3947bdea175df6a8a5cb6c83e976bedb73f",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "5045b5f4718d7f773967019e6e7c4fc645864827606c3b357206e11309a0cc2b",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "f9540472702618dd2bb0982d5baab1b00edfe807a8c79978e44e5a1af6264208",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": false,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "e4a61e33e63e88d31f8e2a285505a5c73a2c35aabfadbb14ba25fb4be2e4d946",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-1",
+      "pathHash": "434e06525325d350472e51e381d02519e3ab8c5c50c31a4ffba54244a5e42cf8",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-2",
+      "pathHash": "89a2d6c0e8f683814906a2c798604c3da11290d31cec4fe4a61ba9e7b4e35ea4",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-3",
+      "pathHash": "60e862f7f62f6427b7ef1dadebfe05d8ebffd163fd8412b137f33347148ea835",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-4",
+      "pathHash": "9061c10baa9924f9586aa9c0338b4ad66f3d7f603975df538d713803df0f0a7b",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E0",
+      "seed": "econ-5",
+      "pathHash": "2754db9f66a0414f4fb7249de0f6c6e69294c49c41c4fd83a61800ebf92850a6",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "7e89502860756b88ec83668201143603f3436d6edebc07357a1204520afa80e6",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "01ab36317359a9896619601c8f6b458aca758c7b0a44ca5d5d2e63cec4def16a",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "de758afc0641e9e69a5d032586de5c7878d17a5161781060420388ad2f8222cd",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "efda18dff7014cf2f42094660b44d11504bc201b2c5e7d5d994dc9aead3fd2f1",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "5059fd0c98675a99fa0b4b81020dc2e93d1bc6f4afdbc98b65e4c0acc161c08e",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "a137159bf8540184ca5184325a6eba7b62208f8711abede6060eeaeaf625c61e",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "7e89502860756b88ec83668201143603f3436d6edebc07357a1204520afa80e6",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "01ab36317359a9896619601c8f6b458aca758c7b0a44ca5d5d2e63cec4def16a",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "d0b3eeaaf7fe6538ca31c891794d6dc3fad631af0054f535f644a3f4cf30b6e6",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "efda18dff7014cf2f42094660b44d11504bc201b2c5e7d5d994dc9aead3fd2f1",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "5059fd0c98675a99fa0b4b81020dc2e93d1bc6f4afdbc98b65e4c0acc161c08e",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "a137159bf8540184ca5184325a6eba7b62208f8711abede6060eeaeaf625c61e",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "c5f37be692b7b8cad4edd960c22c5a3e4182a1e0eeaa5b70e73d1c05e83e21d5",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "f06786b0df38a9e7ae68b2dac2c9848f26f8be4c67a881011afae624a23318a7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "079c3c6926c1cd641a2eb45ae57817f69c5c37b0870a24e495f195bc22dea283",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "f01dffe9d997abdd501928eb1caa3e635c3cfb4b9cfabab2719811dc33ced955",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "9eed9ffae2d9a8164ef26880293f36f99c924469a73c2b33d37e43a38843067f",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "82d0ac3b9e2a8066694d7b42f6a65afbf2742806f6e66969e518ab0ccbb98e79",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "c5f37be692b7b8cad4edd960c22c5a3e4182a1e0eeaa5b70e73d1c05e83e21d5",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "f06786b0df38a9e7ae68b2dac2c9848f26f8be4c67a881011afae624a23318a7",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "421520b59059bc0cbbecfa62258b2ec75207fe2ea55fd1a17d2c450e1338e547",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "f01dffe9d997abdd501928eb1caa3e635c3cfb4b9cfabab2719811dc33ced955",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "9eed9ffae2d9a8164ef26880293f36f99c924469a73c2b33d37e43a38843067f",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "82d0ac3b9e2a8066694d7b42f6a65afbf2742806f6e66969e518ab0ccbb98e79",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "926834dafaa04608b7260611e5ffbb384cfbfe4f1abd75d3be15dab58fa9c3ce",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "969bca96e69f1301d0366d74631a02c1f7f1d6be2f101c0ef9cf685bc4d5a4a9",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "ad927acf6e06092848426f2dd803f096d772e221dd4bcf55ba55d4cbfe329398",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "416219b809a45c7f2b2878e36f7cfeea46eaefa083f485c6f426d6fbf3742021",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "f05cb77831af1eb5d7bf67ca799bc2f2d56efdfcd5f3a88da7578f2fe3139b94",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "13a4a35387fbd424beb9b7012ae689e0ff3ac7cbd23da23b692d56a352901253",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "926834dafaa04608b7260611e5ffbb384cfbfe4f1abd75d3be15dab58fa9c3ce",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "969bca96e69f1301d0366d74631a02c1f7f1d6be2f101c0ef9cf685bc4d5a4a9",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "d568d9dc8c59ad128c59ffddec0fa2ca5be82c2cdbb9098c92e650ce48f67f44",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "416219b809a45c7f2b2878e36f7cfeea46eaefa083f485c6f426d6fbf3742021",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "f05cb77831af1eb5d7bf67ca799bc2f2d56efdfcd5f3a88da7578f2fe3139b94",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "13a4a35387fbd424beb9b7012ae689e0ff3ac7cbd23da23b692d56a352901253",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "1b986b2543c982e3aa255713783073d2f2cd1d246d48af9b602214ace92ec237",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "82a2528588f31f65f031ddf7a6cdc9a39ead649653f47c2091d6cbc95c89c14d",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "ef86f931a15ffdfe131dc54c7f46da87ff4753f7590a95ded32fcd3385a8f2db",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "0d31be3d3476f60e2df2b95b3e56093ae2541860c3b2ee47766ed1da84cb45c6",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "75a56a3b068d1114810e3238e09a3c6418f9618f28dda462396eb97340304c78",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "10644d70c9a7db7175623bb1f4d3a5057e9148bde86f1a5aba44963dea4a3d79",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "1b986b2543c982e3aa255713783073d2f2cd1d246d48af9b602214ace92ec237",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "82a2528588f31f65f031ddf7a6cdc9a39ead649653f47c2091d6cbc95c89c14d",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "2c79d840b93d9e78b965eb38ad76c2dd0b71d09867018c2a9b4c42a257dd7ca5",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "0d31be3d3476f60e2df2b95b3e56093ae2541860c3b2ee47766ed1da84cb45c6",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "75a56a3b068d1114810e3238e09a3c6418f9618f28dda462396eb97340304c78",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "10644d70c9a7db7175623bb1f4d3a5057e9148bde86f1a5aba44963dea4a3d79",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "1b986b2543c982e3aa255713783073d2f2cd1d246d48af9b602214ace92ec237",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "82a2528588f31f65f031ddf7a6cdc9a39ead649653f47c2091d6cbc95c89c14d",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "4f03a699630f8ec4a2c6efac9957a050c0757a79d0adbff20fb0e3fb4d9149a0",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "0d31be3d3476f60e2df2b95b3e56093ae2541860c3b2ee47766ed1da84cb45c6",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "75a56a3b068d1114810e3238e09a3c6418f9618f28dda462396eb97340304c78",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "10644d70c9a7db7175623bb1f4d3a5057e9148bde86f1a5aba44963dea4a3d79",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "1b986b2543c982e3aa255713783073d2f2cd1d246d48af9b602214ace92ec237",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "82a2528588f31f65f031ddf7a6cdc9a39ead649653f47c2091d6cbc95c89c14d",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "e3fbaeed80abe2dcda37f8eaf22da3d1db62e9f4f333f8ddac56825219eafecf",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "0d31be3d3476f60e2df2b95b3e56093ae2541860c3b2ee47766ed1da84cb45c6",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "75a56a3b068d1114810e3238e09a3c6418f9618f28dda462396eb97340304c78",
+      "exact": true
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "10644d70c9a7db7175623bb1f4d3a5057e9148bde86f1a5aba44963dea4a3d79",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "f2dcf60ea998fe4f66b014cae3a3062275e5bee1274f0aae71447875a1e80cfa",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "db99818ceff5837efd36082b5975342f321974711d0e06fd252fe7d203aa9d5f",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "1a4a92987962257b215a3bd3c81cb4bd48c1663798d3938812e012fa72d4adfe",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "513620dcab9b655be263ef53632f310c02fbacc92e12c9e7157c141a35c7707d",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "ec4aaccf8792f7d680815b0d84afca3079780d8e8b9de24d4406ee319a1820eb",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "self",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "04989ebb6189586ec23550c71b5d7a5b8f616649826fbcb8183f59b5c3417565",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E2-S",
+      "seed": "econ-1",
+      "pathHash": "f2dcf60ea998fe4f66b014cae3a3062275e5bee1274f0aae71447875a1e80cfa",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M",
+      "seed": "econ-1",
+      "pathHash": "db99818ceff5837efd36082b5975342f321974711d0e06fd252fe7d203aa9d5f",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-X",
+      "seed": "econ-1",
+      "pathHash": "22f5afe34fc4b8bb315cdb434972ba19a6dec72d13b8f9a083f4322c3d057f4e",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E6-R",
+      "seed": "econ-1",
+      "pathHash": "513620dcab9b655be263ef53632f310c02fbacc92e12c9e7157c141a35c7707d",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E11-M",
+      "seed": "econ-1",
+      "pathHash": "ec4aaccf8792f7d680815b0d84afca3079780d8e8b9de24d4406ee319a1820eb",
+      "exact": true
+    },
+    {
+      "id": "R42-rounded",
+      "lane": "relief",
+      "enabled": true,
+      "scenario": "E5-M-L70-S12-D2",
+      "seed": "econ-1",
+      "pathHash": "04989ebb6189586ec23550c71b5d7a5b8f616649826fbcb8183f59b5c3417565",
+      "exact": true
+    }
+  ],
+  "performanceExecutions": 45,
+  "performance": {
+    "round41": {
+      "rawMs": [
+        297.0380309999964,
+        256.04786000000604,
+        255.46521600000415,
+        238.2143800000049,
+        232.8848100000032,
+        250.7352880000035,
+        223.7729010000039,
+        214.7112849999976,
+        238.30826199999865,
+        226.07292400000006,
+        222.09260299999733,
+        223.87447700000484,
+        218.7997269999978,
+        224.20230599999923,
+        223.42524800000683
+      ],
+      "p50Ms": 226.07292400000006,
+      "p95Ms": 297.0380309999964,
+      "samples": 15
+    },
+    "round42Peace": {
+      "rawMs": [
+        315.62163199999486,
+        312.8112949999995,
+        330.2675190000009,
+        317.56811800000287,
+        308.729883,
+        336.4558059999981,
+        303.3372180000006,
+        299.5283830000044,
+        306.12119600000005,
+        306.1761769999939,
+        314.3256390000024,
+        306.181786000001,
+        300.4385800000018,
+        307.2050900000031,
+        312.25180000001274
+      ],
+      "p50Ms": 308.729883,
+      "p95Ms": 336.4558059999981,
+      "samples": 15
+    },
+    "round42Stress": {
+      "rawMs": [
+        175.93631800000003,
+        166.73998900000151,
+        172.99109300000418,
+        213.35760200000368,
+        188.34175799999502,
+        178.31762300000264,
+        163.34918200000538,
+        160.5344580000019,
+        171.25813500000368,
+        169.58756600000197,
+        172.6792029999997,
+        164.80226799999946,
+        159.2058890000044,
+        172.46410299999843,
+        172.86359699998866
+      ],
+      "p50Ms": 172.46410299999843,
+      "p95Ms": 213.35760200000368,
+      "samples": 15
+    }
+  },
+  "seconds": 65.884564212
+}

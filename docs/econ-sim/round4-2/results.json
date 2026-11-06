@@ -1,0 +1,360 @@
+{
+  "status": "ECON-SIM-4.2 offline experiment — all new values provisional, no game adoption",
+  "baseCommit": "2af4b7450bf5399d9c5cfe9f229ea8a5d02eec4f",
+  "archiveCommit": "88038d625ee2cafa323ec86abcb403f4f6af4b25",
+  "config": {
+    "status": "ECON-SIM-4.2 offline experiment — all new values provisional, no game adoption",
+    "baselineCommit": "2af4b7450bf5399d9c5cfe9f229ea8a5d02eec4f",
+    "archiveCommit": "88038d625ee2cafa323ec86abcb403f4f6af4b25",
+    "months": 240,
+    "seeds": [
+      "econ-1",
+      "econ-2",
+      "econ-3",
+      "econ-4",
+      "econ-5"
+    ],
+    "samples": 64,
+    "samplingSeed": "econ-round42-lhs-1",
+    "policy": {
+      "enabled": true,
+      "boost": 0.15,
+      "rampSpeed": 0.2,
+      "hydrogenPerAlloyU": 1,
+      "enterMonths": 3,
+      "exitRatio": 0.5,
+      "switchDays": 3,
+      "switchOutput": 0.8,
+      "switchColdCostRatio": 0.1,
+      "lifeLitersPerPersonDay": 0.4,
+      "waterIntakeCostShare": 0.5
+    },
+    "ranges": {
+      "boost": [
+        0.1,
+        0.25
+      ],
+      "rampSpeed": [
+        0.1,
+        0.3
+      ],
+      "hydrogenPerAlloyU": [
+        0.9,
+        1.1
+      ],
+      "enterMonths": [
+        1,
+        6
+      ],
+      "exitRatio": [
+        0.3,
+        0.8
+      ],
+      "switchDays": [
+        1,
+        10
+      ],
+      "switchOutput": [
+        0.5,
+        0.9
+      ],
+      "switchColdCostRatio": [
+        0.05,
+        0.3
+      ],
+      "lifeLitersPerPersonDay": [
+        0.1,
+        1
+      ]
+    },
+    "criteria42": {
+      "hydrogenMarketMarginMin": 0,
+      "electrolyzerPaybackYearsMax": 4,
+      "cutProductionRatioMin": 0.95,
+      "switchesPerAssetRollingYearMax": 2
+    },
+    "cut": {
+      "startMonth": 60,
+      "durations": [
+        6,
+        9,
+        12
+      ],
+      "inventoryLossFractions": [
+        0,
+        1
+      ],
+      "bodies": [
+        "earth",
+        "moon",
+        "mars"
+      ],
+      "baseScenario": "E0",
+      "fundedColonyFixture": true
+    },
+    "assumptions": {
+      "lifeWater": "Net make-up water .1–1 L/person/day, 30-day settlement; Earth zero. NASA ~3.8 L crew/day and98% recovery support the low-end order, not a colony prescription. No new water source or reclamation engine.",
+      "waterCost": "Attribute50% of existing .002C/U variable service cost to actual metered intake; sensitivity0/50/100%; no extra input cost or invented free electricity.",
+      "boost": "(1+b) times unassisted4.1 capacity, replacing rather than adding the assisted-H recipe. Report actual ON/OFF benefit separately.",
+      "maintenance": "Existing industry-asset bill uses output-capacity activeFraction; no extra cost discount.",
+      "hydrogenCustody": "Private produced H used before purchases; government reserve H is not automatically sold for new demand.",
+      "cutFixture": "Identical explicit paid preparation on OFF/ON:60000 C ceiling per colony from existing Earth treasury,5500U alloy/200U H existing SCU requests, and two5000U H purchases at ticks0/24 from Earth private stock at a positive quote. No money/material creation; after costs/orders supply may remain constrained.",
+      "backup": "Monthly primary-mode hysteresis remains; within a hydrogen-primary month any H-unfunded processing time uses the existing unassisted conventional recipe. No extra assisted H or cold restart is charged for dispatch backup; formal primary switches alone pay the switch quote. Actual backup output is separately reported.",
+      "recycling": "A recycle-only electrolyzer may be co-located with an existing smelter once real byproduct water exists. It has no natural intake, ice or water imports; same existing electrolyzer costs/output/power. Colonies use their own byproduct water; it is not an automatic release of government stock."
+    },
+    "criteria41": {
+      "peacePriceDeviation": 0.2,
+      "meanPriceDeviation": 0.08,
+      "inflationMin": 0.01,
+      "inflationMax": 0.03,
+      "budget17Min": 1.1,
+      "budget17Max": 1.6,
+      "colonyPeaceYearlyMax": 0.01,
+      "colonyFoundingYearlyMax": 0.1,
+      "industryPaybackYearsMax": 4,
+      "hydrogenMarginMin": 0,
+      "crisisRecoveryYearsMax": 5,
+      "crisisHealthMin": 0.8,
+      "crisisUnservedMax": 0.01
+    }
+  },
+  "counts": {
+    "search": 1600,
+    "final": 5040,
+    "cut": 2160,
+    "waterSensitivity": 15,
+    "totalRuns": 8815,
+    "integrityFailures": 0
+  },
+  "timings": {
+    "search": 172.551455989,
+    "final": 496.3372262490001,
+    "cut": 222.55405923100002,
+    "waterSensitivity": 1.6884747889999998
+  },
+  "totalSeconds": 893.602801067,
+  "workers": 3,
+  "environment": {
+    "node": "v24.19.0",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "parallelism": 4
+  },
+  "candidateSummaries": [
+    {
+      "id": "R42-R41-R4-N018-P000-H000",
+      "profileId": "R41-R4-N018-P000",
+      "baseId": "R4-N018",
+      "policy": {
+        "enabled": true,
+        "boost": 0.11465546341369191,
+        "rampSpeed": 0.13014083865346038,
+        "hydrogenPerAlloyU": 1.0591471398853174,
+        "enterMonths": 2.494778461437818,
+        "exitRatio": 0.5825229061691062,
+        "switchDays": 8.558633310029109,
+        "switchOutput": 0.7324386685257196,
+        "switchColdCostRatio": 0.2628102691613094,
+        "lifeLitersPerPersonDay": 0.4960347020274639,
+        "waterIntakeCostShare": 0.5
+      },
+      "self": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 5,
+          "cutProduction": 45
+        }
+      },
+      "relief": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 5,
+          "cutProduction": 45
+        }
+      }
+    },
+    {
+      "id": "R42-R41-R4-N055-P000-H002",
+      "profileId": "R41-R4-N055-P000",
+      "baseId": "R4-N055",
+      "policy": {
+        "enabled": true,
+        "boost": 0.23642571499185577,
+        "rampSpeed": 0.2122358033222554,
+        "hydrogenPerAlloyU": 0.9254801474562555,
+        "enterMonths": 2.5790297351850313,
+        "exitRatio": 0.4241111310391716,
+        "switchDays": 2.130148567062861,
+        "switchOutput": 0.7902370988507755,
+        "switchColdCostRatio": 0.2492180626511981,
+        "lifeLitersPerPersonDay": 0.6984610407740547,
+        "waterIntakeCostShare": 0.5
+      },
+      "self": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 4,
+          "hydrogenMarketMargin": 5,
+          "electrolyzerPayback": 5,
+          "cutProduction": 45
+        }
+      },
+      "relief": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 4,
+          "hydrogenMarketMargin": 5,
+          "electrolyzerPayback": 5,
+          "cutProduction": 45
+        }
+      }
+    },
+    {
+      "id": "R42-R41-R4-N066-P000-H034",
+      "profileId": "R41-R4-N066-P000",
+      "baseId": "R4-N066",
+      "policy": {
+        "enabled": true,
+        "boost": 0.22847540874790867,
+        "rampSpeed": 0.2793459116583108,
+        "hydrogenPerAlloyU": 1.0325134533450182,
+        "enterMonths": 4.638495075119863,
+        "exitRatio": 0.3147622403783316,
+        "switchDays": 1.8877203568081313,
+        "switchOutput": 0.5376022631346131,
+        "switchColdCostRatio": 0.14391550805503356,
+        "lifeLitersPerPersonDay": 0.2794637315524596,
+        "waterIntakeCostShare": 0.5
+      },
+      "self": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 20,
+          "hydrogenMargin": 5,
+          "hydrogenMarketMargin": 5,
+          "electrolyzerPayback": 5,
+          "cutProduction": 45
+        }
+      },
+      "relief": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 20,
+          "hydrogenMargin": 5,
+          "hydrogenMarketMargin": 5,
+          "electrolyzerPayback": 5,
+          "cutProduction": 45
+        }
+      }
+    },
+    {
+      "id": "R42-R41-R4-rounded-P000-H000",
+      "profileId": "R41-R4-rounded-P000",
+      "baseId": "R4-rounded",
+      "policy": {
+        "enabled": true,
+        "boost": 0.11465546341369191,
+        "rampSpeed": 0.13014083865346038,
+        "hydrogenPerAlloyU": 1.0591471398853174,
+        "enterMonths": 2.494778461437818,
+        "exitRatio": 0.5825229061691062,
+        "switchDays": 8.558633310029109,
+        "switchOutput": 0.7324386685257196,
+        "switchColdCostRatio": 0.2628102691613094,
+        "lifeLitersPerPersonDay": 0.4960347020274639,
+        "waterIntakeCostShare": 0.5
+      },
+      "self": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 4,
+          "cutProduction": 45
+        }
+      },
+      "relief": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 4,
+          "cutProduction": 45
+        }
+      }
+    },
+    {
+      "id": "R42-R41-rounded-H000",
+      "profileId": "R41-rounded",
+      "baseId": "R4-rounded",
+      "policy": {
+        "enabled": true,
+        "boost": 0.11465546341369191,
+        "rampSpeed": 0.13014083865346038,
+        "hydrogenPerAlloyU": 1.0591471398853174,
+        "enterMonths": 2.494778461437818,
+        "exitRatio": 0.5825229061691062,
+        "switchDays": 8.558633310029109,
+        "switchOutput": 0.7324386685257196,
+        "switchColdCostRatio": 0.2628102691613094,
+        "lifeLitersPerPersonDay": 0.4960347020274639,
+        "waterIntakeCostShare": 0.5
+      },
+      "self": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 4,
+          "cutProduction": 45
+        }
+      },
+      "relief": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 4,
+          "cutProduction": 45
+        }
+      }
+    },
+    {
+      "id": "R42-rounded",
+      "profileId": "R41-rounded",
+      "baseId": "R4-rounded",
+      "policy": {
+        "enabled": true,
+        "boost": 0.11,
+        "rampSpeed": 0.13,
+        "hydrogenPerAlloyU": 1.06,
+        "enterMonths": 2,
+        "exitRatio": 0.58,
+        "switchDays": 9,
+        "switchOutput": 0.73,
+        "switchColdCostRatio": 0.26,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5
+      },
+      "self": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 1,
+          "cutProduction": 45
+        }
+      },
+      "relief": {
+        "passed": false,
+        "requiredRuns": 130,
+        "failures": {
+          "switchOscillation": 1,
+          "cutProduction": 45
+        }
+      }
+    }
+  ],
+  "selfPassing": 0,
+  "reliefPassing": 0
+}

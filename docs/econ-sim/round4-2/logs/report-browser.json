@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "charts": 6,
+      "gridButtons": 18,
+      "touch": false,
+      "requests": 1,
+      "rootHorizontalOverflow": false,
+      "numericalDataMatches": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "charts": 6,
+      "gridButtons": 18,
+      "touch": true,
+      "requests": 1,
+      "rootHorizontalOverflow": false,
+      "numericalDataMatches": true
+    },
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "charts": 6,
+      "gridButtons": 18,
+      "touch": true,
+      "requests": 1,
+      "rootHorizontalOverflow": false,
+      "numericalDataMatches": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "charts": 6,
+      "gridButtons": 18,
+      "touch": true,
+      "requests": 1,
+      "rootHorizontalOverflow": false,
+      "numericalDataMatches": true
+    }
+  ],
+  "offline": {
+    "passed": true,
+    "externalRequests": 0,
+    "scope": "standalone HTML bytes in an offline context; native file:// and physical mobile browsers not claimed"
+  },
+  "errors": []
+}

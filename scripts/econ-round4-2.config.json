@@ -1,0 +1,101 @@
+{
+  "status": "ECON-SIM-4.2 offline experiment — all new values provisional, no game adoption",
+  "baselineCommit": "2af4b7450bf5399d9c5cfe9f229ea8a5d02eec4f",
+  "archiveCommit": "88038d625ee2cafa323ec86abcb403f4f6af4b25",
+  "months": 240,
+  "seeds": [
+    "econ-1",
+    "econ-2",
+    "econ-3",
+    "econ-4",
+    "econ-5"
+  ],
+  "samples": 64,
+  "samplingSeed": "econ-round42-lhs-1",
+  "policy": {
+    "enabled": true,
+    "boost": 0.15,
+    "rampSpeed": 0.2,
+    "hydrogenPerAlloyU": 1,
+    "enterMonths": 3,
+    "exitRatio": 0.5,
+    "switchDays": 3,
+    "switchOutput": 0.8,
+    "switchColdCostRatio": 0.1,
+    "lifeLitersPerPersonDay": 0.4,
+    "waterIntakeCostShare": 0.5
+  },
+  "ranges": {
+    "boost": [
+      0.1,
+      0.25
+    ],
+    "rampSpeed": [
+      0.1,
+      0.3
+    ],
+    "hydrogenPerAlloyU": [
+      0.9,
+      1.1
+    ],
+    "enterMonths": [
+      1,
+      6
+    ],
+    "exitRatio": [
+      0.3,
+      0.8
+    ],
+    "switchDays": [
+      1,
+      10
+    ],
+    "switchOutput": [
+      0.5,
+      0.9
+    ],
+    "switchColdCostRatio": [
+      0.05,
+      0.3
+    ],
+    "lifeLitersPerPersonDay": [
+      0.1,
+      1
+    ]
+  },
+  "criteria42": {
+    "hydrogenMarketMarginMin": 0,
+    "electrolyzerPaybackYearsMax": 4,
+    "cutProductionRatioMin": 0.95,
+    "switchesPerAssetRollingYearMax": 2
+  },
+  "cut": {
+    "startMonth": 60,
+    "durations": [
+      6,
+      9,
+      12
+    ],
+    "inventoryLossFractions": [
+      0,
+      1
+    ],
+    "bodies": [
+      "earth",
+      "moon",
+      "mars"
+    ],
+    "baseScenario": "E0",
+    "fundedColonyFixture": true
+  },
+  "assumptions": {
+    "lifeWater": "Net make-up water .1–1 L/person/day, 30-day settlement; Earth zero. NASA ~3.8 L crew/day and98% recovery support the low-end order, not a colony prescription. No new water source or reclamation engine.",
+    "waterCost": "Attribute50% of existing .002C/U variable service cost to actual metered intake; sensitivity0/50/100%; no extra input cost or invented free electricity.",
+    "boost": "(1+b) times unassisted4.1 capacity, replacing rather than adding the assisted-H recipe. Report actual ON/OFF benefit separately.",
+    "maintenance": "Existing industry-asset bill uses output-capacity activeFraction; no extra cost discount.",
+    "hydrogenCustody": "Private produced H used before purchases; government reserve H is not automatically sold for new demand.",
+    "cutFixture": "Identical explicit paid preparation on OFF/ON:60000 C ceiling per colony from existing Earth treasury,5500U alloy/200U H existing SCU requests, and two5000U H purchases at ticks0/24 from Earth private stock at a positive quote. No money/material creation; after costs/orders supply may remain constrained.",
+    "backup": "Monthly primary-mode hysteresis remains; within a hydrogen-primary month any H-unfunded processing time uses the existing unassisted conventional recipe. No extra assisted H or cold restart is charged for dispatch backup; formal primary switches alone pay the switch quote. Actual backup output is separately reported.",
+    "recycling": "A recycle-only electrolyzer may be co-located with an existing smelter once real byproduct water exists. It has no natural intake, ice or water imports; same existing electrolyzer costs/output/power. Colonies use their own byproduct water; it is not an automatic release of government stock."
+  }
+}
