@@ -1,0 +1,22 @@
+{
+  "excludedOpeningPhaseBatch": {
+    "lastLoggedJobs": 160,
+    "scheduledJobs": 366,
+    "reason": "Stopped after a failing current-month recovered-water ordering regression. No incomplete batch outcomes used in final qualification.",
+    "source": {
+      "source": {
+        "dist/src/economy-round4-3-1-model.js": "ce08e942aa7e4313f9838a71c4f10182ebcf655ad9fbd7936a06babfc8699d1b",
+        "dist/src/economy-round4-3-1-policy.js": "add782a0352da2a4effa343390e82491de87258ebc39293007580886abb2128e",
+        "dist/src/economy-round4-3-1-water.js": "c1c1e1e1695b0ce6871f0b48b0bcbc677dbd5895dc7ff451b643d12dbcc0b7ee",
+        "scripts/econ-round4-3-1-analysis.mjs": "b3161173cfff8afb9cf2ab5c0dba765be358e10fec1cf2d4bea503794716d7a0",
+        "scripts/econ-round4-3-1-inputs.mjs": "e7ae7617b3613102227400f441f8e6dc7d2acfa63602aab5b98fa17e796edb9d",
+        "scripts/econ-round4-3-1-calibrate.mjs": "08a093654b87cffb7e3472ac93aee418af0ca13bf5b39bf6972259d20ead6af2",
+        "scripts/econ-round4-3-1.config.json": "91a0a80cead2919531940a939f36cf5bf8b4b3184b15e9946f248598be925cc1"
+      },
+      "base": "5e31515f1eda9131438afb9b2c7fad4122b2e7c5"
+    }
+  },
+  "correctedQuickRuns": 32,
+  "quickExcludedFromFormal": true,
+  "formalResult": "Final full3660 runs use current run-source-manifest.json; all policies fixed, no resampling."
+}

@@ -1,0 +1,31 @@
+{
+  "baseCommit": "5e31515f1eda9131438afb9b2c7fad4122b2e7c5",
+  "basePullRequest": 24,
+  "archiveCommit": "5bd1cec9a5216229d74e9af4d97e191d269227ec",
+  "profileId": "R41-rounded",
+  "months": 240,
+  "seeds": ["econ-1", "econ-2", "econ-3", "econ-4", "econ-5"],
+  "taxModes": { "half": 0.5, "zero": 0, "full": 1 },
+  "tax": {
+    "nationalRate": 0.25,
+    "sectorRates": {},
+    "planetRates": {},
+    "sectors": { "earth": "earth", "moon": "moon", "mars": "mars" },
+    "terraformed": { "moon": false, "mars": false }
+  },
+  "life": {
+    "reserveMonths": 6,
+    "oxygenCapacityMargin": 1.2,
+    "colonyTaxFactor": 0.5,
+    "tankCapitalFraction": 0.1,
+    "tankBuildMonths": 1
+  },
+  "criteria": {
+    "lifeMinimumFraction": 0.99,
+    "nationalNegativeMonthsMax": 0,
+    "hydrogenMarketMarginMin": 0,
+    "electrolyzerPaybackYearsMax": 4,
+    "earthProductionRatioStrict": 1
+  },
+  "scope": "Offline only. Fixed4.3 rounded, no exploration. Required life E0/E2-S/E5-M(all grid)/H-CUT; extreme and remaining scenarios life informational. Old4.1 criteria classification unchanged."
+}
