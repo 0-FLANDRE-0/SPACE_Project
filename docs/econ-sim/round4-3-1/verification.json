@@ -1,0 +1,4956 @@
+{
+  "formalRuns": 3660,
+  "sourceHashes": true,
+  "inputManifest": true,
+  "integrityFailures": 0,
+  "annualFiscalBodyYears": 219600,
+  "productionPairBodyChecks": 5490,
+  "lifeCheckConditions": 9600,
+  "cutElectrolysisZeroChecks": 1080,
+  "reserveEndingChecks": 14640,
+  "replayExecutions": 196,
+  "prefixChecks": 72,
+  "legacyReplayExecutions": 56,
+  "traceExecutions": 4,
+  "replays": [
+    {
+      "key": "half/self/E0/econ-1/false",
+      "pathHash": "0e8d809cdb3f0da3ad590123d23899f117582f25c9cb8fd2eedfc7d4c630203e"
+    },
+    {
+      "key": "half/self/E0/econ-1/true",
+      "pathHash": "f1c8765c8f67389eb887f77dcf24f9c6d9ecf651062fe293e02a867d5e3161b5"
+    },
+    {
+      "key": "half/self/E0/econ-2/false",
+      "pathHash": "183d84c8684a61be9d350f9fd70b1623e99f31018fe9a5f415e44a591639473a"
+    },
+    {
+      "key": "half/self/E0/econ-2/true",
+      "pathHash": "9641f0a2e3ddbb388118cb91f418a1b69e1194c03210ef40443316f315797ffc"
+    },
+    {
+      "key": "half/self/E0/econ-3/false",
+      "pathHash": "94de2cbcbafe7d068abf4f344ab429db376cce72d96a70c98310ee0ae8c1a193"
+    },
+    {
+      "key": "half/self/E0/econ-3/true",
+      "pathHash": "605ce8ee12d3a3bf328585a5bd87d00a4e9b95dd7eee0ea01278cf2c66b2d1ac"
+    },
+    {
+      "key": "half/self/E0/econ-4/false",
+      "pathHash": "72fee42d3a1d38bb751c761fb3a85f15eb67b5fab7079bac984232176d7181c5"
+    },
+    {
+      "key": "half/self/E0/econ-4/true",
+      "pathHash": "286fb2d075ba6ada3f819c4b7e9688ba0e021200446c74a163879f24e2b551de"
+    },
+    {
+      "key": "half/self/E0/econ-5/false",
+      "pathHash": "1efda6ca2b8804ec3cef2f75f38b34e0fe76923871a13141e0841058f8df5ca3"
+    },
+    {
+      "key": "half/self/E0/econ-5/true",
+      "pathHash": "285fe8ea56ec3c749f7a53782cb307b93206708bd30a3597704b8a440a49b945"
+    },
+    {
+      "key": "half/self/E2-S/econ-1/false",
+      "pathHash": "8d7c566ad01cc1d19ebc0fc61d38de2f4db03656a79be6ec1787db5f9a4cdece"
+    },
+    {
+      "key": "half/self/E2-S/econ-1/true",
+      "pathHash": "b2034d2a68a99bca1778b44d1a8042f5a7916b814ee5ccb93ac5dbf57c9914a4"
+    },
+    {
+      "key": "half/self/E2-S/econ-2/false",
+      "pathHash": "4caa268cc5d8ac76fd9ca4145c0e8c12ac48bafd30b52dae68b4d99c0fff9cd7"
+    },
+    {
+      "key": "half/self/E2-S/econ-2/true",
+      "pathHash": "30934a32fa1ef48cdbc50d046da46f82c5e8b77ee45316300469ffe0696100b4"
+    },
+    {
+      "key": "half/self/E2-S/econ-3/false",
+      "pathHash": "80f1384c5d3b48e717f59de5bf4a0eb5a011469cf2c97971458f6286c71a352d"
+    },
+    {
+      "key": "half/self/E2-S/econ-3/true",
+      "pathHash": "3ddf56d2f50260731e73edc3fbb1dd59c634062a5f7260c4b870670e10f8c161"
+    },
+    {
+      "key": "half/self/E2-S/econ-4/false",
+      "pathHash": "523493fab2dc382cae0bcd86212c7f9afb8b45ec90d1e9200446c122b31a20f0"
+    },
+    {
+      "key": "half/self/E2-S/econ-4/true",
+      "pathHash": "c313d84de4de8c83851f6a2d730f234969e09c6705c4a8f4bfe521c32f4f5ab6"
+    },
+    {
+      "key": "half/self/E2-S/econ-5/false",
+      "pathHash": "5eae22b933bc4b4568ee1eda6f136710f4336a0e973fbab7dfd3a4e150f3bfe9"
+    },
+    {
+      "key": "half/self/E2-S/econ-5/true",
+      "pathHash": "866fc9fed9553821aa13554fd5dff4dae1286820428b59f1c816066fc9aeb93c"
+    },
+    {
+      "key": "half/self/E5-M/econ-1/false",
+      "pathHash": "44e72d4a03cce2e5d8a8414ee3550f4f8905fb8b63976af4f3c00577e3f23b4a"
+    },
+    {
+      "key": "half/self/E5-M/econ-1/true",
+      "pathHash": "fa2f828f7bc61aabb204ac0488c3b406e0b6173d62f4f246f8c9bc72b55bfef5"
+    },
+    {
+      "key": "half/self/E5-M/econ-2/false",
+      "pathHash": "f6f5a3a8a6b94d315e87c934ad0dabb7ed3204ec929eced6ac1f3e918ee5f2fd"
+    },
+    {
+      "key": "half/self/E5-M/econ-2/true",
+      "pathHash": "6a8fa5a06c0c70885acd06154b9f3acc5d0c978b3cbff85fab4c9edfa2f9c131"
+    },
+    {
+      "key": "half/self/E5-M/econ-3/false",
+      "pathHash": "5760596e92e9d2ae7d70fe26a435792b5d78fe79d1a95eaaeb2df3465ac83752"
+    },
+    {
+      "key": "half/self/E5-M/econ-3/true",
+      "pathHash": "3980eccc3c78f44ef3c8df267d84e4793cb50754bcf0e9bb08695ce2213e8a9c"
+    },
+    {
+      "key": "half/self/E5-M/econ-4/false",
+      "pathHash": "83802c2511fd208098055fc190ec37e0ab5c7ebd82a2317eaae323fc5f3db753"
+    },
+    {
+      "key": "half/self/E5-M/econ-4/true",
+      "pathHash": "03669b2aba8f98fc1717d63f52f936f14ce480caa2ee836275843ed458ba2f1b"
+    },
+    {
+      "key": "half/self/E5-M/econ-5/false",
+      "pathHash": "4999242656a270686911c4bef9a3a8b6320056f83d9f50acb250fd4136033bb1"
+    },
+    {
+      "key": "half/self/E5-M/econ-5/true",
+      "pathHash": "419fef1c6f594f7067dcd73b2ee5780bcfc0d111acb367371dd6ed8163753eb4"
+    },
+    {
+      "key": "half/relief/E0/econ-1/false",
+      "pathHash": "0e8d809cdb3f0da3ad590123d23899f117582f25c9cb8fd2eedfc7d4c630203e"
+    },
+    {
+      "key": "half/relief/E0/econ-1/true",
+      "pathHash": "f1c8765c8f67389eb887f77dcf24f9c6d9ecf651062fe293e02a867d5e3161b5"
+    },
+    {
+      "key": "half/relief/E0/econ-2/false",
+      "pathHash": "183d84c8684a61be9d350f9fd70b1623e99f31018fe9a5f415e44a591639473a"
+    },
+    {
+      "key": "half/relief/E0/econ-2/true",
+      "pathHash": "9641f0a2e3ddbb388118cb91f418a1b69e1194c03210ef40443316f315797ffc"
+    },
+    {
+      "key": "half/relief/E0/econ-3/false",
+      "pathHash": "94de2cbcbafe7d068abf4f344ab429db376cce72d96a70c98310ee0ae8c1a193"
+    },
+    {
+      "key": "half/relief/E0/econ-3/true",
+      "pathHash": "605ce8ee12d3a3bf328585a5bd87d00a4e9b95dd7eee0ea01278cf2c66b2d1ac"
+    },
+    {
+      "key": "half/relief/E0/econ-4/false",
+      "pathHash": "72fee42d3a1d38bb751c761fb3a85f15eb67b5fab7079bac984232176d7181c5"
+    },
+    {
+      "key": "half/relief/E0/econ-4/true",
+      "pathHash": "286fb2d075ba6ada3f819c4b7e9688ba0e021200446c74a163879f24e2b551de"
+    },
+    {
+      "key": "half/relief/E0/econ-5/false",
+      "pathHash": "1efda6ca2b8804ec3cef2f75f38b34e0fe76923871a13141e0841058f8df5ca3"
+    },
+    {
+      "key": "half/relief/E0/econ-5/true",
+      "pathHash": "285fe8ea56ec3c749f7a53782cb307b93206708bd30a3597704b8a440a49b945"
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/false",
+      "pathHash": "8d7c566ad01cc1d19ebc0fc61d38de2f4db03656a79be6ec1787db5f9a4cdece"
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/true",
+      "pathHash": "b2034d2a68a99bca1778b44d1a8042f5a7916b814ee5ccb93ac5dbf57c9914a4"
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/false",
+      "pathHash": "4caa268cc5d8ac76fd9ca4145c0e8c12ac48bafd30b52dae68b4d99c0fff9cd7"
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/true",
+      "pathHash": "30934a32fa1ef48cdbc50d046da46f82c5e8b77ee45316300469ffe0696100b4"
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/false",
+      "pathHash": "80f1384c5d3b48e717f59de5bf4a0eb5a011469cf2c97971458f6286c71a352d"
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/true",
+      "pathHash": "3ddf56d2f50260731e73edc3fbb1dd59c634062a5f7260c4b870670e10f8c161"
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/false",
+      "pathHash": "523493fab2dc382cae0bcd86212c7f9afb8b45ec90d1e9200446c122b31a20f0"
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/true",
+      "pathHash": "c313d84de4de8c83851f6a2d730f234969e09c6705c4a8f4bfe521c32f4f5ab6"
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/false",
+      "pathHash": "5eae22b933bc4b4568ee1eda6f136710f4336a0e973fbab7dfd3a4e150f3bfe9"
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/true",
+      "pathHash": "866fc9fed9553821aa13554fd5dff4dae1286820428b59f1c816066fc9aeb93c"
+    },
+    {
+      "key": "half/relief/E5-M/econ-1/false",
+      "pathHash": "44e72d4a03cce2e5d8a8414ee3550f4f8905fb8b63976af4f3c00577e3f23b4a"
+    },
+    {
+      "key": "half/relief/E5-M/econ-1/true",
+      "pathHash": "fa2f828f7bc61aabb204ac0488c3b406e0b6173d62f4f246f8c9bc72b55bfef5"
+    },
+    {
+      "key": "half/relief/E5-M/econ-2/false",
+      "pathHash": "f6f5a3a8a6b94d315e87c934ad0dabb7ed3204ec929eced6ac1f3e918ee5f2fd"
+    },
+    {
+      "key": "half/relief/E5-M/econ-2/true",
+      "pathHash": "6a8fa5a06c0c70885acd06154b9f3acc5d0c978b3cbff85fab4c9edfa2f9c131"
+    },
+    {
+      "key": "half/relief/E5-M/econ-3/false",
+      "pathHash": "5760596e92e9d2ae7d70fe26a435792b5d78fe79d1a95eaaeb2df3465ac83752"
+    },
+    {
+      "key": "half/relief/E5-M/econ-3/true",
+      "pathHash": "3980eccc3c78f44ef3c8df267d84e4793cb50754bcf0e9bb08695ce2213e8a9c"
+    },
+    {
+      "key": "half/relief/E5-M/econ-4/false",
+      "pathHash": "83802c2511fd208098055fc190ec37e0ab5c7ebd82a2317eaae323fc5f3db753"
+    },
+    {
+      "key": "half/relief/E5-M/econ-4/true",
+      "pathHash": "03669b2aba8f98fc1717d63f52f936f14ce480caa2ee836275843ed458ba2f1b"
+    },
+    {
+      "key": "half/relief/E5-M/econ-5/false",
+      "pathHash": "4999242656a270686911c4bef9a3a8b6320056f83d9f50acb250fd4136033bb1"
+    },
+    {
+      "key": "half/relief/E5-M/econ-5/true",
+      "pathHash": "419fef1c6f594f7067dcd73b2ee5780bcfc0d111acb367371dd6ed8163753eb4"
+    },
+    {
+      "key": "half/self/H-CUT-CONTROL/econ-1/false",
+      "pathHash": "3a04cea2319dc1939074252f8f39936db47e5f3180c41d99cabcc89a18b74015"
+    },
+    {
+      "key": "half/self/H-CUT-CONTROL/econ-1/true",
+      "pathHash": "b93e2c1bfd0031e06b88d7491892f8a0758e6a1d072b80bd624f9e5ad6d5e135"
+    },
+    {
+      "key": "half/self/H-CUT-CONTROL/econ-5/false",
+      "pathHash": "ef8c74d9c5407a150417ee6e598108e5d23fb24e10d734872826d72ed42fdfd3"
+    },
+    {
+      "key": "half/self/H-CUT-CONTROL/econ-5/true",
+      "pathHash": "4b63ba1cd479653084ab4aee73573ab189fca2e69368712b0776521dffb79bf7"
+    },
+    {
+      "key": "half/relief/H-CUT-CONTROL/econ-1/false",
+      "pathHash": "3a04cea2319dc1939074252f8f39936db47e5f3180c41d99cabcc89a18b74015"
+    },
+    {
+      "key": "half/relief/H-CUT-CONTROL/econ-1/true",
+      "pathHash": "b93e2c1bfd0031e06b88d7491892f8a0758e6a1d072b80bd624f9e5ad6d5e135"
+    },
+    {
+      "key": "half/relief/H-CUT-CONTROL/econ-5/false",
+      "pathHash": "ef8c74d9c5407a150417ee6e598108e5d23fb24e10d734872826d72ed42fdfd3"
+    },
+    {
+      "key": "half/relief/H-CUT-CONTROL/econ-5/true",
+      "pathHash": "4b63ba1cd479653084ab4aee73573ab189fca2e69368712b0776521dffb79bf7"
+    },
+    {
+      "key": "half/self/H-CUT-earth-M9-L100/econ-1/false",
+      "pathHash": "a8191334032d441425522977236322a509eac5c8f77c1ecf9bc64222fd9e46a0"
+    },
+    {
+      "key": "half/self/H-CUT-earth-M9-L100/econ-1/true",
+      "pathHash": "73612f4cc86e54ae36a830e04f082c7834655bbd30ecdaca9942745e53406c71"
+    },
+    {
+      "key": "half/self/H-CUT-earth-M9-L100/econ-5/false",
+      "pathHash": "2768a06c42dc0da3902988603163da2a818605f62455be34371949e0633a541e"
+    },
+    {
+      "key": "half/self/H-CUT-earth-M9-L100/econ-5/true",
+      "pathHash": "656c3d41156264acaaffdf4241e35f1d523e2996ef3399292acc9337f673e3d1"
+    },
+    {
+      "key": "half/self/H-CUT-moon-M9-L100/econ-1/false",
+      "pathHash": "e503e4d14a54ea92e71d63c7b904a50887549d0f6fadeaca000c2bb854c5f3b0"
+    },
+    {
+      "key": "half/self/H-CUT-moon-M9-L100/econ-1/true",
+      "pathHash": "672e9fc0d52d0cbcb6c4ef98f9ad0392fa2a48b8dbb7961bb3f97ea892cba763"
+    },
+    {
+      "key": "half/self/H-CUT-moon-M9-L100/econ-5/false",
+      "pathHash": "23482a7d2b4d765a3bd308354de0f8f3b651cdee9d2362a77b28015aee1a6eac"
+    },
+    {
+      "key": "half/self/H-CUT-moon-M9-L100/econ-5/true",
+      "pathHash": "fe6183d60aeb550978eac1224527fcecec117c385c7381a53ef6d9eb1925a595"
+    },
+    {
+      "key": "half/self/H-CUT-mars-M9-L100/econ-1/false",
+      "pathHash": "a104407eeaca563fbe9ad15f3da23134286280297aa56533dba13ad6ff9ce9d9"
+    },
+    {
+      "key": "half/self/H-CUT-mars-M9-L100/econ-1/true",
+      "pathHash": "9880573b539649bca52181d4a8ec99c81da2dd37271a54255836049348a6c0df"
+    },
+    {
+      "key": "half/self/H-CUT-mars-M9-L100/econ-5/false",
+      "pathHash": "abee5e9c757f3b3060e2811ecfc564ffa49ab204ba04306662d2f3f1dc2bf5c3"
+    },
+    {
+      "key": "half/self/H-CUT-mars-M9-L100/econ-5/true",
+      "pathHash": "d54fd7ae97b892694bbc97bf161939298ff93d0cc7feae9dd3bed0c1f3eda72f"
+    },
+    {
+      "key": "half/relief/H-CUT-earth-M9-L100/econ-1/false",
+      "pathHash": "a8191334032d441425522977236322a509eac5c8f77c1ecf9bc64222fd9e46a0"
+    },
+    {
+      "key": "half/relief/H-CUT-earth-M9-L100/econ-1/true",
+      "pathHash": "73612f4cc86e54ae36a830e04f082c7834655bbd30ecdaca9942745e53406c71"
+    },
+    {
+      "key": "half/relief/H-CUT-earth-M9-L100/econ-5/false",
+      "pathHash": "2768a06c42dc0da3902988603163da2a818605f62455be34371949e0633a541e"
+    },
+    {
+      "key": "half/relief/H-CUT-earth-M9-L100/econ-5/true",
+      "pathHash": "656c3d41156264acaaffdf4241e35f1d523e2996ef3399292acc9337f673e3d1"
+    },
+    {
+      "key": "half/relief/H-CUT-moon-M9-L100/econ-1/false",
+      "pathHash": "e503e4d14a54ea92e71d63c7b904a50887549d0f6fadeaca000c2bb854c5f3b0"
+    },
+    {
+      "key": "half/relief/H-CUT-moon-M9-L100/econ-1/true",
+      "pathHash": "672e9fc0d52d0cbcb6c4ef98f9ad0392fa2a48b8dbb7961bb3f97ea892cba763"
+    },
+    {
+      "key": "half/relief/H-CUT-moon-M9-L100/econ-5/false",
+      "pathHash": "23482a7d2b4d765a3bd308354de0f8f3b651cdee9d2362a77b28015aee1a6eac"
+    },
+    {
+      "key": "half/relief/H-CUT-moon-M9-L100/econ-5/true",
+      "pathHash": "fe6183d60aeb550978eac1224527fcecec117c385c7381a53ef6d9eb1925a595"
+    },
+    {
+      "key": "half/relief/H-CUT-mars-M9-L100/econ-1/false",
+      "pathHash": "a104407eeaca563fbe9ad15f3da23134286280297aa56533dba13ad6ff9ce9d9"
+    },
+    {
+      "key": "half/relief/H-CUT-mars-M9-L100/econ-1/true",
+      "pathHash": "9880573b539649bca52181d4a8ec99c81da2dd37271a54255836049348a6c0df"
+    },
+    {
+      "key": "half/relief/H-CUT-mars-M9-L100/econ-5/false",
+      "pathHash": "abee5e9c757f3b3060e2811ecfc564ffa49ab204ba04306662d2f3f1dc2bf5c3"
+    },
+    {
+      "key": "half/relief/H-CUT-mars-M9-L100/econ-5/true",
+      "pathHash": "d54fd7ae97b892694bbc97bf161939298ff93d0cc7feae9dd3bed0c1f3eda72f"
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/false",
+      "pathHash": "99e3dd97fa0a9fba028efe5cdefcbc7d566d40f6d447e81533456ca299ea7a93"
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/true",
+      "pathHash": "8850a2b00957c58764df6fac917e483cce285ba86794f78d8a6e622afc01d09e"
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/false",
+      "pathHash": "8b5d8269c346a679fd3c655d9c5876ee61c6306b8c949b3dea02cfbd2fade87d"
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/true",
+      "pathHash": "cbaa942829f03a87aa5dc88c0d062c0ba03bf2ba9bd4e7a25f5d6028561d8020"
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/false",
+      "pathHash": "9628aec7b512dcb5e48d24fd9e4e84f0a162c7449f071dd84e0bca8b4a61f8bd"
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/true",
+      "pathHash": "e527d0b525b04c594ddd8c7aa482c7d445e5e1a7f2c8f7a820b6fad857cbecbf"
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/false",
+      "pathHash": "1ad06009ea177ccf9d39e1c20cc49d78a84d02708b4dbcaa13deb75a0a1a3531"
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/true",
+      "pathHash": "bd737bb47f32a64d453fa16a08627de2dd1cac7c467bca76dc2fff38ba2fef10"
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/false",
+      "pathHash": "7725e7ff953fcab1d2d89d16b2aab532c6ba66cd8b3641772771597493f4eab7"
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/true",
+      "pathHash": "df50dfd5b23cf20aca3c5ff0a5073a388d453550df8e47c88654d58a58e2d231"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/false",
+      "pathHash": "99e3dd97fa0a9fba028efe5cdefcbc7d566d40f6d447e81533456ca299ea7a93"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/true",
+      "pathHash": "8850a2b00957c58764df6fac917e483cce285ba86794f78d8a6e622afc01d09e"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/false",
+      "pathHash": "8b5d8269c346a679fd3c655d9c5876ee61c6306b8c949b3dea02cfbd2fade87d"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/true",
+      "pathHash": "cbaa942829f03a87aa5dc88c0d062c0ba03bf2ba9bd4e7a25f5d6028561d8020"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/false",
+      "pathHash": "9628aec7b512dcb5e48d24fd9e4e84f0a162c7449f071dd84e0bca8b4a61f8bd"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/true",
+      "pathHash": "e527d0b525b04c594ddd8c7aa482c7d445e5e1a7f2c8f7a820b6fad857cbecbf"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/false",
+      "pathHash": "1ad06009ea177ccf9d39e1c20cc49d78a84d02708b4dbcaa13deb75a0a1a3531"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/true",
+      "pathHash": "bd737bb47f32a64d453fa16a08627de2dd1cac7c467bca76dc2fff38ba2fef10"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/false",
+      "pathHash": "7725e7ff953fcab1d2d89d16b2aab532c6ba66cd8b3641772771597493f4eab7"
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/true",
+      "pathHash": "df50dfd5b23cf20aca3c5ff0a5073a388d453550df8e47c88654d58a58e2d231"
+    },
+    {
+      "key": "zero/self/H-CUT-CONTROL/econ-1/false",
+      "pathHash": "c9b15a9398288ba958af40c142451d927d4d3cfd19dbd78568951bf7e8eb706f"
+    },
+    {
+      "key": "zero/self/H-CUT-CONTROL/econ-1/true",
+      "pathHash": "de73d7ad7dc5f072838cf2292123ba569e89d4f4ac05e199ffa81451605fcec9"
+    },
+    {
+      "key": "zero/self/H-CUT-CONTROL/econ-5/false",
+      "pathHash": "71672f67120882dda10e52cc45c278831e96d397a00924891e2f4f27999845c5"
+    },
+    {
+      "key": "zero/self/H-CUT-CONTROL/econ-5/true",
+      "pathHash": "1fb4a22bff092236ed997727699c9f3e50fde90af33ca454e75f772153f0b112"
+    },
+    {
+      "key": "zero/relief/H-CUT-CONTROL/econ-1/false",
+      "pathHash": "c9b15a9398288ba958af40c142451d927d4d3cfd19dbd78568951bf7e8eb706f"
+    },
+    {
+      "key": "zero/relief/H-CUT-CONTROL/econ-1/true",
+      "pathHash": "de73d7ad7dc5f072838cf2292123ba569e89d4f4ac05e199ffa81451605fcec9"
+    },
+    {
+      "key": "zero/relief/H-CUT-CONTROL/econ-5/false",
+      "pathHash": "71672f67120882dda10e52cc45c278831e96d397a00924891e2f4f27999845c5"
+    },
+    {
+      "key": "zero/relief/H-CUT-CONTROL/econ-5/true",
+      "pathHash": "1fb4a22bff092236ed997727699c9f3e50fde90af33ca454e75f772153f0b112"
+    },
+    {
+      "key": "zero/self/H-CUT-earth-M9-L100/econ-1/false",
+      "pathHash": "018a89d67db7cf6e42372d0b8a408fccca62f808b8b19d180a3c30c53f7d3ede"
+    },
+    {
+      "key": "zero/self/H-CUT-earth-M9-L100/econ-1/true",
+      "pathHash": "005b1a98e08e94ac3e488c5ca1b797cf60530f477ac0bbe1736fd6498b946160"
+    },
+    {
+      "key": "zero/self/H-CUT-earth-M9-L100/econ-5/false",
+      "pathHash": "9058b66897628618635dc2f970902796bacc3918f1f4b86558ff425f5656a248"
+    },
+    {
+      "key": "zero/self/H-CUT-earth-M9-L100/econ-5/true",
+      "pathHash": "12b578d9f84db19208b4dc27206d725ed159fefe5a79c21557455ec1e6309a57"
+    },
+    {
+      "key": "zero/self/H-CUT-moon-M9-L100/econ-1/false",
+      "pathHash": "c63338c811767ba62a487ecbc9ca67f86561d9afc4f6aa42ac452af964634342"
+    },
+    {
+      "key": "zero/self/H-CUT-moon-M9-L100/econ-1/true",
+      "pathHash": "ba1ad3ae1ef929fe3f5a7d6692c95ffbad7dde56b8b6cd88ceefeb0371dc61dc"
+    },
+    {
+      "key": "zero/self/H-CUT-moon-M9-L100/econ-5/false",
+      "pathHash": "2487935e7ac8f22406d9df4906253d5594cd9d2ae1e12ef30ecaa2a8bec3e442"
+    },
+    {
+      "key": "zero/self/H-CUT-moon-M9-L100/econ-5/true",
+      "pathHash": "e817da67f4e6f0abcf5bc925c78789258640415b37be045718d74d74b4c4cc45"
+    },
+    {
+      "key": "zero/self/H-CUT-mars-M9-L100/econ-1/false",
+      "pathHash": "0b1478b68cfe48910b66effeae7d14493e7fd99ce8848245fbc98669ff15480d"
+    },
+    {
+      "key": "zero/self/H-CUT-mars-M9-L100/econ-1/true",
+      "pathHash": "445c0ce73e9f89e3fad46da470f737a5bb3a544348d8c1edbad3b2552404f7fd"
+    },
+    {
+      "key": "zero/self/H-CUT-mars-M9-L100/econ-5/false",
+      "pathHash": "6b4368dfc312383242ef1457fa14dbf83c4597ef29d56e67edbd741b3ff7fe96"
+    },
+    {
+      "key": "zero/self/H-CUT-mars-M9-L100/econ-5/true",
+      "pathHash": "be3f4a57151a7b8b1a9538d125c7a8f432c6ec9946bd1777acb5786adf7d3f50"
+    },
+    {
+      "key": "zero/relief/H-CUT-earth-M9-L100/econ-1/false",
+      "pathHash": "018a89d67db7cf6e42372d0b8a408fccca62f808b8b19d180a3c30c53f7d3ede"
+    },
+    {
+      "key": "zero/relief/H-CUT-earth-M9-L100/econ-1/true",
+      "pathHash": "005b1a98e08e94ac3e488c5ca1b797cf60530f477ac0bbe1736fd6498b946160"
+    },
+    {
+      "key": "zero/relief/H-CUT-earth-M9-L100/econ-5/false",
+      "pathHash": "9058b66897628618635dc2f970902796bacc3918f1f4b86558ff425f5656a248"
+    },
+    {
+      "key": "zero/relief/H-CUT-earth-M9-L100/econ-5/true",
+      "pathHash": "12b578d9f84db19208b4dc27206d725ed159fefe5a79c21557455ec1e6309a57"
+    },
+    {
+      "key": "zero/relief/H-CUT-moon-M9-L100/econ-1/false",
+      "pathHash": "c63338c811767ba62a487ecbc9ca67f86561d9afc4f6aa42ac452af964634342"
+    },
+    {
+      "key": "zero/relief/H-CUT-moon-M9-L100/econ-1/true",
+      "pathHash": "ba1ad3ae1ef929fe3f5a7d6692c95ffbad7dde56b8b6cd88ceefeb0371dc61dc"
+    },
+    {
+      "key": "zero/relief/H-CUT-moon-M9-L100/econ-5/false",
+      "pathHash": "2487935e7ac8f22406d9df4906253d5594cd9d2ae1e12ef30ecaa2a8bec3e442"
+    },
+    {
+      "key": "zero/relief/H-CUT-moon-M9-L100/econ-5/true",
+      "pathHash": "e817da67f4e6f0abcf5bc925c78789258640415b37be045718d74d74b4c4cc45"
+    },
+    {
+      "key": "zero/relief/H-CUT-mars-M9-L100/econ-1/false",
+      "pathHash": "0b1478b68cfe48910b66effeae7d14493e7fd99ce8848245fbc98669ff15480d"
+    },
+    {
+      "key": "zero/relief/H-CUT-mars-M9-L100/econ-1/true",
+      "pathHash": "445c0ce73e9f89e3fad46da470f737a5bb3a544348d8c1edbad3b2552404f7fd"
+    },
+    {
+      "key": "zero/relief/H-CUT-mars-M9-L100/econ-5/false",
+      "pathHash": "6b4368dfc312383242ef1457fa14dbf83c4597ef29d56e67edbd741b3ff7fe96"
+    },
+    {
+      "key": "zero/relief/H-CUT-mars-M9-L100/econ-5/true",
+      "pathHash": "be3f4a57151a7b8b1a9538d125c7a8f432c6ec9946bd1777acb5786adf7d3f50"
+    },
+    {
+      "key": "full/self/E2-S/econ-1/false",
+      "pathHash": "9dd148244469f0d0aea40a215ae6980c09b786d36c9655823b8a789496055a3a"
+    },
+    {
+      "key": "full/self/E2-S/econ-1/true",
+      "pathHash": "9a022158119ce7c27a1c55ecb918153105e2dc9ab12f22ac9545f6df87530aeb"
+    },
+    {
+      "key": "full/self/E2-S/econ-2/false",
+      "pathHash": "75df7375388bb62d0719adfd9b03806669dbeda4548124cca8882f610d573e96"
+    },
+    {
+      "key": "full/self/E2-S/econ-2/true",
+      "pathHash": "f8a94d89236615454701738e36130fc294c868da7576216e7e8c51d87e935170"
+    },
+    {
+      "key": "full/self/E2-S/econ-3/false",
+      "pathHash": "1787900f297755a6f95fa63c34b232e5100288bf6ce4d37642ba0e481e05dfff"
+    },
+    {
+      "key": "full/self/E2-S/econ-3/true",
+      "pathHash": "72a813d63a913a03112d83a0ccb4277490959ac614c154613dc66b123f75ba09"
+    },
+    {
+      "key": "full/self/E2-S/econ-4/false",
+      "pathHash": "718f620af00f4dc877dd2f0f9cf4dd809c05cb12293afdf927745f7db8942f6d"
+    },
+    {
+      "key": "full/self/E2-S/econ-4/true",
+      "pathHash": "327331cbc1e2a478e6f5d2ca8b0de8873837d8f2f268939c434139d3c8ea01ac"
+    },
+    {
+      "key": "full/self/E2-S/econ-5/false",
+      "pathHash": "05c63f335806768782e31231b07a15f2ed26117ae0266437bb033a8c3bfb51fd"
+    },
+    {
+      "key": "full/self/E2-S/econ-5/true",
+      "pathHash": "6498a4a3a62196ab02feb1ae35ce9b2591a791decc28b54af68b31776a36cb09"
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/false",
+      "pathHash": "9dd148244469f0d0aea40a215ae6980c09b786d36c9655823b8a789496055a3a"
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/true",
+      "pathHash": "9a022158119ce7c27a1c55ecb918153105e2dc9ab12f22ac9545f6df87530aeb"
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/false",
+      "pathHash": "75df7375388bb62d0719adfd9b03806669dbeda4548124cca8882f610d573e96"
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/true",
+      "pathHash": "f8a94d89236615454701738e36130fc294c868da7576216e7e8c51d87e935170"
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/false",
+      "pathHash": "1787900f297755a6f95fa63c34b232e5100288bf6ce4d37642ba0e481e05dfff"
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/true",
+      "pathHash": "72a813d63a913a03112d83a0ccb4277490959ac614c154613dc66b123f75ba09"
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/false",
+      "pathHash": "718f620af00f4dc877dd2f0f9cf4dd809c05cb12293afdf927745f7db8942f6d"
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/true",
+      "pathHash": "327331cbc1e2a478e6f5d2ca8b0de8873837d8f2f268939c434139d3c8ea01ac"
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/false",
+      "pathHash": "05c63f335806768782e31231b07a15f2ed26117ae0266437bb033a8c3bfb51fd"
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/true",
+      "pathHash": "6498a4a3a62196ab02feb1ae35ce9b2591a791decc28b54af68b31776a36cb09"
+    },
+    {
+      "key": "full/self/H-CUT-CONTROL/econ-1/false",
+      "pathHash": "fbc01ad8ba8b4ea60703154ccf6d399ea2c74852b6bc5bf18b9209d4185a9efe"
+    },
+    {
+      "key": "full/self/H-CUT-CONTROL/econ-1/true",
+      "pathHash": "98364601bdc25f2f4169b8f339b71dbebd17478c6aa86c3cfed9ecf851e6d4bf"
+    },
+    {
+      "key": "full/self/H-CUT-CONTROL/econ-5/false",
+      "pathHash": "e65dd0d0c47c194e48c29e01eec28549095ff6677bf2d52b70c9672f6c56781c"
+    },
+    {
+      "key": "full/self/H-CUT-CONTROL/econ-5/true",
+      "pathHash": "4fac85893a615c57cbb869a70419d8ecb856c3c525bfbbd17b85db7c109dcb00"
+    },
+    {
+      "key": "full/relief/H-CUT-CONTROL/econ-1/false",
+      "pathHash": "fbc01ad8ba8b4ea60703154ccf6d399ea2c74852b6bc5bf18b9209d4185a9efe"
+    },
+    {
+      "key": "full/relief/H-CUT-CONTROL/econ-1/true",
+      "pathHash": "98364601bdc25f2f4169b8f339b71dbebd17478c6aa86c3cfed9ecf851e6d4bf"
+    },
+    {
+      "key": "full/relief/H-CUT-CONTROL/econ-5/false",
+      "pathHash": "e65dd0d0c47c194e48c29e01eec28549095ff6677bf2d52b70c9672f6c56781c"
+    },
+    {
+      "key": "full/relief/H-CUT-CONTROL/econ-5/true",
+      "pathHash": "4fac85893a615c57cbb869a70419d8ecb856c3c525bfbbd17b85db7c109dcb00"
+    },
+    {
+      "key": "full/self/H-CUT-earth-M9-L100/econ-1/false",
+      "pathHash": "8bf12840dd076c5023c6b7ef89167d287ee4837352dfcc6d2353900eb1c0a075"
+    },
+    {
+      "key": "full/self/H-CUT-earth-M9-L100/econ-1/true",
+      "pathHash": "66db9c04455856d0d5ae2e4071340f4b2017f1d83e9df6f230c3826b5a5a8b22"
+    },
+    {
+      "key": "full/self/H-CUT-earth-M9-L100/econ-5/false",
+      "pathHash": "e0f233269ea1b34da321112c06bbcb8090a3cf59ecdc898634366f27dc4c607a"
+    },
+    {
+      "key": "full/self/H-CUT-earth-M9-L100/econ-5/true",
+      "pathHash": "5a51ae0ef621a34bfa2b2de48dc8785a3f2bb95db68c67da689d2ea09010ae46"
+    },
+    {
+      "key": "full/self/H-CUT-moon-M9-L100/econ-1/false",
+      "pathHash": "9b1178d603277f3e1c1bb21a2701495b13971aa2b0180dc8233008960ee0ca25"
+    },
+    {
+      "key": "full/self/H-CUT-moon-M9-L100/econ-1/true",
+      "pathHash": "bc8442a9f908eae78d89ed129d880c6e7c0b887ad9b68c382ce98701cc6e2a01"
+    },
+    {
+      "key": "full/self/H-CUT-moon-M9-L100/econ-5/false",
+      "pathHash": "06ba7955026e3faf73edca82490bc25138e90a34b5c43682455dbd6dbee0738a"
+    },
+    {
+      "key": "full/self/H-CUT-moon-M9-L100/econ-5/true",
+      "pathHash": "29744c27cc4729e412b93219c9b1726068634b652e59711bb3112f8a272eca12"
+    },
+    {
+      "key": "full/self/H-CUT-mars-M9-L100/econ-1/false",
+      "pathHash": "96c6aa810f6c04718a44bc10984c71f58c4ea203d8a710e096738d157bbc3ed7"
+    },
+    {
+      "key": "full/self/H-CUT-mars-M9-L100/econ-1/true",
+      "pathHash": "9d64aa0fe9f90e7608af8ffa8d9db61f9ebb478f0c8c34fcf420411a9ed92d00"
+    },
+    {
+      "key": "full/self/H-CUT-mars-M9-L100/econ-5/false",
+      "pathHash": "bcd0b790aa7ef09333e1dbec8f136ef09c6c892a911a08fe37dbc775a6ed4fa4"
+    },
+    {
+      "key": "full/self/H-CUT-mars-M9-L100/econ-5/true",
+      "pathHash": "86ac874c23b2c3959ad904fb5e463f32714e6d1851f2e44ed2aaa4fd2dc77aeb"
+    },
+    {
+      "key": "full/relief/H-CUT-earth-M9-L100/econ-1/false",
+      "pathHash": "8bf12840dd076c5023c6b7ef89167d287ee4837352dfcc6d2353900eb1c0a075"
+    },
+    {
+      "key": "full/relief/H-CUT-earth-M9-L100/econ-1/true",
+      "pathHash": "66db9c04455856d0d5ae2e4071340f4b2017f1d83e9df6f230c3826b5a5a8b22"
+    },
+    {
+      "key": "full/relief/H-CUT-earth-M9-L100/econ-5/false",
+      "pathHash": "e0f233269ea1b34da321112c06bbcb8090a3cf59ecdc898634366f27dc4c607a"
+    },
+    {
+      "key": "full/relief/H-CUT-earth-M9-L100/econ-5/true",
+      "pathHash": "5a51ae0ef621a34bfa2b2de48dc8785a3f2bb95db68c67da689d2ea09010ae46"
+    },
+    {
+      "key": "full/relief/H-CUT-moon-M9-L100/econ-1/false",
+      "pathHash": "9b1178d603277f3e1c1bb21a2701495b13971aa2b0180dc8233008960ee0ca25"
+    },
+    {
+      "key": "full/relief/H-CUT-moon-M9-L100/econ-1/true",
+      "pathHash": "bc8442a9f908eae78d89ed129d880c6e7c0b887ad9b68c382ce98701cc6e2a01"
+    },
+    {
+      "key": "full/relief/H-CUT-moon-M9-L100/econ-5/false",
+      "pathHash": "06ba7955026e3faf73edca82490bc25138e90a34b5c43682455dbd6dbee0738a"
+    },
+    {
+      "key": "full/relief/H-CUT-moon-M9-L100/econ-5/true",
+      "pathHash": "29744c27cc4729e412b93219c9b1726068634b652e59711bb3112f8a272eca12"
+    },
+    {
+      "key": "full/relief/H-CUT-mars-M9-L100/econ-1/false",
+      "pathHash": "96c6aa810f6c04718a44bc10984c71f58c4ea203d8a710e096738d157bbc3ed7"
+    },
+    {
+      "key": "full/relief/H-CUT-mars-M9-L100/econ-1/true",
+      "pathHash": "9d64aa0fe9f90e7608af8ffa8d9db61f9ebb478f0c8c34fcf420411a9ed92d00"
+    },
+    {
+      "key": "full/relief/H-CUT-mars-M9-L100/econ-5/false",
+      "pathHash": "bcd0b790aa7ef09333e1dbec8f136ef09c6c892a911a08fe37dbc775a6ed4fa4"
+    },
+    {
+      "key": "full/relief/H-CUT-mars-M9-L100/econ-5/true",
+      "pathHash": "86ac874c23b2c3959ad904fb5e463f32714e6d1851f2e44ed2aaa4fd2dc77aeb"
+    }
+  ],
+  "firstFillAudits": [
+    {
+      "key": "half/self/E2-S/econ-1/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-1/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-1/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-1/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-1/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-1/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-1/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-1/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-2/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-2/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-2/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-2/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-2/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-2/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-2/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-2/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-3/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-3/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-3/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-3/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-3/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-3/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-3/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-3/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-4/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-4/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-4/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-4/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-4/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-4/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-4/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-4/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-5/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-5/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-5/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-5/false",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-5/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-5/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-5/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/self/E2-S/econ-5/true",
+      "taxMode": "half",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-1/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-2/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-3/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-4/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/false",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "half/relief/E2-S/econ-5/true",
+      "taxMode": "half",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-1/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-2/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-3/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-4/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/false",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/self/E2-S/econ-5/true",
+      "taxMode": "zero",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-1/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-2/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-3/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-4/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/false",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "zero/relief/E2-S/econ-5/true",
+      "taxMode": "zero",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-1/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-1/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-1/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-1/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-1/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-1/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-1/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-1/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-2/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-2/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-2/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-2/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-2/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-2/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-2/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-2/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-3/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-3/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-3/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-3/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-3/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-3/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-3/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-3/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-4/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-4/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-4/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-4/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-4/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-4/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-4/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-4/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-5/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-5/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-5/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-5/false",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-5/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-5/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-5/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/self/E2-S/econ-5/true",
+      "taxMode": "full",
+      "lane": "self",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-1/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-1",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-2/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-2",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-3/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-3",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-4/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-4",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42491.21,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42694.798,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/false",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": false,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5530.864,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "water",
+      "month": 49,
+      "bodyActualSpendingC": 42460.46,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "moon",
+      "resource": "oxygen",
+      "month": 50,
+      "bodyActualSpendingC": 42663.37,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "water",
+      "month": 2,
+      "bodyActualSpendingC": 2097.362,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    },
+    {
+      "key": "full/relief/E2-S/econ-5/true",
+      "taxMode": "full",
+      "lane": "relief",
+      "seed": "econ-5",
+      "enabled": true,
+      "body": "mars",
+      "resource": "oxygen",
+      "month": 38,
+      "bodyActualSpendingC": 5524.868,
+      "scope": "All actual government outflow attributed to this colony through first fill. Includes shared infrastructure/operating/procurement/freight, not marginal reserve-only cost."
+    }
+  ],
+  "legacy": [
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "e535e52321da46a4ee5e453fca6d50f193b62182452e5677df787a54e9e665e1"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "ef8f947446a6b81f1d6919af03616723d638dd4cee0400ee0b71767b6760ebc2"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-2",
+      "pathHash": "d986eda919cae9205d265d5a926074159f358ee1757dd85f0db1d52018b4f674"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-2",
+      "pathHash": "d1d71279a4e2cff448be18cdd54dc4e918648efd2a65ff81e5e6463ce027f81f"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-3",
+      "pathHash": "3ab014f436dbe7ed75840cde61cd603155faff97aae2a6f612452896f1df5ee4"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-3",
+      "pathHash": "42c7f1d3d12a3e385652791729eef29d39ddc03b8ba25408ea15a6efe869a718"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-4",
+      "pathHash": "53419a90ee0a8d4ada43bef7023dc9307a62be874981cd0e6544437afff52e74"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-4",
+      "pathHash": "4f782bde44a3725fced0eaaeed12864e072deed51fd5d75934a06f2f8f1433db"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-5",
+      "pathHash": "43bf480b2bada2d7b3dae1a1beff60970c8c8f4c3069205c6a06b862469b11c8"
+    },
+    {
+      "scenario": "E0",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-5",
+      "pathHash": "25dc81dfa09eac42786a7b2e8a9d1e323a77ba3a629c33be1082bf836cf7d7f2"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "648ae247a1b3a1a046a65c3f429030f881c05391b74395a5f8add9f43b802991"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "d6247fc6d4b0a7b00c426b53e19cbfbc528bafedcfd5a650a215a1cbdb882f27"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-2",
+      "pathHash": "e6a88712caba956f608f418ec8a28d892113264d56f07a4503aedfb86850ed81"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-2",
+      "pathHash": "ed8fa076566cfbe94aae79f8f2fee9abbb90498a57a798fc93913d0188b1c1c7"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-3",
+      "pathHash": "258116c3f8984e5f3cff9cf315da3a688636bd9c8ad995866ab3a43ad5f2854b"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-3",
+      "pathHash": "3999e728d6c9ebf1de0feb1ef54ca681bc27aeaf4a71191b18224a32de8b4af5"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-4",
+      "pathHash": "ee9ae3dac70ea0016d4100887ac4a186da5be5b0138abe415834ba62925615c6"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-4",
+      "pathHash": "bac16aa0cdc5985ebdc70a2ac970d9546eeba0fd4d025f518de11065985134f8"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-5",
+      "pathHash": "db58596d33f4a53a5a6a55b3839a5679623e60ea5271ca0ad7d53b3312500d50"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-5",
+      "pathHash": "9cc0dd49087945b8955da61d9cc9b8df322abc420ffd092f6b0e8bf72e9b1ed5"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "e535e52321da46a4ee5e453fca6d50f193b62182452e5677df787a54e9e665e1"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "ef8f947446a6b81f1d6919af03616723d638dd4cee0400ee0b71767b6760ebc2"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-2",
+      "pathHash": "d986eda919cae9205d265d5a926074159f358ee1757dd85f0db1d52018b4f674"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-2",
+      "pathHash": "d1d71279a4e2cff448be18cdd54dc4e918648efd2a65ff81e5e6463ce027f81f"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-3",
+      "pathHash": "3ab014f436dbe7ed75840cde61cd603155faff97aae2a6f612452896f1df5ee4"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-3",
+      "pathHash": "42c7f1d3d12a3e385652791729eef29d39ddc03b8ba25408ea15a6efe869a718"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-4",
+      "pathHash": "53419a90ee0a8d4ada43bef7023dc9307a62be874981cd0e6544437afff52e74"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-4",
+      "pathHash": "4f782bde44a3725fced0eaaeed12864e072deed51fd5d75934a06f2f8f1433db"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-5",
+      "pathHash": "43bf480b2bada2d7b3dae1a1beff60970c8c8f4c3069205c6a06b862469b11c8"
+    },
+    {
+      "scenario": "E0",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-5",
+      "pathHash": "25dc81dfa09eac42786a7b2e8a9d1e323a77ba3a629c33be1082bf836cf7d7f2"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "648ae247a1b3a1a046a65c3f429030f881c05391b74395a5f8add9f43b802991"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "d6247fc6d4b0a7b00c426b53e19cbfbc528bafedcfd5a650a215a1cbdb882f27"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-2",
+      "pathHash": "e6a88712caba956f608f418ec8a28d892113264d56f07a4503aedfb86850ed81"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-2",
+      "pathHash": "ed8fa076566cfbe94aae79f8f2fee9abbb90498a57a798fc93913d0188b1c1c7"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-3",
+      "pathHash": "258116c3f8984e5f3cff9cf315da3a688636bd9c8ad995866ab3a43ad5f2854b"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-3",
+      "pathHash": "3999e728d6c9ebf1de0feb1ef54ca681bc27aeaf4a71191b18224a32de8b4af5"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-4",
+      "pathHash": "ee9ae3dac70ea0016d4100887ac4a186da5be5b0138abe415834ba62925615c6"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-4",
+      "pathHash": "bac16aa0cdc5985ebdc70a2ac970d9546eeba0fd4d025f518de11065985134f8"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-5",
+      "pathHash": "db58596d33f4a53a5a6a55b3839a5679623e60ea5271ca0ad7d53b3312500d50"
+    },
+    {
+      "scenario": "E2-S",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-5",
+      "pathHash": "9cc0dd49087945b8955da61d9cc9b8df322abc420ffd092f6b0e8bf72e9b1ed5"
+    },
+    {
+      "scenario": "H-CUT-CONTROL",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "d42ac622464622808dd8170789b3a963716d4192c4b53f082727e079308e690c"
+    },
+    {
+      "scenario": "H-CUT-CONTROL",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "141b45f80deb5e4339597e250779a75dd7373973290d3483017af9c2c6959c69"
+    },
+    {
+      "scenario": "H-CUT-CONTROL",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "d42ac622464622808dd8170789b3a963716d4192c4b53f082727e079308e690c"
+    },
+    {
+      "scenario": "H-CUT-CONTROL",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "141b45f80deb5e4339597e250779a75dd7373973290d3483017af9c2c6959c69"
+    },
+    {
+      "scenario": "H-CUT-earth-M9-L100",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "e95e685e02321b77311610d1becc20dd65f55ba5b356682cf8e09d686a88ba66"
+    },
+    {
+      "scenario": "H-CUT-earth-M9-L100",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "3f6d2e9f055fe690a6cf9e045d90dc00bb235b08e26336018678f7a3912aa395"
+    },
+    {
+      "scenario": "H-CUT-moon-M9-L100",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "19ed46aa8525ca32b615f6e4954a05f656d720b5fb2d86919b98ef2170e45a5f"
+    },
+    {
+      "scenario": "H-CUT-moon-M9-L100",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "e90439cc55fc758e1f6476bacc8ae9e702296e2a3428665a90c312092f5b8b11"
+    },
+    {
+      "scenario": "H-CUT-mars-M9-L100",
+      "lane": "self",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "da13b2041d3ff3e0ba5a4f160f30df12a62e995e94263e2fde63d0f438d1aba1"
+    },
+    {
+      "scenario": "H-CUT-mars-M9-L100",
+      "lane": "self",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "1158af7cfea9ada7464a25c8517e89c6b98d3db8aecabaa7cfd3cc698043f60c"
+    },
+    {
+      "scenario": "H-CUT-earth-M9-L100",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "e95e685e02321b77311610d1becc20dd65f55ba5b356682cf8e09d686a88ba66"
+    },
+    {
+      "scenario": "H-CUT-earth-M9-L100",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "3f6d2e9f055fe690a6cf9e045d90dc00bb235b08e26336018678f7a3912aa395"
+    },
+    {
+      "scenario": "H-CUT-moon-M9-L100",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "19ed46aa8525ca32b615f6e4954a05f656d720b5fb2d86919b98ef2170e45a5f"
+    },
+    {
+      "scenario": "H-CUT-moon-M9-L100",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "e90439cc55fc758e1f6476bacc8ae9e702296e2a3428665a90c312092f5b8b11"
+    },
+    {
+      "scenario": "H-CUT-mars-M9-L100",
+      "lane": "relief",
+      "enabled": false,
+      "seed": "econ-1",
+      "pathHash": "da13b2041d3ff3e0ba5a4f160f30df12a62e995e94263e2fde63d0f438d1aba1"
+    },
+    {
+      "scenario": "H-CUT-mars-M9-L100",
+      "lane": "relief",
+      "enabled": true,
+      "seed": "econ-1",
+      "pathHash": "1158af7cfea9ada7464a25c8517e89c6b98d3db8aecabaa7cfd3cc698043f60c"
+    }
+  ],
+  "traces": [
+    {
+      "scenario": "E2-S",
+      "pathHash": "b2034d2a68a99bca1778b44d1a8042f5a7916b814ee5ccb93ac5dbf57c9914a4",
+      "sample": [
+        {
+          "month": 1,
+          "tag": "construction:life-tank431",
+          "n": 11732,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-tank431"
+        },
+        {
+          "month": 1,
+          "tag": "construction:life-tank431",
+          "n": 3119,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-tank431"
+        },
+        {
+          "month": 1,
+          "tag": "water-market43:C",
+          "n": 33345,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 1,
+          "tag": "life-water43",
+          "n": 166723,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 2,
+          "tag": "construction:life-oxygen431",
+          "n": 2126869,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 2,
+          "tag": "construction:life-oxygen431",
+          "n": 531720,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 2,
+          "tag": "water-market43:C",
+          "n": 211497,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 2,
+          "tag": "life-water43",
+          "n": 166778,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 3,
+          "tag": "construction:life-oxygen431",
+          "n": 708,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 3,
+          "tag": "construction:life-oxygen431",
+          "n": 174,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 3,
+          "tag": "water-market43:C",
+          "n": 27570,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 3,
+          "tag": "life-water43",
+          "n": 166834,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 4,
+          "tag": "construction:life-oxygen431",
+          "n": 708,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 4,
+          "tag": "construction:life-oxygen431",
+          "n": 180,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 4,
+          "tag": "water-market43:C",
+          "n": 25225,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 4,
+          "tag": "life-water43",
+          "n": 166889,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 5,
+          "tag": "construction:life-oxygen431",
+          "n": 709,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 5,
+          "tag": "construction:life-oxygen431",
+          "n": 174,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 5,
+          "tag": "water-market43:C",
+          "n": 23186,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 5,
+          "tag": "life-water43",
+          "n": 166945,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 6,
+          "tag": "construction:life-oxygen431",
+          "n": 716,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 6,
+          "tag": "construction:life-oxygen431",
+          "n": 180,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 6,
+          "tag": "water-market43:C",
+          "n": 21402,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 6,
+          "tag": "life-water43",
+          "n": 167000,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 7,
+          "tag": "construction:life-oxygen431",
+          "n": 711,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        }
+      ]
+    },
+    {
+      "scenario": "E5-M",
+      "pathHash": "fa2f828f7bc61aabb204ac0488c3b406e0b6173d62f4f246f8c9bc72b55bfef5",
+      "sample": [
+        {
+          "month": 1,
+          "tag": "construction:life-tank431",
+          "n": 11732,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-tank431"
+        },
+        {
+          "month": 1,
+          "tag": "construction:life-tank431",
+          "n": 3119,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-tank431"
+        },
+        {
+          "month": 1,
+          "tag": "water-market43:C",
+          "n": 33345,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 1,
+          "tag": "life-water43",
+          "n": 166723,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 2,
+          "tag": "construction:life-oxygen431",
+          "n": 2126869,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 2,
+          "tag": "construction:life-oxygen431",
+          "n": 531720,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 2,
+          "tag": "water-market43:C",
+          "n": 211497,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 2,
+          "tag": "life-water43",
+          "n": 166778,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 3,
+          "tag": "construction:life-oxygen431",
+          "n": 708,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 3,
+          "tag": "construction:life-oxygen431",
+          "n": 174,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 3,
+          "tag": "water-market43:C",
+          "n": 27570,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 3,
+          "tag": "life-water43",
+          "n": 166834,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 4,
+          "tag": "construction:life-oxygen431",
+          "n": 708,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 4,
+          "tag": "construction:life-oxygen431",
+          "n": 180,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 4,
+          "tag": "water-market43:C",
+          "n": 25225,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 4,
+          "tag": "life-water43",
+          "n": 166889,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 5,
+          "tag": "construction:life-oxygen431",
+          "n": 709,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 5,
+          "tag": "construction:life-oxygen431",
+          "n": 174,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 5,
+          "tag": "water-market43:C",
+          "n": 23186,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 5,
+          "tag": "life-water43",
+          "n": 166945,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 6,
+          "tag": "construction:life-oxygen431",
+          "n": 716,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 6,
+          "tag": "construction:life-oxygen431",
+          "n": 180,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 6,
+          "tag": "water-market43:C",
+          "n": 21402,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 6,
+          "tag": "life-water43",
+          "n": 167000,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 7,
+          "tag": "construction:life-oxygen431",
+          "n": 711,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        }
+      ]
+    },
+    {
+      "scenario": "E5-X",
+      "pathHash": "d56b6c6bd228577c136cc62992f11b2c06dc29272591511c7470dd73d9cd3613",
+      "sample": [
+        {
+          "month": 1,
+          "tag": "construction:life-tank431",
+          "n": 11732,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-tank431"
+        },
+        {
+          "month": 1,
+          "tag": "construction:life-tank431",
+          "n": 3119,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-tank431"
+        },
+        {
+          "month": 1,
+          "tag": "water-market43:C",
+          "n": 33345,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 1,
+          "tag": "life-water43",
+          "n": 166723,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 2,
+          "tag": "construction:life-oxygen431",
+          "n": 2126869,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 2,
+          "tag": "construction:life-oxygen431",
+          "n": 531720,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 2,
+          "tag": "water-market43:C",
+          "n": 211497,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 2,
+          "tag": "life-water43",
+          "n": 166778,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 3,
+          "tag": "construction:life-oxygen431",
+          "n": 708,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 3,
+          "tag": "construction:life-oxygen431",
+          "n": 174,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 3,
+          "tag": "water-market43:C",
+          "n": 27570,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 3,
+          "tag": "life-water43",
+          "n": 166834,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 4,
+          "tag": "construction:life-oxygen431",
+          "n": 708,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 4,
+          "tag": "construction:life-oxygen431",
+          "n": 180,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 4,
+          "tag": "water-market43:C",
+          "n": 25225,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 4,
+          "tag": "life-water43",
+          "n": 166889,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 5,
+          "tag": "construction:life-oxygen431",
+          "n": 709,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 5,
+          "tag": "construction:life-oxygen431",
+          "n": 174,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 5,
+          "tag": "water-market43:C",
+          "n": 23186,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 5,
+          "tag": "life-water43",
+          "n": 166945,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 6,
+          "tag": "construction:life-oxygen431",
+          "n": 716,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 6,
+          "tag": "construction:life-oxygen431",
+          "n": 180,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 6,
+          "tag": "water-market43:C",
+          "n": 21402,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 6,
+          "tag": "life-water43",
+          "n": 167000,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 7,
+          "tag": "construction:life-oxygen431",
+          "n": 711,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        }
+      ]
+    },
+    {
+      "scenario": "H-CUT-moon-M9-L100",
+      "pathHash": "672e9fc0d52d0cbcb6c4ef98f9ad0392fa2a48b8dbb7961bb3f97ea892cba763",
+      "sample": [
+        {
+          "month": 1,
+          "tag": "construction:life-tank431",
+          "n": 11732,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-tank431"
+        },
+        {
+          "month": 1,
+          "tag": "construction:life-tank431",
+          "n": 3119,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-tank431"
+        },
+        {
+          "month": 1,
+          "tag": "water-market43:C",
+          "n": 33345,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 1,
+          "tag": "life-water43",
+          "n": 166723,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 2,
+          "tag": "construction:life-oxygen431",
+          "n": 2126869,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 2,
+          "tag": "construction:life-oxygen431",
+          "n": 531720,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 2,
+          "tag": "water-market43:C",
+          "n": 211497,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 2,
+          "tag": "life-water43",
+          "n": 166778,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 3,
+          "tag": "construction:life-oxygen431",
+          "n": 708,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 3,
+          "tag": "construction:life-oxygen431",
+          "n": 174,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 3,
+          "tag": "water-market43:C",
+          "n": 27570,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 3,
+          "tag": "life-water43",
+          "n": 166834,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 4,
+          "tag": "construction:life-oxygen431",
+          "n": 708,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 4,
+          "tag": "construction:life-oxygen431",
+          "n": 180,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 4,
+          "tag": "water-market43:C",
+          "n": 25225,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 4,
+          "tag": "life-water43",
+          "n": 166889,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 5,
+          "tag": "construction:life-oxygen431",
+          "n": 709,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 5,
+          "tag": "construction:life-oxygen431",
+          "n": 174,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 5,
+          "tag": "water-market43:C",
+          "n": 23186,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 5,
+          "tag": "life-water43",
+          "n": 166945,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 6,
+          "tag": "construction:life-oxygen431",
+          "n": 716,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        },
+        {
+          "month": 6,
+          "tag": "construction:life-oxygen431",
+          "n": 180,
+          "from": "nation/government/C",
+          "to": "mars/household/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:construction:life-oxygen431"
+        },
+        {
+          "month": 6,
+          "tag": "water-market43:C",
+          "n": 21402,
+          "from": "nation/government/C",
+          "to": "mars/private/C",
+          "fiscalBody43": "mars",
+          "fiscalTag43": "mars:water-market43:C"
+        },
+        {
+          "month": 6,
+          "tag": "life-water43",
+          "n": 167000,
+          "from": "mars/government/water",
+          "to": null
+        },
+        {
+          "month": 7,
+          "tag": "construction:life-oxygen431",
+          "n": 711,
+          "from": "nation/government/C",
+          "to": "moon/household/C",
+          "fiscalBody43": "moon",
+          "fiscalTag43": "moon:construction:life-oxygen431"
+        }
+      ]
+    }
+  ],
+  "scope": "All paths audit each tick in simulator. Independent reruns are the explicitly listed subset. Existing43 outputs replayed with their original0% tax, not overwritten. Required H gain E0; prepared control informational under431 table."
+}

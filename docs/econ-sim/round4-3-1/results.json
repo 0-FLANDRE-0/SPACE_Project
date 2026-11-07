@@ -1,0 +1,2256 @@
+{
+  "baseCommit": "5e31515f1eda9131438afb9b2c7fad4122b2e7c5",
+  "archiveCommit": "5bd1cec9a5216229d74e9af4d97e191d269227ec",
+  "totalRuns": 3660,
+  "integrityFailures": 0,
+  "qualification": [
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "passed": true,
+      "failures": {},
+      "runs": 305
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "passed": true,
+      "failures": {},
+      "runs": 305
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "passed": true,
+      "failures": {},
+      "runs": 305
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "passed": true,
+      "failures": {},
+      "runs": 305
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "passed": true,
+      "failures": {},
+      "runs": 305
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "passed": true,
+      "failures": {},
+      "runs": 305
+    }
+  ],
+  "scenarios": [
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "S0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "S1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "S2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "S3-debt",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "S3-money",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "S4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "S1-sell",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E3",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E6",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E7",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E8",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E2-S",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-X",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E6-R",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E9",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E10",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E11",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E11-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L50-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L50-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L50-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L50-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L50-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L50-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L60-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L60-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L60-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L60-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L60-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L60-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L70-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L70-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L70-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L70-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L70-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "E5-M-L70-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-CONTROL",
+      "stage": "control"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "S0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "S1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "S2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "S3-debt",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "S3-money",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "S4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "S1-sell",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E3",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E6",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E7",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E8",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E2-S",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-X",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E6-R",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E9",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E10",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E11",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E11-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-CONTROL",
+      "stage": "control"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "half",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "S0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "S1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "S2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "S3-debt",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "S3-money",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "S4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "S1-sell",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E3",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E6",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E7",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E8",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E2-S",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-X",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E6-R",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E9",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E10",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E11",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E11-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L50-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L50-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L50-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L50-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L50-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L50-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L60-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L60-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L60-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L60-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L60-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L60-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L70-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L70-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L70-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L70-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L70-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "E5-M-L70-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-CONTROL",
+      "stage": "control"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "S0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "S1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "S2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "S3-debt",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "S3-money",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "S4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "S1-sell",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E3",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E6",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E7",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E8",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E2-S",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-X",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E6-R",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E9",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E10",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E11",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E11-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-CONTROL",
+      "stage": "control"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "zero",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "S0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "S1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "S2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "S3-debt",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "S3-money",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "S4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "S1-sell",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E3",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E6",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E7",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E8",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E2-S",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-X",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E6-R",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E9",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E10",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E11",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E11-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L50-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L50-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L50-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L50-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L50-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L50-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L60-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L60-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L60-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L60-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L60-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L60-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L70-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L70-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L70-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L70-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L70-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "E5-M-L70-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-CONTROL",
+      "stage": "control"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-earth-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-moon-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "self",
+      "scenario": "H-CUT-mars-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "S0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "S1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "S2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "S3-debt",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "S3-money",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "S4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "S1-sell",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E0",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E1",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E3",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E4",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E6",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E7",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E8",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E2-S",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-X",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E6-R",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E9",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E10",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E11",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E11-M",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L50-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L60-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S6-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S6-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S9-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S9-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S12-D1.5",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "E5-M-L70-S12-D2",
+      "stage": "final"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-CONTROL",
+      "stage": "control"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-earth-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-moon-M12-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M6-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M6-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M9-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M9-L100",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M12-L0",
+      "stage": "cut"
+    },
+    {
+      "taxMode": "full",
+      "lane": "relief",
+      "scenario": "H-CUT-mars-M12-L100",
+      "stage": "cut"
+    }
+  ],
+  "totalSeconds": 1301.348247656,
+  "workers": 3,
+  "environment": {
+    "node": "v24.19.0",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "parallelism": 4
+  },
+  "scope": "One fixed rounded43 policy; no search.3 tax comparators; paired H OFF/ON, each5 seeds240months. Extreme life informational; original41 criteria remain. Required H gain only E0 per latest431 table."
+}
