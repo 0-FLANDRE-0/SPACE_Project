@@ -1,0 +1,29 @@
+✔ 421 regression: old b below assisted15% was not a net boost; new full-H capacity is net of assist (1.055221ms)
+✔ 421 reference profile only, exact fixed values and removed switching axes rejected (0.413145ms)
+✔ 421 p* deducts incremental electricity and O/M, with the conventional assisted H credit (0.143684ms)
+✔ 421 no ore means no fabricated net gain or reduction demand (0.103174ms)
+✔ 421 zero H uses the complete unassisted baseline, with no transition penalty or H debt (0.159538ms)
+✔ 421 partial H preserves the remaining time conventional assist and never spends H twice (0.259246ms)
+✔ 421 uneconomic quote falls back to the old conventional assist rule, not locked reduction (0.133689ms)
+✔ 421 reserve is a transaction-time nominal-cash floor with conservative integer rounding (0.883315ms)
+✔ 421 extra speed keeps the96h heater and mining recovery unchanged (0.251835ms)
+✔ 421 adapter OFF exactly retains full core4.2 settlements in both lanes, including paid cut preparation (837.042721ms)
+✔ 421 actual blended recipes conserve water, ore oxygen and owned-H provenance, no self sales (0.522007ms)
+✔ 421 all37 old parameters, fusion fuel and canonical population remain unchanged (0.149883ms)
+✔ 421 cash safety defers an actual electrolyzer atomically and allows it once funded (54.539411ms)
+✔ 421 self-stock time allocation does not consult or manufacture cash (0.630117ms)
+✔ 421 paid H-CUT has zero local electrolysis in exact rows61–66; existing byproduct may remain (96.990637ms)
+✔ 421 paid preparation is identical through month60 whether the future cut is enabled or disabled (140.8116ms)
+✔ 421 audit rejects invented own hydrogen or water even when aggregate ledger looks unchanged (0.608375ms)
+✔ 421 every preexisting file including all4.2 output bytes is frozen (609.770831ms)
+✔ 421 20-year output cannot hide a bad final12-month window; zero controls stay undefined as ratios (12.354735ms)
+✔ 42132 LHS strata deterministic across all3 axes, rounded proposal remains within the requested ranges (5.227393ms)
+✔ 421 cash quote protects projected reduction O/M as well as extra electricity before a new H purchase (1.032768ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2670.201138

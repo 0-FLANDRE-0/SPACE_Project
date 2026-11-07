@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "charts": 6,
+      "grid": 18,
+      "touch": false,
+      "requests": 1,
+      "horizontalOverflow": false,
+      "valuesMatch": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "charts": 6,
+      "grid": 18,
+      "touch": true,
+      "requests": 1,
+      "horizontalOverflow": false,
+      "valuesMatch": true
+    },
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "charts": 6,
+      "grid": 18,
+      "touch": true,
+      "requests": 1,
+      "horizontalOverflow": false,
+      "valuesMatch": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "charts": 6,
+      "grid": 18,
+      "touch": true,
+      "requests": 1,
+      "horizontalOverflow": false,
+      "valuesMatch": true
+    }
+  ],
+  "offline": {
+    "passed": true,
+    "externalRequests": 0,
+    "scope": "Standalone HTML bytes in network-disabled context. Native file://, physical mobile, Safari and Firefox not claimed."
+  },
+  "errors": []
+}

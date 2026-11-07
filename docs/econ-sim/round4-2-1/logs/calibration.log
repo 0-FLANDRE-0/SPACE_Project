@@ -1,0 +1,62 @@
+search baseline: 1/1 jobs 1.6s
+LHS32+reference E0: 8/33 jobs 7.8s
+LHS32+reference E0: 16/33 jobs 15.4s
+LHS32+reference E0: 24/33 jobs 20.6s
+LHS32+reference E0: 32/33 jobs 28.0s
+LHS32+reference E0: 33/33 jobs 28.3s
+all4.1 OFF/ON: 8/336 jobs 4.2s
+all4.1 OFF/ON: 16/336 jobs 8.1s
+all4.1 OFF/ON: 24/336 jobs 11.1s
+all4.1 OFF/ON: 32/336 jobs 14.8s
+all4.1 OFF/ON: 40/336 jobs 18.4s
+all4.1 OFF/ON: 48/336 jobs 21.4s
+all4.1 OFF/ON: 56/336 jobs 24.0s
+all4.1 OFF/ON: 64/336 jobs 27.1s
+all4.1 OFF/ON: 72/336 jobs 30.4s
+all4.1 OFF/ON: 80/336 jobs 33.0s
+all4.1 OFF/ON: 88/336 jobs 39.2s
+all4.1 OFF/ON: 96/336 jobs 45.8s
+all4.1 OFF/ON: 104/336 jobs 53.5s
+all4.1 OFF/ON: 112/336 jobs 59.5s
+all4.1 OFF/ON: 120/336 jobs 66.0s
+all4.1 OFF/ON: 128/336 jobs 72.3s
+all4.1 OFF/ON: 136/336 jobs 82.0s
+all4.1 OFF/ON: 144/336 jobs 91.5s
+all4.1 OFF/ON: 152/336 jobs 100.1s
+all4.1 OFF/ON: 160/336 jobs 109.3s
+all4.1 OFF/ON: 168/336 jobs 117.7s
+all4.1 OFF/ON: 176/336 jobs 124.2s
+all4.1 OFF/ON: 184/336 jobs 129.4s
+all4.1 OFF/ON: 192/336 jobs 132.6s
+all4.1 OFF/ON: 200/336 jobs 136.4s
+all4.1 OFF/ON: 208/336 jobs 140.0s
+all4.1 OFF/ON: 216/336 jobs 142.8s
+all4.1 OFF/ON: 224/336 jobs 145.5s
+all4.1 OFF/ON: 232/336 jobs 148.8s
+all4.1 OFF/ON: 240/336 jobs 151.7s
+all4.1 OFF/ON: 248/336 jobs 154.6s
+all4.1 OFF/ON: 256/336 jobs 160.8s
+all4.1 OFF/ON: 264/336 jobs 166.8s
+all4.1 OFF/ON: 272/336 jobs 174.4s
+all4.1 OFF/ON: 280/336 jobs 180.8s
+all4.1 OFF/ON: 288/336 jobs 186.9s
+all4.1 OFF/ON: 296/336 jobs 193.3s
+all4.1 OFF/ON: 304/336 jobs 200.4s
+all4.1 OFF/ON: 312/336 jobs 206.6s
+all4.1 OFF/ON: 320/336 jobs 213.1s
+all4.1 OFF/ON: 328/336 jobs 219.9s
+all4.1 OFF/ON: 336/336 jobs 225.0s
+matched paid preparation no-cut: 1/4 jobs 6.2s
+matched paid preparation no-cut: 2/4 jobs 6.4s
+matched paid preparation no-cut: 3/4 jobs 6.5s
+matched paid preparation no-cut: 4/4 jobs 12.0s
+H-CUT OFF/ON: 8/72 jobs 17.2s
+H-CUT OFF/ON: 16/72 jobs 33.9s
+H-CUT OFF/ON: 24/72 jobs 45.9s
+H-CUT OFF/ON: 32/72 jobs 62.5s
+H-CUT OFF/ON: 40/72 jobs 79.5s
+H-CUT OFF/ON: 48/72 jobs 91.4s
+H-CUT OFF/ON: 56/72 jobs 107.5s
+H-CUT OFF/ON: 64/72 jobs 123.9s
+H-CUT OFF/ON: 72/72 jobs 136.6s
+{"status":"ECON-SIM-4.2.1 offline only; searched values provisional","baseCommit":"97e9252320d3e5217e6aad80aab313baa1b1d268","archiveCommit":"90a7e861018722321b0013ee0d581034a9f85412","profileId":"R41-rounded","counts":{"searchBaseline":5,"search":165,"final":1680,"noCutControl":40,"cut":720,"totalRuns":2610,"offVerified":1225,"extraPredecessorReplayExecutions":380,"integrityFailures":0},"timings":{"searchBaseline":1.6059760200000002,"search":28.26308134,"final":224.95350982099998,"noCutControl":11.952480364999996,"cut":136.62675652399997},"totalSeconds":403.66649008099995,"workers":3,"environment":{"node":"v24.19.0","cpu":"AMD EPYC 9V74 80-Core Processor","parallelism":4},"qualification":[{"id":"R421-selected-H029","policy":{"enabled":true,"boost":0.23871994780201933,"hydrogenPerAlloyU":1.0102954184181727,"cashReserveMonths":2.377143278659787,"rampSpeed":0.13,"lifeLitersPerPersonDay":0.5,"waterIntakeCostShare":0.5},"self":{"passed":false,"failures":{"uncutProduction_earth":215,"hydrogenMarketMargin":5,"electrolyzerPayback":5,"uncutProduction_moon":5,"uncutProduction_mars":5,"cutProduction":30}},"relief":{"passed":false,"failures":{"uncutProduction_earth":215,"hydrogenMarketMargin":5,"electrolyzerPayback":5,"uncutProduction_moon":5,"uncutProduction_mars":5,"cutProduction":30}}},{"id":"R421-rounded","policy":{"enabled":true,"boost":0.24,"hydrogenPerAlloyU":1.01,"cashReserveMonths":2,"rampSpeed":0.13,"lifeLitersPerPersonDay":0.5,"waterIntakeCostShare":0.5},"self":{"passed":false,"failures":{"uncutProduction_earth":215,"hydrogenMarketMargin":5,"electrolyzerPayback":5,"uncutProduction_moon":5,"uncutProduction_mars":5,"cutProduction":30}},"relief":{"passed":false,"failures":{"uncutProduction_earth":215,"hydrogenMarketMargin":5,"electrolyzerPayback":5,"uncutProduction_moon":5,"uncutProduction_mars":5,"cutProduction":30}}}],"selfPassing":0,"reliefPassing":0,"scope":"Only R41-rounded. New uncut production criteria applied to all non-H-CUT final paths with control industrial output plus all3 prepared no-cut worlds; zero/zero12m windows compare equal but ratio remains undefined. Earth net >1 is information. Old information classification retained."}

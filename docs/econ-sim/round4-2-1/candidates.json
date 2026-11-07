@@ -1,0 +1,31 @@
+{
+  "profileId": "R41-rounded",
+  "searchScope": "E0 self lane;32 deterministic LHS plus fixed h1.06 reference;five seeds. All other economic bases frozen and not searched.",
+  "searchPasses": 0,
+  "choices": [
+    {
+      "id": "R421-selected-H029",
+      "policy": {
+        "enabled": true,
+        "boost": 0.23871994780201933,
+        "hydrogenPerAlloyU": 1.0102954184181727,
+        "cashReserveMonths": 2.377143278659787,
+        "rampSpeed": 0.13,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5
+      }
+    },
+    {
+      "id": "R421-rounded",
+      "policy": {
+        "enabled": true,
+        "boost": 0.24,
+        "hydrogenPerAlloyU": 1.01,
+        "cashReserveMonths": 2,
+        "rampSpeed": 0.13,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5
+      }
+    }
+  ]
+}
