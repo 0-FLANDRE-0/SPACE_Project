@@ -1,0 +1,100 @@
+{
+  "status": "ECON-SIM-4.3 offline only; fixed4.2.2 adopted, ice parameters provisional",
+  "baseCommit": "0c4a8c135af7e30e55c02a7d1120790884b8fec1",
+  "archiveCommit": "705d83c8892f6f35b37c46dd39bfe925a18771a6",
+  "profileId": "R41-rounded",
+  "counts": {
+    "search": 660,
+    "final": 1680,
+    "survival": 240,
+    "noCutControl": 40,
+    "cut": 720,
+    "totalRuns": 3340,
+    "integrityFailures": 0
+  },
+  "qualification": [
+    {
+      "id": "R43-selected-I000",
+      "policy": {
+        "enabled": true,
+        "iceEnabled": true,
+        "iceOutputU": 771.3780370831955,
+        "iceCapitalScale": 0.7887273386069864,
+        "iceMaintenanceScale": 0.663827635149937,
+        "iceGWhPerU": 0.0017783589774044233,
+        "iceBuildMonths": 6,
+        "holidayYears": 5,
+        "oxygenRecycle": 0.5,
+        "lifeGraceMonths": 12
+      },
+      "self": {
+        "passed": false,
+        "failures": {
+          "lifeWater_moon": 20,
+          "lifeOxygen_moon": 25,
+          "lifeOxygen_mars": 10,
+          "earthNetProduction": 3
+        }
+      },
+      "relief": {
+        "passed": false,
+        "failures": {
+          "lifeWater_moon": 20,
+          "lifeOxygen_moon": 25,
+          "lifeOxygen_mars": 25,
+          "earthNetProduction": 3
+        }
+      }
+    },
+    {
+      "id": "R43-rounded",
+      "policy": {
+        "enabled": true,
+        "iceEnabled": true,
+        "iceOutputU": 750,
+        "iceCapitalScale": 0.79,
+        "iceMaintenanceScale": 0.66,
+        "iceGWhPerU": 0.0018,
+        "iceBuildMonths": 6,
+        "holidayYears": 5,
+        "oxygenRecycle": 0.5,
+        "lifeGraceMonths": 12
+      },
+      "self": {
+        "passed": false,
+        "failures": {
+          "lifeWater_moon": 25,
+          "lifeOxygen_moon": 25,
+          "lifeOxygen_mars": 10,
+          "earthNetProduction": 3
+        }
+      },
+      "relief": {
+        "passed": false,
+        "failures": {
+          "lifeWater_moon": 25,
+          "lifeOxygen_moon": 25,
+          "lifeOxygen_mars": 25,
+          "earthNetProduction": 3
+        }
+      }
+    }
+  ],
+  "selfPassing": 0,
+  "reliefPassing": 0,
+  "timings": {
+    "search": 116.26431352699998,
+    "final": 256.564028798,
+    "survival": 39.089035311999965,
+    "noCutControl": 10.10452657300001,
+    "cut": 119.85589066300005
+  },
+  "totalSeconds": 542.4593224749999,
+  "workers": 3,
+  "environment": {
+    "node": "v24.19.0",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "parallelism": 4
+  },
+  "scope": "Fixed422 adopted values, national fiscal budget, all4.1 scenarios, survival0/5/10 holidays with/without ice, paired H counterfactual in the SAME43 structure. Life>=99% applies after12months to every ice-enabled colony including shock/cut worlds. E0/prepared-control Earth strict total gain retained. Old12-month production and cut95% remain informational under latest43 table."
+}

@@ -1,0 +1,143 @@
+{
+  "scope": "Development pilot, excluded from final43 qualification. Explicit oxygen/ice priority was missing before city essentials; fixed before final submission. Existing422 and older files unchanged.",
+  "runs": 3340,
+  "sourceManifest": {
+    "source": {
+      "dist/src/economy-round4-3-ledger.js": "36737d5a853356f3058782611d6085fd70d7c7d13467c2cea928e22f88b0a01c",
+      "dist/src/economy-round4-3-model.js": "eaad9f522bd18cc05d5ecffb5a2b99b2f1aa8d2af7ee17557fb5df86cf3fc87b",
+      "dist/src/economy-round4-3-policy.js": "02195c8010cf6e8a5c92b3746ab4966eeff5f9ad66a908ca38f71ab2f7d5cd5a",
+      "dist/src/economy-round4-3-water.js": "4b56c0a6d654bd0905e53741a7f3358a1f80ae6d8e2cd5984b1eafd95b4dade3",
+      "scripts/econ-round4-3-analysis.mjs": "dbee91da1425a0f45f7ff0c23d3d85958d4dbeb0e9393f0d545c59be09f0413c",
+      "scripts/econ-round4-3-calibrate.mjs": "1f15c726ad90a76c2b085a2657c78942b3f65ba9337d10e355027f1bbb06b39a",
+      "scripts/econ-round4-3-inputs.mjs": "4e2436d18af7749d283f70939e7caabe6003bdacd2469505309d6cc9a212d207",
+      "scripts/econ-round4-3.config.json": "6777491d5392dfef12ee6dd3a0ffb4c837e7375b05b8053386c4cf4ed62de2e5"
+    },
+    "scope": "Economic sources/analysis/config frozen for formal batch; report and verification scripts may be authored afterward."
+  },
+  "results": {
+    "status": "ECON-SIM-4.3 offline only; fixed4.2.2 adopted, ice parameters provisional",
+    "baseCommit": "0c4a8c135af7e30e55c02a7d1120790884b8fec1",
+    "archiveCommit": "705d83c8892f6f35b37c46dd39bfe925a18771a6",
+    "profileId": "R41-rounded",
+    "counts": {
+      "search": 660,
+      "final": 1680,
+      "survival": 240,
+      "noCutControl": 40,
+      "cut": 720,
+      "totalRuns": 3340,
+      "integrityFailures": 0
+    },
+    "qualification": [
+      {
+        "id": "R43-selected-I000",
+        "policy": {
+          "enabled": true,
+          "iceEnabled": true,
+          "iceOutputU": 771.3780370831955,
+          "iceCapitalScale": 0.7887273386069864,
+          "iceMaintenanceScale": 0.663827635149937,
+          "iceGWhPerU": 0.0017783589774044233,
+          "iceBuildMonths": 6,
+          "holidayYears": 5,
+          "oxygenRecycle": 0.5,
+          "lifeGraceMonths": 12
+        },
+        "self": {
+          "passed": false,
+          "failures": {
+            "lifeWater_moon": 30,
+            "lifeOxygen_moon": 59,
+            "lifeOxygen_mars": 20,
+            "earthNetProduction": 3
+          }
+        },
+        "relief": {
+          "passed": false,
+          "failures": {
+            "lifeWater_moon": 30,
+            "lifeOxygen_moon": 59,
+            "lifeOxygen_mars": 35,
+            "earthNetProduction": 3
+          }
+        }
+      },
+      {
+        "id": "R43-rounded",
+        "policy": {
+          "enabled": true,
+          "iceEnabled": true,
+          "iceOutputU": 750,
+          "iceCapitalScale": 0.79,
+          "iceMaintenanceScale": 0.66,
+          "iceGWhPerU": 0.0018,
+          "iceBuildMonths": 6,
+          "holidayYears": 5,
+          "oxygenRecycle": 0.5,
+          "lifeGraceMonths": 12
+        },
+        "self": {
+          "passed": false,
+          "failures": {
+            "lifeWater_moon": 35,
+            "lifeOxygen_moon": 59,
+            "lifeOxygen_mars": 20,
+            "earthNetProduction": 3
+          }
+        },
+        "relief": {
+          "passed": false,
+          "failures": {
+            "lifeWater_moon": 35,
+            "lifeOxygen_moon": 59,
+            "lifeOxygen_mars": 35,
+            "earthNetProduction": 3
+          }
+        }
+      }
+    ],
+    "selfPassing": 0,
+    "reliefPassing": 0,
+    "timings": {
+      "search": 132.284616843,
+      "final": 254.62883687299995,
+      "survival": 39.54426697199995,
+      "noCutControl": 10.013628558999976,
+      "cut": 119.08908141499997
+    },
+    "totalSeconds": 556.158495948,
+    "workers": 3,
+    "environment": {
+      "node": "v24.19.0",
+      "cpu": "AMD EPYC 9V74 80-Core Processor",
+      "parallelism": 4
+    },
+    "scope": "Fixed422 adopted values, national fiscal budget, all4.1 scenarios, survival0/5/10 holidays with/without ice, paired H counterfactual in the SAME43 structure. Life>=99% applies after12months to every ice-enabled colony including shock/cut worlds. E0/prepared-control Earth strict total gain retained. Old12-month production and cut95% remain informational under latest43 table."
+  },
+  "evidence": {
+    "month": 38,
+    "treasuryC": 404418.524,
+    "moonWaterFraction": 1,
+    "moonOxygenFraction": 0,
+    "moonWaterStockU": 4932.69,
+    "moonOxygenStockU": 0,
+    "moonIceU": 0,
+    "moonOxygenProducedU": 0,
+    "moonUnservedGWh": 196.90105664855673,
+    "moonCityUtilization": 0.6735194075133238,
+    "moonIndustryUtilization": 0,
+    "moonHealth": 1,
+    "moonGovernmentAlloyU": 2179.816,
+    "marsWaterFraction": 1,
+    "marsOxygenFraction": 0,
+    "marsWaterStockU": 188864.907,
+    "marsOxygenStockU": 0,
+    "marsIceU": 0,
+    "marsOxygenProducedU": 0,
+    "marsUnservedGWh": 50.21890945272746,
+    "marsCityUtilization": 0.6739265484226165,
+    "marsIndustryUtilization": 0,
+    "marsHealth": 1,
+    "marsGovernmentAlloyU": 1472.401
+  }
+}

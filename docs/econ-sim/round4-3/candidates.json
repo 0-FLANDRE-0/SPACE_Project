@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "id": "R43-selected-I000",
+      "source": "I000",
+      "policy": {
+        "enabled": true,
+        "iceEnabled": true,
+        "iceOutputU": 771.3780370831955,
+        "iceCapitalScale": 0.7887273386069864,
+        "iceMaintenanceScale": 0.663827635149937,
+        "iceGWhPerU": 0.0017783589774044233,
+        "iceBuildMonths": 6,
+        "holidayYears": 5,
+        "oxygenRecycle": 0.5,
+        "lifeGraceMonths": 12
+      }
+    },
+    {
+      "id": "R43-rounded",
+      "source": "I000",
+      "policy": {
+        "enabled": true,
+        "iceEnabled": true,
+        "iceOutputU": 750,
+        "iceCapitalScale": 0.79,
+        "iceMaintenanceScale": 0.66,
+        "iceGWhPerU": 0.0018,
+        "iceBuildMonths": 6,
+        "holidayYears": 5,
+        "oxygenRecycle": 0.5,
+        "lifeGraceMonths": 12
+      }
+    }
+  ]
+}
