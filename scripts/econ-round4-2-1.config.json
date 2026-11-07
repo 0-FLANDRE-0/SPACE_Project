@@ -1,0 +1,73 @@
+{
+  "status": "ECON-SIM-4.2.1 offline only; searched values provisional",
+  "baseCommit": "97e9252320d3e5217e6aad80aab313baa1b1d268",
+  "basePullRequest": 21,
+  "archiveCommit": "90a7e861018722321b0013ee0d581034a9f85412",
+  "profileId": "R41-rounded",
+  "months": 240,
+  "seeds": [
+    "econ-1",
+    "econ-2",
+    "econ-3",
+    "econ-4",
+    "econ-5"
+  ],
+  "samples": 32,
+  "samplingSeed": "econ-round421-lhs-1",
+  "policy": {
+    "enabled": true,
+    "boost": 0.15,
+    "hydrogenPerAlloyU": 1.06,
+    "cashReserveMonths": 3,
+    "rampSpeed": 0.13,
+    "lifeLitersPerPersonDay": 0.5,
+    "waterIntakeCostShare": 0.5
+  },
+  "ranges": {
+    "boost": [
+      0.05,
+      0.25
+    ],
+    "hydrogenPerAlloyU": [
+      0.95,
+      1.1
+    ],
+    "cashReserveMonths": [
+      1,
+      6
+    ]
+  },
+  "criteria421": {
+    "hydrogenMarketMarginMin": 0,
+    "electrolyzerPaybackYearsMax": 4,
+    "uncutProductionRatioMin": 1,
+    "cutProductionRatioMin": 0.95
+  },
+  "cut": {
+    "startMonth": 60,
+    "durations": [
+      6,
+      9,
+      12
+    ],
+    "inventoryLossFractions": [
+      0,
+      1
+    ],
+    "bodies": [
+      "earth",
+      "moon",
+      "mars"
+    ],
+    "baseScenario": "E0",
+    "fundedColonyFixture": true
+  },
+  "assumptions": {
+    "boost": "Net of the same month's full conventional hydrogen assist, bounded by physical ore; no mining/yield changes.",
+    "timeSplit": "Preserve the remaining time's conventional assist before allocating incremental H to reduction; full-month benefit after incremental electricity and O/M must be positive. No mode state, transition cost or process hysteresis.",
+    "cashQuote": "Current owner/body gross operating-cost quote: direct C, maintenance including projected reduction increment, current backlog repair, industrial/conventional/reduction H fuel at local quotes, industrial/electrolyzer/storage electricity, variable electrolysis services, reactor fuel and inventory boiloff. Conservative resource valuation, including own energy/materials, never an extra ledger debit.",
+    "cashTiming": "Only ON discretionary reduction H purchases and all new electrolyzer orders guarded at transaction time. Baseline conventional assist/fusion purchases and identical fixed paid H-CUT preparation are preserved. ON optional H is funded before upkeep; the reserved funds then pay ordinary operations. Self-produced H dispatch has no cash-floor check.",
+    "paidPreparation": "Identical immutable4.2 fixed funding/SCU requests/tick0+24 purchases. Electrolyzer order attempts remain identical, but ON may defer them under the new cash guard. No free C/U, new water source or delivery engine.",
+    "water": "Fixed0.5 L/person/day net make-up, Earth0; intake-service allocation50%. Existing byproduct reaction and integer conservation unchanged."
+  }
+}

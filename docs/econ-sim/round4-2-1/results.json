@@ -1,0 +1,104 @@
+{
+  "status": "ECON-SIM-4.2.1 offline only; searched values provisional",
+  "baseCommit": "97e9252320d3e5217e6aad80aab313baa1b1d268",
+  "archiveCommit": "90a7e861018722321b0013ee0d581034a9f85412",
+  "profileId": "R41-rounded",
+  "counts": {
+    "searchBaseline": 5,
+    "search": 165,
+    "final": 1680,
+    "noCutControl": 40,
+    "cut": 720,
+    "totalRuns": 2610,
+    "offVerified": 1225,
+    "extraPredecessorReplayExecutions": 380,
+    "integrityFailures": 0
+  },
+  "timings": {
+    "searchBaseline": 1.6059760200000002,
+    "search": 28.26308134,
+    "final": 224.95350982099998,
+    "noCutControl": 11.952480364999996,
+    "cut": 136.62675652399997
+  },
+  "totalSeconds": 403.66649008099995,
+  "workers": 3,
+  "environment": {
+    "node": "v24.19.0",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "parallelism": 4
+  },
+  "qualification": [
+    {
+      "id": "R421-selected-H029",
+      "policy": {
+        "enabled": true,
+        "boost": 0.23871994780201933,
+        "hydrogenPerAlloyU": 1.0102954184181727,
+        "cashReserveMonths": 2.377143278659787,
+        "rampSpeed": 0.13,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5
+      },
+      "self": {
+        "passed": false,
+        "failures": {
+          "uncutProduction_earth": 215,
+          "hydrogenMarketMargin": 5,
+          "electrolyzerPayback": 5,
+          "uncutProduction_moon": 5,
+          "uncutProduction_mars": 5,
+          "cutProduction": 30
+        }
+      },
+      "relief": {
+        "passed": false,
+        "failures": {
+          "uncutProduction_earth": 215,
+          "hydrogenMarketMargin": 5,
+          "electrolyzerPayback": 5,
+          "uncutProduction_moon": 5,
+          "uncutProduction_mars": 5,
+          "cutProduction": 30
+        }
+      }
+    },
+    {
+      "id": "R421-rounded",
+      "policy": {
+        "enabled": true,
+        "boost": 0.24,
+        "hydrogenPerAlloyU": 1.01,
+        "cashReserveMonths": 2,
+        "rampSpeed": 0.13,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5
+      },
+      "self": {
+        "passed": false,
+        "failures": {
+          "uncutProduction_earth": 215,
+          "hydrogenMarketMargin": 5,
+          "electrolyzerPayback": 5,
+          "uncutProduction_moon": 5,
+          "uncutProduction_mars": 5,
+          "cutProduction": 30
+        }
+      },
+      "relief": {
+        "passed": false,
+        "failures": {
+          "uncutProduction_earth": 215,
+          "hydrogenMarketMargin": 5,
+          "electrolyzerPayback": 5,
+          "uncutProduction_moon": 5,
+          "uncutProduction_mars": 5,
+          "cutProduction": 30
+        }
+      }
+    }
+  ],
+  "selfPassing": 0,
+  "reliefPassing": 0,
+  "scope": "Only R41-rounded. New uncut production criteria applied to all non-H-CUT final paths with control industrial output plus all3 prepared no-cut worlds; zero/zero12m windows compare equal but ratio remains undefined. Earth net >1 is information. Old information classification retained."
+}
