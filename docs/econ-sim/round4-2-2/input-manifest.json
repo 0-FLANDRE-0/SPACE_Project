@@ -1,0 +1,489 @@
+{
+  "p": {
+    "baseAlloyPrice": 2.3,
+    "hydrogenPrice": 1,
+    "bodies": {
+      "earth": {
+        "populationPersons": 8893000000,
+        "annualGDP": 20000000,
+        "taxRate": 0.25,
+        "collectionEfficiency": 1
+      },
+      "moon": {
+        "populationPersons": 200000,
+        "annualGDP": 450,
+        "taxRate": 0,
+        "collectionEfficiency": 1
+      },
+      "mars": {
+        "populationPersons": 50000,
+        "annualGDP": 112.5,
+        "taxRate": 0,
+        "collectionEfficiency": 1
+      }
+    },
+    "initialTreasuryC": 100000,
+    "initialAlloyU": 10000,
+    "initialHydrogenU": 500,
+    "gradeProbabilities": {
+      "low": 0.45,
+      "medium": 0.5,
+      "high": 0.05
+    },
+    "difficulty": 48,
+    "processingDifficulty": 48,
+    "productivityGrowth": 0.011,
+    "earthPopulationGrowth": 0,
+    "colonyPopulationGrowth": 0.004,
+    "earthTaxRate": 0.25,
+    "strategyShare": 0.021,
+    "velocity": 1.3333,
+    "targetInflation": 0.013,
+    "alloyMarketShare": 0.036,
+    "demandElasticity": 0.7,
+    "inventoryDays": 130,
+    "priceAdjustment": 0.05,
+    "priceReversion": 0.07,
+    "priceFloor": 0.5,
+    "priceCeiling": 2.5,
+    "expansionDelayMonths": 13,
+    "expansionBeta": 0.018,
+    "privateDepreciation": 0.045,
+    "privateAmortizationYears": 3.4,
+    "privateOperatingRate": 0.1,
+    "privateScale": 0.95,
+    "requiredMargin": 0.22,
+    "shipMaintenanceRate": 0.065,
+    "governmentOperatingRate": 0.115,
+    "colonySupportC": 1400,
+    "productivityShock": 0.003,
+    "debtInterestRate": 0.03,
+    "warStartMonth": 48,
+    "warDurationMonths": 24,
+    "warPurchaseMonths": 12,
+    "warAlloyU": 50000,
+    "warStrategyShare": 0.1,
+    "warMonetizationFraction": 1,
+    "colonySupportMultiplier": 3,
+    "colonyBuildEveryMonths": 24,
+    "supplyConstraintStrength": 0.03,
+    "governmentSaleFraction": 0,
+    "privateForecastMonths": 6,
+    "shipyardSlots": 1
+  },
+  "e": {
+    "fusionNormalHydrogenU": 2.5,
+    "costs": {
+      "foundationMonths": 2,
+      "fusion": {
+        "base": {
+          "creditC": 15000,
+          "alloyU": 1200
+        },
+        "module": {
+          "creditC": 6000,
+          "alloyU": 450
+        }
+      },
+      "fission": {
+        "base": {
+          "creditC": 8000,
+          "alloyU": 650
+        },
+        "module": {
+          "creditC": 3000,
+          "alloyU": 250
+        }
+      },
+      "solar": {
+        "base": {
+          "creditC": 5000,
+          "alloyU": 400
+        },
+        "module": {
+          "creditC": 2000,
+          "alloyU": 100
+        }
+      }
+    },
+    "earthBaseGW": 8120,
+    "peakGW": 10750,
+    "gridReserve": 0.09,
+    "electricityGDPShare": 0.08,
+    "electricDemandGDPExponent": 0.6,
+    "powerScarcityElasticity": 1.5,
+    "industryMix": "steelHeavy",
+    "mineRatio": 1.1,
+    "mineMWhPerT": 0.11,
+    "feedMWhPerT": 0.04,
+    "industryFixedMW": 0.06,
+    "privateScale": 0.95,
+    "directAnnual": 0.09,
+    "upkeepAnnual": 0.1,
+    "pausedCashFraction": 0.12,
+    "pausedAlloyFraction": 0.96,
+    "damagePerMonth": 0.03,
+    "repairRate": 1.4000000000000001,
+    "repairCPerU": 0.5,
+    "legacyGridCashGDPShare": 0.005,
+    "legacyGridUpkeepAnnualU": 10000,
+    "fusionMinimumFraction": 0.07,
+    "fissionAvailability": 0.9400000000000001,
+    "fissionFuelCPerGWh": 0.001,
+    "solarEarthCF": 0.27,
+    "solarMoonMultiplier": 0.85,
+    "solarMarsMultiplier": 0.43,
+    "hydrogenModuleU": 100,
+    "hydrogenModuleC": 2700,
+    "hydrogenModuleAlloyU": 17,
+    "hydrogenLagMonths": 6,
+    "electrolysisGWhPerU": 0.54,
+    "hydrogenVariableCPerU": 0.04,
+    "waterIntakeU": 900000,
+    "waterTankU": 90000,
+    "hydrogenInventoryMonths": 4,
+    "hydrogenPriceAdjustment": 0.05,
+    "hydrogenPriceReversion": 0.05,
+    "storageGWh": 12,
+    "storageGW": 0.25,
+    "storageC": 1500,
+    "storageAlloyU": 100,
+    "storageEfficiency": 0.92,
+    "parallelSurcharge": 0.13,
+    "learning": 0.2,
+    "colonyKWPerPerson": 6.2,
+    "freightCPerU": 0.05,
+    "essentialShare": 0.8,
+    "dispatchPolicy": "proportional",
+    "industryGDPWeight": 0.14,
+    "privatePowerHorizonYears": 54,
+    "privatePowerLagMonths": 9
+  },
+  "inputs": {
+    "planets": {
+      "earth": {
+        "oreU": 78599999999.99995,
+        "waterTiles": [
+          "sol:earth:surface:00000",
+          "sol:earth:surface:00001",
+          "sol:earth:surface:00002",
+          "sol:earth:surface:00003",
+          "sol:earth:surface:00004",
+          "sol:earth:surface:00005",
+          "sol:earth:surface:00006",
+          "sol:earth:surface:00007",
+          "sol:earth:surface:00008",
+          "sol:earth:surface:00009",
+          "sol:earth:surface:00010",
+          "sol:earth:surface:00011",
+          "sol:earth:surface:00012",
+          "sol:earth:surface:00013",
+          "sol:earth:surface:00014",
+          "sol:earth:surface:00015",
+          "sol:earth:surface:00016",
+          "sol:earth:surface:00017",
+          "sol:earth:surface:00018",
+          "sol:earth:surface:00021",
+          "sol:earth:surface:00022",
+          "sol:earth:surface:00023",
+          "sol:earth:surface:00024",
+          "sol:earth:surface:00025",
+          "sol:earth:surface:00026",
+          "sol:earth:surface:00027",
+          "sol:earth:surface:00028",
+          "sol:earth:surface:00029",
+          "sol:earth:surface:00030",
+          "sol:earth:surface:00031",
+          "sol:earth:surface:00032",
+          "sol:earth:surface:00033",
+          "sol:earth:surface:00034",
+          "sol:earth:surface:00035",
+          "sol:earth:surface:00036",
+          "sol:earth:surface:00037",
+          "sol:earth:surface:00038",
+          "sol:earth:surface:00039",
+          "sol:earth:surface:00040",
+          "sol:earth:surface:00041",
+          "sol:earth:surface:00042",
+          "sol:earth:surface:00043",
+          "sol:earth:surface:00044",
+          "sol:earth:surface:00045",
+          "sol:earth:surface:00046",
+          "sol:earth:surface:00047",
+          "sol:earth:surface:00048",
+          "sol:earth:surface:00049",
+          "sol:earth:surface:00050",
+          "sol:earth:surface:00051",
+          "sol:earth:surface:00052",
+          "sol:earth:surface:00053",
+          "sol:earth:surface:00054",
+          "sol:earth:surface:00055",
+          "sol:earth:surface:00056",
+          "sol:earth:surface:00057",
+          "sol:earth:surface:00058",
+          "sol:earth:surface:00059",
+          "sol:earth:surface:00060",
+          "sol:earth:surface:00061",
+          "sol:earth:surface:00062",
+          "sol:earth:surface:00063",
+          "sol:earth:surface:00064",
+          "sol:earth:surface:00065",
+          "sol:earth:surface:00066",
+          "sol:earth:surface:00067",
+          "sol:earth:surface:00068",
+          "sol:earth:surface:00069",
+          "sol:earth:surface:00070",
+          "sol:earth:surface:00071",
+          "sol:earth:surface:00072",
+          "sol:earth:surface:00073",
+          "sol:earth:surface:00074",
+          "sol:earth:surface:00075",
+          "sol:earth:surface:00076",
+          "sol:earth:surface:00077",
+          "sol:earth:surface:00078",
+          "sol:earth:surface:00079",
+          "sol:earth:surface:00080",
+          "sol:earth:surface:00081",
+          "sol:earth:surface:00082",
+          "sol:earth:surface:00083",
+          "sol:earth:surface:00084",
+          "sol:earth:surface:00085",
+          "sol:earth:surface:00086",
+          "sol:earth:surface:00087",
+          "sol:earth:surface:00088",
+          "sol:earth:surface:00089",
+          "sol:earth:surface:00090",
+          "sol:earth:surface:00091"
+        ],
+        "sources": [
+          {
+            "sourceId": "h1-sol-earth-d71207a1-0",
+            "tileId": "sol:earth:surface:00014",
+            "resourceId": "hydrogen",
+            "sourceType": "finite-source",
+            "initialReserveU": 11202571.946,
+            "potentialCollectionUPerCycle": null,
+            "operatingDifficulty": 89.799,
+            "facilityRequirement": "ice-water-extraction",
+            "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님",
+            "oreEligible": true
+          },
+          {
+            "sourceId": "h1-sol-earth-d71207a1-1",
+            "tileId": "sol:earth:surface:00077",
+            "resourceId": "hydrogen",
+            "sourceType": "finite-source",
+            "initialReserveU": 27819485.653,
+            "potentialCollectionUPerCycle": null,
+            "operatingDifficulty": 51.198,
+            "facilityRequirement": "ice-water-extraction",
+            "notes": "잠정 잠재 공급원. 정제 수율·생산·유지비 미구현, 시작 재고 아님",
+            "oreEligible": true
+          }
+        ],
+        "populationPersons": 8893000000,
+        "cellCount": 92,
+        "waterHostTile": "sol:earth:surface:00000"
+      },
+      "moon": {
+        "oreU": 100000000000,
+        "waterTiles": [],
+        "sources": [],
+        "populationPersons": 200000,
+        "cellCount": 42,
+        "waterHostTile": null
+      },
+      "mars": {
+        "oreU": 48900000000,
+        "waterTiles": [
+          "sol:mars:surface:00019"
+        ],
+        "sources": [],
+        "populationPersons": 50000,
+        "cellCount": 42,
+        "waterHostTile": "sol:mars:surface:00019"
+      }
+    },
+    "files": {
+      "dist/data/planet-surfaces/sol-earth-v2.json": "42c8333e20cd1fef7bbbbbc65ac3edc5d63366d2f5ae75581cfa629c55ce8475",
+      "dist/data/planet-surfaces/sol-moon-v2.json": "fe987daaa43683ed6d74e570da4bef589eef739b3a208cc3e8222fe45a6e7616",
+      "dist/data/planet-surfaces/sol-mars-v2.json": "aea9fc1e6d1ea648c5ec5135fe6a7b1779c85b9562a1fd109fde4fcf6ec826ae",
+      "dist/src/industry-runtime.js": "697da447876c36eb48c09dd82df11f9241db1ba4e94dfbd8b56c2b63c8bb4a55"
+    },
+    "contract": {
+      "smeltHydrogenU": 85,
+      "smeltBoost": 0.15,
+      "byproductMaximumU": 100,
+      "origin": "dist/src/industry-runtime.js",
+      "contractHash": "697da447876c36eb48c09dd82df11f9241db1ba4e94dfbd8b56c2b63c8bb4a55"
+    }
+  },
+  "profile": {
+    "id": "R41-rounded",
+    "baseId": "R4-rounded",
+    "parameters": {
+      "hydrogenPrice": 1.2,
+      "electrolysisKWhKg": 51,
+      "hydrogenLiquefactionKWhKg": 9.6,
+      "oxygenLiquefactionKWhKg": 0.32,
+      "hydrogenStorageKWhKgMonth": 0.16,
+      "boiloffMonthly": 0.0021,
+      "hydrogenCapacityScale": 0.53,
+      "hydrogenCScale": 1.1,
+      "hydrogenAlloyScale": 1.4,
+      "packCPerSCU": 0.0051,
+      "packKWhPerSCU": 1.6,
+      "freightCPerSCU": 0.0125,
+      "mediumRatio": 0.16666666666666666,
+      "smallRatio": 0.04,
+      "nuclearCostExponent": 0.62,
+      "solarCostExponent": 0.9,
+      "timeExponent": 0.34,
+      "reuseDiscount": 0.29,
+      "upgradeDerate": 0.0099,
+      "fusionUnlockMonth": 110,
+      "solarCapexScale": 0.97,
+      "solarEarthCF": 0.26,
+      "pausedCashFraction": 0.13,
+      "pausedAlloyFraction": 0.46,
+      "mineRestartFraction": 0.011,
+      "mineFirstDayFraction": 0.048,
+      "smeltRestartFraction": 0.029,
+      "smeltHeatMultiplier": 2.6,
+      "smeltRecoveryMonths": 2.9,
+      "privateLossMonths": 3,
+      "privateDismantleMonths": 30,
+      "privateRestartMonths": 12,
+      "dismantleMonths": 1.4,
+      "dismantleCashFraction": 0.059,
+      "salvageFraction": 0.49,
+      "upkeep_earth": 0.03,
+      "upkeep_moon": 0.041,
+      "upkeep_mars": 0.032,
+      "colonyKWPerPerson": 3.3,
+      "priorityEnabled": true,
+      "lifecycleEnabled": true,
+      "governmentDismantle": false,
+      "legacyUpkeepReference": 0.1,
+      "oxygenStored": false,
+      "publicColonyResponse": true
+    },
+    "policy41": {
+      "hydrogenPrice": 0.4,
+      "triageEnabled": true,
+      "marketRelief": false,
+      "importRelief": false,
+      "enterMonths": 6,
+      "exitMultiple": 1.4,
+      "graceMonths": 9,
+      "postGraceDamageScale": 1.2,
+      "marketPremium": 1.6,
+      "marketFraction": 0.2,
+      "donorReserveMonths": 10
+    }
+  },
+  "config": {
+    "status": "ECON-SIM-4.2.2 offline only; new values provisional",
+    "baseCommit": "3f277ea6857ccfbbe5a78a854dd4d1b704b75b04",
+    "basePullRequest": 22,
+    "archiveCommit": "70888aae531eed343429f6bcd974b348b41190c1",
+    "profileId": "R41-rounded",
+    "months": 240,
+    "seeds": [
+      "econ-1",
+      "econ-2",
+      "econ-3",
+      "econ-4",
+      "econ-5"
+    ],
+    "samples": 32,
+    "samplingSeed": "econ-round422-lhs-1",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.06,
+      "cashReserveMonths": 3,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.15,
+      "waterGateFraction": 0.75,
+      "waterGateMonths": 6
+    },
+    "ranges": {
+      "yieldBonus": [
+        0.05,
+        0.25
+      ],
+      "hydrogenPerAlloyU": [
+        0.95,
+        1.1
+      ],
+      "cashReserveMonths": [
+        1,
+        6
+      ],
+      "waterGateFraction": [
+        0.5,
+        1
+      ],
+      "waterGateMonths": [
+        3,
+        12
+      ]
+    },
+    "cut": {
+      "startMonth": 60,
+      "durations": [
+        6,
+        9,
+        12
+      ],
+      "inventoryLossFractions": [
+        0,
+        1
+      ],
+      "bodies": [
+        "earth",
+        "moon",
+        "mars"
+      ],
+      "baseScenario": "E0",
+      "fundedColonyFixture": true
+    },
+    "assumptions": {
+      "timeSplit": "Preserve the remaining time's conventional assist before allocating incremental H to reduction; full-month benefit after incremental electricity and O/M must be positive. No mode state, transition cost or process hysteresis.",
+      "cashQuote": "Current owner/body gross operating-cost quote: direct C, maintenance including projected reduction increment, current backlog repair, industrial/conventional/reduction H fuel at local quotes, industrial/electrolyzer/storage electricity, variable electrolysis services, reactor fuel and inventory boiloff. Conservative resource valuation, including own energy/materials, never an extra ledger debit.",
+      "cashTiming": "Only ON discretionary reduction H purchases and all new electrolyzer orders guarded at transaction time. Baseline conventional assist/fusion purchases and identical fixed paid H-CUT preparation are preserved. ON optional H is funded before upkeep; the reserved funds then pay ordinary operations. Self-produced H dispatch has no cash-floor check.",
+      "paidPreparation": "Identical immutable4.2 fixed funding/SCU requests/tick0+24 purchases. Electrolyzer order attempts remain identical, but ON may defer them under the new cash guard. No free C/U, new water source or delivery engine.",
+      "water": "Fixed0.5 L/person/day net make-up, Earth0; intake-service allocation50%. Existing byproduct reaction and integer conservation unchanged.",
+      "yield": "Higher alloy yield on actual reduction ore; capacity equal full conventional assist, no y-related extra electricity/O&M; base ore/yield/mining ratio frozen.",
+      "waterGate": "Conservative owner/body forecast from observed history, existing stocks/intake and finite H. Assess N operating months from completion; no future shock knowledge, new source or credit from the proposed plant H. Existing design withdrawals and byproduct life support have priority; distinct deferred proposals vs retries/quoted C.",
+      "sampling": "Four continuous axes with32 Latin-hypercube strata; waterGateMonths rounded to integer3..12. Screen both E0 and prepared no-cut colonies so water-gate axes are exercised."
+    },
+    "criteria422": {
+      "hydrogenMarketMarginMin": 0,
+      "electrolyzerPaybackYearsMax": 4,
+      "uncutProductionRatioMin": 1,
+      "cutProductionRatioMin": 0.95
+    },
+    "screeningScenarios": [
+      "E0",
+      "H-CUT-CONTROL"
+    ],
+    "criteria41": {
+      "peacePriceDeviation": 0.2,
+      "meanPriceDeviation": 0.08,
+      "inflationMin": 0.01,
+      "inflationMax": 0.03,
+      "budget17Min": 1.1,
+      "budget17Max": 1.6,
+      "colonyPeaceYearlyMax": 0.01,
+      "colonyFoundingYearlyMax": 0.1,
+      "industryPaybackYearsMax": 4,
+      "hydrogenMarginMin": 0,
+      "crisisRecoveryYearsMax": 5,
+      "crisisHealthMin": 0.8,
+      "crisisUnservedMax": 0.01
+    }
+  }
+}

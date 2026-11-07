@@ -1,0 +1,96 @@
+{
+  "status": "ECON-SIM-4.2.2 offline only; new values provisional",
+  "baseCommit": "3f277ea6857ccfbbe5a78a854dd4d1b704b75b04",
+  "archiveCommit": "70888aae531eed343429f6bcd974b348b41190c1",
+  "profileId": "R41-rounded",
+  "counts": {
+    "searchBaseline": 10,
+    "search": 330,
+    "final": 1680,
+    "noCutControl": 40,
+    "cut": 720,
+    "totalRuns": 2780,
+    "offVerified": 1230,
+    "extraPredecessorReplayExecutions": 385,
+    "integrityFailures": 0
+  },
+  "timings": {
+    "searchBaseline": 4.747144335999999,
+    "search": 59.012801921,
+    "final": 202.19251266300003,
+    "noCutControl": 15.380415680999985,
+    "cut": 148.295808371
+  },
+  "totalSeconds": 430.05134138,
+  "workers": 3,
+  "environment": {
+    "node": "v24.19.0",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "parallelism": 4
+  },
+  "qualification": [
+    {
+      "id": "R422-selected-H013",
+      "policy": {
+        "enabled": true,
+        "hydrogenPerAlloyU": 0.9560034538910258,
+        "cashReserveMonths": 5.856487628821924,
+        "rampSpeed": 0.13,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5,
+        "yieldBonus": 0.08969248692155816,
+        "waterGateFraction": 0.722625113423419,
+        "waterGateMonths": 12
+      },
+      "self": {
+        "passed": false,
+        "failures": {
+          "uncutProduction_earth": 206,
+          "uncutProduction_mars": 5,
+          "cutProduction": 10
+        }
+      },
+      "relief": {
+        "passed": false,
+        "failures": {
+          "uncutProduction_earth": 206,
+          "uncutProduction_mars": 5,
+          "cutProduction": 10
+        }
+      }
+    },
+    {
+      "id": "R422-rounded",
+      "policy": {
+        "enabled": true,
+        "hydrogenPerAlloyU": 0.96,
+        "cashReserveMonths": 6,
+        "rampSpeed": 0.13,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5,
+        "yieldBonus": 0.09,
+        "waterGateFraction": 0.72,
+        "waterGateMonths": 12
+      },
+      "self": {
+        "passed": false,
+        "failures": {
+          "uncutProduction_earth": 202,
+          "uncutProduction_mars": 5,
+          "cutProduction": 10
+        }
+      },
+      "relief": {
+        "passed": false,
+        "failures": {
+          "uncutProduction_earth": 202,
+          "uncutProduction_mars": 5,
+          "cutProduction": 10
+        }
+      }
+    }
+  ],
+  "selfPassing": 0,
+  "reliefPassing": 0,
+  "scope": "Only R41-rounded. New uncut production criteria applied to all non-H-CUT final paths with control industrial output plus all3 prepared no-cut worlds; zero/zero12m windows compare equal but ratio remains undefined. E0 and prepared-control Earth net >1 is required; other non-H-CUT worlds retain >=1 plus all12m windows. Old information classification retained."
+}

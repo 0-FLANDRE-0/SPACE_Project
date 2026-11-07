@@ -1,0 +1,35 @@
+{
+  "profileId": "R41-rounded",
+  "searchScope": "E0 and prepared no-cut control self lane;32 five-axis LHS plus h1.06 reference;five seeds. All other economic bases frozen and not searched.",
+  "searchPasses": 0,
+  "choices": [
+    {
+      "id": "R422-selected-H013",
+      "policy": {
+        "enabled": true,
+        "hydrogenPerAlloyU": 0.9560034538910258,
+        "cashReserveMonths": 5.856487628821924,
+        "rampSpeed": 0.13,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5,
+        "yieldBonus": 0.08969248692155816,
+        "waterGateFraction": 0.722625113423419,
+        "waterGateMonths": 12
+      }
+    },
+    {
+      "id": "R422-rounded",
+      "policy": {
+        "enabled": true,
+        "hydrogenPerAlloyU": 0.96,
+        "cashReserveMonths": 6,
+        "rampSpeed": 0.13,
+        "lifeLitersPerPersonDay": 0.5,
+        "waterIntakeCostShare": 0.5,
+        "yieldBonus": 0.09,
+        "waterGateFraction": 0.72,
+        "waterGateMonths": 12
+      }
+    }
+  ]
+}

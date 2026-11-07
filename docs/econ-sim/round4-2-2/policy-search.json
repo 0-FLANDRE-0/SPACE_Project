@@ -1,0 +1,807 @@
+[
+  {
+    "id": "H000",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.086046463213279,
+      "cashReserveMonths": 2.8902236365829594,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.14874881825817282,
+      "waterGateFraction": 0.5813631034980062,
+      "waterGateMonths": 5
+    },
+    "passed": false,
+    "score": 18,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 6,
+      "meanPrice": 2,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.1034099743334164
+  },
+  {
+    "id": "H001",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9674833039673103,
+      "cashReserveMonths": 3.284018679711153,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.19680546007439265,
+      "waterGateFraction": 0.8343518803776533,
+      "waterGateMonths": 12
+    },
+    "passed": false,
+    "score": 25,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 7,
+      "priceDeviation": 3,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.16747968642646013
+  },
+  {
+    "id": "H002",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.051534447348604,
+      "cashReserveMonths": 1.8656228582185577,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.1833495639875764,
+      "waterGateFraction": 0.9896823513809068,
+      "waterGateMonths": 5
+    },
+    "passed": false,
+    "score": 25,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 9,
+      "priceDeviation": 1,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.15024286900005618
+  },
+  {
+    "id": "H003",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9828482164528395,
+      "cashReserveMonths": 1.0130777936283266,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.2113580957884551,
+      "waterGateFraction": 0.9343713618836773,
+      "waterGateMonths": 8
+    },
+    "passed": false,
+    "score": 25,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 4,
+      "meanPrice": 5,
+      "uncutProduction_earth": 6,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.1688598737245382
+  },
+  {
+    "id": "H004",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0438787903367484,
+      "cashReserveMonths": 4.738320592419768,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.07298986868117936,
+      "waterGateFraction": 0.7014987868860771,
+      "waterGateMonths": 6
+    },
+    "passed": false,
+    "score": 23.05859629292106,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "earthStrictNetProduction": 2,
+      "hydrogenMarketMargin": 1,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.016921353860780277
+  },
+  {
+    "id": "H005",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.090975245773734,
+      "cashReserveMonths": 1.9401326804436394,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.06246884177817265,
+      "waterGateFraction": 0.7824066038956516,
+      "waterGateMonths": 9
+    },
+    "passed": false,
+    "score": 28.388346518922788,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "earthStrictNetProduction": 1,
+      "hydrogenMarketMargin": 4,
+      "electrolyzerPayback": 3,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.00015963042462130984
+  },
+  {
+    "id": "H006",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0094511426865211,
+      "cashReserveMonths": 4.838114735772251,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.1374028465579613,
+      "waterGateFraction": 0.6009803229717363,
+      "waterGateMonths": 8
+    },
+    "passed": false,
+    "score": 23,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 4,
+      "uncutProduction_earth": 9,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.11059843744130768
+  },
+  {
+    "id": "H007",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0969213115098684,
+      "cashReserveMonths": 5.631765060366888,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.2338081857757061,
+      "waterGateFraction": 0.8850148013189028,
+      "waterGateMonths": 7
+    },
+    "passed": false,
+    "score": 30,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 5,
+      "meanPrice": 5,
+      "uncutProduction_earth": 10,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.1770633699442254
+  },
+  {
+    "id": "H008",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0249029357179098,
+      "cashReserveMonths": 5.1711536096045165,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.2291490958421491,
+      "waterGateFraction": 0.9678417364375491,
+      "waterGateMonths": 11
+    },
+    "passed": false,
+    "score": 25,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 5,
+      "meanPrice": 5,
+      "uncutProduction_earth": 5,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.1676632016050243
+  },
+  {
+    "id": "H009",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0370888670593559,
+      "cashReserveMonths": 2.5708232645556564,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.08372226667561336,
+      "waterGateFraction": 0.686797254216799,
+      "waterGateMonths": 5
+    },
+    "passed": false,
+    "score": 20,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.031366382548020606
+  },
+  {
+    "id": "H010",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9694016471428767,
+      "cashReserveMonths": 2.1102214463608107,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.13019211363571231,
+      "waterGateFraction": 0.9076502326388436,
+      "waterGateMonths": 3
+    },
+    "passed": false,
+    "score": 20,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 5,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.09612140544503532
+  },
+  {
+    "id": "H011",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9805252632260817,
+      "cashReserveMonths": 4.2729269780247705,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.22385006515105488,
+      "waterGateFraction": 0.7082180343240907,
+      "waterGateMonths": 11
+    },
+    "passed": false,
+    "score": 26,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 4,
+      "meanPrice": 5,
+      "uncutProduction_earth": 7,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.18661371188812698
+  },
+  {
+    "id": "H012",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9624881653980992,
+      "cashReserveMonths": 3.3522851384041132,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.16661899212485878,
+      "waterGateFraction": 0.9759542925203277,
+      "waterGateMonths": 9
+    },
+    "passed": false,
+    "score": 25,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 10,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.1463104051144517
+  },
+  {
+    "id": "H013",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9560034538910258,
+      "cashReserveMonths": 5.856487628821924,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.08969248692155816,
+      "waterGateFraction": 0.722625113423419,
+      "waterGateMonths": 12
+    },
+    "passed": false,
+    "score": 15,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.04294366899907036
+  },
+  {
+    "id": "H014",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0186291192203498,
+      "cashReserveMonths": 4.115808926631871,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.06368759195902385,
+      "waterGateFraction": 0.739223438740737,
+      "waterGateMonths": 10
+    },
+    "passed": false,
+    "score": 24,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "earthStrictNetProduction": 4,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.016747810149457053
+  },
+  {
+    "id": "H015",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9776217205759167,
+      "cashReserveMonths": 3.044801974807342,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.09792593304155162,
+      "waterGateFraction": 0.9462089846383606,
+      "waterGateMonths": 6
+    },
+    "passed": false,
+    "score": 21,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "meanPrice": 1,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.05789045679559546
+  },
+  {
+    "id": "H016",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0264969245479734,
+      "cashReserveMonths": 3.896973827992042,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.24105772625916871,
+      "waterGateFraction": 0.7974964108798304,
+      "waterGateMonths": 10
+    },
+    "passed": false,
+    "score": 30,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 5,
+      "meanPrice": 5,
+      "uncutProduction_earth": 10,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.2072444152606364
+  },
+  {
+    "id": "H017",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0762881734463008,
+      "cashReserveMonths": 1.7686511556312325,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.10124267946666805,
+      "waterGateFraction": 0.8556205252789368,
+      "waterGateMonths": 3
+    },
+    "passed": false,
+    "score": 20,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.05080903730158046
+  },
+  {
+    "id": "H018",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9542187969371297,
+      "cashReserveMonths": 4.5235030674084555,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.1764351962687215,
+      "waterGateFraction": 0.6133969232432719,
+      "waterGateMonths": 9
+    },
+    "passed": false,
+    "score": 26,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 10,
+      "priceDeviation": 1,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.16463085174693406
+  },
+  {
+    "id": "H019",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0138375562422879,
+      "cashReserveMonths": 5.2972860886584385,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.1515664502090658,
+      "waterGateFraction": 0.7742887881649949,
+      "waterGateMonths": 7
+    },
+    "passed": false,
+    "score": 26,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 10,
+      "priceDeviation": 1,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.12273536186674232
+  },
+  {
+    "id": "H020",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9942039218076388,
+      "cashReserveMonths": 5.836728863156168,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.1926621265971335,
+      "waterGateFraction": 0.8938151959482639,
+      "waterGateMonths": 9
+    },
+    "passed": false,
+    "score": 20,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 4,
+      "meanPrice": 5,
+      "uncutProduction_earth": 1,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.1460487921199139
+  },
+  {
+    "id": "H021",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.079371040224578,
+      "cashReserveMonths": 4.294637541293923,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.24438260274473578,
+      "waterGateFraction": 0.5708173460989201,
+      "waterGateMonths": 11
+    },
+    "passed": false,
+    "score": 26,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 5,
+      "meanPrice": 5,
+      "uncutProduction_earth": 6,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.17758731969580688
+  },
+  {
+    "id": "H022",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0706910318771408,
+      "cashReserveMonths": 2.8036636716351495,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.05486077545792796,
+      "waterGateFraction": 0.5129107614266104,
+      "waterGateMonths": 7
+    },
+    "passed": false,
+    "score": 32.418865786113905,
+    "runs": 10,
+    "failures": {
+      "hydrogenMarketMargin": 5,
+      "electrolyzerPayback": 5,
+      "uncutProduction_earth": 10,
+      "earthStrictNetProduction": 1,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": -0.014188657861139087
+  },
+  {
+    "id": "H023",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0853408942253737,
+      "cashReserveMonths": 1.5996482687987736,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.12424966400285485,
+      "waterGateFraction": 0.8640572589320072,
+      "waterGateMonths": 4
+    },
+    "passed": false,
+    "score": 21,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 9,
+      "meanPrice": 2,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.0713080652877904
+  },
+  {
+    "id": "H024",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9907208393065957,
+      "cashReserveMonths": 1.2825972498612828,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.14042579103988828,
+      "waterGateFraction": 0.5414118853768741,
+      "waterGateMonths": 10
+    },
+    "passed": false,
+    "score": 24,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 9,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.09940335979307979
+  },
+  {
+    "id": "H025",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0636042476660805,
+      "cashReserveMonths": 4.915414166658593,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.11214632425544552,
+      "waterGateFraction": 0.7574219578309567,
+      "waterGateMonths": 10
+    },
+    "passed": false,
+    "score": 20,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.07127255125580731
+  },
+  {
+    "id": "H026",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0550194858104078,
+      "cashReserveMonths": 1.3186809581166017,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.11393445635330864,
+      "waterGateFraction": 0.5489777736220276,
+      "waterGateMonths": 4
+    },
+    "passed": false,
+    "score": 23,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "earthStrictNetProduction": 3,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.08215674702613826
+  },
+  {
+    "id": "H027",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0338729420505843,
+      "cashReserveMonths": 3.6227466326599824,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.17447803989052774,
+      "waterGateFraction": 0.819413679313584,
+      "waterGateMonths": 8
+    },
+    "passed": false,
+    "score": 19,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 4,
+      "meanPrice": 5,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.12097471584192736
+  },
+  {
+    "id": "H028",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0411375344767293,
+      "cashReserveMonths": 2.2928850622847676,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.2030409199636779,
+      "waterGateFraction": 0.6557163685101841,
+      "waterGateMonths": 4
+    },
+    "passed": false,
+    "score": 20,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 5,
+      "meanPrice": 5,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.1405344976249578
+  },
+  {
+    "id": "H029",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 0.9978414900015196,
+      "cashReserveMonths": 5.503745915317268,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.21667040488973727,
+      "waterGateFraction": 0.5234808098466601,
+      "waterGateMonths": 6
+    },
+    "passed": false,
+    "score": 26,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 7,
+      "priceDeviation": 4,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.17222175978722673
+  },
+  {
+    "id": "H030",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0591284569807613,
+      "cashReserveMonths": 2.428888638620265,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.16069404106092405,
+      "waterGateFraction": 0.6584845075849444,
+      "waterGateMonths": 5
+    },
+    "passed": false,
+    "score": 25,
+    "runs": 10,
+    "failures": {
+      "meanPrice": 5,
+      "uncutProduction_earth": 10,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.12511164768881008
+  },
+  {
+    "id": "H031",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.0020616488254745,
+      "cashReserveMonths": 3.7286453689521295,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.07693332423514221,
+      "waterGateFraction": 0.6307124417362502,
+      "waterGateMonths": 6
+    },
+    "passed": false,
+    "score": 23,
+    "runs": 10,
+    "failures": {
+      "uncutProduction_earth": 10,
+      "earthStrictNetProduction": 3,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.03703211159772553
+  },
+  {
+    "id": "REFERENCE",
+    "policy": {
+      "enabled": true,
+      "hydrogenPerAlloyU": 1.06,
+      "cashReserveMonths": 3,
+      "rampSpeed": 0.13,
+      "lifeLitersPerPersonDay": 0.5,
+      "waterIntakeCostShare": 0.5,
+      "yieldBonus": 0.15,
+      "waterGateFraction": 0.75,
+      "waterGateMonths": 6
+    },
+    "passed": false,
+    "score": 24,
+    "runs": 10,
+    "failures": {
+      "priceDeviation": 1,
+      "meanPrice": 4,
+      "uncutProduction_earth": 9,
+      "uncutProduction_moon": 5,
+      "uncutProduction_mars": 5
+    },
+    "meanMarketMargin": 0.1153357975189279
+  }
+]

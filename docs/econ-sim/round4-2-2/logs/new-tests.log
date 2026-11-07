@@ -1,0 +1,41 @@
+✔ 422 reproduces421 ore bottleneck and replaces it with true extra alloy at unchanged ore (1.570238ms)
+✔ 422 yield is not an extra capacity coefficient at any searched value (0.239686ms)
+✔ 422 actual-ore p* credits only actual conventional H, not a fictional nominal85U (0.221029ms)
+✔ 422 no H is the full old unassisted recipe with zero yield gain (0.151836ms)
+✔ 422 partial H never spends both recipes against the same quanta or creates ore capacity (0.432984ms)
+✔ 422 expensive reduction falls back to unchanged conventional decisions (0.280518ms)
+✔ 422 the same ore workload has the same electricity and O/M, even with bonus alloy (2.696074ms)
+✔ 422 s shortens only smelter ramp and retains96h heat and mine recovery (0.260778ms)
+✔ 422 strict5-axis validation rejects removed b, fractional gate horizons, and edits to fixed values (0.575837ms)
+✔ 422 actual recipe alloy gain comes out of residue, conserving ore and reaction oxygen mass (0.272246ms)
+✔ 422 identical baseline37 values, base yield, canonical populations, and fusion2.5 are preserved (0.747332ms)
+✔ 422 no water stock, source or known production cannot bootstrap a new electrolyzer (0.203913ms)
+✔ 422 water stock is consumed across the horizon, never counted fresh each month (0.220368ms)
+✔ 422 gate begins at completion, including older plants consumption during construction (0.237414ms)
+✔ 422 life support gets byproduct water before new industrial intake (0.172827ms)
+✔ 422 one owner cannot pledge the other owners water stock (0.12749ms)
+✔ 422 natural intake is shared once across owners and pending facility commitments (0.139908ms)
+✔ 422 declared natural source can supply a new plant without inventing an ice mine or water import (0.099529ms)
+✔ 422 pending older plants reserve water when they commission within the horizon (0.096393ms)
+✔ 422 recorded water production is capped by actual H and its finite source budget (0.271425ms)
+✔ 422 proposed plant H output is not credited to approve its own water supply (0.136563ms)
+✔ 422 forecasting is read only and never retroactively removes an existing facility (0.662006ms)
+✔ 422 invalid water custody, forecast history or plant data fail closed (0.186347ms)
+✔ 422 actual dry-Moon construction is deferred without touching money; retries are one proposal (66.425435ms)
+✔ 422 public/control OFF retains independent421 full core rows in both fiscal lanes and H-CUT (769.620067ms)
+✔ 422 forecast does not peek at a future scheduled H-CUT: prefix0–60 remains identical (157.061201ms)
+✔ 422 local electrolysis is exactly zero for the six cut settlements and actual fuel recovers by fallback (87.268169ms)
+✔ 422 cash safety is the unchanged421 rule; own H is not a cash receipt (0.264544ms)
+✔ 422 recipe or water provenance tampering is detected (0.500074ms)
+✔ 422 five-axis deterministic LHS has32 continuous strata and all discrete gate horizons (1.362288ms)
+✔ 422 all22912-month windows are strict and Earth >1 is now checked in the explicit uncut references (0.772941ms)
+✔ 422 all1406 preexisting files including previous reports remain byte identical (645.458713ms)
+✔ 422 funded natural-source construction records the full approved commissioning window (73.396833ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2593.362196

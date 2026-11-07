@@ -1,0 +1,62 @@
+search baseline: 1/1 jobs 4.7s
+LHS32 five axes + reference E0/prepared control: 8/33 jobs 16.6s
+LHS32 five axes + reference E0/prepared control: 16/33 jobs 31.7s
+LHS32 five axes + reference E0/prepared control: 24/33 jobs 43.0s
+LHS32 five axes + reference E0/prepared control: 32/33 jobs 58.3s
+LHS32 five axes + reference E0/prepared control: 33/33 jobs 59.0s
+all4.1 OFF/ON: 8/336 jobs 4.2s
+all4.1 OFF/ON: 16/336 jobs 8.2s
+all4.1 OFF/ON: 24/336 jobs 11.5s
+all4.1 OFF/ON: 32/336 jobs 15.0s
+all4.1 OFF/ON: 40/336 jobs 18.7s
+all4.1 OFF/ON: 48/336 jobs 21.8s
+all4.1 OFF/ON: 56/336 jobs 24.4s
+all4.1 OFF/ON: 64/336 jobs 27.7s
+all4.1 OFF/ON: 72/336 jobs 31.1s
+all4.1 OFF/ON: 80/336 jobs 33.4s
+all4.1 OFF/ON: 88/336 jobs 39.6s
+all4.1 OFF/ON: 96/336 jobs 46.3s
+all4.1 OFF/ON: 104/336 jobs 53.1s
+all4.1 OFF/ON: 112/336 jobs 59.4s
+all4.1 OFF/ON: 120/336 jobs 65.3s
+all4.1 OFF/ON: 128/336 jobs 71.4s
+all4.1 OFF/ON: 136/336 jobs 77.6s
+all4.1 OFF/ON: 144/336 jobs 84.2s
+all4.1 OFF/ON: 152/336 jobs 89.3s
+all4.1 OFF/ON: 160/336 jobs 95.6s
+all4.1 OFF/ON: 168/336 jobs 101.3s
+all4.1 OFF/ON: 176/336 jobs 104.6s
+all4.1 OFF/ON: 184/336 jobs 108.4s
+all4.1 OFF/ON: 192/336 jobs 111.9s
+all4.1 OFF/ON: 200/336 jobs 115.0s
+all4.1 OFF/ON: 208/336 jobs 118.9s
+all4.1 OFF/ON: 216/336 jobs 121.6s
+all4.1 OFF/ON: 224/336 jobs 124.6s
+all4.1 OFF/ON: 232/336 jobs 127.5s
+all4.1 OFF/ON: 240/336 jobs 130.7s
+all4.1 OFF/ON: 248/336 jobs 133.7s
+all4.1 OFF/ON: 256/336 jobs 139.6s
+all4.1 OFF/ON: 264/336 jobs 146.0s
+all4.1 OFF/ON: 272/336 jobs 153.1s
+all4.1 OFF/ON: 280/336 jobs 159.1s
+all4.1 OFF/ON: 288/336 jobs 164.9s
+all4.1 OFF/ON: 296/336 jobs 170.8s
+all4.1 OFF/ON: 304/336 jobs 177.3s
+all4.1 OFF/ON: 312/336 jobs 183.8s
+all4.1 OFF/ON: 320/336 jobs 188.9s
+all4.1 OFF/ON: 328/336 jobs 195.5s
+all4.1 OFF/ON: 336/336 jobs 202.2s
+matched paid preparation no-cut: 1/4 jobs 9.2s
+matched paid preparation no-cut: 2/4 jobs 9.4s
+matched paid preparation no-cut: 3/4 jobs 10.2s
+matched paid preparation no-cut: 4/4 jobs 15.4s
+H-CUT OFF/ON: 8/72 jobs 27.9s
+H-CUT OFF/ON: 16/72 jobs 45.3s
+H-CUT OFF/ON: 24/72 jobs 59.3s
+H-CUT OFF/ON: 32/72 jobs 75.2s
+H-CUT OFF/ON: 40/72 jobs 90.5s
+H-CUT OFF/ON: 48/72 jobs 104.0s
+H-CUT OFF/ON: 56/72 jobs 120.1s
+H-CUT OFF/ON: 64/72 jobs 135.5s
+H-CUT OFF/ON: 72/72 jobs 148.3s
+{"status":"ECON-SIM-4.2.2 offline only; new values provisional","baseCommit":"3f277ea6857ccfbbe5a78a854dd4d1b704b75b04","archiveCommit":"70888aae531eed343429f6bcd974b348b41190c1","profileId":"R41-rounded","counts":{"searchBaseline":10,"search":330,"final":1680,"noCutControl":40,"cut":720,"totalRuns":2780,"offVerified":1230,"extraPredecessorReplayExecutions":385,"integrityFailures":0},"timings":{"searchBaseline":4.747144335999999,"search":59.012801921,"final":202.19251266300003,"noCutControl":15.380415680999985,"cut":148.295808371},"totalSeconds":430.05134138,"workers":3,"environment":{"node":"v24.19.0","cpu":"AMD EPYC 9V74 80-Core Processor","parallelism":4},"qualification":[{"id":"R422-selected-H013","policy":{"enabled":true,"hydrogenPerAlloyU":0.9560034538910258,"cashReserveMonths":5.856487628821924,"rampSpeed":0.13,"lifeLitersPerPersonDay":0.5,"waterIntakeCostShare":0.5,"yieldBonus":0.08969248692155816,"waterGateFraction":0.722625113423419,"waterGateMonths":12},"self":{"passed":false,"failures":{"uncutProduction_earth":206,"uncutProduction_mars":5,"cutProduction":10}},"relief":{"passed":false,"failures":{"uncutProduction_earth":206,"uncutProduction_mars":5,"cutProduction":10}}},{"id":"R422-rounded","policy":{"enabled":true,"hydrogenPerAlloyU":0.96,"cashReserveMonths":6,"rampSpeed":0.13,"lifeLitersPerPersonDay":0.5,"waterIntakeCostShare":0.5,"yieldBonus":0.09,"waterGateFraction":0.72,"waterGateMonths":12},"self":{"passed":false,"failures":{"uncutProduction_earth":202,"uncutProduction_mars":5,"cutProduction":10}},"relief":{"passed":false,"failures":{"uncutProduction_earth":202,"uncutProduction_mars":5,"cutProduction":10}}}],"selfPassing":0,"reliefPassing":0,"scope":"Only R41-rounded. New uncut production criteria applied to all non-H-CUT final paths with control industrial output plus all3 prepared no-cut worlds; zero/zero12m windows compare equal but ratio remains undefined. E0 and prepared-control Earth net >1 is required; other non-H-CUT worlds retain >=1 plus all12m windows. Old information classification retained."}
