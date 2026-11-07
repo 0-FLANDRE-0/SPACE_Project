@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "charts": 8,
+      "grid": 18,
+      "touch": false,
+      "requests": 1,
+      "horizontalOverflow": false,
+      "valuesMatch": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "charts": 8,
+      "grid": 18,
+      "touch": true,
+      "requests": 1,
+      "horizontalOverflow": false,
+      "valuesMatch": true
+    },
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "charts": 8,
+      "grid": 18,
+      "touch": true,
+      "requests": 1,
+      "horizontalOverflow": false,
+      "valuesMatch": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "charts": 8,
+      "grid": 18,
+      "touch": true,
+      "requests": 1,
+      "horizontalOverflow": false,
+      "valuesMatch": true
+    }
+  ],
+  "htmlSha256": "7b751e880f8b22b92f0e23f10de7643a6fd10bef0c690f48d3fd5088fe780961",
+  "build": {
+    "summary.json": "6daee94f7f9614ed7a30de1c53232646f3c43a1fd8749c6e34ad7543ff4deea7",
+    "run-source-manifest.json": "d6955663f079a40eceb55000ff9fc18abdfbe7ef94fbf6189dcb52f9cde8c43e",
+    "performance.json": "0d0b34c25744c85647771b8eea21a4093c3c031d0ff4518ecb6ff5c3ddebffb8"
+  },
+  "offline": {
+    "passed": true,
+    "externalRequests": 0,
+    "scope": "Standalone HTML bytes in network-disabled context. Native file://, physical mobile, Safari and Firefox not claimed."
+  },
+  "errors": []
+}

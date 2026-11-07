@@ -1,0 +1,58 @@
+{
+  "status": "ECON-SIM-4.3 offline only; fixed4.2.2 adopted, ice parameters provisional",
+  "baseCommit": "0c4a8c135af7e30e55c02a7d1120790884b8fec1",
+  "basePullRequest": 23,
+  "archiveCommit": "705d83c8892f6f35b37c46dd39bfe925a18771a6",
+  "profileId": "R41-rounded",
+  "months": 240,
+  "seeds": ["econ-1", "econ-2", "econ-3", "econ-4", "econ-5"],
+  "samples": 32,
+  "samplingSeed": "econ-round43-lhs-1",
+  "policy": {
+    "enabled": true,
+    "iceEnabled": true,
+    "iceOutputU": 1000,
+    "iceCapitalScale": 0.6,
+    "iceMaintenanceScale": 0.6,
+    "iceGWhPerU": 0.004,
+    "iceBuildMonths": 6,
+    "holidayYears": 5,
+    "oxygenRecycle": 0.5,
+    "lifeGraceMonths": 12
+  },
+  "ranges": {
+    "iceOutputU": [200, 2000],
+    "iceCapitalScale": [0.3, 1],
+    "iceMaintenanceScale": [0.3, 1],
+    "iceGWhPerU": [0.001, 0.01],
+    "iceBuildMonths": [3, 12]
+  },
+  "tax": {
+    "nationalRate": 0,
+    "sectorRates": {},
+    "planetRates": { "earth": 0.25 },
+    "sectors": { "earth": "earth", "moon": "moon", "mars": "mars" },
+    "provenance": "Current4.1 colony tax rates are0. Preserve them after holiday unless user provides a new rate. Earth override uses frozen earthTaxRate. Zero/5/10-year comparisons can therefore be identical."
+  },
+  "iceReservesU": { "moon": 1000000, "mars": 10000000 },
+  "criteria": {
+    "lifeMinimumFraction": 0.99,
+    "nationalNegativeMonthsMax": 0,
+    "hydrogenMarketMarginMin": 0,
+    "electrolyzerPaybackYearsMax": 4,
+    "earthProductionRatioStrict": 1
+  },
+  "assumptions": {
+    "waterQuoteReferenceC": 0.2,
+    "waterInventoryMonths": "inherited hydrogenInventoryMonths and price adjustment/reversion coefficients",
+    "iceOutputTiming": "closing-only, usable next month, finite deposit allocated once across owners",
+    "oxygenCustody": "all electrolysis O retained locally, life allocation government then private, no sales revenue; existing positive oxygen liquefaction coefficient is billed",
+    "lifeOperatingServices": "existing municipal essential services/power, water purchases and actual facilities; no additional arbitrary fee",
+    "fiscal": "one canonical nation/government/C; per-body transaction metadata, no internal grants or60000C preparation transfers",
+    "governmentSafety": "same6-month resource-cost reserve, now sums all government bodies at each guarded order",
+    "budget17": "year17/year1 sum of actual collected tax less fixed civilian payments across all bodies; same1.1..1.6 bounds",
+    "taxDefault": "preserve old0% colony base; explicit25% Earth planet override",
+    "counterfactual": "hydrogen OFF retains the43 national/life/ice structure and shared new-facility water/cash guard; compare the same seeds and ice policy",
+    "lifeCriteria": "every established ice-enabled colony month after12-month grace, including shock/cut scenarios; no mortality model. No-ice is a diagnostic, not an ice-survival pass."
+  }
+}

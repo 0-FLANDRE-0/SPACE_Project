@@ -1,0 +1,14 @@
+search: 6/6 jobs 3.0s
+final: 8/24 jobs 5.1s
+final: 16/24 jobs 9.6s
+final: 24/24 jobs 14.3s
+survival: 8/24 jobs 6.3s
+survival: 16/24 jobs 11.6s
+survival: 24/24 jobs 15.3s
+noCutControl: 1/4 jobs 1.8s
+noCutControl: 2/4 jobs 1.9s
+noCutControl: 3/4 jobs 2.6s
+noCutControl: 4/4 jobs 3.2s
+cut: 8/12 jobs 6.4s
+cut: 12/12 jobs 8.2s
+{"status":"ECON-SIM-4.3 offline only; fixed4.2.2 adopted, ice parameters provisional","baseCommit":"0c4a8c135af7e30e55c02a7d1120790884b8fec1","archiveCommit":"705d83c8892f6f35b37c46dd39bfe925a18771a6","profileId":"R41-rounded","counts":{"search":12,"final":48,"survival":48,"noCutControl":8,"cut":24,"totalRuns":140,"integrityFailures":0},"qualification":[{"id":"R43-selected-reference","policy":{"enabled":true,"iceEnabled":true,"iceOutputU":1000,"iceCapitalScale":0.6,"iceMaintenanceScale":0.6,"iceGWhPerU":0.004,"iceBuildMonths":6,"holidayYears":5,"oxygenRecycle":0.5,"lifeGraceMonths":12},"self":{"passed":false,"failures":{"lifeWater_moon":1,"lifeOxygen_moon":1,"earthNetProduction":1}},"relief":{"passed":false,"failures":{"lifeWater_moon":1,"lifeOxygen_moon":1,"lifeOxygen_mars":1,"earthNetProduction":1}}},{"id":"R43-rounded","policy":{"enabled":true,"iceEnabled":true,"iceOutputU":1000,"iceCapitalScale":0.6,"iceMaintenanceScale":0.6,"iceGWhPerU":0.004,"iceBuildMonths":6,"holidayYears":5,"oxygenRecycle":0.5,"lifeGraceMonths":12},"self":{"passed":false,"failures":{"lifeWater_moon":1,"lifeOxygen_moon":1,"earthNetProduction":1}},"relief":{"passed":false,"failures":{"lifeWater_moon":1,"lifeOxygen_moon":1,"lifeOxygen_mars":1,"earthNetProduction":1}}}],"selfPassing":0,"reliefPassing":0,"timings":{"search":2.962798639,"final":14.348487193999999,"survival":15.283472366999998,"noCutControl":3.1792564319999985,"cut":8.162407023},"totalSeconds":43.97361704,"workers":3,"environment":{"node":"v24.19.0","cpu":"AMD EPYC 9V74 80-Core Processor","parallelism":4},"scope":"Fixed422 adopted values, national fiscal budget, all4.1 scenarios, survival0/5/10 holidays with/without ice, paired H counterfactual in the SAME43 structure. Life>=99% applies after12months to every ice-enabled colony including shock/cut worlds. E0/prepared-control Earth strict total gain retained. Old12-month production and cut95% remain informational under latest43 table."}

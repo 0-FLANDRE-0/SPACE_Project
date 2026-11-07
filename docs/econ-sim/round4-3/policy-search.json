@@ -1,0 +1,715 @@
+[
+  {
+    "id": "I000",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 771.3780370831955,
+      "iceCapitalScale": 0.7887273386069864,
+      "iceMaintenanceScale": 0.663827635149937,
+      "iceGWhPerU": 0.0017783589774044233,
+      "iceBuildMonths": 6,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05076242637321503
+  },
+  {
+    "id": "I008",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 499.1505366997444,
+      "iceCapitalScale": 0.4677514002614771,
+      "iceMaintenanceScale": 0.6302576550275262,
+      "iceGWhPerU": 0.006750668969529216,
+      "iceBuildMonths": 8,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05189373459211329
+  },
+  {
+    "id": "I009",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1199.103825862403,
+      "iceCapitalScale": 0.722035581558157,
+      "iceMaintenanceScale": 0.9609084610150602,
+      "iceGWhPerU": 0.005512787146166375,
+      "iceBuildMonths": 9,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05077760883028988
+  },
+  {
+    "id": "I014",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 629.1656229252112,
+      "iceCapitalScale": 0.6131211150801391,
+      "iceMaintenanceScale": 0.453651631194225,
+      "iceGWhPerU": 0.007268869092440583,
+      "iceBuildMonths": 7,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.04387675018702926
+  },
+  {
+    "id": "I015",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1079.1860682467814,
+      "iceCapitalScale": 0.9009321671110229,
+      "iceMaintenanceScale": 0.924356335043558,
+      "iceGWhPerU": 0.007609950151003433,
+      "iceBuildMonths": 8,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.04815551818803576
+  },
+  {
+    "id": "I017",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1438.7903784998343,
+      "iceCapitalScale": 0.9422494834325335,
+      "iceMaintenanceScale": 0.7945480540372954,
+      "iceGWhPerU": 0.008384046796207259,
+      "iceBuildMonths": 7,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05421301999622345
+  },
+  {
+    "id": "I020",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 555.1155068867956,
+      "iceCapitalScale": 0.3983379477620474,
+      "iceMaintenanceScale": 0.996549675775168,
+      "iceGWhPerU": 0.009560714488638041,
+      "iceBuildMonths": 8,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05185873580412598
+  },
+  {
+    "id": "I021",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1029.7173633851344,
+      "iceCapitalScale": 0.9623735724766447,
+      "iceMaintenanceScale": 0.8865405651340552,
+      "iceGWhPerU": 0.0024260403651569507,
+      "iceBuildMonths": 4,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.04481412968580199
+  },
+  {
+    "id": "I025",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 708.9948321779957,
+      "iceCapitalScale": 0.48066152178580523,
+      "iceMaintenanceScale": 0.714362175201677,
+      "iceGWhPerU": 0.007759237882310118,
+      "iceBuildMonths": 5,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.052259446135179036
+  },
+  {
+    "id": "I030",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1148.1631128539448,
+      "iceCapitalScale": 0.6513976155663841,
+      "iceMaintenanceScale": 0.5998393575580849,
+      "iceGWhPerU": 0.006452918995179062,
+      "iceBuildMonths": 7,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05185419315611348
+  },
+  {
+    "id": "I031",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 963.5805996949784,
+      "iceCapitalScale": 0.9296545807257643,
+      "iceMaintenanceScale": 0.4219489271315979,
+      "iceGWhPerU": 0.00384558258051402,
+      "iceBuildMonths": 10,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.04405348502557579
+  },
+  {
+    "id": "reference",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1000,
+      "iceCapitalScale": 0.6,
+      "iceMaintenanceScale": 0.6,
+      "iceGWhPerU": 0.004,
+      "iceBuildMonths": 6,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": true,
+    "failures": {},
+    "score": 0,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05169741359222071
+  },
+  {
+    "id": "I004",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1953.0077141680522,
+      "iceCapitalScale": 0.7103107280869153,
+      "iceMaintenanceScale": 0.9419440256810048,
+      "iceGWhPerU": 0.004680317206104519,
+      "iceBuildMonths": 6,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "meanPrice": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05325087328862801
+  },
+  {
+    "id": "I005",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 401.6140317922691,
+      "iceCapitalScale": 0.640462954443501,
+      "iceMaintenanceScale": 0.4461511710200284,
+      "iceGWhPerU": 0.0033636948612911512,
+      "iceBuildMonths": 10,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "earthNetProduction": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.04956245014215699
+  },
+  {
+    "id": "I011",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1918.7315926828887,
+      "iceCapitalScale": 0.7637756183197779,
+      "iceMaintenanceScale": 0.493508112993004,
+      "iceGWhPerU": 0.0013835133347311057,
+      "iceBuildMonths": 3,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "meanPrice": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.053235329304494164
+  },
+  {
+    "id": "I012",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 206.6742181981681,
+      "iceCapitalScale": 0.3781506879837252,
+      "iceMaintenanceScale": 0.33915865142553225,
+      "iceGWhPerU": 0.005362699484394398,
+      "iceBuildMonths": 10,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "earthNetProduction": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.04961069358872906
+  },
+  {
+    "id": "I013",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1664.4411662127823,
+      "iceCapitalScale": 0.8680546101364597,
+      "iceMaintenanceScale": 0.3032602860606857,
+      "iceGWhPerU": 0.006073718179359276,
+      "iceBuildMonths": 3,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "meanPrice": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05333568332964285
+  },
+  {
+    "id": "I018",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1781.0237373283599,
+      "iceCapitalScale": 0.8246263359629664,
+      "iceMaintenanceScale": 0.36950044981786045,
+      "iceGWhPerU": 0.004356444975644991,
+      "iceBuildMonths": 5,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "meanPrice": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05333611020001441
+  },
+  {
+    "id": "I022",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1413.6866085973452,
+      "iceCapitalScale": 0.7569197662895021,
+      "iceMaintenanceScale": 0.6861549270513934,
+      "iceGWhPerU": 0.008736887647239202,
+      "iceBuildMonths": 4,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "meanPrice": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.0532324140230742
+  },
+  {
+    "id": "I023",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1556.5662507069646,
+      "iceCapitalScale": 0.5423753030197985,
+      "iceMaintenanceScale": 0.7333559143051389,
+      "iceGWhPerU": 0.004541991452184448,
+      "iceBuildMonths": 9,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "meanPrice": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05308241039653231
+  },
+  {
+    "id": "I027",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 884.6485959846177,
+      "iceCapitalScale": 0.3599250782157469,
+      "iceMaintenanceScale": 0.5480857730348361,
+      "iceGWhPerU": 0.0021334971280812173,
+      "iceBuildMonths": 9,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "meanPrice": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05324961658480972
+  },
+  {
+    "id": "I028",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1376.8689986216486,
+      "iceCapitalScale": 0.5967432633347926,
+      "iceMaintenanceScale": 0.746294921561639,
+      "iceGWhPerU": 0.002981422295299126,
+      "iceBuildMonths": 4,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "meanPrice": 1
+    },
+    "score": 1,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05309446498416577
+  },
+  {
+    "id": "I003",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 289.8747392988298,
+      "iceCapitalScale": 0.8761807131486421,
+      "iceMaintenanceScale": 0.7791566235529899,
+      "iceGWhPerU": 0.00592073449290183,
+      "iceBuildMonths": 5,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "earthNetProduction": 2,
+      "meanPrice": 1
+    },
+    "score": 3,
+    "runs": 20,
+    "meanHydrogenMargin": 0.04595719729548212
+  },
+  {
+    "id": "I001",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1265.3619974778849,
+      "iceCapitalScale": 0.5390448004400241,
+      "iceMaintenanceScale": 0.8929760609280493,
+      "iceGWhPerU": 0.009929915677144893,
+      "iceBuildMonths": 6,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "colonyAnnual": 5
+    },
+    "score": 5,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05185100335061765
+  },
+  {
+    "id": "I002",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1887.3495698397164,
+      "iceCapitalScale": 0.828480979991582,
+      "iceMaintenanceScale": 0.4031323621886258,
+      "iceGWhPerU": 0.007088716674763419,
+      "iceBuildMonths": 4,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "colonyAnnual": 5,
+      "meanPrice": 1
+    },
+    "score": 6,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05333457667911608
+  },
+  {
+    "id": "I019",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1765.0191112828907,
+      "iceCapitalScale": 0.4224548117141239,
+      "iceMaintenanceScale": 0.8117126958932204,
+      "iceGWhPerU": 0.009221584112354322,
+      "iceBuildMonths": 7,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "colonyAnnual": 5,
+      "meanPrice": 1
+    },
+    "score": 6,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05309141494804914
+  },
+  {
+    "id": "I024",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 702.109798087622,
+      "iceCapitalScale": 0.9988260203019308,
+      "iceMaintenanceScale": 0.34457315304971414,
+      "iceGWhPerU": 0.005141410167452705,
+      "iceBuildMonths": 8,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "lifeOxygen_moon": 10
+    },
+    "score": 10.012500000000001,
+    "runs": 20,
+    "meanHydrogenMargin": 0.04480897363162449
+  },
+  {
+    "id": "I006",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1315.505695482716,
+      "iceCapitalScale": 0.34266134272620546,
+      "iceMaintenanceScale": 0.5646866872084502,
+      "iceGWhPerU": 0.009151249413276673,
+      "iceBuildMonths": 10,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "lifeOxygen_moon": 10,
+      "meanPrice": 1
+    },
+    "score": 11.033333333333331,
+    "runs": 20,
+    "meanHydrogenMargin": 0.0553392939532509
+  },
+  {
+    "id": "I026",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 854.4340573032969,
+      "iceCapitalScale": 0.6836294617562089,
+      "iceMaintenanceScale": 0.5142231187383004,
+      "iceGWhPerU": 0.0035642916009310287,
+      "iceBuildMonths": 12,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "lifeWater_moon": 10,
+      "lifeOxygen_moon": 10
+    },
+    "score": 20.016666666666673,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05187524933835068
+  },
+  {
+    "id": "I007",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 445.7913149424712,
+      "iceCapitalScale": 0.5811559395420772,
+      "iceMaintenanceScale": 0.5353521456461748,
+      "iceGWhPerU": 0.002926682175595488,
+      "iceBuildMonths": 11,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "lifeWater_moon": 10,
+      "lifeOxygen_moon": 10
+    },
+    "score": 20.037499999999998,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05045194006076283
+  },
+  {
+    "id": "I029",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 331.1648258328205,
+      "iceCapitalScale": 0.4313784034995478,
+      "iceMaintenanceScale": 0.616215943395946,
+      "iceGWhPerU": 0.0020360357882309474,
+      "iceBuildMonths": 11,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "lifeWater_moon": 10,
+      "lifeOxygen_moon": 10
+    },
+    "score": 20.041666666666664,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05114521046237943
+  },
+  {
+    "id": "I010",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1517.4944495942327,
+      "iceCapitalScale": 0.49813814827066377,
+      "iceMaintenanceScale": 0.8488335611858928,
+      "iceGWhPerU": 0.008149306185405294,
+      "iceBuildMonths": 11,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "lifeWater_moon": 10,
+      "lifeOxygen_moon": 10,
+      "meanPrice": 1
+    },
+    "score": 21.008333333333333,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05294922959692379
+  },
+  {
+    "id": "I016",
+    "policy": {
+      "enabled": true,
+      "iceEnabled": true,
+      "iceOutputU": 1611.9526034628507,
+      "iceCapitalScale": 0.30826493242493597,
+      "iceMaintenanceScale": 0.8392460030838265,
+      "iceGWhPerU": 0.0010736830844034558,
+      "iceBuildMonths": 12,
+      "holidayYears": 5,
+      "oxygenRecycle": 0.5,
+      "lifeGraceMonths": 12
+    },
+    "passed": false,
+    "failures": {
+      "lifeWater_moon": 10,
+      "lifeOxygen_moon": 10,
+      "meanPrice": 1
+    },
+    "score": 21.016666666666673,
+    "runs": 20,
+    "meanHydrogenMargin": 0.05424677880940661
+  }
+]
